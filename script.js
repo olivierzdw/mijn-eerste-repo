@@ -519,6 +519,157 @@ function renderUitslagen(results) {
   });
 }
 
+// ── Club zoeken ───────────────────────────────────────────────
+
+let zoekTimeout = null;
+let gekozenClubId = null;
+let clubWedstrijden = [];
+
+function sleutelClub(teamId) {
+  return `olliebet-club-${teamId}-${actiefGebruiker()}`;
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  const input = document.getElementById("club-zoek-input");
+  input.addEventListener("input", e => {
+    clearTimeout(zoekTimeout);
+    const q = e.target.value.trim();
+    if (q.length < 2) {
+      document.getElementById("club-zoek-resultaten").classList.add("hidden");
+      return;
+    }
+    zoekTimeout = setTimeout(() => zoekClubs(q), 400);
+  });
+
+  document.addEventListener("click", e => {
+    if (!document.getElementById("club-zoek").contains(e.target)) {
+      document.getElementById("club-zoek-resultaten").classList.add("hidden");
+    }
+  });
+});
+
+async function zoekClubs(query) {
+  try {
+    const res = await fetch(
+      `https://api.football-data.org/v4/teams?search=${encodeURIComponent(query)}`,
+      { headers: { 'X-Auth-Token': FOOTBALL_API_KEY } }
+    );
+    const data = await res.json();
+    toonZoekResultaten(data.teams || []);
+  } catch(e) {}
+}
+
+function toonZoekResultaten(teams) {
+  const container = document.getElementById("club-zoek-resultaten");
+  container.innerHTML = "";
+  if (teams.length === 0) {
+    container.innerHTML = `<div class="zoek-geen">Geen clubs gevonden</div>`;
+    container.classList.remove("hidden");
+    return;
+  }
+  teams.slice(0, 8).forEach(team => {
+    const item = document.createElement("div");
+    item.className = "zoek-item";
+    item.innerHTML = `
+      ${team.crest ? `<img src="${team.crest}" alt="" onerror="this.style.display='none'" />` : ''}
+      <span class="zoek-naam">${team.name}</span>
+      <span class="zoek-land">${team.area?.name || ''}</span>
+    `;
+    item.onclick = () => kiesClub(team);
+    container.appendChild(item);
+  });
+  container.classList.remove("hidden");
+}
+
+async function kiesClub(team) {
+  gekozenClubId = team.id;
+  document.getElementById("club-zoek-input").value = team.name;
+  document.getElementById("club-zoek-resultaten").classList.add("hidden");
+  document.getElementById("club-sectie-titel").textContent = `Komende ${team.name} wedstrijden`;
+  document.getElementById("club-sectie").classList.remove("hidden");
+  document.getElementById("club-wedstrijden").innerHTML =
+    `<p style="color:#666;text-align:center">Laden...</p>`;
+
+  try {
+    const res = await fetch(
+      `https://api.football-data.org/v4/teams/${team.id}/matches?status=SCHEDULED,TIMED`,
+      { headers: { 'X-Auth-Token': FOOTBALL_API_KEY } }
+    );
+    const data = await res.json();
+    clubWedstrijden = (data.matches || []).map(m => ({
+      id:        m.id,
+      datum:     formatDatum(m.utcDate),
+      thuis:     clubNaam(m.homeTeam.name),
+      thuisLogo: m.homeTeam.crest || '',
+      uit:       clubNaam(m.awayTeam.name),
+      uitLogo:   m.awayTeam.crest || '',
+    }));
+    renderClubWedstrijden();
+  } catch(e) {
+    document.getElementById("club-wedstrijden").innerHTML =
+      `<p style="color:#666;text-align:center">Kon wedstrijden niet laden.</p>`;
+  }
+}
+
+function renderClubWedstrijden() {
+  const container  = document.getElementById("club-wedstrijden");
+  const opgeslagen = JSON.parse(localStorage.getItem(sleutelClub(gekozenClubId)) || "{}");
+  container.innerHTML = "";
+
+  if (clubWedstrijden.length === 0) {
+    container.innerHTML = `<p style="color:#666;text-align:center">Geen geplande wedstrijden gevonden.</p>`;
+    return;
+  }
+
+  clubWedstrijden.forEach((w, i) => {
+    const v   = opgeslagen[w.id] || {};
+    const div = document.createElement("div");
+    div.className = "ajax-wedstrijd";
+    div.innerHTML = `
+      <span class="datum">${w.datum}</span>
+      <div class="ajax-match">
+        <div class="club-blok-klein">
+          <img src="${w.thuisLogo}" alt="${w.thuis}" onerror="this.style.display='none'" />
+          <span>${w.thuis}</span>
+          <input class="scorer-input" type="text" placeholder="Scorers..." value="${v.thuisScorers ?? ""}" id="club-scorers-thuis-${i}" />
+        </div>
+        <div class="score-midden-klein">
+          <input type="number" min="0" max="20" placeholder="0" value="${v.thuisScore ?? ""}" id="club-thuis-${i}" />
+          <span>–</span>
+          <input type="number" min="0" max="20" placeholder="0" value="${v.uitScore ?? ""}" id="club-uit-${i}" />
+        </div>
+        <div class="club-blok-klein rechts">
+          <img src="${w.uitLogo}" alt="${w.uit}" onerror="this.style.display='none'" />
+          <span>${w.uit}</span>
+          <input class="scorer-input" type="text" placeholder="Scorers..." value="${v.uitScorers ?? ""}" id="club-scorers-uit-${i}" />
+        </div>
+      </div>
+    `;
+    container.appendChild(div);
+  });
+
+  const btn = document.createElement("button");
+  btn.textContent = "Sla voorspellingen op";
+  btn.onclick = slaClubOp;
+  container.appendChild(btn);
+}
+
+function slaClubOp() {
+  const data = {};
+  clubWedstrijden.forEach((w, i) => {
+    data[w.id] = {
+      thuisScore:   document.getElementById(`club-thuis-${i}`).value,
+      uitScore:     document.getElementById(`club-uit-${i}`).value,
+      thuisScorers: document.getElementById(`club-scorers-thuis-${i}`).value,
+      uitScorers:   document.getElementById(`club-scorers-uit-${i}`).value,
+    };
+  });
+  localStorage.setItem(sleutelClub(gekozenClubId), JSON.stringify(data));
+  const btn = document.querySelector("#club-wedstrijden button");
+  btn.textContent = "✅ Opgeslagen!";
+  setTimeout(() => btn.textContent = "Sla voorspellingen op", 2500);
+}
+
 // ── Init ──────────────────────────────────────────────────────
 
 renderGebruikers();

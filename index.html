@@ -16,6 +16,11 @@
       <button class="nav-btn" id="btn-stand" onclick="toonPagina('stand')">Stand</button>
     </div>
 
+    <div class="club-zoek" id="club-zoek">
+      <input type="text" id="club-zoek-input" placeholder="Zoek een club wereldwijd..." autocomplete="off" />
+      <div class="club-zoek-resultaten hidden" id="club-zoek-resultaten"></div>
+    </div>
+
     <div class="gebruikers-balk">
       <div class="gebruikers-lijst" id="gebruikers-lijst"></div>
       <button class="gebruiker-toevoegen" onclick="toonNieuweGebruiker()">+ Speler</button>
@@ -43,6 +48,11 @@
   </div>
 
   <main id="main-inhoud" class="hidden">
+
+    <div id="club-sectie" class="hidden">
+      <h2 class="sectie-titel" id="club-sectie-titel"></h2>
+      <div class="ajax-wedstrijden" id="club-wedstrijden"></div>
+    </div>
 
     <h2 class="sectie-titel">Komende Ajax wedstrijden</h2>
     <div class="ajax-wedstrijden" id="ajax-wedstrijden"></div>

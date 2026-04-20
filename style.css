@@ -127,6 +127,79 @@ header h1 {
   margin-left: auto;
 }
 
+.club-zoek {
+  position: relative;
+  max-width: 340px;
+  margin: 0 auto 1rem;
+}
+
+.club-zoek input {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  border: 2px solid #0f3460;
+  background: #0f3460;
+  color: #fff;
+  font-size: 0.95rem;
+  outline: none;
+  text-align: center;
+}
+
+.club-zoek input:focus {
+  border-color: #e94560;
+}
+
+.club-zoek-resultaten {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  right: 0;
+  background: #16213e;
+  border: 1px solid #0f3460;
+  border-radius: 10px;
+  overflow: hidden;
+  z-index: 100;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+}
+
+.zoek-item {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.zoek-item:hover {
+  background: #1e2d4e;
+}
+
+.zoek-item img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.zoek-naam {
+  flex: 1;
+  font-size: 0.9rem;
+}
+
+.zoek-land {
+  font-size: 0.78rem;
+  color: #aaa;
+  white-space: nowrap;
+}
+
+.zoek-geen {
+  padding: 0.7rem 1rem;
+  color: #666;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
 .gebruikers-balk {
   display: flex;
   align-items: center;
