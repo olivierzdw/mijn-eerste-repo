@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Olliebet</title>
-  <link rel="stylesheet" href="style.css?v=3" />
+  <link rel="stylesheet" href="style.css?v=4" />
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
   <meta http-equiv="Pragma" content="no-cache" />
   <meta http-equiv="Expires" content="0" />
@@ -28,6 +28,7 @@
       <button class="nav-btn" id="btn-uitslagen" onclick="toonPagina('uitslagen')">Uitslagen</button>
       <button class="nav-btn" id="btn-stand" onclick="toonPagina('stand')">Stand</button>
       <button class="nav-btn" id="btn-chat" onclick="toonPagina('chat')">Chat</button>
+      <button class="nav-btn" id="btn-samenvattingen" onclick="toonPagina('samenvattingen')">Samenvattingen</button>
     </div>
 
     <div class="club-zoek" id="club-zoek">
@@ -59,6 +60,14 @@
       <h2 id="uitslagen-titel">Uitslagen Ajax</h2>
     </div>
     <div id="uitslagen-lijst"></div>
+  </div>
+
+  <div class="uitslagen-panel hidden" id="samenvattingen-panel">
+    <div class="uitslagen-header">
+      <h2 id="samenvattingen-titel">Samenvattingen</h2>
+    </div>
+    <div class="samenvattingen-keuze" id="samenvattingen-keuze"></div>
+    <div id="samenvattingen-lijst"></div>
   </div>
 
   <div class="uitslagen-panel hidden" id="chat-panel">
@@ -96,6 +105,6 @@
     <p>Kies of voeg een speler toe om te beginnen</p>
   </div>
 
-  <script src="script.js?v=3"></script>
+  <script src="script.js?v=4"></script>
 </body>
 </html>

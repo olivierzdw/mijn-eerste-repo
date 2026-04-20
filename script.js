@@ -563,12 +563,19 @@ async function toonPagina(pagina) {
   document.getElementById("uitslagen-panel").classList.toggle("hidden", pagina !== "uitslagen");
   document.getElementById("stand-panel").classList.toggle("hidden", pagina !== "stand");
   document.getElementById("chat-panel").classList.toggle("hidden", pagina !== "chat");
+  document.getElementById("samenvattingen-panel").classList.toggle("hidden", pagina !== "samenvattingen");
   document.getElementById("btn-uitslagen").classList.toggle("actief", pagina === "uitslagen");
   document.getElementById("btn-uitslagen").textContent = pagina === "uitslagen" ? "Wedstrijden" : "Uitslagen";
   document.getElementById("btn-stand").classList.toggle("actief", pagina === "stand");
   document.getElementById("btn-stand").textContent = pagina === "stand" ? "Wedstrijden" : "Stand";
   document.getElementById("btn-chat").classList.toggle("actief", pagina === "chat");
   document.getElementById("btn-chat").textContent = pagina === "chat" ? "Wedstrijden" : "Chat";
+  document.getElementById("btn-samenvattingen").classList.toggle("actief", pagina === "samenvattingen");
+  document.getElementById("btn-samenvattingen").textContent = pagina === "samenvattingen" ? "Wedstrijden" : "Samenvattingen";
+
+  if (pagina === "samenvattingen") {
+    renderSamenvattingen();
+  }
 
   if (pagina === "chat") {
     renderChat();
@@ -873,6 +880,78 @@ function slaFavorietOp(clubId, btn) {
   localStorage.setItem(sleutelClub(clubId), JSON.stringify(data));
   btn.textContent = "✅ Opgeslagen!";
   setTimeout(() => btn.textContent = "Sla voorspellingen op", 2500);
+}
+
+// ── Samenvattingen ────────────────────────────────────────────
+
+let samenvattingClubId = null;
+
+async function renderSamenvattingen() {
+  const keuze = document.getElementById("samenvattingen-keuze");
+  const lijst = document.getElementById("samenvattingen-lijst");
+  const titel = document.getElementById("samenvattingen-titel");
+  const favs  = laadFavorieten();
+
+  if (favs.length === 0) {
+    keuze.innerHTML = "";
+    titel.textContent = "Samenvattingen";
+    lijst.innerHTML = `<div class="samenvatting-leeg">Voeg eerst een favoriete club toe via de zoekbalk (klik op het sterretje).</div>`;
+    return;
+  }
+
+  if (!samenvattingClubId || !favs.some(f => f.id === samenvattingClubId)) {
+    samenvattingClubId = favs[0].id;
+  }
+
+  keuze.innerHTML = "";
+  favs.forEach(f => {
+    const btn = document.createElement("button");
+    if (f.id === samenvattingClubId) btn.classList.add("actief");
+    btn.innerHTML = `${f.logo ? `<img src="${f.logo}" alt="" onerror="this.style.display='none'" />` : ''}<span>${escapeHTML(f.naam)}</span>`;
+    btn.onclick = () => {
+      samenvattingClubId = f.id;
+      renderSamenvattingen();
+    };
+    keuze.appendChild(btn);
+  });
+
+  const club = favs.find(f => f.id === samenvattingClubId);
+  titel.textContent = `Samenvattingen ${club.naam}`;
+  lijst.innerHTML = `<div class="samenvatting-leeg">Laden...</div>`;
+
+  try {
+    if (!clubsResults) {
+      const res = await fetch(`data/clubs-results.json?t=${Date.now()}`);
+      clubsResults = await res.json();
+    }
+    const results = (clubsResults[String(samenvattingClubId)] || []).slice().reverse().slice(0, 15);
+    if (results.length === 0) {
+      lijst.innerHTML = `<div class="samenvatting-leeg">Nog geen uitslagen gevonden voor deze club.</div>`;
+      return;
+    }
+    lijst.innerHTML = "";
+    results.forEach(m => {
+      const a = document.createElement("a");
+      a.className = "samenvatting-item";
+      a.href = `https://www.youtube.com/results?search_query=${encodeURIComponent(`${m.thuis} ${m.uit} samenvatting`)}`;
+      a.target = "_blank";
+      a.rel = "noopener";
+      a.innerHTML = `
+        <span class="samenvatting-datum">${escapeHTML(m.datum || '')}</span>
+        <div class="samenvatting-clubs">
+          <img src="${m.thuisLogo || ''}" alt="" onerror="this.style.display='none'" />
+          <span>${escapeHTML(m.thuis)}</span>
+          <span class="samenvatting-score">${m.thuisScore} – ${m.uitScore}</span>
+          <span>${escapeHTML(m.uit)}</span>
+          <img src="${m.uitLogo || ''}" alt="" onerror="this.style.display='none'" />
+        </div>
+        <span class="samenvatting-play">▶ Bekijk</span>
+      `;
+      lijst.appendChild(a);
+    });
+  } catch(e) {
+    lijst.innerHTML = `<div class="samenvatting-leeg">Kon uitslagen niet laden.</div>`;
+  }
 }
 
 async function laadClubsLijst() {
