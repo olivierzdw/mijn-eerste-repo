@@ -359,6 +359,59 @@ function slaAfcOp() {
   setTimeout(() => btn.textContent = "Sla AFC voorspellingen op", 2500);
 }
 
+// ── Uitslagen ─────────────────────────────────────────────────
+
+async function toonUitslagen() {
+  const panel = document.getElementById("uitslagen-panel");
+  panel.classList.remove("hidden");
+  document.getElementById("main-inhoud").classList.add("hidden");
+  document.querySelector(".nav-btn").classList.add("actief");
+  document.getElementById("uitslagen-lijst").innerHTML =
+    `<p style="text-align:center;color:#666">Laden...</p>`;
+
+  try {
+    const res = await fetch(`data/ajax-results.json?t=${Date.now()}`);
+    const results = await res.json();
+    renderUitslagen(results);
+  } catch(e) {
+    document.getElementById("uitslagen-lijst").innerHTML =
+      `<p style="text-align:center;color:#666">Kon uitslagen niet laden.</p>`;
+  }
+}
+
+function verbergUitslagen() {
+  document.getElementById("uitslagen-panel").classList.add("hidden");
+  document.getElementById("main-inhoud").classList.remove("hidden");
+  document.querySelector(".nav-btn").classList.remove("actief");
+}
+
+function renderUitslagen(results) {
+  const container = document.getElementById("uitslagen-lijst");
+  container.innerHTML = "";
+
+  [...results].reverse().forEach(m => {
+    const ajaxWon  = (m.thuis === "Ajax" && m.thuisScore > m.uitScore) ||
+                     (m.uit   === "Ajax" && m.uitScore  > m.thuisScore);
+    const ajaxDraw = m.thuisScore === m.uitScore;
+
+    const div = document.createElement("div");
+    div.className = "uitslag-rij";
+    div.innerHTML = `
+      <span class="uitslag-datum">${m.datum}</span>
+      <div class="uitslag-clubs">
+        <img src="${m.thuisLogo}" alt="${m.thuis}" />
+        <span class="${m.thuis === 'Ajax' && (ajaxWon || ajaxDraw) ? 'winnaar' : ''}">${m.thuis}</span>
+      </div>
+      <span class="uitslag-score">${m.thuisScore} – ${m.uitScore}</span>
+      <div class="uitslag-clubs">
+        <span class="${m.uit === 'Ajax' && (ajaxWon || ajaxDraw) ? 'winnaar' : ''}">${m.uit}</span>
+        <img src="${m.uitLogo}" alt="${m.uit}" />
+      </div>
+    `;
+    container.appendChild(div);
+  });
+}
+
 // ── Init ──────────────────────────────────────────────────────
 
 renderGebruikers();

@@ -11,6 +11,10 @@
   <header>
     <h1>⚽ Olliebet</h1>
 
+    <div class="header-nav">
+      <button class="nav-btn" onclick="toonUitslagen()">Uitslagen</button>
+    </div>
+
     <div class="gebruikers-balk">
       <div class="gebruikers-lijst" id="gebruikers-lijst"></div>
       <button class="gebruiker-toevoegen" onclick="toonNieuweGebruiker()">+ Speler</button>
@@ -22,6 +26,14 @@
       <button class="annuleer" onclick="verbergNieuweGebruiker()">Annuleer</button>
     </div>
   </header>
+
+  <div class="uitslagen-panel hidden" id="uitslagen-panel">
+    <div class="uitslagen-header">
+      <h2>Uitslagen Ajax</h2>
+      <button class="sluit-btn" onclick="verbergUitslagen()">✕ Sluiten</button>
+    </div>
+    <div id="uitslagen-lijst"></div>
+  </div>
 
   <main id="main-inhoud" class="hidden">
 

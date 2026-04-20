@@ -24,6 +24,102 @@ header h1 {
   margin-bottom: 1rem;
 }
 
+.header-nav {
+  margin-bottom: 1rem;
+}
+
+.nav-btn {
+  padding: 0.4rem 1.4rem;
+  border-radius: 20px;
+  border: 2px solid #e94560;
+  background: transparent;
+  color: #e94560;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.nav-btn:hover, .nav-btn.actief {
+  background: #e94560;
+  color: white;
+}
+
+.uitslagen-panel {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.uitslagen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.uitslagen-header h2 {
+  color: #eee;
+  font-size: 1.2rem;
+}
+
+.sluit-btn {
+  background: transparent;
+  border: 1px solid #555;
+  color: #aaa;
+  padding: 0.3rem 0.8rem;
+  font-size: 0.85rem;
+  border-radius: 8px;
+}
+
+.sluit-btn:hover {
+  border-color: #e94560;
+  color: #e94560;
+}
+
+.uitslag-rij {
+  background: #16213e;
+  border-radius: 10px;
+  padding: 0.9rem 1.2rem;
+  border: 1px solid #0f3460;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.6rem;
+}
+
+.uitslag-datum {
+  color: #aaa;
+  font-size: 0.8rem;
+  min-width: 80px;
+}
+
+.uitslag-clubs {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex: 1;
+}
+
+.uitslag-clubs img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.uitslag-score {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #e94560;
+  letter-spacing: 2px;
+  min-width: 50px;
+  text-align: center;
+}
+
+.uitslag-clubs .winnaar {
+  color: #4caf50;
+  font-weight: bold;
+}
+
 .gebruikers-balk {
   display: flex;
   align-items: center;
