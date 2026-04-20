@@ -60,11 +60,23 @@ function renderGebruikers() {
   container.innerHTML = "";
 
   lijst.forEach(naam => {
+    const wrap = document.createElement("div");
+    wrap.className = "gebruiker-wrap";
+
     const btn = document.createElement("button");
     btn.className = "gebruiker-btn" + (naam === actief ? " actief" : "");
     btn.textContent = naam;
     btn.onclick = () => wisselGebruiker(naam);
-    container.appendChild(btn);
+
+    const del = document.createElement("button");
+    del.className = "gebruiker-verwijder";
+    del.textContent = "✕";
+    del.title = `${naam} verwijderen`;
+    del.onclick = (e) => { e.stopPropagation(); verwijderGebruiker(naam); };
+
+    wrap.appendChild(btn);
+    wrap.appendChild(del);
+    container.appendChild(wrap);
   });
 
   const heeftGebruiker = actief && lijst.includes(actief);
@@ -76,6 +88,20 @@ function renderGebruikers() {
     renderAjaxWedstrijden();
     renderAfcWedstrijden();
   }
+}
+
+function verwijderGebruiker(naam) {
+  if (!confirm(`Wil je ${naam} verwijderen?`)) return;
+  let lijst = laadGebruikers();
+  lijst = lijst.filter(n => n !== naam);
+  slaGebruikersOp(lijst);
+  localStorage.removeItem(`olliebet-vrij-${naam}`);
+  localStorage.removeItem(`olliebet-ajax-${naam}`);
+  localStorage.removeItem(`olliebet-afc-${naam}`);
+  if (actiefGebruiker() === naam) {
+    localStorage.setItem("olliebet-actief", lijst[0] || "");
+  }
+  renderGebruikers();
 }
 
 function wisselGebruiker(naam) {

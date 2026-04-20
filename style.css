@@ -62,6 +62,40 @@ header h1 {
   font-weight: bold;
 }
 
+.gebruiker-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.gebruiker-verwijder {
+  padding: 0.2rem 0.5rem;
+  margin-left: 2px;
+  border-radius: 0 20px 20px 0;
+  border: 2px solid #0f3460;
+  border-left: none;
+  background: #0f3460;
+  color: #666;
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  line-height: 1;
+}
+
+.gebruiker-verwijder:hover {
+  background: #e94560;
+  border-color: #e94560;
+  color: white;
+}
+
+.gebruiker-wrap .gebruiker-btn {
+  border-radius: 20px 0 0 20px;
+}
+
+.gebruiker-wrap .gebruiker-btn.actief + .gebruiker-verwijder {
+  border-color: #e94560;
+  border-left: none;
+}
+
 .gebruiker-toevoegen {
   padding: 0.45rem 1rem;
   border-radius: 20px;
