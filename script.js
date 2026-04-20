@@ -603,8 +603,27 @@ async function kiesClub(club) {
       const res = await fetch(`data/clubs-matches.json?t=${Date.now()}`);
       clubsMatches = await res.json();
     }
-    clubWedstrijden = clubsMatches[String(club.id)] || [];
-    renderClubWedstrijden();
+    const lokaal = clubsMatches[String(club.id)];
+    if (lokaal && lokaal.length > 0) {
+      clubWedstrijden = lokaal;
+      renderClubWedstrijden();
+    } else {
+      // Fallback: directe API-call (werkt op localhost)
+      const res = await fetch(
+        `https://api.football-data.org/v4/teams/${club.id}/matches?status=SCHEDULED,TIMED`,
+        { headers: { 'X-Auth-Token': FOOTBALL_API_KEY } }
+      );
+      const data = await res.json();
+      clubWedstrijden = (data.matches || []).map(m => ({
+        id:        m.id,
+        datum:     formatDatum(m.utcDate),
+        thuis:     m.homeTeam.name,
+        thuisLogo: m.homeTeam.crest || '',
+        uit:       m.awayTeam.name,
+        uitLogo:   m.awayTeam.crest || '',
+      }));
+      renderClubWedstrijden();
+    }
   } catch(e) {
     document.getElementById("club-wedstrijden").innerHTML =
       `<p style="color:#666;text-align:center">Kon wedstrijden niet laden.</p>`;
