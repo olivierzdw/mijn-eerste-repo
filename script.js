@@ -772,3 +772,33 @@ setInterval(fetchAfcWedstrijden, 5 * 60 * 1000);
   }
   startFirebaseSync();
 })();
+
+// ── Toegangscode ─────────────────────────────────────────────
+const TOEGANGSCODE = "1011";
+
+function controleerCode() {
+  const input = document.getElementById("code-input");
+  const fout  = document.getElementById("code-fout");
+  if (input.value === TOEGANGSCODE) {
+    sessionStorage.setItem("olliebet-toegang", "ja");
+    document.getElementById("code-gate").classList.add("hidden");
+  } else {
+    fout.classList.remove("hidden");
+    input.value = "";
+    input.focus();
+  }
+}
+
+(function initCodeGate() {
+  const gate = document.getElementById("code-gate");
+  if (!gate) return;
+  if (sessionStorage.getItem("olliebet-toegang") === "ja") {
+    gate.classList.add("hidden");
+    return;
+  }
+  const input = document.getElementById("code-input");
+  input.focus();
+  input.addEventListener("keydown", e => {
+    if (e.key === "Enter") controleerCode();
+  });
+})();
