@@ -1,0 +1,10 @@
+[
+  {"positie": 1, "club": "WV-HEDW JO11-3",       "logo": "", "gespeeld": 7, "gewonnen": 7, "gelijk": 0, "verloren": 0, "voor": 73, "tegen": 20, "doelsaldo": 53, "punten": 21},
+  {"positie": 2, "club": "Zeeburgia JO11-3",      "logo": "", "gespeeld": 7, "gewonnen": 5, "gelijk": 1, "verloren": 1, "voor": 57, "tegen": 26, "doelsaldo": 31, "punten": 16},
+  {"positie": 3, "club": "AFC JO11-4",             "logo": "images/afc.png", "gespeeld": 7, "gewonnen": 4, "gelijk": 2, "verloren": 1, "voor": 28, "tegen": 26, "doelsaldo": 2, "punten": 14},
+  {"positie": 4, "club": "Real Sranang JO11-2",   "logo": "", "gespeeld": 7, "gewonnen": 3, "gelijk": 0, "verloren": 4, "voor": 25, "tegen": 27, "doelsaldo": -2, "punten": 9},
+  {"positie": 5, "club": "TABA JO11-1",           "logo": "", "gespeeld": 7, "gewonnen": 3, "gelijk": 0, "verloren": 4, "voor": 25, "tegen": 34, "doelsaldo": -9, "punten": 9},
+  {"positie": 6, "club": "Buitenveldert JO11-2",  "logo": "", "gespeeld": 7, "gewonnen": 2, "gelijk": 1, "verloren": 4, "voor": 24, "tegen": 37, "doelsaldo": -13, "punten": 7},
+  {"positie": 7, "club": "TOS-Actief JO11-1",     "logo": "", "gespeeld": 7, "gewonnen": 2, "gelijk": 0, "verloren": 5, "voor": 25, "tegen": 37, "doelsaldo": -12, "punten": 6},
+  {"positie": 8, "club": "SDW JO11-2",            "logo": "", "gespeeld": 7, "gewonnen": 0, "gelijk": 0, "verloren": 7, "voor": 14, "tegen": 64, "doelsaldo": -50, "punten": 0}
+]

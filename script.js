@@ -372,11 +372,14 @@ async function toonPagina(pagina) {
   document.getElementById("main-inhoud").classList.toggle("hidden", pagina !== "wedstrijden");
   document.getElementById("uitslagen-panel").classList.toggle("hidden", pagina !== "uitslagen");
   document.getElementById("stand-panel").classList.toggle("hidden", pagina !== "stand");
+  document.getElementById("stand-afc-panel").classList.toggle("hidden", pagina !== "stand-afc");
 
   document.getElementById("btn-uitslagen").classList.toggle("actief", pagina === "uitslagen");
   document.getElementById("btn-uitslagen").textContent = pagina === "uitslagen" ? "Wedstrijden" : "Uitslagen";
   document.getElementById("btn-stand").classList.toggle("actief", pagina === "stand");
   document.getElementById("btn-stand").textContent = pagina === "stand" ? "Wedstrijden" : "Stand";
+  document.getElementById("btn-stand-afc").classList.toggle("actief", pagina === "stand-afc");
+  document.getElementById("btn-stand-afc").textContent = pagina === "stand-afc" ? "Wedstrijden" : "Stand AFC";
 
   if (pagina === "uitslagen") {
     document.getElementById("uitslagen-lijst").innerHTML = `<p style="text-align:center;color:#666">Laden...</p>`;
@@ -395,6 +398,16 @@ async function toonPagina(pagina) {
       renderStand(await res.json());
     } catch(e) {
       document.getElementById("stand-lijst").innerHTML = `<p style="text-align:center;color:#666">Kon stand niet laden.</p>`;
+    }
+  }
+
+  if (pagina === "stand-afc") {
+    document.getElementById("stand-afc-lijst").innerHTML = `<p style="text-align:center;color:#666">Laden...</p>`;
+    try {
+      const res = await fetch(`data/afc-stand.json?t=${Date.now()}`);
+      renderAfcStand(await res.json());
+    } catch(e) {
+      document.getElementById("stand-afc-lijst").innerHTML = `<p style="text-align:center;color:#666">Kon stand niet laden.</p>`;
     }
   }
 }
@@ -417,6 +430,35 @@ function renderStand(stand) {
           <tr class="${t.club === 'Ajax' ? 'ajax-rij' : ''}">
             <td class="pos">${t.positie}</td>
             <td class="logo-cel"><img src="${t.logo}" alt="${t.club}" /></td>
+            <td class="club-naam">${t.club}</td>
+            <td>${t.gespeeld}</td>
+            <td class="punten">${t.punten}</td>
+            <td class="${t.doelsaldo > 0 ? 'pos-ds' : t.doelsaldo < 0 ? 'neg-ds' : ''}">${t.doelsaldo > 0 ? '+' : ''}${t.doelsaldo}</td>
+          </tr>
+        `).join('')}
+      </tbody>
+    </table>
+  `;
+}
+
+function renderAfcStand(stand) {
+  const container = document.getElementById("stand-afc-lijst");
+  container.innerHTML = `
+    <table class="stand-tabel">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th colspan="2">Club</th>
+          <th>G</th>
+          <th>P</th>
+          <th>DS</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${stand.map(t => `
+          <tr class="${t.club === 'AFC JO11-4' ? 'ajax-rij' : ''}">
+            <td class="pos">${t.positie}</td>
+            <td class="logo-cel">${t.logo ? `<img src="${t.logo}" alt="${t.club}" />` : ''}</td>
             <td class="club-naam">${t.club}</td>
             <td>${t.gespeeld}</td>
             <td class="punten">${t.punten}</td>

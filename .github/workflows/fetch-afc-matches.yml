@@ -85,12 +85,73 @@ jobs:
           print(f"Saved {len(matches)} AFC matches")
           EOF
 
+      - name: Fetch AFC stand
+        run: |
+          curl -s "https://www.afc.nl/team/afc-jo11-4/" \
+            -H "User-Agent: Mozilla/5.0" \
+            -o afc_page.html
+
+          python3 - <<'EOF'
+          import re, json
+
+          with open('afc_page.html', encoding='utf-8') as f:
+              html = f.read()
+
+          logo_map = {
+              'AFC': 'images/afc.png',
+              'Blauw-Wit': 'images/blauw-wit.png',
+              'Fortius': 'images/fortius.png',
+              'Sloterdijk': 'images/sloterdijk.png',
+          }
+
+          def logo(naam):
+              for k, v in logo_map.items():
+                  if k.lower() in naam.lower():
+                      return v
+              return ''
+
+          # Zoek stand tabel rijen: positie, clubnaam, G, W, G, V, VV, GT, DS, P
+          rijen = re.findall(
+              r'<tr[^>]*>.*?<td[^>]*>(\d+)</td>.*?<td[^>]*>(.*?)</td>.*?'
+              r'<td[^>]*>(\d+)</td>.*?<td[^>]*>(\d+)</td>.*?<td[^>]*>(\d+)</td>.*?'
+              r'<td[^>]*>(\d+)</td>.*?<td[^>]*>(\d+)</td>.*?<td[^>]*>(\d+)</td>.*?'
+              r'<td[^>]*>([-+]?\d+)</td>.*?<td[^>]*>(\d+)</td>.*?</tr>',
+              html, re.DOTALL
+          )
+
+          stand = []
+          for r in rijen:
+              pos, club_raw, gespeeld, won, gel, ver, voor, tegen, ds, punten = r
+              club = re.sub(r'<[^>]+>', '', club_raw).strip()
+              stand.append({
+                  'positie':  int(pos),
+                  'club':     club,
+                  'logo':     logo(club),
+                  'gespeeld': int(gespeeld),
+                  'gewonnen': int(won),
+                  'gelijk':   int(gel),
+                  'verloren': int(ver),
+                  'voor':     int(voor),
+                  'tegen':    int(tegen),
+                  'doelsaldo':int(ds),
+                  'punten':   int(punten),
+              })
+
+          if not stand:
+              print("Geen stand gevonden, bestaande data behouden")
+              exit(0)
+
+          with open('data/afc-stand.json', 'w') as f:
+              json.dump(stand, f, ensure_ascii=False, indent=2)
+          print(f"Saved {len(stand)} teams")
+          EOF
+
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/afc-matches.json
-          git diff --staged --quiet || git commit -m "Update AFC wedstrijden"
+          git add data/afc-matches.json data/afc-stand.json
+          git diff --staged --quiet || git commit -m "Update AFC wedstrijden en stand"
           git push
 
       - uses: actions/configure-pages@v5
