@@ -1179,9 +1179,7 @@ async function updateGokstandBadge() {
 
 async function renderGokstand() {
   const lijst = document.getElementById("gokstand-lijst");
-  const scorersLijst = document.getElementById("werkelijke-scorers-lijst");
   lijst.innerHTML = `<p style="text-align:center;color:#666;padding:1rem">Laden...</p>`;
-  scorersLijst.innerHTML = "";
 
   const matches = await laadAlleResultaten();
   const totalen = berekenPuntenPerSpeler(matches);
@@ -1225,43 +1223,6 @@ async function renderGokstand() {
       </tbody>
     </table>
   `;
-
-  // Werkelijke scorers invoer
-  const recenteMatches = Object.values(matches)
-    .sort((a, b) => (b.id || 0) - (a.id || 0))
-    .slice(0, 20);
-
-  if (recenteMatches.length === 0) {
-    scorersLijst.innerHTML = `<p class="gokstand-hint">Nog geen afgelopen wedstrijden.</p>`;
-    return;
-  }
-
-  recenteMatches.forEach(m => {
-    const ws = werkelijkeScorers[m.id] || { thuisScorers: '', uitScorers: '' };
-    const div = document.createElement("div");
-    div.className = "werkelijke-match";
-    div.innerHTML = `
-      <div class="werkelijke-match-kop">
-        <span>${escapeHTML(m.datum || '')} — ${escapeHTML(m.thuis)} vs ${escapeHTML(m.uit)}</span>
-        <span class="score">${m.thuisScore} – ${m.uitScore}</span>
-      </div>
-      <div class="werkelijke-match-invul">
-        <input type="text" placeholder="Scorers ${escapeHTML(m.thuis)}" value="${escapeHTML(ws.thuisScorers || '')}" id="ws-t-${m.id}" />
-        <input type="text" placeholder="Scorers ${escapeHTML(m.uit)}" value="${escapeHTML(ws.uitScorers || '')}" id="ws-u-${m.id}" />
-        <button>Opslaan</button>
-      </div>
-    `;
-    div.querySelector("button").onclick = async () => {
-      const thuisScorers = document.getElementById(`ws-t-${m.id}`).value.trim();
-      const uitScorers  = document.getElementById(`ws-u-${m.id}`).value.trim();
-      const btn = div.querySelector("button");
-      btn.textContent = "...";
-      await fbWerkelijkSchrijf(m.id, { thuisScorers, uitScorers });
-      btn.textContent = "✓";
-      setTimeout(() => btn.textContent = "Opslaan", 1500);
-    };
-    scorersLijst.appendChild(div);
-  });
 }
 
 async function laadGokstandEnStart() {
