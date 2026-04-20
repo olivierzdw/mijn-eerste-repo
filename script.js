@@ -112,5 +112,67 @@ function verwijder(index) {
   renderLijst();
 }
 
+const ajaxWedstrijden = [
+  { datum: "za 26 april", thuis: "NAC Breda", uit: "Ajax" },
+  { datum: "za 2 mei",    thuis: "Ajax",      uit: "PSV" },
+  { datum: "zo 10 mei",   thuis: "Ajax",      uit: "FC Utrecht" },
+  { datum: "zo 17 mei",   thuis: "Heerenveen",uit: "Ajax" },
+];
+
+function laadAjaxVoorspellingen() {
+  return JSON.parse(localStorage.getItem("olliebet-ajax") || "{}");
+}
+
+function renderAjaxWedstrijden() {
+  const container = document.getElementById("ajax-wedstrijden");
+  const opgeslagen = laadAjaxVoorspellingen();
+  container.innerHTML = "";
+
+  ajaxWedstrijden.forEach((w, i) => {
+    const v = opgeslagen[i] || {};
+    const div = document.createElement("div");
+    div.className = "ajax-wedstrijd";
+    div.innerHTML = `
+      <span class="datum">${w.datum}</span>
+      <div class="ajax-match">
+        <div class="club-blok-klein">
+          <img src="${logoVanClub(w.thuis)}" alt="${w.thuis}" />
+          <span>${w.thuis}</span>
+        </div>
+        <div class="score-midden-klein">
+          <input type="number" min="0" max="20" placeholder="0" value="${v.thuisScore ?? ""}" id="ajax-thuis-${i}" />
+          <span>–</span>
+          <input type="number" min="0" max="20" placeholder="0" value="${v.uitScore ?? ""}" id="ajax-uit-${i}" />
+        </div>
+        <div class="club-blok-klein">
+          <img src="${logoVanClub(w.uit)}" alt="${w.uit}" />
+          <span>${w.uit}</span>
+        </div>
+      </div>
+    `;
+    container.appendChild(div);
+  });
+
+  const btn = document.createElement("button");
+  btn.textContent = "Sla Ajax voorspellingen op";
+  btn.onclick = slaAjaxOp;
+  container.appendChild(btn);
+}
+
+function slaAjaxOp() {
+  const data = {};
+  ajaxWedstrijden.forEach((_, i) => {
+    data[i] = {
+      thuisScore: document.getElementById(`ajax-thuis-${i}`).value,
+      uitScore:   document.getElementById(`ajax-uit-${i}`).value,
+    };
+  });
+  localStorage.setItem("olliebet-ajax", JSON.stringify(data));
+  const btn = document.querySelector("#ajax-wedstrijden button");
+  btn.textContent = "✅ Opgeslagen!";
+  setTimeout(() => btn.textContent = "Sla Ajax voorspellingen op", 2500);
+}
+
 vulClubDropdowns();
 renderLijst();
+renderAjaxWedstrijden();

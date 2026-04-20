@@ -141,6 +141,101 @@ button:hover {
   min-height: 1.2rem;
 }
 
+.sectie-titel {
+  margin: 2rem 0 1rem;
+  font-size: 1.2rem;
+  color: #aaa;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 1px solid #0f3460;
+  padding-bottom: 0.5rem;
+}
+
+.ajax-wedstrijden {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.ajax-wedstrijd {
+  background: #16213e;
+  border-radius: 10px;
+  padding: 1rem 1.5rem;
+  border: 1px solid #0f3460;
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.datum {
+  color: #aaa;
+  font-size: 0.85rem;
+  min-width: 80px;
+}
+
+.ajax-match {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex: 1;
+  justify-content: center;
+}
+
+.club-blok-klein {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 140px;
+}
+
+.club-blok-klein:last-child {
+  flex-direction: row-reverse;
+}
+
+.club-blok-klein img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.club-blok-klein span {
+  font-size: 0.95rem;
+  font-weight: bold;
+}
+
+.score-midden-klein {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.score-midden-klein input {
+  width: 48px;
+  height: 48px;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: bold;
+  border: 2px solid #0f3460;
+  border-radius: 8px;
+  background: #0f3460;
+  color: #fff;
+  outline: none;
+}
+
+.score-midden-klein input:focus {
+  border-color: #e94560;
+}
+
+.score-midden-klein span {
+  font-size: 1.4rem;
+  color: #aaa;
+}
+
+.ajax-wedstrijden button {
+  margin-top: 0.5rem;
+  align-self: center;
+}
+
 .lijst {
   margin-top: 2rem;
   display: flex;
