@@ -28,7 +28,7 @@ let afcWedstrijden = [];
 
 // ── Firebase sync ─────────────────────────────────────────────
 
-const FIREBASE_URL = ''; // Vul hier jouw Firebase Realtime Database URL in
+const FIREBASE_URL = 'https://olliebet-default-rtdb.europe-west1.firebasedatabase.app';
 
 async function fbLees() {
   if (!FIREBASE_URL) return null;
