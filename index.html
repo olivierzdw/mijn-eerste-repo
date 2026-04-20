@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Snake</title>
+  <title>Penalty Shootout</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
     body {
-      background: #1a1a2e;
+      background: radial-gradient(ellipse at 50% 80%, #2d5a1b 0%, #1a3a0f 100%);
       color: #eee;
       font-family: 'Segoe UI', sans-serif;
       display: flex;
@@ -16,338 +16,409 @@
       align-items: center;
       min-height: 100vh;
       padding: 24px 16px;
+      user-select: none;
     }
 
     h1 {
-      font-size: 2.4rem;
-      color: #4ecca3;
-      margin-bottom: 8px;
-      letter-spacing: 4px;
+      font-size: 2rem;
+      color: #fff;
+      text-shadow: 0 2px 8px rgba(0,0,0,0.5);
+      margin-bottom: 6px;
+      letter-spacing: 3px;
       text-transform: uppercase;
     }
 
-    #score-bar {
+    #scoreboard {
       display: flex;
-      gap: 32px;
-      margin-bottom: 16px;
-      font-size: 1.1rem;
+      gap: 40px;
+      margin-bottom: 20px;
+      font-size: 1rem;
+      color: #ccc;
     }
+    #scoreboard span { color: #fff; font-weight: bold; font-size: 1.2rem; }
 
-    #score-bar span { color: #4ecca3; font-weight: bold; }
-
-    #canvas-wrapper {
+    /* ---- FIELD ---- */
+    #field {
       position: relative;
+      width: 520px;
+      height: 380px;
+      background: linear-gradient(180deg, #3a7a22 0%, #2d6018 40%, #3a7a22 100%);
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.5);
     }
 
-    canvas {
-      display: block;
-      border: 3px solid #4ecca3;
-      border-radius: 4px;
-      background: #16213e;
-    }
-
-    #overlay {
+    /* grass stripes */
+    #field::before {
+      content: '';
       position: absolute;
       inset: 0;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      background: rgba(22, 33, 62, 0.88);
+      background: repeating-linear-gradient(
+        90deg,
+        transparent 0px, transparent 40px,
+        rgba(0,0,0,0.06) 40px, rgba(0,0,0,0.06) 80px
+      );
+    }
+
+    /* penalty arc + spot */
+    #field::after {
+      content: '';
+      position: absolute;
+      bottom: 30px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 10px; height: 10px;
+      background: rgba(255,255,255,0.7);
+      border-radius: 50%;
+    }
+
+    /* ---- GOAL ---- */
+    #goal {
+      position: absolute;
+      top: 24px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 320px;
+      height: 180px;
+    }
+
+    /* net background */
+    .net {
+      position: absolute;
+      inset: 0;
+      background:
+        repeating-linear-gradient(0deg, rgba(255,255,255,0.12) 0px, rgba(255,255,255,0.12) 1px, transparent 1px, transparent 24px),
+        repeating-linear-gradient(90deg, rgba(255,255,255,0.12) 0px, rgba(255,255,255,0.12) 1px, transparent 1px, transparent 24px);
       border-radius: 2px;
     }
 
-    #overlay h2 {
-      font-size: 2rem;
-      color: #e94560;
-      margin-bottom: 8px;
+    /* goal frame */
+    .frame {
+      position: absolute;
+      inset: 0;
+      border: 5px solid #eee;
+      border-bottom: none;
+      border-radius: 4px 4px 0 0;
+      pointer-events: none;
+      z-index: 4;
     }
 
-    #overlay p { margin-bottom: 20px; color: #aaa; }
-
-    button {
-      padding: 10px 28px;
-      font-size: 1rem;
-      background: #4ecca3;
-      color: #1a1a2e;
-      border: none;
-      border-radius: 6px;
-      cursor: pointer;
-      font-weight: bold;
-      transition: background 0.2s;
+    /* ---- ZONES (3x2) ---- */
+    #zones {
+      position: absolute;
+      inset: 0;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      z-index: 3;
     }
 
-    button:hover { background: #38b28e; }
+    .zone {
+      cursor: crosshair;
+      transition: background 0.15s;
+    }
+    .zone:hover { background: rgba(255, 220, 0, 0.18); }
+    .zone.chosen { background: rgba(255, 220, 0, 0.35); }
+    .zone.goal-flash { background: rgba(0, 255, 80, 0.35); }
+    .zone.save-flash { background: rgba(255, 50, 50, 0.4); }
 
+    /* ---- KEEPER ---- */
+    #keeper {
+      position: absolute;
+      bottom: 8px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 2.6rem;
+      z-index: 5;
+      transition: left 0.35s cubic-bezier(.4,1.4,.6,1), transform 0.35s cubic-bezier(.4,1.4,.6,1);
+      filter: drop-shadow(0 2px 4px rgba(0,0,0,0.5));
+    }
+
+    /* ---- BALL ---- */
+    #ball {
+      position: absolute;
+      bottom: 12px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 1.6rem;
+      z-index: 6;
+      transition: none;
+    }
+    #ball.shooting {
+      transition: left 0.45s ease-in, bottom 0.45s ease-in, font-size 0.45s ease-in;
+    }
+
+    /* ---- PLAYER ---- */
+    #player {
+      position: absolute;
+      bottom: -6px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 2.2rem;
+      z-index: 7;
+      filter: drop-shadow(0 2px 4px rgba(0,0,0,0.5));
+    }
+
+    /* ---- RESULT BANNER ---- */
+    #result-banner {
+      position: absolute;
+      inset: 0;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 10;
+      pointer-events: none;
+    }
+    #result-banner.show { display: flex; }
+
+    #result-text {
+      font-size: 3.5rem;
+      font-weight: 900;
+      text-shadow: 0 4px 16px rgba(0,0,0,0.7);
+      animation: popIn 0.3s cubic-bezier(.4,1.6,.6,1) forwards;
+    }
+    #result-text.goal  { color: #ffe600; }
+    #result-text.saved { color: #ff4444; }
+
+    @keyframes popIn {
+      from { transform: scale(0.3); opacity: 0; }
+      to   { transform: scale(1);   opacity: 1; }
+    }
+
+    /* ---- INSTRUCTION ---- */
+    #instruction {
+      margin-top: 12px;
+      font-size: 0.95rem;
+      color: rgba(255,255,255,0.7);
+      height: 22px;
+      text-align: center;
+    }
+
+    /* ---- HISTORY ---- */
     #history {
       margin-top: 28px;
       width: 100%;
-      max-width: 420px;
+      max-width: 520px;
     }
 
     #history h2 {
-      font-size: 1.1rem;
-      color: #4ecca3;
+      font-size: 1rem;
+      color: rgba(255,255,255,0.6);
       margin-bottom: 10px;
       text-transform: uppercase;
       letter-spacing: 2px;
     }
 
-    #history table {
+    #history-body {
+      max-height: 220px;
+      overflow-y: auto;
+      scrollbar-width: thin;
+    }
+
+    table {
       width: 100%;
       border-collapse: collapse;
-      font-size: 0.9rem;
+      font-size: 0.88rem;
     }
 
-    #history th, #history td {
+    th, td {
       text-align: left;
-      padding: 7px 10px;
-      border-bottom: 1px solid #2a2a4a;
+      padding: 6px 10px;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
     }
 
-    #history th { color: #4ecca3; font-weight: 600; }
+    th { color: rgba(255,255,255,0.5); font-weight: 600; }
 
-    #history tr:hover td { background: #1e1e3a; }
+    .icon-goal  { color: #ffe600; }
+    .icon-saved { color: #ff4444; }
 
-    #history .no-games { color: #666; font-style: italic; font-size: 0.9rem; }
-
-    #controls {
-      margin-top: 10px;
-      font-size: 0.8rem;
-      color: #555;
-    }
+    .no-shots { color: rgba(255,255,255,0.3); font-style: italic; font-size: 0.88rem; }
   </style>
 </head>
 <body>
-  <h1>Snake</h1>
-  <div id="score-bar">
-    Score: <span id="current-score">0</span>
-    &nbsp;&nbsp;Highscore: <span id="high-score">0</span>
+  <h1>⚽ Penalty Shootout</h1>
+
+  <div id="scoreboard">
+    Goals: <span id="goals-count">0</span>
+    &nbsp;/&nbsp;
+    Pogingen: <span id="attempts-count">0</span>
+    &nbsp;&nbsp;|&nbsp;&nbsp;
+    Score: <span id="pct">0%</span>
   </div>
 
-  <div id="canvas-wrapper">
-    <canvas id="game" width="420" height="420"></canvas>
-    <div id="overlay">
-      <h2 id="overlay-title">Snake</h2>
-      <p id="overlay-msg">Gebruik de pijltjestoetsen of WASD om te spelen</p>
-      <button id="start-btn">Spelen</button>
+  <div id="field">
+    <div id="goal">
+      <div class="net"></div>
+      <div class="frame"></div>
+      <div id="zones">
+        <div class="zone" data-zone="0"></div>
+        <div class="zone" data-zone="1"></div>
+        <div class="zone" data-zone="2"></div>
+        <div class="zone" data-zone="3"></div>
+        <div class="zone" data-zone="4"></div>
+        <div class="zone" data-zone="5"></div>
+      </div>
+    </div>
+
+    <div id="keeper">🧤</div>
+    <div id="ball">⚽</div>
+    <div id="player">🏃</div>
+
+    <div id="result-banner">
+      <div id="result-text"></div>
     </div>
   </div>
 
-  <p id="controls">Pijltjestoetsen of WASD &nbsp;|&nbsp; Pauze: P</p>
+  <div id="instruction">Klik op een hoek of zone van het doel om te schieten</div>
 
   <div id="history">
-    <h2>Gespeelde potjes</h2>
-    <div id="history-body"><p class="no-games">Nog geen potjes gespeeld.</p></div>
+    <h2>Schoten</h2>
+    <div id="history-body"><p class="no-shots">Nog geen schoten genomen.</p></div>
   </div>
 
   <script>
-    const CELL = 20;
-    const COLS = 21;
-    const ROWS = 21;
-    const TICK = 130;
+    // Zone layout (col, row) within goal — 3 cols x 2 rows
+    // col: 0=left,1=center,2=right   row: 0=top,1=bottom
+    const ZONE_NAMES = ['Links boven','Midden boven','Rechts boven','Links onder','Midden onder','Rechts onder'];
 
-    const canvas = document.getElementById('game');
-    const ctx = canvas.getContext('2d');
-    const overlay = document.getElementById('overlay');
-    const overlayTitle = document.getElementById('overlay-title');
-    const overlayMsg = document.getElementById('overlay-msg');
-    const startBtn = document.getElementById('start-btn');
-    const currentScoreEl = document.getElementById('current-score');
-    const highScoreEl = document.getElementById('high-score');
+    const zones     = document.querySelectorAll('.zone');
+    const keeperEl  = document.getElementById('keeper');
+    const ballEl    = document.getElementById('ball');
+    const banner    = document.getElementById('result-banner');
+    const resultTxt = document.getElementById('result-text');
+    const instruction = document.getElementById('instruction');
+    const goalsEl   = document.getElementById('goals-count');
+    const attemptsEl= document.getElementById('attempts-count');
+    const pctEl     = document.getElementById('pct');
     const historyBody = document.getElementById('history-body');
 
-    let snake, dir, nextDir, food, score, gameLoop, paused, gameStartTime;
+    let busy = false;
+    let goals = 0, attempts = 0;
 
-    const DIRS = {
-      ArrowUp:    { x: 0, y: -1 }, w: { x: 0, y: -1 },
-      ArrowDown:  { x: 0, y:  1 }, s: { x: 0, y:  1 },
-      ArrowLeft:  { x:-1, y:  0 }, a: { x:-1, y:  0 },
-      ArrowRight: { x: 1, y:  0 }, d: { x: 1, y:  0 },
-    };
+    // Keeper position: 0=left, 1=center, 2=right
+    const KEEPER_LEFT = { 0: '20%', 1: '50%', 2: '80%' };
 
-    // Normalize key → direction lookup
-    const KEY_MAP = {
-      ArrowUp: { x: 0, y: -1 }, ArrowDown: { x: 0, y: 1 },
-      ArrowLeft: { x: -1, y: 0 }, ArrowRight: { x: 1, y: 0 },
-      w: { x: 0, y: -1 }, s: { x: 0, y: 1 },
-      a: { x: -1, y: 0 }, d: { x: 1, y: 0 },
-    };
-
-    // --- History (localStorage) ---
     function loadHistory() {
-      try { return JSON.parse(localStorage.getItem('snakeHistory') || '[]'); }
-      catch { return []; }
+      try { return JSON.parse(localStorage.getItem('penaltyHistory') || '[]'); } catch { return []; }
     }
 
-    function saveGame(score, duration) {
-      const history = loadHistory();
-      history.unshift({
-        date: new Date().toLocaleString('nl-NL'),
-        score,
-        duration: formatDuration(duration),
-      });
-      localStorage.setItem('snakeHistory', JSON.stringify(history.slice(0, 50)));
-    }
-
-    function formatDuration(ms) {
-      const s = Math.floor(ms / 1000);
-      const m = Math.floor(s / 60);
-      return m > 0 ? `${m}m ${s % 60}s` : `${s}s`;
+    function saveShot(zone, keeperSide, isGoal) {
+      const h = loadHistory();
+      h.unshift({ date: new Date().toLocaleString('nl-NL'), zone: ZONE_NAMES[zone], keeperSide: ['links','midden','rechts'][keeperSide], isGoal });
+      localStorage.setItem('penaltyHistory', JSON.stringify(h.slice(0, 100)));
     }
 
     function renderHistory() {
-      const history = loadHistory();
-      if (history.length === 0) {
-        historyBody.innerHTML = '<p class="no-games">Nog geen potjes gespeeld.</p>';
-        return;
-      }
-      const rows = history.map((g, i) => `
-        <tr>
-          <td>${i + 1}</td>
-          <td>${g.date}</td>
-          <td>${g.score}</td>
-          <td>${g.duration}</td>
-        </tr>`).join('');
-      historyBody.innerHTML = `
-        <table>
-          <thead><tr><th>#</th><th>Datum</th><th>Score</th><th>Duur</th></tr></thead>
-          <tbody>${rows}</tbody>
-        </table>`;
+      const h = loadHistory();
+      if (!h.length) { historyBody.innerHTML = '<p class="no-shots">Nog geen schoten genomen.</p>'; return; }
+      historyBody.innerHTML = `<table>
+        <thead><tr><th>#</th><th>Datum</th><th>Schot</th><th>Keeper</th><th>Uitslag</th></tr></thead>
+        <tbody>${h.map((s, i) => `<tr>
+          <td>${i+1}</td>
+          <td>${s.date}</td>
+          <td>${s.zone}</td>
+          <td>Dook ${s.keeperSide}</td>
+          <td class="${s.isGoal ? 'icon-goal' : 'icon-saved'}">${s.isGoal ? '⚽ GOAL' : '🧤 Gestopt'}</td>
+        </tr>`).join('')}</tbody>
+      </table>`;
     }
 
-    function getHighScore() {
-      const history = loadHistory();
-      return history.length ? Math.max(...history.map(g => g.score)) : 0;
+    function updateScoreboard() {
+      goalsEl.textContent = goals;
+      attemptsEl.textContent = attempts;
+      pctEl.textContent = attempts ? Math.round(goals / attempts * 100) + '%' : '0%';
     }
 
-    // --- Game logic ---
-    function randomFood() {
-      const occupied = new Set(snake.map(s => `${s.x},${s.y}`));
-      let pos;
-      do {
-        pos = { x: Math.floor(Math.random() * COLS), y: Math.floor(Math.random() * ROWS) };
-      } while (occupied.has(`${pos.x},${pos.y}`));
-      return pos;
+    // Zone index → goal pixel position (center of zone within #goal 320x180)
+    function zoneToGoalPos(zone) {
+      const col = zone % 3;
+      const row = Math.floor(zone / 3);
+      return {
+        x: (col * (320 / 3)) + (320 / 6),   // center of column
+        y: (row * (180 / 2)) + (180 / 4),    // center of row
+      };
     }
 
-    function initGame() {
-      snake = [{ x: 10, y: 10 }, { x: 9, y: 10 }, { x: 8, y: 10 }];
-      dir = { x: 1, y: 0 };
-      nextDir = { x: 1, y: 0 };
-      food = randomFood();
-      score = 0;
-      paused = false;
-      gameStartTime = Date.now();
-      currentScoreEl.textContent = 0;
-      highScoreEl.textContent = getHighScore();
+    // Convert goal-relative pos to field-relative pos
+    function goalToField(gx, gy) {
+      // goal starts at left=(520-320)/2=100, top=24
+      return { x: 100 + gx, y: 24 + gy };
     }
 
-    function step() {
-      if (paused) return;
-      dir = nextDir;
-      const head = { x: snake[0].x + dir.x, y: snake[0].y + dir.y };
+    async function shoot(zoneIdx) {
+      if (busy) return;
+      busy = true;
 
-      // Wall collision
-      if (head.x < 0 || head.x >= COLS || head.y < 0 || head.y >= ROWS) return endGame();
-      // Self collision
-      if (snake.some(s => s.x === head.x && s.y === head.y)) return endGame();
+      zones.forEach(z => z.classList.remove('chosen', 'goal-flash', 'save-flash'));
+      instruction.textContent = '...';
 
-      snake.unshift(head);
+      // Highlight chosen zone
+      zones[zoneIdx].classList.add('chosen');
 
-      if (head.x === food.x && head.y === food.y) {
-        score++;
-        currentScoreEl.textContent = score;
-        food = randomFood();
-      } else {
-        snake.pop();
-      }
+      // Keeper decision: slightly weighted towards likely corners
+      // keeper picks a column (0,1,2) — randomly but biased away from center slightly
+      const keeperCol = Math.random() < 0.2 ? 1 : (Math.random() < 0.5 ? 0 : 2);
 
-      draw();
-    }
+      // Animate keeper dive
+      keeperEl.style.left   = KEEPER_LEFT[keeperCol];
+      keeperEl.style.transform = keeperCol === 0 ? 'translateX(-80%) rotate(-20deg)'
+                                 : keeperCol === 2 ? 'translateX(-20%) rotate(20deg)'
+                                 : 'translateX(-50%)';
 
-    function endGame() {
-      clearInterval(gameLoop);
-      const duration = Date.now() - gameStartTime;
-      saveGame(score, duration);
+      // Ball animation
+      const targetField = goalToField(zoneToGoalPos(zoneIdx).x, zoneToGoalPos(zoneIdx).y);
+      ballEl.classList.add('shooting');
+      ballEl.style.left   = targetField.x + 'px';
+      ballEl.style.bottom = (380 - targetField.y) + 'px';
+      ballEl.style.fontSize = '0.8rem';
+
+      await delay(500);
+
+      // Determine result
+      const shotCol = zoneIdx % 3;
+      const isGoal = shotCol !== keeperCol;
+
+      attempts++;
+      if (isGoal) goals++;
+      updateScoreboard();
+      saveShot(zoneIdx, keeperCol, isGoal);
       renderHistory();
-      highScoreEl.textContent = getHighScore();
 
-      overlayTitle.textContent = 'Game Over';
-      overlayMsg.textContent = `Score: ${score}`;
-      startBtn.textContent = 'Opnieuw spelen';
-      overlay.style.display = 'flex';
+      // Flash zone
+      zones[zoneIdx].classList.remove('chosen');
+      zones[zoneIdx].classList.add(isGoal ? 'goal-flash' : 'save-flash');
+
+      // Banner
+      resultTxt.textContent = isGoal ? 'GOAL! ⚽' : 'GESTOPT! 🧤';
+      resultTxt.className   = isGoal ? 'goal' : 'saved';
+      banner.classList.add('show');
+
+      await delay(1400);
+
+      // Reset
+      banner.classList.remove('show');
+      zones[zoneIdx].classList.remove('goal-flash', 'save-flash');
+
+      ballEl.classList.remove('shooting');
+      ballEl.style.transition = 'none';
+      ballEl.style.left   = '50%';
+      ballEl.style.bottom = '12px';
+      ballEl.style.fontSize = '1.6rem';
+      void ballEl.offsetWidth; // reflow
+
+      keeperEl.style.left      = '50%';
+      keeperEl.style.transform = 'translateX(-50%)';
+
+      instruction.textContent = 'Klik op een hoek of zone van het doel om te schieten';
+      busy = false;
     }
 
-    function startGame() {
-      clearInterval(gameLoop);
-      initGame();
-      overlay.style.display = 'none';
-      draw();
-      gameLoop = setInterval(step, TICK);
-    }
+    function delay(ms) { return new Promise(r => setTimeout(r, ms)); }
 
-    // --- Drawing ---
-    function draw() {
-      ctx.clearRect(0, 0, canvas.width, canvas.height);
+    zones.forEach(z => z.addEventListener('click', () => shoot(+z.dataset.zone)));
 
-      // Grid (subtle)
-      ctx.strokeStyle = '#1c2a50';
-      ctx.lineWidth = 0.5;
-      for (let x = 0; x <= COLS; x++) {
-        ctx.beginPath(); ctx.moveTo(x * CELL, 0); ctx.lineTo(x * CELL, ROWS * CELL); ctx.stroke();
-      }
-      for (let y = 0; y <= ROWS; y++) {
-        ctx.beginPath(); ctx.moveTo(0, y * CELL); ctx.lineTo(COLS * CELL, y * CELL); ctx.stroke();
-      }
-
-      // Food
-      ctx.fillStyle = '#e94560';
-      ctx.beginPath();
-      ctx.arc(food.x * CELL + CELL / 2, food.y * CELL + CELL / 2, CELL / 2 - 2, 0, Math.PI * 2);
-      ctx.fill();
-
-      // Snake
-      snake.forEach((seg, i) => {
-        const t = i / snake.length;
-        ctx.fillStyle = i === 0 ? '#4ecca3' : `hsl(${160 - t * 40}, 60%, ${50 - t * 15}%)`;
-        const pad = i === 0 ? 1 : 2;
-        ctx.beginPath();
-        ctx.roundRect(seg.x * CELL + pad, seg.y * CELL + pad, CELL - pad * 2, CELL - pad * 2, 4);
-        ctx.fill();
-      });
-    }
-
-    // --- Input ---
-    document.addEventListener('keydown', e => {
-      const d = KEY_MAP[e.key];
-      if (d) {
-        e.preventDefault();
-        // Prevent reversing
-        if (d.x !== -dir.x || d.y !== -dir.y) nextDir = d;
-      }
-      if (e.key === 'p' || e.key === 'P') {
-        paused = !paused;
-        if (paused) {
-          overlayTitle.textContent = 'Gepauzeerd';
-          overlayMsg.textContent = 'Druk P om verder te gaan';
-          startBtn.style.display = 'none';
-          overlay.style.display = 'flex';
-        } else {
-          overlay.style.display = 'none';
-          startBtn.style.display = '';
-        }
-      }
-    });
-
-    startBtn.addEventListener('click', startGame);
-
-    // Initial render
     renderHistory();
-    highScoreEl.textContent = getHighScore();
-    // Draw empty board
-    ctx.fillStyle = '#16213e';
-    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    updateScoreboard();
   </script>
 </body>
 </html>
