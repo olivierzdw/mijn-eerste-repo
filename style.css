@@ -120,6 +120,13 @@ header h1 {
   font-weight: bold;
 }
 
+.beste-voorspeller {
+  font-size: 0.85rem;
+  color: #f0c040;
+  white-space: nowrap;
+  margin-left: auto;
+}
+
 .gebruikers-balk {
   display: flex;
   align-items: center;

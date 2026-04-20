@@ -389,6 +389,30 @@ async function toggleUitslagen() {
   }
 }
 
+function besteVoorspeller(matchId, actueleThuis, actueleUit) {
+  const gebruikers = laadGebruikers();
+  let beste = null;
+  let besteAfstand = Infinity;
+
+  gebruikers.forEach(naam => {
+    const voorspellingen = JSON.parse(localStorage.getItem(`olliebet-ajax-${naam}`) || "{}");
+    const v = voorspellingen[matchId];
+    if (!v || v.thuisScore === "" || v.uitScore === "") return;
+
+    const afstand = Math.abs(Number(v.thuisScore) - actueleThuis) +
+                    Math.abs(Number(v.uitScore)   - actueleUit);
+
+    if (afstand < besteAfstand) {
+      besteAfstand = afstand;
+      beste = { naam, afstand };
+    } else if (afstand === besteAfstand && beste) {
+      beste.naam += ` & ${naam}`;
+    }
+  });
+
+  return beste;
+}
+
 function renderUitslagen(results) {
   const container = document.getElementById("uitslagen-lijst");
   container.innerHTML = "";
@@ -397,6 +421,7 @@ function renderUitslagen(results) {
     const ajaxWon  = (m.thuis === "Ajax" && m.thuisScore > m.uitScore) ||
                      (m.uit   === "Ajax" && m.uitScore  > m.thuisScore);
     const ajaxDraw = m.thuisScore === m.uitScore;
+    const winnaar  = besteVoorspeller(m.id, m.thuisScore, m.uitScore);
 
     const div = document.createElement("div");
     div.className = "uitslag-rij";
@@ -411,6 +436,7 @@ function renderUitslagen(results) {
         <span class="${m.uit === 'Ajax' && (ajaxWon || ajaxDraw) ? 'winnaar' : ''}">${m.uit}</span>
         <img src="${m.uitLogo}" alt="${m.uit}" />
       </div>
+      ${winnaar ? `<span class="beste-voorspeller">🏆 ${winnaar.naam}</span>` : ''}
     `;
     container.appendChild(div);
   });
