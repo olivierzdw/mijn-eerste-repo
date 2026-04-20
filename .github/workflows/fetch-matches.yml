@@ -140,7 +140,7 @@ jobs:
               'Willem II':'Willem II','Heracles Almelo':'Heracles',
           }
           logo_override = {
-              'NAC Breda': 'https://crests.football-data.org/681.png',
+              'NAC Breda': 'images/nac-breda.png',
           }
 
           table = data['standings'][0]['table']
