@@ -60,8 +60,8 @@
     "naam": "AFC Ajax",
     "logo": "https://crests.football-data.org/678.png",
     "land": "Netherlands",
-    "competitie": "CL",
-    "competitieNaam": "Champions League"
+    "competitie": "DED",
+    "competitieNaam": "Eredivisie"
   },
   {
     "id": 1044,
@@ -70,14 +70,6 @@
     "land": "England",
     "competitie": "PL",
     "competitieNaam": "Premier League"
-  },
-  {
-    "id": 519,
-    "naam": "AJ Auxerre",
-    "logo": "https://crests.football-data.org/519.png",
-    "land": "France",
-    "competitie": "FL1",
-    "competitieNaam": "Ligue 1"
   },
   {
     "id": 548,
@@ -112,20 +104,12 @@
     "competitieNaam": "Eredivisie"
   },
   {
-    "id": 532,
-    "naam": "Angers SCO",
-    "logo": "https://crests.football-data.org/532.png",
-    "land": "France",
-    "competitie": "FL1",
-    "competitieNaam": "Ligue 1"
-  },
-  {
     "id": 57,
     "naam": "Arsenal FC",
     "logo": "https://crests.football-data.org/57.png",
     "land": "England",
-    "competitie": "CL",
-    "competitieNaam": "Champions League"
+    "competitie": "PL",
+    "competitieNaam": "Premier League"
   },
   {
     "id": 58,
@@ -140,24 +124,40 @@
     "naam": "Atalanta BC",
     "logo": "https://crests.football-data.org/102.png",
     "land": "Italy",
-    "competitie": "CL",
-    "competitieNaam": "Champions League"
+    "competitie": "SA",
+    "competitieNaam": "Serie A"
   },
   {
     "id": 77,
     "naam": "Athletic Club",
     "logo": "https://crests.football-data.org/77.png",
     "land": "Spain",
-    "competitie": "CL",
-    "competitieNaam": "Champions League"
+    "competitie": "PD",
+    "competitieNaam": "La Liga"
   },
   {
     "id": 3,
     "naam": "Bayer 04 Leverkusen",
     "logo": "https://crests.football-data.org/3.png",
     "land": "Germany",
-    "competitie": "CL",
-    "competitieNaam": "Champions League"
+    "competitie": "BL1",
+    "competitieNaam": "Bundesliga"
+  },
+  {
+    "id": 332,
+    "naam": "Birmingham City FC",
+    "logo": "https://crests.football-data.org/332.png",
+    "land": "England",
+    "competitie": "ELC",
+    "competitieNaam": "Championship"
+  },
+  {
+    "id": 59,
+    "naam": "Blackburn Rovers FC",
+    "logo": "https://crests.football-data.org/59.png",
+    "land": "England",
+    "competitie": "ELC",
+    "competitieNaam": "Championship"
   },
   {
     "id": 103,
@@ -172,8 +172,8 @@
     "naam": "Borussia Dortmund",
     "logo": "https://crests.football-data.org/4.png",
     "land": "Germany",
-    "competitie": "CL",
-    "competitieNaam": "Champions League"
+    "competitie": "BL1",
+    "competitieNaam": "Bundesliga"
   },
   {
     "id": 18,
@@ -206,6 +206,14 @@
     "land": "England",
     "competitie": "PL",
     "competitieNaam": "Premier League"
+  },
+  {
+    "id": 387,
+    "naam": "Bristol City FC",
+    "logo": "https://crests.football-data.org/387.png",
+    "land": "England",
+    "competitie": "ELC",
+    "competitieNaam": "Championship"
   },
   {
     "id": 328,
@@ -312,20 +320,28 @@
     "competitieNaam": "Brasileirão"
   },
   {
+    "id": 348,
+    "naam": "Charlton Athletic FC",
+    "logo": "https://crests.football-data.org/348.png",
+    "land": "England",
+    "competitie": "ELC",
+    "competitieNaam": "Championship"
+  },
+  {
     "id": 61,
     "naam": "Chelsea FC",
     "logo": "https://crests.football-data.org/61.png",
     "land": "England",
-    "competitie": "CL",
-    "competitieNaam": "Champions League"
+    "competitie": "PL",
+    "competitieNaam": "Premier League"
   },
   {
     "id": 78,
     "naam": "Club Atlético de Madrid",
     "logo": "https://crests.football-data.org/78.png",
     "land": "Spain",
-    "competitie": "CL",
-    "competitieNaam": "Champions League"
+    "competitie": "PD",
+    "competitieNaam": "La Liga"
   },
   {
     "id": 851,
@@ -360,6 +376,14 @@
     "competitieNaam": "Brasileirão"
   },
   {
+    "id": 1076,
+    "naam": "Coventry City FC",
+    "logo": "https://crests.football-data.org/1076.png",
+    "land": "England",
+    "competitie": "ELC",
+    "competitieNaam": "Championship"
+  },
+  {
     "id": 1771,
     "naam": "Cruzeiro EC",
     "logo": "https://crests.football-data.org/1771.png",
@@ -384,6 +408,14 @@
     "competitieNaam": "La Liga"
   },
   {
+    "id": 342,
+    "naam": "Derby County FC",
+    "logo": "https://crests.football-data.org/342.png",
+    "land": "England",
+    "competitie": "ELC",
+    "competitieNaam": "Championship"
+  },
+  {
     "id": 1777,
     "naam": "EC Bahia",
     "logo": "https://crests.football-data.org/1777.png",
@@ -404,8 +436,8 @@
     "naam": "Eintracht Frankfurt",
     "logo": "https://crests.football-data.org/19.png",
     "land": "Germany",
-    "competitie": "CL",
-    "competitieNaam": "Champions League"
+    "competitie": "BL1",
+    "competitieNaam": "Bundesliga"
   },
   {
     "id": 285,
@@ -452,16 +484,16 @@
     "naam": "FC Barcelona",
     "logo": "https://crests.football-data.org/81.png",
     "land": "Spain",
-    "competitie": "CL",
-    "competitieNaam": "Champions League"
+    "competitie": "PD",
+    "competitieNaam": "La Liga"
   },
   {
     "id": 5,
     "naam": "FC Bayern München",
     "logo": "https://crests.football-data.org/5.png",
     "land": "Germany",
-    "competitie": "CL",
-    "competitieNaam": "Champions League"
+    "competitie": "BL1",
+    "competitieNaam": "Bundesliga"
   },
   {
     "id": 5531,
@@ -484,8 +516,8 @@
     "naam": "FC Internazionale Milano",
     "logo": "https://crests.football-data.org/108.png",
     "land": "Italy",
-    "competitie": "CL",
-    "competitieNaam": "Champions League"
+    "competitie": "SA",
+    "competitieNaam": "Serie A"
   },
   {
     "id": 1876,
@@ -494,30 +526,6 @@
     "land": "Denmark",
     "competitie": "CL",
     "competitieNaam": "Champions League"
-  },
-  {
-    "id": 525,
-    "naam": "FC Lorient",
-    "logo": "https://crests.football-data.org/525.png",
-    "land": "France",
-    "competitie": "FL1",
-    "competitieNaam": "Ligue 1"
-  },
-  {
-    "id": 545,
-    "naam": "FC Metz",
-    "logo": "https://crests.football-data.org/545.png",
-    "land": "France",
-    "competitie": "FL1",
-    "competitieNaam": "Ligue 1"
-  },
-  {
-    "id": 543,
-    "naam": "FC Nantes",
-    "logo": "https://crests.football-data.org/543.png",
-    "land": "France",
-    "competitie": "FL1",
-    "competitieNaam": "Ligue 1"
   },
   {
     "id": 503,
@@ -696,20 +704,28 @@
     "competitieNaam": "Eredivisie"
   },
   {
+    "id": 322,
+    "naam": "Hull City AFC",
+    "logo": "https://crests.football-data.org/322.png",
+    "land": "England",
+    "competitie": "ELC",
+    "competitieNaam": "Championship"
+  },
+  {
+    "id": 349,
+    "naam": "Ipswich Town FC",
+    "logo": "https://crests.football-data.org/349.png",
+    "land": "England",
+    "competitie": "ELC",
+    "competitieNaam": "Championship"
+  },
+  {
     "id": 109,
     "naam": "Juventus FC",
     "logo": "https://crests.football-data.org/109.png",
     "land": "Italy",
-    "competitie": "CL",
-    "competitieNaam": "Champions League"
-  },
-  {
-    "id": 533,
-    "naam": "Le Havre AC",
-    "logo": "https://crests.football-data.org/533.png",
-    "land": "France",
-    "competitie": "FL1",
-    "competitieNaam": "Ligue 1"
+    "competitie": "SA",
+    "competitieNaam": "Serie A"
   },
   {
     "id": 341,
@@ -720,6 +736,14 @@
     "competitieNaam": "Premier League"
   },
   {
+    "id": 338,
+    "naam": "Leicester City FC",
+    "logo": "https://crests.football-data.org/338.png",
+    "land": "England",
+    "competitie": "ELC",
+    "competitieNaam": "Championship"
+  },
+  {
     "id": 88,
     "naam": "Levante UD",
     "logo": "https://crests.football-data.org/88.png",
@@ -728,28 +752,20 @@
     "competitieNaam": "La Liga"
   },
   {
-    "id": 521,
-    "naam": "Lille OSC",
-    "logo": "https://crests.football-data.org/521.png",
-    "land": "France",
-    "competitie": "FL1",
-    "competitieNaam": "Ligue 1"
-  },
-  {
     "id": 64,
     "naam": "Liverpool FC",
     "logo": "https://crests.football-data.org/64.png",
     "land": "England",
-    "competitie": "CL",
-    "competitieNaam": "Champions League"
+    "competitie": "PL",
+    "competitieNaam": "Premier League"
   },
   {
     "id": 65,
     "naam": "Manchester City FC",
     "logo": "https://crests.football-data.org/65.png",
     "land": "England",
-    "competitie": "CL",
-    "competitieNaam": "Champions League"
+    "competitie": "PL",
+    "competitieNaam": "Premier League"
   },
   {
     "id": 66,
@@ -758,6 +774,22 @@
     "land": "England",
     "competitie": "PL",
     "competitieNaam": "Premier League"
+  },
+  {
+    "id": 343,
+    "naam": "Middlesbrough FC",
+    "logo": "https://crests.football-data.org/343.png",
+    "land": "England",
+    "competitie": "ELC",
+    "competitieNaam": "Championship"
+  },
+  {
+    "id": 384,
+    "naam": "Millwall FC",
+    "logo": "https://crests.football-data.org/384.png",
+    "land": "England",
+    "competitie": "ELC",
+    "competitieNaam": "Championship"
   },
   {
     "id": 4364,
@@ -796,8 +828,16 @@
     "naam": "Newcastle United FC",
     "logo": "https://crests.football-data.org/67.png",
     "land": "England",
-    "competitie": "CL",
-    "competitieNaam": "Champions League"
+    "competitie": "PL",
+    "competitieNaam": "Premier League"
+  },
+  {
+    "id": 68,
+    "naam": "Norwich City FC",
+    "logo": "https://crests.football-data.org/68.png",
+    "land": "England",
+    "competitie": "ELC",
+    "competitieNaam": "Championship"
   },
   {
     "id": 351,
@@ -808,28 +848,20 @@
     "competitieNaam": "Premier League"
   },
   {
-    "id": 522,
-    "naam": "OGC Nice",
-    "logo": "https://crests.football-data.org/522.png",
-    "land": "France",
-    "competitie": "FL1",
-    "competitieNaam": "Ligue 1"
-  },
-  {
-    "id": 523,
-    "naam": "Olympique Lyonnais",
-    "logo": "https://crests.football-data.org/523.png",
-    "land": "France",
-    "competitie": "FL1",
-    "competitieNaam": "Ligue 1"
-  },
-  {
     "id": 516,
     "naam": "Olympique de Marseille",
     "logo": "https://crests.football-data.org/516.png",
     "land": "France",
     "competitie": "CL",
     "competitieNaam": "Champions League"
+  },
+  {
+    "id": 1082,
+    "naam": "Oxford United FC",
+    "logo": "https://crests.football-data.org/1082.png",
+    "land": "England",
+    "competitie": "ELC",
+    "competitieNaam": "Championship"
   },
   {
     "id": 654,
@@ -852,8 +884,8 @@
     "naam": "PSV",
     "logo": "https://crests.football-data.org/674.png",
     "land": "Netherlands",
-    "competitie": "CL",
-    "competitieNaam": "Champions League"
+    "competitie": "DED",
+    "competitieNaam": "Eredivisie"
   },
   {
     "id": 11034,
@@ -862,14 +894,6 @@
     "land": "Cyprus",
     "competitie": "CL",
     "competitieNaam": "Champions League"
-  },
-  {
-    "id": 1045,
-    "naam": "Paris FC",
-    "logo": "https://crests.football-data.org/1045.png",
-    "land": "France",
-    "competitie": "FL1",
-    "competitieNaam": "Ligue 1"
   },
   {
     "id": 524,
@@ -888,12 +912,36 @@
     "competitieNaam": "Serie A"
   },
   {
+    "id": 325,
+    "naam": "Portsmouth FC",
+    "logo": "https://crests.football-data.org/325.png",
+    "land": "England",
+    "competitie": "ELC",
+    "competitieNaam": "Championship"
+  },
+  {
+    "id": 1081,
+    "naam": "Preston North End FC",
+    "logo": "https://crests.football-data.org/1081.png",
+    "land": "England",
+    "competitie": "ELC",
+    "competitieNaam": "Championship"
+  },
+  {
     "id": 611,
     "naam": "Qarabağ Ağdam FK",
     "logo": "https://crests.football-data.org/611.png",
     "land": "Azerbaijan",
     "competitie": "CL",
     "competitieNaam": "Champions League"
+  },
+  {
+    "id": 69,
+    "naam": "Queens Park Rangers FC",
+    "logo": "https://crests.football-data.org/69.png",
+    "land": "England",
+    "competitie": "ELC",
+    "competitieNaam": "Championship"
   },
   {
     "id": 4286,
@@ -920,14 +968,6 @@
     "competitieNaam": "La Liga"
   },
   {
-    "id": 576,
-    "naam": "RC Strasbourg Alsace",
-    "logo": "https://crests.football-data.org/576.png",
-    "land": "France",
-    "competitie": "FL1",
-    "competitieNaam": "Ligue 1"
-  },
-  {
     "id": 80,
     "naam": "RCD Espanyol de Barcelona",
     "logo": "https://crests.football-data.org/80.png",
@@ -942,14 +982,6 @@
     "land": "Spain",
     "competitie": "PD",
     "competitieNaam": "La Liga"
-  },
-  {
-    "id": 546,
-    "naam": "Racing Club de Lens",
-    "logo": "https://crests.football-data.org/546.png",
-    "land": "France",
-    "competitie": "FL1",
-    "competitieNaam": "Ligue 1"
   },
   {
     "id": 87,
@@ -972,8 +1004,8 @@
     "naam": "Real Madrid CF",
     "logo": "https://crests.football-data.org/86.png",
     "land": "Spain",
-    "competitie": "CL",
-    "competitieNaam": "Champions League"
+    "competitie": "PD",
+    "competitieNaam": "La Liga"
   },
   {
     "id": 1048,
@@ -1076,8 +1108,8 @@
     "naam": "SSC Napoli",
     "logo": "https://crests.football-data.org/113.png",
     "land": "Italy",
-    "competitie": "CL",
-    "competitieNaam": "Champions League"
+    "competitie": "SA",
+    "competitieNaam": "Serie A"
   },
   {
     "id": 12,
@@ -1104,6 +1136,30 @@
     "competitieNaam": "La Liga"
   },
   {
+    "id": 356,
+    "naam": "Sheffield United FC",
+    "logo": "https://crests.football-data.org/356.png",
+    "land": "England",
+    "competitie": "ELC",
+    "competitieNaam": "Championship"
+  },
+  {
+    "id": 345,
+    "naam": "Sheffield Wednesday FC",
+    "logo": "https://crests.football-data.org/345.png",
+    "land": "England",
+    "competitie": "ELC",
+    "competitieNaam": "Championship"
+  },
+  {
+    "id": 340,
+    "naam": "Southampton FC",
+    "logo": "https://crests.football-data.org/340.png",
+    "land": "England",
+    "competitie": "ELC",
+    "competitieNaam": "Championship"
+  },
+  {
     "id": 6806,
     "naam": "Sparta Rotterdam",
     "logo": "https://crests.football-data.org/6806.png",
@@ -1116,8 +1172,8 @@
     "naam": "Sport Lisboa e Benfica",
     "logo": "https://crests.football-data.org/1903.png",
     "land": "Portugal",
-    "competitie": "CL",
-    "competitieNaam": "Champions League"
+    "competitie": "PPL",
+    "competitieNaam": "Primeira Liga"
   },
   {
     "id": 5613,
@@ -1132,24 +1188,16 @@
     "naam": "Sporting Clube de Portugal",
     "logo": "https://crests.football-data.org/498.png",
     "land": "Portugal",
-    "competitie": "CL",
-    "competitieNaam": "Champions League"
+    "competitie": "PPL",
+    "competitieNaam": "Primeira Liga"
   },
   {
-    "id": 512,
-    "naam": "Stade Brestois 29",
-    "logo": "https://crests.football-data.org/512.png",
-    "land": "France",
-    "competitie": "FL1",
-    "competitieNaam": "Ligue 1"
-  },
-  {
-    "id": 529,
-    "naam": "Stade Rennais FC 1901",
-    "logo": "https://crests.football-data.org/529.png",
-    "land": "France",
-    "competitie": "FL1",
-    "competitieNaam": "Ligue 1"
+    "id": 70,
+    "naam": "Stoke City FC",
+    "logo": "https://crests.football-data.org/70.png",
+    "land": "England",
+    "competitie": "ELC",
+    "competitieNaam": "Championship"
   },
   {
     "id": 71,
@@ -1158,6 +1206,14 @@
     "land": "England",
     "competitie": "PL",
     "competitieNaam": "Premier League"
+  },
+  {
+    "id": 72,
+    "naam": "Swansea City AFC",
+    "logo": "https://crests.football-data.org/72.png",
+    "land": "Wales",
+    "competitie": "ELC",
+    "competitieNaam": "Championship"
   },
   {
     "id": 1776,
@@ -1196,16 +1252,8 @@
     "naam": "Tottenham Hotspur FC",
     "logo": "https://crests.football-data.org/73.png",
     "land": "England",
-    "competitie": "CL",
-    "competitieNaam": "Champions League"
-  },
-  {
-    "id": 511,
-    "naam": "Toulouse FC",
-    "logo": "https://crests.football-data.org/511.png",
-    "land": "France",
-    "competitie": "FL1",
-    "competitieNaam": "Ligue 1"
+    "competitie": "PL",
+    "competitieNaam": "Premier League"
   },
   {
     "id": 457,
@@ -1268,8 +1316,8 @@
     "naam": "Villarreal CF",
     "logo": "https://crests.football-data.org/94.png",
     "land": "Spain",
-    "competitie": "CL",
-    "competitieNaam": "Champions League"
+    "competitie": "PD",
+    "competitieNaam": "La Liga"
   },
   {
     "id": 5543,
@@ -1278,6 +1326,22 @@
     "land": "Portugal",
     "competitie": "PPL",
     "competitieNaam": "Primeira Liga"
+  },
+  {
+    "id": 346,
+    "naam": "Watford FC",
+    "logo": "https://crests.football-data.org/346.png",
+    "land": "England",
+    "competitie": "ELC",
+    "competitieNaam": "Championship"
+  },
+  {
+    "id": 74,
+    "naam": "West Bromwich Albion FC",
+    "logo": "https://crests.football-data.org/74.png",
+    "land": "England",
+    "competitie": "ELC",
+    "competitieNaam": "Championship"
   },
   {
     "id": 563,
@@ -1294,5 +1358,13 @@
     "land": "England",
     "competitie": "PL",
     "competitieNaam": "Premier League"
+  },
+  {
+    "id": 404,
+    "naam": "Wrexham AFC",
+    "logo": "https://crests.football-data.org/404.png",
+    "land": "Wales",
+    "competitie": "ELC",
+    "competitieNaam": "Championship"
   }
 ]

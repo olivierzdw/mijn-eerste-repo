@@ -22,7 +22,9 @@ jobs:
           import zoneinfo
 
           API_KEY = '${{ secrets.FOOTBALL_API_KEY }}'
-          competitions = ['PL', 'PD', 'BL1', 'SA', 'FL1', 'DED', 'PPL', 'CL', 'EL', 'BSA', 'ELC']
+          # Landelijke competities eerst, dan bekertoernooien
+          competitions = ['PL', 'PD', 'BL1', 'SA', 'FL1', 'DED', 'PPL', 'BSA', 'ELC', 'CL', 'EL']
+          cup_comps = {'CL', 'EL'}
 
           dag_namen   = ['zo','ma','di','wo','do','vr','za']
           maand_namen = ['januari','februari','maart','april','mei','juni',
@@ -61,6 +63,10 @@ jobs:
               try:
                   data = fetch(f'https://api.football-data.org/v4/competitions/{comp}/teams')
                   for t in data.get('teams', []):
+                      bestaande = clubs.get(t['id'], {})
+                      # Alleen overschrijven met cup als er nog geen landelijke comp is
+                      if comp in cup_comps and bestaande.get('competitie') and bestaande['competitie'] not in cup_comps:
+                          continue
                       clubs[t['id']] = {
                           'id':        t['id'],
                           'naam':      t['name'],
