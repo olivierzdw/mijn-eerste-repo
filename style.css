@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #1a1a2e;
+  color: #eee;
+  min-height: 100vh;
+}
+
+header {
+  background: #16213e;
+  padding: 2rem;
+  text-align: center;
+  border-bottom: 3px solid #0f3460;
+}
+
+header h1 {
+  font-size: 2rem;
+  color: #e94560;
+}
+
+header p {
+  margin-top: 0.5rem;
+  color: #aaa;
+}
+
+main {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.wedstrijden {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.wedstrijd {
+  background: #16213e;
+  border-radius: 12px;
+  padding: 1.2rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  border: 1px solid #0f3460;
+}
+
+.club {
+  font-size: 1.1rem;
+  font-weight: bold;
+  width: 160px;
+}
+
+.club.thuis {
+  text-align: right;
+}
+
+.club.uit {
+  text-align: left;
+}
+
+.score-invoer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.score-invoer input {
+  width: 48px;
+  height: 48px;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: bold;
+  border: 2px solid #0f3460;
+  border-radius: 8px;
+  background: #0f3460;
+  color: #fff;
+  outline: none;
+}
+
+.score-invoer input:focus {
+  border-color: #e94560;
+}
+
+.score-invoer span {
+  font-size: 1.4rem;
+  color: #aaa;
+}
+
+.acties {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+button {
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #e94560;
+  color: white;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #c73652;
+}
+
+button.reset {
+  background: #0f3460;
+}
+
+button.reset:hover {
+  background: #1a4a80;
+}
+
+.bevestiging {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-size: 1.1rem;
+  color: #4caf50;
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}

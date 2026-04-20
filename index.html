@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Voetbal Voorspellingen</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>⚽ Voetbal Voorspellingen</h1>
+    <p>Vul jouw verwachte score in voor elke wedstrijd</p>
+  </header>
+
+  <main>
+    <div class="wedstrijden" id="wedstrijden"></div>
+    <div class="acties">
+      <button onclick="slaOpVoorspellingen()">Sla voorspellingen op</button>
+      <button onclick="resetVoorspellingen()" class="reset">Reset</button>
+    </div>
+    <div id="bevestiging" class="bevestiging hidden">✅ Voorspellingen opgeslagen!</div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
