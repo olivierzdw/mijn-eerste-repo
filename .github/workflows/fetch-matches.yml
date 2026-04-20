@@ -1,0 +1,88 @@
+name: Fetch Ajax matches
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  fetch-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch matches from API
+        run: |
+          curl -s "https://api.football-data.org/v4/teams/678/matches?status=TIMED" \
+            -H "X-Auth-Token: ${{ secrets.FOOTBALL_API_KEY }}" \
+            -o raw.json
+
+          python3 - <<'EOF'
+          import json
+          from datetime import datetime
+          import zoneinfo
+
+          with open('raw.json') as f:
+              data = json.load(f)
+
+          dag_namen   = ['zo','ma','di','wo','do','vr','za']
+          maand_namen = ['januari','februari','maart','april','mei','juni',
+                         'juli','augustus','september','oktober','november','december']
+          club_mapping = {
+              'AFC Ajax':'Ajax','Ajax':'Ajax',
+              'PSV Eindhoven':'PSV','PSV':'PSV',
+              'Feyenoord':'Feyenoord',
+              'AZ Alkmaar':'AZ','AZ':'AZ',
+              'FC Utrecht':'FC Utrecht',
+              'FC Twente':'Twente','Twente':'Twente',
+              'NEC Nijmegen':'NEC','NEC':'NEC',
+              'SC Heerenveen':'Heerenveen','Heerenveen':'Heerenveen',
+              'FC Groningen':'Groningen','Groningen':'Groningen',
+              'Sparta Rotterdam':'Sparta','Sparta':'Sparta',
+              'RKC Waalwijk':'RKC','RKC':'RKC',
+              'Go Ahead Eagles':'Go Ahead Eagles',
+              'NAC Breda':'NAC Breda',
+              'Willem II':'Willem II',
+          }
+
+          tz = zoneinfo.ZoneInfo('Europe/Amsterdam')
+          matches = []
+          for m in data.get('matches', []):
+              d = datetime.fromisoformat(m['utcDate'].replace('Z','+00:00')).astimezone(tz)
+              dag   = dag_namen[(d.weekday() + 1) % 7]
+              maand = maand_namen[d.month - 1]
+              datum = f"{dag} {d.day} {maand} {d.hour:02d}:{d.minute:02d}"
+              matches.append({
+                  'id':    m['id'],
+                  'datum': datum,
+                  'thuis': club_mapping.get(m['homeTeam']['name'], m['homeTeam']['name']),
+                  'uit':   club_mapping.get(m['awayTeam']['name'], m['awayTeam']['name']),
+              })
+
+          with open('data/ajax-matches.json','w') as f:
+              json.dump(matches, f, ensure_ascii=False, indent=2)
+          print(f"Saved {len(matches)} matches")
+          EOF
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ajax-matches.json
+          git diff --staged --quiet || git commit -m "Update Ajax wedstrijden"
+          git push
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - id: deployment
+        uses: actions/deploy-pages@v4

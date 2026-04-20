@@ -177,17 +177,8 @@ function clubNaam(apiNaam) {
 
 async function fetchAjaxWedstrijden() {
   try {
-    const vandaag = new Date().toISOString().split("T")[0];
-    const res = await fetch(`https://api.football-data.org/v4/teams/678/matches?status=TIMED&dateFrom=${vandaag}`, {
-      headers: { 'X-Auth-Token': FOOTBALL_API_KEY }
-    });
-    const data = await res.json();
-    ajaxWedstrijden = (data.matches || []).map(m => ({
-      id:    m.id,
-      datum: formatDatum(m.utcDate),
-      thuis: clubNaam(m.homeTeam.name),
-      uit:   clubNaam(m.awayTeam.name),
-    }));
+    const res = await fetch(`data/ajax-matches.json?t=${Date.now()}`);
+    ajaxWedstrijden = await res.json();
     renderAjaxWedstrijden();
     updateLiveMinuten();
   } catch (e) {
