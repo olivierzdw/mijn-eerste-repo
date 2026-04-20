@@ -10,16 +10,28 @@
 
   <header>
     <h1>⚽ Olliebet</h1>
-    <p>Vul jouw verwachte score in voor elke wedstrijd</p>
+    <p>Kies twee clubs en vul jouw voorspelling in</p>
   </header>
 
   <main>
-    <div class="wedstrijden" id="wedstrijden"></div>
-    <div class="acties">
-      <button onclick="slaOpVoorspellingen()">Sla voorspellingen op</button>
-      <button onclick="resetVoorspellingen()" class="reset">Reset</button>
+    <div class="wedstrijd-maker">
+      <div class="club-kiezer">
+        <select id="thuis-club">
+          <option value="">-- Thuisclub --</option>
+        </select>
+        <div class="score-invoer">
+          <input type="number" id="thuis-score" min="0" max="20" placeholder="0" />
+          <span>–</span>
+          <input type="number" id="uit-score" min="0" max="20" placeholder="0" />
+        </div>
+        <select id="uit-club">
+          <option value="">-- Uitclub --</option>
+        </select>
+      </div>
+      <button onclick="voegToe()">Voeg voorspelling toe</button>
     </div>
-    <div id="bevestiging" class="bevestiging hidden">✅ Voorspellingen opgeslagen!</div>
+
+    <div class="lijst" id="lijst"></div>
   </main>
 
   <script src="script.js"></script>

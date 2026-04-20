@@ -1,54 +1,100 @@
-const wedstrijden = [
-  { thuis: "Ajax", uit: "PSV" },
-  { thuis: "Feyenoord", uit: "AZ" },
-  { thuis: "FC Utrecht", uit: "Vitesse" },
-  { thuis: "NEC", uit: "Twente" },
-  { thuis: "Heerenveen", uit: "Groningen" },
-  { thuis: "Sparta", uit: "RKC" },
+const clubs = [
+  "Ajax", "PSV", "Feyenoord", "AZ", "FC Utrecht",
+  "Twente", "NEC", "Heerenveen", "Groningen", "Vitesse",
+  "Sparta", "RKC", "Go Ahead Eagles", "PEC Zwolle", "FC Volendam",
+  "Almere City", "NAC Breda", "Willem II"
 ];
 
-function renderWedstrijden() {
-  const container = document.getElementById("wedstrijden");
+function vulClubDropdowns() {
+  const thuisSelect = document.getElementById("thuis-club");
+  const uitSelect = document.getElementById("uit-club");
+  clubs.forEach(club => {
+    thuisSelect.innerHTML += `<option value="${club}">${club}</option>`;
+    uitSelect.innerHTML += `<option value="${club}">${club}</option>`;
+  });
+}
+
+function laadVoorspellingen() {
+  return JSON.parse(localStorage.getItem("olliebet") || "[]");
+}
+
+function slaOpVoorspellingen(lijst) {
+  localStorage.setItem("olliebet", JSON.stringify(lijst));
+}
+
+function renderLijst() {
+  const lijst = laadVoorspellingen();
+  const container = document.getElementById("lijst");
   container.innerHTML = "";
 
-  wedstrijden.forEach((w, i) => {
-    const opgeslagen = JSON.parse(localStorage.getItem("voorspellingen") || "{}");
-    const thuisScore = opgeslagen[i]?.thuis ?? "";
-    const uitScore = opgeslagen[i]?.uit ?? "";
+  if (lijst.length === 0) {
+    container.innerHTML = `<p style="text-align:center;color:#666;">Nog geen voorspellingen toegevoegd.</p>`;
+    return;
+  }
 
+  lijst.forEach((v, i) => {
     const div = document.createElement("div");
-    div.className = "wedstrijd";
+    div.className = "voorspelling";
     div.innerHTML = `
-      <div class="club thuis">${w.thuis}</div>
-      <div class="score-invoer">
-        <input type="number" min="0" max="20" id="thuis-${i}" value="${thuisScore}" placeholder="0" />
-        <span>–</span>
-        <input type="number" min="0" max="20" id="uit-${i}" value="${uitScore}" placeholder="0" />
+      <div class="clubs">
+        <span>${v.thuis}</span>
+        <span style="color:#666">vs</span>
+        <span>${v.uit}</span>
       </div>
-      <div class="club uit">${w.uit}</div>
+      <div class="score">${v.thuisScore} – ${v.uitScore}</div>
+      <button class="verwijder" onclick="verwijder(${i})">✕</button>
     `;
     container.appendChild(div);
   });
 }
 
-function slaOpVoorspellingen() {
-  const voorspellingen = {};
-  wedstrijden.forEach((_, i) => {
-    voorspellingen[i] = {
-      thuis: document.getElementById(`thuis-${i}`).value,
-      uit: document.getElementById(`uit-${i}`).value,
-    };
-  });
-  localStorage.setItem("voorspellingen", JSON.stringify(voorspellingen));
+function voegToe() {
+  const thuis = document.getElementById("thuis-club").value;
+  const uit = document.getElementById("uit-club").value;
+  const thuisScore = document.getElementById("thuis-score").value;
+  const uitScore = document.getElementById("uit-score").value;
 
-  const bevestiging = document.getElementById("bevestiging");
-  bevestiging.classList.remove("hidden");
-  setTimeout(() => bevestiging.classList.add("hidden"), 3000);
+  if (!thuis || !uit) {
+    toonFout("Kies twee clubs.");
+    return;
+  }
+  if (thuis === uit) {
+    toonFout("Kies twee verschillende clubs.");
+    return;
+  }
+  if (thuisScore === "" || uitScore === "") {
+    toonFout("Vul een score in voor beide clubs.");
+    return;
+  }
+
+  const lijst = laadVoorspellingen();
+  lijst.push({ thuis, uit, thuisScore, uitScore });
+  slaOpVoorspellingen(lijst);
+  renderLijst();
+
+  document.getElementById("thuis-club").value = "";
+  document.getElementById("uit-club").value = "";
+  document.getElementById("thuis-score").value = "";
+  document.getElementById("uit-score").value = "";
 }
 
-function resetVoorspellingen() {
-  localStorage.removeItem("voorspellingen");
-  renderWedstrijden();
+function verwijder(index) {
+  const lijst = laadVoorspellingen();
+  lijst.splice(index, 1);
+  slaOpVoorspellingen(lijst);
+  renderLijst();
 }
 
-renderWedstrijden();
+function toonFout(bericht) {
+  let fout = document.querySelector(".fout");
+  if (!fout) {
+    fout = document.createElement("p");
+    fout.className = "fout";
+    document.querySelector(".wedstrijd-maker").appendChild(fout);
+  }
+  fout.textContent = bericht;
+  setTimeout(() => fout.textContent = "", 3000);
+}
+
+vulClubDropdowns();
+renderLijst();
