@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Snake</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #1a1a2e;
+      color: #eee;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      padding: 24px 16px;
+    }
+
+    h1 {
+      font-size: 2.4rem;
+      color: #4ecca3;
+      margin-bottom: 8px;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+    }
+
+    #score-bar {
+      display: flex;
+      gap: 32px;
+      margin-bottom: 16px;
+      font-size: 1.1rem;
+    }
+
+    #score-bar span { color: #4ecca3; font-weight: bold; }
+
+    #canvas-wrapper {
+      position: relative;
+    }
+
+    canvas {
+      display: block;
+      border: 3px solid #4ecca3;
+      border-radius: 4px;
+      background: #16213e;
+    }
+
+    #overlay {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: rgba(22, 33, 62, 0.88);
+      border-radius: 2px;
+    }
+
+    #overlay h2 {
+      font-size: 2rem;
+      color: #e94560;
+      margin-bottom: 8px;
+    }
+
+    #overlay p { margin-bottom: 20px; color: #aaa; }
+
+    button {
+      padding: 10px 28px;
+      font-size: 1rem;
+      background: #4ecca3;
+      color: #1a1a2e;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background 0.2s;
+    }
+
+    button:hover { background: #38b28e; }
+
+    #history {
+      margin-top: 28px;
+      width: 100%;
+      max-width: 420px;
+    }
+
+    #history h2 {
+      font-size: 1.1rem;
+      color: #4ecca3;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    #history table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.9rem;
+    }
+
+    #history th, #history td {
+      text-align: left;
+      padding: 7px 10px;
+      border-bottom: 1px solid #2a2a4a;
+    }
+
+    #history th { color: #4ecca3; font-weight: 600; }
+
+    #history tr:hover td { background: #1e1e3a; }
+
+    #history .no-games { color: #666; font-style: italic; font-size: 0.9rem; }
+
+    #controls {
+      margin-top: 10px;
+      font-size: 0.8rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <h1>Snake</h1>
+  <div id="score-bar">
+    Score: <span id="current-score">0</span>
+    &nbsp;&nbsp;Highscore: <span id="high-score">0</span>
+  </div>
+
+  <div id="canvas-wrapper">
+    <canvas id="game" width="420" height="420"></canvas>
+    <div id="overlay">
+      <h2 id="overlay-title">Snake</h2>
+      <p id="overlay-msg">Gebruik de pijltjestoetsen of WASD om te spelen</p>
+      <button id="start-btn">Spelen</button>
+    </div>
+  </div>
+
+  <p id="controls">Pijltjestoetsen of WASD &nbsp;|&nbsp; Pauze: P</p>
+
+  <div id="history">
+    <h2>Gespeelde potjes</h2>
+    <div id="history-body"><p class="no-games">Nog geen potjes gespeeld.</p></div>
+  </div>
+
+  <script>
+    const CELL = 20;
+    const COLS = 21;
+    const ROWS = 21;
+    const TICK = 130;
+
+    const canvas = document.getElementById('game');
+    const ctx = canvas.getContext('2d');
+    const overlay = document.getElementById('overlay');
+    const overlayTitle = document.getElementById('overlay-title');
+    const overlayMsg = document.getElementById('overlay-msg');
+    const startBtn = document.getElementById('start-btn');
+    const currentScoreEl = document.getElementById('current-score');
+    const highScoreEl = document.getElementById('high-score');
+    const historyBody = document.getElementById('history-body');
+
+    let snake, dir, nextDir, food, score, gameLoop, paused, gameStartTime;
+
+    const DIRS = {
+      ArrowUp:    { x: 0, y: -1 }, w: { x: 0, y: -1 },
+      ArrowDown:  { x: 0, y:  1 }, s: { x: 0, y:  1 },
+      ArrowLeft:  { x:-1, y:  0 }, a: { x:-1, y:  0 },
+      ArrowRight: { x: 1, y:  0 }, d: { x: 1, y:  0 },
+    };
+
+    // Normalize key → direction lookup
+    const KEY_MAP = {
+      ArrowUp: { x: 0, y: -1 }, ArrowDown: { x: 0, y: 1 },
+      ArrowLeft: { x: -1, y: 0 }, ArrowRight: { x: 1, y: 0 },
+      w: { x: 0, y: -1 }, s: { x: 0, y: 1 },
+      a: { x: -1, y: 0 }, d: { x: 1, y: 0 },
+    };
+
+    // --- History (localStorage) ---
+    function loadHistory() {
+      try { return JSON.parse(localStorage.getItem('snakeHistory') || '[]'); }
+      catch { return []; }
+    }
+
+    function saveGame(score, duration) {
+      const history = loadHistory();
+      history.unshift({
+        date: new Date().toLocaleString('nl-NL'),
+        score,
+        duration: formatDuration(duration),
+      });
+      localStorage.setItem('snakeHistory', JSON.stringify(history.slice(0, 50)));
+    }
+
+    function formatDuration(ms) {
+      const s = Math.floor(ms / 1000);
+      const m = Math.floor(s / 60);
+      return m > 0 ? `${m}m ${s % 60}s` : `${s}s`;
+    }
+
+    function renderHistory() {
+      const history = loadHistory();
+      if (history.length === 0) {
+        historyBody.innerHTML = '<p class="no-games">Nog geen potjes gespeeld.</p>';
+        return;
+      }
+      const rows = history.map((g, i) => `
+        <tr>
+          <td>${i + 1}</td>
+          <td>${g.date}</td>
+          <td>${g.score}</td>
+          <td>${g.duration}</td>
+        </tr>`).join('');
+      historyBody.innerHTML = `
+        <table>
+          <thead><tr><th>#</th><th>Datum</th><th>Score</th><th>Duur</th></tr></thead>
+          <tbody>${rows}</tbody>
+        </table>`;
+    }
+
+    function getHighScore() {
+      const history = loadHistory();
+      return history.length ? Math.max(...history.map(g => g.score)) : 0;
+    }
+
+    // --- Game logic ---
+    function randomFood() {
+      const occupied = new Set(snake.map(s => `${s.x},${s.y}`));
+      let pos;
+      do {
+        pos = { x: Math.floor(Math.random() * COLS), y: Math.floor(Math.random() * ROWS) };
+      } while (occupied.has(`${pos.x},${pos.y}`));
+      return pos;
+    }
+
+    function initGame() {
+      snake = [{ x: 10, y: 10 }, { x: 9, y: 10 }, { x: 8, y: 10 }];
+      dir = { x: 1, y: 0 };
+      nextDir = { x: 1, y: 0 };
+      food = randomFood();
+      score = 0;
+      paused = false;
+      gameStartTime = Date.now();
+      currentScoreEl.textContent = 0;
+      highScoreEl.textContent = getHighScore();
+    }
+
+    function step() {
+      if (paused) return;
+      dir = nextDir;
+      const head = { x: snake[0].x + dir.x, y: snake[0].y + dir.y };
+
+      // Wall collision
+      if (head.x < 0 || head.x >= COLS || head.y < 0 || head.y >= ROWS) return endGame();
+      // Self collision
+      if (snake.some(s => s.x === head.x && s.y === head.y)) return endGame();
+
+      snake.unshift(head);
+
+      if (head.x === food.x && head.y === food.y) {
+        score++;
+        currentScoreEl.textContent = score;
+        food = randomFood();
+      } else {
+        snake.pop();
+      }
+
+      draw();
+    }
+
+    function endGame() {
+      clearInterval(gameLoop);
+      const duration = Date.now() - gameStartTime;
+      saveGame(score, duration);
+      renderHistory();
+      highScoreEl.textContent = getHighScore();
+
+      overlayTitle.textContent = 'Game Over';
+      overlayMsg.textContent = `Score: ${score}`;
+      startBtn.textContent = 'Opnieuw spelen';
+      overlay.style.display = 'flex';
+    }
+
+    function startGame() {
+      clearInterval(gameLoop);
+      initGame();
+      overlay.style.display = 'none';
+      draw();
+      gameLoop = setInterval(step, TICK);
+    }
+
+    // --- Drawing ---
+    function draw() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+      // Grid (subtle)
+      ctx.strokeStyle = '#1c2a50';
+      ctx.lineWidth = 0.5;
+      for (let x = 0; x <= COLS; x++) {
+        ctx.beginPath(); ctx.moveTo(x * CELL, 0); ctx.lineTo(x * CELL, ROWS * CELL); ctx.stroke();
+      }
+      for (let y = 0; y <= ROWS; y++) {
+        ctx.beginPath(); ctx.moveTo(0, y * CELL); ctx.lineTo(COLS * CELL, y * CELL); ctx.stroke();
+      }
+
+      // Food
+      ctx.fillStyle = '#e94560';
+      ctx.beginPath();
+      ctx.arc(food.x * CELL + CELL / 2, food.y * CELL + CELL / 2, CELL / 2 - 2, 0, Math.PI * 2);
+      ctx.fill();
+
+      // Snake
+      snake.forEach((seg, i) => {
+        const t = i / snake.length;
+        ctx.fillStyle = i === 0 ? '#4ecca3' : `hsl(${160 - t * 40}, 60%, ${50 - t * 15}%)`;
+        const pad = i === 0 ? 1 : 2;
+        ctx.beginPath();
+        ctx.roundRect(seg.x * CELL + pad, seg.y * CELL + pad, CELL - pad * 2, CELL - pad * 2, 4);
+        ctx.fill();
+      });
+    }
+
+    // --- Input ---
+    document.addEventListener('keydown', e => {
+      const d = KEY_MAP[e.key];
+      if (d) {
+        e.preventDefault();
+        // Prevent reversing
+        if (d.x !== -dir.x || d.y !== -dir.y) nextDir = d;
+      }
+      if (e.key === 'p' || e.key === 'P') {
+        paused = !paused;
+        if (paused) {
+          overlayTitle.textContent = 'Gepauzeerd';
+          overlayMsg.textContent = 'Druk P om verder te gaan';
+          startBtn.style.display = 'none';
+          overlay.style.display = 'flex';
+        } else {
+          overlay.style.display = 'none';
+          startBtn.style.display = '';
+        }
+      }
+    });
+
+    startBtn.addEventListener('click', startGame);
+
+    // Initial render
+    renderHistory();
+    highScoreEl.textContent = getHighScore();
+    // Draw empty board
+    ctx.fillStyle = '#16213e';
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+  </script>
+</body>
+</html>
