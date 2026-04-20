@@ -357,6 +357,22 @@ button:hover {
   color: #aaa;
 }
 
+.live-minuut {
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #aaa;
+}
+
+.live-minuut.live {
+  color: #4caf50;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.4; }
+}
+
 .ajax-wedstrijden button {
   margin-top: 0.5rem;
   align-self: center;

@@ -144,6 +144,63 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
+// ── Live wedstrijd data ───────────────────────────────────────
+
+const FOOTBALL_API_KEY = 'eb6f5903b47f4cb3a34ef8598e83ee08';
+
+const clubNaamMapping = {
+  "AFC Ajax": "Ajax", "Ajax": "Ajax",
+  "PSV Eindhoven": "PSV", "PSV": "PSV",
+  "Feyenoord": "Feyenoord",
+  "AZ Alkmaar": "AZ", "AZ": "AZ",
+  "FC Utrecht": "FC Utrecht",
+  "FC Twente": "Twente", "Twente": "Twente",
+  "NEC Nijmegen": "NEC", "NEC": "NEC",
+  "SC Heerenveen": "Heerenveen", "Heerenveen": "Heerenveen",
+  "FC Groningen": "Groningen", "Groningen": "Groningen",
+  "Sparta Rotterdam": "Sparta", "Sparta": "Sparta",
+  "RKC Waalwijk": "RKC", "RKC": "RKC",
+  "Go Ahead Eagles": "Go Ahead Eagles",
+  "NAC Breda": "NAC Breda",
+  "Willem II": "Willem II",
+};
+
+async function fetchLiveEredivisie() {
+  try {
+    const res = await fetch('https://api.football-data.org/v4/competitions/DED/matches?status=LIVE', {
+      headers: { 'X-Auth-Token': FOOTBALL_API_KEY }
+    });
+    const data = await res.json();
+    return data.matches || [];
+  } catch (e) {
+    return [];
+  }
+}
+
+async function updateLiveMinuten() {
+  const wedstrijden = await fetchLiveEredivisie();
+
+  ajaxWedstrijden.forEach((w, i) => {
+    const badge = document.getElementById(`live-ajax-${i}`);
+    if (!badge) return;
+
+    const match = wedstrijden.find(m => {
+      const thuis = clubNaamMapping[m.homeTeam.name];
+      const uit   = clubNaamMapping[m.awayTeam.name];
+      return thuis === w.thuis && uit === w.uit;
+    });
+
+    if (match) {
+      const minuut = match.minute || match.score?.duration || "?";
+      badge.textContent = `⏱ ${minuut}'`;
+      badge.classList.add("live");
+    } else {
+      badge.textContent = "";
+      badge.classList.remove("live");
+    }
+  });
+}
+
 // ── Helpers ───────────────────────────────────────────────────
 
 function logoVanClub(naam) {
@@ -177,6 +234,7 @@ function renderAjaxWedstrijden() {
           <input type="number" min="0" max="20" placeholder="0" value="${v.thuisScore ?? ""}" id="ajax-thuis-${i}" />
           <span>–</span>
           <input type="number" min="0" max="20" placeholder="0" value="${v.uitScore ?? ""}" id="ajax-uit-${i}" />
+          <span class="live-minuut" id="live-ajax-${i}"></span>
         </div>
         <div class="club-blok-klein rechts">
           <img src="${logoVanClub(w.uit)}" alt="${w.uit}" />
@@ -262,3 +320,5 @@ function slaAfcOp() {
 // ── Init ──────────────────────────────────────────────────────
 
 renderGebruikers();
+updateLiveMinuten();
+setInterval(updateLiveMinuten, 60000);
