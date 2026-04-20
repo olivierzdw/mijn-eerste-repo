@@ -65,6 +65,156 @@ function startFirebaseSync() {
   });
 }
 
+// ── Chat ──────────────────────────────────────────────────────
+
+let chatBerichten = [];
+
+async function fbChatLees() {
+  if (!FIREBASE_URL) return {};
+  try {
+    const res = await fetch(`${FIREBASE_URL}/chat.json`);
+    const data = await res.json();
+    return data && typeof data === 'object' ? data : {};
+  } catch(e) { return {}; }
+}
+
+async function fbChatPush(bericht) {
+  if (!FIREBASE_URL) return null;
+  try {
+    const res = await fetch(`${FIREBASE_URL}/chat.json`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(bericht),
+    });
+    return await res.json();
+  } catch(e) { return null; }
+}
+
+function chatObjectNaarLijst(obj) {
+  if (!obj) return [];
+  return Object.entries(obj)
+    .map(([id, m]) => ({ id, ...m }))
+    .sort((a, b) => (a.tijd || 0) - (b.tijd || 0));
+}
+
+function startChatSync() {
+  if (!FIREBASE_URL) return;
+  const es = new EventSource(`${FIREBASE_URL}/chat.json`);
+  es.addEventListener('put', e => {
+    const { path, data } = JSON.parse(e.data);
+    if (path === '/') {
+      chatBerichten = chatObjectNaarLijst(data);
+    } else {
+      const id = path.replace(/^\//, '');
+      if (data === null) {
+        chatBerichten = chatBerichten.filter(m => m.id !== id);
+      } else {
+        const idx = chatBerichten.findIndex(m => m.id === id);
+        const nieuw = { id, ...data };
+        if (idx >= 0) chatBerichten[idx] = nieuw;
+        else chatBerichten.push(nieuw);
+        chatBerichten.sort((a, b) => (a.tijd || 0) - (b.tijd || 0));
+      }
+    }
+    renderChat();
+  });
+  es.addEventListener('patch', e => {
+    const { path, data } = JSON.parse(e.data);
+    if (path === '/' && data && typeof data === 'object') {
+      for (const [id, m] of Object.entries(data)) {
+        const idx = chatBerichten.findIndex(x => x.id === id);
+        const nieuw = { id, ...m };
+        if (idx >= 0) chatBerichten[idx] = nieuw;
+        else chatBerichten.push(nieuw);
+      }
+      chatBerichten.sort((a, b) => (a.tijd || 0) - (b.tijd || 0));
+      renderChat();
+    }
+  });
+  es.addEventListener('error', () => {
+    es.close();
+    setTimeout(startChatSync, 30000);
+  });
+}
+
+function formatChatTijd(t) {
+  if (!t) return "";
+  const d = new Date(t);
+  const h = d.getHours().toString().padStart(2, '0');
+  const m = d.getMinutes().toString().padStart(2, '0');
+  return `${h}:${m}`;
+}
+
+function escapeHTML(s) {
+  return String(s ?? "")
+    .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;").replace(/'/g, "&#39;");
+}
+
+function renderChat() {
+  const container = document.getElementById("chat-berichten");
+  if (!container) return;
+  const actief = actiefGebruiker();
+  const hint   = document.getElementById("chat-hint");
+  const input  = document.getElementById("chat-input");
+  const btn    = document.getElementById("chat-verstuur");
+
+  if (!actief) {
+    hint.textContent = "Kies eerst een speler om te kunnen chatten.";
+    input.disabled = true;
+    btn.disabled = true;
+  } else {
+    hint.textContent = `Je chat als ${actief}`;
+    input.disabled = false;
+    btn.disabled = false;
+  }
+
+  if (chatBerichten.length === 0) {
+    container.innerHTML = `<div class="chat-leeg">Nog geen berichten. Begin het gesprek!</div>`;
+    return;
+  }
+
+  const bijnaBeneden = container.scrollHeight - container.scrollTop - container.clientHeight < 60;
+  container.innerHTML = chatBerichten.map(m => {
+    const eigen = m.afzender === actief;
+    return `
+      <div class="chat-bericht${eigen ? ' eigen' : ''}">
+        <span class="afzender">${escapeHTML(m.afzender || 'onbekend')}</span>
+        <span class="tekst">${escapeHTML(m.tekst || '')}</span>
+        <span class="tijd">${formatChatTijd(m.tijd)}</span>
+      </div>
+    `;
+  }).join("");
+
+  if (bijnaBeneden) container.scrollTop = container.scrollHeight;
+}
+
+async function verstuurBericht() {
+  const input  = document.getElementById("chat-input");
+  const actief = actiefGebruiker();
+  if (!actief) return;
+  const tekst  = input.value.trim();
+  if (!tekst) return;
+
+  const bericht = { afzender: actief, tekst, tijd: Date.now() };
+  input.value = "";
+
+  // Direct tonen zonder wachten op roundtrip
+  chatBerichten.push({ id: `tmp-${Date.now()}`, ...bericht });
+  renderChat();
+
+  const container = document.getElementById("chat-berichten");
+  if (container) container.scrollTop = container.scrollHeight;
+
+  await fbChatPush(bericht);
+}
+
+async function laadChatEnStart() {
+  const data = await fbChatLees();
+  chatBerichten = chatObjectNaarLijst(data);
+  startChatSync();
+}
+
 // ── Gebruikers ────────────────────────────────────────────────
 
 function laadGebruikers() {
@@ -412,10 +562,23 @@ async function toonPagina(pagina) {
   document.getElementById("main-inhoud").classList.toggle("hidden", pagina !== "wedstrijden");
   document.getElementById("uitslagen-panel").classList.toggle("hidden", pagina !== "uitslagen");
   document.getElementById("stand-panel").classList.toggle("hidden", pagina !== "stand");
+  document.getElementById("chat-panel").classList.toggle("hidden", pagina !== "chat");
   document.getElementById("btn-uitslagen").classList.toggle("actief", pagina === "uitslagen");
   document.getElementById("btn-uitslagen").textContent = pagina === "uitslagen" ? "Wedstrijden" : "Uitslagen";
   document.getElementById("btn-stand").classList.toggle("actief", pagina === "stand");
   document.getElementById("btn-stand").textContent = pagina === "stand" ? "Wedstrijden" : "Stand";
+  document.getElementById("btn-chat").classList.toggle("actief", pagina === "chat");
+  document.getElementById("btn-chat").textContent = pagina === "chat" ? "Wedstrijden" : "Chat";
+
+  if (pagina === "chat") {
+    renderChat();
+    setTimeout(() => {
+      const el = document.getElementById("chat-berichten");
+      if (el) el.scrollTop = el.scrollHeight;
+      const inp = document.getElementById("chat-input");
+      if (inp) inp.focus();
+    }, 50);
+  }
 
   if (pagina === "uitslagen") {
     document.getElementById("uitslagen-lijst").innerHTML = `<p style="text-align:center;color:#666">Laden...</p>`;
@@ -771,6 +934,20 @@ setInterval(fetchAfcWedstrijden, 5 * 60 * 1000);
     renderGebruikers();
   }
   startFirebaseSync();
+  laadChatEnStart();
+})();
+
+// Chat: Enter-toets versturen
+(function bindChatEnter() {
+  const inp = document.getElementById("chat-input");
+  if (inp) {
+    inp.addEventListener("keydown", e => {
+      if (e.key === "Enter") {
+        e.preventDefault();
+        verstuurBericht();
+      }
+    });
+  }
 })();
 
 // ── Toegangscode ─────────────────────────────────────────────

@@ -24,6 +24,7 @@
     <div class="header-nav">
       <button class="nav-btn" id="btn-uitslagen" onclick="toonPagina('uitslagen')">Uitslagen</button>
       <button class="nav-btn" id="btn-stand" onclick="toonPagina('stand')">Stand</button>
+      <button class="nav-btn" id="btn-chat" onclick="toonPagina('chat')">Chat</button>
     </div>
 
     <div class="club-zoek" id="club-zoek">
@@ -55,6 +56,20 @@
       <h2 id="uitslagen-titel">Uitslagen Ajax</h2>
     </div>
     <div id="uitslagen-lijst"></div>
+  </div>
+
+  <div class="uitslagen-panel hidden" id="chat-panel">
+    <div class="uitslagen-header">
+      <h2>Chat</h2>
+    </div>
+    <div class="chat-wrap">
+      <div id="chat-berichten" class="chat-berichten"></div>
+      <div class="chat-input-wrap">
+        <input type="text" id="chat-input" placeholder="Typ een bericht..." maxlength="500" autocomplete="off" />
+        <button id="chat-verstuur" onclick="verstuurBericht()">Verstuur</button>
+      </div>
+      <p class="chat-hint" id="chat-hint"></p>
+    </div>
   </div>
 
   <main id="main-inhoud" class="hidden">
