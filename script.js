@@ -361,28 +361,32 @@ function slaAfcOp() {
 
 // ── Uitslagen ─────────────────────────────────────────────────
 
-async function toonUitslagen() {
-  const panel = document.getElementById("uitslagen-panel");
-  panel.classList.remove("hidden");
-  document.getElementById("main-inhoud").classList.add("hidden");
-  document.querySelector(".nav-btn").classList.add("actief");
-  document.getElementById("uitslagen-lijst").innerHTML =
-    `<p style="text-align:center;color:#666">Laden...</p>`;
+let uitslagenZichtbaar = false;
 
-  try {
-    const res = await fetch(`data/ajax-results.json?t=${Date.now()}`);
-    const results = await res.json();
-    renderUitslagen(results);
-  } catch(e) {
+async function toggleUitslagen() {
+  uitslagenZichtbaar = !uitslagenZichtbaar;
+  const btn = document.getElementById("nav-btn");
+
+  if (uitslagenZichtbaar) {
+    document.getElementById("uitslagen-panel").classList.remove("hidden");
+    document.getElementById("main-inhoud").classList.add("hidden");
+    btn.textContent = "Wedstrijden";
+    btn.classList.add("actief");
     document.getElementById("uitslagen-lijst").innerHTML =
-      `<p style="text-align:center;color:#666">Kon uitslagen niet laden.</p>`;
+      `<p style="text-align:center;color:#666">Laden...</p>`;
+    try {
+      const res = await fetch(`data/ajax-results.json?t=${Date.now()}`);
+      renderUitslagen(await res.json());
+    } catch(e) {
+      document.getElementById("uitslagen-lijst").innerHTML =
+        `<p style="text-align:center;color:#666">Kon uitslagen niet laden.</p>`;
+    }
+  } else {
+    document.getElementById("uitslagen-panel").classList.add("hidden");
+    document.getElementById("main-inhoud").classList.remove("hidden");
+    btn.textContent = "Uitslagen";
+    btn.classList.remove("actief");
   }
-}
-
-function verbergUitslagen() {
-  document.getElementById("uitslagen-panel").classList.add("hidden");
-  document.getElementById("main-inhoud").classList.remove("hidden");
-  document.querySelector(".nav-btn").classList.remove("actief");
 }
 
 function renderUitslagen(results) {
