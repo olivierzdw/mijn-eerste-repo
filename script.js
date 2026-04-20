@@ -349,3 +349,4 @@ function slaAfcOp() {
 renderGebruikers();
 updateLiveMinuten();
 setInterval(updateLiveMinuten, 60000);
+setInterval(fetchAjaxWedstrijden, 5 * 60 * 1000);
