@@ -10,39 +10,41 @@
 
   <header>
     <h1>⚽ Olliebet</h1>
-    <p>Kies twee clubs en vul jouw voorspelling in</p>
+
+    <div class="gebruikers-balk">
+      <div class="gebruikers-lijst" id="gebruikers-lijst"></div>
+      <button class="gebruiker-toevoegen" onclick="toonNieuweGebruiker()">+ Speler</button>
+    </div>
+
+    <div class="nieuwe-gebruiker hidden" id="nieuwe-gebruiker-form">
+      <input type="text" id="nieuwe-naam" placeholder="Naam (bijv. Papa)" maxlength="20" />
+      <button onclick="voegGebruikerToe()">Toevoegen</button>
+      <button class="annuleer" onclick="verbergNieuweGebruiker()">Annuleer</button>
+    </div>
   </header>
 
-  <main>
+  <main id="main-inhoud" class="hidden">
+
     <div class="wedstrijd-maker">
-
       <div class="match-row">
-
-        <!-- Thuisclub -->
         <div class="club-blok">
           <img id="thuis-logo" src="" alt="" class="club-logo-groot" />
           <select id="thuis-club" onchange="updateLogo('thuis')">
             <option value="">-- Thuisclub --</option>
           </select>
         </div>
-
-        <!-- Scores -->
         <div class="score-midden">
           <input type="number" id="thuis-score" min="0" max="20" placeholder="0" />
           <span>–</span>
           <input type="number" id="uit-score" min="0" max="20" placeholder="0" />
         </div>
-
-        <!-- Uitclub -->
         <div class="club-blok">
           <img id="uit-logo" src="" alt="" class="club-logo-groot" />
           <select id="uit-club" onchange="updateLogo('uit')">
             <option value="">-- Uitclub --</option>
           </select>
         </div>
-
       </div>
-
       <button onclick="voegToe()">Voeg voorspelling toe</button>
       <p class="fout" id="fout-melding"></p>
     </div>
@@ -52,7 +54,12 @@
 
     <h2 class="sectie-titel">Mijn voorspellingen</h2>
     <div class="lijst" id="lijst"></div>
+
   </main>
+
+  <div class="geen-gebruiker" id="geen-gebruiker">
+    <p>Kies of voeg een speler toe om te beginnen</p>
+  </div>
 
   <script src="script.js"></script>
 </body>

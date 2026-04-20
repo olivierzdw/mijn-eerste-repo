@@ -13,7 +13,7 @@ body {
 
 header {
   background: #16213e;
-  padding: 2rem;
+  padding: 1.5rem 2rem;
   text-align: center;
   border-bottom: 3px solid #e94560;
 }
@@ -21,11 +21,103 @@ header {
 header h1 {
   font-size: 2.2rem;
   color: #e94560;
+  margin-bottom: 1rem;
 }
 
-header p {
-  margin-top: 0.5rem;
+.gebruikers-balk {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.gebruikers-lijst {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gebruiker-btn {
+  padding: 0.45rem 1.1rem;
+  border-radius: 20px;
+  border: 2px solid #0f3460;
+  background: #0f3460;
   color: #aaa;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.gebruiker-btn:hover {
+  border-color: #e94560;
+  color: #fff;
+}
+
+.gebruiker-btn.actief {
+  background: #e94560;
+  border-color: #e94560;
+  color: #fff;
+  font-weight: bold;
+}
+
+.gebruiker-toevoegen {
+  padding: 0.45rem 1rem;
+  border-radius: 20px;
+  border: 2px dashed #0f3460;
+  background: transparent;
+  color: #aaa;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.gebruiker-toevoegen:hover {
+  border-color: #e94560;
+  color: #e94560;
+}
+
+.nieuwe-gebruiker {
+  margin-top: 0.8rem;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.nieuwe-gebruiker input {
+  padding: 0.45rem 1rem;
+  border-radius: 8px;
+  border: 2px solid #0f3460;
+  background: #0f3460;
+  color: #fff;
+  font-size: 0.95rem;
+  outline: none;
+}
+
+.nieuwe-gebruiker input:focus {
+  border-color: #e94560;
+}
+
+.nieuwe-gebruiker button {
+  padding: 0.45rem 1rem;
+  font-size: 0.9rem;
+}
+
+.nieuwe-gebruiker .annuleer {
+  background: #0f3460;
+}
+
+.geen-gebruiker {
+  text-align: center;
+  margin-top: 4rem;
+  color: #666;
+  font-size: 1.1rem;
+}
+
+.hidden {
+  display: none !important;
 }
 
 main {
