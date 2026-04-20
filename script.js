@@ -55,7 +55,11 @@ function setActiefGebruiker(naam) {
 
 function renderGebruikers() {
   const lijst = laadGebruikers();
-  const actief = actiefGebruiker();
+  let actief = actiefGebruiker();
+  if (lijst.length > 0 && (!actief || !lijst.includes(actief))) {
+    actief = lijst[0];
+    setActiefGebruiker(actief);
+  }
   const container = document.getElementById("gebruikers-lijst");
   container.innerHTML = "";
 
