@@ -3,24 +3,32 @@
     "id": 537715,
     "datum": "za 25 april 20:00",
     "thuis": "NAC Breda",
-    "uit": "Ajax"
+    "thuisLogo": "https://crests.football-data.org/681.png",
+    "uit": "Ajax",
+    "uitLogo": "https://crests.football-data.org/678.png"
   },
   {
     "id": 537720,
     "datum": "za 2 mei 20:00",
     "thuis": "Ajax",
-    "uit": "PSV"
+    "thuisLogo": "https://crests.football-data.org/678.png",
+    "uit": "PSV",
+    "uitLogo": "https://crests.football-data.org/674.png"
   },
   {
     "id": 537729,
     "datum": "zo 10 mei 16:45",
     "thuis": "Ajax",
-    "uit": "FC Utrecht"
+    "thuisLogo": "https://crests.football-data.org/678.png",
+    "uit": "FC Utrecht",
+    "uitLogo": "https://crests.football-data.org/676.png"
   },
   {
     "id": 537745,
     "datum": "zo 17 mei 14:30",
     "thuis": "Heerenveen",
-    "uit": "Ajax"
+    "thuisLogo": "https://crests.football-data.org/673.png",
+    "uit": "Ajax",
+    "uitLogo": "https://crests.football-data.org/678.png"
   }
 ]

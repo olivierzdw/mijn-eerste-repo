@@ -61,10 +61,12 @@ jobs:
               maand = maand_namen[d.month - 1]
               datum = f"{dag} {d.day} {maand} {d.hour:02d}:{d.minute:02d}"
               matches.append({
-                  'id':    m['id'],
-                  'datum': datum,
-                  'thuis': club_mapping.get(m['homeTeam']['name'], m['homeTeam']['name']),
-                  'uit':   club_mapping.get(m['awayTeam']['name'], m['awayTeam']['name']),
+                  'id':        m['id'],
+                  'datum':     datum,
+                  'thuis':     club_mapping.get(m['homeTeam']['name'], m['homeTeam']['name']),
+                  'thuisLogo': m['homeTeam'].get('crest', ''),
+                  'uit':       club_mapping.get(m['awayTeam']['name'], m['awayTeam']['name']),
+                  'uitLogo':   m['awayTeam'].get('crest', ''),
               })
 
           with open('data/ajax-matches.json','w') as f:

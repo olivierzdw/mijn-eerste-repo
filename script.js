@@ -18,10 +18,10 @@ const clubs = [
 let ajaxWedstrijden = [];
 
 const afcLogos = {
-  "AFC JO11-4":          "https://www.afc.nl/wp-content/uploads/2022/10/afc-logo-color.png",
-  "ASV Blauw-Wit JO11-5":"https://www.hollandsevelden.nl/images/club_logo_van_voetbalvereniging_blauw-wit-asv_uit_amsterdam.png",
-  "DTA Fortius JO11-2":  "https://www.hollandsevelden.nl/images/club_logo_van_voetbalvereniging_fortius_uit_amsterdam.png",
-  "Sloterdijk JO11-1":   "https://www.hollandsevelden.nl/images/club_logo_van_voetbalvereniging_sloterdijk-avv_uit_amsterdam.png",
+  "AFC JO11-4":          "images/afc.png",
+  "ASV Blauw-Wit JO11-5":"images/blauw-wit.png",
+  "DTA Fortius JO11-2":  "images/fortius.png",
+  "Sloterdijk JO11-1":   "images/sloterdijk.png",
 };
 
 const afcWedstrijden = [
@@ -254,7 +254,7 @@ function renderAjaxWedstrijden() {
       <span class="datum">${w.datum}</span>
       <div class="ajax-match">
         <div class="club-blok-klein">
-          <img src="${logoVanClub(w.thuis)}" alt="${w.thuis}" />
+          <img src="${w.thuisLogo || logoVanClub(w.thuis)}" alt="${w.thuis}" />
           <span>${w.thuis}</span>
         </div>
         <div class="score-midden-klein">
@@ -264,7 +264,7 @@ function renderAjaxWedstrijden() {
           <span class="live-minuut" id="live-ajax-${i}"></span>
         </div>
         <div class="club-blok-klein rechts">
-          <img src="${logoVanClub(w.uit)}" alt="${w.uit}" />
+          <img src="${w.uitLogo || logoVanClub(w.uit)}" alt="${w.uit}" />
           <span>${w.uit}</span>
         </div>
       </div>
