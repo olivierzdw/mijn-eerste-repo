@@ -37,7 +37,7 @@ jobs:
               'EL':'Europa League','BSA':'Brasileirão','ELC':'Championship',
           }
 
-          logo_override = {'NAC Breda': 'images/nac-breda.png'}
+          logo_override = {'NAC Breda': 'images/nac-breda-v2.png'}
 
           def fmt(utc, met_tijd=True):
               d = datetime.fromisoformat(utc.replace('Z','+00:00')).astimezone(tz)

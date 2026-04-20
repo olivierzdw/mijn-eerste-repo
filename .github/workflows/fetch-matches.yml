@@ -140,7 +140,7 @@ jobs:
               'Willem II':'Willem II','Heracles Almelo':'Heracles',
           }
           logo_override = {
-              'NAC Breda': 'images/nac-breda.png',
+              'NAC Breda': 'images/nac-breda-v2.png',
           }
 
           table = data['standings'][0]['table']

@@ -11,7 +11,7 @@ const clubs = [
   { naam: "Sparta",          logo: "https://upload.wikimedia.org/wikipedia/en/9/9f/Sparta_Rotterdam_logo.svg" },
   { naam: "RKC",             logo: "https://upload.wikimedia.org/wikipedia/en/6/67/RKC_Waalwijk_logo.svg" },
   { naam: "Go Ahead Eagles", logo: "https://upload.wikimedia.org/wikipedia/commons/d/d4/Go_Ahead_Eagles_logo.svg" },
-  { naam: "NAC Breda",       logo: "https://upload.wikimedia.org/wikipedia/commons/c/c9/Logo_NAC_Breda.svg" },
+  { naam: "NAC Breda",       logo: "images/nac-breda-v2.png" },
   { naam: "Willem II",       logo: "https://upload.wikimedia.org/wikipedia/en/7/77/Willem_II_logo.svg" },
 ];
 
