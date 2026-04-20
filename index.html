@@ -12,7 +12,8 @@
     <h1>⚽ Olliebet</h1>
 
     <div class="header-nav">
-      <button class="nav-btn" id="nav-btn" onclick="toggleUitslagen()">Uitslagen</button>
+      <button class="nav-btn" id="btn-uitslagen" onclick="toonPagina('uitslagen')">Uitslagen</button>
+      <button class="nav-btn" id="btn-stand" onclick="toonPagina('stand')">Stand</button>
     </div>
 
     <div class="gebruikers-balk">
@@ -26,6 +27,13 @@
       <button class="annuleer" onclick="verbergNieuweGebruiker()">Annuleer</button>
     </div>
   </header>
+
+  <div class="uitslagen-panel hidden" id="stand-panel">
+    <div class="uitslagen-header">
+      <h2>Eredivisie stand</h2>
+    </div>
+    <div id="stand-lijst"></div>
+  </div>
 
   <div class="uitslagen-panel hidden" id="uitslagen-panel">
     <div class="uitslagen-header">

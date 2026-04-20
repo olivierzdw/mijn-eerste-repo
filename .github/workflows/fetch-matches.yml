@@ -119,12 +119,58 @@ jobs:
           print(f"Saved {len(results)} results")
           EOF
 
+      - name: Fetch Eredivisie stand
+        run: |
+          curl -s "https://api.football-data.org/v4/competitions/DED/standings" \
+            -H "X-Auth-Token: ${{ secrets.FOOTBALL_API_KEY }}" \
+            -o ded_stand.json
+
+          python3 - <<'EOF'
+          import json
+
+          with open('ded_stand.json') as f:
+              data = json.load(f)
+
+          club_mapping = {
+              'AFC Ajax':'Ajax','PSV Eindhoven':'PSV','PSV':'PSV','Feyenoord':'Feyenoord',
+              'AZ Alkmaar':'AZ','FC Utrecht':'FC Utrecht','FC Twente':'Twente',
+              'NEC Nijmegen':'NEC','SC Heerenveen':'Heerenveen','FC Groningen':'Groningen',
+              'Sparta Rotterdam':'Sparta','RKC Waalwijk':'RKC',
+              'Go Ahead Eagles':'Go Ahead Eagles','NAC Breda':'NAC Breda',
+              'Willem II':'Willem II','Heracles Almelo':'Heracles',
+          }
+
+          table = data['standings'][0]['table']
+          stand = []
+          for row in table:
+              t = row['team']
+              naam = club_mapping.get(t['name'], t['name'])
+              ds = row['goalsFor'] - row['goalsAgainst']
+              stand.append({
+                  'positie':   row['position'],
+                  'club':      naam,
+                  'logo':      t.get('crest', ''),
+                  'gespeeld':  row['playedGames'],
+                  'punten':    row['points'],
+                  'gewonnen':  row['won'],
+                  'gelijk':    row['draw'],
+                  'verloren':  row['lost'],
+                  'doelsaldo': ds,
+                  'voor':      row['goalsFor'],
+                  'tegen':     row['goalsAgainst'],
+              })
+
+          with open('data/eredivisie-stand.json', 'w') as f:
+              json.dump(stand, f, ensure_ascii=False, indent=2)
+          print(f"Saved {len(stand)} teams")
+          EOF
+
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/ajax-matches.json data/ajax-results.json
-          git diff --staged --quiet || git commit -m "Update Ajax wedstrijden"
+          git add data/ajax-matches.json data/ajax-results.json data/eredivisie-stand.json
+          git diff --staged --quiet || git commit -m "Update Ajax wedstrijden en stand"
           git push
 
       - uses: actions/configure-pages@v5
