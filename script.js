@@ -551,12 +551,16 @@ document.addEventListener("DOMContentLoaded", () => {
 async function zoekClubs(query) {
   try {
     const res = await fetch(
-      `https://api.football-data.org/v4/teams?search=${encodeURIComponent(query)}`,
-      { headers: { 'X-Auth-Token': FOOTBALL_API_KEY } }
+      `https://www.thesportsdb.com/api/v1/json/3/searchteams.php?t=${encodeURIComponent(query)}`
     );
     const data = await res.json();
-    toonZoekResultaten(data.teams || []);
-  } catch(e) {}
+    const teams = (data.teams || []).filter(t =>
+      t.strSport === 'Soccer' || t.strSport === 'Football'
+    );
+    toonZoekResultaten(teams);
+  } catch(e) {
+    toonZoekResultaten([]);
+  }
 }
 
 function toonZoekResultaten(teams) {
@@ -571,9 +575,9 @@ function toonZoekResultaten(teams) {
     const item = document.createElement("div");
     item.className = "zoek-item";
     item.innerHTML = `
-      ${team.crest ? `<img src="${team.crest}" alt="" onerror="this.style.display='none'" />` : ''}
-      <span class="zoek-naam">${team.name}</span>
-      <span class="zoek-land">${team.area?.name || ''}</span>
+      ${team.strTeamBadge ? `<img src="${team.strTeamBadge}" alt="" onerror="this.style.display='none'" />` : ''}
+      <span class="zoek-naam">${team.strTeam}</span>
+      <span class="zoek-land">${team.strCountry || ''}</span>
     `;
     item.onclick = () => kiesClub(team);
     container.appendChild(item);
@@ -581,28 +585,38 @@ function toonZoekResultaten(teams) {
   container.classList.remove("hidden");
 }
 
+function formatSportsDbDatum(dateStr, timeStr) {
+  if (!dateStr) return '';
+  const d = new Date(`${dateStr}T${timeStr || '00:00:00'}`);
+  const dag   = dagNamen[d.getDay()];
+  const maand = maandNamen[d.getMonth()];
+  const tijd  = timeStr
+    ? d.toLocaleTimeString("nl-NL", { hour: "2-digit", minute: "2-digit", timeZone: "Europe/Amsterdam" })
+    : '';
+  return `${dag} ${d.getDate()} ${maand}${tijd ? ' ' + tijd : ''}`;
+}
+
 async function kiesClub(team) {
-  gekozenClubId = team.id;
-  document.getElementById("club-zoek-input").value = team.name;
+  gekozenClubId = team.idTeam;
+  document.getElementById("club-zoek-input").value = team.strTeam;
   document.getElementById("club-zoek-resultaten").classList.add("hidden");
-  document.getElementById("club-sectie-titel").textContent = `Komende ${team.name} wedstrijden`;
+  document.getElementById("club-sectie-titel").textContent = `Komende ${team.strTeam} wedstrijden`;
   document.getElementById("club-sectie").classList.remove("hidden");
   document.getElementById("club-wedstrijden").innerHTML =
     `<p style="color:#666;text-align:center">Laden...</p>`;
 
   try {
     const res = await fetch(
-      `https://api.football-data.org/v4/teams/${team.id}/matches?status=SCHEDULED,TIMED`,
-      { headers: { 'X-Auth-Token': FOOTBALL_API_KEY } }
+      `https://www.thesportsdb.com/api/v1/json/3/eventsnext.php?id=${team.idTeam}`
     );
     const data = await res.json();
-    clubWedstrijden = (data.matches || []).map(m => ({
-      id:        m.id,
-      datum:     formatDatum(m.utcDate),
-      thuis:     clubNaam(m.homeTeam.name),
-      thuisLogo: m.homeTeam.crest || '',
-      uit:       clubNaam(m.awayTeam.name),
-      uitLogo:   m.awayTeam.crest || '',
+    clubWedstrijden = (data.events || []).map(e => ({
+      id:        e.idEvent,
+      datum:     formatSportsDbDatum(e.dateEvent, e.strTime),
+      thuis:     e.strHomeTeam,
+      thuisLogo: e.strHomeTeamBadge || '',
+      uit:       e.strAwayTeam,
+      uitLogo:   e.strAwayTeamBadge || '',
     }));
     renderClubWedstrijden();
   } catch(e) {
