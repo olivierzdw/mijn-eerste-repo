@@ -1,17 +1,32 @@
 const clubs = [
-  "Ajax", "PSV", "Feyenoord", "AZ", "FC Utrecht",
-  "Twente", "NEC", "Heerenveen", "Groningen", "Vitesse",
-  "Sparta", "RKC", "Go Ahead Eagles", "PEC Zwolle", "FC Volendam",
-  "Almere City", "NAC Breda", "Willem II"
+  { naam: "Ajax", logo: "https://upload.wikimedia.org/wikipedia/en/7/79/Ajax_Amsterdam.svg" },
+  { naam: "PSV", logo: "https://upload.wikimedia.org/wikipedia/en/0/05/PSV_Eindhoven.svg" },
+  { naam: "Feyenoord", logo: "https://upload.wikimedia.org/wikipedia/en/f/f1/Feyenoord_logo.svg" },
+  { naam: "AZ", logo: "https://upload.wikimedia.org/wikipedia/en/5/5c/AZ_Alkmaar.svg" },
+  { naam: "FC Utrecht", logo: "https://upload.wikimedia.org/wikipedia/en/5/5e/FC_Utrecht.svg" },
+  { naam: "Twente", logo: "https://upload.wikimedia.org/wikipedia/en/5/5b/FC_Twente.svg" },
+  { naam: "NEC", logo: "https://upload.wikimedia.org/wikipedia/en/c/c1/NEC_Nijmegen.svg" },
+  { naam: "Heerenveen", logo: "https://upload.wikimedia.org/wikipedia/en/3/39/SC_Heerenveen.svg" },
+  { naam: "Groningen", logo: "https://upload.wikimedia.org/wikipedia/en/5/5e/FC_Groningen.svg" },
+  { naam: "Sparta", logo: "https://upload.wikimedia.org/wikipedia/en/6/6f/Sparta_Rotterdam.svg" },
+  { naam: "RKC", logo: "https://upload.wikimedia.org/wikipedia/en/6/67/RKC_Waalwijk.svg" },
+  { naam: "Go Ahead Eagles", logo: "https://upload.wikimedia.org/wikipedia/en/c/c8/Go_Ahead_Eagles.svg" },
+  { naam: "NAC Breda", logo: "https://upload.wikimedia.org/wikipedia/en/f/f2/NAC_Breda.svg" },
+  { naam: "Willem II", logo: "https://upload.wikimedia.org/wikipedia/en/b/b8/Willem_II_Tilburg.svg" },
 ];
 
 function vulClubDropdowns() {
   const thuisSelect = document.getElementById("thuis-club");
   const uitSelect = document.getElementById("uit-club");
   clubs.forEach(club => {
-    thuisSelect.innerHTML += `<option value="${club}">${club}</option>`;
-    uitSelect.innerHTML += `<option value="${club}">${club}</option>`;
+    thuisSelect.innerHTML += `<option value="${club.naam}">${club.naam}</option>`;
+    uitSelect.innerHTML += `<option value="${club.naam}">${club.naam}</option>`;
   });
+}
+
+function logoVanClub(naam) {
+  const club = clubs.find(c => c.naam === naam);
+  return club ? club.logo : "";
 }
 
 function laadVoorspellingen() {
@@ -37,9 +52,11 @@ function renderLijst() {
     div.className = "voorspelling";
     div.innerHTML = `
       <div class="clubs">
+        <img src="${logoVanClub(v.thuis)}" alt="${v.thuis}" class="club-logo" />
         <span>${v.thuis}</span>
         <span style="color:#666">vs</span>
         <span>${v.uit}</span>
+        <img src="${logoVanClub(v.uit)}" alt="${v.uit}" class="club-logo" />
       </div>
       <div class="score">${v.thuisScore} – ${v.uitScore}</div>
       <button class="verwijder" onclick="verwijder(${i})">✕</button>

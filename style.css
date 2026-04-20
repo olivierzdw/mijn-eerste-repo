@@ -138,6 +138,12 @@ button:hover {
   font-size: 1.05rem;
 }
 
+.club-logo {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
 .voorspelling .score {
   font-size: 1.3rem;
   font-weight: bold;
