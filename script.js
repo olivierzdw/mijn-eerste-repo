@@ -372,14 +372,10 @@ async function toonPagina(pagina) {
   document.getElementById("main-inhoud").classList.toggle("hidden", pagina !== "wedstrijden");
   document.getElementById("uitslagen-panel").classList.toggle("hidden", pagina !== "uitslagen");
   document.getElementById("stand-panel").classList.toggle("hidden", pagina !== "stand");
-  document.getElementById("stand-afc-panel").classList.toggle("hidden", pagina !== "stand-afc");
-
   document.getElementById("btn-uitslagen").classList.toggle("actief", pagina === "uitslagen");
   document.getElementById("btn-uitslagen").textContent = pagina === "uitslagen" ? "Wedstrijden" : "Uitslagen";
   document.getElementById("btn-stand").classList.toggle("actief", pagina === "stand");
   document.getElementById("btn-stand").textContent = pagina === "stand" ? "Wedstrijden" : "Stand";
-  document.getElementById("btn-stand-afc").classList.toggle("actief", pagina === "stand-afc");
-  document.getElementById("btn-stand-afc").textContent = pagina === "stand-afc" ? "Wedstrijden" : "Stand AFC";
 
   if (pagina === "uitslagen") {
     document.getElementById("uitslagen-lijst").innerHTML = `<p style="text-align:center;color:#666">Laden...</p>`;
