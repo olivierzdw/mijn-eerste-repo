@@ -15,6 +15,11 @@ const clubs = [
   { naam: "Willem II", logo: "https://upload.wikimedia.org/wikipedia/en/b/b8/Willem_II_Tilburg.svg" },
 ];
 
+function logoVanClub(naam) {
+  const club = clubs.find(c => c.naam === naam);
+  return club ? club.logo : "";
+}
+
 function vulClubDropdowns() {
   const thuisSelect = document.getElementById("thuis-club");
   const uitSelect = document.getElementById("uit-club");
@@ -24,9 +29,19 @@ function vulClubDropdowns() {
   });
 }
 
-function logoVanClub(naam) {
-  const club = clubs.find(c => c.naam === naam);
-  return club ? club.logo : "";
+function updateLogo(kant) {
+  const select = document.getElementById(`${kant}-club`);
+  const img = document.getElementById(`${kant}-logo`);
+  const naam = select.value;
+  if (naam) {
+    img.src = logoVanClub(naam);
+    img.alt = naam;
+    img.classList.add("actief");
+  } else {
+    img.src = "";
+    img.alt = "";
+    img.classList.remove("actief");
+  }
 }
 
 function laadVoorspellingen() {
@@ -52,11 +67,11 @@ function renderLijst() {
     div.className = "voorspelling";
     div.innerHTML = `
       <div class="clubs">
-        <img src="${logoVanClub(v.thuis)}" alt="${v.thuis}" class="club-logo" />
+        <img src="${logoVanClub(v.thuis)}" alt="${v.thuis}" />
         <span>${v.thuis}</span>
         <span style="color:#666">vs</span>
         <span>${v.uit}</span>
-        <img src="${logoVanClub(v.uit)}" alt="${v.uit}" class="club-logo" />
+        <img src="${logoVanClub(v.uit)}" alt="${v.uit}" />
       </div>
       <div class="score">${v.thuisScore} – ${v.uitScore}</div>
       <button class="verwijder" onclick="verwijder(${i})">✕</button>
@@ -70,20 +85,13 @@ function voegToe() {
   const uit = document.getElementById("uit-club").value;
   const thuisScore = document.getElementById("thuis-score").value;
   const uitScore = document.getElementById("uit-score").value;
+  const fout = document.getElementById("fout-melding");
 
-  if (!thuis || !uit) {
-    toonFout("Kies twee clubs.");
-    return;
-  }
-  if (thuis === uit) {
-    toonFout("Kies twee verschillende clubs.");
-    return;
-  }
-  if (thuisScore === "" || uitScore === "") {
-    toonFout("Vul een score in voor beide clubs.");
-    return;
-  }
+  if (!thuis || !uit) { fout.textContent = "Kies twee clubs."; return; }
+  if (thuis === uit) { fout.textContent = "Kies twee verschillende clubs."; return; }
+  if (thuisScore === "" || uitScore === "") { fout.textContent = "Vul een score in voor beide clubs."; return; }
 
+  fout.textContent = "";
   const lijst = laadVoorspellingen();
   lijst.push({ thuis, uit, thuisScore, uitScore });
   slaOpVoorspellingen(lijst);
@@ -93,6 +101,8 @@ function voegToe() {
   document.getElementById("uit-club").value = "";
   document.getElementById("thuis-score").value = "";
   document.getElementById("uit-score").value = "";
+  updateLogo("thuis");
+  updateLogo("uit");
 }
 
 function verwijder(index) {
@@ -100,17 +110,6 @@ function verwijder(index) {
   lijst.splice(index, 1);
   slaOpVoorspellingen(lijst);
   renderLijst();
-}
-
-function toonFout(bericht) {
-  let fout = document.querySelector(".fout");
-  if (!fout) {
-    fout = document.createElement("p");
-    fout.className = "fout";
-    document.querySelector(".wedstrijd-maker").appendChild(fout);
-  }
-  fout.textContent = bericht;
-  setTimeout(() => fout.textContent = "", 3000);
 }
 
 vulClubDropdowns();
