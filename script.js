@@ -159,14 +159,13 @@ function renderChat() {
   const input  = document.getElementById("chat-input");
   const btn    = document.getElementById("chat-verstuur");
 
+  input.disabled = false;
+  btn.disabled = false;
   if (!actief) {
-    hint.textContent = "Kies eerst een speler om te kunnen chatten.";
-    input.disabled = true;
+    hint.textContent = "Kies eerst een speler om te kunnen versturen.";
     btn.disabled = true;
   } else {
     hint.textContent = `Je chat als ${actief}`;
-    input.disabled = false;
-    btn.disabled = false;
   }
 
   if (chatBerichten.length === 0) {
