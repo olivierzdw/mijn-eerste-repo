@@ -525,6 +525,7 @@ let zoekTimeout = null;
 let gekozenClubId = null;
 let clubWedstrijden = [];
 let clubsLijst = null;
+let clubsMatches = null;
 
 function sleutelClub(teamId) {
   return `olliebet-club-${teamId}-${actiefGebruiker()}`;
@@ -598,19 +599,11 @@ async function kiesClub(club) {
     `<p style="color:#666;text-align:center">Laden...</p>`;
 
   try {
-    const res = await fetch(
-      `https://api.football-data.org/v4/teams/${club.id}/matches?status=SCHEDULED,TIMED`,
-      { headers: { 'X-Auth-Token': FOOTBALL_API_KEY } }
-    );
-    const data = await res.json();
-    clubWedstrijden = (data.matches || []).map(m => ({
-      id:        m.id,
-      datum:     formatDatum(m.utcDate),
-      thuis:     m.homeTeam.name,
-      thuisLogo: m.homeTeam.crest || '',
-      uit:       m.awayTeam.name,
-      uitLogo:   m.awayTeam.crest || '',
-    }));
+    if (!clubsMatches) {
+      const res = await fetch(`data/clubs-matches.json?t=${Date.now()}`);
+      clubsMatches = await res.json();
+    }
+    clubWedstrijden = clubsMatches[String(club.id)] || [];
     renderClubWedstrijden();
   } catch(e) {
     document.getElementById("club-wedstrijden").innerHTML =

@@ -14,16 +14,33 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Fetch all clubs from major competitions
+      - name: Fetch clubs and upcoming matches
         run: |
           python3 - <<'EOF'
           import json, urllib.request, time
 
           API_KEY = '${{ secrets.FOOTBALL_API_KEY }}'
           competitions = ['PL', 'PD', 'BL1', 'SA', 'FL1', 'DED', 'PPL', 'CL', 'EL', 'BSA', 'ELC']
+
+          dag_namen   = ['zo','ma','di','wo','do','vr','za']
+          maand_namen = ['januari','februari','maart','april','mei','juni',
+                         'juli','augustus','september','oktober','november','december']
+
+          from datetime import datetime
+          import zoneinfo
+          tz = zoneinfo.ZoneInfo('Europe/Amsterdam')
+
+          def fmt(utc):
+              d = datetime.fromisoformat(utc.replace('Z','+00:00')).astimezone(tz)
+              dag   = dag_namen[(d.weekday()+1)%7]
+              maand = maand_namen[d.month-1]
+              return f"{dag} {d.day} {maand} {d.hour:02d}:{d.minute:02d}"
+
           clubs = {}
+          matches_per_club = {}
 
           for comp in competitions:
+              # Fetch teams
               url = f'https://api.football-data.org/v4/competitions/{comp}/teams'
               req = urllib.request.Request(url, headers={'X-Auth-Token': API_KEY})
               try:
@@ -36,21 +53,49 @@ jobs:
                           'logo': t.get('crest', ''),
                           'land': t.get('area', {}).get('name', ''),
                       }
-                  print(f"{comp}: {len(data.get('teams', []))} clubs")
+                  print(f"{comp} teams: {len(data.get('teams', []))}")
               except Exception as e:
-                  print(f"{comp}: fout - {e}")
+                  print(f"{comp} teams fout: {e}")
+              time.sleep(7)
+
+              # Fetch upcoming matches
+              url = f'https://api.football-data.org/v4/competitions/{comp}/matches?status=SCHEDULED,TIMED'
+              req = urllib.request.Request(url, headers={'X-Auth-Token': API_KEY})
+              try:
+                  with urllib.request.urlopen(req) as r:
+                      data = json.loads(r.read())
+                  for m in data.get('matches', []):
+                      wedstrijd = {
+                          'id':        m['id'],
+                          'datum':     fmt(m['utcDate']),
+                          'thuis':     m['homeTeam']['name'],
+                          'thuisLogo': m['homeTeam'].get('crest',''),
+                          'uit':       m['awayTeam']['name'],
+                          'uitLogo':   m['awayTeam'].get('crest',''),
+                      }
+                      for team_id in [m['homeTeam']['id'], m['awayTeam']['id']]:
+                          matches_per_club.setdefault(team_id, [])
+                          if not any(x['id'] == m['id'] for x in matches_per_club[team_id]):
+                              matches_per_club[team_id].append(wedstrijd)
+                  print(f"{comp} matches: {len(data.get('matches', []))}")
+              except Exception as e:
+                  print(f"{comp} matches fout: {e}")
               time.sleep(7)
 
           result = sorted(clubs.values(), key=lambda c: c['naam'])
           with open('data/clubs.json', 'w') as f:
               json.dump(result, f, ensure_ascii=False, indent=2)
-          print(f"Totaal: {len(result)} clubs opgeslagen")
+
+          with open('data/clubs-matches.json', 'w') as f:
+              json.dump({str(k): v for k,v in matches_per_club.items()}, f, ensure_ascii=False, indent=2)
+
+          print(f"Clubs: {len(result)}, clubs met wedstrijden: {len(matches_per_club)}")
           EOF
 
-      - name: Commit updated clubs
+      - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/clubs.json
-          git diff --staged --quiet || git commit -m "Update clubs lijst"
+          git add data/clubs.json data/clubs-matches.json
+          git diff --staged --quiet || git commit -m "Update clubs en wedstrijden"
           git push
