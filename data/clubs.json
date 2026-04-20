@@ -1,62 +1,1118 @@
 [
-  {"id": 57,  "naam": "Arsenal FC",               "logo": "https://crests.football-data.org/57.png",  "land": "England"},
-  {"id": 58,  "naam": "Aston Villa FC",            "logo": "https://crests.football-data.org/58.png",  "land": "England"},
-  {"id": 61,  "naam": "Chelsea FC",                "logo": "https://crests.football-data.org/61.png",  "land": "England"},
-  {"id": 62,  "naam": "Everton FC",                "logo": "https://crests.football-data.org/62.png",  "land": "England"},
-  {"id": 63,  "naam": "Fulham FC",                 "logo": "https://crests.football-data.org/63.png",  "land": "England"},
-  {"id": 64,  "naam": "Liverpool FC",              "logo": "https://crests.football-data.org/64.png",  "land": "England"},
-  {"id": 65,  "naam": "Manchester City FC",        "logo": "https://crests.football-data.org/65.png",  "land": "England"},
-  {"id": 66,  "naam": "Manchester United FC",      "logo": "https://crests.football-data.org/66.png",  "land": "England"},
-  {"id": 67,  "naam": "Newcastle United FC",       "logo": "https://crests.football-data.org/67.png",  "land": "England"},
-  {"id": 73,  "naam": "Tottenham Hotspur FC",      "logo": "https://crests.football-data.org/73.png",  "land": "England"},
-  {"id": 338, "naam": "Leicester City FC",         "logo": "https://crests.football-data.org/338.png", "land": "England"},
-  {"id": 340, "naam": "Southampton FC",            "logo": "https://crests.football-data.org/340.png", "land": "England"},
-  {"id": 354, "naam": "Crystal Palace FC",         "logo": "https://crests.football-data.org/354.png", "land": "England"},
-  {"id": 356, "naam": "Sheffield United FC",       "logo": "https://crests.football-data.org/356.png", "land": "England"},
-  {"id": 397, "naam": "Brighton & Hove Albion FC", "logo": "https://crests.football-data.org/397.png", "land": "England"},
-  {"id": 402, "naam": "Brentford FC",              "logo": "https://crests.football-data.org/402.png", "land": "England"},
-  {"id": 563, "naam": "West Ham United FC",        "logo": "https://crests.football-data.org/563.png", "land": "England"},
-  {"id": 76,  "naam": "Wolverhampton Wanderers FC","logo": "https://crests.football-data.org/76.png",  "land": "England"},
-  {"id": 77,  "naam": "Athletic Club",             "logo": "https://crests.football-data.org/77.png",  "land": "Spain"},
-  {"id": 78,  "naam": "Atlético de Madrid",        "logo": "https://crests.football-data.org/78.png",  "land": "Spain"},
-  {"id": 81,  "naam": "FC Barcelona",              "logo": "https://crests.football-data.org/81.png",  "land": "Spain"},
-  {"id": 82,  "naam": "Getafe CF",                 "logo": "https://crests.football-data.org/82.png",  "land": "Spain"},
-  {"id": 86,  "naam": "Real Madrid CF",            "logo": "https://crests.football-data.org/86.png",  "land": "Spain"},
-  {"id": 87,  "naam": "Rayo Vallecano de Madrid",  "logo": "https://crests.football-data.org/87.png",  "land": "Spain"},
-  {"id": 90,  "naam": "Real Betis Balompié",       "logo": "https://crests.football-data.org/90.png",  "land": "Spain"},
-  {"id": 92,  "naam": "Real Sociedad de Fútbol",   "logo": "https://crests.football-data.org/92.png",  "land": "Spain"},
-  {"id": 94,  "naam": "Villarreal CF",             "logo": "https://crests.football-data.org/94.png",  "land": "Spain"},
-  {"id": 95,  "naam": "Valencia CF",               "logo": "https://crests.football-data.org/95.png",  "land": "Spain"},
-  {"id": 559, "naam": "Sevilla FC",                "logo": "https://crests.football-data.org/559.png", "land": "Spain"},
-  {"id": 3,   "naam": "Bayer 04 Leverkusen",       "logo": "https://crests.football-data.org/3.png",   "land": "Germany"},
-  {"id": 4,   "naam": "Borussia Dortmund",         "logo": "https://crests.football-data.org/4.png",   "land": "Germany"},
-  {"id": 5,   "naam": "FC Bayern München",         "logo": "https://crests.football-data.org/5.png",   "land": "Germany"},
-  {"id": 9,   "naam": "Eintracht Frankfurt",       "logo": "https://crests.football-data.org/9.png",   "land": "Germany"},
-  {"id": 11,  "naam": "VfL Wolfsburg",             "logo": "https://crests.football-data.org/11.png",  "land": "Germany"},
-  {"id": 18,  "naam": "Borussia Mönchengladbach",  "logo": "https://crests.football-data.org/18.png",  "land": "Germany"},
-  {"id": 721, "naam": "RB Leipzig",                "logo": "https://crests.football-data.org/721.png", "land": "Germany"},
-  {"id": 98,  "naam": "AC Milan",                  "logo": "https://crests.football-data.org/98.png",  "land": "Italy"},
-  {"id": 99,  "naam": "ACF Fiorentina",            "logo": "https://crests.football-data.org/99.png",  "land": "Italy"},
-  {"id": 100, "naam": "AS Roma",                   "logo": "https://crests.football-data.org/100.png", "land": "Italy"},
-  {"id": 102, "naam": "Atalanta BC",               "logo": "https://crests.football-data.org/102.png", "land": "Italy"},
-  {"id": 108, "naam": "Inter Milan",               "logo": "https://crests.football-data.org/108.png", "land": "Italy"},
-  {"id": 109, "naam": "Juventus FC",               "logo": "https://crests.football-data.org/109.png", "land": "Italy"},
-  {"id": 110, "naam": "SS Lazio",                  "logo": "https://crests.football-data.org/110.png", "land": "Italy"},
-  {"id": 113, "naam": "SSC Napoli",                "logo": "https://crests.football-data.org/113.png", "land": "Italy"},
-  {"id": 516, "naam": "Olympique de Marseille",    "logo": "https://crests.football-data.org/516.png", "land": "France"},
-  {"id": 523, "naam": "Olympique Lyonnais",        "logo": "https://crests.football-data.org/523.png", "land": "France"},
-  {"id": 524, "naam": "Paris Saint-Germain FC",    "logo": "https://crests.football-data.org/524.png", "land": "France"},
-  {"id": 548, "naam": "AS Monaco FC",              "logo": "https://crests.football-data.org/548.png", "land": "France"},
-  {"id": 674, "naam": "PSV",                       "logo": "https://crests.football-data.org/674.png", "land": "Netherlands"},
-  {"id": 675, "naam": "Feyenoord",                 "logo": "https://crests.football-data.org/675.png", "land": "Netherlands"},
-  {"id": 676, "naam": "FC Twente",                 "logo": "https://crests.football-data.org/676.png", "land": "Netherlands"},
-  {"id": 677, "naam": "FC Utrecht",                "logo": "https://crests.football-data.org/677.png", "land": "Netherlands"},
-  {"id": 678, "naam": "Ajax",                      "logo": "https://crests.football-data.org/678.png", "land": "Netherlands"},
-  {"id": 679, "naam": "RKC Waalwijk",              "logo": "https://crests.football-data.org/679.png", "land": "Netherlands"},
-  {"id": 680, "naam": "AZ Alkmaar",                "logo": "https://crests.football-data.org/680.png", "land": "Netherlands"},
-  {"id": 682, "naam": "Sparta Rotterdam",          "logo": "https://crests.football-data.org/682.png", "land": "Netherlands"},
-  {"id": 683, "naam": "Go Ahead Eagles",           "logo": "https://crests.football-data.org/683.png", "land": "Netherlands"},
-  {"id": 503, "naam": "FC Porto",                  "logo": "https://crests.football-data.org/503.png", "land": "Portugal"},
-  {"id": 498, "naam": "SL Benfica",                "logo": "https://crests.football-data.org/498.png", "land": "Portugal"},
-  {"id": 228, "naam": "Sporting CP",               "logo": "https://crests.football-data.org/228.png", "land": "Portugal"}
+  {
+    "id": 44,
+    "naam": "1. FC Heidenheim 1846",
+    "logo": "https://crests.football-data.org/44.png",
+    "land": "Germany"
+  },
+  {
+    "id": 1,
+    "naam": "1. FC Köln",
+    "logo": "https://crests.football-data.org/1.png",
+    "land": "Germany"
+  },
+  {
+    "id": 28,
+    "naam": "1. FC Union Berlin",
+    "logo": "https://crests.football-data.org/28.png",
+    "land": "Germany"
+  },
+  {
+    "id": 15,
+    "naam": "1. FSV Mainz 05",
+    "logo": "https://crests.football-data.org/15.png",
+    "land": "Germany"
+  },
+  {
+    "id": 98,
+    "naam": "AC Milan",
+    "logo": "https://crests.football-data.org/98.png",
+    "land": "Italy"
+  },
+  {
+    "id": 487,
+    "naam": "AC Pisa 1909",
+    "logo": "https://crests.football-data.org/487.png",
+    "land": "Italy"
+  },
+  {
+    "id": 99,
+    "naam": "ACF Fiorentina",
+    "logo": "https://crests.football-data.org/99.png",
+    "land": "Italy"
+  },
+  {
+    "id": 678,
+    "naam": "AFC Ajax",
+    "logo": "https://crests.football-data.org/678.png",
+    "land": "Netherlands"
+  },
+  {
+    "id": 1044,
+    "naam": "AFC Bournemouth",
+    "logo": "https://crests.football-data.org/bournemouth.png",
+    "land": "England"
+  },
+  {
+    "id": 519,
+    "naam": "AJ Auxerre",
+    "logo": "https://crests.football-data.org/519.png",
+    "land": "France"
+  },
+  {
+    "id": 548,
+    "naam": "AS Monaco FC",
+    "logo": "https://crests.football-data.org/548.png",
+    "land": "Monaco"
+  },
+  {
+    "id": 100,
+    "naam": "AS Roma",
+    "logo": "https://crests.football-data.org/100.png",
+    "land": "Italy"
+  },
+  {
+    "id": 10340,
+    "naam": "AVS",
+    "logo": "https://crests.football-data.org/10340.png",
+    "land": "Portugal"
+  },
+  {
+    "id": 682,
+    "naam": "AZ",
+    "logo": "https://crests.football-data.org/682.png",
+    "land": "Netherlands"
+  },
+  {
+    "id": 532,
+    "naam": "Angers SCO",
+    "logo": "https://crests.football-data.org/532.png",
+    "land": "France"
+  },
+  {
+    "id": 57,
+    "naam": "Arsenal FC",
+    "logo": "https://crests.football-data.org/57.png",
+    "land": "England"
+  },
+  {
+    "id": 58,
+    "naam": "Aston Villa FC",
+    "logo": "https://crests.football-data.org/58.png",
+    "land": "England"
+  },
+  {
+    "id": 102,
+    "naam": "Atalanta BC",
+    "logo": "https://crests.football-data.org/102.png",
+    "land": "Italy"
+  },
+  {
+    "id": 77,
+    "naam": "Athletic Club",
+    "logo": "https://crests.football-data.org/77.png",
+    "land": "Spain"
+  },
+  {
+    "id": 3,
+    "naam": "Bayer 04 Leverkusen",
+    "logo": "https://crests.football-data.org/3.png",
+    "land": "Germany"
+  },
+  {
+    "id": 332,
+    "naam": "Birmingham City FC",
+    "logo": "https://crests.football-data.org/332.png",
+    "land": "England"
+  },
+  {
+    "id": 59,
+    "naam": "Blackburn Rovers FC",
+    "logo": "https://crests.football-data.org/59.png",
+    "land": "England"
+  },
+  {
+    "id": 103,
+    "naam": "Bologna FC 1909",
+    "logo": "https://crests.football-data.org/103.png",
+    "land": "Italy"
+  },
+  {
+    "id": 4,
+    "naam": "Borussia Dortmund",
+    "logo": "https://crests.football-data.org/4.png",
+    "land": "Germany"
+  },
+  {
+    "id": 18,
+    "naam": "Borussia Mönchengladbach",
+    "logo": "https://crests.football-data.org/18.png",
+    "land": "Germany"
+  },
+  {
+    "id": 1770,
+    "naam": "Botafogo FR",
+    "logo": "https://crests.football-data.org/1770.png",
+    "land": "Brazil"
+  },
+  {
+    "id": 402,
+    "naam": "Brentford FC",
+    "logo": "https://crests.football-data.org/402.png",
+    "land": "England"
+  },
+  {
+    "id": 397,
+    "naam": "Brighton & Hove Albion FC",
+    "logo": "https://crests.football-data.org/397.png",
+    "land": "England"
+  },
+  {
+    "id": 387,
+    "naam": "Bristol City FC",
+    "logo": "https://crests.football-data.org/387.png",
+    "land": "England"
+  },
+  {
+    "id": 328,
+    "naam": "Burnley FC",
+    "logo": "https://crests.football-data.org/328.png",
+    "land": "England"
+  },
+  {
+    "id": 1766,
+    "naam": "CA Mineiro",
+    "logo": "https://crests.football-data.org/1766.png",
+    "land": "Brazil"
+  },
+  {
+    "id": 79,
+    "naam": "CA Osasuna",
+    "logo": "https://crests.football-data.org/79.png",
+    "land": "Spain"
+  },
+  {
+    "id": 1768,
+    "naam": "CA Paranaense",
+    "logo": "https://crests.football-data.org/1768.png",
+    "land": "Brazil"
+  },
+  {
+    "id": 5529,
+    "naam": "CD Nacional",
+    "logo": "https://crests.football-data.org/5529.png",
+    "land": "Portugal"
+  },
+  {
+    "id": 5530,
+    "naam": "CD Santa Clara",
+    "logo": "https://crests.football-data.org/5530.png",
+    "land": "Portugal"
+  },
+  {
+    "id": 1049,
+    "naam": "CD Tondela",
+    "logo": "https://crests.football-data.org/1049.png",
+    "land": "Portugal"
+  },
+  {
+    "id": 9136,
+    "naam": "CF Estrela da Amadora",
+    "logo": "https://crests.football-data.org/9136.png",
+    "land": "Portugal"
+  },
+  {
+    "id": 1783,
+    "naam": "CR Flamengo",
+    "logo": "https://crests.football-data.org/1783.png",
+    "land": "Brazil"
+  },
+  {
+    "id": 1780,
+    "naam": "CR Vasco da Gama",
+    "logo": "https://crests.football-data.org/1780.png",
+    "land": "Brazil"
+  },
+  {
+    "id": 104,
+    "naam": "Cagliari Calcio",
+    "logo": "https://crests.football-data.org/104.png",
+    "land": "Italy"
+  },
+  {
+    "id": 6618,
+    "naam": "Casa Pia AC",
+    "logo": "https://crests.football-data.org/6618.png",
+    "land": "Portugal"
+  },
+  {
+    "id": 1772,
+    "naam": "Chapecoense AF",
+    "logo": "https://crests.football-data.org/1772_large.png",
+    "land": "Brazil"
+  },
+  {
+    "id": 348,
+    "naam": "Charlton Athletic FC",
+    "logo": "https://crests.football-data.org/348.png",
+    "land": "England"
+  },
+  {
+    "id": 61,
+    "naam": "Chelsea FC",
+    "logo": "https://crests.football-data.org/61.png",
+    "land": "England"
+  },
+  {
+    "id": 78,
+    "naam": "Club Atlético de Madrid",
+    "logo": "https://crests.football-data.org/78.png",
+    "land": "Spain"
+  },
+  {
+    "id": 851,
+    "naam": "Club Brugge KV",
+    "logo": "https://crests.football-data.org/851.png",
+    "land": "Belgium"
+  },
+  {
+    "id": 4287,
+    "naam": "Clube do Remo",
+    "logo": "https://crests.football-data.org/4287.png",
+    "land": "Brazil"
+  },
+  {
+    "id": 7397,
+    "naam": "Como 1907",
+    "logo": "https://crests.football-data.org/7397.png",
+    "land": "Italy"
+  },
+  {
+    "id": 4241,
+    "naam": "Coritiba FBC",
+    "logo": "https://crests.football-data.org/4241.png",
+    "land": "Brazil"
+  },
+  {
+    "id": 1076,
+    "naam": "Coventry City FC",
+    "logo": "https://crests.football-data.org/1076.png",
+    "land": "England"
+  },
+  {
+    "id": 1771,
+    "naam": "Cruzeiro EC",
+    "logo": "https://crests.football-data.org/1771.png",
+    "land": "Brazil"
+  },
+  {
+    "id": 354,
+    "naam": "Crystal Palace FC",
+    "logo": "https://crests.football-data.org/354.png",
+    "land": "England"
+  },
+  {
+    "id": 263,
+    "naam": "Deportivo Alavés",
+    "logo": "https://crests.football-data.org/263.png",
+    "land": "Spain"
+  },
+  {
+    "id": 342,
+    "naam": "Derby County FC",
+    "logo": "https://crests.football-data.org/342.png",
+    "land": "England"
+  },
+  {
+    "id": 1777,
+    "naam": "EC Bahia",
+    "logo": "https://crests.football-data.org/1777.png",
+    "land": "Brazil"
+  },
+  {
+    "id": 1782,
+    "naam": "EC Vitória",
+    "logo": "https://crests.football-data.org/1782.png",
+    "land": "Brazil"
+  },
+  {
+    "id": 19,
+    "naam": "Eintracht Frankfurt",
+    "logo": "https://crests.football-data.org/19.png",
+    "land": "Germany"
+  },
+  {
+    "id": 285,
+    "naam": "Elche CF",
+    "logo": "https://crests.football-data.org/285.png",
+    "land": "Spain"
+  },
+  {
+    "id": 62,
+    "naam": "Everton FC",
+    "logo": "https://crests.football-data.org/62.png",
+    "land": "England"
+  },
+  {
+    "id": 7822,
+    "naam": "FC Alverca",
+    "logo": "https://crests.football-data.org/7822.png",
+    "land": "Portugal"
+  },
+  {
+    "id": 712,
+    "naam": "FC Arouca",
+    "logo": "https://crests.football-data.org/712.png",
+    "land": "Portugal"
+  },
+  {
+    "id": 16,
+    "naam": "FC Augsburg",
+    "logo": "https://crests.football-data.org/16.png",
+    "land": "Germany"
+  },
+  {
+    "id": 81,
+    "naam": "FC Barcelona",
+    "logo": "https://crests.football-data.org/81.png",
+    "land": "Spain"
+  },
+  {
+    "id": 5,
+    "naam": "FC Bayern München",
+    "logo": "https://crests.football-data.org/5.png",
+    "land": "Germany"
+  },
+  {
+    "id": 5531,
+    "naam": "FC Famalicão",
+    "logo": "https://crests.football-data.org/5531.png",
+    "land": "Portugal"
+  },
+  {
+    "id": 677,
+    "naam": "FC Groningen",
+    "logo": "https://crests.football-data.org/677.png",
+    "land": "Netherlands"
+  },
+  {
+    "id": 108,
+    "naam": "FC Internazionale Milano",
+    "logo": "https://crests.football-data.org/108.png",
+    "land": "Italy"
+  },
+  {
+    "id": 1876,
+    "naam": "FC København",
+    "logo": "https://crests.football-data.org/1876.png",
+    "land": "Denmark"
+  },
+  {
+    "id": 525,
+    "naam": "FC Lorient",
+    "logo": "https://crests.football-data.org/525.png",
+    "land": "France"
+  },
+  {
+    "id": 545,
+    "naam": "FC Metz",
+    "logo": "https://crests.football-data.org/545.png",
+    "land": "France"
+  },
+  {
+    "id": 543,
+    "naam": "FC Nantes",
+    "logo": "https://crests.football-data.org/543.png",
+    "land": "France"
+  },
+  {
+    "id": 503,
+    "naam": "FC Porto",
+    "logo": "https://crests.football-data.org/503.png",
+    "land": "Portugal"
+  },
+  {
+    "id": 20,
+    "naam": "FC St. Pauli 1910",
+    "logo": "https://crests.football-data.org/20.png",
+    "land": "Germany"
+  },
+  {
+    "id": 666,
+    "naam": "FC Twente '65",
+    "logo": "https://crests.football-data.org/666.png",
+    "land": "Netherlands"
+  },
+  {
+    "id": 676,
+    "naam": "FC Utrecht",
+    "logo": "https://crests.football-data.org/676.png",
+    "land": "Netherlands"
+  },
+  {
+    "id": 1919,
+    "naam": "FC Volendam",
+    "logo": "https://crests.football-data.org/1919.png",
+    "land": "Netherlands"
+  },
+  {
+    "id": 5721,
+    "naam": "FK Bodø/Glimt",
+    "logo": "https://crests.football-data.org/5721.png",
+    "land": "Norway"
+  },
+  {
+    "id": 10601,
+    "naam": "FK Kairat",
+    "logo": "https://crests.football-data.org/10601.png",
+    "land": "Kazakhstan"
+  },
+  {
+    "id": 675,
+    "naam": "Feyenoord Rotterdam",
+    "logo": "https://crests.football-data.org/675.png",
+    "land": "Netherlands"
+  },
+  {
+    "id": 1765,
+    "naam": "Fluminense FC",
+    "logo": "https://crests.football-data.org/1765.png",
+    "land": "Brazil"
+  },
+  {
+    "id": 1920,
+    "naam": "Fortuna Sittard",
+    "logo": "https://crests.football-data.org/1920.png",
+    "land": "Netherlands"
+  },
+  {
+    "id": 63,
+    "naam": "Fulham FC",
+    "logo": "https://crests.football-data.org/63.png",
+    "land": "England"
+  },
+  {
+    "id": 582,
+    "naam": "GD Estoril Praia",
+    "logo": "https://crests.football-data.org/582.png",
+    "land": "Portugal"
+  },
+  {
+    "id": 610,
+    "naam": "Galatasaray SK",
+    "logo": "https://crests.football-data.org/610.png",
+    "land": "Turkey"
+  },
+  {
+    "id": 107,
+    "naam": "Genoa CFC",
+    "logo": "https://crests.football-data.org/107.png",
+    "land": "Italy"
+  },
+  {
+    "id": 82,
+    "naam": "Getafe CF",
+    "logo": "https://crests.football-data.org/82.png",
+    "land": "Spain"
+  },
+  {
+    "id": 5533,
+    "naam": "Gil Vicente FC",
+    "logo": "https://crests.football-data.org/5533.png",
+    "land": "Portugal"
+  },
+  {
+    "id": 298,
+    "naam": "Girona FC",
+    "logo": "https://crests.football-data.org/298.png",
+    "land": "Spain"
+  },
+  {
+    "id": 718,
+    "naam": "Go Ahead Eagles",
+    "logo": "https://crests.football-data.org/718.png",
+    "land": "Netherlands"
+  },
+  {
+    "id": 1767,
+    "naam": "Grêmio FBPA",
+    "logo": "https://crests.football-data.org/1767.png",
+    "land": "Brazil"
+  },
+  {
+    "id": 7,
+    "naam": "Hamburger SV",
+    "logo": "https://crests.football-data.org/7.png",
+    "land": "Germany"
+  },
+  {
+    "id": 450,
+    "naam": "Hellas Verona FC",
+    "logo": "https://crests.football-data.org/450.png",
+    "land": "Italy"
+  },
+  {
+    "id": 671,
+    "naam": "Heracles Almelo",
+    "logo": "https://crests.football-data.org/671.png",
+    "land": "Netherlands"
+  },
+  {
+    "id": 322,
+    "naam": "Hull City AFC",
+    "logo": "https://crests.football-data.org/322.png",
+    "land": "England"
+  },
+  {
+    "id": 349,
+    "naam": "Ipswich Town FC",
+    "logo": "https://crests.football-data.org/349.png",
+    "land": "England"
+  },
+  {
+    "id": 109,
+    "naam": "Juventus FC",
+    "logo": "https://crests.football-data.org/109.png",
+    "land": "Italy"
+  },
+  {
+    "id": 533,
+    "naam": "Le Havre AC",
+    "logo": "https://crests.football-data.org/533.png",
+    "land": "France"
+  },
+  {
+    "id": 341,
+    "naam": "Leeds United FC",
+    "logo": "https://crests.football-data.org/341.png",
+    "land": "England"
+  },
+  {
+    "id": 338,
+    "naam": "Leicester City FC",
+    "logo": "https://crests.football-data.org/338.png",
+    "land": "England"
+  },
+  {
+    "id": 88,
+    "naam": "Levante UD",
+    "logo": "https://crests.football-data.org/88.png",
+    "land": "Spain"
+  },
+  {
+    "id": 521,
+    "naam": "Lille OSC",
+    "logo": "https://crests.football-data.org/521.png",
+    "land": "France"
+  },
+  {
+    "id": 64,
+    "naam": "Liverpool FC",
+    "logo": "https://crests.football-data.org/64.png",
+    "land": "England"
+  },
+  {
+    "id": 65,
+    "naam": "Manchester City FC",
+    "logo": "https://crests.football-data.org/65.png",
+    "land": "England"
+  },
+  {
+    "id": 66,
+    "naam": "Manchester United FC",
+    "logo": "https://crests.football-data.org/66.png",
+    "land": "England"
+  },
+  {
+    "id": 343,
+    "naam": "Middlesbrough FC",
+    "logo": "https://crests.football-data.org/343.png",
+    "land": "England"
+  },
+  {
+    "id": 384,
+    "naam": "Millwall FC",
+    "logo": "https://crests.football-data.org/384.png",
+    "land": "England"
+  },
+  {
+    "id": 4364,
+    "naam": "Mirassol FC",
+    "logo": "https://crests.football-data.org/4364.png",
+    "land": "Brazil"
+  },
+  {
+    "id": 583,
+    "naam": "Moreirense FC",
+    "logo": "https://crests.football-data.org/583.png",
+    "land": "Portugal"
+  },
+  {
+    "id": 681,
+    "naam": "NAC Breda",
+    "logo": "https://crests.football-data.org/681.png",
+    "land": "Netherlands"
+  },
+  {
+    "id": 1915,
+    "naam": "NEC",
+    "logo": "https://crests.football-data.org/1915.png",
+    "land": "Netherlands"
+  },
+  {
+    "id": 67,
+    "naam": "Newcastle United FC",
+    "logo": "https://crests.football-data.org/67.png",
+    "land": "England"
+  },
+  {
+    "id": 68,
+    "naam": "Norwich City FC",
+    "logo": "https://crests.football-data.org/68.png",
+    "land": "England"
+  },
+  {
+    "id": 351,
+    "naam": "Nottingham Forest FC",
+    "logo": "https://crests.football-data.org/351.png",
+    "land": "England"
+  },
+  {
+    "id": 522,
+    "naam": "OGC Nice",
+    "logo": "https://crests.football-data.org/522.png",
+    "land": "France"
+  },
+  {
+    "id": 523,
+    "naam": "Olympique Lyonnais",
+    "logo": "https://crests.football-data.org/523.png",
+    "land": "France"
+  },
+  {
+    "id": 516,
+    "naam": "Olympique de Marseille",
+    "logo": "https://crests.football-data.org/516.png",
+    "land": "France"
+  },
+  {
+    "id": 1082,
+    "naam": "Oxford United FC",
+    "logo": "https://crests.football-data.org/1082.png",
+    "land": "England"
+  },
+  {
+    "id": 654,
+    "naam": "PAE Olympiakos SFP",
+    "logo": "https://crests.football-data.org/654.png",
+    "land": "Greece"
+  },
+  {
+    "id": 684,
+    "naam": "PEC Zwolle",
+    "logo": "https://crests.football-data.org/684.png",
+    "land": "Netherlands"
+  },
+  {
+    "id": 674,
+    "naam": "PSV",
+    "logo": "https://crests.football-data.org/674.png",
+    "land": "Netherlands"
+  },
+  {
+    "id": 11034,
+    "naam": "Paphos FC",
+    "logo": "https://crests.football-data.org/11034.png",
+    "land": "Cyprus"
+  },
+  {
+    "id": 1045,
+    "naam": "Paris FC",
+    "logo": "https://crests.football-data.org/1045.png",
+    "land": "France"
+  },
+  {
+    "id": 524,
+    "naam": "Paris Saint-Germain FC",
+    "logo": "https://crests.football-data.org/524.png",
+    "land": "France"
+  },
+  {
+    "id": 112,
+    "naam": "Parma Calcio 1913",
+    "logo": "https://crests.football-data.org/112.png",
+    "land": "Italy"
+  },
+  {
+    "id": 325,
+    "naam": "Portsmouth FC",
+    "logo": "https://crests.football-data.org/325.png",
+    "land": "England"
+  },
+  {
+    "id": 1081,
+    "naam": "Preston North End FC",
+    "logo": "https://crests.football-data.org/1081.png",
+    "land": "England"
+  },
+  {
+    "id": 611,
+    "naam": "Qarabağ Ağdam FK",
+    "logo": "https://crests.football-data.org/611.png",
+    "land": "Azerbaijan"
+  },
+  {
+    "id": 69,
+    "naam": "Queens Park Rangers FC",
+    "logo": "https://crests.football-data.org/69.png",
+    "land": "England"
+  },
+  {
+    "id": 4286,
+    "naam": "RB Bragantino",
+    "logo": "https://crests.football-data.org/4286.png",
+    "land": "Brazil"
+  },
+  {
+    "id": 721,
+    "naam": "RB Leipzig",
+    "logo": "https://crests.football-data.org/721.png",
+    "land": "Germany"
+  },
+  {
+    "id": 558,
+    "naam": "RC Celta de Vigo",
+    "logo": "https://crests.football-data.org/558.png",
+    "land": "Spain"
+  },
+  {
+    "id": 576,
+    "naam": "RC Strasbourg Alsace",
+    "logo": "https://crests.football-data.org/576.png",
+    "land": "France"
+  },
+  {
+    "id": 80,
+    "naam": "RCD Espanyol de Barcelona",
+    "logo": "https://crests.football-data.org/80.png",
+    "land": "Spain"
+  },
+  {
+    "id": 89,
+    "naam": "RCD Mallorca",
+    "logo": "https://crests.football-data.org/89.png",
+    "land": "Spain"
+  },
+  {
+    "id": 546,
+    "naam": "Racing Club de Lens",
+    "logo": "https://crests.football-data.org/546.png",
+    "land": "France"
+  },
+  {
+    "id": 87,
+    "naam": "Rayo Vallecano de Madrid",
+    "logo": "https://crests.football-data.org/87.png",
+    "land": "Spain"
+  },
+  {
+    "id": 90,
+    "naam": "Real Betis Balompié",
+    "logo": "https://crests.football-data.org/90.png",
+    "land": "Spain"
+  },
+  {
+    "id": 86,
+    "naam": "Real Madrid CF",
+    "logo": "https://crests.football-data.org/86.png",
+    "land": "Spain"
+  },
+  {
+    "id": 1048,
+    "naam": "Real Oviedo",
+    "logo": "https://crests.football-data.org/1048.png",
+    "land": "Spain"
+  },
+  {
+    "id": 92,
+    "naam": "Real Sociedad de Fútbol",
+    "logo": "https://crests.football-data.org/92.png",
+    "land": "Spain"
+  },
+  {
+    "id": 496,
+    "naam": "Rio Ave FC",
+    "logo": "https://crests.football-data.org/496.png",
+    "land": "Portugal"
+  },
+  {
+    "id": 3929,
+    "naam": "Royale Union Saint-Gilloise",
+    "logo": "https://crests.football-data.org/3929.png",
+    "land": "Belgium"
+  },
+  {
+    "id": 670,
+    "naam": "SBV Excelsior",
+    "logo": "https://crests.football-data.org/670.png",
+    "land": "Netherlands"
+  },
+  {
+    "id": 1779,
+    "naam": "SC Corinthians Paulista",
+    "logo": "https://crests.football-data.org/1779.png",
+    "land": "Brazil"
+  },
+  {
+    "id": 17,
+    "naam": "SC Freiburg",
+    "logo": "https://crests.football-data.org/17.png",
+    "land": "Germany"
+  },
+  {
+    "id": 673,
+    "naam": "SC Heerenveen",
+    "logo": "https://crests.football-data.org/673.png",
+    "land": "Netherlands"
+  },
+  {
+    "id": 6684,
+    "naam": "SC Internacional",
+    "logo": "https://crests.football-data.org/6684.png",
+    "land": "Brazil"
+  },
+  {
+    "id": 1769,
+    "naam": "SE Palmeiras",
+    "logo": "https://crests.football-data.org/1769.png",
+    "land": "Brazil"
+  },
+  {
+    "id": 930,
+    "naam": "SK Slavia Praha",
+    "logo": "https://crests.football-data.org/930.png",
+    "land": "Czech Republic"
+  },
+  {
+    "id": 110,
+    "naam": "SS Lazio",
+    "logo": "https://crests.football-data.org/110.png",
+    "land": "Italy"
+  },
+  {
+    "id": 113,
+    "naam": "SSC Napoli",
+    "logo": "https://crests.football-data.org/113.png",
+    "land": "Italy"
+  },
+  {
+    "id": 12,
+    "naam": "SV Werder Bremen",
+    "logo": "https://crests.football-data.org/12.png",
+    "land": "Germany"
+  },
+  {
+    "id": 6685,
+    "naam": "Santos FC",
+    "logo": "https://crests.football-data.org/6685.png",
+    "land": "Brazil"
+  },
+  {
+    "id": 559,
+    "naam": "Sevilla FC",
+    "logo": "https://crests.football-data.org/559.png",
+    "land": "Spain"
+  },
+  {
+    "id": 356,
+    "naam": "Sheffield United FC",
+    "logo": "https://crests.football-data.org/356.png",
+    "land": "England"
+  },
+  {
+    "id": 345,
+    "naam": "Sheffield Wednesday FC",
+    "logo": "https://crests.football-data.org/345.png",
+    "land": "England"
+  },
+  {
+    "id": 340,
+    "naam": "Southampton FC",
+    "logo": "https://crests.football-data.org/340.png",
+    "land": "England"
+  },
+  {
+    "id": 6806,
+    "naam": "Sparta Rotterdam",
+    "logo": "https://crests.football-data.org/6806.png",
+    "land": "Netherlands"
+  },
+  {
+    "id": 1903,
+    "naam": "Sport Lisboa e Benfica",
+    "logo": "https://crests.football-data.org/1903.png",
+    "land": "Portugal"
+  },
+  {
+    "id": 5613,
+    "naam": "Sporting Clube de Braga",
+    "logo": "https://crests.football-data.org/5613.png",
+    "land": "Portugal"
+  },
+  {
+    "id": 498,
+    "naam": "Sporting Clube de Portugal",
+    "logo": "https://crests.football-data.org/498.png",
+    "land": "Portugal"
+  },
+  {
+    "id": 512,
+    "naam": "Stade Brestois 29",
+    "logo": "https://crests.football-data.org/512.png",
+    "land": "France"
+  },
+  {
+    "id": 529,
+    "naam": "Stade Rennais FC 1901",
+    "logo": "https://crests.football-data.org/529.png",
+    "land": "France"
+  },
+  {
+    "id": 70,
+    "naam": "Stoke City FC",
+    "logo": "https://crests.football-data.org/70.png",
+    "land": "England"
+  },
+  {
+    "id": 71,
+    "naam": "Sunderland AFC",
+    "logo": "https://crests.football-data.org/71.png",
+    "land": "England"
+  },
+  {
+    "id": 72,
+    "naam": "Swansea City AFC",
+    "logo": "https://crests.football-data.org/72.png",
+    "land": "Wales"
+  },
+  {
+    "id": 1776,
+    "naam": "São Paulo FC",
+    "logo": "https://crests.football-data.org/1776.png",
+    "land": "Brazil"
+  },
+  {
+    "id": 2,
+    "naam": "TSG 1899 Hoffenheim",
+    "logo": "https://crests.football-data.org/2.png",
+    "land": "Germany"
+  },
+  {
+    "id": 1912,
+    "naam": "Telstar 1963",
+    "logo": "https://crests.football-data.org/1912.png",
+    "land": "Netherlands"
+  },
+  {
+    "id": 586,
+    "naam": "Torino FC",
+    "logo": "https://crests.football-data.org/586.png",
+    "land": "Italy"
+  },
+  {
+    "id": 73,
+    "naam": "Tottenham Hotspur FC",
+    "logo": "https://crests.football-data.org/73.png",
+    "land": "England"
+  },
+  {
+    "id": 511,
+    "naam": "Toulouse FC",
+    "logo": "https://crests.football-data.org/511.png",
+    "land": "France"
+  },
+  {
+    "id": 457,
+    "naam": "US Cremonese",
+    "logo": "https://crests.football-data.org/457.png",
+    "land": "Italy"
+  },
+  {
+    "id": 5890,
+    "naam": "US Lecce",
+    "logo": "https://crests.football-data.org/5890.png",
+    "land": "Italy"
+  },
+  {
+    "id": 471,
+    "naam": "US Sassuolo Calcio",
+    "logo": "https://crests.football-data.org/471.png",
+    "land": "Italy"
+  },
+  {
+    "id": 115,
+    "naam": "Udinese Calcio",
+    "logo": "https://crests.football-data.org/115.png",
+    "land": "Italy"
+  },
+  {
+    "id": 95,
+    "naam": "Valencia CF",
+    "logo": "https://crests.football-data.org/95.png",
+    "land": "Spain"
+  },
+  {
+    "id": 10,
+    "naam": "VfB Stuttgart",
+    "logo": "https://crests.football-data.org/10.png",
+    "land": "Germany"
+  },
+  {
+    "id": 11,
+    "naam": "VfL Wolfsburg",
+    "logo": "https://crests.football-data.org/11.png",
+    "land": "Germany"
+  },
+  {
+    "id": 94,
+    "naam": "Villarreal CF",
+    "logo": "https://crests.football-data.org/94.png",
+    "land": "Spain"
+  },
+  {
+    "id": 5543,
+    "naam": "Vitória SC",
+    "logo": "https://crests.football-data.org/5543.png",
+    "land": "Portugal"
+  },
+  {
+    "id": 346,
+    "naam": "Watford FC",
+    "logo": "https://crests.football-data.org/346.png",
+    "land": "England"
+  },
+  {
+    "id": 74,
+    "naam": "West Bromwich Albion FC",
+    "logo": "https://crests.football-data.org/74.png",
+    "land": "England"
+  },
+  {
+    "id": 563,
+    "naam": "West Ham United FC",
+    "logo": "https://crests.football-data.org/563.png",
+    "land": "England"
+  },
+  {
+    "id": 76,
+    "naam": "Wolverhampton Wanderers FC",
+    "logo": "https://crests.football-data.org/76.png",
+    "land": "England"
+  },
+  {
+    "id": 404,
+    "naam": "Wrexham AFC",
+    "logo": "https://crests.football-data.org/404.png",
+    "land": "Wales"
+  }
 ]
