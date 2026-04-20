@@ -22,6 +22,12 @@ const ajaxWedstrijden = [
   { datum: "zo 17 mei",   thuis: "Heerenveen",  uit: "Ajax" },
 ];
 
+const afcWedstrijden = [
+  { datum: "za 9 mei 11:15",  thuis: "ASV Blauw-Wit JO11-5", uit: "AFC JO11-4" },
+  { datum: "za 16 mei 08:30", thuis: "AFC JO11-4",            uit: "DTA Fortius JO11-2" },
+  { datum: "za 30 mei 10:00", thuis: "Sloterdijk JO11-1",     uit: "AFC JO11-4" },
+];
+
 // ── Gebruikers ────────────────────────────────────────────────
 
 function laadGebruikers() {
@@ -61,6 +67,7 @@ function renderGebruikers() {
   if (heeftGebruiker) {
     renderLijst();
     renderAjaxWedstrijden();
+    renderAfcWedstrijden();
   }
 }
 
@@ -252,6 +259,56 @@ function slaAjaxOp() {
   const btn = document.querySelector("#ajax-wedstrijden button");
   btn.textContent = "✅ Opgeslagen!";
   setTimeout(() => btn.textContent = "Sla Ajax voorspellingen op", 2500);
+}
+
+// ── AFC wedstrijden ───────────────────────────────────────────
+
+function renderAfcWedstrijden() {
+  const container  = document.getElementById("afc-wedstrijden");
+  const opgeslagen = JSON.parse(localStorage.getItem(sleutel("afc")) || "{}");
+  container.innerHTML = "";
+
+  afcWedstrijden.forEach((w, i) => {
+    const v   = opgeslagen[i] || {};
+    const div = document.createElement("div");
+    div.className = "ajax-wedstrijd";
+    div.innerHTML = `
+      <span class="datum">${w.datum}</span>
+      <div class="ajax-match">
+        <div class="club-blok-klein">
+          <span>${w.thuis}</span>
+        </div>
+        <div class="score-midden-klein">
+          <input type="number" min="0" max="20" placeholder="0" value="${v.thuisScore ?? ""}" id="afc-thuis-${i}" />
+          <span>–</span>
+          <input type="number" min="0" max="20" placeholder="0" value="${v.uitScore ?? ""}" id="afc-uit-${i}" />
+        </div>
+        <div class="club-blok-klein rechts">
+          <span>${w.uit}</span>
+        </div>
+      </div>
+    `;
+    container.appendChild(div);
+  });
+
+  const btn = document.createElement("button");
+  btn.textContent = "Sla AFC voorspellingen op";
+  btn.onclick = slaAfcOp;
+  container.appendChild(btn);
+}
+
+function slaAfcOp() {
+  const data = {};
+  afcWedstrijden.forEach((_, i) => {
+    data[i] = {
+      thuisScore: document.getElementById(`afc-thuis-${i}`).value,
+      uitScore:   document.getElementById(`afc-uit-${i}`).value,
+    };
+  });
+  localStorage.setItem(sleutel("afc"), JSON.stringify(data));
+  const btn = document.querySelector("#afc-wedstrijden button");
+  btn.textContent = "✅ Opgeslagen!";
+  setTimeout(() => btn.textContent = "Sla AFC voorspellingen op", 2500);
 }
 
 // ── Init ──────────────────────────────────────────────────────
