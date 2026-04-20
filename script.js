@@ -26,6 +26,45 @@ const afcLogos = {
 
 let afcWedstrijden = [];
 
+// ── Firebase sync ─────────────────────────────────────────────
+
+const FIREBASE_URL = ''; // Vul hier jouw Firebase Realtime Database URL in
+
+async function fbLees() {
+  if (!FIREBASE_URL) return null;
+  try {
+    const res = await fetch(`${FIREBASE_URL}/spelers.json`);
+    const data = await res.json();
+    return Array.isArray(data) ? data : [];
+  } catch(e) { return null; }
+}
+
+async function fbSchrijf(lijst) {
+  if (!FIREBASE_URL) return;
+  try {
+    await fetch(`${FIREBASE_URL}/spelers.json`, {
+      method: 'PUT',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(lijst),
+    });
+  } catch(e) {}
+}
+
+function startFirebaseSync() {
+  if (!FIREBASE_URL) return;
+  const es = new EventSource(`${FIREBASE_URL}/spelers.json`);
+  es.addEventListener('put', e => {
+    const { data } = JSON.parse(e.data);
+    if (!Array.isArray(data)) return;
+    localStorage.setItem("olliebet-gebruikers", JSON.stringify(data));
+    renderGebruikers();
+  });
+  es.addEventListener('error', () => {
+    es.close();
+    setTimeout(startFirebaseSync, 30000);
+  });
+}
+
 // ── Gebruikers ────────────────────────────────────────────────
 
 function laadGebruikers() {
@@ -34,6 +73,7 @@ function laadGebruikers() {
 
 function slaGebruikersOp(lijst) {
   localStorage.setItem("olliebet-gebruikers", JSON.stringify(lijst));
+  fbSchrijf(lijst);
 }
 
 function actiefGebruiker() {
@@ -722,3 +762,13 @@ updateLiveMinuten();
 setInterval(updateLiveMinuten, 60000);
 setInterval(fetchAjaxWedstrijden, 5 * 60 * 1000);
 setInterval(fetchAfcWedstrijden, 5 * 60 * 1000);
+
+// Firebase: laad spelerslijst bij opstarten en blijf in sync
+(async () => {
+  const remote = await fbLees();
+  if (remote !== null) {
+    localStorage.setItem("olliebet-gebruikers", JSON.stringify(remote));
+    renderGebruikers();
+  }
+  startFirebaseSync();
+})();
