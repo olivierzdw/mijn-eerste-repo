@@ -22,6 +22,13 @@ const ajaxWedstrijden = [
   { datum: "zo 17 mei",   thuis: "Heerenveen",  uit: "Ajax" },
 ];
 
+const afcLogos = {
+  "AFC JO11-4":          "https://www.afc.nl/wp-content/uploads/2022/10/afc-logo-color.png",
+  "ASV Blauw-Wit JO11-5":"https://www.hollandsevelden.nl/images/club_logo_van_voetbalvereniging_blauw-wit-asv_uit_amsterdam.png",
+  "DTA Fortius JO11-2":  "https://www.hollandsevelden.nl/images/club_logo_van_voetbalvereniging_fortius_uit_amsterdam.png",
+  "Sloterdijk JO11-1":   "https://www.hollandsevelden.nl/images/club_logo_van_voetbalvereniging_sloterdijk-avv_uit_amsterdam.png",
+};
+
 const afcWedstrijden = [
   { datum: "za 9 mei 11:15",  thuis: "ASV Blauw-Wit JO11-5", uit: "AFC JO11-4" },
   { datum: "za 16 mei 08:30", thuis: "AFC JO11-4",            uit: "DTA Fortius JO11-2" },
@@ -276,6 +283,7 @@ function renderAfcWedstrijden() {
       <span class="datum">${w.datum}</span>
       <div class="ajax-match">
         <div class="club-blok-klein">
+          <img src="${afcLogos[w.thuis] || ""}" alt="${w.thuis}" />
           <span>${w.thuis}</span>
         </div>
         <div class="score-midden-klein">
@@ -284,6 +292,7 @@ function renderAfcWedstrijden() {
           <input type="number" min="0" max="20" placeholder="0" value="${v.uitScore ?? ""}" id="afc-uit-${i}" />
         </div>
         <div class="club-blok-klein rechts">
+          <img src="${afcLogos[w.uit] || ""}" alt="${w.uit}" />
           <span>${w.uit}</span>
         </div>
       </div>
