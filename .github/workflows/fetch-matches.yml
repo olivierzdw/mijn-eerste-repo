@@ -74,11 +74,56 @@ jobs:
           print(f"Saved {len(matches)} matches")
           EOF
 
+      - name: Fetch finished matches
+        run: |
+          curl -s "https://api.football-data.org/v4/teams/678/matches?status=FINISHED" \
+            -H "X-Auth-Token: ${{ secrets.FOOTBALL_API_KEY }}" \
+            -o finished.json
+
+          python3 - <<'EOF'
+          import json
+          from datetime import datetime
+          import zoneinfo
+
+          with open('finished.json') as f:
+              data = json.load(f)
+
+          dag_namen   = ['zo','ma','di','wo','do','vr','za']
+          maand_namen = ['januari','februari','maart','april','mei','juni',
+                         'juli','augustus','september','oktober','november','december']
+          club_mapping = {
+              'AFC Ajax':'Ajax','PSV Eindhoven':'PSV','PSV':'PSV','SC Heerenveen':'Heerenveen',
+              'FC Utrecht':'FC Utrecht','NAC Breda':'NAC Breda','FC Twente':'Twente','Twente':'Twente',
+              'NEC Nijmegen':'NEC','FC Groningen':'Groningen','Sparta Rotterdam':'Sparta',
+              'RKC Waalwijk':'RKC','Go Ahead Eagles':'Go Ahead Eagles','Willem II':'Willem II',
+              'AZ Alkmaar':'AZ','Feyenoord':'Feyenoord','Heracles Almelo':'Heracles',
+          }
+          tz = zoneinfo.ZoneInfo('Europe/Amsterdam')
+          results = []
+          for m in data.get('matches', []):
+              d = datetime.fromisoformat(m['utcDate'].replace('Z','+00:00')).astimezone(tz)
+              dag = dag_namen[(d.weekday()+1)%7]
+              datum = f"{dag} {d.day} {maand_namen[d.month-1]}"
+              results.append({
+                  'id': m['id'],
+                  'datum': datum,
+                  'thuis': club_mapping.get(m['homeTeam']['name'], m['homeTeam']['name']),
+                  'thuisLogo': m['homeTeam'].get('crest',''),
+                  'uit': club_mapping.get(m['awayTeam']['name'], m['awayTeam']['name']),
+                  'uitLogo': m['awayTeam'].get('crest',''),
+                  'thuisScore': m['score']['fullTime']['home'],
+                  'uitScore': m['score']['fullTime']['away'],
+              })
+          with open('data/ajax-results.json','w') as f:
+              json.dump(results, f, ensure_ascii=False, indent=2)
+          print(f"Saved {len(results)} results")
+          EOF
+
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/ajax-matches.json
+          git add data/ajax-matches.json data/ajax-results.json
           git diff --staged --quiet || git commit -m "Update Ajax wedstrijden"
           git push
 

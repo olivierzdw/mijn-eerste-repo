@@ -359,6 +359,89 @@ function slaAfcOp() {
   setTimeout(() => btn.textContent = "Sla AFC voorspellingen op", 2500);
 }
 
+// ── Uitslagen ─────────────────────────────────────────────────
+
+let uitslagenZichtbaar = false;
+
+async function toggleUitslagen() {
+  uitslagenZichtbaar = !uitslagenZichtbaar;
+  const btn = document.getElementById("nav-btn");
+
+  if (uitslagenZichtbaar) {
+    document.getElementById("uitslagen-panel").classList.remove("hidden");
+    document.getElementById("main-inhoud").classList.add("hidden");
+    btn.textContent = "Wedstrijden";
+    btn.classList.add("actief");
+    document.getElementById("uitslagen-lijst").innerHTML =
+      `<p style="text-align:center;color:#666">Laden...</p>`;
+    try {
+      const res = await fetch(`data/ajax-results.json?t=${Date.now()}`);
+      renderUitslagen(await res.json());
+    } catch(e) {
+      document.getElementById("uitslagen-lijst").innerHTML =
+        `<p style="text-align:center;color:#666">Kon uitslagen niet laden.</p>`;
+    }
+  } else {
+    document.getElementById("uitslagen-panel").classList.add("hidden");
+    document.getElementById("main-inhoud").classList.remove("hidden");
+    btn.textContent = "Uitslagen";
+    btn.classList.remove("actief");
+  }
+}
+
+function besteVoorspeller(matchId, actueleThuis, actueleUit) {
+  const gebruikers = laadGebruikers();
+  let beste = null;
+  let besteAfstand = Infinity;
+
+  gebruikers.forEach(naam => {
+    const voorspellingen = JSON.parse(localStorage.getItem(`olliebet-ajax-${naam}`) || "{}");
+    const v = voorspellingen[matchId];
+    if (!v || v.thuisScore === "" || v.uitScore === "") return;
+
+    const afstand = Math.abs(Number(v.thuisScore) - actueleThuis) +
+                    Math.abs(Number(v.uitScore)   - actueleUit);
+
+    if (afstand < besteAfstand) {
+      besteAfstand = afstand;
+      beste = { naam, afstand };
+    } else if (afstand === besteAfstand && beste) {
+      beste.naam += ` & ${naam}`;
+    }
+  });
+
+  return beste;
+}
+
+function renderUitslagen(results) {
+  const container = document.getElementById("uitslagen-lijst");
+  container.innerHTML = "";
+
+  [...results].reverse().forEach(m => {
+    const ajaxWon  = (m.thuis === "Ajax" && m.thuisScore > m.uitScore) ||
+                     (m.uit   === "Ajax" && m.uitScore  > m.thuisScore);
+    const ajaxDraw = m.thuisScore === m.uitScore;
+    const winnaar  = besteVoorspeller(m.id, m.thuisScore, m.uitScore);
+
+    const div = document.createElement("div");
+    div.className = "uitslag-rij";
+    div.innerHTML = `
+      <span class="uitslag-datum">${m.datum}</span>
+      <div class="uitslag-clubs">
+        <img src="${m.thuisLogo}" alt="${m.thuis}" />
+        <span class="${m.thuis === 'Ajax' && (ajaxWon || ajaxDraw) ? 'winnaar' : ''}">${m.thuis}</span>
+      </div>
+      <span class="uitslag-score">${m.thuisScore} – ${m.uitScore}</span>
+      <div class="uitslag-clubs">
+        <span class="${m.uit === 'Ajax' && (ajaxWon || ajaxDraw) ? 'winnaar' : ''}">${m.uit}</span>
+        <img src="${m.uitLogo}" alt="${m.uit}" />
+      </div>
+      ${winnaar ? `<span class="beste-voorspeller">🏆 ${winnaar.naam}</span>` : ''}
+    `;
+    container.appendChild(div);
+  });
+}
+
 // ── Init ──────────────────────────────────────────────────────
 
 renderGebruikers();
