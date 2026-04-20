@@ -309,13 +309,11 @@ button:hover {
 
 .club-blok-klein {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.4rem;
   width: 140px;
-}
-
-.club-blok-klein:last-child {
-  flex-direction: row-reverse;
+  text-align: center;
 }
 
 .club-blok-klein img {
@@ -378,22 +376,16 @@ button:hover {
   align-self: center;
 }
 
-.scorers-rij {
-  display: flex;
-  gap: 0.5rem;
-  margin-top: 0.6rem;
-  width: 100%;
-}
-
 .scorer-input {
-  flex: 1;
-  padding: 0.4rem 0.8rem;
+  width: 100%;
+  padding: 0.35rem 0.6rem;
   border-radius: 8px;
   border: 2px solid #0f3460;
   background: #0f3460;
   color: #fff;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   outline: none;
+  text-align: center;
 }
 
 .scorer-input:focus {

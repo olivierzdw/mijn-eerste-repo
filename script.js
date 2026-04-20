@@ -263,6 +263,7 @@ function renderAjaxWedstrijden() {
         <div class="club-blok-klein">
           <img src="${w.thuisLogo || logoVanClub(w.thuis)}" alt="${w.thuis}" />
           <span>${w.thuis}</span>
+          <input class="scorer-input" type="text" placeholder="Scorers..." value="${v.thuisScorers ?? ""}" id="ajax-scorers-thuis-${i}" />
         </div>
         <div class="score-midden-klein">
           <input type="number" min="0" max="20" placeholder="0" value="${v.thuisScore ?? ""}" id="ajax-thuis-${i}" />
@@ -273,11 +274,8 @@ function renderAjaxWedstrijden() {
         <div class="club-blok-klein rechts">
           <img src="${w.uitLogo || logoVanClub(w.uit)}" alt="${w.uit}" />
           <span>${w.uit}</span>
+          <input class="scorer-input" type="text" placeholder="Scorers..." value="${v.uitScorers ?? ""}" id="ajax-scorers-uit-${i}" />
         </div>
-      </div>
-      <div class="scorers-rij">
-        <input class="scorer-input" type="text" placeholder="Scorers ${w.thuis}" value="${v.thuisScorers ?? ""}" id="ajax-scorers-thuis-${i}" />
-        <input class="scorer-input" type="text" placeholder="Scorers ${w.uit}" value="${v.uitScorers ?? ""}" id="ajax-scorers-uit-${i}" />
       </div>
     `;
     container.appendChild(div);
@@ -322,6 +320,7 @@ function renderAfcWedstrijden() {
         <div class="club-blok-klein">
           <img src="${w.thuisLogo || ""}" alt="${w.thuis}" />
           <span>${w.thuis}</span>
+          <input class="scorer-input" type="text" placeholder="Scorers..." value="${v.thuisScorers ?? ""}" id="afc-scorers-thuis-${i}" />
         </div>
         <div class="score-midden-klein">
           <input type="number" min="0" max="20" placeholder="0" value="${v.thuisScore ?? ""}" id="afc-thuis-${i}" />
@@ -331,11 +330,8 @@ function renderAfcWedstrijden() {
         <div class="club-blok-klein rechts">
           <img src="${w.uitLogo || ""}" alt="${w.uit}" />
           <span>${w.uit}</span>
+          <input class="scorer-input" type="text" placeholder="Scorers..." value="${v.uitScorers ?? ""}" id="afc-scorers-uit-${i}" />
         </div>
-      </div>
-      <div class="scorers-rij">
-        <input class="scorer-input" type="text" placeholder="Scorers ${w.thuis}" value="${v.thuisScorers ?? ""}" id="afc-scorers-thuis-${i}" />
-        <input class="scorer-input" type="text" placeholder="Scorers ${w.uit}" value="${v.uitScorers ?? ""}" id="afc-scorers-uit-${i}" />
       </div>
     `;
     container.appendChild(div);
