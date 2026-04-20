@@ -14,10 +14,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Fetch clubs and upcoming matches
+      - name: Fetch clubs, matches, results and standings
         run: |
           python3 - <<'EOF'
           import json, urllib.request, time
+          from datetime import datetime
+          import zoneinfo
 
           API_KEY = '${{ secrets.FOOTBALL_API_KEY }}'
           competitions = ['PL', 'PD', 'BL1', 'SA', 'FL1', 'DED', 'PPL', 'CL', 'EL', 'BSA', 'ELC']
@@ -25,77 +27,147 @@ jobs:
           dag_namen   = ['zo','ma','di','wo','do','vr','za']
           maand_namen = ['januari','februari','maart','april','mei','juni',
                          'juli','augustus','september','oktober','november','december']
-
-          from datetime import datetime
-          import zoneinfo
           tz = zoneinfo.ZoneInfo('Europe/Amsterdam')
 
-          def fmt(utc):
+          comp_namen = {
+              'PL':'Premier League','PD':'La Liga','BL1':'Bundesliga','SA':'Serie A',
+              'FL1':'Ligue 1','DED':'Eredivisie','PPL':'Primeira Liga','CL':'Champions League',
+              'EL':'Europa League','BSA':'Brasileirão','ELC':'Championship',
+          }
+
+          logo_override = {'NAC Breda': 'images/nac-breda.svg'}
+
+          def fmt(utc, met_tijd=True):
               d = datetime.fromisoformat(utc.replace('Z','+00:00')).astimezone(tz)
               dag   = dag_namen[(d.weekday()+1)%7]
               maand = maand_namen[d.month-1]
-              return f"{dag} {d.day} {maand} {d.hour:02d}:{d.minute:02d}"
+              if met_tijd:
+                  return f"{dag} {d.day} {maand} {d.hour:02d}:{d.minute:02d}"
+              return f"{dag} {d.day} {maand}"
 
-          clubs = {}
-          matches_per_club = {}
+          def fetch(url):
+              req = urllib.request.Request(url, headers={'X-Auth-Token': API_KEY})
+              with urllib.request.urlopen(req) as r:
+                  return json.loads(r.read())
+
+          clubs = {}                 # id → club object
+          club_competitie = {}       # id → comp code
+          matches_per_club = {}      # id → [wedstrijd]
+          results_per_club = {}      # id → [uitslag]
+          competition_stands = {}    # comp → [stand]
 
           for comp in competitions:
-              # Fetch teams
-              url = f'https://api.football-data.org/v4/competitions/{comp}/teams'
-              req = urllib.request.Request(url, headers={'X-Auth-Token': API_KEY})
+              # Teams
               try:
-                  with urllib.request.urlopen(req) as r:
-                      data = json.loads(r.read())
+                  data = fetch(f'https://api.football-data.org/v4/competitions/{comp}/teams')
                   for t in data.get('teams', []):
                       clubs[t['id']] = {
-                          'id':   t['id'],
-                          'naam': t['name'],
-                          'logo': t.get('crest', ''),
-                          'land': t.get('area', {}).get('name', ''),
+                          'id':        t['id'],
+                          'naam':      t['name'],
+                          'logo':      logo_override.get(t['name'], t.get('crest','')),
+                          'land':      t.get('area',{}).get('name',''),
+                          'competitie': comp,
+                          'competitieNaam': comp_namen.get(comp, comp),
                       }
-                  print(f"{comp} teams: {len(data.get('teams', []))}")
+                      club_competitie[t['id']] = comp
+                  print(f"{comp} teams: {len(data.get('teams',[]))}")
               except Exception as e:
                   print(f"{comp} teams fout: {e}")
               time.sleep(7)
 
-              # Fetch upcoming matches
-              url = f'https://api.football-data.org/v4/competitions/{comp}/matches?status=SCHEDULED,TIMED'
-              req = urllib.request.Request(url, headers={'X-Auth-Token': API_KEY})
+              # Upcoming matches
               try:
-                  with urllib.request.urlopen(req) as r:
-                      data = json.loads(r.read())
+                  data = fetch(f'https://api.football-data.org/v4/competitions/{comp}/matches?status=SCHEDULED,TIMED')
                   for m in data.get('matches', []):
-                      wedstrijd = {
+                      w = {
                           'id':        m['id'],
                           'datum':     fmt(m['utcDate']),
                           'thuis':     m['homeTeam']['name'],
-                          'thuisLogo': m['homeTeam'].get('crest',''),
+                          'thuisLogo': logo_override.get(m['homeTeam']['name'], m['homeTeam'].get('crest','')),
                           'uit':       m['awayTeam']['name'],
-                          'uitLogo':   m['awayTeam'].get('crest',''),
+                          'uitLogo':   logo_override.get(m['awayTeam']['name'], m['awayTeam'].get('crest','')),
                       }
-                      for team_id in [m['homeTeam']['id'], m['awayTeam']['id']]:
-                          matches_per_club.setdefault(team_id, [])
-                          if not any(x['id'] == m['id'] for x in matches_per_club[team_id]):
-                              matches_per_club[team_id].append(wedstrijd)
-                  print(f"{comp} matches: {len(data.get('matches', []))}")
+                      for tid in [m['homeTeam']['id'], m['awayTeam']['id']]:
+                          matches_per_club.setdefault(tid, [])
+                          if not any(x['id'] == m['id'] for x in matches_per_club[tid]):
+                              matches_per_club[tid].append(w)
+                  print(f"{comp} matches: {len(data.get('matches',[]))}")
               except Exception as e:
                   print(f"{comp} matches fout: {e}")
+              time.sleep(7)
+
+              # Finished matches
+              try:
+                  data = fetch(f'https://api.football-data.org/v4/competitions/{comp}/matches?status=FINISHED')
+                  for m in data.get('matches', []):
+                      score = m.get('score',{}).get('fullTime',{})
+                      if score.get('home') is None:
+                          continue
+                      r = {
+                          'id':         m['id'],
+                          'datum':      fmt(m['utcDate'], met_tijd=False),
+                          'thuis':      m['homeTeam']['name'],
+                          'thuisLogo':  logo_override.get(m['homeTeam']['name'], m['homeTeam'].get('crest','')),
+                          'uit':        m['awayTeam']['name'],
+                          'uitLogo':    logo_override.get(m['awayTeam']['name'], m['awayTeam'].get('crest','')),
+                          'thuisScore': score['home'],
+                          'uitScore':   score['away'],
+                      }
+                      for tid in [m['homeTeam']['id'], m['awayTeam']['id']]:
+                          results_per_club.setdefault(tid, [])
+                          if not any(x['id'] == m['id'] for x in results_per_club[tid]):
+                              results_per_club[tid].append(r)
+                  print(f"{comp} results: {len(data.get('matches',[]))}")
+              except Exception as e:
+                  print(f"{comp} results fout: {e}")
+              time.sleep(7)
+
+              # Standings (skip cup competitions)
+              if comp in ['CL','EL']:
+                  continue
+              try:
+                  data = fetch(f'https://api.football-data.org/v4/competitions/{comp}/standings')
+                  table = data.get('standings',[{}])[0].get('table',[])
+                  stand = []
+                  for row in table:
+                      t = row['team']
+                      naam = t['name']
+                      stand.append({
+                          'positie':   row['position'],
+                          'club':      naam,
+                          'logo':      logo_override.get(naam, t.get('crest','')),
+                          'gespeeld':  row['playedGames'],
+                          'punten':    row['points'],
+                          'gewonnen':  row['won'],
+                          'gelijk':    row['draw'],
+                          'verloren':  row['lost'],
+                          'doelsaldo': row['goalsFor'] - row['goalsAgainst'],
+                          'voor':      row['goalsFor'],
+                          'tegen':     row['goalsAgainst'],
+                      })
+                  competition_stands[comp] = stand
+                  print(f"{comp} stand: {len(stand)} teams")
+              except Exception as e:
+                  print(f"{comp} stand fout: {e}")
               time.sleep(7)
 
           result = sorted(clubs.values(), key=lambda c: c['naam'])
           with open('data/clubs.json', 'w') as f:
               json.dump(result, f, ensure_ascii=False, indent=2)
-
           with open('data/clubs-matches.json', 'w') as f:
               json.dump({str(k): v for k,v in matches_per_club.items()}, f, ensure_ascii=False, indent=2)
+          with open('data/clubs-results.json', 'w') as f:
+              json.dump({str(k): v for k,v in results_per_club.items()}, f, ensure_ascii=False, indent=2)
+          with open('data/competition-stands.json', 'w') as f:
+              json.dump(competition_stands, f, ensure_ascii=False, indent=2)
 
-          print(f"Clubs: {len(result)}, clubs met wedstrijden: {len(matches_per_club)}")
+          print(f"Klaar: {len(result)} clubs, {len(competition_stands)} standen")
           EOF
 
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/clubs.json data/clubs-matches.json
-          git diff --staged --quiet || git commit -m "Update clubs en wedstrijden"
+          git add data/clubs.json data/clubs-matches.json data/clubs-results.json data/competition-stands.json
+          git diff --staged --quiet || git commit -m "Update clubs, wedstrijden, uitslagen en standen"
           git push

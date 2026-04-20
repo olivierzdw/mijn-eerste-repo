@@ -380,8 +380,19 @@ async function toonPagina(pagina) {
   if (pagina === "uitslagen") {
     document.getElementById("uitslagen-lijst").innerHTML = `<p style="text-align:center;color:#666">Laden...</p>`;
     try {
-      const res = await fetch(`data/ajax-results.json?t=${Date.now()}`);
-      renderUitslagen(await res.json());
+      if (gekozenClub) {
+        document.getElementById("uitslagen-titel").textContent = `Uitslagen ${gekozenClub.naam}`;
+        if (!clubsResults) {
+          const res = await fetch(`data/clubs-results.json?t=${Date.now()}`);
+          clubsResults = await res.json();
+        }
+        const results = clubsResults[String(gekozenClubId)] || [];
+        renderUitslagen(results, `club-${gekozenClubId}`);
+      } else {
+        document.getElementById("uitslagen-titel").textContent = `Uitslagen Ajax`;
+        const res = await fetch(`data/ajax-results.json?t=${Date.now()}`);
+        renderUitslagen(await res.json(), "ajax");
+      }
     } catch(e) {
       document.getElementById("uitslagen-lijst").innerHTML = `<p style="text-align:center;color:#666">Kon uitslagen niet laden.</p>`;
     }
@@ -390,8 +401,19 @@ async function toonPagina(pagina) {
   if (pagina === "stand") {
     document.getElementById("stand-lijst").innerHTML = `<p style="text-align:center;color:#666">Laden...</p>`;
     try {
-      const res = await fetch(`data/eredivisie-stand.json?t=${Date.now()}`);
-      renderStand(await res.json());
+      if (gekozenClub && gekozenClub.competitie) {
+        document.getElementById("stand-titel").textContent = `${gekozenClub.competitieNaam || gekozenClub.competitie} stand`;
+        if (!competitionStands) {
+          const res = await fetch(`data/competition-stands.json?t=${Date.now()}`);
+          competitionStands = await res.json();
+        }
+        const stand = competitionStands[gekozenClub.competitie] || [];
+        renderStand(stand, gekozenClub.naam);
+      } else {
+        document.getElementById("stand-titel").textContent = `Eredivisie stand`;
+        const res = await fetch(`data/eredivisie-stand.json?t=${Date.now()}`);
+        renderStand(await res.json(), "Ajax");
+      }
     } catch(e) {
       document.getElementById("stand-lijst").innerHTML = `<p style="text-align:center;color:#666">Kon stand niet laden.</p>`;
     }
@@ -408,7 +430,7 @@ async function toonPagina(pagina) {
   }
 }
 
-function renderStand(stand) {
+function renderStand(stand, accentClub = 'Ajax') {
   const container = document.getElementById("stand-lijst");
   container.innerHTML = `
     <table class="stand-tabel">
@@ -423,7 +445,7 @@ function renderStand(stand) {
       </thead>
       <tbody>
         ${stand.map(t => `
-          <tr class="${t.club === 'Ajax' ? 'ajax-rij' : ''}">
+          <tr class="${t.club === accentClub ? 'ajax-rij' : ''}">
             <td class="pos">${t.positie}</td>
             <td class="logo-cel"><img src="${t.logo}" alt="${t.club}" /></td>
             <td class="club-naam">${t.club}</td>
@@ -466,13 +488,13 @@ function renderAfcStand(stand) {
   `;
 }
 
-function besteVoorspeller(matchId, actueleThuis, actueleUit) {
+function besteVoorspeller(matchId, actueleThuis, actueleUit, type = 'ajax') {
   const gebruikers = laadGebruikers();
   let beste = null;
   let besteAfstand = Infinity;
 
   gebruikers.forEach(naam => {
-    const voorspellingen = JSON.parse(localStorage.getItem(`olliebet-ajax-${naam}`) || "{}");
+    const voorspellingen = JSON.parse(localStorage.getItem(`olliebet-${type}-${naam}`) || "{}");
     const v = voorspellingen[matchId];
     if (!v || v.thuisScore === "" || v.uitScore === "") return;
 
@@ -490,7 +512,7 @@ function besteVoorspeller(matchId, actueleThuis, actueleUit) {
   return beste;
 }
 
-function renderUitslagen(results) {
+function renderUitslagen(results, type = 'ajax') {
   const container = document.getElementById("uitslagen-lijst");
   container.innerHTML = "";
 
@@ -498,7 +520,7 @@ function renderUitslagen(results) {
     const ajaxWon  = (m.thuis === "Ajax" && m.thuisScore > m.uitScore) ||
                      (m.uit   === "Ajax" && m.uitScore  > m.thuisScore);
     const ajaxDraw = m.thuisScore === m.uitScore;
-    const winnaar  = besteVoorspeller(m.id, m.thuisScore, m.uitScore);
+    const winnaar  = besteVoorspeller(m.id, m.thuisScore, m.uitScore, type);
 
     const div = document.createElement("div");
     div.className = "uitslag-rij";
@@ -522,10 +544,13 @@ function renderUitslagen(results) {
 // ── Club zoeken ───────────────────────────────────────────────
 
 let zoekTimeout = null;
+let gekozenClub = null;
 let gekozenClubId = null;
 let clubWedstrijden = [];
 let clubsLijst = null;
 let clubsMatches = null;
+let clubsResults = null;
+let competitionStands = null;
 
 function sleutelClub(teamId) {
   return `olliebet-club-${teamId}-${actiefGebruiker()}`;
@@ -590,6 +615,7 @@ function toonZoekResultaten(clubs) {
 }
 
 async function kiesClub(club) {
+  gekozenClub = club;
   gekozenClubId = club.id;
   document.getElementById("club-zoek-input").value = club.naam;
   document.getElementById("club-zoek-resultaten").classList.add("hidden");
