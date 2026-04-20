@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Olliebet</title>
-  <link rel="stylesheet" href="style.css?v=4" />
+  <link rel="stylesheet" href="style.css?v=5" />
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
   <meta http-equiv="Pragma" content="no-cache" />
   <meta http-equiv="Expires" content="0" />
@@ -29,6 +29,7 @@
       <button class="nav-btn" id="btn-stand" onclick="toonPagina('stand')">Stand</button>
       <button class="nav-btn" id="btn-chat" onclick="toonPagina('chat')">Chat</button>
       <button class="nav-btn" id="btn-samenvattingen" onclick="toonPagina('samenvattingen')">Samenvattingen</button>
+      <button class="nav-btn" id="btn-gokstand" onclick="toonPagina('gokstand')">Stand van het gokken <span class="gokstand-badge hidden" id="gokstand-badge">0</span></button>
     </div>
 
     <div class="club-zoek" id="club-zoek">
@@ -60,6 +61,22 @@
       <h2 id="uitslagen-titel">Uitslagen Ajax</h2>
     </div>
     <div id="uitslagen-lijst"></div>
+  </div>
+
+  <div class="uitslagen-panel hidden" id="gokstand-panel">
+    <div class="uitslagen-header">
+      <h2>Stand van het gokken</h2>
+    </div>
+    <div class="gokstand-legenda">
+      <strong>Puntentelling</strong><br/>
+      <span>Exacte score: <b>5 punten</b></span><br/>
+      <span>Juiste uitslag (winst/gelijk): <b>2 punten</b></span><br/>
+      <span>Goede scorer: <b>3 punten per speler</b></span>
+    </div>
+    <div id="gokstand-lijst"></div>
+    <h3 class="sectie-titel gokstand-sub">Werkelijke scorers invoeren</h3>
+    <p class="gokstand-hint">Vul hier in wie er daadwerkelijk gescoord heeft — iedereen kan dit aanvullen.</p>
+    <div id="werkelijke-scorers-lijst"></div>
   </div>
 
   <div class="uitslagen-panel hidden" id="samenvattingen-panel">
@@ -105,6 +122,6 @@
     <p>Kies of voeg een speler toe om te beginnen</p>
   </div>
 
-  <script src="script.js?v=4"></script>
+  <script src="script.js?v=5"></script>
 </body>
 </html>

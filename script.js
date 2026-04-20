@@ -291,6 +291,7 @@ function wisselGebruiker(naam) {
   setActiefGebruiker(naam);
   renderGebruikers();
   renderFavorieten();
+  updateGokstandBadge();
 }
 
 function toonNieuweGebruiker() {
@@ -479,18 +480,22 @@ function renderAjaxWedstrijden() {
 
 function slaAjaxOp() {
   const data = {};
+  const speler = actiefGebruiker();
   ajaxWedstrijden.forEach((w, i) => {
-    data[w.id] = {
+    const v = {
       thuisScore:    document.getElementById(`ajax-thuis-${i}`).value,
       uitScore:      document.getElementById(`ajax-uit-${i}`).value,
       thuisScorers:  document.getElementById(`ajax-scorers-thuis-${i}`).value,
       uitScorers:    document.getElementById(`ajax-scorers-uit-${i}`).value,
     };
+    data[w.id] = v;
+    fbVoorspelSchrijf(w.id, speler, v);
   });
   localStorage.setItem(sleutel("ajax"), JSON.stringify(data));
   const btn = document.querySelector("#ajax-wedstrijden button");
   btn.textContent = "✅ Opgeslagen!";
   setTimeout(() => btn.textContent = "Sla Ajax voorspellingen op", 2500);
+  updateGokstandBadge();
 }
 
 // ── AFC wedstrijden ───────────────────────────────────────────
@@ -575,6 +580,14 @@ async function toonPagina(pagina) {
 
   if (pagina === "samenvattingen") {
     renderSamenvattingen();
+  }
+
+  document.getElementById("btn-gokstand").classList.toggle("actief", pagina === "gokstand");
+  document.getElementById("btn-gokstand").firstChild.textContent = pagina === "gokstand" ? "Wedstrijden " : "Stand van het gokken ";
+  document.getElementById("gokstand-panel").classList.toggle("hidden", pagina !== "gokstand");
+
+  if (pagina === "gokstand") {
+    renderGokstand();
   }
 
   if (pagina === "chat") {
@@ -871,15 +884,20 @@ async function renderFavorieten() {
 
 function slaFavorietOp(clubId, btn) {
   const data = {};
+  const speler = actiefGebruiker();
   document.querySelectorAll(`[data-fav-id="${clubId}"]`).forEach(inp => {
     const mid = inp.dataset.match;
     const v   = inp.dataset.veld;
     data[mid] = data[mid] || {};
     data[mid][v] = inp.value;
   });
+  for (const [mid, v] of Object.entries(data)) {
+    fbVoorspelSchrijf(mid, speler, v);
+  }
   localStorage.setItem(sleutelClub(clubId), JSON.stringify(data));
   btn.textContent = "✅ Opgeslagen!";
   setTimeout(() => btn.textContent = "Sla voorspellingen op", 2500);
+  updateGokstandBadge();
 }
 
 // ── Samenvattingen ────────────────────────────────────────────
@@ -951,6 +969,326 @@ async function renderSamenvattingen() {
     });
   } catch(e) {
     lijst.innerHTML = `<div class="samenvatting-leeg">Kon uitslagen niet laden.</div>`;
+  }
+}
+
+// ── Stand van het gokken ──────────────────────────────────────
+
+let alleVoorspellingen = {};   // { matchId: { speler: {thuisScore, uitScore, thuisScorers, uitScorers} } }
+let werkelijkeScorers = {};    // { matchId: { thuisScorers, uitScorers } }
+
+async function fbVoorspelSchrijf(matchId, speler, v) {
+  if (!FIREBASE_URL || !speler || !matchId) return;
+  try {
+    await fetch(`${FIREBASE_URL}/voorspellingen/${matchId}/${encodeURIComponent(speler)}.json`, {
+      method: 'PUT',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(v),
+    });
+  } catch(e) {}
+}
+
+async function fbVoorspelAllesLees() {
+  if (!FIREBASE_URL) return {};
+  try {
+    const res = await fetch(`${FIREBASE_URL}/voorspellingen.json`);
+    return (await res.json()) || {};
+  } catch(e) { return {}; }
+}
+
+async function fbWerkelijkSchrijf(matchId, val) {
+  if (!FIREBASE_URL) return;
+  try {
+    await fetch(`${FIREBASE_URL}/werkelijk/${matchId}.json`, {
+      method: 'PUT',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(val),
+    });
+  } catch(e) {}
+}
+
+async function fbWerkelijkAllesLees() {
+  if (!FIREBASE_URL) return {};
+  try {
+    const res = await fetch(`${FIREBASE_URL}/werkelijk.json`);
+    return (await res.json()) || {};
+  } catch(e) { return {}; }
+}
+
+function startGokstandSync() {
+  if (!FIREBASE_URL) return;
+  const es1 = new EventSource(`${FIREBASE_URL}/voorspellingen.json`);
+  es1.addEventListener('put', e => {
+    const { path, data } = JSON.parse(e.data);
+    if (path === '/') {
+      alleVoorspellingen = data || {};
+    } else {
+      const [_, mid, speler] = path.split('/');
+      if (mid && speler) {
+        alleVoorspellingen[mid] = alleVoorspellingen[mid] || {};
+        if (data === null) delete alleVoorspellingen[mid][decodeURIComponent(speler)];
+        else alleVoorspellingen[mid][decodeURIComponent(speler)] = data;
+      } else if (mid) {
+        if (data === null) delete alleVoorspellingen[mid];
+        else alleVoorspellingen[mid] = data;
+      }
+    }
+    updateGokstandBadge();
+    if (activePagina === "gokstand") renderGokstand();
+  });
+  es1.addEventListener('error', () => { es1.close(); setTimeout(startGokstandSync, 30000); });
+
+  const es2 = new EventSource(`${FIREBASE_URL}/werkelijk.json`);
+  es2.addEventListener('put', e => {
+    const { path, data } = JSON.parse(e.data);
+    if (path === '/') {
+      werkelijkeScorers = data || {};
+    } else {
+      const mid = path.replace(/^\//, '');
+      if (data === null) delete werkelijkeScorers[mid];
+      else werkelijkeScorers[mid] = data;
+    }
+    updateGokstandBadge();
+    if (activePagina === "gokstand") renderGokstand();
+  });
+  es2.addEventListener('error', () => { es2.close(); });
+}
+
+function normaliseerNaam(s) {
+  return (s || '').toString().toLowerCase()
+    .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9\s]/g, ' ')
+    .replace(/\s+/g, ' ').trim();
+}
+
+function scorerMatch(voorspeldeTekst, werkelijkeNaam) {
+  const v = normaliseerNaam(voorspeldeTekst);
+  const w = normaliseerNaam(werkelijkeNaam);
+  if (!v || !w) return false;
+  // Split actual name into words, check if the last word (achternaam) or full is in predicted
+  const woorden = w.split(' ').filter(Boolean);
+  if (woorden.length === 0) return false;
+  // Full name match
+  if (v.includes(w)) return true;
+  // Last word (achternaam) match as whole word
+  const achter = woorden[woorden.length - 1];
+  if (achter.length < 3) return false;
+  const regex = new RegExp(`\\b${achter}\\b`);
+  return regex.test(v);
+}
+
+function berekenPuntenVoorMatch(voorspelling, werkelijkScore, werkelijkScorers) {
+  if (!voorspelling) return 0;
+  const vT = parseInt(voorspelling.thuisScore, 10);
+  const vU = parseInt(voorspelling.uitScore, 10);
+  if (isNaN(vT) || isNaN(vU)) return 0;
+
+  let pt = 0;
+  if (vT === werkelijkScore.thuis && vU === werkelijkScore.uit) {
+    pt += 5;
+  } else {
+    const vRes = Math.sign(vT - vU);
+    const wRes = Math.sign(werkelijkScore.thuis - werkelijkScore.uit);
+    if (vRes === wRes) pt += 2;
+  }
+
+  if (werkelijkScorers) {
+    const voorspeldeTekst = `${voorspelling.thuisScorers || ''} ${voorspelling.uitScorers || ''}`;
+    const werkelijkLijst = [
+      ...(werkelijkScorers.thuisScorers || '').split(/[,;]/),
+      ...(werkelijkScorers.uitScorers || '').split(/[,;]/),
+    ].map(s => s.trim()).filter(Boolean);
+
+    werkelijkLijst.forEach(naam => {
+      if (scorerMatch(voorspeldeTekst, naam)) pt += 3;
+    });
+  }
+  return pt;
+}
+
+async function laadAlleResultaten() {
+  if (!clubsResults) {
+    try {
+      const res = await fetch(`data/clubs-results.json?t=${Date.now()}`);
+      clubsResults = await res.json();
+    } catch(e) { clubsResults = {}; }
+  }
+  // Maak unieke lijst van finished matches
+  const map = {};
+  Object.values(clubsResults).forEach(arr => {
+    (arr || []).forEach(m => {
+      if (m && m.id && m.thuisScore != null && m.uitScore != null) {
+        map[m.id] = m;
+      }
+    });
+  });
+  return map;
+}
+
+function berekenPuntenPerSpeler(alleMatches) {
+  const spelers = laadGebruikers();
+  const totalen = {};
+  spelers.forEach(s => totalen[s] = { totaal: 0, exact: 0, uitslag: 0, scorers: 0 });
+
+  Object.values(alleMatches).forEach(m => {
+    const actueel = { thuis: m.thuisScore, uit: m.uitScore };
+    const ws = werkelijkeScorers[m.id];
+    const voorspels = alleVoorspellingen[m.id] || {};
+    spelers.forEach(speler => {
+      const v = voorspels[speler];
+      if (!v) return;
+      const vT = parseInt(v.thuisScore, 10);
+      const vU = parseInt(v.uitScore, 10);
+      if (isNaN(vT) || isNaN(vU)) return;
+      if (vT === actueel.thuis && vU === actueel.uit) {
+        totalen[speler].exact += 1;
+        totalen[speler].totaal += 5;
+      } else if (Math.sign(vT - vU) === Math.sign(actueel.thuis - actueel.uit)) {
+        totalen[speler].uitslag += 1;
+        totalen[speler].totaal += 2;
+      }
+      if (ws) {
+        const voorspeldeTekst = `${v.thuisScorers || ''} ${v.uitScorers || ''}`;
+        const werkelijkLijst = [
+          ...(ws.thuisScorers || '').split(/[,;]/),
+          ...(ws.uitScorers || '').split(/[,;]/),
+        ].map(s => s.trim()).filter(Boolean);
+        werkelijkLijst.forEach(naam => {
+          if (scorerMatch(voorspeldeTekst, naam)) {
+            totalen[speler].scorers += 1;
+            totalen[speler].totaal += 3;
+          }
+        });
+      }
+    });
+  });
+  return totalen;
+}
+
+async function updateGokstandBadge() {
+  const btn = document.getElementById("gokstand-badge");
+  if (!btn) return;
+  const speler = actiefGebruiker();
+  if (!speler) { btn.classList.add("hidden"); return; }
+  const matches = await laadAlleResultaten();
+  const totalen = berekenPuntenPerSpeler(matches);
+  const pt = totalen[speler] ? totalen[speler].totaal : 0;
+  btn.textContent = pt;
+  btn.classList.toggle("hidden", pt === 0);
+}
+
+async function renderGokstand() {
+  const lijst = document.getElementById("gokstand-lijst");
+  const scorersLijst = document.getElementById("werkelijke-scorers-lijst");
+  lijst.innerHTML = `<p style="text-align:center;color:#666;padding:1rem">Laden...</p>`;
+  scorersLijst.innerHTML = "";
+
+  const matches = await laadAlleResultaten();
+  const totalen = berekenPuntenPerSpeler(matches);
+  const spelers = laadGebruikers();
+
+  if (spelers.length === 0) {
+    lijst.innerHTML = `<p style="text-align:center;color:#666;padding:1rem">Voeg spelers toe om een stand te zien.</p>`;
+    return;
+  }
+
+  const gesorteerd = spelers
+    .map(s => ({ naam: s, ...totalen[s] }))
+    .sort((a, b) => b.totaal - a.totaal);
+
+  lijst.innerHTML = `
+    <table class="gokstand-tabel">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Speler</th>
+          <th>Punten</th>
+          <th title="Exacte score (5 pt)">EX</th>
+          <th title="Juiste uitslag (2 pt)">UI</th>
+          <th title="Goede scorer (3 pt)">SC</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${gesorteerd.map((r, i) => {
+          const kl = i === 0 ? 'goud' : i === 1 ? 'zilver' : i === 2 ? 'brons' : '';
+          return `
+            <tr class="${kl}">
+              <td>${i+1}</td>
+              <td class="speler">${escapeHTML(r.naam)}</td>
+              <td class="punten">${r.totaal}</td>
+              <td>${r.exact}</td>
+              <td>${r.uitslag}</td>
+              <td>${r.scorers}</td>
+            </tr>
+          `;
+        }).join('')}
+      </tbody>
+    </table>
+  `;
+
+  // Werkelijke scorers invoer
+  const recenteMatches = Object.values(matches)
+    .sort((a, b) => (b.id || 0) - (a.id || 0))
+    .slice(0, 20);
+
+  if (recenteMatches.length === 0) {
+    scorersLijst.innerHTML = `<p class="gokstand-hint">Nog geen afgelopen wedstrijden.</p>`;
+    return;
+  }
+
+  recenteMatches.forEach(m => {
+    const ws = werkelijkeScorers[m.id] || { thuisScorers: '', uitScorers: '' };
+    const div = document.createElement("div");
+    div.className = "werkelijke-match";
+    div.innerHTML = `
+      <div class="werkelijke-match-kop">
+        <span>${escapeHTML(m.datum || '')} — ${escapeHTML(m.thuis)} vs ${escapeHTML(m.uit)}</span>
+        <span class="score">${m.thuisScore} – ${m.uitScore}</span>
+      </div>
+      <div class="werkelijke-match-invul">
+        <input type="text" placeholder="Scorers ${escapeHTML(m.thuis)}" value="${escapeHTML(ws.thuisScorers || '')}" id="ws-t-${m.id}" />
+        <input type="text" placeholder="Scorers ${escapeHTML(m.uit)}" value="${escapeHTML(ws.uitScorers || '')}" id="ws-u-${m.id}" />
+        <button>Opslaan</button>
+      </div>
+    `;
+    div.querySelector("button").onclick = async () => {
+      const thuisScorers = document.getElementById(`ws-t-${m.id}`).value.trim();
+      const uitScorers  = document.getElementById(`ws-u-${m.id}`).value.trim();
+      const btn = div.querySelector("button");
+      btn.textContent = "...";
+      await fbWerkelijkSchrijf(m.id, { thuisScorers, uitScorers });
+      btn.textContent = "✓";
+      setTimeout(() => btn.textContent = "Opslaan", 1500);
+    };
+    scorersLijst.appendChild(div);
+  });
+}
+
+async function laadGokstandEnStart() {
+  alleVoorspellingen = await fbVoorspelAllesLees();
+  werkelijkeScorers = await fbWerkelijkAllesLees();
+  startGokstandSync();
+  // Upload lokale voorspellingen van huidige speler naar Firebase (voor de leaderboard)
+  uploadLokaleVoorspellingen();
+  updateGokstandBadge();
+}
+
+function uploadLokaleVoorspellingen() {
+  const speler = actiefGebruiker();
+  if (!speler) return;
+  // Ajax
+  try {
+    const aj = JSON.parse(localStorage.getItem(`olliebet-voorspellingen-ajax-${speler}`) || "{}");
+    for (const [mid, v] of Object.entries(aj)) fbVoorspelSchrijf(mid, speler, v);
+  } catch(e) {}
+  // Clubs (inc favorieten)
+  for (let i = 0; i < localStorage.length; i++) {
+    const k = localStorage.key(i);
+    if (!k || !k.startsWith("olliebet-club-") || !k.endsWith(`-${speler}`)) continue;
+    try {
+      const obj = JSON.parse(localStorage.getItem(k) || "{}");
+      for (const [mid, v] of Object.entries(obj)) fbVoorspelSchrijf(mid, speler, v);
+    } catch(e) {}
   }
 }
 
@@ -1107,18 +1445,22 @@ function renderClubWedstrijden() {
 
 function slaClubOp() {
   const data = {};
+  const speler = actiefGebruiker();
   clubWedstrijden.forEach((w, i) => {
-    data[w.id] = {
+    const v = {
       thuisScore:   document.getElementById(`club-thuis-${i}`).value,
       uitScore:     document.getElementById(`club-uit-${i}`).value,
       thuisScorers: document.getElementById(`club-scorers-thuis-${i}`).value,
       uitScorers:   document.getElementById(`club-scorers-uit-${i}`).value,
     };
+    data[w.id] = v;
+    fbVoorspelSchrijf(w.id, speler, v);
   });
   localStorage.setItem(sleutelClub(gekozenClubId), JSON.stringify(data));
   const btn = document.querySelector("#club-wedstrijden button");
   btn.textContent = "✅ Opgeslagen!";
   setTimeout(() => btn.textContent = "Sla voorspellingen op", 2500);
+  updateGokstandBadge();
 }
 
 // ── Init ──────────────────────────────────────────────────────
@@ -1139,6 +1481,7 @@ setInterval(fetchAfcWedstrijden, 5 * 60 * 1000);
   }
   startFirebaseSync();
   laadChatEnStart();
+  laadGokstandEnStart();
 })();
 
 // Chat: Enter-toets versturen
