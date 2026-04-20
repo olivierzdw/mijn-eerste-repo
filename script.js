@@ -290,6 +290,7 @@ function verwijderGebruiker(naam) {
 function wisselGebruiker(naam) {
   setActiefGebruiker(naam);
   renderGebruikers();
+  renderFavorieten();
 }
 
 function toonNieuweGebruiker() {
@@ -758,6 +759,122 @@ function sleutelClub(teamId) {
   return `olliebet-club-${teamId}-${actiefGebruiker()}`;
 }
 
+// ── Favoriete clubs ───────────────────────────────────────────
+
+function laadFavorieten() {
+  try {
+    return JSON.parse(localStorage.getItem("olliebet-favorieten") || "[]");
+  } catch(e) { return []; }
+}
+
+function slaFavorietenOp(lijst) {
+  localStorage.setItem("olliebet-favorieten", JSON.stringify(lijst));
+}
+
+function isFavoriet(clubId) {
+  return laadFavorieten().some(c => c.id === clubId);
+}
+
+function toggleFavoriet(club) {
+  const lijst = laadFavorieten();
+  const idx   = lijst.findIndex(c => c.id === club.id);
+  if (idx >= 0) lijst.splice(idx, 1);
+  else lijst.push({ id: club.id, naam: club.naam, logo: club.logo || '', land: club.land || '' });
+  slaFavorietenOp(lijst);
+  renderFavorieten();
+}
+
+function verwijderFavoriet(clubId) {
+  const lijst = laadFavorieten().filter(c => c.id !== clubId);
+  slaFavorietenOp(lijst);
+  renderFavorieten();
+}
+
+async function renderFavorieten() {
+  const container = document.getElementById("favorieten-sectie");
+  if (!container) return;
+  const favs = laadFavorieten();
+  container.innerHTML = "";
+  if (favs.length === 0) return;
+
+  // Zorg dat clubsMatches geladen is
+  if (!clubsMatches) {
+    try {
+      const res = await fetch(`data/clubs-matches.json?t=${Date.now()}`);
+      clubsMatches = await res.json();
+    } catch(e) {
+      clubsMatches = {};
+    }
+  }
+
+  for (const fav of favs) {
+    const matches = clubsMatches[String(fav.id)] || [];
+    const opgeslagen = JSON.parse(localStorage.getItem(sleutelClub(fav.id)) || "{}");
+
+    const kop = document.createElement("div");
+    kop.className = "favoriet-kop";
+    kop.innerHTML = `
+      <h2 class="sectie-titel" style="margin:0">Komende ${escapeHTML(fav.naam)} wedstrijden</h2>
+      <button class="favoriet-verwijder" title="Verwijder favoriet">✕</button>
+    `;
+    kop.querySelector(".favoriet-verwijder").onclick = () => verwijderFavoriet(fav.id);
+    container.appendChild(kop);
+
+    const wrap = document.createElement("div");
+    wrap.className = "ajax-wedstrijden";
+
+    if (matches.length === 0) {
+      wrap.innerHTML = `<p style="color:#666;text-align:center">Geen geplande wedstrijden gevonden.</p>`;
+    } else {
+      matches.forEach((w, i) => {
+        const v = opgeslagen[w.id] || {};
+        const div = document.createElement("div");
+        div.className = "ajax-wedstrijd";
+        div.innerHTML = `
+          <span class="datum">${w.datum}</span>
+          <div class="ajax-match">
+            <div class="club-blok-klein">
+              <img src="${w.thuisLogo}" alt="${escapeHTML(w.thuis)}" onerror="this.style.display='none'" />
+              <span>${escapeHTML(w.thuis)}</span>
+              <input class="scorer-input" type="text" placeholder="Scorers..." value="${escapeHTML(v.thuisScorers ?? '')}" data-fav-id="${fav.id}" data-veld="thuisScorers" data-match="${w.id}" />
+            </div>
+            <div class="score-midden-klein">
+              <input type="number" min="0" max="20" placeholder="0" value="${v.thuisScore ?? ''}" data-fav-id="${fav.id}" data-veld="thuisScore" data-match="${w.id}" />
+              <span>–</span>
+              <input type="number" min="0" max="20" placeholder="0" value="${v.uitScore ?? ''}" data-fav-id="${fav.id}" data-veld="uitScore" data-match="${w.id}" />
+            </div>
+            <div class="club-blok-klein rechts">
+              <img src="${w.uitLogo}" alt="${escapeHTML(w.uit)}" onerror="this.style.display='none'" />
+              <span>${escapeHTML(w.uit)}</span>
+              <input class="scorer-input" type="text" placeholder="Scorers..." value="${escapeHTML(v.uitScorers ?? '')}" data-fav-id="${fav.id}" data-veld="uitScorers" data-match="${w.id}" />
+            </div>
+          </div>
+        `;
+        wrap.appendChild(div);
+      });
+
+      const btn = document.createElement("button");
+      btn.textContent = "Sla voorspellingen op";
+      btn.onclick = () => slaFavorietOp(fav.id, btn);
+      wrap.appendChild(btn);
+    }
+    container.appendChild(wrap);
+  }
+}
+
+function slaFavorietOp(clubId, btn) {
+  const data = {};
+  document.querySelectorAll(`[data-fav-id="${clubId}"]`).forEach(inp => {
+    const mid = inp.dataset.match;
+    const v   = inp.dataset.veld;
+    data[mid] = data[mid] || {};
+    data[mid][v] = inp.value;
+  });
+  localStorage.setItem(sleutelClub(clubId), JSON.stringify(data));
+  btn.textContent = "✅ Opgeslagen!";
+  setTimeout(() => btn.textContent = "Sla voorspellingen op", 2500);
+}
+
 async function laadClubsLijst() {
   if (clubsLijst) return;
   try {
@@ -805,12 +922,20 @@ function toonZoekResultaten(clubs) {
   clubs.slice(0, 8).forEach(club => {
     const item = document.createElement("div");
     item.className = "zoek-item";
+    const favKlasse = isFavoriet(club.id) ? " favoriet" : "";
     item.innerHTML = `
       ${club.logo ? `<img src="${club.logo}" alt="" onerror="this.style.display='none'" />` : ''}
-      <span class="zoek-naam">${club.naam}</span>
-      <span class="zoek-land">${club.land || ''}</span>
+      <span class="zoek-naam">${escapeHTML(club.naam)}</span>
+      <span class="zoek-land">${escapeHTML(club.land || '')}</span>
+      <button class="zoek-ster${favKlasse}" title="Zet op homepagina">★</button>
     `;
     item.onclick = () => kiesClub(club);
+    const ster = item.querySelector(".zoek-ster");
+    ster.onclick = (e) => {
+      e.stopPropagation();
+      toggleFavoriet(club);
+      ster.classList.toggle("favoriet", isFavoriet(club.id));
+    };
     container.appendChild(item);
   });
   container.classList.remove("hidden");
@@ -920,6 +1045,7 @@ function slaClubOp() {
 // ── Init ──────────────────────────────────────────────────────
 
 renderGebruikers();
+renderFavorieten();
 updateLiveMinuten();
 setInterval(updateLiveMinuten, 60000);
 setInterval(fetchAjaxWedstrijden, 5 * 60 * 1000);
