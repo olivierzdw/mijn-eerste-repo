@@ -275,6 +275,10 @@ function renderAjaxWedstrijden() {
           <span>${w.uit}</span>
         </div>
       </div>
+      <div class="scorers-rij">
+        <input class="scorer-input" type="text" placeholder="Scorers ${w.thuis}" value="${v.thuisScorers ?? ""}" id="ajax-scorers-thuis-${i}" />
+        <input class="scorer-input" type="text" placeholder="Scorers ${w.uit}" value="${v.uitScorers ?? ""}" id="ajax-scorers-uit-${i}" />
+      </div>
     `;
     container.appendChild(div);
   });
@@ -289,8 +293,10 @@ function slaAjaxOp() {
   const data = {};
   ajaxWedstrijden.forEach((w, i) => {
     data[w.id] = {
-      thuisScore: document.getElementById(`ajax-thuis-${i}`).value,
-      uitScore:   document.getElementById(`ajax-uit-${i}`).value,
+      thuisScore:    document.getElementById(`ajax-thuis-${i}`).value,
+      uitScore:      document.getElementById(`ajax-uit-${i}`).value,
+      thuisScorers:  document.getElementById(`ajax-scorers-thuis-${i}`).value,
+      uitScorers:    document.getElementById(`ajax-scorers-uit-${i}`).value,
     };
   });
   localStorage.setItem(sleutel("ajax"), JSON.stringify(data));
@@ -327,6 +333,10 @@ function renderAfcWedstrijden() {
           <span>${w.uit}</span>
         </div>
       </div>
+      <div class="scorers-rij">
+        <input class="scorer-input" type="text" placeholder="Scorers ${w.thuis}" value="${v.thuisScorers ?? ""}" id="afc-scorers-thuis-${i}" />
+        <input class="scorer-input" type="text" placeholder="Scorers ${w.uit}" value="${v.uitScorers ?? ""}" id="afc-scorers-uit-${i}" />
+      </div>
     `;
     container.appendChild(div);
   });
@@ -341,8 +351,10 @@ function slaAfcOp() {
   const data = {};
   afcWedstrijden.forEach((_, i) => {
     data[i] = {
-      thuisScore: document.getElementById(`afc-thuis-${i}`).value,
-      uitScore:   document.getElementById(`afc-uit-${i}`).value,
+      thuisScore:   document.getElementById(`afc-thuis-${i}`).value,
+      uitScore:     document.getElementById(`afc-uit-${i}`).value,
+      thuisScorers: document.getElementById(`afc-scorers-thuis-${i}`).value,
+      uitScorers:   document.getElementById(`afc-scorers-uit-${i}`).value,
     };
   });
   localStorage.setItem(sleutel("afc"), JSON.stringify(data));

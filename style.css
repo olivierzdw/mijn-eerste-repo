@@ -378,6 +378,32 @@ button:hover {
   align-self: center;
 }
 
+.scorers-rij {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.6rem;
+  width: 100%;
+}
+
+.scorer-input {
+  flex: 1;
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+  border: 2px solid #0f3460;
+  background: #0f3460;
+  color: #fff;
+  font-size: 0.85rem;
+  outline: none;
+}
+
+.scorer-input:focus {
+  border-color: #e94560;
+}
+
+.scorer-input::placeholder {
+  color: #555;
+}
+
 .lijst {
   margin-top: 2rem;
   display: flex;
