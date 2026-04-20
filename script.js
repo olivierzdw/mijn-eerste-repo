@@ -15,12 +15,7 @@ const clubs = [
   { naam: "Willem II",       logo: "https://upload.wikimedia.org/wikipedia/en/7/77/Willem_II_logo.svg" },
 ];
 
-const ajaxWedstrijden = [
-  { datum: "za 26 april", thuis: "NAC Breda",  uit: "Ajax" },
-  { datum: "za 2 mei",    thuis: "Ajax",        uit: "PSV" },
-  { datum: "zo 10 mei",   thuis: "Ajax",        uit: "FC Utrecht" },
-  { datum: "zo 17 mei",   thuis: "Heerenveen",  uit: "Ajax" },
-];
+let ajaxWedstrijden = [];
 
 const afcLogos = {
   "AFC JO11-4":          "https://www.afc.nl/wp-content/uploads/2022/10/afc-logo-color.png",
@@ -88,7 +83,7 @@ function renderGebruikers() {
   document.getElementById("geen-gebruiker").classList.toggle("hidden", heeftGebruiker);
 
   if (heeftGebruiker) {
-    renderAjaxWedstrijden();
+    fetchAjaxWedstrijden();
     renderAfcWedstrijden();
   }
 }
@@ -165,6 +160,42 @@ const clubNaamMapping = {
   "Willem II": "Willem II",
 };
 
+const dagNamen = ["zo", "ma", "di", "wo", "do", "vr", "za"];
+const maandNamen = ["januari","februari","maart","april","mei","juni","juli","augustus","september","oktober","november","december"];
+
+function formatDatum(utcDate) {
+  const d = new Date(utcDate);
+  const dag = dagNamen[d.getDay()];
+  const maand = maandNamen[d.getMonth()];
+  const tijd = d.toLocaleTimeString("nl-NL", { hour: "2-digit", minute: "2-digit", timeZone: "Europe/Amsterdam" });
+  return `${dag} ${d.getDate()} ${maand} ${tijd}`;
+}
+
+function clubNaam(apiNaam) {
+  return clubNaamMapping[apiNaam] || apiNaam;
+}
+
+async function fetchAjaxWedstrijden() {
+  try {
+    const vandaag = new Date().toISOString().split("T")[0];
+    const res = await fetch(`https://api.football-data.org/v4/teams/678/matches?status=SCHEDULED&dateFrom=${vandaag}&limit=10`, {
+      headers: { 'X-Auth-Token': FOOTBALL_API_KEY }
+    });
+    const data = await res.json();
+    ajaxWedstrijden = (data.matches || []).map(m => ({
+      id:    m.id,
+      datum: formatDatum(m.utcDate),
+      thuis: clubNaam(m.homeTeam.name),
+      uit:   clubNaam(m.awayTeam.name),
+    }));
+    renderAjaxWedstrijden();
+    updateLiveMinuten();
+  } catch (e) {
+    document.getElementById("ajax-wedstrijden").innerHTML =
+      `<p style="color:#666;text-align:center">Kon wedstrijden niet laden.</p>`;
+  }
+}
+
 async function fetchLiveEredivisie() {
   try {
     const res = await fetch('https://api.football-data.org/v4/competitions/DED/matches?status=LIVE', {
@@ -219,8 +250,13 @@ function renderAjaxWedstrijden() {
   const opgeslagen = JSON.parse(localStorage.getItem(sleutel("ajax")) || "{}");
   container.innerHTML = "";
 
+  if (ajaxWedstrijden.length === 0) {
+    container.innerHTML = `<p style="color:#666;text-align:center">Wedstrijden laden...</p>`;
+    return;
+  }
+
   ajaxWedstrijden.forEach((w, i) => {
-    const v   = opgeslagen[i] || {};
+    const v   = opgeslagen[w.id] || {};
     const div = document.createElement("div");
     div.className = "ajax-wedstrijd";
     div.innerHTML = `
@@ -253,8 +289,8 @@ function renderAjaxWedstrijden() {
 
 function slaAjaxOp() {
   const data = {};
-  ajaxWedstrijden.forEach((_, i) => {
-    data[i] = {
+  ajaxWedstrijden.forEach((w, i) => {
+    data[w.id] = {
       thuisScore: document.getElementById(`ajax-thuis-${i}`).value,
       uitScore:   document.getElementById(`ajax-uit-${i}`).value,
     };
