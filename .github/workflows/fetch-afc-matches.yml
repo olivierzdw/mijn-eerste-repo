@@ -1,0 +1,101 @@
+name: Fetch AFC JO11-4 matches
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  fetch-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch AFC JO11-4 matches
+        run: |
+          curl -s "https://www.afc.nl/team/afc-jo11-4/" \
+            -H "User-Agent: Mozilla/5.0" \
+            -o afc_page.html
+
+          python3 - <<'EOF'
+          import re, json
+          from datetime import datetime
+
+          with open('afc_page.html', encoding='utf-8') as f:
+              html = f.read()
+
+          dag_map = {'ma':1,'di':2,'wo':3,'do':4,'vr':5,'za':6,'zo':0}
+
+          # Parse wedstrijden uit AFC pagina
+          matches = []
+          # Zoek naar wedstrijd blokken
+          blokken = re.findall(
+              r'(\d{2}-\d{2}-\d{4}).*?(\d{2}:\d{2}).*?class="[^"]*team[^"]*home[^"]*"[^>]*>(.*?)</.*?class="[^"]*team[^"]*away[^"]*"[^>]*>(.*?)</',
+              html, re.DOTALL
+          )
+
+          maand_namen = ['januari','februari','maart','april','mei','juni',
+                         'juli','augustus','september','oktober','november','december']
+          dag_namen   = ['zo','ma','di','wo','do','vr','za']
+          logo_map = {
+              'AFC': 'images/afc.png',
+              'Blauw-Wit': 'images/blauw-wit.png',
+              'Fortius': 'images/fortius.png',
+              'Sloterdijk': 'images/sloterdijk.png',
+          }
+
+          def logo(naam):
+              for k, v in logo_map.items():
+                  if k.lower() in naam.lower():
+                      return v
+              return ''
+
+          for datum_str, tijd, thuis_raw, uit_raw in blokken:
+              thuis = re.sub(r'<[^>]+>', '', thuis_raw).strip()
+              uit   = re.sub(r'<[^>]+>', '', uit_raw).strip()
+              dag, maand, jaar = datum_str.split('-')
+              d = datetime(int(jaar), int(maand), int(dag))
+              if d < datetime.now():
+                  continue
+              dag_naam = dag_namen[(d.weekday()+1)%7]
+              datum = f"{dag_naam} {int(dag)} {maand_namen[int(maand)-1]} {tijd}"
+              matches.append({
+                  'datum': datum,
+                  'thuis': thuis,
+                  'thuisLogo': logo(thuis),
+                  'uit': uit,
+                  'uitLogo': logo(uit),
+              })
+
+          # Fallback: behoud bestaande data als scrape niks oplevert
+          if not matches:
+              print("Geen wedstrijden gevonden, bestaande data behouden")
+              exit(0)
+
+          with open('data/afc-matches.json', 'w') as f:
+              json.dump(matches, f, ensure_ascii=False, indent=2)
+          print(f"Saved {len(matches)} AFC matches")
+          EOF
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/afc-matches.json
+          git diff --staged --quiet || git commit -m "Update AFC wedstrijden"
+          git push
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - id: deployment
+        uses: actions/deploy-pages@v4

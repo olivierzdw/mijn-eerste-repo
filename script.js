@@ -24,11 +24,7 @@ const afcLogos = {
   "Sloterdijk JO11-1":   "images/sloterdijk.png",
 };
 
-const afcWedstrijden = [
-  { datum: "za 9 mei 11:15",  thuis: "ASV Blauw-Wit JO11-5", uit: "AFC JO11-4" },
-  { datum: "za 16 mei 08:30", thuis: "AFC JO11-4",            uit: "DTA Fortius JO11-2" },
-  { datum: "za 30 mei 10:00", thuis: "Sloterdijk JO11-1",     uit: "AFC JO11-4" },
-];
+let afcWedstrijden = [];
 
 // ── Gebruikers ────────────────────────────────────────────────
 
@@ -84,7 +80,7 @@ function renderGebruikers() {
 
   if (heeftGebruiker) {
     fetchAjaxWedstrijden();
-    renderAfcWedstrijden();
+    fetchAfcWedstrijden();
   }
 }
 
@@ -183,6 +179,17 @@ async function fetchAjaxWedstrijden() {
     updateLiveMinuten();
   } catch (e) {
     document.getElementById("ajax-wedstrijden").innerHTML =
+      `<p style="color:#666;text-align:center">Kon wedstrijden niet laden.</p>`;
+  }
+}
+
+async function fetchAfcWedstrijden() {
+  try {
+    const res = await fetch(`data/afc-matches.json?t=${Date.now()}`);
+    afcWedstrijden = await res.json();
+    renderAfcWedstrijden();
+  } catch (e) {
+    document.getElementById("afc-wedstrijden").innerHTML =
       `<p style="color:#666;text-align:center">Kon wedstrijden niet laden.</p>`;
   }
 }
@@ -307,7 +314,7 @@ function renderAfcWedstrijden() {
       <span class="datum">${w.datum}</span>
       <div class="ajax-match">
         <div class="club-blok-klein">
-          <img src="${afcLogos[w.thuis] || ""}" alt="${w.thuis}" />
+          <img src="${w.thuisLogo || ""}" alt="${w.thuis}" />
           <span>${w.thuis}</span>
         </div>
         <div class="score-midden-klein">
@@ -316,7 +323,7 @@ function renderAfcWedstrijden() {
           <input type="number" min="0" max="20" placeholder="0" value="${v.uitScore ?? ""}" id="afc-uit-${i}" />
         </div>
         <div class="club-blok-klein rechts">
-          <img src="${afcLogos[w.uit] || ""}" alt="${w.uit}" />
+          <img src="${w.uitLogo || ""}" alt="${w.uit}" />
           <span>${w.uit}</span>
         </div>
       </div>
@@ -350,3 +357,4 @@ renderGebruikers();
 updateLiveMinuten();
 setInterval(updateLiveMinuten, 60000);
 setInterval(fetchAjaxWedstrijden, 5 * 60 * 1000);
+setInterval(fetchAfcWedstrijden, 5 * 60 * 1000);

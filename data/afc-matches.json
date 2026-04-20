@@ -1,0 +1,23 @@
+[
+  {
+    "datum": "za 9 mei 11:15",
+    "thuis": "ASV Blauw-Wit JO11-5",
+    "thuisLogo": "images/blauw-wit.png",
+    "uit": "AFC JO11-4",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 16 mei 08:30",
+    "thuis": "AFC JO11-4",
+    "thuisLogo": "images/afc.png",
+    "uit": "DTA Fortius JO11-2",
+    "uitLogo": "images/fortius.png"
+  },
+  {
+    "datum": "za 30 mei 10:00",
+    "thuis": "Sloterdijk JO11-1",
+    "thuisLogo": "images/sloterdijk.png",
+    "uit": "AFC JO11-4",
+    "uitLogo": "images/afc.png"
+  }
+]
