@@ -25,30 +25,6 @@
 
   <main id="main-inhoud" class="hidden">
 
-    <div class="wedstrijd-maker">
-      <div class="match-row">
-        <div class="club-blok">
-          <img id="thuis-logo" src="" alt="" class="club-logo-groot" />
-          <select id="thuis-club" onchange="updateLogo('thuis')">
-            <option value="">-- Thuisclub --</option>
-          </select>
-        </div>
-        <div class="score-midden">
-          <input type="number" id="thuis-score" min="0" max="20" placeholder="0" />
-          <span>–</span>
-          <input type="number" id="uit-score" min="0" max="20" placeholder="0" />
-        </div>
-        <div class="club-blok">
-          <img id="uit-logo" src="" alt="" class="club-logo-groot" />
-          <select id="uit-club" onchange="updateLogo('uit')">
-            <option value="">-- Uitclub --</option>
-          </select>
-        </div>
-      </div>
-      <button onclick="voegToe()">Voeg voorspelling toe</button>
-      <p class="fout" id="fout-melding"></p>
-    </div>
-
     <h2 class="sectie-titel">Komende Ajax wedstrijden</h2>
     <div class="ajax-wedstrijden" id="ajax-wedstrijden"></div>
 
