@@ -178,7 +178,7 @@ function clubNaam(apiNaam) {
 async function fetchAjaxWedstrijden() {
   try {
     const vandaag = new Date().toISOString().split("T")[0];
-    const res = await fetch(`https://api.football-data.org/v4/teams/678/matches?status=SCHEDULED&dateFrom=${vandaag}&limit=10`, {
+    const res = await fetch(`https://api.football-data.org/v4/teams/678/matches?status=TIMED&dateFrom=${vandaag}`, {
       headers: { 'X-Auth-Token': FOOTBALL_API_KEY }
     });
     const data = await res.json();
