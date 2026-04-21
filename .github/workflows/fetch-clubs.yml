@@ -25,6 +25,10 @@ jobs:
           # Landelijke competities eerst, dan bekertoernooien
           competitions = ['PL', 'PD', 'BL1', 'SA', 'FL1', 'DED', 'PPL', 'BSA', 'ELC', 'CL', 'EL']
           cup_comps = {'CL', 'EL'}
+          # Hoe ver terug we scorers ophalen
+          from datetime import timedelta, timezone
+          scorer_cutoff = datetime.now(timezone.utc) - timedelta(days=21)
+          finished_match_meta = {}   # match_id -> (utcDate, thuisNaam, uitNaam)
 
           dag_namen   = ['zo','ma','di','wo','do','vr','za']
           maand_namen = ['januari','februari','maart','april','mei','juni',
@@ -123,6 +127,17 @@ jobs:
                           results_per_club.setdefault(tid, [])
                           if not any(x['id'] == m['id'] for x in results_per_club[tid]):
                               results_per_club[tid].append(r)
+                      # Onthoud metadata voor scorer-fetch (alleen recent)
+                      try:
+                          match_dt = datetime.fromisoformat(m['utcDate'].replace('Z','+00:00'))
+                          if match_dt >= scorer_cutoff:
+                              finished_match_meta[m['id']] = {
+                                  'utcDate': m['utcDate'],
+                                  'thuis':   m['homeTeam']['name'],
+                                  'uit':     m['awayTeam']['name'],
+                              }
+                      except Exception:
+                          pass
                   print(f"{comp} results: {len(data.get('matches',[]))}")
               except Exception as e:
                   print(f"{comp} results fout: {e}")
@@ -157,6 +172,55 @@ jobs:
                   print(f"{comp} stand fout: {e}")
               time.sleep(7)
 
+          # --- Scorers ophalen voor recent afgelopen wedstrijden ---
+          # Laad bestaande scorers om te hergebruiken en niet onnodig API-calls te doen
+          try:
+              with open('data/scorers.json', 'r') as f:
+                  scorers_data = json.load(f)
+          except Exception:
+              scorers_data = {}
+
+          # Alleen recente wedstrijden ophalen waarvan we nog geen scorers hebben
+          te_fetchen = [mid for mid in finished_match_meta if str(mid) not in scorers_data]
+          # Sorteer meest recente eerst, beperk tot 40 per run zodat we binnen rate limit blijven
+          te_fetchen.sort(key=lambda mid: finished_match_meta[mid]['utcDate'], reverse=True)
+          te_fetchen = te_fetchen[:40]
+          print(f"Scorers ophalen voor {len(te_fetchen)} wedstrijden (totaal recent: {len(finished_match_meta)})")
+
+          for mid in te_fetchen:
+              meta = finished_match_meta[mid]
+              try:
+                  data = fetch(f'https://api.football-data.org/v4/matches/{mid}')
+                  thuis_naam = meta['thuis']
+                  uit_naam   = meta['uit']
+                  thuis_scorers = []
+                  uit_scorers   = []
+                  for g in data.get('goals', []):
+                      scorer = (g.get('scorer') or {}).get('name')
+                      if not scorer:
+                          continue
+                      tm = (g.get('team') or {}).get('name', '')
+                      # Own goals tellen voor het tegenoverliggende team
+                      gtype = g.get('type', '')
+                      if tm == thuis_naam:
+                          if gtype == 'OWN':
+                              uit_scorers.append(scorer)
+                          else:
+                              thuis_scorers.append(scorer)
+                      elif tm == uit_naam:
+                          if gtype == 'OWN':
+                              thuis_scorers.append(scorer)
+                          else:
+                              uit_scorers.append(scorer)
+                  scorers_data[str(mid)] = {
+                      'thuisScorers': ', '.join(thuis_scorers),
+                      'uitScorers':   ', '.join(uit_scorers),
+                  }
+                  print(f"  {mid}: {thuis_naam} {len(thuis_scorers)}-{len(uit_scorers)} {uit_naam}")
+              except Exception as e:
+                  print(f"  scorers {mid} fout: {e}")
+              time.sleep(7)
+
           result = sorted(clubs.values(), key=lambda c: c['naam'])
           with open('data/clubs.json', 'w') as f:
               json.dump(result, f, ensure_ascii=False, indent=2)
@@ -166,14 +230,16 @@ jobs:
               json.dump({str(k): v for k,v in results_per_club.items()}, f, ensure_ascii=False, indent=2)
           with open('data/competition-stands.json', 'w') as f:
               json.dump(competition_stands, f, ensure_ascii=False, indent=2)
+          with open('data/scorers.json', 'w') as f:
+              json.dump(scorers_data, f, ensure_ascii=False, indent=2)
 
-          print(f"Klaar: {len(result)} clubs, {len(competition_stands)} standen")
+          print(f"Klaar: {len(result)} clubs, {len(competition_stands)} standen, {len(scorers_data)} scorer-sets")
           EOF
 
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/clubs.json data/clubs-matches.json data/clubs-results.json data/competition-stands.json
+          git add data/clubs.json data/clubs-matches.json data/clubs-results.json data/competition-stands.json data/scorers.json
           git diff --staged --quiet || git commit -m "Update clubs, wedstrijden, uitslagen en standen"
           git push

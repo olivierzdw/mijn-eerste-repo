@@ -1125,6 +1125,30 @@ async function laadAlleResultaten() {
   return map;
 }
 
+async function laadAlleMatchInfo() {
+  // Alle bekende wedstrijden (afgerond + komend) op id
+  const map = {};
+  if (!clubsResults) {
+    try {
+      const res = await fetch(`data/clubs-results.json?t=${Date.now()}`);
+      clubsResults = await res.json();
+    } catch(e) { clubsResults = {}; }
+  }
+  if (!clubsMatches) {
+    try {
+      const res = await fetch(`data/clubs-matches.json?t=${Date.now()}`);
+      clubsMatches = await res.json();
+    } catch(e) { clubsMatches = {}; }
+  }
+  Object.values(clubsResults || {}).forEach(arr => {
+    (arr || []).forEach(m => { if (m && m.id) map[m.id] = m; });
+  });
+  Object.values(clubsMatches || {}).forEach(arr => {
+    (arr || []).forEach(m => { if (m && m.id && !map[m.id]) map[m.id] = m; });
+  });
+  return map;
+}
+
 function berekenPuntenPerSpeler(alleMatches) {
   const spelers = laadGebruikers();
   const totalen = {};
@@ -1194,6 +1218,64 @@ async function renderGokstand() {
     .map(s => ({ naam: s, ...totalen[s] }))
     .sort((a, b) => b.totaal - a.totaal);
 
+  // Voorspellingen per speler verzamelen (incl. komende wedstrijden)
+  const matchInfo = await laadAlleMatchInfo();
+  const voorspellingenPerSpeler = {};
+  spelers.forEach(s => voorspellingenPerSpeler[s] = []);
+  Object.entries(alleVoorspellingen || {}).forEach(([mid, perSpeler]) => {
+    const m = matchInfo[mid];
+    Object.entries(perSpeler || {}).forEach(([speler, v]) => {
+      if (!voorspellingenPerSpeler[speler]) return;
+      const vT = parseInt(v.thuisScore, 10);
+      const vU = parseInt(v.uitScore, 10);
+      if (isNaN(vT) || isNaN(vU)) return;
+      voorspellingenPerSpeler[speler].push({
+        datum:      (m && m.datum) || '',
+        thuis:      (m && m.thuis) || '(onbekend)',
+        uit:        (m && m.uit) || '(onbekend)',
+        thuisLogo:  (m && m.thuisLogo) || '',
+        uitLogo:    (m && m.uitLogo) || '',
+        vT, vU,
+        wT:         m && m.thuisScore != null ? m.thuisScore : null,
+        wU:         m && m.uitScore   != null ? m.uitScore   : null,
+      });
+    });
+  });
+  // Sorteer elke spelers-lijst: gespeelde wedstrijden eerst (nieuwste boven)
+  Object.values(voorspellingenPerSpeler).forEach(lst => {
+    lst.sort((a, b) => (b.datum || '').localeCompare(a.datum || ''));
+  });
+
+  const voorspellingenHTML = gesorteerd.map(r => {
+    const lst = voorspellingenPerSpeler[r.naam] || [];
+    if (lst.length === 0) return '';
+    const rijen = lst.map(d => {
+      const heeftResultaat = d.wT != null && d.wU != null;
+      const uitslagHTML = heeftResultaat
+        ? `<span class="vp-werkelijk">${d.wT}–${d.wU}</span>`
+        : `<span class="vp-wacht">—</span>`;
+      return `
+        <div class="vp-rij">
+          <span class="vp-datum">${escapeHTML(d.datum)}</span>
+          <span class="vp-wedstrijd">
+            <img src="${d.thuisLogo}" alt="" onerror="this.style.display='none'" class="vp-logo" />
+            <span class="vp-club">${escapeHTML(d.thuis)}</span>
+            <span class="vp-voorspel">${d.vT}–${d.vU}</span>
+            <span class="vp-club">${escapeHTML(d.uit)}</span>
+            <img src="${d.uitLogo}" alt="" onerror="this.style.display='none'" class="vp-logo" />
+          </span>
+          ${uitslagHTML}
+        </div>
+      `;
+    }).join('');
+    return `
+      <div class="vp-speler-blok">
+        <h4 class="vp-speler-naam">${escapeHTML(r.naam)}</h4>
+        ${rijen}
+      </div>
+    `;
+  }).join('');
+
   lijst.innerHTML = `
     <table class="gokstand-tabel">
       <thead>
@@ -1222,12 +1304,26 @@ async function renderGokstand() {
         }).join('')}
       </tbody>
     </table>
+    ${voorspellingenHTML ? `<h3 class="vp-kop">Voorspellingen per speler</h3>${voorspellingenHTML}` : ''}
   `;
+}
+
+async function laadScorersJson() {
+  try {
+    const resp = await fetch("data/scorers.json?t=" + Date.now());
+    if (!resp.ok) return {};
+    return await resp.json();
+  } catch (e) {
+    return {};
+  }
 }
 
 async function laadGokstandEnStart() {
   alleVoorspellingen = await fbVoorspelAllesLees();
-  werkelijkeScorers = await fbWerkelijkAllesLees();
+  const fbWerkelijk = await fbWerkelijkAllesLees();
+  const autoScorers = await laadScorersJson();
+  // Auto-opgehaalde scorers als basis, handmatige (Firebase) mag overschrijven
+  werkelijkeScorers = Object.assign({}, autoScorers, fbWerkelijk);
   startGokstandSync();
   // Upload lokale voorspellingen van huidige speler naar Firebase (voor de leaderboard)
   uploadLokaleVoorspellingen();

@@ -1102,6 +1102,45 @@ button:hover {
 .gokstand-tabel .zilver { background: rgba(192, 192, 192, 0.08); }
 .gokstand-tabel .brons { background: rgba(205, 127, 50, 0.12); }
 
+.vp-kop {
+  margin: 1.5rem 0 0.5rem;
+  color: #eee;
+  font-size: 1rem;
+}
+
+.vp-speler-blok {
+  background: #16213e;
+  border-radius: 10px;
+  padding: 0.6rem 0.8rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid #0f3460;
+}
+
+.vp-speler-naam {
+  color: #ffd84d;
+  font-size: 0.95rem;
+  margin-bottom: 0.4rem;
+}
+
+.vp-rij {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.3rem 0;
+  font-size: 0.82rem;
+  color: #ccc;
+  border-top: 1px solid #0f3460;
+}
+.vp-rij:first-of-type { border-top: none; }
+
+.vp-datum { color: #777; min-width: 6rem; font-size: 0.75rem; }
+.vp-wedstrijd { display: flex; align-items: center; gap: 0.3rem; flex: 1; flex-wrap: wrap; }
+.vp-club { color: #ccc; }
+.vp-logo { width: 16px; height: 16px; object-fit: contain; }
+.vp-voorspel { color: #e94560; font-weight: bold; margin: 0 0.25rem; }
+.vp-werkelijk { color: #ffd84d; font-weight: bold; }
+.vp-wacht { color: #555; }
+
 .gokstand-sub {
   margin: 2rem 1rem 0.3rem !important;
   text-align: left !important;
