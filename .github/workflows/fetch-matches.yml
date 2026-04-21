@@ -52,6 +52,9 @@ jobs:
               'NAC Breda':'NAC Breda',
               'Willem II':'Willem II',
           }
+          logo_override = {
+              'NAC Breda': 'images/nac-breda-v2.png',
+          }
 
           tz = zoneinfo.ZoneInfo('Europe/Amsterdam')
           matches = []
@@ -60,13 +63,15 @@ jobs:
               dag   = dag_namen[(d.weekday() + 1) % 7]
               maand = maand_namen[d.month - 1]
               datum = f"{dag} {d.day} {maand} {d.hour:02d}:{d.minute:02d}"
+              thuis_naam = club_mapping.get(m['homeTeam']['name'], m['homeTeam']['name'])
+              uit_naam   = club_mapping.get(m['awayTeam']['name'], m['awayTeam']['name'])
               matches.append({
                   'id':        m['id'],
                   'datum':     datum,
-                  'thuis':     club_mapping.get(m['homeTeam']['name'], m['homeTeam']['name']),
-                  'thuisLogo': m['homeTeam'].get('crest', ''),
-                  'uit':       club_mapping.get(m['awayTeam']['name'], m['awayTeam']['name']),
-                  'uitLogo':   m['awayTeam'].get('crest', ''),
+                  'thuis':     thuis_naam,
+                  'thuisLogo': logo_override.get(thuis_naam, m['homeTeam'].get('crest', '')),
+                  'uit':       uit_naam,
+                  'uitLogo':   logo_override.get(uit_naam, m['awayTeam'].get('crest', '')),
               })
 
           with open('data/ajax-matches.json','w') as f:
@@ -98,19 +103,24 @@ jobs:
               'RKC Waalwijk':'RKC','Go Ahead Eagles':'Go Ahead Eagles','Willem II':'Willem II',
               'AZ Alkmaar':'AZ','Feyenoord':'Feyenoord','Heracles Almelo':'Heracles',
           }
+          logo_override = {
+              'NAC Breda': 'images/nac-breda-v2.png',
+          }
           tz = zoneinfo.ZoneInfo('Europe/Amsterdam')
           results = []
           for m in data.get('matches', []):
               d = datetime.fromisoformat(m['utcDate'].replace('Z','+00:00')).astimezone(tz)
               dag = dag_namen[(d.weekday()+1)%7]
               datum = f"{dag} {d.day} {maand_namen[d.month-1]}"
+              thuis_naam = club_mapping.get(m['homeTeam']['name'], m['homeTeam']['name'])
+              uit_naam   = club_mapping.get(m['awayTeam']['name'], m['awayTeam']['name'])
               results.append({
                   'id': m['id'],
                   'datum': datum,
-                  'thuis': club_mapping.get(m['homeTeam']['name'], m['homeTeam']['name']),
-                  'thuisLogo': m['homeTeam'].get('crest',''),
-                  'uit': club_mapping.get(m['awayTeam']['name'], m['awayTeam']['name']),
-                  'uitLogo': m['awayTeam'].get('crest',''),
+                  'thuis': thuis_naam,
+                  'thuisLogo': logo_override.get(thuis_naam, m['homeTeam'].get('crest','')),
+                  'uit': uit_naam,
+                  'uitLogo': logo_override.get(uit_naam, m['awayTeam'].get('crest','')),
                   'thuisScore': m['score']['fullTime']['home'],
                   'uitScore': m['score']['fullTime']['away'],
               })
