@@ -72,12 +72,20 @@
     "competitieNaam": "Premier League"
   },
   {
+    "id": 519,
+    "naam": "AJ Auxerre",
+    "logo": "https://crests.football-data.org/519.png",
+    "land": "France",
+    "competitie": "FL1",
+    "competitieNaam": "Ligue 1"
+  },
+  {
     "id": 548,
     "naam": "AS Monaco FC",
     "logo": "https://crests.football-data.org/548.png",
     "land": "Monaco",
-    "competitie": "CL",
-    "competitieNaam": "Champions League"
+    "competitie": "FL1",
+    "competitieNaam": "Ligue 1"
   },
   {
     "id": 100,
@@ -102,6 +110,14 @@
     "land": "Netherlands",
     "competitie": "DED",
     "competitieNaam": "Eredivisie"
+  },
+  {
+    "id": 532,
+    "naam": "Angers SCO",
+    "logo": "https://crests.football-data.org/532.png",
+    "land": "France",
+    "competitie": "FL1",
+    "competitieNaam": "Ligue 1"
   },
   {
     "id": 57,
@@ -528,6 +544,30 @@
     "competitieNaam": "Champions League"
   },
   {
+    "id": 525,
+    "naam": "FC Lorient",
+    "logo": "https://crests.football-data.org/525.png",
+    "land": "France",
+    "competitie": "FL1",
+    "competitieNaam": "Ligue 1"
+  },
+  {
+    "id": 545,
+    "naam": "FC Metz",
+    "logo": "https://crests.football-data.org/545.png",
+    "land": "France",
+    "competitie": "FL1",
+    "competitieNaam": "Ligue 1"
+  },
+  {
+    "id": 543,
+    "naam": "FC Nantes",
+    "logo": "https://crests.football-data.org/543.png",
+    "land": "France",
+    "competitie": "FL1",
+    "competitieNaam": "Ligue 1"
+  },
+  {
     "id": 503,
     "naam": "FC Porto",
     "logo": "https://crests.football-data.org/503.png",
@@ -728,6 +768,14 @@
     "competitieNaam": "Serie A"
   },
   {
+    "id": 533,
+    "naam": "Le Havre AC",
+    "logo": "https://crests.football-data.org/533.png",
+    "land": "France",
+    "competitie": "FL1",
+    "competitieNaam": "Ligue 1"
+  },
+  {
     "id": 341,
     "naam": "Leeds United FC",
     "logo": "https://crests.football-data.org/341.png",
@@ -750,6 +798,14 @@
     "land": "Spain",
     "competitie": "PD",
     "competitieNaam": "La Liga"
+  },
+  {
+    "id": 521,
+    "naam": "Lille OSC",
+    "logo": "https://crests.football-data.org/521.png",
+    "land": "France",
+    "competitie": "FL1",
+    "competitieNaam": "Ligue 1"
   },
   {
     "id": 64,
@@ -848,12 +904,28 @@
     "competitieNaam": "Premier League"
   },
   {
+    "id": 522,
+    "naam": "OGC Nice",
+    "logo": "https://crests.football-data.org/522.png",
+    "land": "France",
+    "competitie": "FL1",
+    "competitieNaam": "Ligue 1"
+  },
+  {
+    "id": 523,
+    "naam": "Olympique Lyonnais",
+    "logo": "https://crests.football-data.org/523.png",
+    "land": "France",
+    "competitie": "FL1",
+    "competitieNaam": "Ligue 1"
+  },
+  {
     "id": 516,
     "naam": "Olympique de Marseille",
     "logo": "https://crests.football-data.org/516.png",
     "land": "France",
-    "competitie": "CL",
-    "competitieNaam": "Champions League"
+    "competitie": "FL1",
+    "competitieNaam": "Ligue 1"
   },
   {
     "id": 1082,
@@ -896,12 +968,20 @@
     "competitieNaam": "Champions League"
   },
   {
+    "id": 1045,
+    "naam": "Paris FC",
+    "logo": "https://crests.football-data.org/1045.png",
+    "land": "France",
+    "competitie": "FL1",
+    "competitieNaam": "Ligue 1"
+  },
+  {
     "id": 524,
     "naam": "Paris Saint-Germain FC",
     "logo": "https://crests.football-data.org/524.png",
     "land": "France",
-    "competitie": "CL",
-    "competitieNaam": "Champions League"
+    "competitie": "FL1",
+    "competitieNaam": "Ligue 1"
   },
   {
     "id": 112,
@@ -968,6 +1048,14 @@
     "competitieNaam": "La Liga"
   },
   {
+    "id": 576,
+    "naam": "RC Strasbourg Alsace",
+    "logo": "https://crests.football-data.org/576.png",
+    "land": "France",
+    "competitie": "FL1",
+    "competitieNaam": "Ligue 1"
+  },
+  {
     "id": 80,
     "naam": "RCD Espanyol de Barcelona",
     "logo": "https://crests.football-data.org/80.png",
@@ -982,6 +1070,14 @@
     "land": "Spain",
     "competitie": "PD",
     "competitieNaam": "La Liga"
+  },
+  {
+    "id": 546,
+    "naam": "Racing Club de Lens",
+    "logo": "https://crests.football-data.org/546.png",
+    "land": "France",
+    "competitie": "FL1",
+    "competitieNaam": "Ligue 1"
   },
   {
     "id": 87,
@@ -1192,6 +1288,22 @@
     "competitieNaam": "Primeira Liga"
   },
   {
+    "id": 512,
+    "naam": "Stade Brestois 29",
+    "logo": "https://crests.football-data.org/512.png",
+    "land": "France",
+    "competitie": "FL1",
+    "competitieNaam": "Ligue 1"
+  },
+  {
+    "id": 529,
+    "naam": "Stade Rennais FC 1901",
+    "logo": "https://crests.football-data.org/529.png",
+    "land": "France",
+    "competitie": "FL1",
+    "competitieNaam": "Ligue 1"
+  },
+  {
     "id": 70,
     "naam": "Stoke City FC",
     "logo": "https://crests.football-data.org/70.png",
@@ -1254,6 +1366,14 @@
     "land": "England",
     "competitie": "PL",
     "competitieNaam": "Premier League"
+  },
+  {
+    "id": 511,
+    "naam": "Toulouse FC",
+    "logo": "https://crests.football-data.org/511.png",
+    "land": "France",
+    "competitie": "FL1",
+    "competitieNaam": "Ligue 1"
   },
   {
     "id": 457,

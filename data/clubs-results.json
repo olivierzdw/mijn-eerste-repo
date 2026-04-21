@@ -329,6 +329,126 @@
       "uitLogo": "https://crests.football-data.org/64.png",
       "thuisScore": 1,
       "uitScore": 2
+    },
+    {
+      "id": 551946,
+      "datum": "wo 17 september",
+      "thuis": "Liverpool FC",
+      "thuisLogo": "https://crests.football-data.org/64.png",
+      "uit": "Club Atlético de Madrid",
+      "uitLogo": "https://crests.football-data.org/78.png",
+      "thuisScore": 3,
+      "uitScore": 2
+    },
+    {
+      "id": 551951,
+      "datum": "di 30 september",
+      "thuis": "Galatasaray SK",
+      "thuisLogo": "https://crests.football-data.org/610.png",
+      "uit": "Liverpool FC",
+      "uitLogo": "https://crests.football-data.org/64.png",
+      "thuisScore": 1,
+      "uitScore": 0
+    },
+    {
+      "id": 551947,
+      "datum": "wo 22 oktober",
+      "thuis": "Eintracht Frankfurt",
+      "thuisLogo": "https://crests.football-data.org/19.png",
+      "uit": "Liverpool FC",
+      "uitLogo": "https://crests.football-data.org/64.png",
+      "thuisScore": 1,
+      "uitScore": 5
+    },
+    {
+      "id": 551924,
+      "datum": "di 4 november",
+      "thuis": "Liverpool FC",
+      "thuisLogo": "https://crests.football-data.org/64.png",
+      "uit": "Real Madrid CF",
+      "uitLogo": "https://crests.football-data.org/86.png",
+      "thuisScore": 1,
+      "uitScore": 0
+    },
+    {
+      "id": 551948,
+      "datum": "wo 26 november",
+      "thuis": "Liverpool FC",
+      "thuisLogo": "https://crests.football-data.org/64.png",
+      "uit": "PSV",
+      "uitLogo": "https://crests.football-data.org/674.png",
+      "thuisScore": 1,
+      "uitScore": 4
+    },
+    {
+      "id": 551931,
+      "datum": "di 9 december",
+      "thuis": "FC Internazionale Milano",
+      "thuisLogo": "https://crests.football-data.org/108.png",
+      "uit": "Liverpool FC",
+      "uitLogo": "https://crests.football-data.org/64.png",
+      "thuisScore": 0,
+      "uitScore": 1
+    },
+    {
+      "id": 551949,
+      "datum": "wo 21 januari",
+      "thuis": "Olympique de Marseille",
+      "thuisLogo": "https://crests.football-data.org/516.png",
+      "uit": "Liverpool FC",
+      "uitLogo": "https://crests.football-data.org/64.png",
+      "thuisScore": 0,
+      "uitScore": 3
+    },
+    {
+      "id": 551950,
+      "datum": "wo 28 januari",
+      "thuis": "Liverpool FC",
+      "thuisLogo": "https://crests.football-data.org/64.png",
+      "uit": "Qarabağ Ağdam FK",
+      "uitLogo": "https://crests.football-data.org/611.png",
+      "thuisScore": 6,
+      "uitScore": 0
+    },
+    {
+      "id": 552069,
+      "datum": "di 10 maart",
+      "thuis": "Galatasaray SK",
+      "thuisLogo": "https://crests.football-data.org/610.png",
+      "uit": "Liverpool FC",
+      "uitLogo": "https://crests.football-data.org/64.png",
+      "thuisScore": 1,
+      "uitScore": 0
+    },
+    {
+      "id": 552077,
+      "datum": "wo 18 maart",
+      "thuis": "Liverpool FC",
+      "thuisLogo": "https://crests.football-data.org/64.png",
+      "uit": "Galatasaray SK",
+      "uitLogo": "https://crests.football-data.org/610.png",
+      "thuisScore": 4,
+      "uitScore": 0
+    },
+    {
+      "id": 556718,
+      "datum": "wo 8 april",
+      "thuis": "Paris Saint-Germain FC",
+      "thuisLogo": "https://crests.football-data.org/524.png",
+      "uit": "Liverpool FC",
+      "uitLogo": "https://crests.football-data.org/64.png",
+      "thuisScore": 2,
+      "uitScore": 0
+    },
+    {
+      "id": 556722,
+      "datum": "di 14 april",
+      "thuis": "Liverpool FC",
+      "thuisLogo": "https://crests.football-data.org/64.png",
+      "uit": "Paris Saint-Germain FC",
+      "uitLogo": "https://crests.football-data.org/524.png",
+      "thuisScore": 0,
+      "uitScore": 2
     }
   ],
   "1044": [
@@ -1324,6 +1444,126 @@
       "uit": "AFC Bournemouth",
       "uitLogo": "https://crests.football-data.org/bournemouth.png",
       "thuisScore": 1,
+      "uitScore": 2
+    },
+    {
+      "id": 551958,
+      "datum": "do 18 september",
+      "thuis": "Newcastle United FC",
+      "thuisLogo": "https://crests.football-data.org/67.png",
+      "uit": "FC Barcelona",
+      "uitLogo": "https://crests.football-data.org/81.png",
+      "thuisScore": 1,
+      "uitScore": 2
+    },
+    {
+      "id": 552044,
+      "datum": "wo 1 oktober",
+      "thuis": "Royale Union Saint-Gilloise",
+      "thuisLogo": "https://crests.football-data.org/3929.png",
+      "uit": "Newcastle United FC",
+      "uitLogo": "https://crests.football-data.org/67.png",
+      "thuisScore": 0,
+      "uitScore": 4
+    },
+    {
+      "id": 551992,
+      "datum": "di 21 oktober",
+      "thuis": "Newcastle United FC",
+      "thuisLogo": "https://crests.football-data.org/67.png",
+      "uit": "Sport Lisboa e Benfica",
+      "uitLogo": "https://crests.football-data.org/1903.png",
+      "thuisScore": 3,
+      "uitScore": 0
+    },
+    {
+      "id": 552047,
+      "datum": "wo 5 november",
+      "thuis": "Newcastle United FC",
+      "thuisLogo": "https://crests.football-data.org/67.png",
+      "uit": "Athletic Club",
+      "uitLogo": "https://crests.football-data.org/77.png",
+      "thuisScore": 2,
+      "uitScore": 0
+    },
+    {
+      "id": 552017,
+      "datum": "di 25 november",
+      "thuis": "Olympique de Marseille",
+      "thuisLogo": "https://crests.football-data.org/516.png",
+      "uit": "Newcastle United FC",
+      "uitLogo": "https://crests.football-data.org/67.png",
+      "thuisScore": 2,
+      "uitScore": 1
+    },
+    {
+      "id": 551974,
+      "datum": "wo 10 december",
+      "thuis": "Bayer 04 Leverkusen",
+      "thuisLogo": "https://crests.football-data.org/3.png",
+      "uit": "Newcastle United FC",
+      "uitLogo": "https://crests.football-data.org/67.png",
+      "thuisScore": 2,
+      "uitScore": 2
+    },
+    {
+      "id": 552036,
+      "datum": "wo 21 januari",
+      "thuis": "Newcastle United FC",
+      "thuisLogo": "https://crests.football-data.org/67.png",
+      "uit": "PSV",
+      "uitLogo": "https://crests.football-data.org/674.png",
+      "thuisScore": 3,
+      "uitScore": 0
+    },
+    {
+      "id": 552050,
+      "datum": "wo 28 januari",
+      "thuis": "Paris Saint-Germain FC",
+      "thuisLogo": "https://crests.football-data.org/524.png",
+      "uit": "Newcastle United FC",
+      "uitLogo": "https://crests.football-data.org/67.png",
+      "thuisScore": 1,
+      "uitScore": 1
+    },
+    {
+      "id": 552054,
+      "datum": "wo 18 februari",
+      "thuis": "Qarabağ Ağdam FK",
+      "thuisLogo": "https://crests.football-data.org/611.png",
+      "uit": "Newcastle United FC",
+      "uitLogo": "https://crests.football-data.org/67.png",
+      "thuisScore": 1,
+      "uitScore": 6
+    },
+    {
+      "id": 552062,
+      "datum": "di 24 februari",
+      "thuis": "Newcastle United FC",
+      "thuisLogo": "https://crests.football-data.org/67.png",
+      "uit": "Qarabağ Ağdam FK",
+      "uitLogo": "https://crests.football-data.org/611.png",
+      "thuisScore": 3,
+      "uitScore": 2
+    },
+    {
+      "id": 552072,
+      "datum": "di 10 maart",
+      "thuis": "Newcastle United FC",
+      "thuisLogo": "https://crests.football-data.org/67.png",
+      "uit": "FC Barcelona",
+      "uitLogo": "https://crests.football-data.org/81.png",
+      "thuisScore": 1,
+      "uitScore": 1
+    },
+    {
+      "id": 552080,
+      "datum": "wo 18 maart",
+      "thuis": "FC Barcelona",
+      "thuisLogo": "https://crests.football-data.org/81.png",
+      "uit": "Newcastle United FC",
+      "uitLogo": "https://crests.football-data.org/67.png",
+      "thuisScore": 7,
       "uitScore": 2
     }
   ],
@@ -2643,6 +2883,16 @@
       "uitLogo": "https://crests.football-data.org/76.png",
       "thuisScore": 4,
       "uitScore": 0
+    },
+    {
+      "id": 538106,
+      "datum": "ma 20 april",
+      "thuis": "Crystal Palace FC",
+      "thuisLogo": "https://crests.football-data.org/354.png",
+      "uit": "West Ham United FC",
+      "uitLogo": "https://crests.football-data.org/563.png",
+      "thuisScore": 0,
+      "uitScore": 0
     }
   ],
   "73": [
@@ -2974,6 +3224,106 @@
       "uit": "Brighton & Hove Albion FC",
       "uitLogo": "https://crests.football-data.org/397.png",
       "thuisScore": 2,
+      "uitScore": 2
+    },
+    {
+      "id": 552012,
+      "datum": "di 16 september",
+      "thuis": "Tottenham Hotspur FC",
+      "thuisLogo": "https://crests.football-data.org/73.png",
+      "uit": "Villarreal CF",
+      "uitLogo": "https://crests.football-data.org/94.png",
+      "thuisScore": 1,
+      "uitScore": 0
+    },
+    {
+      "id": 552020,
+      "datum": "di 30 september",
+      "thuis": "FK Bodø/Glimt",
+      "thuisLogo": "https://crests.football-data.org/5721.png",
+      "uit": "Tottenham Hotspur FC",
+      "uitLogo": "https://crests.football-data.org/73.png",
+      "thuisScore": 2,
+      "uitScore": 2
+    },
+    {
+      "id": 552022,
+      "datum": "wo 22 oktober",
+      "thuis": "AS Monaco FC",
+      "thuisLogo": "https://crests.football-data.org/548.png",
+      "uit": "Tottenham Hotspur FC",
+      "uitLogo": "https://crests.football-data.org/73.png",
+      "thuisScore": 0,
+      "uitScore": 0
+    },
+    {
+      "id": 552021,
+      "datum": "di 4 november",
+      "thuis": "Tottenham Hotspur FC",
+      "thuisLogo": "https://crests.football-data.org/73.png",
+      "uit": "FC København",
+      "uitLogo": "https://crests.football-data.org/1876.png",
+      "thuisScore": 4,
+      "uitScore": 0
+    },
+    {
+      "id": 551961,
+      "datum": "wo 26 november",
+      "thuis": "Paris Saint-Germain FC",
+      "thuisLogo": "https://crests.football-data.org/524.png",
+      "uit": "Tottenham Hotspur FC",
+      "uitLogo": "https://crests.football-data.org/73.png",
+      "thuisScore": 5,
+      "uitScore": 3
+    },
+    {
+      "id": 552019,
+      "datum": "di 9 december",
+      "thuis": "Tottenham Hotspur FC",
+      "thuisLogo": "https://crests.football-data.org/73.png",
+      "uit": "SK Slavia Praha",
+      "uitLogo": "https://crests.football-data.org/930.png",
+      "thuisScore": 3,
+      "uitScore": 0
+    },
+    {
+      "id": 551943,
+      "datum": "di 20 januari",
+      "thuis": "Tottenham Hotspur FC",
+      "thuisLogo": "https://crests.football-data.org/73.png",
+      "uit": "Borussia Dortmund",
+      "uitLogo": "https://crests.football-data.org/4.png",
+      "thuisScore": 2,
+      "uitScore": 0
+    },
+    {
+      "id": 551998,
+      "datum": "wo 28 januari",
+      "thuis": "Eintracht Frankfurt",
+      "thuisLogo": "https://crests.football-data.org/19.png",
+      "uit": "Tottenham Hotspur FC",
+      "uitLogo": "https://crests.football-data.org/73.png",
+      "thuisScore": 0,
+      "uitScore": 2
+    },
+    {
+      "id": 552073,
+      "datum": "di 10 maart",
+      "thuis": "Club Atlético de Madrid",
+      "thuisLogo": "https://crests.football-data.org/78.png",
+      "uit": "Tottenham Hotspur FC",
+      "uitLogo": "https://crests.football-data.org/73.png",
+      "thuisScore": 5,
+      "uitScore": 2
+    },
+    {
+      "id": 552081,
+      "datum": "wo 18 maart",
+      "thuis": "Tottenham Hotspur FC",
+      "thuisLogo": "https://crests.football-data.org/73.png",
+      "uit": "Club Atlético de Madrid",
+      "uitLogo": "https://crests.football-data.org/78.png",
+      "thuisScore": 3,
       "uitScore": 2
     }
   ],
@@ -3961,6 +4311,106 @@
       "uitLogo": "https://crests.football-data.org/57.png",
       "thuisScore": 2,
       "uitScore": 1
+    },
+    {
+      "id": 551965,
+      "datum": "do 18 september",
+      "thuis": "Manchester City FC",
+      "thuisLogo": "https://crests.football-data.org/65.png",
+      "uit": "SSC Napoli",
+      "uitLogo": "https://crests.football-data.org/113.png",
+      "thuisScore": 2,
+      "uitScore": 0
+    },
+    {
+      "id": 551968,
+      "datum": "wo 1 oktober",
+      "thuis": "AS Monaco FC",
+      "thuisLogo": "https://crests.football-data.org/548.png",
+      "uit": "Manchester City FC",
+      "uitLogo": "https://crests.football-data.org/65.png",
+      "thuisScore": 2,
+      "uitScore": 2
+    },
+    {
+      "id": 551964,
+      "datum": "di 21 oktober",
+      "thuis": "Villarreal CF",
+      "thuisLogo": "https://crests.football-data.org/94.png",
+      "uit": "Manchester City FC",
+      "uitLogo": "https://crests.football-data.org/65.png",
+      "thuisScore": 0,
+      "uitScore": 2
+    },
+    {
+      "id": 551939,
+      "datum": "wo 5 november",
+      "thuis": "Manchester City FC",
+      "thuisLogo": "https://crests.football-data.org/65.png",
+      "uit": "Borussia Dortmund",
+      "uitLogo": "https://crests.football-data.org/4.png",
+      "thuisScore": 4,
+      "uitScore": 1
+    },
+    {
+      "id": 551963,
+      "datum": "di 25 november",
+      "thuis": "Manchester City FC",
+      "thuisLogo": "https://crests.football-data.org/65.png",
+      "uit": "Bayer 04 Leverkusen",
+      "uitLogo": "https://crests.football-data.org/3.png",
+      "thuisScore": 0,
+      "uitScore": 2
+    },
+    {
+      "id": 551923,
+      "datum": "wo 10 december",
+      "thuis": "Real Madrid CF",
+      "thuisLogo": "https://crests.football-data.org/86.png",
+      "uit": "Manchester City FC",
+      "uitLogo": "https://crests.football-data.org/65.png",
+      "thuisScore": 1,
+      "uitScore": 2
+    },
+    {
+      "id": 551966,
+      "datum": "di 20 januari",
+      "thuis": "FK Bodø/Glimt",
+      "thuisLogo": "https://crests.football-data.org/5721.png",
+      "uit": "Manchester City FC",
+      "uitLogo": "https://crests.football-data.org/65.png",
+      "thuisScore": 3,
+      "uitScore": 1
+    },
+    {
+      "id": 551967,
+      "datum": "wo 28 januari",
+      "thuis": "Manchester City FC",
+      "thuisLogo": "https://crests.football-data.org/65.png",
+      "uit": "Galatasaray SK",
+      "uitLogo": "https://crests.football-data.org/610.png",
+      "thuisScore": 2,
+      "uitScore": 0
+    },
+    {
+      "id": 552070,
+      "datum": "wo 11 maart",
+      "thuis": "Real Madrid CF",
+      "thuisLogo": "https://crests.football-data.org/86.png",
+      "uit": "Manchester City FC",
+      "uitLogo": "https://crests.football-data.org/65.png",
+      "thuisScore": 3,
+      "uitScore": 0
+    },
+    {
+      "id": 552078,
+      "datum": "di 17 maart",
+      "thuis": "Manchester City FC",
+      "thuisLogo": "https://crests.football-data.org/65.png",
+      "uit": "Real Madrid CF",
+      "uitLogo": "https://crests.football-data.org/86.png",
+      "thuisScore": 1,
+      "uitScore": 2
     }
   ],
   "351": [
@@ -4957,6 +5407,106 @@
       "uitLogo": "https://crests.football-data.org/66.png",
       "thuisScore": 0,
       "uitScore": 1
+    },
+    {
+      "id": 551908,
+      "datum": "wo 17 september",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "Chelsea FC",
+      "uitLogo": "https://crests.football-data.org/61.png",
+      "thuisScore": 3,
+      "uitScore": 1
+    },
+    {
+      "id": 551917,
+      "datum": "di 30 september",
+      "thuis": "Chelsea FC",
+      "thuisLogo": "https://crests.football-data.org/61.png",
+      "uit": "Sport Lisboa e Benfica",
+      "uitLogo": "https://crests.football-data.org/1903.png",
+      "thuisScore": 1,
+      "uitScore": 0
+    },
+    {
+      "id": 551919,
+      "datum": "wo 22 oktober",
+      "thuis": "Chelsea FC",
+      "thuisLogo": "https://crests.football-data.org/61.png",
+      "uit": "AFC Ajax",
+      "uitLogo": "https://crests.football-data.org/678.png",
+      "thuisScore": 5,
+      "uitScore": 1
+    },
+    {
+      "id": 551922,
+      "datum": "wo 5 november",
+      "thuis": "Qarabağ Ağdam FK",
+      "thuisLogo": "https://crests.football-data.org/611.png",
+      "uit": "Chelsea FC",
+      "uitLogo": "https://crests.football-data.org/61.png",
+      "thuisScore": 2,
+      "uitScore": 2
+    },
+    {
+      "id": 551916,
+      "datum": "di 25 november",
+      "thuis": "Chelsea FC",
+      "thuisLogo": "https://crests.football-data.org/61.png",
+      "uit": "FC Barcelona",
+      "uitLogo": "https://crests.football-data.org/81.png",
+      "thuisScore": 3,
+      "uitScore": 0
+    },
+    {
+      "id": 551918,
+      "datum": "di 9 december",
+      "thuis": "Atalanta BC",
+      "thuisLogo": "https://crests.football-data.org/102.png",
+      "uit": "Chelsea FC",
+      "uitLogo": "https://crests.football-data.org/61.png",
+      "thuisScore": 2,
+      "uitScore": 1
+    },
+    {
+      "id": 551921,
+      "datum": "wo 21 januari",
+      "thuis": "Chelsea FC",
+      "thuisLogo": "https://crests.football-data.org/61.png",
+      "uit": "Paphos FC",
+      "uitLogo": "https://crests.football-data.org/11034.png",
+      "thuisScore": 1,
+      "uitScore": 0
+    },
+    {
+      "id": 551920,
+      "datum": "wo 28 januari",
+      "thuis": "SSC Napoli",
+      "thuisLogo": "https://crests.football-data.org/113.png",
+      "uit": "Chelsea FC",
+      "uitLogo": "https://crests.football-data.org/61.png",
+      "thuisScore": 2,
+      "uitScore": 3
+    },
+    {
+      "id": 552068,
+      "datum": "wo 11 maart",
+      "thuis": "Paris Saint-Germain FC",
+      "thuisLogo": "https://crests.football-data.org/524.png",
+      "uit": "Chelsea FC",
+      "uitLogo": "https://crests.football-data.org/61.png",
+      "thuisScore": 5,
+      "uitScore": 2
+    },
+    {
+      "id": 552076,
+      "datum": "di 17 maart",
+      "thuis": "Chelsea FC",
+      "thuisLogo": "https://crests.football-data.org/61.png",
+      "uit": "Paris Saint-Germain FC",
+      "uitLogo": "https://crests.football-data.org/524.png",
+      "thuisScore": 0,
+      "uitScore": 3
     }
   ],
   "354": [
@@ -5269,6 +5819,16 @@
       "uitLogo": "https://crests.football-data.org/67.png",
       "thuisScore": 2,
       "uitScore": 1
+    },
+    {
+      "id": 538106,
+      "datum": "ma 20 april",
+      "thuis": "Crystal Palace FC",
+      "thuisLogo": "https://crests.football-data.org/354.png",
+      "uit": "West Ham United FC",
+      "uitLogo": "https://crests.football-data.org/563.png",
+      "thuisScore": 0,
+      "uitScore": 0
     }
   ],
   "66": [
@@ -5933,6 +6493,126 @@
       "uitLogo": "https://crests.football-data.org/57.png",
       "thuisScore": 2,
       "uitScore": 1
+    },
+    {
+      "id": 551981,
+      "datum": "di 16 september",
+      "thuis": "Athletic Club",
+      "thuisLogo": "https://crests.football-data.org/77.png",
+      "uit": "Arsenal FC",
+      "uitLogo": "https://crests.football-data.org/57.png",
+      "thuisScore": 0,
+      "uitScore": 2
+    },
+    {
+      "id": 551978,
+      "datum": "wo 1 oktober",
+      "thuis": "Arsenal FC",
+      "thuisLogo": "https://crests.football-data.org/57.png",
+      "uit": "PAE Olympiakos SFP",
+      "uitLogo": "https://crests.football-data.org/654.png",
+      "thuisScore": 2,
+      "uitScore": 0
+    },
+    {
+      "id": 551976,
+      "datum": "di 21 oktober",
+      "thuis": "Arsenal FC",
+      "thuisLogo": "https://crests.football-data.org/57.png",
+      "uit": "Club Atlético de Madrid",
+      "uitLogo": "https://crests.football-data.org/78.png",
+      "thuisScore": 4,
+      "uitScore": 0
+    },
+    {
+      "id": 551979,
+      "datum": "di 4 november",
+      "thuis": "SK Slavia Praha",
+      "thuisLogo": "https://crests.football-data.org/930.png",
+      "uit": "Arsenal FC",
+      "uitLogo": "https://crests.football-data.org/57.png",
+      "thuisScore": 0,
+      "uitScore": 3
+    },
+    {
+      "id": 551911,
+      "datum": "wo 26 november",
+      "thuis": "Arsenal FC",
+      "thuisLogo": "https://crests.football-data.org/57.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png",
+      "thuisScore": 3,
+      "uitScore": 1
+    },
+    {
+      "id": 551977,
+      "datum": "wo 10 december",
+      "thuis": "Club Brugge KV",
+      "thuisLogo": "https://crests.football-data.org/851.png",
+      "uit": "Arsenal FC",
+      "uitLogo": "https://crests.football-data.org/57.png",
+      "thuisScore": 0,
+      "uitScore": 3
+    },
+    {
+      "id": 551933,
+      "datum": "di 20 januari",
+      "thuis": "FC Internazionale Milano",
+      "thuisLogo": "https://crests.football-data.org/108.png",
+      "uit": "Arsenal FC",
+      "uitLogo": "https://crests.football-data.org/57.png",
+      "thuisScore": 1,
+      "uitScore": 3
+    },
+    {
+      "id": 551980,
+      "datum": "wo 28 januari",
+      "thuis": "Arsenal FC",
+      "thuisLogo": "https://crests.football-data.org/57.png",
+      "uit": "FK Kairat",
+      "uitLogo": "https://crests.football-data.org/10601.png",
+      "thuisScore": 3,
+      "uitScore": 2
+    },
+    {
+      "id": 552075,
+      "datum": "wo 11 maart",
+      "thuis": "Bayer 04 Leverkusen",
+      "thuisLogo": "https://crests.football-data.org/3.png",
+      "uit": "Arsenal FC",
+      "uitLogo": "https://crests.football-data.org/57.png",
+      "thuisScore": 1,
+      "uitScore": 1
+    },
+    {
+      "id": 552083,
+      "datum": "di 17 maart",
+      "thuis": "Arsenal FC",
+      "thuisLogo": "https://crests.football-data.org/57.png",
+      "uit": "Bayer 04 Leverkusen",
+      "uitLogo": "https://crests.football-data.org/3.png",
+      "thuisScore": 2,
+      "uitScore": 0
+    },
+    {
+      "id": 556721,
+      "datum": "di 7 april",
+      "thuis": "Sporting Clube de Portugal",
+      "thuisLogo": "https://crests.football-data.org/498.png",
+      "uit": "Arsenal FC",
+      "uitLogo": "https://crests.football-data.org/57.png",
+      "thuisScore": 0,
+      "uitScore": 1
+    },
+    {
+      "id": 556725,
+      "datum": "wo 15 april",
+      "thuis": "Arsenal FC",
+      "thuisLogo": "https://crests.football-data.org/57.png",
+      "uit": "Sporting Clube de Portugal",
+      "uitLogo": "https://crests.football-data.org/498.png",
+      "thuisScore": 0,
+      "uitScore": 0
     }
   ],
   "341": [
@@ -7533,6 +8213,86 @@
       "uitLogo": "https://crests.football-data.org/94.png",
       "thuisScore": 1,
       "uitScore": 2
+    },
+    {
+      "id": 552012,
+      "datum": "di 16 september",
+      "thuis": "Tottenham Hotspur FC",
+      "thuisLogo": "https://crests.football-data.org/73.png",
+      "uit": "Villarreal CF",
+      "uitLogo": "https://crests.football-data.org/94.png",
+      "thuisScore": 1,
+      "uitScore": 0
+    },
+    {
+      "id": 552002,
+      "datum": "wo 1 oktober",
+      "thuis": "Villarreal CF",
+      "thuisLogo": "https://crests.football-data.org/94.png",
+      "uit": "Juventus FC",
+      "uitLogo": "https://crests.football-data.org/109.png",
+      "thuisScore": 2,
+      "uitScore": 2
+    },
+    {
+      "id": 551964,
+      "datum": "di 21 oktober",
+      "thuis": "Villarreal CF",
+      "thuisLogo": "https://crests.football-data.org/94.png",
+      "uit": "Manchester City FC",
+      "uitLogo": "https://crests.football-data.org/65.png",
+      "thuisScore": 0,
+      "uitScore": 2
+    },
+    {
+      "id": 552014,
+      "datum": "wo 5 november",
+      "thuis": "Paphos FC",
+      "thuisLogo": "https://crests.football-data.org/11034.png",
+      "uit": "Villarreal CF",
+      "uitLogo": "https://crests.football-data.org/94.png",
+      "thuisScore": 1,
+      "uitScore": 0
+    },
+    {
+      "id": 551940,
+      "datum": "di 25 november",
+      "thuis": "Borussia Dortmund",
+      "thuisLogo": "https://crests.football-data.org/4.png",
+      "uit": "Villarreal CF",
+      "uitLogo": "https://crests.football-data.org/94.png",
+      "thuisScore": 4,
+      "uitScore": 0
+    },
+    {
+      "id": 552013,
+      "datum": "wo 10 december",
+      "thuis": "Villarreal CF",
+      "thuisLogo": "https://crests.football-data.org/94.png",
+      "uit": "FC København",
+      "uitLogo": "https://crests.football-data.org/1876.png",
+      "thuisScore": 2,
+      "uitScore": 3
+    },
+    {
+      "id": 552011,
+      "datum": "di 20 januari",
+      "thuis": "Villarreal CF",
+      "thuisLogo": "https://crests.football-data.org/94.png",
+      "uit": "AFC Ajax",
+      "uitLogo": "https://crests.football-data.org/678.png",
+      "thuisScore": 1,
+      "uitScore": 2
+    },
+    {
+      "id": 551970,
+      "datum": "wo 28 januari",
+      "thuis": "Bayer 04 Leverkusen",
+      "thuisLogo": "https://crests.football-data.org/3.png",
+      "uit": "Villarreal CF",
+      "uitLogo": "https://crests.football-data.org/94.png",
+      "thuisScore": 3,
+      "uitScore": 0
     }
   ],
   "1048": [
@@ -8469,6 +9229,126 @@
       "uitLogo": "https://crests.football-data.org/80.png",
       "thuisScore": 4,
       "uitScore": 1
+    },
+    {
+      "id": 551958,
+      "datum": "do 18 september",
+      "thuis": "Newcastle United FC",
+      "thuisLogo": "https://crests.football-data.org/67.png",
+      "uit": "FC Barcelona",
+      "uitLogo": "https://crests.football-data.org/81.png",
+      "thuisScore": 1,
+      "uitScore": 2
+    },
+    {
+      "id": 551952,
+      "datum": "wo 1 oktober",
+      "thuis": "FC Barcelona",
+      "thuisLogo": "https://crests.football-data.org/81.png",
+      "uit": "Paris Saint-Germain FC",
+      "uitLogo": "https://crests.football-data.org/524.png",
+      "thuisScore": 1,
+      "uitScore": 2
+    },
+    {
+      "id": 551955,
+      "datum": "di 21 oktober",
+      "thuis": "FC Barcelona",
+      "thuisLogo": "https://crests.football-data.org/81.png",
+      "uit": "PAE Olympiakos SFP",
+      "uitLogo": "https://crests.football-data.org/654.png",
+      "thuisScore": 6,
+      "uitScore": 1
+    },
+    {
+      "id": 551954,
+      "datum": "wo 5 november",
+      "thuis": "Club Brugge KV",
+      "thuisLogo": "https://crests.football-data.org/851.png",
+      "uit": "FC Barcelona",
+      "uitLogo": "https://crests.football-data.org/81.png",
+      "thuisScore": 3,
+      "uitScore": 3
+    },
+    {
+      "id": 551916,
+      "datum": "di 25 november",
+      "thuis": "Chelsea FC",
+      "thuisLogo": "https://crests.football-data.org/61.png",
+      "uit": "FC Barcelona",
+      "uitLogo": "https://crests.football-data.org/81.png",
+      "thuisScore": 3,
+      "uitScore": 0
+    },
+    {
+      "id": 551953,
+      "datum": "di 9 december",
+      "thuis": "FC Barcelona",
+      "thuisLogo": "https://crests.football-data.org/81.png",
+      "uit": "Eintracht Frankfurt",
+      "uitLogo": "https://crests.football-data.org/19.png",
+      "thuisScore": 2,
+      "uitScore": 1
+    },
+    {
+      "id": 551956,
+      "datum": "wo 21 januari",
+      "thuis": "SK Slavia Praha",
+      "thuisLogo": "https://crests.football-data.org/930.png",
+      "uit": "FC Barcelona",
+      "uitLogo": "https://crests.football-data.org/81.png",
+      "thuisScore": 2,
+      "uitScore": 4
+    },
+    {
+      "id": 551957,
+      "datum": "wo 28 januari",
+      "thuis": "FC Barcelona",
+      "thuisLogo": "https://crests.football-data.org/81.png",
+      "uit": "FC København",
+      "uitLogo": "https://crests.football-data.org/1876.png",
+      "thuisScore": 4,
+      "uitScore": 1
+    },
+    {
+      "id": 552072,
+      "datum": "di 10 maart",
+      "thuis": "Newcastle United FC",
+      "thuisLogo": "https://crests.football-data.org/67.png",
+      "uit": "FC Barcelona",
+      "uitLogo": "https://crests.football-data.org/81.png",
+      "thuisScore": 1,
+      "uitScore": 1
+    },
+    {
+      "id": 552080,
+      "datum": "wo 18 maart",
+      "thuis": "FC Barcelona",
+      "thuisLogo": "https://crests.football-data.org/81.png",
+      "uit": "Newcastle United FC",
+      "uitLogo": "https://crests.football-data.org/67.png",
+      "thuisScore": 7,
+      "uitScore": 2
+    },
+    {
+      "id": 556720,
+      "datum": "wo 8 april",
+      "thuis": "FC Barcelona",
+      "thuisLogo": "https://crests.football-data.org/81.png",
+      "uit": "Club Atlético de Madrid",
+      "uitLogo": "https://crests.football-data.org/78.png",
+      "thuisScore": 0,
+      "uitScore": 2
+    },
+    {
+      "id": 556724,
+      "datum": "di 14 april",
+      "thuis": "Club Atlético de Madrid",
+      "thuisLogo": "https://crests.football-data.org/78.png",
+      "uit": "FC Barcelona",
+      "uitLogo": "https://crests.football-data.org/81.png",
+      "thuisScore": 1,
+      "uitScore": 2
     }
   ],
   "263": [
@@ -10653,6 +11533,86 @@
       "uitLogo": "https://crests.football-data.org/94.png",
       "thuisScore": 1,
       "uitScore": 2
+    },
+    {
+      "id": 551981,
+      "datum": "di 16 september",
+      "thuis": "Athletic Club",
+      "thuisLogo": "https://crests.football-data.org/77.png",
+      "uit": "Arsenal FC",
+      "uitLogo": "https://crests.football-data.org/57.png",
+      "thuisScore": 0,
+      "uitScore": 2
+    },
+    {
+      "id": 551944,
+      "datum": "wo 1 oktober",
+      "thuis": "Borussia Dortmund",
+      "thuisLogo": "https://crests.football-data.org/4.png",
+      "uit": "Athletic Club",
+      "uitLogo": "https://crests.football-data.org/77.png",
+      "thuisScore": 4,
+      "uitScore": 1
+    },
+    {
+      "id": 552040,
+      "datum": "wo 22 oktober",
+      "thuis": "Athletic Club",
+      "thuisLogo": "https://crests.football-data.org/77.png",
+      "uit": "Qarabağ Ağdam FK",
+      "uitLogo": "https://crests.football-data.org/611.png",
+      "thuisScore": 3,
+      "uitScore": 1
+    },
+    {
+      "id": 552047,
+      "datum": "wo 5 november",
+      "thuis": "Newcastle United FC",
+      "thuisLogo": "https://crests.football-data.org/67.png",
+      "uit": "Athletic Club",
+      "uitLogo": "https://crests.football-data.org/77.png",
+      "thuisScore": 2,
+      "uitScore": 0
+    },
+    {
+      "id": 552035,
+      "datum": "di 25 november",
+      "thuis": "SK Slavia Praha",
+      "thuisLogo": "https://crests.football-data.org/930.png",
+      "uit": "Athletic Club",
+      "uitLogo": "https://crests.football-data.org/77.png",
+      "thuisScore": 0,
+      "uitScore": 0
+    },
+    {
+      "id": 551969,
+      "datum": "wo 10 december",
+      "thuis": "Athletic Club",
+      "thuisLogo": "https://crests.football-data.org/77.png",
+      "uit": "Paris Saint-Germain FC",
+      "uitLogo": "https://crests.football-data.org/524.png",
+      "thuisScore": 0,
+      "uitScore": 0
+    },
+    {
+      "id": 551986,
+      "datum": "wo 21 januari",
+      "thuis": "Atalanta BC",
+      "thuisLogo": "https://crests.football-data.org/102.png",
+      "uit": "Athletic Club",
+      "uitLogo": "https://crests.football-data.org/77.png",
+      "thuisScore": 2,
+      "uitScore": 3
+    },
+    {
+      "id": 552028,
+      "datum": "wo 28 januari",
+      "thuis": "Athletic Club",
+      "thuisLogo": "https://crests.football-data.org/77.png",
+      "uit": "Sporting Clube de Portugal",
+      "uitLogo": "https://crests.football-data.org/498.png",
+      "thuisScore": 2,
+      "uitScore": 3
     }
   ],
   "559": [
@@ -11589,6 +12549,146 @@
       "uitLogo": "https://crests.football-data.org/78.png",
       "thuisScore": 2,
       "uitScore": 1
+    },
+    {
+      "id": 551946,
+      "datum": "wo 17 september",
+      "thuis": "Liverpool FC",
+      "thuisLogo": "https://crests.football-data.org/64.png",
+      "uit": "Club Atlético de Madrid",
+      "uitLogo": "https://crests.football-data.org/78.png",
+      "thuisScore": 3,
+      "uitScore": 2
+    },
+    {
+      "id": 551997,
+      "datum": "di 30 september",
+      "thuis": "Club Atlético de Madrid",
+      "thuisLogo": "https://crests.football-data.org/78.png",
+      "uit": "Eintracht Frankfurt",
+      "uitLogo": "https://crests.football-data.org/19.png",
+      "thuisScore": 5,
+      "uitScore": 1
+    },
+    {
+      "id": 551976,
+      "datum": "di 21 oktober",
+      "thuis": "Arsenal FC",
+      "thuisLogo": "https://crests.football-data.org/57.png",
+      "uit": "Club Atlético de Madrid",
+      "uitLogo": "https://crests.football-data.org/78.png",
+      "thuisScore": 4,
+      "uitScore": 0
+    },
+    {
+      "id": 552009,
+      "datum": "di 4 november",
+      "thuis": "Club Atlético de Madrid",
+      "thuisLogo": "https://crests.football-data.org/78.png",
+      "uit": "Royale Union Saint-Gilloise",
+      "uitLogo": "https://crests.football-data.org/3929.png",
+      "thuisScore": 3,
+      "uitScore": 1
+    },
+    {
+      "id": 551934,
+      "datum": "wo 26 november",
+      "thuis": "Club Atlético de Madrid",
+      "thuisLogo": "https://crests.football-data.org/78.png",
+      "uit": "FC Internazionale Milano",
+      "uitLogo": "https://crests.football-data.org/108.png",
+      "thuisScore": 2,
+      "uitScore": 1
+    },
+    {
+      "id": 552008,
+      "datum": "di 9 december",
+      "thuis": "PSV",
+      "thuisLogo": "https://crests.football-data.org/674.png",
+      "uit": "Club Atlético de Madrid",
+      "uitLogo": "https://crests.football-data.org/78.png",
+      "thuisScore": 2,
+      "uitScore": 3
+    },
+    {
+      "id": 552010,
+      "datum": "wo 21 januari",
+      "thuis": "Galatasaray SK",
+      "thuisLogo": "https://crests.football-data.org/610.png",
+      "uit": "Club Atlético de Madrid",
+      "uitLogo": "https://crests.football-data.org/78.png",
+      "thuisScore": 1,
+      "uitScore": 1
+    },
+    {
+      "id": 552007,
+      "datum": "wo 28 januari",
+      "thuis": "Club Atlético de Madrid",
+      "thuisLogo": "https://crests.football-data.org/78.png",
+      "uit": "FK Bodø/Glimt",
+      "uitLogo": "https://crests.football-data.org/5721.png",
+      "thuisScore": 1,
+      "uitScore": 2
+    },
+    {
+      "id": 552056,
+      "datum": "wo 18 februari",
+      "thuis": "Club Brugge KV",
+      "thuisLogo": "https://crests.football-data.org/851.png",
+      "uit": "Club Atlético de Madrid",
+      "uitLogo": "https://crests.football-data.org/78.png",
+      "thuisScore": 3,
+      "uitScore": 3
+    },
+    {
+      "id": 552064,
+      "datum": "di 24 februari",
+      "thuis": "Club Atlético de Madrid",
+      "thuisLogo": "https://crests.football-data.org/78.png",
+      "uit": "Club Brugge KV",
+      "uitLogo": "https://crests.football-data.org/851.png",
+      "thuisScore": 4,
+      "uitScore": 1
+    },
+    {
+      "id": 552073,
+      "datum": "di 10 maart",
+      "thuis": "Club Atlético de Madrid",
+      "thuisLogo": "https://crests.football-data.org/78.png",
+      "uit": "Tottenham Hotspur FC",
+      "uitLogo": "https://crests.football-data.org/73.png",
+      "thuisScore": 5,
+      "uitScore": 2
+    },
+    {
+      "id": 552081,
+      "datum": "wo 18 maart",
+      "thuis": "Tottenham Hotspur FC",
+      "thuisLogo": "https://crests.football-data.org/73.png",
+      "uit": "Club Atlético de Madrid",
+      "uitLogo": "https://crests.football-data.org/78.png",
+      "thuisScore": 3,
+      "uitScore": 2
+    },
+    {
+      "id": 556720,
+      "datum": "wo 8 april",
+      "thuis": "FC Barcelona",
+      "thuisLogo": "https://crests.football-data.org/81.png",
+      "uit": "Club Atlético de Madrid",
+      "uitLogo": "https://crests.football-data.org/78.png",
+      "thuisScore": 0,
+      "uitScore": 2
+    },
+    {
+      "id": 556724,
+      "datum": "di 14 april",
+      "thuis": "Club Atlético de Madrid",
+      "thuisLogo": "https://crests.football-data.org/78.png",
+      "uit": "FC Barcelona",
+      "uitLogo": "https://crests.football-data.org/81.png",
+      "thuisScore": 1,
+      "uitScore": 2
     }
   ],
   "285": [
@@ -12525,6 +13625,146 @@
       "uitLogo": "https://crests.football-data.org/298.png",
       "thuisScore": 1,
       "uitScore": 1
+    },
+    {
+      "id": 551927,
+      "datum": "di 16 september",
+      "thuis": "Real Madrid CF",
+      "thuisLogo": "https://crests.football-data.org/86.png",
+      "uit": "Olympique de Marseille",
+      "uitLogo": "https://crests.football-data.org/516.png",
+      "thuisScore": 2,
+      "uitScore": 1
+    },
+    {
+      "id": 551930,
+      "datum": "di 30 september",
+      "thuis": "FK Kairat",
+      "thuisLogo": "https://crests.football-data.org/10601.png",
+      "uit": "Real Madrid CF",
+      "uitLogo": "https://crests.football-data.org/86.png",
+      "thuisScore": 0,
+      "uitScore": 5
+    },
+    {
+      "id": 551925,
+      "datum": "wo 22 oktober",
+      "thuis": "Real Madrid CF",
+      "thuisLogo": "https://crests.football-data.org/86.png",
+      "uit": "Juventus FC",
+      "uitLogo": "https://crests.football-data.org/109.png",
+      "thuisScore": 1,
+      "uitScore": 0
+    },
+    {
+      "id": 551924,
+      "datum": "di 4 november",
+      "thuis": "Liverpool FC",
+      "thuisLogo": "https://crests.football-data.org/64.png",
+      "uit": "Real Madrid CF",
+      "uitLogo": "https://crests.football-data.org/86.png",
+      "thuisScore": 1,
+      "uitScore": 0
+    },
+    {
+      "id": 551928,
+      "datum": "wo 26 november",
+      "thuis": "PAE Olympiakos SFP",
+      "thuisLogo": "https://crests.football-data.org/654.png",
+      "uit": "Real Madrid CF",
+      "uitLogo": "https://crests.football-data.org/86.png",
+      "thuisScore": 3,
+      "uitScore": 4
+    },
+    {
+      "id": 551923,
+      "datum": "wo 10 december",
+      "thuis": "Real Madrid CF",
+      "thuisLogo": "https://crests.football-data.org/86.png",
+      "uit": "Manchester City FC",
+      "uitLogo": "https://crests.football-data.org/65.png",
+      "thuisScore": 1,
+      "uitScore": 2
+    },
+    {
+      "id": 551929,
+      "datum": "di 20 januari",
+      "thuis": "Real Madrid CF",
+      "thuisLogo": "https://crests.football-data.org/86.png",
+      "uit": "AS Monaco FC",
+      "uitLogo": "https://crests.football-data.org/548.png",
+      "thuisScore": 6,
+      "uitScore": 1
+    },
+    {
+      "id": 551926,
+      "datum": "wo 28 januari",
+      "thuis": "Sport Lisboa e Benfica",
+      "thuisLogo": "https://crests.football-data.org/1903.png",
+      "uit": "Real Madrid CF",
+      "uitLogo": "https://crests.football-data.org/86.png",
+      "thuisScore": 4,
+      "uitScore": 2
+    },
+    {
+      "id": 552052,
+      "datum": "di 17 februari",
+      "thuis": "Sport Lisboa e Benfica",
+      "thuisLogo": "https://crests.football-data.org/1903.png",
+      "uit": "Real Madrid CF",
+      "uitLogo": "https://crests.football-data.org/86.png",
+      "thuisScore": 0,
+      "uitScore": 1
+    },
+    {
+      "id": 552060,
+      "datum": "wo 25 februari",
+      "thuis": "Real Madrid CF",
+      "thuisLogo": "https://crests.football-data.org/86.png",
+      "uit": "Sport Lisboa e Benfica",
+      "uitLogo": "https://crests.football-data.org/1903.png",
+      "thuisScore": 2,
+      "uitScore": 1
+    },
+    {
+      "id": 552070,
+      "datum": "wo 11 maart",
+      "thuis": "Real Madrid CF",
+      "thuisLogo": "https://crests.football-data.org/86.png",
+      "uit": "Manchester City FC",
+      "uitLogo": "https://crests.football-data.org/65.png",
+      "thuisScore": 3,
+      "uitScore": 0
+    },
+    {
+      "id": 552078,
+      "datum": "di 17 maart",
+      "thuis": "Manchester City FC",
+      "thuisLogo": "https://crests.football-data.org/65.png",
+      "uit": "Real Madrid CF",
+      "uitLogo": "https://crests.football-data.org/86.png",
+      "thuisScore": 1,
+      "uitScore": 2
+    },
+    {
+      "id": 556719,
+      "datum": "di 7 april",
+      "thuis": "Real Madrid CF",
+      "thuisLogo": "https://crests.football-data.org/86.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png",
+      "thuisScore": 1,
+      "uitScore": 2
+    },
+    {
+      "id": 556723,
+      "datum": "wo 15 april",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "Real Madrid CF",
+      "uitLogo": "https://crests.football-data.org/86.png",
+      "thuisScore": 4,
+      "uitScore": 3
     }
   ],
   "79": [
@@ -13139,6 +14379,126 @@
       "uitLogo": "https://crests.football-data.org/10.png",
       "thuisScore": 4,
       "uitScore": 2
+    },
+    {
+      "id": 551908,
+      "datum": "wo 17 september",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "Chelsea FC",
+      "uitLogo": "https://crests.football-data.org/61.png",
+      "thuisScore": 3,
+      "uitScore": 1
+    },
+    {
+      "id": 551915,
+      "datum": "di 30 september",
+      "thuis": "Paphos FC",
+      "thuisLogo": "https://crests.football-data.org/11034.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png",
+      "thuisScore": 1,
+      "uitScore": 5
+    },
+    {
+      "id": 551910,
+      "datum": "wo 22 oktober",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "Club Brugge KV",
+      "uitLogo": "https://crests.football-data.org/851.png",
+      "thuisScore": 4,
+      "uitScore": 0
+    },
+    {
+      "id": 551909,
+      "datum": "di 4 november",
+      "thuis": "Paris Saint-Germain FC",
+      "thuisLogo": "https://crests.football-data.org/524.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png",
+      "thuisScore": 1,
+      "uitScore": 2
+    },
+    {
+      "id": 551911,
+      "datum": "wo 26 november",
+      "thuis": "Arsenal FC",
+      "thuisLogo": "https://crests.football-data.org/57.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png",
+      "thuisScore": 3,
+      "uitScore": 1
+    },
+    {
+      "id": 551912,
+      "datum": "di 9 december",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "Sporting Clube de Portugal",
+      "uitLogo": "https://crests.football-data.org/498.png",
+      "thuisScore": 3,
+      "uitScore": 1
+    },
+    {
+      "id": 551914,
+      "datum": "wo 21 januari",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "Royale Union Saint-Gilloise",
+      "uitLogo": "https://crests.football-data.org/3929.png",
+      "thuisScore": 2,
+      "uitScore": 0
+    },
+    {
+      "id": 551913,
+      "datum": "wo 28 januari",
+      "thuis": "PSV",
+      "thuisLogo": "https://crests.football-data.org/674.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png",
+      "thuisScore": 1,
+      "uitScore": 2
+    },
+    {
+      "id": 552071,
+      "datum": "di 10 maart",
+      "thuis": "Atalanta BC",
+      "thuisLogo": "https://crests.football-data.org/102.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png",
+      "thuisScore": 1,
+      "uitScore": 6
+    },
+    {
+      "id": 552079,
+      "datum": "wo 18 maart",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "Atalanta BC",
+      "uitLogo": "https://crests.football-data.org/102.png",
+      "thuisScore": 4,
+      "uitScore": 1
+    },
+    {
+      "id": 556719,
+      "datum": "di 7 april",
+      "thuis": "Real Madrid CF",
+      "thuisLogo": "https://crests.football-data.org/86.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png",
+      "thuisScore": 1,
+      "uitScore": 2
+    },
+    {
+      "id": 556723,
+      "datum": "wo 15 april",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "Real Madrid CF",
+      "uitLogo": "https://crests.football-data.org/86.png",
+      "thuisScore": 4,
+      "uitScore": 3
     }
   ],
   "721": [
@@ -13743,6 +15103,86 @@
       "uitLogo": "https://crests.football-data.org/721.png",
       "thuisScore": 1,
       "uitScore": 3
+    },
+    {
+      "id": 552000,
+      "datum": "do 18 september",
+      "thuis": "Eintracht Frankfurt",
+      "thuisLogo": "https://crests.football-data.org/19.png",
+      "uit": "Galatasaray SK",
+      "uitLogo": "https://crests.football-data.org/610.png",
+      "thuisScore": 5,
+      "uitScore": 1
+    },
+    {
+      "id": 551997,
+      "datum": "di 30 september",
+      "thuis": "Club Atlético de Madrid",
+      "thuisLogo": "https://crests.football-data.org/78.png",
+      "uit": "Eintracht Frankfurt",
+      "uitLogo": "https://crests.football-data.org/19.png",
+      "thuisScore": 5,
+      "uitScore": 1
+    },
+    {
+      "id": 551947,
+      "datum": "wo 22 oktober",
+      "thuis": "Eintracht Frankfurt",
+      "thuisLogo": "https://crests.football-data.org/19.png",
+      "uit": "Liverpool FC",
+      "uitLogo": "https://crests.football-data.org/64.png",
+      "thuisScore": 1,
+      "uitScore": 5
+    },
+    {
+      "id": 551999,
+      "datum": "di 4 november",
+      "thuis": "SSC Napoli",
+      "thuisLogo": "https://crests.football-data.org/113.png",
+      "uit": "Eintracht Frankfurt",
+      "uitLogo": "https://crests.football-data.org/19.png",
+      "thuisScore": 0,
+      "uitScore": 0
+    },
+    {
+      "id": 551983,
+      "datum": "wo 26 november",
+      "thuis": "Eintracht Frankfurt",
+      "thuisLogo": "https://crests.football-data.org/19.png",
+      "uit": "Atalanta BC",
+      "uitLogo": "https://crests.football-data.org/102.png",
+      "thuisScore": 0,
+      "uitScore": 3
+    },
+    {
+      "id": 551953,
+      "datum": "di 9 december",
+      "thuis": "FC Barcelona",
+      "thuisLogo": "https://crests.football-data.org/81.png",
+      "uit": "Eintracht Frankfurt",
+      "uitLogo": "https://crests.football-data.org/19.png",
+      "thuisScore": 2,
+      "uitScore": 1
+    },
+    {
+      "id": 552001,
+      "datum": "wo 21 januari",
+      "thuis": "Qarabağ Ağdam FK",
+      "thuisLogo": "https://crests.football-data.org/611.png",
+      "uit": "Eintracht Frankfurt",
+      "uitLogo": "https://crests.football-data.org/19.png",
+      "thuisScore": 3,
+      "uitScore": 2
+    },
+    {
+      "id": 551998,
+      "datum": "wo 28 januari",
+      "thuis": "Eintracht Frankfurt",
+      "thuisLogo": "https://crests.football-data.org/19.png",
+      "uit": "Tottenham Hotspur FC",
+      "uitLogo": "https://crests.football-data.org/73.png",
+      "thuisScore": 0,
+      "uitScore": 2
     }
   ],
   "12": [
@@ -14347,6 +15787,126 @@
       "uitLogo": "https://crests.football-data.org/16.png",
       "thuisScore": 1,
       "uitScore": 2
+    },
+    {
+      "id": 551975,
+      "datum": "do 18 september",
+      "thuis": "FC København",
+      "thuisLogo": "https://crests.football-data.org/1876.png",
+      "uit": "Bayer 04 Leverkusen",
+      "uitLogo": "https://crests.football-data.org/3.png",
+      "thuisScore": 2,
+      "uitScore": 2
+    },
+    {
+      "id": 551972,
+      "datum": "wo 1 oktober",
+      "thuis": "Bayer 04 Leverkusen",
+      "thuisLogo": "https://crests.football-data.org/3.png",
+      "uit": "PSV",
+      "uitLogo": "https://crests.football-data.org/674.png",
+      "thuisScore": 1,
+      "uitScore": 1
+    },
+    {
+      "id": 551960,
+      "datum": "di 21 oktober",
+      "thuis": "Bayer 04 Leverkusen",
+      "thuisLogo": "https://crests.football-data.org/3.png",
+      "uit": "Paris Saint-Germain FC",
+      "uitLogo": "https://crests.football-data.org/524.png",
+      "thuisScore": 2,
+      "uitScore": 7
+    },
+    {
+      "id": 551971,
+      "datum": "wo 5 november",
+      "thuis": "Sport Lisboa e Benfica",
+      "thuisLogo": "https://crests.football-data.org/1903.png",
+      "uit": "Bayer 04 Leverkusen",
+      "uitLogo": "https://crests.football-data.org/3.png",
+      "thuisScore": 0,
+      "uitScore": 1
+    },
+    {
+      "id": 551963,
+      "datum": "di 25 november",
+      "thuis": "Manchester City FC",
+      "thuisLogo": "https://crests.football-data.org/65.png",
+      "uit": "Bayer 04 Leverkusen",
+      "uitLogo": "https://crests.football-data.org/3.png",
+      "thuisScore": 0,
+      "uitScore": 2
+    },
+    {
+      "id": 551974,
+      "datum": "wo 10 december",
+      "thuis": "Bayer 04 Leverkusen",
+      "thuisLogo": "https://crests.football-data.org/3.png",
+      "uit": "Newcastle United FC",
+      "uitLogo": "https://crests.football-data.org/67.png",
+      "thuisScore": 2,
+      "uitScore": 2
+    },
+    {
+      "id": 551973,
+      "datum": "di 20 januari",
+      "thuis": "PAE Olympiakos SFP",
+      "thuisLogo": "https://crests.football-data.org/654.png",
+      "uit": "Bayer 04 Leverkusen",
+      "uitLogo": "https://crests.football-data.org/3.png",
+      "thuisScore": 2,
+      "uitScore": 0
+    },
+    {
+      "id": 551970,
+      "datum": "wo 28 januari",
+      "thuis": "Bayer 04 Leverkusen",
+      "thuisLogo": "https://crests.football-data.org/3.png",
+      "uit": "Villarreal CF",
+      "uitLogo": "https://crests.football-data.org/94.png",
+      "thuisScore": 3,
+      "uitScore": 0
+    },
+    {
+      "id": 552058,
+      "datum": "wo 18 februari",
+      "thuis": "PAE Olympiakos SFP",
+      "thuisLogo": "https://crests.football-data.org/654.png",
+      "uit": "Bayer 04 Leverkusen",
+      "uitLogo": "https://crests.football-data.org/3.png",
+      "thuisScore": 0,
+      "uitScore": 2
+    },
+    {
+      "id": 552066,
+      "datum": "di 24 februari",
+      "thuis": "Bayer 04 Leverkusen",
+      "thuisLogo": "https://crests.football-data.org/3.png",
+      "uit": "PAE Olympiakos SFP",
+      "uitLogo": "https://crests.football-data.org/654.png",
+      "thuisScore": 0,
+      "uitScore": 0
+    },
+    {
+      "id": 552075,
+      "datum": "wo 11 maart",
+      "thuis": "Bayer 04 Leverkusen",
+      "thuisLogo": "https://crests.football-data.org/3.png",
+      "uit": "Arsenal FC",
+      "uitLogo": "https://crests.football-data.org/57.png",
+      "thuisScore": 1,
+      "uitScore": 1
+    },
+    {
+      "id": 552083,
+      "datum": "di 17 maart",
+      "thuis": "Arsenal FC",
+      "thuisLogo": "https://crests.football-data.org/57.png",
+      "uit": "Bayer 04 Leverkusen",
+      "uitLogo": "https://crests.football-data.org/3.png",
+      "thuisScore": 2,
+      "uitScore": 0
     }
   ],
   "2": [
@@ -17065,6 +18625,106 @@
       "uitLogo": "https://crests.football-data.org/4.png",
       "thuisScore": 2,
       "uitScore": 1
+    },
+    {
+      "id": 551941,
+      "datum": "di 16 september",
+      "thuis": "Juventus FC",
+      "thuisLogo": "https://crests.football-data.org/109.png",
+      "uit": "Borussia Dortmund",
+      "uitLogo": "https://crests.football-data.org/4.png",
+      "thuisScore": 4,
+      "uitScore": 4
+    },
+    {
+      "id": 551944,
+      "datum": "wo 1 oktober",
+      "thuis": "Borussia Dortmund",
+      "thuisLogo": "https://crests.football-data.org/4.png",
+      "uit": "Athletic Club",
+      "uitLogo": "https://crests.football-data.org/77.png",
+      "thuisScore": 4,
+      "uitScore": 1
+    },
+    {
+      "id": 551945,
+      "datum": "di 21 oktober",
+      "thuis": "FC København",
+      "thuisLogo": "https://crests.football-data.org/1876.png",
+      "uit": "Borussia Dortmund",
+      "uitLogo": "https://crests.football-data.org/4.png",
+      "thuisScore": 2,
+      "uitScore": 4
+    },
+    {
+      "id": 551939,
+      "datum": "wo 5 november",
+      "thuis": "Manchester City FC",
+      "thuisLogo": "https://crests.football-data.org/65.png",
+      "uit": "Borussia Dortmund",
+      "uitLogo": "https://crests.football-data.org/4.png",
+      "thuisScore": 4,
+      "uitScore": 1
+    },
+    {
+      "id": 551940,
+      "datum": "di 25 november",
+      "thuis": "Borussia Dortmund",
+      "thuisLogo": "https://crests.football-data.org/4.png",
+      "uit": "Villarreal CF",
+      "uitLogo": "https://crests.football-data.org/94.png",
+      "thuisScore": 4,
+      "uitScore": 0
+    },
+    {
+      "id": 551942,
+      "datum": "wo 10 december",
+      "thuis": "Borussia Dortmund",
+      "thuisLogo": "https://crests.football-data.org/4.png",
+      "uit": "FK Bodø/Glimt",
+      "uitLogo": "https://crests.football-data.org/5721.png",
+      "thuisScore": 2,
+      "uitScore": 2
+    },
+    {
+      "id": 551943,
+      "datum": "di 20 januari",
+      "thuis": "Tottenham Hotspur FC",
+      "thuisLogo": "https://crests.football-data.org/73.png",
+      "uit": "Borussia Dortmund",
+      "uitLogo": "https://crests.football-data.org/4.png",
+      "thuisScore": 2,
+      "uitScore": 0
+    },
+    {
+      "id": 551932,
+      "datum": "wo 28 januari",
+      "thuis": "Borussia Dortmund",
+      "thuisLogo": "https://crests.football-data.org/4.png",
+      "uit": "FC Internazionale Milano",
+      "uitLogo": "https://crests.football-data.org/108.png",
+      "thuisScore": 0,
+      "uitScore": 2
+    },
+    {
+      "id": 552057,
+      "datum": "di 17 februari",
+      "thuis": "Borussia Dortmund",
+      "thuisLogo": "https://crests.football-data.org/4.png",
+      "uit": "Atalanta BC",
+      "uitLogo": "https://crests.football-data.org/102.png",
+      "thuisScore": 2,
+      "uitScore": 0
+    },
+    {
+      "id": 552065,
+      "datum": "wo 25 februari",
+      "thuis": "Atalanta BC",
+      "thuisLogo": "https://crests.football-data.org/102.png",
+      "uit": "Borussia Dortmund",
+      "uitLogo": "https://crests.football-data.org/4.png",
+      "thuisScore": 4,
+      "uitScore": 1
     }
   ],
   "15": [
@@ -18927,6 +20587,16 @@
       "uitLogo": "https://crests.football-data.org/5890.png",
       "thuisScore": 2,
       "uitScore": 0
+    },
+    {
+      "id": 537144,
+      "datum": "ma 20 april",
+      "thuis": "US Lecce",
+      "thuisLogo": "https://crests.football-data.org/5890.png",
+      "uit": "ACF Fiorentina",
+      "uitLogo": "https://crests.football-data.org/99.png",
+      "thuisScore": 1,
+      "uitScore": 1
     }
   ],
   "471": [
@@ -19591,6 +21261,86 @@
       "uitLogo": "https://crests.football-data.org/110.png",
       "thuisScore": 0,
       "uitScore": 2
+    },
+    {
+      "id": 551965,
+      "datum": "do 18 september",
+      "thuis": "Manchester City FC",
+      "thuisLogo": "https://crests.football-data.org/65.png",
+      "uit": "SSC Napoli",
+      "uitLogo": "https://crests.football-data.org/113.png",
+      "thuisScore": 2,
+      "uitScore": 0
+    },
+    {
+      "id": 552026,
+      "datum": "wo 1 oktober",
+      "thuis": "SSC Napoli",
+      "thuisLogo": "https://crests.football-data.org/113.png",
+      "uit": "Sporting Clube de Portugal",
+      "uitLogo": "https://crests.football-data.org/498.png",
+      "thuisScore": 2,
+      "uitScore": 1
+    },
+    {
+      "id": 552048,
+      "datum": "di 21 oktober",
+      "thuis": "PSV",
+      "thuisLogo": "https://crests.football-data.org/674.png",
+      "uit": "SSC Napoli",
+      "uitLogo": "https://crests.football-data.org/113.png",
+      "thuisScore": 6,
+      "uitScore": 2
+    },
+    {
+      "id": 551999,
+      "datum": "di 4 november",
+      "thuis": "SSC Napoli",
+      "thuisLogo": "https://crests.football-data.org/113.png",
+      "uit": "Eintracht Frankfurt",
+      "uitLogo": "https://crests.football-data.org/19.png",
+      "thuisScore": 0,
+      "uitScore": 0
+    },
+    {
+      "id": 552037,
+      "datum": "di 25 november",
+      "thuis": "SSC Napoli",
+      "thuisLogo": "https://crests.football-data.org/113.png",
+      "uit": "Qarabağ Ağdam FK",
+      "uitLogo": "https://crests.football-data.org/611.png",
+      "thuisScore": 2,
+      "uitScore": 0
+    },
+    {
+      "id": 551989,
+      "datum": "wo 10 december",
+      "thuis": "Sport Lisboa e Benfica",
+      "thuisLogo": "https://crests.football-data.org/1903.png",
+      "uit": "SSC Napoli",
+      "uitLogo": "https://crests.football-data.org/113.png",
+      "thuisScore": 2,
+      "uitScore": 0
+    },
+    {
+      "id": 552038,
+      "datum": "di 20 januari",
+      "thuis": "FC København",
+      "thuisLogo": "https://crests.football-data.org/1876.png",
+      "uit": "SSC Napoli",
+      "uitLogo": "https://crests.football-data.org/113.png",
+      "thuisScore": 1,
+      "uitScore": 1
+    },
+    {
+      "id": 551920,
+      "datum": "wo 28 januari",
+      "thuis": "SSC Napoli",
+      "thuisLogo": "https://crests.football-data.org/113.png",
+      "uit": "Chelsea FC",
+      "uitLogo": "https://crests.football-data.org/61.png",
+      "thuisScore": 2,
+      "uitScore": 3
     }
   ],
   "98": [
@@ -21573,6 +23323,16 @@
       "uitLogo": "https://crests.football-data.org/110.png",
       "thuisScore": 1,
       "uitScore": 0
+    },
+    {
+      "id": 537144,
+      "datum": "ma 20 april",
+      "thuis": "US Lecce",
+      "thuisLogo": "https://crests.football-data.org/5890.png",
+      "uit": "ACF Fiorentina",
+      "uitLogo": "https://crests.football-data.org/99.png",
+      "thuisScore": 1,
+      "uitScore": 1
     }
   ],
   "7397": [
@@ -22569,6 +24329,126 @@
       "uitLogo": "https://crests.football-data.org/102.png",
       "thuisScore": 1,
       "uitScore": 1
+    },
+    {
+      "id": 551959,
+      "datum": "wo 17 september",
+      "thuis": "Paris Saint-Germain FC",
+      "thuisLogo": "https://crests.football-data.org/524.png",
+      "uit": "Atalanta BC",
+      "uitLogo": "https://crests.football-data.org/102.png",
+      "thuisScore": 4,
+      "uitScore": 0
+    },
+    {
+      "id": 551982,
+      "datum": "di 30 september",
+      "thuis": "Atalanta BC",
+      "thuisLogo": "https://crests.football-data.org/102.png",
+      "uit": "Club Brugge KV",
+      "uitLogo": "https://crests.football-data.org/851.png",
+      "thuisScore": 2,
+      "uitScore": 1
+    },
+    {
+      "id": 551984,
+      "datum": "wo 22 oktober",
+      "thuis": "Atalanta BC",
+      "thuisLogo": "https://crests.football-data.org/102.png",
+      "uit": "SK Slavia Praha",
+      "uitLogo": "https://crests.football-data.org/930.png",
+      "thuisScore": 0,
+      "uitScore": 0
+    },
+    {
+      "id": 551985,
+      "datum": "wo 5 november",
+      "thuis": "Olympique de Marseille",
+      "thuisLogo": "https://crests.football-data.org/516.png",
+      "uit": "Atalanta BC",
+      "uitLogo": "https://crests.football-data.org/102.png",
+      "thuisScore": 0,
+      "uitScore": 1
+    },
+    {
+      "id": 551983,
+      "datum": "wo 26 november",
+      "thuis": "Eintracht Frankfurt",
+      "thuisLogo": "https://crests.football-data.org/19.png",
+      "uit": "Atalanta BC",
+      "uitLogo": "https://crests.football-data.org/102.png",
+      "thuisScore": 0,
+      "uitScore": 3
+    },
+    {
+      "id": 551918,
+      "datum": "di 9 december",
+      "thuis": "Atalanta BC",
+      "thuisLogo": "https://crests.football-data.org/102.png",
+      "uit": "Chelsea FC",
+      "uitLogo": "https://crests.football-data.org/61.png",
+      "thuisScore": 2,
+      "uitScore": 1
+    },
+    {
+      "id": 551986,
+      "datum": "wo 21 januari",
+      "thuis": "Atalanta BC",
+      "thuisLogo": "https://crests.football-data.org/102.png",
+      "uit": "Athletic Club",
+      "uitLogo": "https://crests.football-data.org/77.png",
+      "thuisScore": 2,
+      "uitScore": 3
+    },
+    {
+      "id": 551987,
+      "datum": "wo 28 januari",
+      "thuis": "Royale Union Saint-Gilloise",
+      "thuisLogo": "https://crests.football-data.org/3929.png",
+      "uit": "Atalanta BC",
+      "uitLogo": "https://crests.football-data.org/102.png",
+      "thuisScore": 1,
+      "uitScore": 0
+    },
+    {
+      "id": 552057,
+      "datum": "di 17 februari",
+      "thuis": "Borussia Dortmund",
+      "thuisLogo": "https://crests.football-data.org/4.png",
+      "uit": "Atalanta BC",
+      "uitLogo": "https://crests.football-data.org/102.png",
+      "thuisScore": 2,
+      "uitScore": 0
+    },
+    {
+      "id": 552065,
+      "datum": "wo 25 februari",
+      "thuis": "Atalanta BC",
+      "thuisLogo": "https://crests.football-data.org/102.png",
+      "uit": "Borussia Dortmund",
+      "uitLogo": "https://crests.football-data.org/4.png",
+      "thuisScore": 4,
+      "uitScore": 1
+    },
+    {
+      "id": 552071,
+      "datum": "di 10 maart",
+      "thuis": "Atalanta BC",
+      "thuisLogo": "https://crests.football-data.org/102.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png",
+      "thuisScore": 1,
+      "uitScore": 6
+    },
+    {
+      "id": 552079,
+      "datum": "wo 18 maart",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "Atalanta BC",
+      "uitLogo": "https://crests.football-data.org/102.png",
+      "thuisScore": 4,
+      "uitScore": 1
     }
   ],
   "487": [
@@ -23233,6 +25113,106 @@
       "uitLogo": "https://crests.football-data.org/103.png",
       "thuisScore": 2,
       "uitScore": 0
+    },
+    {
+      "id": 551941,
+      "datum": "di 16 september",
+      "thuis": "Juventus FC",
+      "thuisLogo": "https://crests.football-data.org/109.png",
+      "uit": "Borussia Dortmund",
+      "uitLogo": "https://crests.football-data.org/4.png",
+      "thuisScore": 4,
+      "uitScore": 4
+    },
+    {
+      "id": 552002,
+      "datum": "wo 1 oktober",
+      "thuis": "Villarreal CF",
+      "thuisLogo": "https://crests.football-data.org/94.png",
+      "uit": "Juventus FC",
+      "uitLogo": "https://crests.football-data.org/109.png",
+      "thuisScore": 2,
+      "uitScore": 2
+    },
+    {
+      "id": 551925,
+      "datum": "wo 22 oktober",
+      "thuis": "Real Madrid CF",
+      "thuisLogo": "https://crests.football-data.org/86.png",
+      "uit": "Juventus FC",
+      "uitLogo": "https://crests.football-data.org/109.png",
+      "thuisScore": 1,
+      "uitScore": 0
+    },
+    {
+      "id": 552003,
+      "datum": "di 4 november",
+      "thuis": "Juventus FC",
+      "thuisLogo": "https://crests.football-data.org/109.png",
+      "uit": "Sporting Clube de Portugal",
+      "uitLogo": "https://crests.football-data.org/498.png",
+      "thuisScore": 1,
+      "uitScore": 1
+    },
+    {
+      "id": 552004,
+      "datum": "di 25 november",
+      "thuis": "FK Bodø/Glimt",
+      "thuisLogo": "https://crests.football-data.org/5721.png",
+      "uit": "Juventus FC",
+      "uitLogo": "https://crests.football-data.org/109.png",
+      "thuisScore": 2,
+      "uitScore": 3
+    },
+    {
+      "id": 552005,
+      "datum": "wo 10 december",
+      "thuis": "Juventus FC",
+      "thuisLogo": "https://crests.football-data.org/109.png",
+      "uit": "Paphos FC",
+      "uitLogo": "https://crests.football-data.org/11034.png",
+      "thuisScore": 2,
+      "uitScore": 0
+    },
+    {
+      "id": 551988,
+      "datum": "wo 21 januari",
+      "thuis": "Juventus FC",
+      "thuisLogo": "https://crests.football-data.org/109.png",
+      "uit": "Sport Lisboa e Benfica",
+      "uitLogo": "https://crests.football-data.org/1903.png",
+      "thuisScore": 2,
+      "uitScore": 0
+    },
+    {
+      "id": 552006,
+      "datum": "wo 28 januari",
+      "thuis": "AS Monaco FC",
+      "thuisLogo": "https://crests.football-data.org/548.png",
+      "uit": "Juventus FC",
+      "uitLogo": "https://crests.football-data.org/109.png",
+      "thuisScore": 0,
+      "uitScore": 0
+    },
+    {
+      "id": 552055,
+      "datum": "di 17 februari",
+      "thuis": "Galatasaray SK",
+      "thuisLogo": "https://crests.football-data.org/610.png",
+      "uit": "Juventus FC",
+      "uitLogo": "https://crests.football-data.org/109.png",
+      "thuisScore": 5,
+      "uitScore": 2
+    },
+    {
+      "id": 552063,
+      "datum": "wo 25 februari",
+      "thuis": "Juventus FC",
+      "thuisLogo": "https://crests.football-data.org/109.png",
+      "uit": "Galatasaray SK",
+      "uitLogo": "https://crests.football-data.org/610.png",
+      "thuisScore": 3,
+      "uitScore": 2
     }
   ],
   "112": [
@@ -24561,6 +26541,106 @@
       "uitLogo": "https://crests.football-data.org/104.png",
       "thuisScore": 3,
       "uitScore": 0
+    },
+    {
+      "id": 551936,
+      "datum": "wo 17 september",
+      "thuis": "AFC Ajax",
+      "thuisLogo": "https://crests.football-data.org/678.png",
+      "uit": "FC Internazionale Milano",
+      "uitLogo": "https://crests.football-data.org/108.png",
+      "thuisScore": 0,
+      "uitScore": 2
+    },
+    {
+      "id": 551935,
+      "datum": "di 30 september",
+      "thuis": "FC Internazionale Milano",
+      "thuisLogo": "https://crests.football-data.org/108.png",
+      "uit": "SK Slavia Praha",
+      "uitLogo": "https://crests.football-data.org/930.png",
+      "thuisScore": 3,
+      "uitScore": 0
+    },
+    {
+      "id": 551938,
+      "datum": "di 21 oktober",
+      "thuis": "Royale Union Saint-Gilloise",
+      "thuisLogo": "https://crests.football-data.org/3929.png",
+      "uit": "FC Internazionale Milano",
+      "uitLogo": "https://crests.football-data.org/108.png",
+      "thuisScore": 0,
+      "uitScore": 4
+    },
+    {
+      "id": 551937,
+      "datum": "wo 5 november",
+      "thuis": "FC Internazionale Milano",
+      "thuisLogo": "https://crests.football-data.org/108.png",
+      "uit": "FK Kairat",
+      "uitLogo": "https://crests.football-data.org/10601.png",
+      "thuisScore": 2,
+      "uitScore": 1
+    },
+    {
+      "id": 551934,
+      "datum": "wo 26 november",
+      "thuis": "Club Atlético de Madrid",
+      "thuisLogo": "https://crests.football-data.org/78.png",
+      "uit": "FC Internazionale Milano",
+      "uitLogo": "https://crests.football-data.org/108.png",
+      "thuisScore": 2,
+      "uitScore": 1
+    },
+    {
+      "id": 551931,
+      "datum": "di 9 december",
+      "thuis": "FC Internazionale Milano",
+      "thuisLogo": "https://crests.football-data.org/108.png",
+      "uit": "Liverpool FC",
+      "uitLogo": "https://crests.football-data.org/64.png",
+      "thuisScore": 0,
+      "uitScore": 1
+    },
+    {
+      "id": 551933,
+      "datum": "di 20 januari",
+      "thuis": "FC Internazionale Milano",
+      "thuisLogo": "https://crests.football-data.org/108.png",
+      "uit": "Arsenal FC",
+      "uitLogo": "https://crests.football-data.org/57.png",
+      "thuisScore": 1,
+      "uitScore": 3
+    },
+    {
+      "id": 551932,
+      "datum": "wo 28 januari",
+      "thuis": "Borussia Dortmund",
+      "thuisLogo": "https://crests.football-data.org/4.png",
+      "uit": "FC Internazionale Milano",
+      "uitLogo": "https://crests.football-data.org/108.png",
+      "thuisScore": 0,
+      "uitScore": 2
+    },
+    {
+      "id": 552059,
+      "datum": "wo 18 februari",
+      "thuis": "FK Bodø/Glimt",
+      "thuisLogo": "https://crests.football-data.org/5721.png",
+      "uit": "FC Internazionale Milano",
+      "uitLogo": "https://crests.football-data.org/108.png",
+      "thuisScore": 3,
+      "uitScore": 1
+    },
+    {
+      "id": 552067,
+      "datum": "di 24 februari",
+      "thuis": "FC Internazionale Milano",
+      "thuisLogo": "https://crests.football-data.org/108.png",
+      "uit": "FK Bodø/Glimt",
+      "uitLogo": "https://crests.football-data.org/5721.png",
+      "thuisScore": 1,
+      "uitScore": 2
     }
   ],
   "586": [
@@ -25497,6 +27577,86 @@
       "uitLogo": "https://crests.football-data.org/516.png",
       "thuisScore": 2,
       "uitScore": 0
+    },
+    {
+      "id": 551927,
+      "datum": "di 16 september",
+      "thuis": "Real Madrid CF",
+      "thuisLogo": "https://crests.football-data.org/86.png",
+      "uit": "Olympique de Marseille",
+      "uitLogo": "https://crests.football-data.org/516.png",
+      "thuisScore": 2,
+      "uitScore": 1
+    },
+    {
+      "id": 552015,
+      "datum": "di 30 september",
+      "thuis": "Olympique de Marseille",
+      "thuisLogo": "https://crests.football-data.org/516.png",
+      "uit": "AFC Ajax",
+      "uitLogo": "https://crests.football-data.org/678.png",
+      "thuisScore": 4,
+      "uitScore": 0
+    },
+    {
+      "id": 552016,
+      "datum": "wo 22 oktober",
+      "thuis": "Sporting Clube de Portugal",
+      "thuisLogo": "https://crests.football-data.org/498.png",
+      "uit": "Olympique de Marseille",
+      "uitLogo": "https://crests.football-data.org/516.png",
+      "thuisScore": 2,
+      "uitScore": 1
+    },
+    {
+      "id": 551985,
+      "datum": "wo 5 november",
+      "thuis": "Olympique de Marseille",
+      "thuisLogo": "https://crests.football-data.org/516.png",
+      "uit": "Atalanta BC",
+      "uitLogo": "https://crests.football-data.org/102.png",
+      "thuisScore": 0,
+      "uitScore": 1
+    },
+    {
+      "id": 552017,
+      "datum": "di 25 november",
+      "thuis": "Olympique de Marseille",
+      "thuisLogo": "https://crests.football-data.org/516.png",
+      "uit": "Newcastle United FC",
+      "uitLogo": "https://crests.football-data.org/67.png",
+      "thuisScore": 2,
+      "uitScore": 1
+    },
+    {
+      "id": 552018,
+      "datum": "di 9 december",
+      "thuis": "Royale Union Saint-Gilloise",
+      "thuisLogo": "https://crests.football-data.org/3929.png",
+      "uit": "Olympique de Marseille",
+      "uitLogo": "https://crests.football-data.org/516.png",
+      "thuisScore": 2,
+      "uitScore": 3
+    },
+    {
+      "id": 551949,
+      "datum": "wo 21 januari",
+      "thuis": "Olympique de Marseille",
+      "thuisLogo": "https://crests.football-data.org/516.png",
+      "uit": "Liverpool FC",
+      "uitLogo": "https://crests.football-data.org/64.png",
+      "thuisScore": 0,
+      "uitScore": 3
+    },
+    {
+      "id": 551993,
+      "datum": "wo 28 januari",
+      "thuis": "Club Brugge KV",
+      "thuisLogo": "https://crests.football-data.org/851.png",
+      "uit": "Olympique de Marseille",
+      "uitLogo": "https://crests.football-data.org/516.png",
+      "thuisScore": 3,
+      "uitScore": 0
     }
   ],
   "546": [
@@ -26391,6 +28551,106 @@
       "thuisLogo": "https://crests.football-data.org/548.png",
       "uit": "AJ Auxerre",
       "uitLogo": "https://crests.football-data.org/519.png",
+      "thuisScore": 2,
+      "uitScore": 2
+    },
+    {
+      "id": 551995,
+      "datum": "do 18 september",
+      "thuis": "Club Brugge KV",
+      "thuisLogo": "https://crests.football-data.org/851.png",
+      "uit": "AS Monaco FC",
+      "uitLogo": "https://crests.football-data.org/548.png",
+      "thuisScore": 4,
+      "uitScore": 1
+    },
+    {
+      "id": 551968,
+      "datum": "wo 1 oktober",
+      "thuis": "AS Monaco FC",
+      "thuisLogo": "https://crests.football-data.org/548.png",
+      "uit": "Manchester City FC",
+      "uitLogo": "https://crests.football-data.org/65.png",
+      "thuisScore": 2,
+      "uitScore": 2
+    },
+    {
+      "id": 552022,
+      "datum": "wo 22 oktober",
+      "thuis": "AS Monaco FC",
+      "thuisLogo": "https://crests.football-data.org/548.png",
+      "uit": "Tottenham Hotspur FC",
+      "uitLogo": "https://crests.football-data.org/73.png",
+      "thuisScore": 0,
+      "uitScore": 0
+    },
+    {
+      "id": 552024,
+      "datum": "di 4 november",
+      "thuis": "FK Bodø/Glimt",
+      "thuisLogo": "https://crests.football-data.org/5721.png",
+      "uit": "AS Monaco FC",
+      "uitLogo": "https://crests.football-data.org/548.png",
+      "thuisScore": 0,
+      "uitScore": 1
+    },
+    {
+      "id": 552042,
+      "datum": "wo 26 november",
+      "thuis": "Paphos FC",
+      "thuisLogo": "https://crests.football-data.org/11034.png",
+      "uit": "AS Monaco FC",
+      "uitLogo": "https://crests.football-data.org/548.png",
+      "thuisScore": 2,
+      "uitScore": 2
+    },
+    {
+      "id": 552041,
+      "datum": "di 9 december",
+      "thuis": "AS Monaco FC",
+      "thuisLogo": "https://crests.football-data.org/548.png",
+      "uit": "Galatasaray SK",
+      "uitLogo": "https://crests.football-data.org/610.png",
+      "thuisScore": 1,
+      "uitScore": 0
+    },
+    {
+      "id": 551929,
+      "datum": "di 20 januari",
+      "thuis": "Real Madrid CF",
+      "thuisLogo": "https://crests.football-data.org/86.png",
+      "uit": "AS Monaco FC",
+      "uitLogo": "https://crests.football-data.org/548.png",
+      "thuisScore": 6,
+      "uitScore": 1
+    },
+    {
+      "id": 552006,
+      "datum": "wo 28 januari",
+      "thuis": "AS Monaco FC",
+      "thuisLogo": "https://crests.football-data.org/548.png",
+      "uit": "Juventus FC",
+      "uitLogo": "https://crests.football-data.org/109.png",
+      "thuisScore": 0,
+      "uitScore": 0
+    },
+    {
+      "id": 552053,
+      "datum": "di 17 februari",
+      "thuis": "AS Monaco FC",
+      "thuisLogo": "https://crests.football-data.org/548.png",
+      "uit": "Paris Saint-Germain FC",
+      "uitLogo": "https://crests.football-data.org/524.png",
+      "thuisScore": 2,
+      "uitScore": 3
+    },
+    {
+      "id": 552061,
+      "datum": "wo 25 februari",
+      "thuis": "Paris Saint-Germain FC",
+      "thuisLogo": "https://crests.football-data.org/524.png",
+      "uit": "AS Monaco FC",
+      "uitLogo": "https://crests.football-data.org/548.png",
       "thuisScore": 2,
       "uitScore": 2
     }
@@ -27288,7 +29548,7 @@
       "uit": "Lille OSC",
       "uitLogo": "https://crests.football-data.org/521.png",
       "thuisScore": 0,
-      "uitScore": 4
+      "uitScore": 5
     },
     {
       "id": 542674,
@@ -27882,7 +30142,7 @@
       "uit": "Lille OSC",
       "uitLogo": "https://crests.football-data.org/521.png",
       "thuisScore": 0,
-      "uitScore": 4
+      "uitScore": 5
     },
     {
       "id": 542671,
@@ -30268,6 +32528,146 @@
       "uit": "Olympique Lyonnais",
       "uitLogo": "https://crests.football-data.org/523.png",
       "thuisScore": 1,
+      "uitScore": 2
+    },
+    {
+      "id": 551959,
+      "datum": "wo 17 september",
+      "thuis": "Paris Saint-Germain FC",
+      "thuisLogo": "https://crests.football-data.org/524.png",
+      "uit": "Atalanta BC",
+      "uitLogo": "https://crests.football-data.org/102.png",
+      "thuisScore": 4,
+      "uitScore": 0
+    },
+    {
+      "id": 551952,
+      "datum": "wo 1 oktober",
+      "thuis": "FC Barcelona",
+      "thuisLogo": "https://crests.football-data.org/81.png",
+      "uit": "Paris Saint-Germain FC",
+      "uitLogo": "https://crests.football-data.org/524.png",
+      "thuisScore": 1,
+      "uitScore": 2
+    },
+    {
+      "id": 551960,
+      "datum": "di 21 oktober",
+      "thuis": "Bayer 04 Leverkusen",
+      "thuisLogo": "https://crests.football-data.org/3.png",
+      "uit": "Paris Saint-Germain FC",
+      "uitLogo": "https://crests.football-data.org/524.png",
+      "thuisScore": 2,
+      "uitScore": 7
+    },
+    {
+      "id": 551909,
+      "datum": "di 4 november",
+      "thuis": "Paris Saint-Germain FC",
+      "thuisLogo": "https://crests.football-data.org/524.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png",
+      "thuisScore": 1,
+      "uitScore": 2
+    },
+    {
+      "id": 551961,
+      "datum": "wo 26 november",
+      "thuis": "Paris Saint-Germain FC",
+      "thuisLogo": "https://crests.football-data.org/524.png",
+      "uit": "Tottenham Hotspur FC",
+      "uitLogo": "https://crests.football-data.org/73.png",
+      "thuisScore": 5,
+      "uitScore": 3
+    },
+    {
+      "id": 551969,
+      "datum": "wo 10 december",
+      "thuis": "Athletic Club",
+      "thuisLogo": "https://crests.football-data.org/77.png",
+      "uit": "Paris Saint-Germain FC",
+      "uitLogo": "https://crests.football-data.org/524.png",
+      "thuisScore": 0,
+      "uitScore": 0
+    },
+    {
+      "id": 551962,
+      "datum": "di 20 januari",
+      "thuis": "Sporting Clube de Portugal",
+      "thuisLogo": "https://crests.football-data.org/498.png",
+      "uit": "Paris Saint-Germain FC",
+      "uitLogo": "https://crests.football-data.org/524.png",
+      "thuisScore": 2,
+      "uitScore": 1
+    },
+    {
+      "id": 552050,
+      "datum": "wo 28 januari",
+      "thuis": "Paris Saint-Germain FC",
+      "thuisLogo": "https://crests.football-data.org/524.png",
+      "uit": "Newcastle United FC",
+      "uitLogo": "https://crests.football-data.org/67.png",
+      "thuisScore": 1,
+      "uitScore": 1
+    },
+    {
+      "id": 552053,
+      "datum": "di 17 februari",
+      "thuis": "AS Monaco FC",
+      "thuisLogo": "https://crests.football-data.org/548.png",
+      "uit": "Paris Saint-Germain FC",
+      "uitLogo": "https://crests.football-data.org/524.png",
+      "thuisScore": 2,
+      "uitScore": 3
+    },
+    {
+      "id": 552061,
+      "datum": "wo 25 februari",
+      "thuis": "Paris Saint-Germain FC",
+      "thuisLogo": "https://crests.football-data.org/524.png",
+      "uit": "AS Monaco FC",
+      "uitLogo": "https://crests.football-data.org/548.png",
+      "thuisScore": 2,
+      "uitScore": 2
+    },
+    {
+      "id": 552068,
+      "datum": "wo 11 maart",
+      "thuis": "Paris Saint-Germain FC",
+      "thuisLogo": "https://crests.football-data.org/524.png",
+      "uit": "Chelsea FC",
+      "uitLogo": "https://crests.football-data.org/61.png",
+      "thuisScore": 5,
+      "uitScore": 2
+    },
+    {
+      "id": 552076,
+      "datum": "di 17 maart",
+      "thuis": "Chelsea FC",
+      "thuisLogo": "https://crests.football-data.org/61.png",
+      "uit": "Paris Saint-Germain FC",
+      "uitLogo": "https://crests.football-data.org/524.png",
+      "thuisScore": 0,
+      "uitScore": 3
+    },
+    {
+      "id": 556718,
+      "datum": "wo 8 april",
+      "thuis": "Paris Saint-Germain FC",
+      "thuisLogo": "https://crests.football-data.org/524.png",
+      "uit": "Liverpool FC",
+      "uitLogo": "https://crests.football-data.org/64.png",
+      "thuisScore": 2,
+      "uitScore": 0
+    },
+    {
+      "id": 556722,
+      "datum": "di 14 april",
+      "thuis": "Liverpool FC",
+      "thuisLogo": "https://crests.football-data.org/64.png",
+      "uit": "Paris Saint-Germain FC",
+      "uitLogo": "https://crests.football-data.org/524.png",
+      "thuisScore": 0,
       "uitScore": 2
     }
   ],
@@ -32987,6 +35387,86 @@
       "uitLogo": "https://crests.football-data.org/674.png",
       "thuisScore": 0,
       "uitScore": 2
+    },
+    {
+      "id": 552049,
+      "datum": "di 16 september",
+      "thuis": "PSV",
+      "thuisLogo": "https://crests.football-data.org/674.png",
+      "uit": "Royale Union Saint-Gilloise",
+      "uitLogo": "https://crests.football-data.org/3929.png",
+      "thuisScore": 1,
+      "uitScore": 3
+    },
+    {
+      "id": 551972,
+      "datum": "wo 1 oktober",
+      "thuis": "Bayer 04 Leverkusen",
+      "thuisLogo": "https://crests.football-data.org/3.png",
+      "uit": "PSV",
+      "uitLogo": "https://crests.football-data.org/674.png",
+      "thuisScore": 1,
+      "uitScore": 1
+    },
+    {
+      "id": 552048,
+      "datum": "di 21 oktober",
+      "thuis": "PSV",
+      "thuisLogo": "https://crests.football-data.org/674.png",
+      "uit": "SSC Napoli",
+      "uitLogo": "https://crests.football-data.org/113.png",
+      "thuisScore": 6,
+      "uitScore": 2
+    },
+    {
+      "id": 552029,
+      "datum": "di 4 november",
+      "thuis": "PAE Olympiakos SFP",
+      "thuisLogo": "https://crests.football-data.org/654.png",
+      "uit": "PSV",
+      "uitLogo": "https://crests.football-data.org/674.png",
+      "thuisScore": 1,
+      "uitScore": 1
+    },
+    {
+      "id": 551948,
+      "datum": "wo 26 november",
+      "thuis": "Liverpool FC",
+      "thuisLogo": "https://crests.football-data.org/64.png",
+      "uit": "PSV",
+      "uitLogo": "https://crests.football-data.org/674.png",
+      "thuisScore": 1,
+      "uitScore": 4
+    },
+    {
+      "id": 552008,
+      "datum": "di 9 december",
+      "thuis": "PSV",
+      "thuisLogo": "https://crests.football-data.org/674.png",
+      "uit": "Club Atlético de Madrid",
+      "uitLogo": "https://crests.football-data.org/78.png",
+      "thuisScore": 2,
+      "uitScore": 3
+    },
+    {
+      "id": 552036,
+      "datum": "wo 21 januari",
+      "thuis": "Newcastle United FC",
+      "thuisLogo": "https://crests.football-data.org/67.png",
+      "uit": "PSV",
+      "uitLogo": "https://crests.football-data.org/674.png",
+      "thuisScore": 3,
+      "uitScore": 0
+    },
+    {
+      "id": 551913,
+      "datum": "wo 28 januari",
+      "thuis": "PSV",
+      "thuisLogo": "https://crests.football-data.org/674.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png",
+      "thuisScore": 1,
+      "uitScore": 2
     }
   ],
   "6806": [
@@ -34195,6 +36675,86 @@
       "uitLogo": "https://crests.football-data.org/678.png",
       "thuisScore": 0,
       "uitScore": 3
+    },
+    {
+      "id": 551936,
+      "datum": "wo 17 september",
+      "thuis": "AFC Ajax",
+      "thuisLogo": "https://crests.football-data.org/678.png",
+      "uit": "FC Internazionale Milano",
+      "uitLogo": "https://crests.football-data.org/108.png",
+      "thuisScore": 0,
+      "uitScore": 2
+    },
+    {
+      "id": 552015,
+      "datum": "di 30 september",
+      "thuis": "Olympique de Marseille",
+      "thuisLogo": "https://crests.football-data.org/516.png",
+      "uit": "AFC Ajax",
+      "uitLogo": "https://crests.football-data.org/678.png",
+      "thuisScore": 4,
+      "uitScore": 0
+    },
+    {
+      "id": 551919,
+      "datum": "wo 22 oktober",
+      "thuis": "Chelsea FC",
+      "thuisLogo": "https://crests.football-data.org/61.png",
+      "uit": "AFC Ajax",
+      "uitLogo": "https://crests.football-data.org/678.png",
+      "thuisScore": 5,
+      "uitScore": 1
+    },
+    {
+      "id": 552033,
+      "datum": "wo 5 november",
+      "thuis": "AFC Ajax",
+      "thuisLogo": "https://crests.football-data.org/678.png",
+      "uit": "Galatasaray SK",
+      "uitLogo": "https://crests.football-data.org/610.png",
+      "thuisScore": 0,
+      "uitScore": 3
+    },
+    {
+      "id": 551990,
+      "datum": "di 25 november",
+      "thuis": "AFC Ajax",
+      "thuisLogo": "https://crests.football-data.org/678.png",
+      "uit": "Sport Lisboa e Benfica",
+      "uitLogo": "https://crests.football-data.org/1903.png",
+      "thuisScore": 0,
+      "uitScore": 2
+    },
+    {
+      "id": 552034,
+      "datum": "wo 10 december",
+      "thuis": "Qarabağ Ağdam FK",
+      "thuisLogo": "https://crests.football-data.org/611.png",
+      "uit": "AFC Ajax",
+      "uitLogo": "https://crests.football-data.org/678.png",
+      "thuisScore": 2,
+      "uitScore": 4
+    },
+    {
+      "id": 552011,
+      "datum": "di 20 januari",
+      "thuis": "Villarreal CF",
+      "thuisLogo": "https://crests.football-data.org/94.png",
+      "uit": "AFC Ajax",
+      "uitLogo": "https://crests.football-data.org/678.png",
+      "thuisScore": 1,
+      "uitScore": 2
+    },
+    {
+      "id": 552030,
+      "datum": "wo 28 januari",
+      "thuis": "AFC Ajax",
+      "thuisLogo": "https://crests.football-data.org/678.png",
+      "uit": "PAE Olympiakos SFP",
+      "uitLogo": "https://crests.football-data.org/654.png",
+      "thuisScore": 1,
+      "uitScore": 2
     }
   ],
   "1912": [
@@ -36289,6 +38849,126 @@
       "uitLogo": "https://crests.football-data.org/1903.png",
       "thuisScore": 1,
       "uitScore": 2
+    },
+    {
+      "id": 552027,
+      "datum": "do 18 september",
+      "thuis": "Sporting Clube de Portugal",
+      "thuisLogo": "https://crests.football-data.org/498.png",
+      "uit": "FK Kairat",
+      "uitLogo": "https://crests.football-data.org/10601.png",
+      "thuisScore": 4,
+      "uitScore": 1
+    },
+    {
+      "id": 552026,
+      "datum": "wo 1 oktober",
+      "thuis": "SSC Napoli",
+      "thuisLogo": "https://crests.football-data.org/113.png",
+      "uit": "Sporting Clube de Portugal",
+      "uitLogo": "https://crests.football-data.org/498.png",
+      "thuisScore": 2,
+      "uitScore": 1
+    },
+    {
+      "id": 552016,
+      "datum": "wo 22 oktober",
+      "thuis": "Sporting Clube de Portugal",
+      "thuisLogo": "https://crests.football-data.org/498.png",
+      "uit": "Olympique de Marseille",
+      "uitLogo": "https://crests.football-data.org/516.png",
+      "thuisScore": 2,
+      "uitScore": 1
+    },
+    {
+      "id": 552003,
+      "datum": "di 4 november",
+      "thuis": "Juventus FC",
+      "thuisLogo": "https://crests.football-data.org/109.png",
+      "uit": "Sporting Clube de Portugal",
+      "uitLogo": "https://crests.football-data.org/498.png",
+      "thuisScore": 1,
+      "uitScore": 1
+    },
+    {
+      "id": 551994,
+      "datum": "wo 26 november",
+      "thuis": "Sporting Clube de Portugal",
+      "thuisLogo": "https://crests.football-data.org/498.png",
+      "uit": "Club Brugge KV",
+      "uitLogo": "https://crests.football-data.org/851.png",
+      "thuisScore": 3,
+      "uitScore": 0
+    },
+    {
+      "id": 551912,
+      "datum": "di 9 december",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "Sporting Clube de Portugal",
+      "uitLogo": "https://crests.football-data.org/498.png",
+      "thuisScore": 3,
+      "uitScore": 1
+    },
+    {
+      "id": 551962,
+      "datum": "di 20 januari",
+      "thuis": "Sporting Clube de Portugal",
+      "thuisLogo": "https://crests.football-data.org/498.png",
+      "uit": "Paris Saint-Germain FC",
+      "uitLogo": "https://crests.football-data.org/524.png",
+      "thuisScore": 2,
+      "uitScore": 1
+    },
+    {
+      "id": 552028,
+      "datum": "wo 28 januari",
+      "thuis": "Athletic Club",
+      "thuisLogo": "https://crests.football-data.org/77.png",
+      "uit": "Sporting Clube de Portugal",
+      "uitLogo": "https://crests.football-data.org/498.png",
+      "thuisScore": 2,
+      "uitScore": 3
+    },
+    {
+      "id": 552074,
+      "datum": "wo 11 maart",
+      "thuis": "FK Bodø/Glimt",
+      "thuisLogo": "https://crests.football-data.org/5721.png",
+      "uit": "Sporting Clube de Portugal",
+      "uitLogo": "https://crests.football-data.org/498.png",
+      "thuisScore": 3,
+      "uitScore": 0
+    },
+    {
+      "id": 552082,
+      "datum": "di 17 maart",
+      "thuis": "Sporting Clube de Portugal",
+      "thuisLogo": "https://crests.football-data.org/498.png",
+      "uit": "FK Bodø/Glimt",
+      "uitLogo": "https://crests.football-data.org/5721.png",
+      "thuisScore": 5,
+      "uitScore": 0
+    },
+    {
+      "id": 556721,
+      "datum": "di 7 april",
+      "thuis": "Sporting Clube de Portugal",
+      "thuisLogo": "https://crests.football-data.org/498.png",
+      "uit": "Arsenal FC",
+      "uitLogo": "https://crests.football-data.org/57.png",
+      "thuisScore": 0,
+      "uitScore": 1
+    },
+    {
+      "id": 556725,
+      "datum": "wo 15 april",
+      "thuis": "Arsenal FC",
+      "thuisLogo": "https://crests.football-data.org/57.png",
+      "uit": "Sporting Clube de Portugal",
+      "uitLogo": "https://crests.football-data.org/498.png",
+      "thuisScore": 0,
+      "uitScore": 0
     }
   ],
   "5529": [
@@ -38977,6 +41657,16 @@
       "uitLogo": "https://crests.football-data.org/583.png",
       "thuisScore": 1,
       "uitScore": 1
+    },
+    {
+      "id": 545962,
+      "datum": "ma 20 april",
+      "thuis": "Moreirense FC",
+      "thuisLogo": "https://crests.football-data.org/583.png",
+      "uit": "GD Estoril Praia",
+      "uitLogo": "https://crests.football-data.org/582.png",
+      "thuisScore": 1,
+      "uitScore": 0
     }
   ],
   "7822": [
@@ -39571,6 +42261,16 @@
       "uitLogo": "https://crests.football-data.org/503.png",
       "thuisScore": 1,
       "uitScore": 3
+    },
+    {
+      "id": 545962,
+      "datum": "ma 20 april",
+      "thuis": "Moreirense FC",
+      "thuisLogo": "https://crests.football-data.org/583.png",
+      "uit": "GD Estoril Praia",
+      "uitLogo": "https://crests.football-data.org/582.png",
+      "thuisScore": 1,
+      "uitScore": 0
     }
   ],
   "9136": [
@@ -40779,6 +43479,106 @@
       "uitLogo": "https://crests.football-data.org/1903.png",
       "thuisScore": 1,
       "uitScore": 2
+    },
+    {
+      "id": 551991,
+      "datum": "di 16 september",
+      "thuis": "Sport Lisboa e Benfica",
+      "thuisLogo": "https://crests.football-data.org/1903.png",
+      "uit": "Qarabağ Ağdam FK",
+      "uitLogo": "https://crests.football-data.org/611.png",
+      "thuisScore": 2,
+      "uitScore": 3
+    },
+    {
+      "id": 551917,
+      "datum": "di 30 september",
+      "thuis": "Chelsea FC",
+      "thuisLogo": "https://crests.football-data.org/61.png",
+      "uit": "Sport Lisboa e Benfica",
+      "uitLogo": "https://crests.football-data.org/1903.png",
+      "thuisScore": 1,
+      "uitScore": 0
+    },
+    {
+      "id": 551992,
+      "datum": "di 21 oktober",
+      "thuis": "Newcastle United FC",
+      "thuisLogo": "https://crests.football-data.org/67.png",
+      "uit": "Sport Lisboa e Benfica",
+      "uitLogo": "https://crests.football-data.org/1903.png",
+      "thuisScore": 3,
+      "uitScore": 0
+    },
+    {
+      "id": 551971,
+      "datum": "wo 5 november",
+      "thuis": "Sport Lisboa e Benfica",
+      "thuisLogo": "https://crests.football-data.org/1903.png",
+      "uit": "Bayer 04 Leverkusen",
+      "uitLogo": "https://crests.football-data.org/3.png",
+      "thuisScore": 0,
+      "uitScore": 1
+    },
+    {
+      "id": 551990,
+      "datum": "di 25 november",
+      "thuis": "AFC Ajax",
+      "thuisLogo": "https://crests.football-data.org/678.png",
+      "uit": "Sport Lisboa e Benfica",
+      "uitLogo": "https://crests.football-data.org/1903.png",
+      "thuisScore": 0,
+      "uitScore": 2
+    },
+    {
+      "id": 551989,
+      "datum": "wo 10 december",
+      "thuis": "Sport Lisboa e Benfica",
+      "thuisLogo": "https://crests.football-data.org/1903.png",
+      "uit": "SSC Napoli",
+      "uitLogo": "https://crests.football-data.org/113.png",
+      "thuisScore": 2,
+      "uitScore": 0
+    },
+    {
+      "id": 551988,
+      "datum": "wo 21 januari",
+      "thuis": "Juventus FC",
+      "thuisLogo": "https://crests.football-data.org/109.png",
+      "uit": "Sport Lisboa e Benfica",
+      "uitLogo": "https://crests.football-data.org/1903.png",
+      "thuisScore": 2,
+      "uitScore": 0
+    },
+    {
+      "id": 551926,
+      "datum": "wo 28 januari",
+      "thuis": "Sport Lisboa e Benfica",
+      "thuisLogo": "https://crests.football-data.org/1903.png",
+      "uit": "Real Madrid CF",
+      "uitLogo": "https://crests.football-data.org/86.png",
+      "thuisScore": 4,
+      "uitScore": 2
+    },
+    {
+      "id": 552052,
+      "datum": "di 17 februari",
+      "thuis": "Sport Lisboa e Benfica",
+      "thuisLogo": "https://crests.football-data.org/1903.png",
+      "uit": "Real Madrid CF",
+      "uitLogo": "https://crests.football-data.org/86.png",
+      "thuisScore": 0,
+      "uitScore": 1
+    },
+    {
+      "id": 552060,
+      "datum": "wo 25 februari",
+      "thuis": "Real Madrid CF",
+      "thuisLogo": "https://crests.football-data.org/86.png",
+      "uit": "Sport Lisboa e Benfica",
+      "uitLogo": "https://crests.football-data.org/1903.png",
+      "thuisScore": 2,
+      "uitScore": 1
     }
   ],
   "496": [
@@ -53809,6 +56609,966 @@
       "uitLogo": "https://crests.football-data.org/348.png",
       "thuisScore": 1,
       "uitScore": 1
+    }
+  ],
+  "3929": [
+    {
+      "id": 552049,
+      "datum": "di 16 september",
+      "thuis": "PSV",
+      "thuisLogo": "https://crests.football-data.org/674.png",
+      "uit": "Royale Union Saint-Gilloise",
+      "uitLogo": "https://crests.football-data.org/3929.png",
+      "thuisScore": 1,
+      "uitScore": 3
+    },
+    {
+      "id": 552044,
+      "datum": "wo 1 oktober",
+      "thuis": "Royale Union Saint-Gilloise",
+      "thuisLogo": "https://crests.football-data.org/3929.png",
+      "uit": "Newcastle United FC",
+      "uitLogo": "https://crests.football-data.org/67.png",
+      "thuisScore": 0,
+      "uitScore": 4
+    },
+    {
+      "id": 551938,
+      "datum": "di 21 oktober",
+      "thuis": "Royale Union Saint-Gilloise",
+      "thuisLogo": "https://crests.football-data.org/3929.png",
+      "uit": "FC Internazionale Milano",
+      "uitLogo": "https://crests.football-data.org/108.png",
+      "thuisScore": 0,
+      "uitScore": 4
+    },
+    {
+      "id": 552009,
+      "datum": "di 4 november",
+      "thuis": "Club Atlético de Madrid",
+      "thuisLogo": "https://crests.football-data.org/78.png",
+      "uit": "Royale Union Saint-Gilloise",
+      "uitLogo": "https://crests.football-data.org/3929.png",
+      "thuisScore": 3,
+      "uitScore": 1
+    },
+    {
+      "id": 552043,
+      "datum": "di 25 november",
+      "thuis": "Galatasaray SK",
+      "thuisLogo": "https://crests.football-data.org/610.png",
+      "uit": "Royale Union Saint-Gilloise",
+      "uitLogo": "https://crests.football-data.org/3929.png",
+      "thuisScore": 0,
+      "uitScore": 1
+    },
+    {
+      "id": 552018,
+      "datum": "di 9 december",
+      "thuis": "Royale Union Saint-Gilloise",
+      "thuisLogo": "https://crests.football-data.org/3929.png",
+      "uit": "Olympique de Marseille",
+      "uitLogo": "https://crests.football-data.org/516.png",
+      "thuisScore": 2,
+      "uitScore": 3
+    },
+    {
+      "id": 551914,
+      "datum": "wo 21 januari",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "Royale Union Saint-Gilloise",
+      "uitLogo": "https://crests.football-data.org/3929.png",
+      "thuisScore": 2,
+      "uitScore": 0
+    },
+    {
+      "id": 551987,
+      "datum": "wo 28 januari",
+      "thuis": "Royale Union Saint-Gilloise",
+      "thuisLogo": "https://crests.football-data.org/3929.png",
+      "uit": "Atalanta BC",
+      "uitLogo": "https://crests.football-data.org/102.png",
+      "thuisScore": 1,
+      "uitScore": 0
+    }
+  ],
+  "611": [
+    {
+      "id": 551991,
+      "datum": "di 16 september",
+      "thuis": "Sport Lisboa e Benfica",
+      "thuisLogo": "https://crests.football-data.org/1903.png",
+      "uit": "Qarabağ Ağdam FK",
+      "uitLogo": "https://crests.football-data.org/611.png",
+      "thuisScore": 2,
+      "uitScore": 3
+    },
+    {
+      "id": 552039,
+      "datum": "wo 1 oktober",
+      "thuis": "Qarabağ Ağdam FK",
+      "thuisLogo": "https://crests.football-data.org/611.png",
+      "uit": "FC København",
+      "uitLogo": "https://crests.football-data.org/1876.png",
+      "thuisScore": 2,
+      "uitScore": 0
+    },
+    {
+      "id": 552040,
+      "datum": "wo 22 oktober",
+      "thuis": "Athletic Club",
+      "thuisLogo": "https://crests.football-data.org/77.png",
+      "uit": "Qarabağ Ağdam FK",
+      "uitLogo": "https://crests.football-data.org/611.png",
+      "thuisScore": 3,
+      "uitScore": 1
+    },
+    {
+      "id": 551922,
+      "datum": "wo 5 november",
+      "thuis": "Qarabağ Ağdam FK",
+      "thuisLogo": "https://crests.football-data.org/611.png",
+      "uit": "Chelsea FC",
+      "uitLogo": "https://crests.football-data.org/61.png",
+      "thuisScore": 2,
+      "uitScore": 2
+    },
+    {
+      "id": 552037,
+      "datum": "di 25 november",
+      "thuis": "SSC Napoli",
+      "thuisLogo": "https://crests.football-data.org/113.png",
+      "uit": "Qarabağ Ağdam FK",
+      "uitLogo": "https://crests.football-data.org/611.png",
+      "thuisScore": 2,
+      "uitScore": 0
+    },
+    {
+      "id": 552034,
+      "datum": "wo 10 december",
+      "thuis": "Qarabağ Ağdam FK",
+      "thuisLogo": "https://crests.football-data.org/611.png",
+      "uit": "AFC Ajax",
+      "uitLogo": "https://crests.football-data.org/678.png",
+      "thuisScore": 2,
+      "uitScore": 4
+    },
+    {
+      "id": 552001,
+      "datum": "wo 21 januari",
+      "thuis": "Qarabağ Ağdam FK",
+      "thuisLogo": "https://crests.football-data.org/611.png",
+      "uit": "Eintracht Frankfurt",
+      "uitLogo": "https://crests.football-data.org/19.png",
+      "thuisScore": 3,
+      "uitScore": 2
+    },
+    {
+      "id": 551950,
+      "datum": "wo 28 januari",
+      "thuis": "Liverpool FC",
+      "thuisLogo": "https://crests.football-data.org/64.png",
+      "uit": "Qarabağ Ağdam FK",
+      "uitLogo": "https://crests.football-data.org/611.png",
+      "thuisScore": 6,
+      "uitScore": 0
+    },
+    {
+      "id": 552054,
+      "datum": "wo 18 februari",
+      "thuis": "Qarabağ Ağdam FK",
+      "thuisLogo": "https://crests.football-data.org/611.png",
+      "uit": "Newcastle United FC",
+      "uitLogo": "https://crests.football-data.org/67.png",
+      "thuisScore": 1,
+      "uitScore": 6
+    },
+    {
+      "id": 552062,
+      "datum": "di 24 februari",
+      "thuis": "Newcastle United FC",
+      "thuisLogo": "https://crests.football-data.org/67.png",
+      "uit": "Qarabağ Ağdam FK",
+      "uitLogo": "https://crests.football-data.org/611.png",
+      "thuisScore": 3,
+      "uitScore": 2
+    }
+  ],
+  "930": [
+    {
+      "id": 552023,
+      "datum": "wo 17 september",
+      "thuis": "SK Slavia Praha",
+      "thuisLogo": "https://crests.football-data.org/930.png",
+      "uit": "FK Bodø/Glimt",
+      "uitLogo": "https://crests.football-data.org/5721.png",
+      "thuisScore": 2,
+      "uitScore": 2
+    },
+    {
+      "id": 551935,
+      "datum": "di 30 september",
+      "thuis": "FC Internazionale Milano",
+      "thuisLogo": "https://crests.football-data.org/108.png",
+      "uit": "SK Slavia Praha",
+      "uitLogo": "https://crests.football-data.org/930.png",
+      "thuisScore": 3,
+      "uitScore": 0
+    },
+    {
+      "id": 551984,
+      "datum": "wo 22 oktober",
+      "thuis": "Atalanta BC",
+      "thuisLogo": "https://crests.football-data.org/102.png",
+      "uit": "SK Slavia Praha",
+      "uitLogo": "https://crests.football-data.org/930.png",
+      "thuisScore": 0,
+      "uitScore": 0
+    },
+    {
+      "id": 551979,
+      "datum": "di 4 november",
+      "thuis": "SK Slavia Praha",
+      "thuisLogo": "https://crests.football-data.org/930.png",
+      "uit": "Arsenal FC",
+      "uitLogo": "https://crests.football-data.org/57.png",
+      "thuisScore": 0,
+      "uitScore": 3
+    },
+    {
+      "id": 552035,
+      "datum": "di 25 november",
+      "thuis": "SK Slavia Praha",
+      "thuisLogo": "https://crests.football-data.org/930.png",
+      "uit": "Athletic Club",
+      "uitLogo": "https://crests.football-data.org/77.png",
+      "thuisScore": 0,
+      "uitScore": 0
+    },
+    {
+      "id": 552019,
+      "datum": "di 9 december",
+      "thuis": "Tottenham Hotspur FC",
+      "thuisLogo": "https://crests.football-data.org/73.png",
+      "uit": "SK Slavia Praha",
+      "uitLogo": "https://crests.football-data.org/930.png",
+      "thuisScore": 3,
+      "uitScore": 0
+    },
+    {
+      "id": 551956,
+      "datum": "wo 21 januari",
+      "thuis": "SK Slavia Praha",
+      "thuisLogo": "https://crests.football-data.org/930.png",
+      "uit": "FC Barcelona",
+      "uitLogo": "https://crests.football-data.org/81.png",
+      "thuisScore": 2,
+      "uitScore": 4
+    },
+    {
+      "id": 552051,
+      "datum": "wo 28 januari",
+      "thuis": "Paphos FC",
+      "thuisLogo": "https://crests.football-data.org/11034.png",
+      "uit": "SK Slavia Praha",
+      "uitLogo": "https://crests.football-data.org/930.png",
+      "thuisScore": 4,
+      "uitScore": 1
+    }
+  ],
+  "5721": [
+    {
+      "id": 552023,
+      "datum": "wo 17 september",
+      "thuis": "SK Slavia Praha",
+      "thuisLogo": "https://crests.football-data.org/930.png",
+      "uit": "FK Bodø/Glimt",
+      "uitLogo": "https://crests.football-data.org/5721.png",
+      "thuisScore": 2,
+      "uitScore": 2
+    },
+    {
+      "id": 552020,
+      "datum": "di 30 september",
+      "thuis": "FK Bodø/Glimt",
+      "thuisLogo": "https://crests.football-data.org/5721.png",
+      "uit": "Tottenham Hotspur FC",
+      "uitLogo": "https://crests.football-data.org/73.png",
+      "thuisScore": 2,
+      "uitScore": 2
+    },
+    {
+      "id": 552025,
+      "datum": "wo 22 oktober",
+      "thuis": "Galatasaray SK",
+      "thuisLogo": "https://crests.football-data.org/610.png",
+      "uit": "FK Bodø/Glimt",
+      "uitLogo": "https://crests.football-data.org/5721.png",
+      "thuisScore": 3,
+      "uitScore": 1
+    },
+    {
+      "id": 552024,
+      "datum": "di 4 november",
+      "thuis": "FK Bodø/Glimt",
+      "thuisLogo": "https://crests.football-data.org/5721.png",
+      "uit": "AS Monaco FC",
+      "uitLogo": "https://crests.football-data.org/548.png",
+      "thuisScore": 0,
+      "uitScore": 1
+    },
+    {
+      "id": 552004,
+      "datum": "di 25 november",
+      "thuis": "FK Bodø/Glimt",
+      "thuisLogo": "https://crests.football-data.org/5721.png",
+      "uit": "Juventus FC",
+      "uitLogo": "https://crests.football-data.org/109.png",
+      "thuisScore": 2,
+      "uitScore": 3
+    },
+    {
+      "id": 551942,
+      "datum": "wo 10 december",
+      "thuis": "Borussia Dortmund",
+      "thuisLogo": "https://crests.football-data.org/4.png",
+      "uit": "FK Bodø/Glimt",
+      "uitLogo": "https://crests.football-data.org/5721.png",
+      "thuisScore": 2,
+      "uitScore": 2
+    },
+    {
+      "id": 551966,
+      "datum": "di 20 januari",
+      "thuis": "FK Bodø/Glimt",
+      "thuisLogo": "https://crests.football-data.org/5721.png",
+      "uit": "Manchester City FC",
+      "uitLogo": "https://crests.football-data.org/65.png",
+      "thuisScore": 3,
+      "uitScore": 1
+    },
+    {
+      "id": 552007,
+      "datum": "wo 28 januari",
+      "thuis": "Club Atlético de Madrid",
+      "thuisLogo": "https://crests.football-data.org/78.png",
+      "uit": "FK Bodø/Glimt",
+      "uitLogo": "https://crests.football-data.org/5721.png",
+      "thuisScore": 1,
+      "uitScore": 2
+    },
+    {
+      "id": 552059,
+      "datum": "wo 18 februari",
+      "thuis": "FK Bodø/Glimt",
+      "thuisLogo": "https://crests.football-data.org/5721.png",
+      "uit": "FC Internazionale Milano",
+      "uitLogo": "https://crests.football-data.org/108.png",
+      "thuisScore": 3,
+      "uitScore": 1
+    },
+    {
+      "id": 552067,
+      "datum": "di 24 februari",
+      "thuis": "FC Internazionale Milano",
+      "thuisLogo": "https://crests.football-data.org/108.png",
+      "uit": "FK Bodø/Glimt",
+      "uitLogo": "https://crests.football-data.org/5721.png",
+      "thuisScore": 1,
+      "uitScore": 2
+    },
+    {
+      "id": 552074,
+      "datum": "wo 11 maart",
+      "thuis": "FK Bodø/Glimt",
+      "thuisLogo": "https://crests.football-data.org/5721.png",
+      "uit": "Sporting Clube de Portugal",
+      "uitLogo": "https://crests.football-data.org/498.png",
+      "thuisScore": 3,
+      "uitScore": 0
+    },
+    {
+      "id": 552082,
+      "datum": "di 17 maart",
+      "thuis": "Sporting Clube de Portugal",
+      "thuisLogo": "https://crests.football-data.org/498.png",
+      "uit": "FK Bodø/Glimt",
+      "uitLogo": "https://crests.football-data.org/5721.png",
+      "thuisScore": 5,
+      "uitScore": 0
+    }
+  ],
+  "654": [
+    {
+      "id": 552031,
+      "datum": "wo 17 september",
+      "thuis": "PAE Olympiakos SFP",
+      "thuisLogo": "https://crests.football-data.org/654.png",
+      "uit": "Paphos FC",
+      "uitLogo": "https://crests.football-data.org/11034.png",
+      "thuisScore": 0,
+      "uitScore": 0
+    },
+    {
+      "id": 551978,
+      "datum": "wo 1 oktober",
+      "thuis": "Arsenal FC",
+      "thuisLogo": "https://crests.football-data.org/57.png",
+      "uit": "PAE Olympiakos SFP",
+      "uitLogo": "https://crests.football-data.org/654.png",
+      "thuisScore": 2,
+      "uitScore": 0
+    },
+    {
+      "id": 551955,
+      "datum": "di 21 oktober",
+      "thuis": "FC Barcelona",
+      "thuisLogo": "https://crests.football-data.org/81.png",
+      "uit": "PAE Olympiakos SFP",
+      "uitLogo": "https://crests.football-data.org/654.png",
+      "thuisScore": 6,
+      "uitScore": 1
+    },
+    {
+      "id": 552029,
+      "datum": "di 4 november",
+      "thuis": "PAE Olympiakos SFP",
+      "thuisLogo": "https://crests.football-data.org/654.png",
+      "uit": "PSV",
+      "uitLogo": "https://crests.football-data.org/674.png",
+      "thuisScore": 1,
+      "uitScore": 1
+    },
+    {
+      "id": 551928,
+      "datum": "wo 26 november",
+      "thuis": "PAE Olympiakos SFP",
+      "thuisLogo": "https://crests.football-data.org/654.png",
+      "uit": "Real Madrid CF",
+      "uitLogo": "https://crests.football-data.org/86.png",
+      "thuisScore": 3,
+      "uitScore": 4
+    },
+    {
+      "id": 552032,
+      "datum": "di 9 december",
+      "thuis": "FK Kairat",
+      "thuisLogo": "https://crests.football-data.org/10601.png",
+      "uit": "PAE Olympiakos SFP",
+      "uitLogo": "https://crests.football-data.org/654.png",
+      "thuisScore": 0,
+      "uitScore": 1
+    },
+    {
+      "id": 551973,
+      "datum": "di 20 januari",
+      "thuis": "PAE Olympiakos SFP",
+      "thuisLogo": "https://crests.football-data.org/654.png",
+      "uit": "Bayer 04 Leverkusen",
+      "uitLogo": "https://crests.football-data.org/3.png",
+      "thuisScore": 2,
+      "uitScore": 0
+    },
+    {
+      "id": 552030,
+      "datum": "wo 28 januari",
+      "thuis": "AFC Ajax",
+      "thuisLogo": "https://crests.football-data.org/678.png",
+      "uit": "PAE Olympiakos SFP",
+      "uitLogo": "https://crests.football-data.org/654.png",
+      "thuisScore": 1,
+      "uitScore": 2
+    },
+    {
+      "id": 552058,
+      "datum": "wo 18 februari",
+      "thuis": "PAE Olympiakos SFP",
+      "thuisLogo": "https://crests.football-data.org/654.png",
+      "uit": "Bayer 04 Leverkusen",
+      "uitLogo": "https://crests.football-data.org/3.png",
+      "thuisScore": 0,
+      "uitScore": 2
+    },
+    {
+      "id": 552066,
+      "datum": "di 24 februari",
+      "thuis": "Bayer 04 Leverkusen",
+      "thuisLogo": "https://crests.football-data.org/3.png",
+      "uit": "PAE Olympiakos SFP",
+      "uitLogo": "https://crests.football-data.org/654.png",
+      "thuisScore": 0,
+      "uitScore": 0
+    }
+  ],
+  "11034": [
+    {
+      "id": 552031,
+      "datum": "wo 17 september",
+      "thuis": "PAE Olympiakos SFP",
+      "thuisLogo": "https://crests.football-data.org/654.png",
+      "uit": "Paphos FC",
+      "uitLogo": "https://crests.football-data.org/11034.png",
+      "thuisScore": 0,
+      "uitScore": 0
+    },
+    {
+      "id": 551915,
+      "datum": "di 30 september",
+      "thuis": "Paphos FC",
+      "thuisLogo": "https://crests.football-data.org/11034.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png",
+      "thuisScore": 1,
+      "uitScore": 5
+    },
+    {
+      "id": 552045,
+      "datum": "di 21 oktober",
+      "thuis": "FK Kairat",
+      "thuisLogo": "https://crests.football-data.org/10601.png",
+      "uit": "Paphos FC",
+      "uitLogo": "https://crests.football-data.org/11034.png",
+      "thuisScore": 0,
+      "uitScore": 0
+    },
+    {
+      "id": 552014,
+      "datum": "wo 5 november",
+      "thuis": "Paphos FC",
+      "thuisLogo": "https://crests.football-data.org/11034.png",
+      "uit": "Villarreal CF",
+      "uitLogo": "https://crests.football-data.org/94.png",
+      "thuisScore": 1,
+      "uitScore": 0
+    },
+    {
+      "id": 552042,
+      "datum": "wo 26 november",
+      "thuis": "Paphos FC",
+      "thuisLogo": "https://crests.football-data.org/11034.png",
+      "uit": "AS Monaco FC",
+      "uitLogo": "https://crests.football-data.org/548.png",
+      "thuisScore": 2,
+      "uitScore": 2
+    },
+    {
+      "id": 552005,
+      "datum": "wo 10 december",
+      "thuis": "Juventus FC",
+      "thuisLogo": "https://crests.football-data.org/109.png",
+      "uit": "Paphos FC",
+      "uitLogo": "https://crests.football-data.org/11034.png",
+      "thuisScore": 2,
+      "uitScore": 0
+    },
+    {
+      "id": 551921,
+      "datum": "wo 21 januari",
+      "thuis": "Chelsea FC",
+      "thuisLogo": "https://crests.football-data.org/61.png",
+      "uit": "Paphos FC",
+      "uitLogo": "https://crests.football-data.org/11034.png",
+      "thuisScore": 1,
+      "uitScore": 0
+    },
+    {
+      "id": 552051,
+      "datum": "wo 28 januari",
+      "thuis": "Paphos FC",
+      "thuisLogo": "https://crests.football-data.org/11034.png",
+      "uit": "SK Slavia Praha",
+      "uitLogo": "https://crests.football-data.org/930.png",
+      "thuisScore": 4,
+      "uitScore": 1
+    }
+  ],
+  "1876": [
+    {
+      "id": 551975,
+      "datum": "do 18 september",
+      "thuis": "FC København",
+      "thuisLogo": "https://crests.football-data.org/1876.png",
+      "uit": "Bayer 04 Leverkusen",
+      "uitLogo": "https://crests.football-data.org/3.png",
+      "thuisScore": 2,
+      "uitScore": 2
+    },
+    {
+      "id": 552039,
+      "datum": "wo 1 oktober",
+      "thuis": "Qarabağ Ağdam FK",
+      "thuisLogo": "https://crests.football-data.org/611.png",
+      "uit": "FC København",
+      "uitLogo": "https://crests.football-data.org/1876.png",
+      "thuisScore": 2,
+      "uitScore": 0
+    },
+    {
+      "id": 551945,
+      "datum": "di 21 oktober",
+      "thuis": "FC København",
+      "thuisLogo": "https://crests.football-data.org/1876.png",
+      "uit": "Borussia Dortmund",
+      "uitLogo": "https://crests.football-data.org/4.png",
+      "thuisScore": 2,
+      "uitScore": 4
+    },
+    {
+      "id": 552021,
+      "datum": "di 4 november",
+      "thuis": "Tottenham Hotspur FC",
+      "thuisLogo": "https://crests.football-data.org/73.png",
+      "uit": "FC København",
+      "uitLogo": "https://crests.football-data.org/1876.png",
+      "thuisScore": 4,
+      "uitScore": 0
+    },
+    {
+      "id": 552046,
+      "datum": "wo 26 november",
+      "thuis": "FC København",
+      "thuisLogo": "https://crests.football-data.org/1876.png",
+      "uit": "FK Kairat",
+      "uitLogo": "https://crests.football-data.org/10601.png",
+      "thuisScore": 3,
+      "uitScore": 2
+    },
+    {
+      "id": 552013,
+      "datum": "wo 10 december",
+      "thuis": "Villarreal CF",
+      "thuisLogo": "https://crests.football-data.org/94.png",
+      "uit": "FC København",
+      "uitLogo": "https://crests.football-data.org/1876.png",
+      "thuisScore": 2,
+      "uitScore": 3
+    },
+    {
+      "id": 552038,
+      "datum": "di 20 januari",
+      "thuis": "FC København",
+      "thuisLogo": "https://crests.football-data.org/1876.png",
+      "uit": "SSC Napoli",
+      "uitLogo": "https://crests.football-data.org/113.png",
+      "thuisScore": 1,
+      "uitScore": 1
+    },
+    {
+      "id": 551957,
+      "datum": "wo 28 januari",
+      "thuis": "FC Barcelona",
+      "thuisLogo": "https://crests.football-data.org/81.png",
+      "uit": "FC København",
+      "uitLogo": "https://crests.football-data.org/1876.png",
+      "thuisScore": 4,
+      "uitScore": 1
+    }
+  ],
+  "851": [
+    {
+      "id": 551995,
+      "datum": "do 18 september",
+      "thuis": "Club Brugge KV",
+      "thuisLogo": "https://crests.football-data.org/851.png",
+      "uit": "AS Monaco FC",
+      "uitLogo": "https://crests.football-data.org/548.png",
+      "thuisScore": 4,
+      "uitScore": 1
+    },
+    {
+      "id": 551982,
+      "datum": "di 30 september",
+      "thuis": "Atalanta BC",
+      "thuisLogo": "https://crests.football-data.org/102.png",
+      "uit": "Club Brugge KV",
+      "uitLogo": "https://crests.football-data.org/851.png",
+      "thuisScore": 2,
+      "uitScore": 1
+    },
+    {
+      "id": 551910,
+      "datum": "wo 22 oktober",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "Club Brugge KV",
+      "uitLogo": "https://crests.football-data.org/851.png",
+      "thuisScore": 4,
+      "uitScore": 0
+    },
+    {
+      "id": 551954,
+      "datum": "wo 5 november",
+      "thuis": "Club Brugge KV",
+      "thuisLogo": "https://crests.football-data.org/851.png",
+      "uit": "FC Barcelona",
+      "uitLogo": "https://crests.football-data.org/81.png",
+      "thuisScore": 3,
+      "uitScore": 3
+    },
+    {
+      "id": 551994,
+      "datum": "wo 26 november",
+      "thuis": "Sporting Clube de Portugal",
+      "thuisLogo": "https://crests.football-data.org/498.png",
+      "uit": "Club Brugge KV",
+      "uitLogo": "https://crests.football-data.org/851.png",
+      "thuisScore": 3,
+      "uitScore": 0
+    },
+    {
+      "id": 551977,
+      "datum": "wo 10 december",
+      "thuis": "Club Brugge KV",
+      "thuisLogo": "https://crests.football-data.org/851.png",
+      "uit": "Arsenal FC",
+      "uitLogo": "https://crests.football-data.org/57.png",
+      "thuisScore": 0,
+      "uitScore": 3
+    },
+    {
+      "id": 551996,
+      "datum": "di 20 januari",
+      "thuis": "FK Kairat",
+      "thuisLogo": "https://crests.football-data.org/10601.png",
+      "uit": "Club Brugge KV",
+      "uitLogo": "https://crests.football-data.org/851.png",
+      "thuisScore": 1,
+      "uitScore": 4
+    },
+    {
+      "id": 551993,
+      "datum": "wo 28 januari",
+      "thuis": "Club Brugge KV",
+      "thuisLogo": "https://crests.football-data.org/851.png",
+      "uit": "Olympique de Marseille",
+      "uitLogo": "https://crests.football-data.org/516.png",
+      "thuisScore": 3,
+      "uitScore": 0
+    },
+    {
+      "id": 552056,
+      "datum": "wo 18 februari",
+      "thuis": "Club Brugge KV",
+      "thuisLogo": "https://crests.football-data.org/851.png",
+      "uit": "Club Atlético de Madrid",
+      "uitLogo": "https://crests.football-data.org/78.png",
+      "thuisScore": 3,
+      "uitScore": 3
+    },
+    {
+      "id": 552064,
+      "datum": "di 24 februari",
+      "thuis": "Club Atlético de Madrid",
+      "thuisLogo": "https://crests.football-data.org/78.png",
+      "uit": "Club Brugge KV",
+      "uitLogo": "https://crests.football-data.org/851.png",
+      "thuisScore": 4,
+      "uitScore": 1
+    }
+  ],
+  "610": [
+    {
+      "id": 552000,
+      "datum": "do 18 september",
+      "thuis": "Eintracht Frankfurt",
+      "thuisLogo": "https://crests.football-data.org/19.png",
+      "uit": "Galatasaray SK",
+      "uitLogo": "https://crests.football-data.org/610.png",
+      "thuisScore": 5,
+      "uitScore": 1
+    },
+    {
+      "id": 551951,
+      "datum": "di 30 september",
+      "thuis": "Galatasaray SK",
+      "thuisLogo": "https://crests.football-data.org/610.png",
+      "uit": "Liverpool FC",
+      "uitLogo": "https://crests.football-data.org/64.png",
+      "thuisScore": 1,
+      "uitScore": 0
+    },
+    {
+      "id": 552025,
+      "datum": "wo 22 oktober",
+      "thuis": "Galatasaray SK",
+      "thuisLogo": "https://crests.football-data.org/610.png",
+      "uit": "FK Bodø/Glimt",
+      "uitLogo": "https://crests.football-data.org/5721.png",
+      "thuisScore": 3,
+      "uitScore": 1
+    },
+    {
+      "id": 552033,
+      "datum": "wo 5 november",
+      "thuis": "AFC Ajax",
+      "thuisLogo": "https://crests.football-data.org/678.png",
+      "uit": "Galatasaray SK",
+      "uitLogo": "https://crests.football-data.org/610.png",
+      "thuisScore": 0,
+      "uitScore": 3
+    },
+    {
+      "id": 552043,
+      "datum": "di 25 november",
+      "thuis": "Galatasaray SK",
+      "thuisLogo": "https://crests.football-data.org/610.png",
+      "uit": "Royale Union Saint-Gilloise",
+      "uitLogo": "https://crests.football-data.org/3929.png",
+      "thuisScore": 0,
+      "uitScore": 1
+    },
+    {
+      "id": 552041,
+      "datum": "di 9 december",
+      "thuis": "AS Monaco FC",
+      "thuisLogo": "https://crests.football-data.org/548.png",
+      "uit": "Galatasaray SK",
+      "uitLogo": "https://crests.football-data.org/610.png",
+      "thuisScore": 1,
+      "uitScore": 0
+    },
+    {
+      "id": 552010,
+      "datum": "wo 21 januari",
+      "thuis": "Galatasaray SK",
+      "thuisLogo": "https://crests.football-data.org/610.png",
+      "uit": "Club Atlético de Madrid",
+      "uitLogo": "https://crests.football-data.org/78.png",
+      "thuisScore": 1,
+      "uitScore": 1
+    },
+    {
+      "id": 551967,
+      "datum": "wo 28 januari",
+      "thuis": "Manchester City FC",
+      "thuisLogo": "https://crests.football-data.org/65.png",
+      "uit": "Galatasaray SK",
+      "uitLogo": "https://crests.football-data.org/610.png",
+      "thuisScore": 2,
+      "uitScore": 0
+    },
+    {
+      "id": 552055,
+      "datum": "di 17 februari",
+      "thuis": "Galatasaray SK",
+      "thuisLogo": "https://crests.football-data.org/610.png",
+      "uit": "Juventus FC",
+      "uitLogo": "https://crests.football-data.org/109.png",
+      "thuisScore": 5,
+      "uitScore": 2
+    },
+    {
+      "id": 552063,
+      "datum": "wo 25 februari",
+      "thuis": "Juventus FC",
+      "thuisLogo": "https://crests.football-data.org/109.png",
+      "uit": "Galatasaray SK",
+      "uitLogo": "https://crests.football-data.org/610.png",
+      "thuisScore": 3,
+      "uitScore": 2
+    },
+    {
+      "id": 552069,
+      "datum": "di 10 maart",
+      "thuis": "Galatasaray SK",
+      "thuisLogo": "https://crests.football-data.org/610.png",
+      "uit": "Liverpool FC",
+      "uitLogo": "https://crests.football-data.org/64.png",
+      "thuisScore": 1,
+      "uitScore": 0
+    },
+    {
+      "id": 552077,
+      "datum": "wo 18 maart",
+      "thuis": "Liverpool FC",
+      "thuisLogo": "https://crests.football-data.org/64.png",
+      "uit": "Galatasaray SK",
+      "uitLogo": "https://crests.football-data.org/610.png",
+      "thuisScore": 4,
+      "uitScore": 0
+    }
+  ],
+  "10601": [
+    {
+      "id": 552027,
+      "datum": "do 18 september",
+      "thuis": "Sporting Clube de Portugal",
+      "thuisLogo": "https://crests.football-data.org/498.png",
+      "uit": "FK Kairat",
+      "uitLogo": "https://crests.football-data.org/10601.png",
+      "thuisScore": 4,
+      "uitScore": 1
+    },
+    {
+      "id": 551930,
+      "datum": "di 30 september",
+      "thuis": "FK Kairat",
+      "thuisLogo": "https://crests.football-data.org/10601.png",
+      "uit": "Real Madrid CF",
+      "uitLogo": "https://crests.football-data.org/86.png",
+      "thuisScore": 0,
+      "uitScore": 5
+    },
+    {
+      "id": 552045,
+      "datum": "di 21 oktober",
+      "thuis": "FK Kairat",
+      "thuisLogo": "https://crests.football-data.org/10601.png",
+      "uit": "Paphos FC",
+      "uitLogo": "https://crests.football-data.org/11034.png",
+      "thuisScore": 0,
+      "uitScore": 0
+    },
+    {
+      "id": 551937,
+      "datum": "wo 5 november",
+      "thuis": "FC Internazionale Milano",
+      "thuisLogo": "https://crests.football-data.org/108.png",
+      "uit": "FK Kairat",
+      "uitLogo": "https://crests.football-data.org/10601.png",
+      "thuisScore": 2,
+      "uitScore": 1
+    },
+    {
+      "id": 552046,
+      "datum": "wo 26 november",
+      "thuis": "FC København",
+      "thuisLogo": "https://crests.football-data.org/1876.png",
+      "uit": "FK Kairat",
+      "uitLogo": "https://crests.football-data.org/10601.png",
+      "thuisScore": 3,
+      "uitScore": 2
+    },
+    {
+      "id": 552032,
+      "datum": "di 9 december",
+      "thuis": "FK Kairat",
+      "thuisLogo": "https://crests.football-data.org/10601.png",
+      "uit": "PAE Olympiakos SFP",
+      "uitLogo": "https://crests.football-data.org/654.png",
+      "thuisScore": 0,
+      "uitScore": 1
+    },
+    {
+      "id": 551996,
+      "datum": "di 20 januari",
+      "thuis": "FK Kairat",
+      "thuisLogo": "https://crests.football-data.org/10601.png",
+      "uit": "Club Brugge KV",
+      "uitLogo": "https://crests.football-data.org/851.png",
+      "thuisScore": 1,
+      "uitScore": 4
+    },
+    {
+      "id": 551980,
+      "datum": "wo 28 januari",
+      "thuis": "Arsenal FC",
+      "thuisLogo": "https://crests.football-data.org/57.png",
+      "uit": "FK Kairat",
+      "uitLogo": "https://crests.football-data.org/10601.png",
+      "thuisScore": 3,
+      "uitScore": 2
     }
   ]
 }
