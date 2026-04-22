@@ -105,19 +105,6 @@
   },
   {
     "positie": 9,
-    "club": "Sparta",
-    "logo": "https://crests.football-data.org/6806.png",
-    "gespeeld": 31,
-    "punten": 43,
-    "gewonnen": 12,
-    "gelijk": 7,
-    "verloren": 12,
-    "doelsaldo": -14,
-    "voor": 36,
-    "tegen": 50
-  },
-  {
-    "positie": 10,
     "club": "Groningen",
     "logo": "https://crests.football-data.org/677.png",
     "gespeeld": 30,
@@ -128,6 +115,19 @@
     "doelsaldo": 5,
     "voor": 42,
     "tegen": 37
+  },
+  {
+    "positie": 10,
+    "club": "Sparta",
+    "logo": "https://crests.football-data.org/6806.png",
+    "gespeeld": 31,
+    "punten": 42,
+    "gewonnen": 12,
+    "gelijk": 6,
+    "verloren": 13,
+    "doelsaldo": -17,
+    "voor": 36,
+    "tegen": 53
   },
   {
     "positie": 11,
@@ -173,12 +173,12 @@
     "club": "Telstar 1963",
     "logo": "https://crests.football-data.org/1912.png",
     "gespeeld": 31,
-    "punten": 28,
-    "gewonnen": 6,
-    "gelijk": 10,
+    "punten": 30,
+    "gewonnen": 7,
+    "gelijk": 9,
     "verloren": 15,
-    "doelsaldo": -13,
-    "voor": 40,
+    "doelsaldo": -10,
+    "voor": 43,
     "tegen": 53
   },
   {
