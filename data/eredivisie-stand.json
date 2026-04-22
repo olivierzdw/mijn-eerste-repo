@@ -105,6 +105,19 @@
   },
   {
     "positie": 9,
+    "club": "Sparta",
+    "logo": "https://crests.football-data.org/6806.png",
+    "gespeeld": 31,
+    "punten": 43,
+    "gewonnen": 12,
+    "gelijk": 7,
+    "verloren": 12,
+    "doelsaldo": -14,
+    "voor": 36,
+    "tegen": 50
+  },
+  {
+    "positie": 10,
     "club": "Groningen",
     "logo": "https://crests.football-data.org/677.png",
     "gespeeld": 30,
@@ -115,19 +128,6 @@
     "doelsaldo": 5,
     "voor": 42,
     "tegen": 37
-  },
-  {
-    "positie": 10,
-    "club": "Sparta",
-    "logo": "https://crests.football-data.org/6806.png",
-    "gespeeld": 30,
-    "punten": 42,
-    "gewonnen": 12,
-    "gelijk": 6,
-    "verloren": 12,
-    "doelsaldo": -14,
-    "voor": 35,
-    "tegen": 49
   },
   {
     "positie": 11,
@@ -170,6 +170,19 @@
   },
   {
     "positie": 14,
+    "club": "Telstar 1963",
+    "logo": "https://crests.football-data.org/1912.png",
+    "gespeeld": 31,
+    "punten": 28,
+    "gewonnen": 6,
+    "gelijk": 10,
+    "verloren": 15,
+    "doelsaldo": -13,
+    "voor": 40,
+    "tegen": 53
+  },
+  {
+    "positie": 15,
     "club": "FC Volendam",
     "logo": "https://crests.football-data.org/1919.png",
     "gespeeld": 30,
@@ -182,7 +195,7 @@
     "tegen": 50
   },
   {
-    "positie": 15,
+    "positie": 16,
     "club": "SBV Excelsior",
     "logo": "https://crests.football-data.org/670.png",
     "gespeeld": 30,
@@ -193,19 +206,6 @@
     "doelsaldo": -20,
     "voor": 31,
     "tegen": 51
-  },
-  {
-    "positie": 16,
-    "club": "Telstar 1963",
-    "logo": "https://crests.football-data.org/1912.png",
-    "gespeeld": 30,
-    "punten": 27,
-    "gewonnen": 6,
-    "gelijk": 9,
-    "verloren": 15,
-    "doelsaldo": -13,
-    "voor": 39,
-    "tegen": 52
   },
   {
     "positie": 17,
