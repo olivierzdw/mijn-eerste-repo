@@ -7971,6 +7971,16 @@
       "uitLogo": "https://crests.football-data.org/87.png",
       "thuisScore": 3,
       "uitScore": 0
+    },
+    {
+      "id": 544539,
+      "datum": "do 23 april",
+      "thuis": "Rayo Vallecano de Madrid",
+      "thuisLogo": "https://crests.football-data.org/87.png",
+      "uit": "RCD Espanyol de Barcelona",
+      "uitLogo": "https://crests.football-data.org/80.png",
+      "thuisScore": 1,
+      "uitScore": 0
     }
   ],
   "94": [
@@ -8283,6 +8293,16 @@
       "uitLogo": "https://crests.football-data.org/94.png",
       "thuisScore": 1,
       "uitScore": 3
+    },
+    {
+      "id": 544535,
+      "datum": "do 23 april",
+      "thuis": "Real Oviedo",
+      "thuisLogo": "https://crests.football-data.org/1048.png",
+      "uit": "Villarreal CF",
+      "uitLogo": "https://crests.football-data.org/94.png",
+      "thuisScore": 1,
+      "uitScore": 1
     },
     {
       "id": 552012,
@@ -8675,6 +8695,16 @@
       "uitLogo": "https://crests.football-data.org/1048.png",
       "thuisScore": 0,
       "uitScore": 3
+    },
+    {
+      "id": 544535,
+      "datum": "do 23 april",
+      "thuis": "Real Oviedo",
+      "thuisLogo": "https://crests.football-data.org/1048.png",
+      "uit": "Villarreal CF",
+      "uitLogo": "https://crests.football-data.org/94.png",
+      "thuisScore": 1,
+      "uitScore": 1
     }
   ],
   "89": [
@@ -9438,7 +9468,7 @@
       "uit": "FC Barcelona",
       "uitLogo": "https://crests.football-data.org/81.png",
       "thuisScore": 1,
-      "uitScore": 3
+      "uitScore": 2
     }
   ],
   "263": [
@@ -10072,6 +10102,16 @@
       "uit": "Getafe CF",
       "uitLogo": "https://crests.football-data.org/82.png",
       "thuisScore": 1,
+      "uitScore": 0
+    },
+    {
+      "id": 544533,
+      "datum": "do 23 april",
+      "thuis": "Levante UD",
+      "thuisLogo": "https://crests.football-data.org/88.png",
+      "uit": "Sevilla FC",
+      "uitLogo": "https://crests.football-data.org/559.png",
+      "thuisScore": 2,
       "uitScore": 0
     }
   ],
@@ -12075,6 +12115,16 @@
       "uitLogo": "https://crests.football-data.org/78.png",
       "thuisScore": 2,
       "uitScore": 1
+    },
+    {
+      "id": 544533,
+      "datum": "do 23 april",
+      "thuis": "Levante UD",
+      "thuisLogo": "https://crests.football-data.org/88.png",
+      "uit": "Sevilla FC",
+      "uitLogo": "https://crests.football-data.org/559.png",
+      "thuisScore": 2,
+      "uitScore": 0
     }
   ],
   "80": [
@@ -12387,6 +12437,16 @@
       "uitLogo": "https://crests.football-data.org/80.png",
       "thuisScore": 4,
       "uitScore": 1
+    },
+    {
+      "id": 544539,
+      "datum": "do 23 april",
+      "thuis": "Rayo Vallecano de Madrid",
+      "thuisLogo": "https://crests.football-data.org/87.png",
+      "uit": "RCD Espanyol de Barcelona",
+      "uitLogo": "https://crests.football-data.org/80.png",
+      "thuisScore": 1,
+      "uitScore": 0
     }
   ],
   "78": [
@@ -12848,7 +12908,7 @@
       "uit": "FC Barcelona",
       "uitLogo": "https://crests.football-data.org/81.png",
       "thuisScore": 1,
-      "uitScore": 3
+      "uitScore": 2
     }
   ],
   "285": [
@@ -33493,6 +33553,16 @@
       "uitLogo": "https://crests.football-data.org/718.png",
       "thuisScore": 0,
       "uitScore": 0
+    },
+    {
+      "id": 537713,
+      "datum": "do 23 april",
+      "thuis": "Go Ahead Eagles",
+      "thuisLogo": "https://crests.football-data.org/718.png",
+      "uit": "AZ",
+      "uitLogo": "https://crests.football-data.org/682.png",
+      "thuisScore": 0,
+      "uitScore": 0
     }
   ],
   "1915": [
@@ -35609,6 +35679,16 @@
       "uitScore": 2
     },
     {
+      "id": 537716,
+      "datum": "do 23 april",
+      "thuis": "PSV",
+      "thuisLogo": "https://crests.football-data.org/674.png",
+      "uit": "PEC Zwolle",
+      "uitLogo": "https://crests.football-data.org/684.png",
+      "thuisScore": 6,
+      "uitScore": 1
+    },
+    {
       "id": 552049,
       "datum": "di 16 september",
       "thuis": "PSV",
@@ -36301,6 +36381,16 @@
       "uitLogo": "https://crests.football-data.org/670.png",
       "thuisScore": 2,
       "uitScore": 2
+    },
+    {
+      "id": 537716,
+      "datum": "do 23 april",
+      "thuis": "PSV",
+      "thuisLogo": "https://crests.football-data.org/674.png",
+      "uit": "PEC Zwolle",
+      "uitLogo": "https://crests.football-data.org/684.png",
+      "thuisScore": 6,
+      "uitScore": 1
     }
   ],
   "666": [
@@ -37599,6 +37689,16 @@
       "uitLogo": "https://crests.football-data.org/673.png",
       "thuisScore": 3,
       "uitScore": 0
+    },
+    {
+      "id": 537713,
+      "datum": "do 23 april",
+      "thuis": "Go Ahead Eagles",
+      "thuisLogo": "https://crests.football-data.org/718.png",
+      "uit": "AZ",
+      "uitLogo": "https://crests.football-data.org/682.png",
+      "thuisScore": 0,
+      "uitScore": 0
     }
   ],
   "677": [
@@ -38797,6 +38897,16 @@
       "uitLogo": "https://crests.football-data.org/5530.png",
       "thuisScore": 0,
       "uitScore": 0
+    },
+    {
+      "id": 545930,
+      "datum": "do 23 april",
+      "thuis": "Casa Pia AC",
+      "thuisLogo": "https://crests.football-data.org/6618.png",
+      "uit": "Sporting Clube de Braga",
+      "uitLogo": "https://crests.football-data.org/5613.png",
+      "thuisScore": 0,
+      "uitScore": 1
     }
   ],
   "498": [
@@ -41313,6 +41423,16 @@
       "uitLogo": "https://crests.football-data.org/5531.png",
       "thuisScore": 2,
       "uitScore": 2
+    },
+    {
+      "id": 545930,
+      "datum": "do 23 april",
+      "thuis": "Casa Pia AC",
+      "thuisLogo": "https://crests.football-data.org/6618.png",
+      "uit": "Sporting Clube de Braga",
+      "uitLogo": "https://crests.football-data.org/5613.png",
+      "thuisScore": 0,
+      "uitScore": 1
     }
   ],
   "1049": [
