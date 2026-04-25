@@ -378,5 +378,15 @@
     "uitLogo": "https://crests.football-data.org/678.png",
     "thuisScore": 0,
     "uitScore": 3
+  },
+  {
+    "id": 537715,
+    "datum": "za 25 april",
+    "thuis": "NAC Breda",
+    "thuisLogo": "images/nac-breda-v2.png",
+    "uit": "Ajax",
+    "uitLogo": "https://crests.football-data.org/678.png",
+    "thuisScore": 0,
+    "uitScore": 2
   }
 ]
