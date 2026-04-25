@@ -21,9 +21,9 @@
     "gewonnen": 17,
     "gelijk": 7,
     "verloren": 7,
-    "doelsaldo": 24,
+    "doelsaldo": 23,
     "voor": 65,
-    "tegen": 41
+    "tegen": 42
   },
   {
     "positie": 3,
@@ -55,10 +55,10 @@
     "positie": 5,
     "club": "Ajax",
     "logo": "https://crests.football-data.org/678.png",
-    "gespeeld": 30,
-    "punten": 51,
+    "gespeeld": 31,
+    "punten": 52,
     "gewonnen": 13,
-    "gelijk": 12,
+    "gelijk": 13,
     "verloren": 5,
     "doelsaldo": 20,
     "voor": 57,
@@ -79,6 +79,19 @@
   },
   {
     "positie": 7,
+    "club": "Heerenveen",
+    "logo": "https://crests.football-data.org/673.png",
+    "gespeeld": 31,
+    "punten": 45,
+    "gewonnen": 12,
+    "gelijk": 9,
+    "verloren": 10,
+    "doelsaldo": 3,
+    "voor": 54,
+    "tegen": 51
+  },
+  {
+    "positie": 8,
     "club": "FC Utrecht",
     "logo": "https://crests.football-data.org/676.png",
     "gespeeld": 30,
@@ -91,19 +104,6 @@
     "tegen": 36
   },
   {
-    "positie": 8,
-    "club": "Heerenveen",
-    "logo": "https://crests.football-data.org/673.png",
-    "gespeeld": 30,
-    "punten": 44,
-    "gewonnen": 12,
-    "gelijk": 8,
-    "verloren": 10,
-    "doelsaldo": 3,
-    "voor": 53,
-    "tegen": 50
-  },
-  {
     "positie": 9,
     "club": "Groningen",
     "logo": "https://crests.football-data.org/677.png",
@@ -112,8 +112,8 @@
     "gewonnen": 12,
     "gelijk": 6,
     "verloren": 13,
-    "doelsaldo": 2,
-    "voor": 42,
+    "doelsaldo": 3,
+    "voor": 43,
     "tegen": 40
   },
   {
@@ -146,14 +146,14 @@
     "positie": 12,
     "club": "Fortuna Sittard",
     "logo": "https://crests.football-data.org/1920.png",
-    "gespeeld": 30,
-    "punten": 36,
+    "gespeeld": 31,
+    "punten": 37,
     "gewonnen": 10,
-    "gelijk": 6,
+    "gelijk": 7,
     "verloren": 14,
     "doelsaldo": -11,
-    "voor": 44,
-    "tegen": 55
+    "voor": 45,
+    "tegen": 56
   },
   {
     "positie": 13,
@@ -211,10 +211,10 @@
     "positie": 17,
     "club": "NAC Breda",
     "logo": "images/nac-breda-v2.png",
-    "gespeeld": 30,
-    "punten": 25,
+    "gespeeld": 31,
+    "punten": 26,
     "gewonnen": 5,
-    "gelijk": 10,
+    "gelijk": 11,
     "verloren": 15,
     "doelsaldo": -21,
     "voor": 30,
