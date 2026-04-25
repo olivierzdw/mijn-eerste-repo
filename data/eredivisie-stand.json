@@ -16,13 +16,13 @@
     "positie": 2,
     "club": "Feyenoord Rotterdam",
     "logo": "https://crests.football-data.org/675.png",
-    "gespeeld": 30,
-    "punten": 55,
-    "gewonnen": 16,
+    "gespeeld": 31,
+    "punten": 58,
+    "gewonnen": 17,
     "gelijk": 7,
     "verloren": 7,
-    "doelsaldo": 21,
-    "voor": 62,
+    "doelsaldo": 24,
+    "voor": 65,
     "tegen": 41
   },
   {
@@ -107,14 +107,14 @@
     "positie": 9,
     "club": "Groningen",
     "logo": "https://crests.football-data.org/677.png",
-    "gespeeld": 30,
+    "gespeeld": 31,
     "punten": 42,
     "gewonnen": 12,
     "gelijk": 6,
-    "verloren": 12,
-    "doelsaldo": 5,
+    "verloren": 13,
+    "doelsaldo": 2,
     "voor": 42,
-    "tegen": 37
+    "tegen": 40
   },
   {
     "positie": 10,
