@@ -99,9 +99,9 @@
     "gewonnen": 12,
     "gelijk": 8,
     "verloren": 11,
-    "doelsaldo": 10,
+    "doelsaldo": 8,
     "voor": 49,
-    "tegen": 39
+    "tegen": 41
   },
   {
     "positie": 9,
@@ -177,12 +177,25 @@
     "gewonnen": 8,
     "gelijk": 7,
     "verloren": 16,
-    "doelsaldo": -17,
-    "voor": 34,
+    "doelsaldo": -15,
+    "voor": 36,
     "tegen": 51
   },
   {
     "positie": 15,
+    "club": "FC Volendam",
+    "logo": "https://crests.football-data.org/1919.png",
+    "gespeeld": 31,
+    "punten": 31,
+    "gewonnen": 8,
+    "gelijk": 7,
+    "verloren": 16,
+    "doelsaldo": -17,
+    "voor": 33,
+    "tegen": 50
+  },
+  {
+    "positie": 16,
     "club": "Telstar 1963",
     "logo": "https://crests.football-data.org/1912.png",
     "gespeeld": 31,
@@ -193,19 +206,6 @@
     "doelsaldo": -10,
     "voor": 43,
     "tegen": 53
-  },
-  {
-    "positie": 16,
-    "club": "FC Volendam",
-    "logo": "https://crests.football-data.org/1919.png",
-    "gespeeld": 30,
-    "punten": 28,
-    "gewonnen": 7,
-    "gelijk": 7,
-    "verloren": 16,
-    "doelsaldo": -19,
-    "voor": 31,
-    "tegen": 50
   },
   {
     "positie": 17,
@@ -224,13 +224,13 @@
     "positie": 18,
     "club": "Heracles",
     "logo": "https://crests.football-data.org/671.png",
-    "gespeeld": 30,
+    "gespeeld": 31,
     "punten": 19,
     "gewonnen": 5,
     "gelijk": 4,
-    "verloren": 21,
-    "doelsaldo": -43,
+    "verloren": 22,
+    "doelsaldo": -45,
     "voor": 34,
-    "tegen": 77
+    "tegen": 79
   }
 ]
