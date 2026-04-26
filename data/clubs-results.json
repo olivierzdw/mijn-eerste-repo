@@ -331,6 +331,16 @@
       "uitScore": 2
     },
     {
+      "id": 538121,
+      "datum": "za 25 april",
+      "thuis": "Liverpool FC",
+      "thuisLogo": "https://crests.football-data.org/64.png",
+      "uit": "Crystal Palace FC",
+      "uitLogo": "https://crests.football-data.org/354.png",
+      "thuisScore": 3,
+      "uitScore": 1
+    },
+    {
       "id": 551946,
       "datum": "wo 17 september",
       "thuis": "Liverpool FC",
@@ -1123,6 +1133,16 @@
       "uitLogo": "https://crests.football-data.org/71.png",
       "thuisScore": 4,
       "uitScore": 3
+    },
+    {
+      "id": 538120,
+      "datum": "za 25 april",
+      "thuis": "Fulham FC",
+      "thuisLogo": "https://crests.football-data.org/63.png",
+      "uit": "Aston Villa FC",
+      "uitLogo": "https://crests.football-data.org/58.png",
+      "thuisScore": 1,
+      "uitScore": 0
     }
   ],
   "67": [
@@ -1455,6 +1475,16 @@
       "uitLogo": "https://crests.football-data.org/bournemouth.png",
       "thuisScore": 1,
       "uitScore": 2
+    },
+    {
+      "id": 538118,
+      "datum": "za 25 april",
+      "thuis": "Arsenal FC",
+      "thuisLogo": "https://crests.football-data.org/57.png",
+      "uit": "Newcastle United FC",
+      "uitLogo": "https://crests.football-data.org/67.png",
+      "thuisScore": 1,
+      "uitScore": 0
     },
     {
       "id": 551958,
@@ -2249,6 +2279,16 @@
       "uitLogo": "https://crests.football-data.org/63.png",
       "thuisScore": 0,
       "uitScore": 0
+    },
+    {
+      "id": 538120,
+      "datum": "za 25 april",
+      "thuis": "Fulham FC",
+      "thuisLogo": "https://crests.football-data.org/63.png",
+      "uit": "Aston Villa FC",
+      "uitLogo": "https://crests.football-data.org/58.png",
+      "thuisScore": 1,
+      "uitScore": 0
     }
   ],
   "71": [
@@ -2923,6 +2963,16 @@
       "uitLogo": "https://crests.football-data.org/563.png",
       "thuisScore": 0,
       "uitScore": 0
+    },
+    {
+      "id": 538123,
+      "datum": "za 25 april",
+      "thuis": "West Ham United FC",
+      "thuisLogo": "https://crests.football-data.org/563.png",
+      "uit": "Everton FC",
+      "uitLogo": "https://crests.football-data.org/62.png",
+      "thuisScore": 2,
+      "uitScore": 1
     }
   ],
   "73": [
@@ -3255,6 +3305,16 @@
       "uitLogo": "https://crests.football-data.org/397.png",
       "thuisScore": 2,
       "uitScore": 2
+    },
+    {
+      "id": 538124,
+      "datum": "za 25 april",
+      "thuis": "Wolverhampton Wanderers FC",
+      "thuisLogo": "https://crests.football-data.org/76.png",
+      "uit": "Tottenham Hotspur FC",
+      "uitLogo": "https://crests.football-data.org/73.png",
+      "thuisScore": 0,
+      "uitScore": 1
     },
     {
       "id": 552012,
@@ -4029,6 +4089,16 @@
       "uitLogo": "https://crests.football-data.org/76.png",
       "thuisScore": 3,
       "uitScore": 0
+    },
+    {
+      "id": 538124,
+      "datum": "za 25 april",
+      "thuis": "Wolverhampton Wanderers FC",
+      "thuisLogo": "https://crests.football-data.org/76.png",
+      "uit": "Tottenham Hotspur FC",
+      "uitLogo": "https://crests.football-data.org/73.png",
+      "thuisScore": 0,
+      "uitScore": 1
     }
   ],
   "65": [
@@ -5899,6 +5969,16 @@
       "uitLogo": "https://crests.football-data.org/563.png",
       "thuisScore": 0,
       "uitScore": 0
+    },
+    {
+      "id": 538121,
+      "datum": "za 25 april",
+      "thuis": "Liverpool FC",
+      "thuisLogo": "https://crests.football-data.org/64.png",
+      "uit": "Crystal Palace FC",
+      "uitLogo": "https://crests.football-data.org/354.png",
+      "thuisScore": 3,
+      "uitScore": 1
     }
   ],
   "66": [
@@ -6563,6 +6643,16 @@
       "uitLogo": "https://crests.football-data.org/57.png",
       "thuisScore": 2,
       "uitScore": 1
+    },
+    {
+      "id": 538118,
+      "datum": "za 25 april",
+      "thuis": "Arsenal FC",
+      "thuisLogo": "https://crests.football-data.org/57.png",
+      "uit": "Newcastle United FC",
+      "uitLogo": "https://crests.football-data.org/67.png",
+      "thuisScore": 1,
+      "uitScore": 0
     },
     {
       "id": 551981,
@@ -7357,6 +7447,16 @@
       "uitLogo": "https://crests.football-data.org/64.png",
       "thuisScore": 1,
       "uitScore": 2
+    },
+    {
+      "id": 538123,
+      "datum": "za 25 april",
+      "thuis": "West Ham United FC",
+      "thuisLogo": "https://crests.football-data.org/563.png",
+      "uit": "Everton FC",
+      "uitLogo": "https://crests.football-data.org/62.png",
+      "thuisScore": 2,
+      "uitScore": 1
     }
   ],
   "298": [
@@ -7679,6 +7779,16 @@
       "uitLogo": "https://crests.football-data.org/90.png",
       "thuisScore": 2,
       "uitScore": 3
+    },
+    {
+      "id": 544530,
+      "datum": "za 25 april",
+      "thuis": "Valencia CF",
+      "thuisLogo": "https://crests.football-data.org/95.png",
+      "uit": "Girona FC",
+      "uitLogo": "https://crests.football-data.org/298.png",
+      "thuisScore": 2,
+      "uitScore": 1
     }
   ],
   "87": [
@@ -9047,6 +9157,16 @@
       "uitLogo": "https://crests.football-data.org/95.png",
       "thuisScore": 1,
       "uitScore": 1
+    },
+    {
+      "id": 544521,
+      "datum": "za 25 april",
+      "thuis": "Deportivo Alavés",
+      "thuisLogo": "https://crests.football-data.org/263.png",
+      "uit": "RCD Mallorca",
+      "uitLogo": "https://crests.football-data.org/89.png",
+      "thuisScore": 2,
+      "uitScore": 1
     }
   ],
   "81": [
@@ -9369,6 +9489,16 @@
       "uitLogo": "https://crests.football-data.org/558.png",
       "thuisScore": 1,
       "uitScore": 0
+    },
+    {
+      "id": 544527,
+      "datum": "za 25 april",
+      "thuis": "Getafe CF",
+      "thuisLogo": "https://crests.football-data.org/82.png",
+      "uit": "FC Barcelona",
+      "uitLogo": "https://crests.football-data.org/81.png",
+      "thuisScore": 0,
+      "uitScore": 2
     },
     {
       "id": 551958,
@@ -9809,6 +9939,16 @@
       "thuisLogo": "https://crests.football-data.org/86.png",
       "uit": "Deportivo Alavés",
       "uitLogo": "https://crests.football-data.org/263.png",
+      "thuisScore": 2,
+      "uitScore": 1
+    },
+    {
+      "id": 544521,
+      "datum": "za 25 april",
+      "thuis": "Deportivo Alavés",
+      "thuisLogo": "https://crests.football-data.org/263.png",
+      "uit": "RCD Mallorca",
+      "uitLogo": "https://crests.football-data.org/89.png",
       "thuisScore": 2,
       "uitScore": 1
     }
@@ -10454,6 +10594,16 @@
       "uit": "Valencia CF",
       "uitLogo": "https://crests.football-data.org/95.png",
       "thuisScore": 1,
+      "uitScore": 1
+    },
+    {
+      "id": 544530,
+      "datum": "za 25 april",
+      "thuis": "Valencia CF",
+      "thuisLogo": "https://crests.football-data.org/95.png",
+      "uit": "Girona FC",
+      "uitLogo": "https://crests.football-data.org/298.png",
+      "thuisScore": 2,
       "uitScore": 1
     }
   ],
@@ -11421,6 +11571,16 @@
       "uitLogo": "https://crests.football-data.org/82.png",
       "thuisScore": 0,
       "uitScore": 1
+    },
+    {
+      "id": 544527,
+      "datum": "za 25 april",
+      "thuis": "Getafe CF",
+      "thuisLogo": "https://crests.football-data.org/82.png",
+      "uit": "FC Barcelona",
+      "uitLogo": "https://crests.football-data.org/81.png",
+      "thuisScore": 0,
+      "uitScore": 2
     }
   ],
   "77": [
@@ -11743,6 +11903,16 @@
       "uitLogo": "https://crests.football-data.org/79.png",
       "thuisScore": 1,
       "uitScore": 0
+    },
+    {
+      "id": 544526,
+      "datum": "za 25 april",
+      "thuis": "Club Atlético de Madrid",
+      "thuisLogo": "https://crests.football-data.org/78.png",
+      "uit": "Athletic Club",
+      "uitLogo": "https://crests.football-data.org/77.png",
+      "thuisScore": 3,
+      "uitScore": 2
     },
     {
       "id": 551981,
@@ -12787,6 +12957,16 @@
       "thuisLogo": "https://crests.football-data.org/285.png",
       "uit": "Club Atlético de Madrid",
       "uitLogo": "https://crests.football-data.org/78.png",
+      "thuisScore": 3,
+      "uitScore": 2
+    },
+    {
+      "id": 544526,
+      "datum": "za 25 april",
+      "thuis": "Club Atlético de Madrid",
+      "thuisLogo": "https://crests.football-data.org/78.png",
+      "uit": "Athletic Club",
+      "uitLogo": "https://crests.football-data.org/77.png",
       "thuisScore": 3,
       "uitScore": 2
     },
@@ -14681,6 +14861,16 @@
       "uitScore": 2
     },
     {
+      "id": 540676,
+      "datum": "za 25 april",
+      "thuis": "1. FSV Mainz 05",
+      "thuisLogo": "https://crests.football-data.org/15.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png",
+      "thuisScore": 3,
+      "uitScore": 4
+    },
+    {
       "id": 551908,
       "datum": "wo 17 september",
       "thuis": "FC Bayern München",
@@ -15415,6 +15605,16 @@
       "uitScore": 3
     },
     {
+      "id": 540678,
+      "datum": "za 25 april",
+      "thuis": "FC Augsburg",
+      "thuisLogo": "https://crests.football-data.org/16.png",
+      "uit": "Eintracht Frankfurt",
+      "uitLogo": "https://crests.football-data.org/19.png",
+      "thuisScore": 1,
+      "uitScore": 1
+    },
+    {
       "id": 552000,
       "datum": "do 18 september",
       "thuis": "Eintracht Frankfurt",
@@ -16099,6 +16299,16 @@
       "uitScore": 2
     },
     {
+      "id": 540677,
+      "datum": "za 25 april",
+      "thuis": "1. FC Köln",
+      "thuisLogo": "https://crests.football-data.org/1.png",
+      "uit": "Bayer 04 Leverkusen",
+      "uitLogo": "https://crests.football-data.org/3.png",
+      "thuisScore": 1,
+      "uitScore": 2
+    },
+    {
       "id": 551975,
       "datum": "do 18 september",
       "thuis": "FC København",
@@ -16519,6 +16729,16 @@
       "uitLogo": "https://crests.football-data.org/4.png",
       "thuisScore": 2,
       "uitScore": 1
+    },
+    {
+      "id": 540684,
+      "datum": "za 25 april",
+      "thuis": "Hamburger SV",
+      "thuisLogo": "https://crests.football-data.org/7.png",
+      "uit": "TSG 1899 Hoffenheim",
+      "uitLogo": "https://crests.football-data.org/2.png",
+      "thuisScore": 1,
+      "uitScore": 2
     }
   ],
   "17": [
@@ -17123,6 +17343,16 @@
       "uitLogo": "https://crests.football-data.org/16.png",
       "thuisScore": 1,
       "uitScore": 2
+    },
+    {
+      "id": 540678,
+      "datum": "za 25 april",
+      "thuis": "FC Augsburg",
+      "thuisLogo": "https://crests.football-data.org/16.png",
+      "uit": "Eintracht Frankfurt",
+      "uitLogo": "https://crests.football-data.org/19.png",
+      "thuisScore": 1,
+      "uitScore": 1
     }
   ],
   "28": [
@@ -18039,6 +18269,16 @@
       "uitLogo": "https://crests.football-data.org/44.png",
       "thuisScore": 2,
       "uitScore": 1
+    },
+    {
+      "id": 540683,
+      "datum": "za 25 april",
+      "thuis": "1. FC Heidenheim 1846",
+      "thuisLogo": "https://crests.football-data.org/44.png",
+      "uit": "FC St. Pauli 1910",
+      "uitLogo": "https://crests.football-data.org/20.png",
+      "thuisScore": 2,
+      "uitScore": 0
     }
   ],
   "11": [
@@ -18341,6 +18581,16 @@
       "uitLogo": "https://crests.football-data.org/11.png",
       "thuisScore": 1,
       "uitScore": 2
+    },
+    {
+      "id": 540681,
+      "datum": "za 25 april",
+      "thuis": "VfL Wolfsburg",
+      "thuisLogo": "https://crests.football-data.org/11.png",
+      "uit": "Borussia Mönchengladbach",
+      "uitLogo": "https://crests.football-data.org/18.png",
+      "thuisScore": 0,
+      "uitScore": 0
     }
   ],
   "20": [
@@ -18643,6 +18893,16 @@
       "uitLogo": "https://crests.football-data.org/1.png",
       "thuisScore": 1,
       "uitScore": 1
+    },
+    {
+      "id": 540683,
+      "datum": "za 25 april",
+      "thuis": "1. FC Heidenheim 1846",
+      "thuisLogo": "https://crests.football-data.org/44.png",
+      "uit": "FC St. Pauli 1910",
+      "uitLogo": "https://crests.football-data.org/20.png",
+      "thuisScore": 2,
+      "uitScore": 0
     }
   ],
   "4": [
@@ -19347,6 +19607,16 @@
       "uitLogo": "https://crests.football-data.org/15.png",
       "thuisScore": 1,
       "uitScore": 1
+    },
+    {
+      "id": 540676,
+      "datum": "za 25 april",
+      "thuis": "1. FSV Mainz 05",
+      "thuisLogo": "https://crests.football-data.org/15.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png",
+      "thuisScore": 3,
+      "uitScore": 4
     }
   ],
   "1": [
@@ -19649,6 +19919,16 @@
       "uitLogo": "https://crests.football-data.org/1.png",
       "thuisScore": 1,
       "uitScore": 1
+    },
+    {
+      "id": 540677,
+      "datum": "za 25 april",
+      "thuis": "1. FC Köln",
+      "thuisLogo": "https://crests.football-data.org/1.png",
+      "uit": "Bayer 04 Leverkusen",
+      "uitLogo": "https://crests.football-data.org/3.png",
+      "thuisScore": 1,
+      "uitScore": 2
     }
   ],
   "18": [
@@ -19951,6 +20231,16 @@
       "uitLogo": "https://crests.football-data.org/15.png",
       "thuisScore": 1,
       "uitScore": 1
+    },
+    {
+      "id": 540681,
+      "datum": "za 25 april",
+      "thuis": "VfL Wolfsburg",
+      "thuisLogo": "https://crests.football-data.org/11.png",
+      "uit": "Borussia Mönchengladbach",
+      "uitLogo": "https://crests.football-data.org/18.png",
+      "thuisScore": 0,
+      "uitScore": 0
     }
   ],
   "7": [
@@ -20253,6 +20543,16 @@
       "uitLogo": "https://crests.football-data.org/7.png",
       "thuisScore": 3,
       "uitScore": 1
+    },
+    {
+      "id": 540684,
+      "datum": "za 25 april",
+      "thuis": "Hamburger SV",
+      "thuisLogo": "https://crests.football-data.org/7.png",
+      "uit": "TSG 1899 Hoffenheim",
+      "uitLogo": "https://crests.football-data.org/2.png",
+      "thuisScore": 1,
+      "uitScore": 2
     }
   ],
   "107": [
@@ -20917,6 +21217,16 @@
       "uitLogo": "https://crests.football-data.org/99.png",
       "thuisScore": 1,
       "uitScore": 1
+    },
+    {
+      "id": 537151,
+      "datum": "za 25 april",
+      "thuis": "Hellas Verona FC",
+      "thuisLogo": "https://crests.football-data.org/450.png",
+      "uit": "US Lecce",
+      "uitLogo": "https://crests.football-data.org/5890.png",
+      "thuisScore": 1,
+      "uitScore": 0
     }
   ],
   "471": [
@@ -22677,6 +22987,16 @@
       "uitLogo": "https://crests.football-data.org/102.png",
       "thuisScore": 1,
       "uitScore": 1
+    },
+    {
+      "id": 537149,
+      "datum": "za 25 april",
+      "thuis": "Bologna FC 1909",
+      "thuisLogo": "https://crests.football-data.org/103.png",
+      "uit": "AS Roma",
+      "uitLogo": "https://crests.football-data.org/100.png",
+      "thuisScore": 0,
+      "uitScore": 2
     }
   ],
   "103": [
@@ -23009,6 +23329,16 @@
       "uitLogo": "https://crests.football-data.org/103.png",
       "thuisScore": 2,
       "uitScore": 0
+    },
+    {
+      "id": 537149,
+      "datum": "za 25 april",
+      "thuis": "Bologna FC 1909",
+      "thuisLogo": "https://crests.football-data.org/103.png",
+      "uit": "AS Roma",
+      "uitLogo": "https://crests.football-data.org/100.png",
+      "thuisScore": 0,
+      "uitScore": 2
     }
   ],
   "104": [
@@ -25121,6 +25451,16 @@
       "uitLogo": "https://crests.football-data.org/107.png",
       "thuisScore": 1,
       "uitScore": 2
+    },
+    {
+      "id": 537153,
+      "datum": "za 25 april",
+      "thuis": "Parma Calcio 1913",
+      "thuisLogo": "https://crests.football-data.org/112.png",
+      "uit": "AC Pisa 1909",
+      "uitLogo": "https://crests.football-data.org/487.png",
+      "thuisScore": 1,
+      "uitScore": 0
     }
   ],
   "109": [
@@ -25885,6 +26225,16 @@
       "uitLogo": "https://crests.football-data.org/112.png",
       "thuisScore": 0,
       "uitScore": 1
+    },
+    {
+      "id": 537153,
+      "datum": "za 25 april",
+      "thuis": "Parma Calcio 1913",
+      "thuisLogo": "https://crests.football-data.org/112.png",
+      "uit": "AC Pisa 1909",
+      "uitLogo": "https://crests.football-data.org/487.png",
+      "thuisScore": 1,
+      "uitScore": 0
     }
   ],
   "115": [
@@ -26549,6 +26899,16 @@
       "uitLogo": "https://crests.football-data.org/98.png",
       "thuisScore": 0,
       "uitScore": 1
+    },
+    {
+      "id": 537151,
+      "datum": "za 25 april",
+      "thuis": "Hellas Verona FC",
+      "thuisLogo": "https://crests.football-data.org/450.png",
+      "uit": "US Lecce",
+      "uitLogo": "https://crests.football-data.org/5890.png",
+      "thuisScore": 1,
+      "uitScore": 0
     }
   ],
   "108": [
@@ -28601,6 +28961,16 @@
       "uitLogo": "https://crests.football-data.org/523.png",
       "thuisScore": 1,
       "uitScore": 2
+    },
+    {
+      "id": 542680,
+      "datum": "za 25 april",
+      "thuis": "Olympique Lyonnais",
+      "thuisLogo": "https://crests.football-data.org/523.png",
+      "uit": "AJ Auxerre",
+      "uitLogo": "https://crests.football-data.org/519.png",
+      "thuisScore": 3,
+      "uitScore": 2
     }
   ],
   "548": [
@@ -28901,6 +29271,16 @@
       "thuisLogo": "https://crests.football-data.org/548.png",
       "uit": "AJ Auxerre",
       "uitLogo": "https://crests.football-data.org/519.png",
+      "thuisScore": 2,
+      "uitScore": 2
+    },
+    {
+      "id": 542679,
+      "datum": "za 25 april",
+      "thuis": "Toulouse FC",
+      "thuisLogo": "https://crests.football-data.org/511.png",
+      "uit": "AS Monaco FC",
+      "uitLogo": "https://crests.football-data.org/548.png",
       "thuisScore": 2,
       "uitScore": 2
     },
@@ -29909,6 +30289,16 @@
       "uitLogo": "https://crests.football-data.org/511.png",
       "thuisScore": 3,
       "uitScore": 2
+    },
+    {
+      "id": 542679,
+      "datum": "za 25 april",
+      "thuis": "Toulouse FC",
+      "thuisLogo": "https://crests.football-data.org/511.png",
+      "uit": "AS Monaco FC",
+      "uitLogo": "https://crests.football-data.org/548.png",
+      "thuisScore": 2,
+      "uitScore": 2
     }
   ],
   "512": [
@@ -30814,6 +31204,16 @@
       "uit": "AJ Auxerre",
       "uitLogo": "https://crests.football-data.org/519.png",
       "thuisScore": 2,
+      "uitScore": 2
+    },
+    {
+      "id": 542680,
+      "datum": "za 25 april",
+      "thuis": "Olympique Lyonnais",
+      "thuisLogo": "https://crests.football-data.org/523.png",
+      "uit": "AJ Auxerre",
+      "uitLogo": "https://crests.football-data.org/519.png",
+      "thuisScore": 3,
       "uitScore": 2
     }
   ],
@@ -32013,6 +32413,16 @@
       "uitLogo": "https://crests.football-data.org/533.png",
       "thuisScore": 1,
       "uitScore": 1
+    },
+    {
+      "id": 542682,
+      "datum": "za 25 april",
+      "thuis": "Angers SCO",
+      "thuisLogo": "https://crests.football-data.org/532.png",
+      "uit": "Paris Saint-Germain FC",
+      "uitLogo": "https://crests.football-data.org/524.png",
+      "thuisScore": 0,
+      "uitScore": 3
     }
   ],
   "1045": [
@@ -32911,6 +33321,16 @@
       "uitScore": 0
     },
     {
+      "id": 542682,
+      "datum": "za 25 april",
+      "thuis": "Angers SCO",
+      "thuisLogo": "https://crests.football-data.org/532.png",
+      "uit": "Paris Saint-Germain FC",
+      "uitLogo": "https://crests.football-data.org/524.png",
+      "thuisScore": 0,
+      "uitScore": 3
+    },
+    {
       "id": 551959,
       "datum": "wo 17 september",
       "thuis": "Paris Saint-Germain FC",
@@ -33350,6 +33770,16 @@
       "uit": "NAC Breda",
       "uitLogo": "images/nac-breda-v2.png",
       "thuisScore": 1,
+      "uitScore": 1
+    },
+    {
+      "id": 537717,
+      "datum": "za 25 april",
+      "thuis": "SC Heerenveen",
+      "thuisLogo": "https://crests.football-data.org/673.png",
+      "uit": "Fortuna Sittard",
+      "uitLogo": "https://crests.football-data.org/1920.png",
+      "thuisScore": 2,
       "uitScore": 1
     }
   ],
@@ -33965,6 +34395,16 @@
       "uitLogo": "https://crests.football-data.org/675.png",
       "thuisScore": 1,
       "uitScore": 1
+    },
+    {
+      "id": 537719,
+      "datum": "za 25 april",
+      "thuis": "FC Twente '65",
+      "thuisLogo": "https://crests.football-data.org/666.png",
+      "uit": "NEC",
+      "uitLogo": "https://crests.football-data.org/1915.png",
+      "thuisScore": 1,
+      "uitScore": 1
     }
   ],
   "670": [
@@ -34569,6 +35009,16 @@
       "uitLogo": "https://crests.football-data.org/675.png",
       "thuisScore": 1,
       "uitScore": 1
+    },
+    {
+      "id": 537712,
+      "datum": "za 25 april",
+      "thuis": "Feyenoord Rotterdam",
+      "thuisLogo": "https://crests.football-data.org/675.png",
+      "uit": "FC Groningen",
+      "uitLogo": "https://crests.football-data.org/677.png",
+      "thuisScore": 3,
+      "uitScore": 1
     }
   ],
   "681": [
@@ -34871,6 +35321,16 @@
       "uitLogo": "images/nac-breda-v2.png",
       "thuisScore": 1,
       "uitScore": 1
+    },
+    {
+      "id": 537715,
+      "datum": "za 25 april",
+      "thuis": "NAC Breda",
+      "thuisLogo": "images/nac-breda-v2.png",
+      "uit": "AFC Ajax",
+      "uitLogo": "https://crests.football-data.org/678.png",
+      "thuisScore": 0,
+      "uitScore": 2
     }
   ],
   "673": [
@@ -35173,6 +35633,16 @@
       "uitLogo": "https://crests.football-data.org/673.png",
       "thuisScore": 3,
       "uitScore": 0
+    },
+    {
+      "id": 537717,
+      "datum": "za 25 april",
+      "thuis": "SC Heerenveen",
+      "thuisLogo": "https://crests.football-data.org/673.png",
+      "uit": "Fortuna Sittard",
+      "uitLogo": "https://crests.football-data.org/1920.png",
+      "thuisScore": 2,
+      "uitScore": 1
     }
   ],
   "1919": [
@@ -36793,6 +37263,16 @@
       "uitLogo": "https://crests.football-data.org/1919.png",
       "thuisScore": 2,
       "uitScore": 1
+    },
+    {
+      "id": 537719,
+      "datum": "za 25 april",
+      "thuis": "FC Twente '65",
+      "thuisLogo": "https://crests.football-data.org/666.png",
+      "uit": "NEC",
+      "uitLogo": "https://crests.football-data.org/1915.png",
+      "thuisScore": 1,
+      "uitScore": 1
     }
   ],
   "678": [
@@ -37095,6 +37575,16 @@
       "uitLogo": "https://crests.football-data.org/678.png",
       "thuisScore": 0,
       "uitScore": 3
+    },
+    {
+      "id": 537715,
+      "datum": "za 25 april",
+      "thuis": "NAC Breda",
+      "thuisLogo": "images/nac-breda-v2.png",
+      "uit": "AFC Ajax",
+      "uitLogo": "https://crests.football-data.org/678.png",
+      "thuisScore": 0,
+      "uitScore": 2
     },
     {
       "id": 551936,
@@ -38101,6 +38591,16 @@
       "uitLogo": "https://crests.football-data.org/718.png",
       "thuisScore": 0,
       "uitScore": 0
+    },
+    {
+      "id": 537712,
+      "datum": "za 25 april",
+      "thuis": "Feyenoord Rotterdam",
+      "thuisLogo": "https://crests.football-data.org/675.png",
+      "uit": "FC Groningen",
+      "uitLogo": "https://crests.football-data.org/677.png",
+      "thuisScore": 3,
+      "uitScore": 1
     }
   ],
   "676": [
@@ -39721,6 +40221,16 @@
       "uitLogo": "https://crests.football-data.org/7822.png",
       "thuisScore": 1,
       "uitScore": 0
+    },
+    {
+      "id": 545971,
+      "datum": "za 25 april",
+      "thuis": "CD Tondela",
+      "thuisLogo": "https://crests.football-data.org/1049.png",
+      "uit": "CD Nacional",
+      "uitLogo": "https://crests.football-data.org/5529.png",
+      "thuisScore": 0,
+      "uitScore": 2
     }
   ],
   "5533": [
@@ -41835,6 +42345,16 @@
       "uitLogo": "https://crests.football-data.org/1049.png",
       "thuisScore": 2,
       "uitScore": 0
+    },
+    {
+      "id": 545971,
+      "datum": "za 25 april",
+      "thuis": "CD Tondela",
+      "thuisLogo": "https://crests.football-data.org/1049.png",
+      "uit": "CD Nacional",
+      "uitLogo": "https://crests.football-data.org/5529.png",
+      "thuisScore": 0,
+      "uitScore": 2
     }
   ],
   "583": [
@@ -42137,6 +42657,16 @@
       "uitLogo": "https://crests.football-data.org/582.png",
       "thuisScore": 1,
       "uitScore": 0
+    },
+    {
+      "id": 545977,
+      "datum": "za 25 april",
+      "thuis": "Sport Lisboa e Benfica",
+      "thuisLogo": "https://crests.football-data.org/1903.png",
+      "uit": "Moreirense FC",
+      "uitLogo": "https://crests.football-data.org/583.png",
+      "thuisScore": 4,
+      "uitScore": 1
     }
   ],
   "7822": [
@@ -43657,6 +44187,16 @@
       "uitLogo": "https://crests.football-data.org/5543.png",
       "thuisScore": 0,
       "uitScore": 1
+    },
+    {
+      "id": 545978,
+      "datum": "za 25 april",
+      "thuis": "Vitória SC",
+      "thuisLogo": "https://crests.football-data.org/5543.png",
+      "uit": "Rio Ave FC",
+      "uitLogo": "https://crests.football-data.org/496.png",
+      "thuisScore": 2,
+      "uitScore": 0
     }
   ],
   "1903": [
@@ -43959,6 +44499,16 @@
       "uitLogo": "https://crests.football-data.org/1903.png",
       "thuisScore": 1,
       "uitScore": 2
+    },
+    {
+      "id": 545977,
+      "datum": "za 25 april",
+      "thuis": "Sport Lisboa e Benfica",
+      "thuisLogo": "https://crests.football-data.org/1903.png",
+      "uit": "Moreirense FC",
+      "uitLogo": "https://crests.football-data.org/583.png",
+      "thuisScore": 4,
+      "uitScore": 1
     },
     {
       "id": 551991,
@@ -44361,6 +44911,16 @@
       "uitLogo": "https://crests.football-data.org/10340.png",
       "thuisScore": 2,
       "uitScore": 2
+    },
+    {
+      "id": 545978,
+      "datum": "za 25 april",
+      "thuis": "Vitória SC",
+      "thuisLogo": "https://crests.football-data.org/5543.png",
+      "uit": "Rio Ave FC",
+      "uitLogo": "https://crests.football-data.org/496.png",
+      "thuisScore": 2,
+      "uitScore": 0
     }
   ],
   "1766": [
@@ -44971,6 +45531,16 @@
       "uitLogo": "https://crests.football-data.org/4364.png",
       "thuisScore": 1,
       "uitScore": 2
+    },
+    {
+      "id": 554863,
+      "datum": "za 25 april",
+      "thuis": "Botafogo FR",
+      "thuisLogo": "https://crests.football-data.org/1770.png",
+      "uit": "SC Internacional",
+      "uitLogo": "https://crests.football-data.org/6684.png",
+      "thuisScore": 2,
+      "uitScore": 2
     }
   ],
   "1768": [
@@ -45327,6 +45897,16 @@
       "uitLogo": "https://crests.football-data.org/4287.png",
       "thuisScore": 4,
       "uitScore": 2
+    },
+    {
+      "id": 554868,
+      "datum": "za 25 april",
+      "thuis": "Clube do Remo",
+      "thuisLogo": "https://crests.football-data.org/4287.png",
+      "uit": "Cruzeiro EC",
+      "uitLogo": "https://crests.football-data.org/1771.png",
+      "thuisScore": 0,
+      "uitScore": 1
     }
   ],
   "1765": [
@@ -45805,6 +46385,16 @@
       "uitLogo": "https://crests.football-data.org/1765.png",
       "thuisScore": 2,
       "uitScore": 3
+    },
+    {
+      "id": 554862,
+      "datum": "za 25 april",
+      "thuis": "EC Bahia",
+      "thuisLogo": "https://crests.football-data.org/1777.png",
+      "uit": "Santos FC",
+      "uitLogo": "https://crests.football-data.org/6685.png",
+      "thuisScore": 2,
+      "uitScore": 2
     }
   ],
   "1779": [
@@ -46039,6 +46629,16 @@
       "uitLogo": "https://crests.football-data.org/1777.png",
       "thuisScore": 2,
       "uitScore": 0
+    },
+    {
+      "id": 554862,
+      "datum": "za 25 april",
+      "thuis": "EC Bahia",
+      "thuisLogo": "https://crests.football-data.org/1777.png",
+      "uit": "Santos FC",
+      "uitLogo": "https://crests.football-data.org/6685.png",
+      "thuisScore": 2,
+      "uitScore": 2
     }
   ],
   "1776": [
@@ -46161,6 +46761,16 @@
       "uitLogo": "https://crests.football-data.org/1776.png",
       "thuisScore": 2,
       "uitScore": 1
+    },
+    {
+      "id": 554869,
+      "datum": "zo 26 april",
+      "thuis": "São Paulo FC",
+      "thuisLogo": "https://crests.football-data.org/1776.png",
+      "uit": "Mirassol FC",
+      "uitLogo": "https://crests.football-data.org/4364.png",
+      "thuisScore": 1,
+      "uitScore": 0
     }
   ],
   "1783": [
@@ -46385,6 +46995,16 @@
       "uitLogo": "https://crests.football-data.org/4364.png",
       "thuisScore": 1,
       "uitScore": 2
+    },
+    {
+      "id": 554869,
+      "datum": "zo 26 april",
+      "thuis": "São Paulo FC",
+      "thuisLogo": "https://crests.football-data.org/1776.png",
+      "uit": "Mirassol FC",
+      "uitLogo": "https://crests.football-data.org/4364.png",
+      "thuisScore": 1,
+      "uitScore": 0
     }
   ],
   "1780": [
@@ -46619,6 +47239,16 @@
       "uitLogo": "https://crests.football-data.org/1770.png",
       "thuisScore": 1,
       "uitScore": 4
+    },
+    {
+      "id": 554863,
+      "datum": "za 25 april",
+      "thuis": "Botafogo FR",
+      "thuisLogo": "https://crests.football-data.org/1770.png",
+      "uit": "SC Internacional",
+      "uitLogo": "https://crests.football-data.org/6684.png",
+      "thuisScore": 2,
+      "uitScore": 2
     }
   ],
   "1771": [
@@ -46741,6 +47371,16 @@
       "uitLogo": "https://crests.football-data.org/1767.png",
       "thuisScore": 2,
       "uitScore": 0
+    },
+    {
+      "id": 554868,
+      "datum": "za 25 april",
+      "thuis": "Clube do Remo",
+      "thuisLogo": "https://crests.football-data.org/4287.png",
+      "uit": "Cruzeiro EC",
+      "uitLogo": "https://crests.football-data.org/1771.png",
+      "thuisScore": 0,
+      "uitScore": 1
     }
   ],
   "332": [
@@ -47183,6 +47823,16 @@
       "uitLogo": "https://crests.football-data.org/1081.png",
       "thuisScore": 2,
       "uitScore": 1
+    },
+    {
+      "id": 541240,
+      "datum": "za 25 april",
+      "thuis": "Birmingham City FC",
+      "thuisLogo": "https://crests.football-data.org/332.png",
+      "uit": "Bristol City FC",
+      "uitLogo": "https://crests.football-data.org/387.png",
+      "thuisScore": 2,
+      "uitScore": 1
     }
   ],
   "349": [
@@ -47615,6 +48265,16 @@
       "uitLogo": "https://crests.football-data.org/349.png",
       "thuisScore": 1,
       "uitScore": 2
+    },
+    {
+      "id": 541251,
+      "datum": "za 25 april",
+      "thuis": "West Bromwich Albion FC",
+      "thuisLogo": "https://crests.football-data.org/74.png",
+      "uit": "Ipswich Town FC",
+      "uitLogo": "https://crests.football-data.org/349.png",
+      "thuisScore": 0,
+      "uitScore": 0
     }
   ],
   "348": [
@@ -48047,6 +48707,16 @@
       "uitLogo": "https://crests.football-data.org/349.png",
       "thuisScore": 1,
       "uitScore": 2
+    },
+    {
+      "id": 541241,
+      "datum": "za 25 april",
+      "thuis": "Charlton Athletic FC",
+      "thuisLogo": "https://crests.football-data.org/348.png",
+      "uit": "Hull City AFC",
+      "uitLogo": "https://crests.football-data.org/322.png",
+      "thuisScore": 2,
+      "uitScore": 1
     }
   ],
   "346": [
@@ -48489,6 +49159,16 @@
       "uitLogo": "https://crests.football-data.org/346.png",
       "thuisScore": 3,
       "uitScore": 0
+    },
+    {
+      "id": 541244,
+      "datum": "za 25 april",
+      "thuis": "Middlesbrough FC",
+      "thuisLogo": "https://crests.football-data.org/343.png",
+      "uit": "Watford FC",
+      "uitLogo": "https://crests.football-data.org/346.png",
+      "thuisScore": 5,
+      "uitScore": 1
     }
   ],
   "1076": [
@@ -49373,6 +50053,16 @@
       "uitLogo": "https://crests.football-data.org/322.png",
       "thuisScore": 2,
       "uitScore": 2
+    },
+    {
+      "id": 541241,
+      "datum": "za 25 april",
+      "thuis": "Charlton Athletic FC",
+      "thuisLogo": "https://crests.football-data.org/348.png",
+      "uit": "Hull City AFC",
+      "uitLogo": "https://crests.football-data.org/322.png",
+      "thuisScore": 2,
+      "uitScore": 1
     }
   ],
   "340": [
@@ -50699,6 +51389,16 @@
       "uitLogo": "https://crests.football-data.org/345.png",
       "thuisScore": 1,
       "uitScore": 0
+    },
+    {
+      "id": 541244,
+      "datum": "za 25 april",
+      "thuis": "Middlesbrough FC",
+      "thuisLogo": "https://crests.football-data.org/343.png",
+      "uit": "Watford FC",
+      "uitLogo": "https://crests.football-data.org/346.png",
+      "thuisScore": 5,
+      "uitScore": 1
     }
   ],
   "72": [
@@ -51141,6 +51841,16 @@
       "uitLogo": "https://crests.football-data.org/72.png",
       "thuisScore": 1,
       "uitScore": 2
+    },
+    {
+      "id": 541245,
+      "datum": "za 25 april",
+      "thuis": "Norwich City FC",
+      "thuisLogo": "https://crests.football-data.org/68.png",
+      "uit": "Swansea City AFC",
+      "uitLogo": "https://crests.football-data.org/72.png",
+      "thuisScore": 1,
+      "uitScore": 1
     }
   ],
   "68": [
@@ -51582,6 +52292,16 @@
       "uit": "Derby County FC",
       "uitLogo": "https://crests.football-data.org/342.png",
       "thuisScore": 2,
+      "uitScore": 1
+    },
+    {
+      "id": 541245,
+      "datum": "za 25 april",
+      "thuis": "Norwich City FC",
+      "thuisLogo": "https://crests.football-data.org/68.png",
+      "uit": "Swansea City AFC",
+      "uitLogo": "https://crests.football-data.org/72.png",
+      "thuisScore": 1,
       "uitScore": 1
     }
   ],
@@ -52477,6 +53197,16 @@
       "uitLogo": "https://crests.football-data.org/404.png",
       "thuisScore": 0,
       "uitScore": 1
+    },
+    {
+      "id": 541246,
+      "datum": "za 25 april",
+      "thuis": "Oxford United FC",
+      "thuisLogo": "https://crests.football-data.org/1082.png",
+      "uit": "Sheffield Wednesday FC",
+      "uitLogo": "https://crests.football-data.org/345.png",
+      "thuisScore": 4,
+      "uitScore": 1
     }
   ],
   "325": [
@@ -52909,6 +53639,16 @@
       "uitLogo": "https://crests.football-data.org/325.png",
       "thuisScore": 5,
       "uitScore": 1
+    },
+    {
+      "id": 541250,
+      "datum": "za 25 april",
+      "thuis": "Stoke City FC",
+      "thuisLogo": "https://crests.football-data.org/70.png",
+      "uit": "Portsmouth FC",
+      "uitLogo": "https://crests.football-data.org/325.png",
+      "thuisScore": 1,
+      "uitScore": 3
     }
   ],
   "69": [
@@ -53351,6 +54091,16 @@
       "uitLogo": "https://crests.football-data.org/72.png",
       "thuisScore": 1,
       "uitScore": 2
+    },
+    {
+      "id": 541247,
+      "datum": "za 25 april",
+      "thuis": "Queens Park Rangers FC",
+      "thuisLogo": "https://crests.football-data.org/69.png",
+      "uit": "Derby County FC",
+      "uitLogo": "https://crests.football-data.org/342.png",
+      "thuisScore": 2,
+      "uitScore": 3
     }
   ],
   "1081": [
@@ -53793,6 +54543,16 @@
       "uitLogo": "https://crests.football-data.org/1081.png",
       "thuisScore": 2,
       "uitScore": 1
+    },
+    {
+      "id": 541248,
+      "datum": "za 25 april",
+      "thuis": "Sheffield United FC",
+      "thuisLogo": "https://crests.football-data.org/356.png",
+      "uit": "Preston North End FC",
+      "uitLogo": "https://crests.football-data.org/1081.png",
+      "thuisScore": 2,
+      "uitScore": 3
     }
   ],
   "70": [
@@ -54233,6 +54993,16 @@
       "thuisLogo": "https://crests.football-data.org/70.png",
       "uit": "Millwall FC",
       "uitLogo": "https://crests.football-data.org/384.png",
+      "thuisScore": 1,
+      "uitScore": 3
+    },
+    {
+      "id": 541250,
+      "datum": "za 25 april",
+      "thuis": "Stoke City FC",
+      "thuisLogo": "https://crests.football-data.org/70.png",
+      "uit": "Portsmouth FC",
+      "uitLogo": "https://crests.football-data.org/325.png",
       "thuisScore": 1,
       "uitScore": 3
     }
@@ -54677,6 +55447,16 @@
       "uitLogo": "https://crests.football-data.org/342.png",
       "thuisScore": 2,
       "uitScore": 1
+    },
+    {
+      "id": 541247,
+      "datum": "za 25 april",
+      "thuis": "Queens Park Rangers FC",
+      "thuisLogo": "https://crests.football-data.org/69.png",
+      "uit": "Derby County FC",
+      "uitLogo": "https://crests.football-data.org/342.png",
+      "thuisScore": 2,
+      "uitScore": 3
     }
   ],
   "74": [
@@ -55118,6 +55898,16 @@
       "uit": "Watford FC",
       "uitLogo": "https://crests.football-data.org/346.png",
       "thuisScore": 3,
+      "uitScore": 0
+    },
+    {
+      "id": 541251,
+      "datum": "za 25 april",
+      "thuis": "West Bromwich Albion FC",
+      "thuisLogo": "https://crests.football-data.org/74.png",
+      "uit": "Ipswich Town FC",
+      "uitLogo": "https://crests.football-data.org/349.png",
+      "thuisScore": 0,
       "uitScore": 0
     }
   ],
@@ -56013,6 +56803,16 @@
       "uitLogo": "https://crests.football-data.org/59.png",
       "thuisScore": 1,
       "uitScore": 3
+    },
+    {
+      "id": 541248,
+      "datum": "za 25 april",
+      "thuis": "Sheffield United FC",
+      "thuisLogo": "https://crests.football-data.org/356.png",
+      "uit": "Preston North End FC",
+      "uitLogo": "https://crests.football-data.org/1081.png",
+      "thuisScore": 2,
+      "uitScore": 3
     }
   ],
   "387": [
@@ -56455,6 +57255,16 @@
       "uitLogo": "https://crests.football-data.org/387.png",
       "thuisScore": 2,
       "uitScore": 2
+    },
+    {
+      "id": 541240,
+      "datum": "za 25 april",
+      "thuis": "Birmingham City FC",
+      "thuisLogo": "https://crests.football-data.org/332.png",
+      "uit": "Bristol City FC",
+      "uitLogo": "https://crests.football-data.org/387.png",
+      "thuisScore": 2,
+      "uitScore": 1
     }
   ],
   "338": [
@@ -57349,6 +58159,16 @@
       "uitLogo": "https://crests.football-data.org/345.png",
       "thuisScore": 1,
       "uitScore": 0
+    },
+    {
+      "id": 541246,
+      "datum": "za 25 april",
+      "thuis": "Oxford United FC",
+      "thuisLogo": "https://crests.football-data.org/1082.png",
+      "uit": "Sheffield Wednesday FC",
+      "uitLogo": "https://crests.football-data.org/345.png",
+      "thuisScore": 4,
+      "uitScore": 1
     }
   ],
   "3929": [
