@@ -399,6 +399,14 @@
       "uitLogo": "https://crests.football-data.org/62.png"
     },
     {
+      "id": 538091,
+      "datum": "wo 13 mei 21:00",
+      "thuis": "Manchester City FC",
+      "thuisLogo": "https://crests.football-data.org/65.png",
+      "uit": "Crystal Palace FC",
+      "uitLogo": "https://crests.football-data.org/354.png"
+    },
+    {
       "id": 538148,
       "datum": "zo 17 mei 16:00",
       "thuis": "Brentford FC",
@@ -653,6 +661,14 @@
       "thuisLogo": "https://crests.football-data.org/65.png",
       "uit": "Brentford FC",
       "uitLogo": "https://crests.football-data.org/402.png"
+    },
+    {
+      "id": 538091,
+      "datum": "wo 13 mei 21:00",
+      "thuis": "Manchester City FC",
+      "thuisLogo": "https://crests.football-data.org/65.png",
+      "uit": "Crystal Palace FC",
+      "uitLogo": "https://crests.football-data.org/354.png"
     },
     {
       "id": 538161,
@@ -1647,14 +1663,6 @@
       "thuisLogo": "https://crests.football-data.org/5.png",
       "uit": "1. FC Köln",
       "uitLogo": "https://crests.football-data.org/1.png"
-    },
-    {
-      "id": 552092,
-      "datum": "di 28 april 21:00",
-      "thuis": "Paris Saint-Germain FC",
-      "thuisLogo": "https://crests.football-data.org/524.png",
-      "uit": "FC Bayern München",
-      "uitLogo": "https://crests.football-data.org/5.png"
     },
     {
       "id": 552094,
@@ -2767,14 +2775,6 @@
       "thuisLogo": "https://crests.football-data.org/1045.png",
       "uit": "Paris Saint-Germain FC",
       "uitLogo": "https://crests.football-data.org/524.png"
-    },
-    {
-      "id": 552092,
-      "datum": "di 28 april 21:00",
-      "thuis": "Paris Saint-Germain FC",
-      "thuisLogo": "https://crests.football-data.org/524.png",
-      "uit": "FC Bayern München",
-      "uitLogo": "https://crests.football-data.org/5.png"
     },
     {
       "id": 552094,
@@ -8191,42 +8191,6 @@
       "uitLogo": "https://crests.football-data.org/1779.png"
     }
   ],
-  "340": [
-    {
-      "id": 541189,
-      "datum": "di 28 april 20:45",
-      "thuis": "Southampton FC",
-      "thuisLogo": "https://crests.football-data.org/340.png",
-      "uit": "Ipswich Town FC",
-      "uitLogo": "https://crests.football-data.org/349.png"
-    },
-    {
-      "id": 541259,
-      "datum": "za 2 mei 13:30",
-      "thuis": "Preston North End FC",
-      "thuisLogo": "https://crests.football-data.org/1081.png",
-      "uit": "Southampton FC",
-      "uitLogo": "https://crests.football-data.org/340.png"
-    }
-  ],
-  "349": [
-    {
-      "id": 541189,
-      "datum": "di 28 april 20:45",
-      "thuis": "Southampton FC",
-      "thuisLogo": "https://crests.football-data.org/340.png",
-      "uit": "Ipswich Town FC",
-      "uitLogo": "https://crests.football-data.org/349.png"
-    },
-    {
-      "id": 541256,
-      "datum": "za 2 mei 13:30",
-      "thuis": "Ipswich Town FC",
-      "thuisLogo": "https://crests.football-data.org/349.png",
-      "uit": "Queens Park Rangers FC",
-      "uitLogo": "https://crests.football-data.org/69.png"
-    }
-  ],
   "59": [
     {
       "id": 541252,
@@ -8307,6 +8271,16 @@
       "uitLogo": "https://crests.football-data.org/68.png"
     }
   ],
+  "349": [
+    {
+      "id": 541256,
+      "datum": "za 2 mei 13:30",
+      "thuis": "Ipswich Town FC",
+      "thuisLogo": "https://crests.football-data.org/349.png",
+      "uit": "Queens Park Rangers FC",
+      "uitLogo": "https://crests.football-data.org/69.png"
+    }
+  ],
   "69": [
     {
       "id": 541256,
@@ -8358,6 +8332,16 @@
     }
   ],
   "1081": [
+    {
+      "id": 541259,
+      "datum": "za 2 mei 13:30",
+      "thuis": "Preston North End FC",
+      "thuisLogo": "https://crests.football-data.org/1081.png",
+      "uit": "Southampton FC",
+      "uitLogo": "https://crests.football-data.org/340.png"
+    }
+  ],
+  "340": [
     {
       "id": 541259,
       "datum": "za 2 mei 13:30",

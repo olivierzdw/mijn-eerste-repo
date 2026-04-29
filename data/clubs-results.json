@@ -9668,7 +9668,7 @@
       "uit": "FC Barcelona",
       "uitLogo": "https://crests.football-data.org/81.png",
       "thuisScore": 1,
-      "uitScore": 3
+      "uitScore": 2
     }
   ],
   "263": [
@@ -13208,7 +13208,7 @@
       "uit": "FC Barcelona",
       "uitLogo": "https://crests.football-data.org/81.png",
       "thuisScore": 1,
-      "uitScore": 3
+      "uitScore": 2
     }
   ],
   "285": [
@@ -15109,6 +15109,16 @@
       "uitLogo": "https://crests.football-data.org/86.png",
       "thuisScore": 4,
       "uitScore": 3
+    },
+    {
+      "id": 552092,
+      "datum": "di 28 april",
+      "thuis": "Paris Saint-Germain FC",
+      "thuisLogo": "https://crests.football-data.org/524.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png",
+      "thuisScore": 5,
+      "uitScore": 4
     }
   ],
   "721": [
@@ -22833,7 +22843,7 @@
       "thuisLogo": "https://crests.football-data.org/457.png",
       "uit": "Torino FC",
       "uitLogo": "https://crests.football-data.org/586.png",
-      "thuisScore": 1,
+      "thuisScore": 0,
       "uitScore": 0
     },
     {
@@ -27941,7 +27951,7 @@
       "thuisLogo": "https://crests.football-data.org/457.png",
       "uit": "Torino FC",
       "uitLogo": "https://crests.football-data.org/586.png",
-      "thuisScore": 1,
+      "thuisScore": 0,
       "uitScore": 0
     },
     {
@@ -30598,7 +30608,7 @@
       "uit": "Lille OSC",
       "uitLogo": "https://crests.football-data.org/521.png",
       "thuisScore": 0,
-      "uitScore": 5
+      "uitScore": 4
     },
     {
       "id": 542674,
@@ -31212,7 +31222,7 @@
       "uit": "Lille OSC",
       "uitLogo": "https://crests.football-data.org/521.png",
       "thuisScore": 0,
-      "uitScore": 5
+      "uitScore": 4
     },
     {
       "id": 542671,
@@ -33849,6 +33859,16 @@
       "uitLogo": "https://crests.football-data.org/524.png",
       "thuisScore": 0,
       "uitScore": 2
+    },
+    {
+      "id": 552092,
+      "datum": "di 28 april",
+      "thuis": "Paris Saint-Germain FC",
+      "thuisLogo": "https://crests.football-data.org/524.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png",
+      "thuisScore": 5,
+      "uitScore": 4
     }
   ],
   "1920": [
@@ -36639,16 +36659,6 @@
       "uitScore": 3
     },
     {
-      "id": 537709,
-      "datum": "za 11 april",
-      "thuis": "Sparta Rotterdam",
-      "thuisLogo": "https://crests.football-data.org/6806.png",
-      "uit": "PSV",
-      "uitLogo": "https://crests.football-data.org/674.png",
-      "thuisScore": 0,
-      "uitScore": 2
-    },
-    {
       "id": 537716,
       "datum": "do 23 april",
       "thuis": "PSV",
@@ -37029,16 +37039,6 @@
       "uitLogo": "https://crests.football-data.org/6806.png",
       "thuisScore": 0,
       "uitScore": 0
-    },
-    {
-      "id": 537709,
-      "datum": "za 11 april",
-      "thuis": "Sparta Rotterdam",
-      "thuisLogo": "https://crests.football-data.org/6806.png",
-      "uit": "PSV",
-      "uitLogo": "https://crests.football-data.org/674.png",
-      "thuisScore": 0,
-      "uitScore": 2
     },
     {
       "id": 537718,
@@ -48915,6 +48915,16 @@
       "uitLogo": "https://crests.football-data.org/349.png",
       "thuisScore": 0,
       "uitScore": 0
+    },
+    {
+      "id": 541189,
+      "datum": "di 28 april",
+      "thuis": "Southampton FC",
+      "thuisLogo": "https://crests.football-data.org/340.png",
+      "uit": "Ipswich Town FC",
+      "uitLogo": "https://crests.football-data.org/349.png",
+      "thuisScore": 2,
+      "uitScore": 2
     }
   ],
   "348": [
@@ -51153,6 +51163,16 @@
       "thuisLogo": "https://crests.football-data.org/340.png",
       "uit": "Bristol City FC",
       "uitLogo": "https://crests.football-data.org/387.png",
+      "thuisScore": 2,
+      "uitScore": 2
+    },
+    {
+      "id": 541189,
+      "datum": "di 28 april",
+      "thuis": "Southampton FC",
+      "thuisLogo": "https://crests.football-data.org/340.png",
+      "uit": "Ipswich Town FC",
+      "uitLogo": "https://crests.football-data.org/349.png",
       "thuisScore": 2,
       "uitScore": 2
     }
