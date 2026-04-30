@@ -6793,6 +6793,16 @@
       "uitLogo": "https://crests.football-data.org/498.png",
       "thuisScore": 0,
       "uitScore": 0
+    },
+    {
+      "id": 552093,
+      "datum": "wo 29 april",
+      "thuis": "Club Atlético de Madrid",
+      "thuisLogo": "https://crests.football-data.org/78.png",
+      "uit": "Arsenal FC",
+      "uitLogo": "https://crests.football-data.org/57.png",
+      "thuisScore": 1,
+      "uitScore": 1
     }
   ],
   "341": [
@@ -8452,7 +8462,7 @@
       "uit": "Villarreal CF",
       "uitLogo": "https://crests.football-data.org/94.png",
       "thuisScore": 1,
-      "uitScore": 2
+      "uitScore": 3
     },
     {
       "id": 544535,
@@ -11972,7 +11982,7 @@
       "uit": "Villarreal CF",
       "uitLogo": "https://crests.football-data.org/94.png",
       "thuisScore": 1,
-      "uitScore": 2
+      "uitScore": 3
     },
     {
       "id": 544531,
@@ -13209,6 +13219,16 @@
       "uitLogo": "https://crests.football-data.org/81.png",
       "thuisScore": 1,
       "uitScore": 2
+    },
+    {
+      "id": 552093,
+      "datum": "wo 29 april",
+      "thuis": "Club Atlético de Madrid",
+      "thuisLogo": "https://crests.football-data.org/78.png",
+      "uit": "Arsenal FC",
+      "uitLogo": "https://crests.football-data.org/57.png",
+      "thuisScore": 1,
+      "uitScore": 1
     }
   ],
   "285": [
@@ -21405,7 +21425,7 @@
       "thuisLogo": "https://crests.football-data.org/450.png",
       "uit": "US Lecce",
       "uitLogo": "https://crests.football-data.org/5890.png",
-      "thuisScore": 1,
+      "thuisScore": 0,
       "uitScore": 0
     }
   ],
@@ -27177,7 +27197,7 @@
       "thuisLogo": "https://crests.football-data.org/450.png",
       "uit": "US Lecce",
       "uitLogo": "https://crests.football-data.org/5890.png",
-      "thuisScore": 1,
+      "thuisScore": 0,
       "uitScore": 0
     }
   ],
@@ -36659,6 +36679,16 @@
       "uitScore": 3
     },
     {
+      "id": 537709,
+      "datum": "za 11 april",
+      "thuis": "Sparta Rotterdam",
+      "thuisLogo": "https://crests.football-data.org/6806.png",
+      "uit": "PSV",
+      "uitLogo": "https://crests.football-data.org/674.png",
+      "thuisScore": 0,
+      "uitScore": 2
+    },
+    {
       "id": 537716,
       "datum": "do 23 april",
       "thuis": "PSV",
@@ -37039,6 +37069,16 @@
       "uitLogo": "https://crests.football-data.org/6806.png",
       "thuisScore": 0,
       "uitScore": 0
+    },
+    {
+      "id": 537709,
+      "datum": "za 11 april",
+      "thuis": "Sparta Rotterdam",
+      "thuisLogo": "https://crests.football-data.org/6806.png",
+      "uit": "PSV",
+      "uitLogo": "https://crests.football-data.org/674.png",
+      "thuisScore": 0,
+      "uitScore": 2
     },
     {
       "id": 537718,
@@ -40241,6 +40281,16 @@
       "uitScore": 1
     },
     {
+      "id": 545933,
+      "datum": "wo 29 april",
+      "thuis": "Sporting Clube de Portugal",
+      "thuisLogo": "https://crests.football-data.org/498.png",
+      "uit": "CD Tondela",
+      "uitLogo": "https://crests.football-data.org/1049.png",
+      "thuisScore": 2,
+      "uitScore": 2
+    },
+    {
       "id": 552027,
       "datum": "do 18 september",
       "thuis": "Sporting Clube de Portugal",
@@ -42844,6 +42894,16 @@
       "uit": "CD Nacional",
       "uitLogo": "https://crests.football-data.org/5529.png",
       "thuisScore": 0,
+      "uitScore": 2
+    },
+    {
+      "id": 545933,
+      "datum": "wo 29 april",
+      "thuis": "Sporting Clube de Portugal",
+      "thuisLogo": "https://crests.football-data.org/498.png",
+      "uit": "CD Tondela",
+      "uitLogo": "https://crests.football-data.org/1049.png",
+      "thuisScore": 2,
       "uitScore": 2
     }
   ],
