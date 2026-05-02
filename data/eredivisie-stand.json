@@ -30,12 +30,12 @@
     "club": "NEC",
     "logo": "https://crests.football-data.org/1915.png",
     "gespeeld": 32,
-    "punten": 55,
+    "punten": 56,
     "gewonnen": 15,
-    "gelijk": 10,
-    "verloren": 7,
-    "doelsaldo": 23,
-    "voor": 73,
+    "gelijk": 11,
+    "verloren": 6,
+    "doelsaldo": 24,
+    "voor": 74,
     "tegen": 50
   },
   {
@@ -186,13 +186,13 @@
     "club": "Telstar 1963",
     "logo": "https://crests.football-data.org/1912.png",
     "gespeeld": 32,
-    "punten": 33,
-    "gewonnen": 8,
-    "gelijk": 9,
+    "punten": 31,
+    "gewonnen": 7,
+    "gelijk": 10,
     "verloren": 15,
-    "doelsaldo": -9,
+    "doelsaldo": -10,
     "voor": 44,
-    "tegen": 53
+    "tegen": 54
   },
   {
     "positie": 16,
