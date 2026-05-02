@@ -171,6 +171,19 @@
     },
     {
       "positie": 14,
+      "club": "Leeds United FC",
+      "logo": "https://crests.football-data.org/341.png",
+      "gespeeld": 35,
+      "punten": 43,
+      "gewonnen": 10,
+      "gelijk": 13,
+      "verloren": 12,
+      "doelsaldo": -5,
+      "voor": 47,
+      "tegen": 52
+    },
+    {
+      "positie": 15,
       "club": "Newcastle United FC",
       "logo": "https://crests.football-data.org/67.png",
       "gespeeld": 34,
@@ -181,19 +194,6 @@
       "doelsaldo": -4,
       "voor": 46,
       "tegen": 50
-    },
-    {
-      "positie": 15,
-      "club": "Leeds United FC",
-      "logo": "https://crests.football-data.org/341.png",
-      "gespeeld": 34,
-      "punten": 40,
-      "gewonnen": 9,
-      "gelijk": 13,
-      "verloren": 12,
-      "doelsaldo": -7,
-      "voor": 44,
-      "tegen": 51
     },
     {
       "positie": 16,
@@ -238,14 +238,14 @@
       "positie": 19,
       "club": "Burnley FC",
       "logo": "https://crests.football-data.org/328.png",
-      "gespeeld": 34,
+      "gespeeld": 35,
       "punten": 20,
       "gewonnen": 4,
       "gelijk": 8,
-      "verloren": 22,
-      "doelsaldo": -34,
-      "voor": 34,
-      "tegen": 68
+      "verloren": 23,
+      "doelsaldo": -36,
+      "voor": 35,
+      "tegen": 71
     },
     {
       "positie": 20,
@@ -446,19 +446,32 @@
     },
     {
       "positie": 15,
-      "club": "Girona FC",
-      "logo": "https://crests.football-data.org/298.png",
-      "gespeeld": 33,
+      "club": "RCD Mallorca",
+      "logo": "https://crests.football-data.org/89.png",
+      "gespeeld": 34,
       "punten": 38,
-      "gewonnen": 9,
-      "gelijk": 11,
-      "verloren": 13,
-      "doelsaldo": -14,
-      "voor": 36,
-      "tegen": 50
+      "gewonnen": 10,
+      "gelijk": 8,
+      "verloren": 16,
+      "doelsaldo": -9,
+      "voor": 42,
+      "tegen": 51
     },
     {
       "positie": 16,
+      "club": "Girona FC",
+      "logo": "https://crests.football-data.org/298.png",
+      "gespeeld": 34,
+      "punten": 38,
+      "gewonnen": 9,
+      "gelijk": 11,
+      "verloren": 14,
+      "doelsaldo": -15,
+      "voor": 36,
+      "tegen": 51
+    },
+    {
+      "positie": 17,
       "club": "Deportivo Alavés",
       "logo": "https://crests.football-data.org/263.png",
       "gespeeld": 33,
@@ -469,19 +482,6 @@
       "doelsaldo": -11,
       "voor": 38,
       "tegen": 49
-    },
-    {
-      "positie": 17,
-      "club": "RCD Mallorca",
-      "logo": "https://crests.football-data.org/89.png",
-      "gespeeld": 33,
-      "punten": 35,
-      "gewonnen": 9,
-      "gelijk": 8,
-      "verloren": 16,
-      "doelsaldo": -10,
-      "voor": 41,
-      "tegen": 51
     },
     {
       "positie": 18,
@@ -972,14 +972,14 @@
       "positie": 17,
       "club": "US Lecce",
       "logo": "https://crests.football-data.org/5890.png",
-      "gespeeld": 34,
-      "punten": 29,
-      "gewonnen": 7,
+      "gespeeld": 35,
+      "punten": 32,
+      "gewonnen": 8,
       "gelijk": 8,
       "verloren": 19,
-      "doelsaldo": -24,
-      "voor": 22,
-      "tegen": 46
+      "doelsaldo": -23,
+      "voor": 24,
+      "tegen": 47
     },
     {
       "positie": 18,
@@ -1011,14 +1011,14 @@
       "positie": 20,
       "club": "AC Pisa 1909",
       "logo": "https://crests.football-data.org/487.png",
-      "gespeeld": 34,
+      "gespeeld": 35,
       "punten": 18,
       "gewonnen": 2,
       "gelijk": 12,
-      "verloren": 20,
-      "doelsaldo": -37,
-      "voor": 24,
-      "tegen": 61
+      "verloren": 21,
+      "doelsaldo": -38,
+      "voor": 25,
+      "tegen": 63
     }
   ],
   "FL1": [

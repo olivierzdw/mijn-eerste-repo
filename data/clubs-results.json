@@ -3757,6 +3757,16 @@
       "uitLogo": "https://crests.football-data.org/65.png",
       "thuisScore": 0,
       "uitScore": 1
+    },
+    {
+      "id": 538131,
+      "datum": "vr 1 mei",
+      "thuis": "Leeds United FC",
+      "thuisLogo": "https://crests.football-data.org/341.png",
+      "uit": "Burnley FC",
+      "uitLogo": "https://crests.football-data.org/328.png",
+      "thuisScore": 3,
+      "uitScore": 1
     }
   ],
   "76": [
@@ -7145,6 +7155,16 @@
       "uitLogo": "https://crests.football-data.org/341.png",
       "thuisScore": 2,
       "uitScore": 2
+    },
+    {
+      "id": 538131,
+      "datum": "vr 1 mei",
+      "thuis": "Leeds United FC",
+      "thuisLogo": "https://crests.football-data.org/341.png",
+      "uit": "Burnley FC",
+      "uitLogo": "https://crests.football-data.org/328.png",
+      "thuisScore": 3,
+      "uitScore": 1
     }
   ],
   "62": [
@@ -7819,6 +7839,16 @@
       "uitLogo": "https://crests.football-data.org/298.png",
       "thuisScore": 2,
       "uitScore": 1
+    },
+    {
+      "id": 544546,
+      "datum": "vr 1 mei",
+      "thuis": "Girona FC",
+      "thuisLogo": "https://crests.football-data.org/298.png",
+      "uit": "RCD Mallorca",
+      "uitLogo": "https://crests.football-data.org/89.png",
+      "thuisScore": 0,
+      "uitScore": 1
     }
   ],
   "87": [
@@ -8462,7 +8492,7 @@
       "uit": "Villarreal CF",
       "uitLogo": "https://crests.football-data.org/94.png",
       "thuisScore": 1,
-      "uitScore": 3
+      "uitScore": 2
     },
     {
       "id": 544535,
@@ -9226,6 +9256,16 @@
       "uit": "RCD Mallorca",
       "uitLogo": "https://crests.football-data.org/89.png",
       "thuisScore": 2,
+      "uitScore": 1
+    },
+    {
+      "id": 544546,
+      "datum": "vr 1 mei",
+      "thuis": "Girona FC",
+      "thuisLogo": "https://crests.football-data.org/298.png",
+      "uit": "RCD Mallorca",
+      "uitLogo": "https://crests.football-data.org/89.png",
+      "thuisScore": 0,
       "uitScore": 1
     }
   ],
@@ -11982,7 +12022,7 @@
       "uit": "Villarreal CF",
       "uitLogo": "https://crests.football-data.org/94.png",
       "thuisScore": 1,
-      "uitScore": 3
+      "uitScore": 2
     },
     {
       "id": 544531,
@@ -21425,8 +21465,18 @@
       "thuisLogo": "https://crests.football-data.org/450.png",
       "uit": "US Lecce",
       "uitLogo": "https://crests.football-data.org/5890.png",
-      "thuisScore": 0,
+      "thuisScore": 1,
       "uitScore": 0
+    },
+    {
+      "id": 537161,
+      "datum": "vr 1 mei",
+      "thuis": "AC Pisa 1909",
+      "thuisLogo": "https://crests.football-data.org/487.png",
+      "uit": "US Lecce",
+      "uitLogo": "https://crests.football-data.org/5890.png",
+      "thuisScore": 1,
+      "uitScore": 2
     }
   ],
   "471": [
@@ -25731,6 +25781,16 @@
       "uitLogo": "https://crests.football-data.org/487.png",
       "thuisScore": 1,
       "uitScore": 0
+    },
+    {
+      "id": 537161,
+      "datum": "vr 1 mei",
+      "thuis": "AC Pisa 1909",
+      "thuisLogo": "https://crests.football-data.org/487.png",
+      "uit": "US Lecce",
+      "uitLogo": "https://crests.football-data.org/5890.png",
+      "thuisScore": 1,
+      "uitScore": 2
     }
   ],
   "109": [
@@ -27197,7 +27257,7 @@
       "thuisLogo": "https://crests.football-data.org/450.png",
       "uit": "US Lecce",
       "uitLogo": "https://crests.football-data.org/5890.png",
-      "thuisScore": 0,
+      "thuisScore": 1,
       "uitScore": 0
     }
   ],
@@ -36679,16 +36739,6 @@
       "uitScore": 3
     },
     {
-      "id": 537709,
-      "datum": "za 11 april",
-      "thuis": "Sparta Rotterdam",
-      "thuisLogo": "https://crests.football-data.org/6806.png",
-      "uit": "PSV",
-      "uitLogo": "https://crests.football-data.org/674.png",
-      "thuisScore": 0,
-      "uitScore": 2
-    },
-    {
       "id": 537716,
       "datum": "do 23 april",
       "thuis": "PSV",
@@ -37069,16 +37119,6 @@
       "uitLogo": "https://crests.football-data.org/6806.png",
       "thuisScore": 0,
       "uitScore": 0
-    },
-    {
-      "id": 537709,
-      "datum": "za 11 april",
-      "thuis": "Sparta Rotterdam",
-      "thuisLogo": "https://crests.football-data.org/6806.png",
-      "uit": "PSV",
-      "uitLogo": "https://crests.football-data.org/674.png",
-      "thuisScore": 0,
-      "uitScore": 2
     },
     {
       "id": 537718,
@@ -45895,7 +45935,7 @@
       "thuisLogo": "https://crests.football-data.org/1767.png",
       "uit": "Coritiba FBC",
       "uitLogo": "https://crests.football-data.org/4241.png",
-      "thuisScore": 1,
+      "thuisScore": 2,
       "uitScore": 0
     }
   ],
@@ -46809,7 +46849,7 @@
       "thuisLogo": "https://crests.football-data.org/1767.png",
       "uit": "Coritiba FBC",
       "uitLogo": "https://crests.football-data.org/4241.png",
-      "thuisScore": 1,
+      "thuisScore": 2,
       "uitScore": 0
     }
   ],
