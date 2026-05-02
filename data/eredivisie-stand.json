@@ -3,14 +3,14 @@
     "positie": 1,
     "club": "PSV",
     "logo": "https://crests.football-data.org/674.png",
-    "gespeeld": 31,
-    "punten": 77,
+    "gespeeld": 32,
+    "punten": 78,
     "gewonnen": 25,
-    "gelijk": 2,
+    "gelijk": 3,
     "verloren": 4,
     "doelsaldo": 49,
-    "voor": 90,
-    "tegen": 41
+    "voor": 92,
+    "tegen": 43
   },
   {
     "positie": 2,
@@ -29,27 +29,27 @@
     "positie": 3,
     "club": "NEC",
     "logo": "https://crests.football-data.org/1915.png",
-    "gespeeld": 31,
+    "gespeeld": 32,
     "punten": 55,
     "gewonnen": 15,
     "gelijk": 10,
-    "verloren": 6,
-    "doelsaldo": 24,
+    "verloren": 7,
+    "doelsaldo": 23,
     "voor": 73,
-    "tegen": 49
+    "tegen": 50
   },
   {
     "positie": 4,
     "club": "Ajax",
     "logo": "https://crests.football-data.org/678.png",
-    "gespeeld": 31,
-    "punten": 54,
+    "gespeeld": 32,
+    "punten": 55,
     "gewonnen": 14,
-    "gelijk": 12,
+    "gelijk": 13,
     "verloren": 5,
     "doelsaldo": 22,
-    "voor": 59,
-    "tegen": 37
+    "voor": 61,
+    "tegen": 39
   },
   {
     "positie": 5,
@@ -108,13 +108,13 @@
     "club": "Groningen",
     "logo": "https://crests.football-data.org/677.png",
     "gespeeld": 32,
-    "punten": 43,
+    "punten": 42,
     "gewonnen": 12,
-    "gelijk": 7,
-    "verloren": 13,
-    "doelsaldo": 3,
-    "voor": 44,
-    "tegen": 41
+    "gelijk": 6,
+    "verloren": 14,
+    "doelsaldo": 2,
+    "voor": 45,
+    "tegen": 43
   },
   {
     "positie": 10,
@@ -157,6 +157,19 @@
   },
   {
     "positie": 13,
+    "club": "SBV Excelsior",
+    "logo": "https://crests.football-data.org/670.png",
+    "gespeeld": 32,
+    "punten": 34,
+    "gewonnen": 9,
+    "gelijk": 7,
+    "verloren": 16,
+    "doelsaldo": -14,
+    "voor": 39,
+    "tegen": 53
+  },
+  {
+    "positie": 14,
     "club": "PEC Zwolle",
     "logo": "https://crests.football-data.org/684.png",
     "gespeeld": 31,
@@ -169,20 +182,20 @@
     "tegen": 66
   },
   {
-    "positie": 14,
-    "club": "SBV Excelsior",
-    "logo": "https://crests.football-data.org/670.png",
+    "positie": 15,
+    "club": "Telstar 1963",
+    "logo": "https://crests.football-data.org/1912.png",
     "gespeeld": 32,
-    "punten": 32,
+    "punten": 33,
     "gewonnen": 8,
-    "gelijk": 8,
-    "verloren": 16,
-    "doelsaldo": -15,
-    "voor": 37,
-    "tegen": 52
+    "gelijk": 9,
+    "verloren": 15,
+    "doelsaldo": -9,
+    "voor": 44,
+    "tegen": 53
   },
   {
-    "positie": 15,
+    "positie": 16,
     "club": "FC Volendam",
     "logo": "https://crests.football-data.org/1919.png",
     "gespeeld": 31,
@@ -193,19 +206,6 @@
     "doelsaldo": -17,
     "voor": 33,
     "tegen": 50
-  },
-  {
-    "positie": 16,
-    "club": "Telstar 1963",
-    "logo": "https://crests.football-data.org/1912.png",
-    "gespeeld": 31,
-    "punten": 30,
-    "gewonnen": 7,
-    "gelijk": 9,
-    "verloren": 15,
-    "doelsaldo": -10,
-    "voor": 43,
-    "tegen": 53
   },
   {
     "positie": 17,
