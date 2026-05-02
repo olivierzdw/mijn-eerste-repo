@@ -79,6 +79,19 @@
   },
   {
     "positie": 7,
+    "club": "FC Utrecht",
+    "logo": "https://crests.football-data.org/676.png",
+    "gespeeld": 32,
+    "punten": 47,
+    "gewonnen": 13,
+    "gelijk": 8,
+    "verloren": 11,
+    "doelsaldo": 10,
+    "voor": 51,
+    "tegen": 41
+  },
+  {
+    "positie": 8,
     "club": "Heerenveen",
     "logo": "https://crests.football-data.org/673.png",
     "gespeeld": 31,
@@ -91,30 +104,17 @@
     "tegen": 51
   },
   {
-    "positie": 8,
-    "club": "FC Utrecht",
-    "logo": "https://crests.football-data.org/676.png",
-    "gespeeld": 32,
-    "punten": 45,
-    "gewonnen": 12,
-    "gelijk": 9,
-    "verloren": 11,
-    "doelsaldo": 8,
-    "voor": 49,
-    "tegen": 41
-  },
-  {
     "positie": 9,
     "club": "Groningen",
     "logo": "https://crests.football-data.org/677.png",
-    "gespeeld": 31,
-    "punten": 42,
+    "gespeeld": 32,
+    "punten": 43,
     "gewonnen": 12,
-    "gelijk": 6,
+    "gelijk": 7,
     "verloren": 13,
     "doelsaldo": 3,
-    "voor": 43,
-    "tegen": 40
+    "voor": 44,
+    "tegen": 41
   },
   {
     "positie": 10,
@@ -172,14 +172,14 @@
     "positie": 14,
     "club": "SBV Excelsior",
     "logo": "https://crests.football-data.org/670.png",
-    "gespeeld": 31,
-    "punten": 31,
+    "gespeeld": 32,
+    "punten": 32,
     "gewonnen": 8,
-    "gelijk": 7,
+    "gelijk": 8,
     "verloren": 16,
     "doelsaldo": -15,
-    "voor": 36,
-    "tegen": 51
+    "voor": 37,
+    "tegen": 52
   },
   {
     "positie": 15,
@@ -212,13 +212,13 @@
     "club": "NAC Breda",
     "logo": "images/nac-breda-v2.png",
     "gespeeld": 32,
-    "punten": 26,
+    "punten": 25,
     "gewonnen": 5,
-    "gelijk": 11,
-    "verloren": 16,
-    "doelsaldo": -23,
+    "gelijk": 10,
+    "verloren": 17,
+    "doelsaldo": -25,
     "voor": 30,
-    "tegen": 53
+    "tegen": 55
   },
   {
     "positie": 18,
