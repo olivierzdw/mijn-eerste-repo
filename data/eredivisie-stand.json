@@ -16,14 +16,14 @@
     "positie": 2,
     "club": "Feyenoord Rotterdam",
     "logo": "https://crests.football-data.org/675.png",
-    "gespeeld": 31,
+    "gespeeld": 32,
     "punten": 58,
     "gewonnen": 17,
     "gelijk": 7,
-    "verloren": 7,
-    "doelsaldo": 23,
+    "verloren": 8,
+    "doelsaldo": 22,
     "voor": 65,
-    "tegen": 42
+    "tegen": 43
   },
   {
     "positie": 3,
@@ -73,8 +73,8 @@
     "gewonnen": 14,
     "gelijk": 8,
     "verloren": 10,
-    "doelsaldo": 5,
-    "voor": 56,
+    "doelsaldo": 6,
+    "voor": 57,
     "tegen": 51
   },
   {
@@ -131,6 +131,19 @@
   },
   {
     "positie": 11,
+    "club": "Fortuna Sittard",
+    "logo": "https://crests.football-data.org/1920.png",
+    "gespeeld": 32,
+    "punten": 39,
+    "gewonnen": 11,
+    "gelijk": 6,
+    "verloren": 15,
+    "doelsaldo": -11,
+    "voor": 46,
+    "tegen": 57
+  },
+  {
+    "positie": 12,
     "club": "Go Ahead Eagles",
     "logo": "https://crests.football-data.org/718.png",
     "gespeeld": 31,
@@ -143,20 +156,20 @@
     "tegen": 45
   },
   {
-    "positie": 12,
-    "club": "Fortuna Sittard",
-    "logo": "https://crests.football-data.org/1920.png",
-    "gespeeld": 31,
-    "punten": 36,
-    "gewonnen": 10,
-    "gelijk": 6,
-    "verloren": 15,
-    "doelsaldo": -12,
-    "voor": 45,
-    "tegen": 57
+    "positie": 13,
+    "club": "PEC Zwolle",
+    "logo": "https://crests.football-data.org/684.png",
+    "gespeeld": 32,
+    "punten": 37,
+    "gewonnen": 9,
+    "gelijk": 10,
+    "verloren": 13,
+    "doelsaldo": -24,
+    "voor": 42,
+    "tegen": 66
   },
   {
-    "positie": 13,
+    "positie": 14,
     "club": "SBV Excelsior",
     "logo": "https://crests.football-data.org/670.png",
     "gespeeld": 32,
@@ -167,19 +180,6 @@
     "doelsaldo": -14,
     "voor": 39,
     "tegen": 53
-  },
-  {
-    "positie": 14,
-    "club": "PEC Zwolle",
-    "logo": "https://crests.football-data.org/684.png",
-    "gespeeld": 31,
-    "punten": 34,
-    "gewonnen": 8,
-    "gelijk": 10,
-    "verloren": 13,
-    "doelsaldo": -25,
-    "voor": 41,
-    "tegen": 66
   },
   {
     "positie": 15,
@@ -203,9 +203,9 @@
     "gewonnen": 8,
     "gelijk": 7,
     "verloren": 17,
-    "doelsaldo": -18,
+    "doelsaldo": -19,
     "voor": 33,
-    "tegen": 51
+    "tegen": 52
   },
   {
     "positie": 17,
@@ -224,13 +224,13 @@
     "positie": 18,
     "club": "Heracles",
     "logo": "https://crests.football-data.org/671.png",
-    "gespeeld": 31,
+    "gespeeld": 32,
     "punten": 19,
     "gewonnen": 5,
     "gelijk": 4,
-    "verloren": 22,
-    "doelsaldo": -45,
+    "verloren": 23,
+    "doelsaldo": -46,
     "voor": 34,
-    "tegen": 79
+    "tegen": 80
   }
 ]
