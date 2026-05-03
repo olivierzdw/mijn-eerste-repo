@@ -66,6 +66,19 @@
   },
   {
     "positie": 6,
+    "club": "Heerenveen",
+    "logo": "https://crests.football-data.org/673.png",
+    "gespeeld": 32,
+    "punten": 50,
+    "gewonnen": 14,
+    "gelijk": 8,
+    "verloren": 10,
+    "doelsaldo": 5,
+    "voor": 56,
+    "tegen": 51
+  },
+  {
+    "positie": 7,
     "club": "AZ",
     "logo": "https://crests.football-data.org/682.png",
     "gespeeld": 31,
@@ -78,7 +91,7 @@
     "tegen": 45
   },
   {
-    "positie": 7,
+    "positie": 8,
     "club": "FC Utrecht",
     "logo": "https://crests.football-data.org/676.png",
     "gespeeld": 32,
@@ -89,19 +102,6 @@
     "doelsaldo": 10,
     "voor": 51,
     "tegen": 41
-  },
-  {
-    "positie": 8,
-    "club": "Heerenveen",
-    "logo": "https://crests.football-data.org/673.png",
-    "gespeeld": 31,
-    "punten": 47,
-    "gewonnen": 13,
-    "gelijk": 8,
-    "verloren": 10,
-    "doelsaldo": 4,
-    "voor": 55,
-    "tegen": 51
   },
   {
     "positie": 9,
@@ -198,14 +198,14 @@
     "positie": 16,
     "club": "FC Volendam",
     "logo": "https://crests.football-data.org/1919.png",
-    "gespeeld": 31,
+    "gespeeld": 32,
     "punten": 31,
     "gewonnen": 8,
     "gelijk": 7,
-    "verloren": 16,
-    "doelsaldo": -17,
+    "verloren": 17,
+    "doelsaldo": -18,
     "voor": 33,
-    "tegen": 50
+    "tegen": 51
   },
   {
     "positie": 17,
