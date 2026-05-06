@@ -6973,6 +6973,26 @@
       "uitLogo": "https://crests.football-data.org/498.png",
       "thuisScore": 0,
       "uitScore": 0
+    },
+    {
+      "id": 552093,
+      "datum": "wo 29 april",
+      "thuis": "Club Atlético de Madrid",
+      "thuisLogo": "https://crests.football-data.org/78.png",
+      "uit": "Arsenal FC",
+      "uitLogo": "https://crests.football-data.org/57.png",
+      "thuisScore": 1,
+      "uitScore": 1
+    },
+    {
+      "id": 552095,
+      "datum": "di 5 mei",
+      "thuis": "Arsenal FC",
+      "thuisLogo": "https://crests.football-data.org/57.png",
+      "uit": "Club Atlético de Madrid",
+      "uitLogo": "https://crests.football-data.org/78.png",
+      "thuisScore": 1,
+      "uitScore": 0
     }
   ],
   "341": [
@@ -9928,7 +9948,7 @@
       "uit": "FC Barcelona",
       "uitLogo": "https://crests.football-data.org/81.png",
       "thuisScore": 1,
-      "uitScore": 3
+      "uitScore": 2
     }
   ],
   "263": [
@@ -13568,7 +13588,27 @@
       "uit": "FC Barcelona",
       "uitLogo": "https://crests.football-data.org/81.png",
       "thuisScore": 1,
-      "uitScore": 3
+      "uitScore": 2
+    },
+    {
+      "id": 552093,
+      "datum": "wo 29 april",
+      "thuis": "Club Atlético de Madrid",
+      "thuisLogo": "https://crests.football-data.org/78.png",
+      "uit": "Arsenal FC",
+      "uitLogo": "https://crests.football-data.org/57.png",
+      "thuisScore": 1,
+      "uitScore": 1
+    },
+    {
+      "id": 552095,
+      "datum": "di 5 mei",
+      "thuis": "Arsenal FC",
+      "thuisLogo": "https://crests.football-data.org/57.png",
+      "uit": "Club Atlético de Madrid",
+      "uitLogo": "https://crests.football-data.org/78.png",
+      "thuisScore": 1,
+      "uitScore": 0
     }
   ],
   "285": [
@@ -15519,6 +15559,16 @@
       "uitLogo": "https://crests.football-data.org/86.png",
       "thuisScore": 4,
       "uitScore": 3
+    },
+    {
+      "id": 552092,
+      "datum": "di 28 april",
+      "thuis": "Paris Saint-Germain FC",
+      "thuisLogo": "https://crests.football-data.org/524.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png",
+      "thuisScore": 5,
+      "uitScore": 4
     }
   ],
   "721": [
@@ -21985,7 +22035,7 @@
       "thuisLogo": "https://crests.football-data.org/450.png",
       "uit": "US Lecce",
       "uitLogo": "https://crests.football-data.org/5890.png",
-      "thuisScore": 0,
+      "thuisScore": 1,
       "uitScore": 0
     },
     {
@@ -27917,7 +27967,7 @@
       "thuisLogo": "https://crests.football-data.org/450.png",
       "uit": "US Lecce",
       "uitLogo": "https://crests.football-data.org/5890.png",
-      "thuisScore": 0,
+      "thuisScore": 1,
       "uitScore": 0
     },
     {
@@ -31448,7 +31498,7 @@
       "uit": "Lille OSC",
       "uitLogo": "https://crests.football-data.org/521.png",
       "thuisScore": 0,
-      "uitScore": 4
+      "uitScore": 5
     },
     {
       "id": 542674,
@@ -32082,7 +32132,7 @@
       "uit": "Lille OSC",
       "uitLogo": "https://crests.football-data.org/521.png",
       "thuisScore": 0,
-      "uitScore": 4
+      "uitScore": 5
     },
     {
       "id": 542671,
@@ -34809,6 +34859,16 @@
       "uitLogo": "https://crests.football-data.org/524.png",
       "thuisScore": 0,
       "uitScore": 2
+    },
+    {
+      "id": 552092,
+      "datum": "di 28 april",
+      "thuis": "Paris Saint-Germain FC",
+      "thuisLogo": "https://crests.football-data.org/524.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png",
+      "thuisScore": 5,
+      "uitScore": 4
     }
   ],
   "1920": [
@@ -38429,7 +38489,7 @@
       "thuisLogo": "https://crests.football-data.org/684.png",
       "uit": "Heracles Almelo",
       "uitLogo": "https://crests.football-data.org/671.png",
-      "thuisScore": 1,
+      "thuisScore": 2,
       "uitScore": 0
     }
   ],
@@ -40763,7 +40823,7 @@
       "thuisLogo": "https://crests.football-data.org/684.png",
       "uit": "Heracles Almelo",
       "uitLogo": "https://crests.football-data.org/671.png",
-      "thuisScore": 1,
+      "thuisScore": 2,
       "uitScore": 0
     }
   ],
@@ -61609,28 +61669,6 @@
       "uitLogo": "https://crests.football-data.org/10601.png",
       "thuisScore": 3,
       "uitScore": 2
-    }
-  ],
-  "None": [
-    {
-      "id": 552092,
-      "datum": "di 28 april",
-      "thuis": null,
-      "thuisLogo": null,
-      "uit": null,
-      "uitLogo": null,
-      "thuisScore": 5,
-      "uitScore": 4
-    },
-    {
-      "id": 552093,
-      "datum": "wo 29 april",
-      "thuis": null,
-      "thuisLogo": null,
-      "uit": null,
-      "uitLogo": null,
-      "thuisScore": 1,
-      "uitScore": 1
     }
   ]
 }

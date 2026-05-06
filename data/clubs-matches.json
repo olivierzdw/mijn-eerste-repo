@@ -481,14 +481,6 @@
       "thuisLogo": "https://crests.football-data.org/354.png",
       "uit": "Arsenal FC",
       "uitLogo": "https://crests.football-data.org/57.png"
-    },
-    {
-      "id": 552095,
-      "datum": "di 5 mei 21:00",
-      "thuis": "Arsenal FC",
-      "thuisLogo": "https://crests.football-data.org/57.png",
-      "uit": "Club Atlético de Madrid",
-      "uitLogo": "https://crests.football-data.org/78.png"
     }
   ],
   "73": [
@@ -562,7 +554,7 @@
     },
     {
       "id": 544575,
-      "datum": "zo 17 mei 02:00",
+      "datum": "zo 17 mei 19:00",
       "thuis": "Levante UD",
       "thuisLogo": "https://crests.football-data.org/88.png",
       "uit": "RCD Mallorca",
@@ -596,7 +588,7 @@
     },
     {
       "id": 544579,
-      "datum": "zo 17 mei 02:00",
+      "datum": "zo 17 mei 19:00",
       "thuis": "CA Osasuna",
       "thuisLogo": "https://crests.football-data.org/79.png",
       "uit": "RCD Espanyol de Barcelona",
@@ -630,7 +622,7 @@
     },
     {
       "id": 544574,
-      "datum": "zo 17 mei 02:00",
+      "datum": "zo 17 mei 19:00",
       "thuis": "Elche CF",
       "thuisLogo": "https://crests.football-data.org/285.png",
       "uit": "Getafe CF",
@@ -664,7 +656,7 @@
     },
     {
       "id": 544578,
-      "datum": "zo 17 mei 02:00",
+      "datum": "zo 17 mei 19:00",
       "thuis": "Real Oviedo",
       "thuisLogo": "https://crests.football-data.org/1048.png",
       "uit": "Deportivo Alavés",
@@ -698,7 +690,7 @@
     },
     {
       "id": 544580,
-      "datum": "zo 17 mei 02:00",
+      "datum": "zo 17 mei 19:00",
       "thuis": "Sevilla FC",
       "thuisLogo": "https://crests.football-data.org/559.png",
       "uit": "Real Madrid CF",
@@ -732,7 +724,7 @@
     },
     {
       "id": 544579,
-      "datum": "zo 17 mei 02:00",
+      "datum": "zo 17 mei 19:00",
       "thuis": "CA Osasuna",
       "thuisLogo": "https://crests.football-data.org/79.png",
       "uit": "RCD Espanyol de Barcelona",
@@ -766,7 +758,7 @@
     },
     {
       "id": 544572,
-      "datum": "zo 17 mei 02:00",
+      "datum": "zo 17 mei 19:00",
       "thuis": "Club Atlético de Madrid",
       "thuisLogo": "https://crests.football-data.org/78.png",
       "uit": "Girona FC",
@@ -777,14 +769,6 @@
       "datum": "zo 24 mei 02:00",
       "thuis": "Villarreal CF",
       "thuisLogo": "https://crests.football-data.org/94.png",
-      "uit": "Club Atlético de Madrid",
-      "uitLogo": "https://crests.football-data.org/78.png"
-    },
-    {
-      "id": 552095,
-      "datum": "di 5 mei 21:00",
-      "thuis": "Arsenal FC",
-      "thuisLogo": "https://crests.football-data.org/57.png",
       "uit": "Club Atlético de Madrid",
       "uitLogo": "https://crests.football-data.org/78.png"
     }
@@ -808,7 +792,7 @@
     },
     {
       "id": 544571,
-      "datum": "zo 17 mei 02:00",
+      "datum": "zo 17 mei 19:00",
       "thuis": "Athletic Club",
       "thuisLogo": "https://crests.football-data.org/77.png",
       "uit": "RC Celta de Vigo",
@@ -842,7 +826,7 @@
     },
     {
       "id": 544577,
-      "datum": "zo 17 mei 02:00",
+      "datum": "zo 17 mei 19:00",
       "thuis": "Real Sociedad de Fútbol",
       "thuisLogo": "https://crests.football-data.org/92.png",
       "uit": "Valencia CF",
@@ -876,7 +860,7 @@
     },
     {
       "id": 544573,
-      "datum": "zo 17 mei 02:00",
+      "datum": "zo 17 mei 19:00",
       "thuis": "FC Barcelona",
       "thuisLogo": "https://crests.football-data.org/81.png",
       "uit": "Real Betis Balompié",
@@ -910,7 +894,7 @@
     },
     {
       "id": 544575,
-      "datum": "zo 17 mei 02:00",
+      "datum": "zo 17 mei 19:00",
       "thuis": "Levante UD",
       "thuisLogo": "https://crests.football-data.org/88.png",
       "uit": "RCD Mallorca",
@@ -944,7 +928,7 @@
     },
     {
       "id": 544576,
-      "datum": "zo 17 mei 02:00",
+      "datum": "zo 17 mei 19:00",
       "thuis": "Rayo Vallecano de Madrid",
       "thuisLogo": "https://crests.football-data.org/87.png",
       "uit": "Villarreal CF",
@@ -978,7 +962,7 @@
     },
     {
       "id": 544571,
-      "datum": "zo 17 mei 02:00",
+      "datum": "zo 17 mei 19:00",
       "thuis": "Athletic Club",
       "thuisLogo": "https://crests.football-data.org/77.png",
       "uit": "RC Celta de Vigo",
@@ -1012,7 +996,7 @@
     },
     {
       "id": 544577,
-      "datum": "zo 17 mei 02:00",
+      "datum": "zo 17 mei 19:00",
       "thuis": "Real Sociedad de Fútbol",
       "thuisLogo": "https://crests.football-data.org/92.png",
       "uit": "Valencia CF",
@@ -1046,7 +1030,7 @@
     },
     {
       "id": 544578,
-      "datum": "zo 17 mei 02:00",
+      "datum": "zo 17 mei 19:00",
       "thuis": "Real Oviedo",
       "thuisLogo": "https://crests.football-data.org/1048.png",
       "uit": "Deportivo Alavés",
@@ -1080,7 +1064,7 @@
     },
     {
       "id": 544574,
-      "datum": "zo 17 mei 02:00",
+      "datum": "zo 17 mei 19:00",
       "thuis": "Elche CF",
       "thuisLogo": "https://crests.football-data.org/285.png",
       "uit": "Getafe CF",
@@ -1114,7 +1098,7 @@
     },
     {
       "id": 544573,
-      "datum": "zo 17 mei 02:00",
+      "datum": "zo 17 mei 19:00",
       "thuis": "FC Barcelona",
       "thuisLogo": "https://crests.football-data.org/81.png",
       "uit": "Real Betis Balompié",
@@ -1148,7 +1132,7 @@
     },
     {
       "id": 544580,
-      "datum": "zo 17 mei 02:00",
+      "datum": "zo 17 mei 19:00",
       "thuis": "Sevilla FC",
       "thuisLogo": "https://crests.football-data.org/559.png",
       "uit": "Real Madrid CF",
@@ -1182,7 +1166,7 @@
     },
     {
       "id": 544576,
-      "datum": "zo 17 mei 02:00",
+      "datum": "zo 17 mei 19:00",
       "thuis": "Rayo Vallecano de Madrid",
       "thuisLogo": "https://crests.football-data.org/87.png",
       "uit": "Villarreal CF",
@@ -1216,7 +1200,7 @@
     },
     {
       "id": 544572,
-      "datum": "zo 17 mei 02:00",
+      "datum": "zo 17 mei 19:00",
       "thuis": "Club Atlético de Madrid",
       "thuisLogo": "https://crests.football-data.org/78.png",
       "uit": "Girona FC",
@@ -1445,14 +1429,6 @@
       "thuisLogo": "https://crests.football-data.org/5.png",
       "uit": "1. FC Köln",
       "uitLogo": "https://crests.football-data.org/1.png"
-    },
-    {
-      "id": 552094,
-      "datum": "wo 6 mei 21:00",
-      "thuis": "FC Bayern München",
-      "thuisLogo": "https://crests.football-data.org/5.png",
-      "uit": "Paris Saint-Germain FC",
-      "uitLogo": "https://crests.football-data.org/524.png"
     }
   ],
   "7": [
@@ -2331,14 +2307,6 @@
       "thuisLogo": "https://crests.football-data.org/1045.png",
       "uit": "Paris Saint-Germain FC",
       "uitLogo": "https://crests.football-data.org/524.png"
-    },
-    {
-      "id": 552094,
-      "datum": "wo 6 mei 21:00",
-      "thuis": "FC Bayern München",
-      "thuisLogo": "https://crests.football-data.org/5.png",
-      "uit": "Paris Saint-Germain FC",
-      "uitLogo": "https://crests.football-data.org/524.png"
     }
   ],
   "512": [
@@ -2771,118 +2739,10 @@
       "uitLogo": "https://crests.football-data.org/670.png"
     }
   ],
-  "5543": [
-    {
-      "id": 545988,
-      "datum": "zo 10 mei 02:00",
-      "thuis": "Vitória SC",
-      "thuisLogo": "https://crests.football-data.org/5543.png",
-      "uit": "Casa Pia AC",
-      "uitLogo": "https://crests.football-data.org/6618.png"
-    },
-    {
-      "id": 546002,
-      "datum": "zo 17 mei 02:00",
-      "thuis": "CD Nacional",
-      "thuisLogo": "https://crests.football-data.org/5529.png",
-      "uit": "Vitória SC",
-      "uitLogo": "https://crests.football-data.org/5543.png"
-    }
-  ],
-  "6618": [
-    {
-      "id": 545988,
-      "datum": "zo 10 mei 02:00",
-      "thuis": "Vitória SC",
-      "thuisLogo": "https://crests.football-data.org/5543.png",
-      "uit": "Casa Pia AC",
-      "uitLogo": "https://crests.football-data.org/6618.png"
-    },
-    {
-      "id": 546003,
-      "datum": "zo 17 mei 02:00",
-      "thuis": "Casa Pia AC",
-      "thuisLogo": "https://crests.football-data.org/6618.png",
-      "uit": "Rio Ave FC",
-      "uitLogo": "https://crests.football-data.org/496.png"
-    }
-  ],
-  "5533": [
-    {
-      "id": 545989,
-      "datum": "zo 10 mei 02:00",
-      "thuis": "Gil Vicente FC",
-      "thuisLogo": "https://crests.football-data.org/5533.png",
-      "uit": "FC Arouca",
-      "uitLogo": "https://crests.football-data.org/712.png"
-    },
-    {
-      "id": 545999,
-      "datum": "zo 17 mei 02:00",
-      "thuis": "Sporting Clube de Portugal",
-      "thuisLogo": "https://crests.football-data.org/498.png",
-      "uit": "Gil Vicente FC",
-      "uitLogo": "https://crests.football-data.org/5533.png"
-    }
-  ],
-  "712": [
-    {
-      "id": 545989,
-      "datum": "zo 10 mei 02:00",
-      "thuis": "Gil Vicente FC",
-      "thuisLogo": "https://crests.football-data.org/5533.png",
-      "uit": "FC Arouca",
-      "uitLogo": "https://crests.football-data.org/712.png"
-    },
-    {
-      "id": 546004,
-      "datum": "zo 17 mei 02:00",
-      "thuis": "FC Arouca",
-      "thuisLogo": "https://crests.football-data.org/712.png",
-      "uit": "CD Tondela",
-      "uitLogo": "https://crests.football-data.org/1049.png"
-    }
-  ],
-  "1049": [
-    {
-      "id": 545990,
-      "datum": "zo 10 mei 02:00",
-      "thuis": "CD Tondela",
-      "thuisLogo": "https://crests.football-data.org/1049.png",
-      "uit": "Moreirense FC",
-      "uitLogo": "https://crests.football-data.org/583.png"
-    },
-    {
-      "id": 546004,
-      "datum": "zo 17 mei 02:00",
-      "thuis": "FC Arouca",
-      "thuisLogo": "https://crests.football-data.org/712.png",
-      "uit": "CD Tondela",
-      "uitLogo": "https://crests.football-data.org/1049.png"
-    }
-  ],
-  "583": [
-    {
-      "id": 545990,
-      "datum": "zo 10 mei 02:00",
-      "thuis": "CD Tondela",
-      "thuisLogo": "https://crests.football-data.org/1049.png",
-      "uit": "Moreirense FC",
-      "uitLogo": "https://crests.football-data.org/583.png"
-    },
-    {
-      "id": 545997,
-      "datum": "zo 17 mei 02:00",
-      "thuis": "Moreirense FC",
-      "thuisLogo": "https://crests.football-data.org/583.png",
-      "uit": "AVS",
-      "uitLogo": "https://crests.football-data.org/10340.png"
-    }
-  ],
   "10340": [
     {
       "id": 545991,
-      "datum": "zo 10 mei 02:00",
+      "datum": "zo 10 mei 19:00",
       "thuis": "AVS",
       "thuisLogo": "https://crests.football-data.org/10340.png",
       "uit": "FC Porto",
@@ -2900,7 +2760,7 @@
   "503": [
     {
       "id": 545991,
-      "datum": "zo 10 mei 02:00",
+      "datum": "zo 10 mei 19:00",
       "thuis": "AVS",
       "thuisLogo": "https://crests.football-data.org/10340.png",
       "uit": "FC Porto",
@@ -2915,46 +2775,10 @@
       "uitLogo": "https://crests.football-data.org/5530.png"
     }
   ],
-  "9136": [
-    {
-      "id": 545992,
-      "datum": "zo 10 mei 02:00",
-      "thuis": "CF Estrela da Amadora",
-      "thuisLogo": "https://crests.football-data.org/9136.png",
-      "uit": "FC Famalicão",
-      "uitLogo": "https://crests.football-data.org/5531.png"
-    },
-    {
-      "id": 546005,
-      "datum": "zo 17 mei 02:00",
-      "thuis": "Sporting Clube de Braga",
-      "thuisLogo": "https://crests.football-data.org/5613.png",
-      "uit": "CF Estrela da Amadora",
-      "uitLogo": "https://crests.football-data.org/9136.png"
-    }
-  ],
-  "5531": [
-    {
-      "id": 545992,
-      "datum": "zo 10 mei 02:00",
-      "thuis": "CF Estrela da Amadora",
-      "thuisLogo": "https://crests.football-data.org/9136.png",
-      "uit": "FC Famalicão",
-      "uitLogo": "https://crests.football-data.org/5531.png"
-    },
-    {
-      "id": 545998,
-      "datum": "zo 17 mei 02:00",
-      "thuis": "FC Famalicão",
-      "thuisLogo": "https://crests.football-data.org/5531.png",
-      "uit": "FC Alverca",
-      "uitLogo": "https://crests.football-data.org/7822.png"
-    }
-  ],
   "7822": [
     {
       "id": 545993,
-      "datum": "zo 10 mei 02:00",
+      "datum": "zo 10 mei 21:30",
       "thuis": "FC Alverca",
       "thuisLogo": "https://crests.football-data.org/7822.png",
       "uit": "GD Estoril Praia",
@@ -2972,7 +2796,7 @@
   "582": [
     {
       "id": 545993,
-      "datum": "zo 10 mei 02:00",
+      "datum": "zo 10 mei 21:30",
       "thuis": "FC Alverca",
       "thuisLogo": "https://crests.football-data.org/7822.png",
       "uit": "GD Estoril Praia",
@@ -2987,10 +2811,154 @@
       "uitLogo": "https://crests.football-data.org/1903.png"
     }
   ],
+  "5543": [
+    {
+      "id": 545988,
+      "datum": "ma 11 mei 21:15",
+      "thuis": "Vitória SC",
+      "thuisLogo": "https://crests.football-data.org/5543.png",
+      "uit": "Casa Pia AC",
+      "uitLogo": "https://crests.football-data.org/6618.png"
+    },
+    {
+      "id": 546002,
+      "datum": "zo 17 mei 02:00",
+      "thuis": "CD Nacional",
+      "thuisLogo": "https://crests.football-data.org/5529.png",
+      "uit": "Vitória SC",
+      "uitLogo": "https://crests.football-data.org/5543.png"
+    }
+  ],
+  "6618": [
+    {
+      "id": 545988,
+      "datum": "ma 11 mei 21:15",
+      "thuis": "Vitória SC",
+      "thuisLogo": "https://crests.football-data.org/5543.png",
+      "uit": "Casa Pia AC",
+      "uitLogo": "https://crests.football-data.org/6618.png"
+    },
+    {
+      "id": 546003,
+      "datum": "zo 17 mei 02:00",
+      "thuis": "Casa Pia AC",
+      "thuisLogo": "https://crests.football-data.org/6618.png",
+      "uit": "Rio Ave FC",
+      "uitLogo": "https://crests.football-data.org/496.png"
+    }
+  ],
+  "5533": [
+    {
+      "id": 545989,
+      "datum": "ma 11 mei 21:15",
+      "thuis": "Gil Vicente FC",
+      "thuisLogo": "https://crests.football-data.org/5533.png",
+      "uit": "FC Arouca",
+      "uitLogo": "https://crests.football-data.org/712.png"
+    },
+    {
+      "id": 545999,
+      "datum": "zo 17 mei 02:00",
+      "thuis": "Sporting Clube de Portugal",
+      "thuisLogo": "https://crests.football-data.org/498.png",
+      "uit": "Gil Vicente FC",
+      "uitLogo": "https://crests.football-data.org/5533.png"
+    }
+  ],
+  "712": [
+    {
+      "id": 545989,
+      "datum": "ma 11 mei 21:15",
+      "thuis": "Gil Vicente FC",
+      "thuisLogo": "https://crests.football-data.org/5533.png",
+      "uit": "FC Arouca",
+      "uitLogo": "https://crests.football-data.org/712.png"
+    },
+    {
+      "id": 546004,
+      "datum": "zo 17 mei 02:00",
+      "thuis": "FC Arouca",
+      "thuisLogo": "https://crests.football-data.org/712.png",
+      "uit": "CD Tondela",
+      "uitLogo": "https://crests.football-data.org/1049.png"
+    }
+  ],
+  "1049": [
+    {
+      "id": 545990,
+      "datum": "ma 11 mei 21:15",
+      "thuis": "CD Tondela",
+      "thuisLogo": "https://crests.football-data.org/1049.png",
+      "uit": "Moreirense FC",
+      "uitLogo": "https://crests.football-data.org/583.png"
+    },
+    {
+      "id": 546004,
+      "datum": "zo 17 mei 02:00",
+      "thuis": "FC Arouca",
+      "thuisLogo": "https://crests.football-data.org/712.png",
+      "uit": "CD Tondela",
+      "uitLogo": "https://crests.football-data.org/1049.png"
+    }
+  ],
+  "583": [
+    {
+      "id": 545990,
+      "datum": "ma 11 mei 21:15",
+      "thuis": "CD Tondela",
+      "thuisLogo": "https://crests.football-data.org/1049.png",
+      "uit": "Moreirense FC",
+      "uitLogo": "https://crests.football-data.org/583.png"
+    },
+    {
+      "id": 545997,
+      "datum": "zo 17 mei 02:00",
+      "thuis": "Moreirense FC",
+      "thuisLogo": "https://crests.football-data.org/583.png",
+      "uit": "AVS",
+      "uitLogo": "https://crests.football-data.org/10340.png"
+    }
+  ],
+  "9136": [
+    {
+      "id": 545992,
+      "datum": "ma 11 mei 21:15",
+      "thuis": "CF Estrela da Amadora",
+      "thuisLogo": "https://crests.football-data.org/9136.png",
+      "uit": "FC Famalicão",
+      "uitLogo": "https://crests.football-data.org/5531.png"
+    },
+    {
+      "id": 546005,
+      "datum": "zo 17 mei 02:00",
+      "thuis": "Sporting Clube de Braga",
+      "thuisLogo": "https://crests.football-data.org/5613.png",
+      "uit": "CF Estrela da Amadora",
+      "uitLogo": "https://crests.football-data.org/9136.png"
+    }
+  ],
+  "5531": [
+    {
+      "id": 545992,
+      "datum": "ma 11 mei 21:15",
+      "thuis": "CF Estrela da Amadora",
+      "thuisLogo": "https://crests.football-data.org/9136.png",
+      "uit": "FC Famalicão",
+      "uitLogo": "https://crests.football-data.org/5531.png"
+    },
+    {
+      "id": 545998,
+      "datum": "zo 17 mei 02:00",
+      "thuis": "FC Famalicão",
+      "thuisLogo": "https://crests.football-data.org/5531.png",
+      "uit": "FC Alverca",
+      "uitLogo": "https://crests.football-data.org/7822.png"
+    }
+  ],
   "496": [
     {
       "id": 545994,
-      "datum": "zo 10 mei 02:00",
+      "datum": "ma 11 mei 21:15",
       "thuis": "Rio Ave FC",
       "thuisLogo": "https://crests.football-data.org/496.png",
       "uit": "Sporting Clube de Portugal",
@@ -3008,7 +2976,7 @@
   "498": [
     {
       "id": 545994,
-      "datum": "zo 10 mei 02:00",
+      "datum": "ma 11 mei 21:15",
       "thuis": "Rio Ave FC",
       "thuisLogo": "https://crests.football-data.org/496.png",
       "uit": "Sporting Clube de Portugal",
@@ -3026,7 +2994,7 @@
   "5530": [
     {
       "id": 545995,
-      "datum": "zo 10 mei 02:00",
+      "datum": "ma 11 mei 21:15",
       "thuis": "CD Santa Clara",
       "thuisLogo": "https://crests.football-data.org/5530.png",
       "uit": "CD Nacional",
@@ -3044,7 +3012,7 @@
   "5529": [
     {
       "id": 545995,
-      "datum": "zo 10 mei 02:00",
+      "datum": "ma 11 mei 21:15",
       "thuis": "CD Santa Clara",
       "thuisLogo": "https://crests.football-data.org/5530.png",
       "uit": "CD Nacional",
@@ -3062,7 +3030,7 @@
   "1903": [
     {
       "id": 545996,
-      "datum": "zo 10 mei 02:00",
+      "datum": "ma 11 mei 21:15",
       "thuis": "Sport Lisboa e Benfica",
       "thuisLogo": "https://crests.football-data.org/1903.png",
       "uit": "Sporting Clube de Braga",
@@ -3080,7 +3048,7 @@
   "5613": [
     {
       "id": 545996,
-      "datum": "zo 10 mei 02:00",
+      "datum": "ma 11 mei 21:15",
       "thuis": "Sport Lisboa e Benfica",
       "thuisLogo": "https://crests.football-data.org/1903.png",
       "uit": "Sporting Clube de Braga",
@@ -6976,6 +6944,14 @@
     }
   ],
   "None": [
+    {
+      "id": 552094,
+      "datum": "wo 6 mei 21:00",
+      "thuis": null,
+      "thuisLogo": null,
+      "uit": null,
+      "uitLogo": null
+    },
     {
       "id": 552096,
       "datum": "za 30 mei 18:00",
