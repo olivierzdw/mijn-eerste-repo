@@ -15569,6 +15569,16 @@
       "uitLogo": "https://crests.football-data.org/5.png",
       "thuisScore": 5,
       "uitScore": 4
+    },
+    {
+      "id": 552094,
+      "datum": "wo 6 mei",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "Paris Saint-Germain FC",
+      "uitLogo": "https://crests.football-data.org/524.png",
+      "thuisScore": 1,
+      "uitScore": 1
     }
   ],
   "721": [
@@ -23513,7 +23523,7 @@
       "thuisLogo": "https://crests.football-data.org/457.png",
       "uit": "Torino FC",
       "uitLogo": "https://crests.football-data.org/586.png",
-      "thuisScore": 0,
+      "thuisScore": 1,
       "uitScore": 0
     },
     {
@@ -28761,7 +28771,7 @@
       "thuisLogo": "https://crests.football-data.org/457.png",
       "uit": "Torino FC",
       "uitLogo": "https://crests.football-data.org/586.png",
-      "thuisScore": 0,
+      "thuisScore": 1,
       "uitScore": 0
     },
     {
@@ -31498,7 +31508,7 @@
       "uit": "Lille OSC",
       "uitLogo": "https://crests.football-data.org/521.png",
       "thuisScore": 0,
-      "uitScore": 5
+      "uitScore": 4
     },
     {
       "id": 542674,
@@ -32132,7 +32142,7 @@
       "uit": "Lille OSC",
       "uitLogo": "https://crests.football-data.org/521.png",
       "thuisScore": 0,
-      "uitScore": 5
+      "uitScore": 4
     },
     {
       "id": 542671,
@@ -34869,6 +34879,16 @@
       "uitLogo": "https://crests.football-data.org/5.png",
       "thuisScore": 5,
       "uitScore": 4
+    },
+    {
+      "id": 552094,
+      "datum": "wo 6 mei",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "Paris Saint-Germain FC",
+      "uitLogo": "https://crests.football-data.org/524.png",
+      "thuisScore": 1,
+      "uitScore": 1
     }
   ],
   "1920": [
@@ -38489,7 +38509,7 @@
       "thuisLogo": "https://crests.football-data.org/684.png",
       "uit": "Heracles Almelo",
       "uitLogo": "https://crests.football-data.org/671.png",
-      "thuisScore": 2,
+      "thuisScore": 1,
       "uitScore": 0
     }
   ],
@@ -40823,7 +40843,7 @@
       "thuisLogo": "https://crests.football-data.org/684.png",
       "uit": "Heracles Almelo",
       "uitLogo": "https://crests.football-data.org/671.png",
-      "thuisScore": 2,
+      "thuisScore": 1,
       "uitScore": 0
     }
   ],
@@ -47123,7 +47143,7 @@
       "thuisLogo": "https://crests.football-data.org/1769.png",
       "uit": "Santos FC",
       "uitLogo": "https://crests.football-data.org/6685.png",
-      "thuisScore": 2,
+      "thuisScore": 1,
       "uitScore": 1
     }
   ],
@@ -47255,7 +47275,7 @@
       "thuisLogo": "https://crests.football-data.org/1767.png",
       "uit": "Coritiba FBC",
       "uitLogo": "https://crests.football-data.org/4241.png",
-      "thuisScore": 2,
+      "thuisScore": 1,
       "uitScore": 0
     },
     {
@@ -48239,7 +48259,7 @@
       "thuisLogo": "https://crests.football-data.org/1767.png",
       "uit": "Coritiba FBC",
       "uitLogo": "https://crests.football-data.org/4241.png",
-      "thuisScore": 2,
+      "thuisScore": 1,
       "uitScore": 0
     },
     {
@@ -48523,7 +48543,7 @@
       "thuisLogo": "https://crests.football-data.org/1769.png",
       "uit": "Santos FC",
       "uitLogo": "https://crests.football-data.org/6685.png",
-      "thuisScore": 2,
+      "thuisScore": 1,
       "uitScore": 1
     }
   ],
