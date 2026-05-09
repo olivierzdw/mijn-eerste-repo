@@ -8692,7 +8692,7 @@
       "uit": "Villarreal CF",
       "uitLogo": "https://crests.football-data.org/94.png",
       "thuisScore": 1,
-      "uitScore": 2
+      "uitScore": 3
     },
     {
       "id": 544535,
@@ -10633,6 +10633,16 @@
       "uitLogo": "https://crests.football-data.org/88.png",
       "thuisScore": 5,
       "uitScore": 1
+    },
+    {
+      "id": 544554,
+      "datum": "vr 8 mei",
+      "thuis": "Levante UD",
+      "thuisLogo": "https://crests.football-data.org/88.png",
+      "uit": "CA Osasuna",
+      "uitLogo": "https://crests.football-data.org/79.png",
+      "thuisScore": 3,
+      "uitScore": 2
     }
   ],
   "95": [
@@ -12312,7 +12322,7 @@
       "uit": "Villarreal CF",
       "uitLogo": "https://crests.football-data.org/94.png",
       "thuisScore": 1,
-      "uitScore": 2
+      "uitScore": 3
     },
     {
       "id": 544531,
@@ -15117,6 +15127,16 @@
       "uitLogo": "https://crests.football-data.org/81.png",
       "thuisScore": 1,
       "uitScore": 2
+    },
+    {
+      "id": 544554,
+      "datum": "vr 8 mei",
+      "thuis": "Levante UD",
+      "thuisLogo": "https://crests.football-data.org/88.png",
+      "uit": "CA Osasuna",
+      "uitLogo": "https://crests.football-data.org/79.png",
+      "thuisScore": 3,
+      "uitScore": 2
     }
   ],
   "5": [
@@ -16222,6 +16242,16 @@
       "uit": "Hamburger SV",
       "uitLogo": "https://crests.football-data.org/7.png",
       "thuisScore": 1,
+      "uitScore": 2
+    },
+    {
+      "id": 540696,
+      "datum": "vr 8 mei",
+      "thuis": "Borussia Dortmund",
+      "thuisLogo": "https://crests.football-data.org/4.png",
+      "uit": "Eintracht Frankfurt",
+      "uitLogo": "https://crests.football-data.org/19.png",
+      "thuisScore": 3,
       "uitScore": 2
     },
     {
@@ -19967,6 +19997,16 @@
       "uitScore": 0
     },
     {
+      "id": 540696,
+      "datum": "vr 8 mei",
+      "thuis": "Borussia Dortmund",
+      "thuisLogo": "https://crests.football-data.org/4.png",
+      "uit": "Eintracht Frankfurt",
+      "uitLogo": "https://crests.football-data.org/19.png",
+      "thuisScore": 3,
+      "uitScore": 2
+    },
+    {
       "id": 551941,
       "datum": "di 16 september",
       "thuis": "Juventus FC",
@@ -22409,6 +22449,16 @@
       "uitLogo": "https://crests.football-data.org/98.png",
       "thuisScore": 2,
       "uitScore": 0
+    },
+    {
+      "id": 537168,
+      "datum": "vr 8 mei",
+      "thuis": "Torino FC",
+      "thuisLogo": "https://crests.football-data.org/586.png",
+      "uit": "US Sassuolo Calcio",
+      "uitLogo": "https://crests.football-data.org/471.png",
+      "thuisScore": 2,
+      "uitScore": 1
     }
   ],
   "113": [
@@ -28793,6 +28843,16 @@
       "uitLogo": "https://crests.football-data.org/586.png",
       "thuisScore": 2,
       "uitScore": 0
+    },
+    {
+      "id": 537168,
+      "datum": "vr 8 mei",
+      "thuis": "Torino FC",
+      "thuisLogo": "https://crests.football-data.org/586.png",
+      "uit": "US Sassuolo Calcio",
+      "uitLogo": "https://crests.football-data.org/471.png",
+      "thuisScore": 2,
+      "uitScore": 1
     }
   ],
   "529": [
@@ -29829,6 +29889,16 @@
       "uitLogo": "https://crests.football-data.org/546.png",
       "thuisScore": 1,
       "uitScore": 1
+    },
+    {
+      "id": 542700,
+      "datum": "vr 8 mei",
+      "thuis": "Racing Club de Lens",
+      "thuisLogo": "https://crests.football-data.org/546.png",
+      "uit": "FC Nantes",
+      "uitLogo": "https://crests.football-data.org/543.png",
+      "thuisScore": 1,
+      "uitScore": 0
     }
   ],
   "523": [
@@ -34417,6 +34487,16 @@
       "uitLogo": "https://crests.football-data.org/516.png",
       "thuisScore": 3,
       "uitScore": 0
+    },
+    {
+      "id": 542700,
+      "datum": "vr 8 mei",
+      "thuis": "Racing Club de Lens",
+      "thuisLogo": "https://crests.football-data.org/546.png",
+      "uit": "FC Nantes",
+      "uitLogo": "https://crests.football-data.org/543.png",
+      "thuisScore": 1,
+      "uitScore": 0
     }
   ],
   "524": [
@@ -38509,7 +38589,7 @@
       "thuisLogo": "https://crests.football-data.org/684.png",
       "uit": "Heracles Almelo",
       "uitLogo": "https://crests.football-data.org/671.png",
-      "thuisScore": 1,
+      "thuisScore": 2,
       "uitScore": 0
     }
   ],
@@ -40843,7 +40923,7 @@
       "thuisLogo": "https://crests.football-data.org/684.png",
       "uit": "Heracles Almelo",
       "uitLogo": "https://crests.football-data.org/671.png",
-      "thuisScore": 1,
+      "thuisScore": 2,
       "uitScore": 0
     }
   ],

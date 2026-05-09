@@ -543,74 +543,6 @@
       "uitLogo": "https://crests.football-data.org/341.png"
     }
   ],
-  "88": [
-    {
-      "id": 544554,
-      "datum": "vr 8 mei 21:00",
-      "thuis": "Levante UD",
-      "thuisLogo": "https://crests.football-data.org/88.png",
-      "uit": "CA Osasuna",
-      "uitLogo": "https://crests.football-data.org/79.png"
-    },
-    {
-      "id": 544563,
-      "datum": "di 12 mei 19:00",
-      "thuis": "RC Celta de Vigo",
-      "thuisLogo": "https://crests.football-data.org/558.png",
-      "uit": "Levante UD",
-      "uitLogo": "https://crests.football-data.org/88.png"
-    },
-    {
-      "id": 544575,
-      "datum": "zo 17 mei 19:00",
-      "thuis": "Levante UD",
-      "thuisLogo": "https://crests.football-data.org/88.png",
-      "uit": "RCD Mallorca",
-      "uitLogo": "https://crests.football-data.org/89.png"
-    },
-    {
-      "id": 544582,
-      "datum": "zo 24 mei 02:00",
-      "thuis": "Real Betis Balompié",
-      "thuisLogo": "https://crests.football-data.org/90.png",
-      "uit": "Levante UD",
-      "uitLogo": "https://crests.football-data.org/88.png"
-    }
-  ],
-  "79": [
-    {
-      "id": 544554,
-      "datum": "vr 8 mei 21:00",
-      "thuis": "Levante UD",
-      "thuisLogo": "https://crests.football-data.org/88.png",
-      "uit": "CA Osasuna",
-      "uitLogo": "https://crests.football-data.org/79.png"
-    },
-    {
-      "id": 544567,
-      "datum": "di 12 mei 21:30",
-      "thuis": "CA Osasuna",
-      "thuisLogo": "https://crests.football-data.org/79.png",
-      "uit": "Club Atlético de Madrid",
-      "uitLogo": "https://crests.football-data.org/78.png"
-    },
-    {
-      "id": 544579,
-      "datum": "zo 17 mei 19:00",
-      "thuis": "CA Osasuna",
-      "thuisLogo": "https://crests.football-data.org/79.png",
-      "uit": "RCD Espanyol de Barcelona",
-      "uitLogo": "https://crests.football-data.org/80.png"
-    },
-    {
-      "id": 544585,
-      "datum": "zo 24 mei 02:00",
-      "thuis": "Getafe CF",
-      "thuisLogo": "https://crests.football-data.org/82.png",
-      "uit": "CA Osasuna",
-      "uitLogo": "https://crests.football-data.org/79.png"
-    }
-  ],
   "285": [
     {
       "id": 544556,
@@ -1223,40 +1155,56 @@
       "uitLogo": "https://crests.football-data.org/285.png"
     }
   ],
-  "4": [
+  "88": [
     {
-      "id": 540696,
-      "datum": "vr 8 mei 20:30",
-      "thuis": "Borussia Dortmund",
-      "thuisLogo": "https://crests.football-data.org/4.png",
-      "uit": "Eintracht Frankfurt",
-      "uitLogo": "https://crests.football-data.org/19.png"
+      "id": 544563,
+      "datum": "di 12 mei 19:00",
+      "thuis": "RC Celta de Vigo",
+      "thuisLogo": "https://crests.football-data.org/558.png",
+      "uit": "Levante UD",
+      "uitLogo": "https://crests.football-data.org/88.png"
     },
     {
-      "id": 540703,
-      "datum": "za 16 mei 15:30",
-      "thuis": "SV Werder Bremen",
-      "thuisLogo": "https://crests.football-data.org/12.png",
-      "uit": "Borussia Dortmund",
-      "uitLogo": "https://crests.football-data.org/4.png"
+      "id": 544575,
+      "datum": "zo 17 mei 19:00",
+      "thuis": "Levante UD",
+      "thuisLogo": "https://crests.football-data.org/88.png",
+      "uit": "RCD Mallorca",
+      "uitLogo": "https://crests.football-data.org/89.png"
+    },
+    {
+      "id": 544582,
+      "datum": "zo 24 mei 02:00",
+      "thuis": "Real Betis Balompié",
+      "thuisLogo": "https://crests.football-data.org/90.png",
+      "uit": "Levante UD",
+      "uitLogo": "https://crests.football-data.org/88.png"
     }
   ],
-  "19": [
+  "79": [
     {
-      "id": 540696,
-      "datum": "vr 8 mei 20:30",
-      "thuis": "Borussia Dortmund",
-      "thuisLogo": "https://crests.football-data.org/4.png",
-      "uit": "Eintracht Frankfurt",
-      "uitLogo": "https://crests.football-data.org/19.png"
+      "id": 544567,
+      "datum": "di 12 mei 21:30",
+      "thuis": "CA Osasuna",
+      "thuisLogo": "https://crests.football-data.org/79.png",
+      "uit": "Club Atlético de Madrid",
+      "uitLogo": "https://crests.football-data.org/78.png"
     },
     {
-      "id": 540706,
-      "datum": "za 16 mei 15:30",
-      "thuis": "Eintracht Frankfurt",
-      "thuisLogo": "https://crests.football-data.org/19.png",
-      "uit": "VfB Stuttgart",
-      "uitLogo": "https://crests.football-data.org/10.png"
+      "id": 544579,
+      "datum": "zo 17 mei 19:00",
+      "thuis": "CA Osasuna",
+      "thuisLogo": "https://crests.football-data.org/79.png",
+      "uit": "RCD Espanyol de Barcelona",
+      "uitLogo": "https://crests.football-data.org/80.png"
+    },
+    {
+      "id": 544585,
+      "datum": "zo 24 mei 02:00",
+      "thuis": "Getafe CF",
+      "thuisLogo": "https://crests.football-data.org/82.png",
+      "uit": "CA Osasuna",
+      "uitLogo": "https://crests.football-data.org/79.png"
     }
   ],
   "10": [
@@ -1547,56 +1495,24 @@
       "uitLogo": "https://crests.football-data.org/16.png"
     }
   ],
-  "586": [
+  "4": [
     {
-      "id": 537168,
-      "datum": "vr 8 mei 20:45",
-      "thuis": "Torino FC",
-      "thuisLogo": "https://crests.football-data.org/586.png",
-      "uit": "US Sassuolo Calcio",
-      "uitLogo": "https://crests.football-data.org/471.png"
-    },
-    {
-      "id": 537177,
-      "datum": "zo 17 mei 02:00",
-      "thuis": "Cagliari Calcio",
-      "thuisLogo": "https://crests.football-data.org/104.png",
-      "uit": "Torino FC",
-      "uitLogo": "https://crests.football-data.org/586.png"
-    },
-    {
-      "id": 537188,
-      "datum": "zo 24 mei 02:00",
-      "thuis": "Torino FC",
-      "thuisLogo": "https://crests.football-data.org/586.png",
-      "uit": "Juventus FC",
-      "uitLogo": "https://crests.football-data.org/109.png"
+      "id": 540703,
+      "datum": "za 16 mei 15:30",
+      "thuis": "SV Werder Bremen",
+      "thuisLogo": "https://crests.football-data.org/12.png",
+      "uit": "Borussia Dortmund",
+      "uitLogo": "https://crests.football-data.org/4.png"
     }
   ],
-  "471": [
+  "19": [
     {
-      "id": 537168,
-      "datum": "vr 8 mei 20:45",
-      "thuis": "Torino FC",
-      "thuisLogo": "https://crests.football-data.org/586.png",
-      "uit": "US Sassuolo Calcio",
-      "uitLogo": "https://crests.football-data.org/471.png"
-    },
-    {
-      "id": 537183,
-      "datum": "zo 17 mei 02:00",
-      "thuis": "US Sassuolo Calcio",
-      "thuisLogo": "https://crests.football-data.org/471.png",
-      "uit": "US Lecce",
-      "uitLogo": "https://crests.football-data.org/5890.png"
-    },
-    {
-      "id": 537191,
-      "datum": "zo 24 mei 02:00",
-      "thuis": "Parma Calcio 1913",
-      "thuisLogo": "https://crests.football-data.org/112.png",
-      "uit": "US Sassuolo Calcio",
-      "uitLogo": "https://crests.football-data.org/471.png"
+      "id": 540706,
+      "datum": "za 16 mei 15:30",
+      "thuis": "Eintracht Frankfurt",
+      "thuisLogo": "https://crests.football-data.org/19.png",
+      "uit": "VfB Stuttgart",
+      "uitLogo": "https://crests.football-data.org/10.png"
     }
   ],
   "104": [
@@ -2067,48 +1983,40 @@
       "uitLogo": "https://crests.football-data.org/108.png"
     }
   ],
-  "546": [
+  "586": [
     {
-      "id": 542700,
-      "datum": "vr 8 mei 20:45",
-      "thuis": "Racing Club de Lens",
-      "thuisLogo": "https://crests.football-data.org/546.png",
-      "uit": "FC Nantes",
-      "uitLogo": "https://crests.football-data.org/543.png"
+      "id": 537177,
+      "datum": "zo 17 mei 02:00",
+      "thuis": "Cagliari Calcio",
+      "thuisLogo": "https://crests.football-data.org/104.png",
+      "uit": "Torino FC",
+      "uitLogo": "https://crests.football-data.org/586.png"
     },
     {
-      "id": 542664,
-      "datum": "wo 13 mei 21:00",
-      "thuis": "Racing Club de Lens",
-      "thuisLogo": "https://crests.football-data.org/546.png",
-      "uit": "Paris Saint-Germain FC",
-      "uitLogo": "https://crests.football-data.org/524.png"
-    },
-    {
-      "id": 542707,
-      "datum": "zo 17 mei 21:00",
-      "thuis": "Olympique Lyonnais",
-      "thuisLogo": "https://crests.football-data.org/523.png",
-      "uit": "Racing Club de Lens",
-      "uitLogo": "https://crests.football-data.org/546.png"
+      "id": 537188,
+      "datum": "zo 24 mei 02:00",
+      "thuis": "Torino FC",
+      "thuisLogo": "https://crests.football-data.org/586.png",
+      "uit": "Juventus FC",
+      "uitLogo": "https://crests.football-data.org/109.png"
     }
   ],
-  "543": [
+  "471": [
     {
-      "id": 542700,
-      "datum": "vr 8 mei 20:45",
-      "thuis": "Racing Club de Lens",
-      "thuisLogo": "https://crests.football-data.org/546.png",
-      "uit": "FC Nantes",
-      "uitLogo": "https://crests.football-data.org/543.png"
+      "id": 537183,
+      "datum": "zo 17 mei 02:00",
+      "thuis": "US Sassuolo Calcio",
+      "thuisLogo": "https://crests.football-data.org/471.png",
+      "uit": "US Lecce",
+      "uitLogo": "https://crests.football-data.org/5890.png"
     },
     {
-      "id": 542704,
-      "datum": "zo 17 mei 21:00",
-      "thuis": "FC Nantes",
-      "thuisLogo": "https://crests.football-data.org/543.png",
-      "uit": "Toulouse FC",
-      "uitLogo": "https://crests.football-data.org/511.png"
+      "id": 537191,
+      "datum": "zo 24 mei 02:00",
+      "thuis": "Parma Calcio 1913",
+      "thuisLogo": "https://crests.football-data.org/112.png",
+      "uit": "US Sassuolo Calcio",
+      "uitLogo": "https://crests.football-data.org/471.png"
     }
   ],
   "533": [
@@ -2429,6 +2337,34 @@
       "thuisLogo": "https://crests.football-data.org/1045.png",
       "uit": "Paris Saint-Germain FC",
       "uitLogo": "https://crests.football-data.org/524.png"
+    }
+  ],
+  "546": [
+    {
+      "id": 542664,
+      "datum": "wo 13 mei 21:00",
+      "thuis": "Racing Club de Lens",
+      "thuisLogo": "https://crests.football-data.org/546.png",
+      "uit": "Paris Saint-Germain FC",
+      "uitLogo": "https://crests.football-data.org/524.png"
+    },
+    {
+      "id": 542707,
+      "datum": "zo 17 mei 21:00",
+      "thuis": "Olympique Lyonnais",
+      "thuisLogo": "https://crests.football-data.org/523.png",
+      "uit": "Racing Club de Lens",
+      "uitLogo": "https://crests.football-data.org/546.png"
+    }
+  ],
+  "543": [
+    {
+      "id": 542704,
+      "datum": "zo 17 mei 21:00",
+      "thuis": "FC Nantes",
+      "thuisLogo": "https://crests.football-data.org/543.png",
+      "uit": "Toulouse FC",
+      "uitLogo": "https://crests.football-data.org/511.png"
     }
   ],
   "678": [
@@ -6957,78 +6893,6 @@
       "thuisLogo": "https://crests.football-data.org/1768.png",
       "uit": "São Paulo FC",
       "uitLogo": "https://crests.football-data.org/1776.png"
-    }
-  ],
-  "322": [
-    {
-      "id": 557841,
-      "datum": "vr 8 mei 23:00",
-      "thuis": "Hull City AFC",
-      "thuisLogo": "https://crests.football-data.org/322.png",
-      "uit": "Millwall FC",
-      "uitLogo": "https://crests.football-data.org/384.png"
-    },
-    {
-      "id": 557839,
-      "datum": "ma 11 mei 23:00",
-      "thuis": "Millwall FC",
-      "thuisLogo": "https://crests.football-data.org/384.png",
-      "uit": "Hull City AFC",
-      "uitLogo": "https://crests.football-data.org/322.png"
-    }
-  ],
-  "384": [
-    {
-      "id": 557841,
-      "datum": "vr 8 mei 23:00",
-      "thuis": "Hull City AFC",
-      "thuisLogo": "https://crests.football-data.org/322.png",
-      "uit": "Millwall FC",
-      "uitLogo": "https://crests.football-data.org/384.png"
-    },
-    {
-      "id": 557839,
-      "datum": "ma 11 mei 23:00",
-      "thuis": "Millwall FC",
-      "thuisLogo": "https://crests.football-data.org/384.png",
-      "uit": "Hull City AFC",
-      "uitLogo": "https://crests.football-data.org/322.png"
-    }
-  ],
-  "343": [
-    {
-      "id": 557840,
-      "datum": "za 9 mei 15:30",
-      "thuis": "Middlesbrough FC",
-      "thuisLogo": "https://crests.football-data.org/343.png",
-      "uit": "Southampton FC",
-      "uitLogo": "https://crests.football-data.org/340.png"
-    },
-    {
-      "id": 557838,
-      "datum": "di 12 mei 23:00",
-      "thuis": "Southampton FC",
-      "thuisLogo": "https://crests.football-data.org/340.png",
-      "uit": "Middlesbrough FC",
-      "uitLogo": "https://crests.football-data.org/343.png"
-    }
-  ],
-  "340": [
-    {
-      "id": 557840,
-      "datum": "za 9 mei 15:30",
-      "thuis": "Middlesbrough FC",
-      "thuisLogo": "https://crests.football-data.org/343.png",
-      "uit": "Southampton FC",
-      "uitLogo": "https://crests.football-data.org/340.png"
-    },
-    {
-      "id": 557838,
-      "datum": "di 12 mei 23:00",
-      "thuis": "Southampton FC",
-      "thuisLogo": "https://crests.football-data.org/340.png",
-      "uit": "Middlesbrough FC",
-      "uitLogo": "https://crests.football-data.org/343.png"
     }
   ]
 }

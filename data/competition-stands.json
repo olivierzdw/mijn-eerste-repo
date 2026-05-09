@@ -383,14 +383,14 @@
       "positie": 10,
       "club": "CA Osasuna",
       "logo": "https://crests.football-data.org/79.png",
-      "gespeeld": 34,
+      "gespeeld": 35,
       "punten": 42,
       "gewonnen": 11,
       "gelijk": 9,
-      "verloren": 14,
-      "doelsaldo": -2,
-      "voor": 40,
-      "tegen": 42
+      "verloren": 15,
+      "doelsaldo": -3,
+      "voor": 42,
+      "tegen": 45
     },
     {
       "positie": 11,
@@ -500,14 +500,14 @@
       "positie": 19,
       "club": "Levante UD",
       "logo": "https://crests.football-data.org/88.png",
-      "gespeeld": 34,
-      "punten": 33,
-      "gewonnen": 8,
+      "gespeeld": 35,
+      "punten": 36,
+      "gewonnen": 9,
       "gelijk": 9,
       "verloren": 17,
-      "doelsaldo": -17,
-      "voor": 38,
-      "tegen": 55
+      "doelsaldo": -16,
+      "voor": 41,
+      "tegen": 57
     },
     {
       "positie": 20,
@@ -541,14 +541,14 @@
       "positie": 2,
       "club": "Borussia Dortmund",
       "logo": "https://crests.football-data.org/4.png",
-      "gespeeld": 32,
-      "punten": 67,
-      "gewonnen": 20,
+      "gespeeld": 33,
+      "punten": 70,
+      "gewonnen": 21,
       "gelijk": 7,
       "verloren": 5,
-      "doelsaldo": 33,
-      "voor": 65,
-      "tegen": 32
+      "doelsaldo": 34,
+      "voor": 68,
+      "tegen": 34
     },
     {
       "positie": 3,
@@ -619,14 +619,14 @@
       "positie": 8,
       "club": "Eintracht Frankfurt",
       "logo": "https://crests.football-data.org/19.png",
-      "gespeeld": 32,
+      "gespeeld": 33,
       "punten": 43,
       "gewonnen": 11,
       "gelijk": 10,
-      "verloren": 11,
-      "doelsaldo": -3,
-      "voor": 57,
-      "tegen": 60
+      "verloren": 12,
+      "doelsaldo": -4,
+      "voor": 59,
+      "tegen": 63
     },
     {
       "positie": 9,
@@ -881,14 +881,14 @@
       "positie": 10,
       "club": "US Sassuolo Calcio",
       "logo": "https://crests.football-data.org/471.png",
-      "gespeeld": 35,
+      "gespeeld": 36,
       "punten": 49,
       "gewonnen": 14,
       "gelijk": 7,
-      "verloren": 14,
-      "doelsaldo": -1,
-      "voor": 43,
-      "tegen": 44
+      "verloren": 15,
+      "doelsaldo": -2,
+      "voor": 44,
+      "tegen": 46
     },
     {
       "positie": 11,
@@ -905,6 +905,19 @@
     },
     {
       "positie": 12,
+      "club": "Torino FC",
+      "logo": "https://crests.football-data.org/586.png",
+      "gespeeld": 36,
+      "punten": 44,
+      "gewonnen": 12,
+      "gelijk": 8,
+      "verloren": 16,
+      "doelsaldo": -18,
+      "voor": 41,
+      "tegen": 59
+    },
+    {
+      "positie": 13,
       "club": "Parma Calcio 1913",
       "logo": "https://crests.football-data.org/112.png",
       "gespeeld": 35,
@@ -915,19 +928,6 @@
       "doelsaldo": -17,
       "voor": 25,
       "tegen": 42
-    },
-    {
-      "positie": 13,
-      "club": "Torino FC",
-      "logo": "https://crests.football-data.org/586.png",
-      "gespeeld": 35,
-      "punten": 41,
-      "gewonnen": 11,
-      "gelijk": 8,
-      "verloren": 16,
-      "doelsaldo": -19,
-      "voor": 39,
-      "tegen": 58
     },
     {
       "positie": 14,
@@ -1039,13 +1039,13 @@
       "positie": 2,
       "club": "Racing Club de Lens",
       "logo": "https://crests.football-data.org/546.png",
-      "gespeeld": 31,
-      "punten": 64,
-      "gewonnen": 20,
+      "gespeeld": 32,
+      "punten": 67,
+      "gewonnen": 21,
       "gelijk": 4,
       "verloren": 7,
-      "doelsaldo": 28,
-      "voor": 61,
+      "doelsaldo": 29,
+      "voor": 62,
       "tegen": 33
     },
     {
@@ -1234,14 +1234,14 @@
       "positie": 17,
       "club": "FC Nantes",
       "logo": "https://crests.football-data.org/543.png",
-      "gespeeld": 32,
+      "gespeeld": 33,
       "punten": 23,
       "gewonnen": 5,
       "gelijk": 8,
-      "verloren": 19,
-      "doelsaldo": -22,
+      "verloren": 20,
+      "doelsaldo": -23,
       "voor": 29,
-      "tegen": 51
+      "tegen": 52
     },
     {
       "positie": 18,
