@@ -398,5 +398,15 @@
     "uitLogo": "https://crests.football-data.org/674.png",
     "thuisScore": 2,
     "uitScore": 2
+  },
+  {
+    "id": 537729,
+    "datum": "zo 10 mei",
+    "thuis": "Ajax",
+    "thuisLogo": "https://crests.football-data.org/678.png",
+    "uit": "FC Utrecht",
+    "uitLogo": "https://crests.football-data.org/676.png",
+    "thuisScore": 1,
+    "uitScore": 2
   }
 ]
