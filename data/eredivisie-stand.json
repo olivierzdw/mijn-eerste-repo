@@ -94,14 +94,14 @@
     "positie": 8,
     "club": "Heerenveen",
     "logo": "https://crests.football-data.org/673.png",
-    "gespeeld": 33,
+    "gespeeld": 32,
     "punten": 50,
     "gewonnen": 14,
     "gelijk": 8,
-    "verloren": 11,
-    "doelsaldo": 4,
+    "verloren": 10,
+    "doelsaldo": 6,
     "voor": 57,
-    "tegen": 53
+    "tegen": 51
   },
   {
     "positie": 9,
@@ -211,13 +211,13 @@
     "positie": 17,
     "club": "NAC Breda",
     "logo": "images/nac-breda-v2.png",
-    "gespeeld": 33,
-    "punten": 28,
-    "gewonnen": 6,
+    "gespeeld": 32,
+    "punten": 25,
+    "gewonnen": 5,
     "gelijk": 10,
     "verloren": 17,
-    "doelsaldo": -23,
-    "voor": 32,
+    "doelsaldo": -25,
+    "voor": 30,
     "tegen": 55
   },
   {
