@@ -10913,6 +10913,16 @@
       "uitLogo": "https://crests.football-data.org/79.png",
       "thuisScore": 3,
       "uitScore": 2
+    },
+    {
+      "id": 544563,
+      "datum": "di 12 mei",
+      "thuis": "RC Celta de Vigo",
+      "thuisLogo": "https://crests.football-data.org/558.png",
+      "uit": "Levante UD",
+      "uitLogo": "https://crests.football-data.org/88.png",
+      "thuisScore": 2,
+      "uitScore": 3
     }
   ],
   "95": [
@@ -11969,6 +11979,16 @@
       "uitLogo": "https://crests.football-data.org/558.png",
       "thuisScore": 0,
       "uitScore": 1
+    },
+    {
+      "id": 544563,
+      "datum": "di 12 mei",
+      "thuis": "RC Celta de Vigo",
+      "thuisLogo": "https://crests.football-data.org/558.png",
+      "uit": "Levante UD",
+      "uitLogo": "https://crests.football-data.org/88.png",
+      "thuisScore": 2,
+      "uitScore": 3
     }
   ],
   "82": [
@@ -13811,6 +13831,16 @@
       "uitScore": 1
     },
     {
+      "id": 544567,
+      "datum": "di 12 mei",
+      "thuis": "CA Osasuna",
+      "thuisLogo": "https://crests.football-data.org/79.png",
+      "uit": "Club Atlético de Madrid",
+      "uitLogo": "https://crests.football-data.org/78.png",
+      "thuisScore": 1,
+      "uitScore": 2
+    },
+    {
       "id": 551946,
       "datum": "wo 17 september",
       "thuis": "Liverpool FC",
@@ -14321,6 +14351,16 @@
       "uitLogo": "https://crests.football-data.org/263.png",
       "thuisScore": 1,
       "uitScore": 1
+    },
+    {
+      "id": 544562,
+      "datum": "di 12 mei",
+      "thuis": "Real Betis Balompié",
+      "thuisLogo": "https://crests.football-data.org/90.png",
+      "uit": "Elche CF",
+      "uitLogo": "https://crests.football-data.org/285.png",
+      "thuisScore": 2,
+      "uitScore": 1
     }
   ],
   "90": [
@@ -14673,6 +14713,16 @@
       "uitLogo": "https://crests.football-data.org/90.png",
       "thuisScore": 2,
       "uitScore": 2
+    },
+    {
+      "id": 544562,
+      "datum": "di 12 mei",
+      "thuis": "Real Betis Balompié",
+      "thuisLogo": "https://crests.football-data.org/90.png",
+      "uit": "Elche CF",
+      "uitLogo": "https://crests.football-data.org/285.png",
+      "thuisScore": 2,
+      "uitScore": 1
     }
   ],
   "86": [
@@ -15516,6 +15566,16 @@
       "uit": "CA Osasuna",
       "uitLogo": "https://crests.football-data.org/79.png",
       "thuisScore": 3,
+      "uitScore": 2
+    },
+    {
+      "id": 544567,
+      "datum": "di 12 mei",
+      "thuis": "CA Osasuna",
+      "thuisLogo": "https://crests.football-data.org/79.png",
+      "uit": "Club Atlético de Madrid",
+      "uitLogo": "https://crests.football-data.org/78.png",
+      "thuisScore": 1,
       "uitScore": 2
     }
   ],
