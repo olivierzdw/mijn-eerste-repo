@@ -8269,6 +8269,16 @@
       "uitLogo": "https://crests.football-data.org/298.png",
       "thuisScore": 1,
       "uitScore": 1
+    },
+    {
+      "id": 544565,
+      "datum": "do 14 mei",
+      "thuis": "Girona FC",
+      "thuisLogo": "https://crests.football-data.org/298.png",
+      "uit": "Real Sociedad de Fútbol",
+      "uitLogo": "https://crests.football-data.org/92.png",
+      "thuisScore": 1,
+      "uitScore": 1
     }
   ],
   "87": [
@@ -8619,6 +8629,16 @@
       "thuisLogo": "https://crests.football-data.org/87.png",
       "uit": "Girona FC",
       "uitLogo": "https://crests.football-data.org/298.png",
+      "thuisScore": 1,
+      "uitScore": 1
+    },
+    {
+      "id": 544568,
+      "datum": "do 14 mei",
+      "thuis": "Valencia CF",
+      "thuisLogo": "https://crests.football-data.org/95.png",
+      "uit": "Rayo Vallecano de Madrid",
+      "uitLogo": "https://crests.football-data.org/87.png",
       "thuisScore": 1,
       "uitScore": 1
     }
@@ -9414,6 +9434,16 @@
       "uit": "Getafe CF",
       "uitLogo": "https://crests.football-data.org/82.png",
       "thuisScore": 0,
+      "uitScore": 0
+    },
+    {
+      "id": 544570,
+      "datum": "do 14 mei",
+      "thuis": "Real Madrid CF",
+      "thuisLogo": "https://crests.football-data.org/86.png",
+      "uit": "Real Oviedo",
+      "uitLogo": "https://crests.football-data.org/1048.png",
+      "thuisScore": 2,
       "uitScore": 0
     }
   ],
@@ -11335,6 +11365,16 @@
       "uitLogo": "https://crests.football-data.org/95.png",
       "thuisScore": 0,
       "uitScore": 1
+    },
+    {
+      "id": 544568,
+      "datum": "do 14 mei",
+      "thuis": "Valencia CF",
+      "thuisLogo": "https://crests.football-data.org/95.png",
+      "uit": "Rayo Vallecano de Madrid",
+      "uitLogo": "https://crests.football-data.org/87.png",
+      "thuisScore": 1,
+      "uitScore": 1
     }
   ],
   "92": [
@@ -11687,6 +11727,16 @@
       "uitLogo": "https://crests.football-data.org/90.png",
       "thuisScore": 2,
       "uitScore": 2
+    },
+    {
+      "id": 544565,
+      "datum": "do 14 mei",
+      "thuis": "Girona FC",
+      "thuisLogo": "https://crests.football-data.org/298.png",
+      "uit": "Real Sociedad de Fútbol",
+      "uitLogo": "https://crests.football-data.org/92.png",
+      "thuisScore": 1,
+      "uitScore": 1
     }
   ],
   "558": [
@@ -15173,6 +15223,16 @@
       "thuisLogo": "https://crests.football-data.org/81.png",
       "uit": "Real Madrid CF",
       "uitLogo": "https://crests.football-data.org/86.png",
+      "thuisScore": 2,
+      "uitScore": 0
+    },
+    {
+      "id": 544570,
+      "datum": "do 14 mei",
+      "thuis": "Real Madrid CF",
+      "thuisLogo": "https://crests.football-data.org/86.png",
+      "uit": "Real Oviedo",
+      "uitLogo": "https://crests.football-data.org/1048.png",
       "thuisScore": 2,
       "uitScore": 0
     },
@@ -54123,6 +54183,16 @@
       "uitLogo": "https://crests.football-data.org/384.png",
       "thuisScore": 0,
       "uitScore": 0
+    },
+    {
+      "id": 557839,
+      "datum": "ma 11 mei",
+      "thuis": "Millwall FC",
+      "thuisLogo": "https://crests.football-data.org/384.png",
+      "uit": "Hull City AFC",
+      "uitLogo": "https://crests.football-data.org/322.png",
+      "thuisScore": 0,
+      "uitScore": 2
     }
   ],
   "340": [
@@ -54595,6 +54665,16 @@
       "uitLogo": "https://crests.football-data.org/340.png",
       "thuisScore": 0,
       "uitScore": 0
+    },
+    {
+      "id": 557838,
+      "datum": "di 12 mei",
+      "thuis": "Southampton FC",
+      "thuisLogo": "https://crests.football-data.org/340.png",
+      "uit": "Middlesbrough FC",
+      "uitLogo": "https://crests.football-data.org/343.png",
+      "thuisScore": 2,
+      "uitScore": 1
     }
   ],
   "404": [
@@ -55529,6 +55609,16 @@
       "uitLogo": "https://crests.football-data.org/340.png",
       "thuisScore": 0,
       "uitScore": 0
+    },
+    {
+      "id": 557838,
+      "datum": "di 12 mei",
+      "thuis": "Southampton FC",
+      "thuisLogo": "https://crests.football-data.org/340.png",
+      "uit": "Middlesbrough FC",
+      "uitLogo": "https://crests.football-data.org/343.png",
+      "thuisScore": 2,
+      "uitScore": 1
     }
   ],
   "72": [
@@ -56925,6 +57015,16 @@
       "uitLogo": "https://crests.football-data.org/384.png",
       "thuisScore": 0,
       "uitScore": 0
+    },
+    {
+      "id": 557839,
+      "datum": "ma 11 mei",
+      "thuis": "Millwall FC",
+      "thuisLogo": "https://crests.football-data.org/384.png",
+      "uit": "Hull City AFC",
+      "uitLogo": "https://crests.football-data.org/322.png",
+      "thuisScore": 0,
+      "uitScore": 2
     }
   ],
   "1082": [

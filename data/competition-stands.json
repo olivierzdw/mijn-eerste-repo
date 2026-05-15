@@ -279,13 +279,13 @@
       "positie": 2,
       "club": "Real Madrid CF",
       "logo": "https://crests.football-data.org/86.png",
-      "gespeeld": 35,
-      "punten": 77,
-      "gewonnen": 24,
+      "gespeeld": 36,
+      "punten": 80,
+      "gewonnen": 25,
       "gelijk": 5,
       "verloren": 6,
-      "doelsaldo": 37,
-      "voor": 70,
+      "doelsaldo": 39,
+      "voor": 72,
       "tegen": 33
     },
     {
@@ -357,14 +357,14 @@
       "positie": 8,
       "club": "Real Sociedad de Fútbol",
       "logo": "https://crests.football-data.org/92.png",
-      "gespeeld": 35,
-      "punten": 44,
+      "gespeeld": 36,
+      "punten": 45,
       "gewonnen": 11,
-      "gelijk": 11,
+      "gelijk": 12,
       "verloren": 13,
       "doelsaldo": -1,
-      "voor": 54,
-      "tegen": 55
+      "voor": 55,
+      "tegen": 56
     },
     {
       "positie": 9,
@@ -381,6 +381,32 @@
     },
     {
       "positie": 10,
+      "club": "Rayo Vallecano de Madrid",
+      "logo": "https://crests.football-data.org/87.png",
+      "gespeeld": 36,
+      "punten": 44,
+      "gewonnen": 10,
+      "gelijk": 14,
+      "verloren": 12,
+      "doelsaldo": -6,
+      "voor": 37,
+      "tegen": 43
+    },
+    {
+      "positie": 11,
+      "club": "Valencia CF",
+      "logo": "https://crests.football-data.org/95.png",
+      "gespeeld": 36,
+      "punten": 43,
+      "gewonnen": 11,
+      "gelijk": 10,
+      "verloren": 15,
+      "doelsaldo": -12,
+      "voor": 39,
+      "tegen": 51
+    },
+    {
+      "positie": 12,
       "club": "Sevilla FC",
       "logo": "https://crests.football-data.org/559.png",
       "gespeeld": 36,
@@ -393,20 +419,7 @@
       "tegen": 58
     },
     {
-      "positie": 11,
-      "club": "Rayo Vallecano de Madrid",
-      "logo": "https://crests.football-data.org/87.png",
-      "gespeeld": 35,
-      "punten": 43,
-      "gewonnen": 10,
-      "gelijk": 13,
-      "verloren": 12,
-      "doelsaldo": -6,
-      "voor": 36,
-      "tegen": 42
-    },
-    {
-      "positie": 12,
+      "positie": 13,
       "club": "CA Osasuna",
       "logo": "https://crests.football-data.org/79.png",
       "gespeeld": 36,
@@ -417,19 +430,6 @@
       "doelsaldo": -4,
       "voor": 43,
       "tegen": 47
-    },
-    {
-      "positie": 13,
-      "club": "Valencia CF",
-      "logo": "https://crests.football-data.org/95.png",
-      "gespeeld": 35,
-      "punten": 42,
-      "gewonnen": 11,
-      "gelijk": 9,
-      "verloren": 15,
-      "doelsaldo": -12,
-      "voor": 38,
-      "tegen": 50
     },
     {
       "positie": 14,
@@ -446,6 +446,19 @@
     },
     {
       "positie": 15,
+      "club": "Girona FC",
+      "logo": "https://crests.football-data.org/298.png",
+      "gespeeld": 36,
+      "punten": 40,
+      "gewonnen": 9,
+      "gelijk": 13,
+      "verloren": 14,
+      "doelsaldo": -15,
+      "voor": 38,
+      "tegen": 53
+    },
+    {
+      "positie": 16,
       "club": "Deportivo Alavés",
       "logo": "https://crests.football-data.org/263.png",
       "gespeeld": 36,
@@ -458,7 +471,7 @@
       "tegen": 54
     },
     {
-      "positie": 16,
+      "positie": 17,
       "club": "Elche CF",
       "logo": "https://crests.football-data.org/285.png",
       "gespeeld": 36,
@@ -471,7 +484,7 @@
       "tegen": 56
     },
     {
-      "positie": 17,
+      "positie": 18,
       "club": "RCD Mallorca",
       "logo": "https://crests.football-data.org/89.png",
       "gespeeld": 36,
@@ -484,7 +497,7 @@
       "tegen": 55
     },
     {
-      "positie": 18,
+      "positie": 19,
       "club": "Levante UD",
       "logo": "https://crests.football-data.org/88.png",
       "gespeeld": 36,
@@ -497,30 +510,17 @@
       "tegen": 59
     },
     {
-      "positie": 19,
-      "club": "Girona FC",
-      "logo": "https://crests.football-data.org/298.png",
-      "gespeeld": 35,
-      "punten": 39,
-      "gewonnen": 9,
-      "gelijk": 12,
-      "verloren": 14,
-      "doelsaldo": -15,
-      "voor": 37,
-      "tegen": 52
-    },
-    {
       "positie": 20,
       "club": "Real Oviedo",
       "logo": "https://crests.football-data.org/1048.png",
-      "gespeeld": 35,
+      "gespeeld": 36,
       "punten": 29,
       "gewonnen": 6,
       "gelijk": 11,
-      "verloren": 18,
-      "doelsaldo": -28,
+      "verloren": 19,
+      "doelsaldo": -30,
       "voor": 26,
-      "tegen": 54
+      "tegen": 56
     }
   ],
   "BL1": [
