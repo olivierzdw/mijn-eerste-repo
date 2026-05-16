@@ -1515,17 +1515,10 @@ async function kiesClub(club) {
   document.getElementById("club-wedstrijden").innerHTML =
     `<p style="color:#666;text-align:center">Laden...</p>`;
 
-  // Amateur clubs: geen wedstrijden via football-data API; toon vriendelijke melding + wiki link
+  // Amateur clubs: laad de Wikipedia samenvatting direct in de pagina
   if (club.amateur) {
-    const wikiUrl = `https://nl.wikipedia.org/wiki/${encodeURIComponent(club.wiki || club.naam)}`;
     clubWedstrijden = [];
-    document.getElementById("club-wedstrijden").innerHTML = `
-      <div class="amateur-info">
-        <p><strong>${escapeHTML(club.naam)}</strong> is een amateurclub uit ${escapeHTML(club.provincie || '')}.</p>
-        <p>Wedstrijden van amateurclubs zijn niet via onze data-bron beschikbaar.</p>
-        <p><a href="${wikiUrl}" target="_blank" rel="noopener">Bekijk op Wikipedia ↗</a></p>
-      </div>
-    `;
+    await toonAmateurInfo(club);
     return;
   }
 
@@ -1558,6 +1551,40 @@ async function kiesClub(club) {
   } catch(e) {
     document.getElementById("club-wedstrijden").innerHTML =
       `<p style="color:#666;text-align:center">Kon wedstrijden niet laden.</p>`;
+  }
+}
+
+// Haal en toon Wikipedia samenvatting voor een amateurclub binnen de pagina
+async function toonAmateurInfo(club) {
+  const container = document.getElementById("club-wedstrijden");
+  container.innerHTML = `<p style="color:#666;text-align:center">Laden...</p>`;
+  const titel = (club.wiki || club.naam).replace(/ /g, '_');
+  try {
+    const res = await fetch(
+      `https://nl.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(titel)}`
+    );
+    if (!res.ok) throw new Error('niet gevonden');
+    const data = await res.json();
+    const thumb     = data.thumbnail && data.thumbnail.source;
+    const extract   = data.extract || '';
+    const beschr    = data.description || '';
+    container.innerHTML = `
+      <div class="amateur-info">
+        ${thumb ? `<img class="amateur-logo" src="${thumb}" alt="${escapeHTML(club.naam)}" />` : ''}
+        <h3>${escapeHTML(data.title || club.naam)}</h3>
+        ${beschr ? `<p class="amateur-beschr">${escapeHTML(beschr)}</p>` : ''}
+        <p class="amateur-extract">${escapeHTML(extract)}</p>
+        <p class="amateur-meta">Provincie: <strong>${escapeHTML(club.provincie || '–')}</strong></p>
+      </div>
+    `;
+  } catch (e) {
+    container.innerHTML = `
+      <div class="amateur-info">
+        <h3>${escapeHTML(club.naam)}</h3>
+        <p class="amateur-extract">Amateurclub uit ${escapeHTML(club.provincie || 'Nederland')}.</p>
+        <p class="amateur-meta">Geen extra informatie beschikbaar.</p>
+      </div>
+    `;
   }
 }
 
