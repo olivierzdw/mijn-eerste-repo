@@ -186,6 +186,31 @@ header h1 {
   margin-bottom: 1rem;
 }
 
+.stand-toggle {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.stand-toggle.hidden { display: none; }
+.stand-toggle-btn {
+  flex: 0 1 auto;
+  padding: 0.4rem 1rem;
+  border-radius: 16px;
+  border: 2px solid #0f3460;
+  background: transparent;
+  color: #aaa;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.stand-toggle-btn:hover { color: #fff; border-color: #e94560; }
+.stand-toggle-btn.actief {
+  background: #e94560;
+  color: white;
+  border-color: #e94560;
+}
+
 .uitslagen-header h2 {
   color: #eee;
   font-size: 1.2rem;

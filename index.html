@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Olliebet</title>
-  <link rel="stylesheet" href="style.css?v=9" />
+  <link rel="stylesheet" href="style.css?v=10" />
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
   <meta http-equiv="Pragma" content="no-cache" />
   <meta http-equiv="Expires" content="0" />
@@ -52,6 +52,10 @@
   <div class="uitslagen-panel hidden" id="stand-panel">
     <div class="uitslagen-header">
       <h2 id="stand-titel">Eredivisie stand</h2>
+    </div>
+    <div class="stand-toggle" id="stand-toggle">
+      <button class="stand-toggle-btn actief" data-stand="eredivisie" onclick="kiesStand('eredivisie')">Eredivisie</button>
+      <button class="stand-toggle-btn" data-stand="afc" onclick="kiesStand('afc')">AFC JO11-4</button>
     </div>
     <div id="stand-lijst"></div>
   </div>
@@ -119,6 +123,6 @@
     <p>Kies of voeg een speler toe om te beginnen</p>
   </div>
 
-  <script src="script.js?v=9"></script>
+  <script src="script.js?v=10"></script>
 </body>
 </html>

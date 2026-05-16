@@ -661,8 +661,10 @@ async function toonPagina(pagina) {
 
   if (pagina === "stand") {
     document.getElementById("stand-lijst").innerHTML = `<p style="text-align:center;color:#666">Laden...</p>`;
+    const toggle = document.getElementById("stand-toggle");
     try {
       if (gekozenClub && gekozenClub.competitie) {
+        if (toggle) toggle.classList.add("hidden");
         document.getElementById("stand-titel").textContent = `${gekozenClub.competitieNaam || gekozenClub.competitie} stand`;
         if (!competitionStands) {
           const res = await fetch(`data/competition-stands.json?t=${Date.now()}`);
@@ -671,23 +673,46 @@ async function toonPagina(pagina) {
         const stand = competitionStands[gekozenClub.competitie] || [];
         renderStand(stand, gekozenClub.naam);
       } else {
-        document.getElementById("stand-titel").textContent = `Eredivisie stand`;
-        const res = await fetch(`data/eredivisie-stand.json?t=${Date.now()}`);
-        renderStand(await res.json(), "Ajax");
+        if (toggle) toggle.classList.remove("hidden");
+        await toonGekozenStand();
       }
     } catch(e) {
       document.getElementById("stand-lijst").innerHTML = `<p style="text-align:center;color:#666">Kon stand niet laden.</p>`;
     }
   }
 
-  if (pagina === "stand-afc") {
-    document.getElementById("stand-afc-lijst").innerHTML = `<p style="text-align:center;color:#666">Laden...</p>`;
-    try {
+}
+
+// Welke stand wordt getoond als geen club gekozen is: 'eredivisie' of 'afc'
+let standType = localStorage.getItem('olliebet-stand-type') || 'eredivisie';
+
+function kiesStand(type) {
+  standType = type;
+  localStorage.setItem('olliebet-stand-type', type);
+  document.querySelectorAll('.stand-toggle-btn').forEach(b => {
+    b.classList.toggle('actief', b.dataset.stand === type);
+  });
+  toonGekozenStand();
+}
+
+async function toonGekozenStand() {
+  // Synchroniseer knop-actief stijl met huidige standType
+  document.querySelectorAll('.stand-toggle-btn').forEach(b => {
+    b.classList.toggle('actief', b.dataset.stand === standType);
+  });
+  document.getElementById("stand-lijst").innerHTML = `<p style="text-align:center;color:#666">Laden...</p>`;
+  try {
+    if (standType === 'afc') {
+      document.getElementById("stand-titel").textContent = `AFC JO11-4 stand`;
       const res = await fetch(`data/afc-stand.json?t=${Date.now()}`);
       renderAfcStand(await res.json());
-    } catch(e) {
-      document.getElementById("stand-afc-lijst").innerHTML = `<p style="text-align:center;color:#666">Kon stand niet laden.</p>`;
+    } else {
+      document.getElementById("stand-titel").textContent = `Eredivisie stand`;
+      const res = await fetch(`data/eredivisie-stand.json?t=${Date.now()}`);
+      renderStand(await res.json(), "Ajax");
     }
+  } catch (e) {
+    document.getElementById("stand-lijst").innerHTML = `<p style="text-align:center;color:#666">Kon stand niet laden.</p>`;
   }
 }
 
@@ -721,7 +746,7 @@ function renderStand(stand, accentClub = 'Ajax') {
 }
 
 function renderAfcStand(stand) {
-  const container = document.getElementById("stand-afc-lijst");
+  const container = document.getElementById("stand-lijst");
   container.innerHTML = `
     <table class="stand-tabel">
       <thead>

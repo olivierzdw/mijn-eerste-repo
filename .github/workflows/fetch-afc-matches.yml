@@ -113,19 +113,50 @@ jobs:
                       return v
               return ''
 
-          # Zoek stand tabel rijen: positie, clubnaam, G, W, G, V, VV, GT, DS, P
-          rijen = re.findall(
-              r'<tr[^>]*>.*?<td[^>]*>(\d+)</td>.*?<td[^>]*>(.*?)</td>.*?'
-              r'<td[^>]*>(\d+)</td>.*?<td[^>]*>(\d+)</td>.*?<td[^>]*>(\d+)</td>.*?'
-              r'<td[^>]*>(\d+)</td>.*?<td[^>]*>(\d+)</td>.*?<td[^>]*>(\d+)</td>.*?'
-              r'<td[^>]*>([-+]?\d+)</td>.*?<td[^>]*>(\d+)</td>.*?</tr>',
+          # Pak de actieve poule (huidige fase) - die heeft class="active" ipv "d-none"
+          actief = re.search(
+              r'<tbody[^>]*data-poule-standings="(\d+)"[^>]*class="active"[^>]*>(.*?)</tbody>',
               html, re.DOTALL
+          )
+          if not actief:
+              # Fallback: pak de laatste poule die we vinden
+              alle = re.findall(
+                  r'<tbody[^>]*data-poule-standings="(\d+)"[^>]*>(.*?)</tbody>',
+                  html, re.DOTALL
+              )
+              if alle:
+                  actief = type('M', (), {'group': lambda self,i: alle[-1][i-1]})()
+
+          if not actief:
+              print("Geen poule gevonden, bestaande data behouden")
+              exit(0)
+
+          poule_id = actief.group(1)
+          tbody    = actief.group(2)
+          print(f"Actieve poule: {poule_id}")
+
+          # Elke rij: <th>positie</th> + 9 <td>'s (club, G, W, GL, V, P, VV, GT, status)
+          rij_re = re.compile(
+              r'<tr[^>]*>\s*'
+              r'<th[^>]*>\s*(\d+)\s*</th>\s*'
+              r'<td[^>]*>(.*?)</td>\s*'
+              r'<td[^>]*>(\d+)</td>\s*'
+              r'<td[^>]*>(\d+)</td>\s*'
+              r'<td[^>]*>(\d+)</td>\s*'
+              r'<td[^>]*>(\d+)</td>\s*'
+              r'<td[^>]*>(\d+)</td>\s*'
+              r'<td[^>]*>(\d+)</td>\s*'
+              r'<td[^>]*>(\d+)</td>',
+              re.DOTALL
           )
 
           stand = []
-          for r in rijen:
-              pos, club_raw, gespeeld, won, gel, ver, voor, tegen, ds, punten = r
+          for m in rij_re.finditer(tbody):
+              pos, club_raw, gespeeld, won, gel, ver, punten, voor, tegen = m.groups()
               club = re.sub(r'<[^>]+>', '', club_raw).strip()
+              # Normaliseer dubbele spaties
+              club = re.sub(r'\s+', ' ', club)
+              vi = int(voor); ti = int(tegen)
               stand.append({
                   'positie':  int(pos),
                   'club':     club,
@@ -134,9 +165,9 @@ jobs:
                   'gewonnen': int(won),
                   'gelijk':   int(gel),
                   'verloren': int(ver),
-                  'voor':     int(voor),
-                  'tegen':    int(tegen),
-                  'doelsaldo':int(ds),
+                  'voor':     vi,
+                  'tegen':    ti,
+                  'doelsaldo': vi - ti,
                   'punten':   int(punten),
               })
 
@@ -144,9 +175,12 @@ jobs:
               print("Geen stand gevonden, bestaande data behouden")
               exit(0)
 
+          # Sorteer op positie voor de zekerheid
+          stand.sort(key=lambda r: r['positie'])
+
           with open('data/afc-stand.json', 'w') as f:
               json.dump(stand, f, ensure_ascii=False, indent=2)
-          print(f"Saved {len(stand)} teams")
+          print(f"Saved {len(stand)} teams uit poule {poule_id}")
           EOF
 
       - name: Commit updated data
