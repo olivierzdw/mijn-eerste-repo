@@ -26,22 +26,55 @@ header h1 {
 
 .header-nav {
   margin-bottom: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 0.5rem;
 }
 
 .nav-btn {
-  padding: 0.4rem 1.4rem;
+  flex: 1 1 0;
+  min-width: 0;
+  width: 0;
+  padding: 0.45rem 0.6rem;
   border-radius: 20px;
   border: 2px solid #e94560;
   background: transparent;
   color: #e94560;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
+  line-height: 1.15;
   cursor: pointer;
   transition: all 0.2s;
+  white-space: normal;
+  text-align: center;
 }
 
 .nav-btn:hover, .nav-btn.actief {
   background: #e94560;
   color: white;
+}
+
+@media (max-width: 600px) {
+  .header-nav {
+    gap: 0.3rem;
+    padding: 0 0.25rem;
+  }
+  .nav-btn {
+    padding: 0.35rem 0.3rem;
+    font-size: 0.7rem;
+    border-width: 1.5px;
+    border-radius: 14px;
+  }
+  .gokstand-badge {
+    font-size: 0.65rem;
+    padding: 0 0.35rem;
+    min-width: 1.1rem;
+    margin-left: 0.2rem;
+  }
 }
 
 .uitslagen-panel {
