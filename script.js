@@ -374,10 +374,48 @@ async function fetchAjaxWedstrijden() {
   }
 }
 
+// Parse Nederlandse datum string als "za 25 april 20:00" naar Date object.
+// Geen jaar in de string: huidig jaar, of volgend jaar als de datum > 2 maanden terug ligt.
+function parseNlDatum(s) {
+  if (!s) return null;
+  const maanden = {
+    'januari':0,'februari':1,'maart':2,'april':3,'mei':4,'juni':5,
+    'juli':6,'augustus':7,'september':8,'oktober':9,'november':10,'december':11
+  };
+  const m = s.match(/(\d{1,2})\s+([a-z]+)(?:\s+(\d{1,2}):(\d{2}))?/i);
+  if (!m) return null;
+  const dag   = parseInt(m[1], 10);
+  const maand = maanden[m[2].toLowerCase()];
+  if (maand === undefined) return null;
+  const uur   = m[3] !== undefined ? parseInt(m[3], 10) : 12;
+  const min   = m[4] !== undefined ? parseInt(m[4], 10) : 0;
+  const nu    = new Date();
+  let jaar    = nu.getFullYear();
+  let d       = new Date(jaar, maand, dag, uur, min);
+  // Als datum meer dan 60 dagen terug ligt, neem aan dat het volgend jaar bedoeld is
+  const tweeMaandenGeleden = new Date(nu.getTime() - 60 * 24 * 3600 * 1000);
+  if (d < tweeMaandenGeleden) {
+    d = new Date(jaar + 1, maand, dag, uur, min);
+  }
+  return d;
+}
+
+// Houd alleen wedstrijden die nog niet (of net) gespeeld zijn over.
+// Drempel: 3 uur na aftrap is de wedstrijd "voorbij".
+function filterToekomstigeWedstrijden(arr) {
+  const drempel = Date.now() - 3 * 3600 * 1000;
+  return (arr || []).filter(w => {
+    const d = parseNlDatum(w.datum);
+    if (!d) return true;  // onbekend formaat? laat staan
+    return d.getTime() > drempel;
+  });
+}
+
 async function fetchAfcWedstrijden() {
   try {
     const res = await fetch(`data/afc-matches.json?t=${Date.now()}`);
-    afcWedstrijden = await res.json();
+    const ruw = await res.json();
+    afcWedstrijden = filterToekomstigeWedstrijden(ruw);
     renderAfcWedstrijden();
   } catch (e) {
     document.getElementById("afc-wedstrijden").innerHTML =

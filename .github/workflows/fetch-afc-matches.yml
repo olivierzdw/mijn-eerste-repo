@@ -62,8 +62,11 @@ jobs:
               thuis = re.sub(r'<[^>]+>', '', thuis_raw).strip()
               uit   = re.sub(r'<[^>]+>', '', uit_raw).strip()
               dag, maand, jaar = datum_str.split('-')
-              d = datetime(int(jaar), int(maand), int(dag))
-              if d < datetime.now():
+              uur, minuut = tijd.split(':')
+              d = datetime(int(jaar), int(maand), int(dag), int(uur), int(minuut))
+              # Verwijder wedstrijden die meer dan 3 uur geleden begonnen zijn
+              from datetime import timedelta as _td
+              if d < datetime.now() - _td(hours=3):
                   continue
               dag_naam = dag_namen[(d.weekday()+1)%7]
               datum = f"{dag_naam} {int(dag)} {maand_namen[int(maand)-1]} {tijd}"
