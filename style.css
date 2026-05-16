@@ -374,6 +374,23 @@ header h1 {
   text-align: center;
 }
 
+.amateur-info {
+  background: #16213e;
+  border-radius: 10px;
+  border: 1px solid #0f3460;
+  padding: 1.2rem 1.4rem;
+  color: #ccc;
+  text-align: center;
+  line-height: 1.6;
+}
+.amateur-info a {
+  color: #ffd84d;
+  text-decoration: none;
+}
+.amateur-info a:hover {
+  text-decoration: underline;
+}
+
 .gebruikers-balk {
   display: flex;
   align-items: center;

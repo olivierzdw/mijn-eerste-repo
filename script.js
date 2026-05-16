@@ -1415,8 +1415,25 @@ function uploadLokaleVoorspellingen() {
 async function laadClubsLijst() {
   if (clubsLijst) return;
   try {
-    const res = await fetch(`data/clubs.json?t=${Date.now()}`);
-    clubsLijst = await res.json();
+    const [proRes, amateurRes] = await Promise.all([
+      fetch(`data/clubs.json?t=${Date.now()}`),
+      fetch(`data/amateur-clubs.json?t=${Date.now()}`).catch(() => null),
+    ]);
+    const pro = await proRes.json();
+    let amateur = [];
+    if (amateurRes && amateurRes.ok) {
+      const ruw = await amateurRes.json();
+      amateur = ruw.map(c => ({
+        id: `amateur-${c.naam.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`,
+        naam: c.naam,
+        logo: '',
+        land: `Amateur · ${c.provincie}`,
+        provincie: c.provincie,
+        wiki: c.wiki || c.naam,
+        amateur: true,
+      }));
+    }
+    clubsLijst = [...pro, ...amateur];
   } catch(e) {
     clubsLijst = [];
   }
@@ -1444,8 +1461,18 @@ document.addEventListener("DOMContentLoaded", () => {
 async function zoekClubs(query) {
   await laadClubsLijst();
   const q = query.toLowerCase();
-  const gevonden = clubsLijst.filter(c => c.naam.toLowerCase().includes(q));
-  toonZoekResultaten(gevonden);
+  // Splits in pro en amateur, en sorteer per groep: start-match boven contains-match
+  const matches = clubsLijst.filter(c => c.naam.toLowerCase().includes(q));
+  matches.sort((a, b) => {
+    const aStart = a.naam.toLowerCase().startsWith(q) ? 0 : 1;
+    const bStart = b.naam.toLowerCase().startsWith(q) ? 0 : 1;
+    if (aStart !== bStart) return aStart - bStart;
+    const aAm = a.amateur ? 1 : 0;
+    const bAm = b.amateur ? 1 : 0;
+    if (aAm !== bAm) return aAm - bAm;   // pro eerst
+    return a.naam.localeCompare(b.naam);
+  });
+  toonZoekResultaten(matches);
 }
 
 function toonZoekResultaten(clubs) {
@@ -1487,6 +1514,20 @@ async function kiesClub(club) {
   document.getElementById("club-sectie").classList.remove("hidden");
   document.getElementById("club-wedstrijden").innerHTML =
     `<p style="color:#666;text-align:center">Laden...</p>`;
+
+  // Amateur clubs: geen wedstrijden via football-data API; toon vriendelijke melding + wiki link
+  if (club.amateur) {
+    const wikiUrl = `https://nl.wikipedia.org/wiki/${encodeURIComponent(club.wiki || club.naam)}`;
+    clubWedstrijden = [];
+    document.getElementById("club-wedstrijden").innerHTML = `
+      <div class="amateur-info">
+        <p><strong>${escapeHTML(club.naam)}</strong> is een amateurclub uit ${escapeHTML(club.provincie || '')}.</p>
+        <p>Wedstrijden van amateurclubs zijn niet via onze data-bron beschikbaar.</p>
+        <p><a href="${wikiUrl}" target="_blank" rel="noopener">Bekijk op Wikipedia ↗</a></p>
+      </div>
+    `;
+    return;
+  }
 
   try {
     if (!clubsMatches) {
