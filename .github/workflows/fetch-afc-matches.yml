@@ -79,29 +79,15 @@ jobs:
                   })
               return matches
 
-          def parse_stand(html):
-              actief = re.search(
-                  r'<tbody[^>]*data-poule-standings="(\d+)"[^>]*class="active"[^>]*>(.*?)</tbody>',
-                  html, re.DOTALL
-              )
-              if not actief:
-                  alle = re.findall(
-                      r'<tbody[^>]*data-poule-standings="(\d+)"[^>]*>(.*?)</tbody>',
-                      html, re.DOTALL
-                  )
-                  if not alle:
-                      return None, []
-                  poule_id, tbody = alle[-1]
-              else:
-                  poule_id, tbody = actief.group(1), actief.group(2)
+          rij_re = re.compile(
+              r'<tr[^>]*>\s*<th[^>]*>\s*(\d+)\s*</th>\s*'
+              r'<td[^>]*>(.*?)</td>\s*<td[^>]*>(\d+)</td>\s*<td[^>]*>(\d+)</td>\s*'
+              r'<td[^>]*>(\d+)</td>\s*<td[^>]*>(\d+)</td>\s*<td[^>]*>(\d+)</td>\s*'
+              r'<td[^>]*>(\d+)</td>\s*<td[^>]*>(\d+)</td>',
+              re.DOTALL
+          )
 
-              rij_re = re.compile(
-                  r'<tr[^>]*>\s*<th[^>]*>\s*(\d+)\s*</th>\s*'
-                  r'<td[^>]*>(.*?)</td>\s*<td[^>]*>(\d+)</td>\s*<td[^>]*>(\d+)</td>\s*'
-                  r'<td[^>]*>(\d+)</td>\s*<td[^>]*>(\d+)</td>\s*<td[^>]*>(\d+)</td>\s*'
-                  r'<td[^>]*>(\d+)</td>\s*<td[^>]*>(\d+)</td>',
-                  re.DOTALL
-              )
+          def parse_stand_van_tbody(tbody):
               stand = []
               for m in rij_re.finditer(tbody):
                   pos, club_raw, g, w, gl, v, p, vv, gt = m.groups()
@@ -121,7 +107,57 @@ jobs:
                       'punten':   int(p),
                   })
               stand.sort(key=lambda r: r['positie'])
-              return poule_id, stand
+              return stand
+
+          def parse_stand(html, team_naam):
+              # Verzamel ALLE poules + of ze "active" gemarkeerd zijn
+              poules = []
+              for m in re.finditer(
+                  r'<tbody([^>]*)data-poule-standings="(\d+)"([^>]*)>(.*?)</tbody>',
+                  html, re.DOTALL
+              ):
+                  attrs_voor, pid, attrs_na, body = m.groups()
+                  attrs = attrs_voor + attrs_na
+                  is_active = 'class="active"' in attrs or "class='active'" in attrs \
+                              or ' active' in attrs or '"active"' in attrs
+                  stand = parse_stand_van_tbody(body)
+                  if not stand:
+                      continue
+                  # Bevat deze poule ons team?
+                  team_kort = team_naam.lower()
+                  # Pak deel achter "AFC " bv "JO11-4" of "1" zodat we matchen op
+                  # zowel "AFC 1" als "AFC JO11-4"
+                  bevat_team = any(
+                      team_kort in (r['club'] or '').lower()
+                      or (r['club'] or '').lower() in team_kort
+                      for r in stand
+                  )
+                  poules.append({
+                      'id': pid,
+                      'active': is_active,
+                      'bevat_team': bevat_team,
+                      'stand': stand,
+                  })
+
+              if not poules:
+                  return None, []
+
+              # Voorkeursvolgorde:
+              # 1) active EN bevat team
+              # 2) bevat team
+              # 3) active
+              # 4) laatste poule op de pagina
+              for p in poules:
+                  if p['active'] and p['bevat_team']:
+                      return p['id'], p['stand']
+              for p in poules:
+                  if p['bevat_team']:
+                      return p['id'], p['stand']
+              for p in poules:
+                  if p['active']:
+                      return p['id'], p['stand']
+              p = poules[-1]
+              return p['id'], p['stand']
 
           os.makedirs('data', exist_ok=True)
           for t in teams:
@@ -147,8 +183,18 @@ jobs:
 
               # Stand
               try:
-                  poule_id, stand = parse_stand(html)
+                  poule_id, stand = parse_stand(html, t['naam'])
                   if stand:
+                      # Detecteer wisseling van poule en log dat duidelijk
+                      meta_pad = f"data/{t['basis']}-poule.txt"
+                      vorige = None
+                      if os.path.exists(meta_pad):
+                          with open(meta_pad) as f:
+                              vorige = f.read().strip()
+                      if vorige and vorige != poule_id:
+                          print(f"  >>> NIEUWE POULE gedetecteerd: {vorige} -> {poule_id}")
+                      with open(meta_pad, 'w') as f:
+                          f.write(poule_id or '')
                       with open(f"data/{t['basis']}-stand.json", 'w') as f:
                           json.dump(stand, f, ensure_ascii=False, indent=2)
                       print(f"  poule {poule_id}: {len(stand)} teams in stand")
@@ -162,7 +208,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/*-matches.json data/*-stand.json
+          git add data/*-matches.json data/*-stand.json data/*-poule.txt
           git diff --staged --quiet || git commit -m "Update AFC team wedstrijden en stand"
           git push
 
