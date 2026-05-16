@@ -1,40 +1,4 @@
 {
-  "58": [
-    {
-      "id": 538146,
-      "datum": "vr 15 mei 21:00",
-      "thuis": "Aston Villa FC",
-      "thuisLogo": "https://crests.football-data.org/58.png",
-      "uit": "Liverpool FC",
-      "uitLogo": "https://crests.football-data.org/64.png"
-    },
-    {
-      "id": 538161,
-      "datum": "zo 24 mei 17:00",
-      "thuis": "Manchester City FC",
-      "thuisLogo": "https://crests.football-data.org/65.png",
-      "uit": "Aston Villa FC",
-      "uitLogo": "https://crests.football-data.org/58.png"
-    }
-  ],
-  "64": [
-    {
-      "id": 538146,
-      "datum": "vr 15 mei 21:00",
-      "thuis": "Aston Villa FC",
-      "thuisLogo": "https://crests.football-data.org/58.png",
-      "uit": "Liverpool FC",
-      "uitLogo": "https://crests.football-data.org/64.png"
-    },
-    {
-      "id": 538160,
-      "datum": "zo 24 mei 17:00",
-      "thuis": "Liverpool FC",
-      "thuisLogo": "https://crests.football-data.org/64.png",
-      "uit": "Brentford FC",
-      "uitLogo": "https://crests.football-data.org/402.png"
-    }
-  ],
   "66": [
     {
       "id": 538152,
@@ -367,6 +331,26 @@
       "uitLogo": "https://crests.football-data.org/62.png"
     }
   ],
+  "64": [
+    {
+      "id": 538160,
+      "datum": "zo 24 mei 17:00",
+      "thuis": "Liverpool FC",
+      "thuisLogo": "https://crests.football-data.org/64.png",
+      "uit": "Brentford FC",
+      "uitLogo": "https://crests.football-data.org/402.png"
+    }
+  ],
+  "58": [
+    {
+      "id": 538161,
+      "datum": "zo 24 mei 17:00",
+      "thuis": "Manchester City FC",
+      "thuisLogo": "https://crests.football-data.org/65.png",
+      "uit": "Aston Villa FC",
+      "uitLogo": "https://crests.football-data.org/58.png"
+    }
+  ],
   "77": [
     {
       "id": 544571,
@@ -437,42 +421,6 @@
       "thuisLogo": "https://crests.football-data.org/298.png",
       "uit": "Elche CF",
       "uitLogo": "https://crests.football-data.org/285.png"
-    }
-  ],
-  "81": [
-    {
-      "id": 544573,
-      "datum": "zo 17 mei 19:00",
-      "thuis": "FC Barcelona",
-      "thuisLogo": "https://crests.football-data.org/81.png",
-      "uit": "Real Betis Balompié",
-      "uitLogo": "https://crests.football-data.org/90.png"
-    },
-    {
-      "id": 544589,
-      "datum": "za 23 mei 21:00",
-      "thuis": "Valencia CF",
-      "thuisLogo": "https://crests.football-data.org/95.png",
-      "uit": "FC Barcelona",
-      "uitLogo": "https://crests.football-data.org/81.png"
-    }
-  ],
-  "90": [
-    {
-      "id": 544573,
-      "datum": "zo 17 mei 19:00",
-      "thuis": "FC Barcelona",
-      "thuisLogo": "https://crests.football-data.org/81.png",
-      "uit": "Real Betis Balompié",
-      "uitLogo": "https://crests.football-data.org/90.png"
-    },
-    {
-      "id": 544582,
-      "datum": "za 23 mei 21:00",
-      "thuis": "Real Betis Balompié",
-      "thuisLogo": "https://crests.football-data.org/90.png",
-      "uit": "Levante UD",
-      "uitLogo": "https://crests.football-data.org/88.png"
     }
   ],
   "285": [
@@ -727,6 +675,42 @@
       "uitLogo": "https://crests.football-data.org/77.png"
     }
   ],
+  "81": [
+    {
+      "id": 544573,
+      "datum": "zo 17 mei 21:15",
+      "thuis": "FC Barcelona",
+      "thuisLogo": "https://crests.football-data.org/81.png",
+      "uit": "Real Betis Balompié",
+      "uitLogo": "https://crests.football-data.org/90.png"
+    },
+    {
+      "id": 544589,
+      "datum": "za 23 mei 21:00",
+      "thuis": "Valencia CF",
+      "thuisLogo": "https://crests.football-data.org/95.png",
+      "uit": "FC Barcelona",
+      "uitLogo": "https://crests.football-data.org/81.png"
+    }
+  ],
+  "90": [
+    {
+      "id": 544573,
+      "datum": "zo 17 mei 21:15",
+      "thuis": "FC Barcelona",
+      "thuisLogo": "https://crests.football-data.org/81.png",
+      "uit": "Real Betis Balompié",
+      "uitLogo": "https://crests.football-data.org/90.png"
+    },
+    {
+      "id": 544582,
+      "datum": "za 23 mei 21:00",
+      "thuis": "Real Betis Balompié",
+      "thuisLogo": "https://crests.football-data.org/90.png",
+      "uit": "Levante UD",
+      "uitLogo": "https://crests.football-data.org/88.png"
+    }
+  ],
   "12": [
     {
       "id": 540703,
@@ -910,7 +894,7 @@
   "100": [
     {
       "id": 537175,
-      "datum": "zo 17 mei 12:30",
+      "datum": "zo 17 mei 12:00",
       "thuis": "AS Roma",
       "thuisLogo": "https://crests.football-data.org/100.png",
       "uit": "SS Lazio",
@@ -928,7 +912,7 @@
   "110": [
     {
       "id": 537175,
-      "datum": "zo 17 mei 12:30",
+      "datum": "zo 17 mei 12:00",
       "thuis": "AS Roma",
       "thuisLogo": "https://crests.football-data.org/100.png",
       "uit": "SS Lazio",
@@ -946,7 +930,7 @@
   "107": [
     {
       "id": 537178,
-      "datum": "zo 17 mei 12:30",
+      "datum": "zo 17 mei 12:00",
       "thuis": "Genoa CFC",
       "thuisLogo": "https://crests.football-data.org/107.png",
       "uit": "AC Milan",
@@ -964,7 +948,7 @@
   "98": [
     {
       "id": 537178,
-      "datum": "zo 17 mei 12:30",
+      "datum": "zo 17 mei 12:00",
       "thuis": "Genoa CFC",
       "thuisLogo": "https://crests.football-data.org/107.png",
       "uit": "AC Milan",
@@ -982,7 +966,7 @@
   "7397": [
     {
       "id": 537179,
-      "datum": "zo 17 mei 12:30",
+      "datum": "zo 17 mei 12:00",
       "thuis": "Como 1907",
       "thuisLogo": "https://crests.football-data.org/7397.png",
       "uit": "Parma Calcio 1913",
@@ -1000,7 +984,7 @@
   "112": [
     {
       "id": 537179,
-      "datum": "zo 17 mei 12:30",
+      "datum": "zo 17 mei 12:00",
       "thuis": "Como 1907",
       "thuisLogo": "https://crests.football-data.org/7397.png",
       "uit": "Parma Calcio 1913",
@@ -1018,7 +1002,7 @@
   "109": [
     {
       "id": 537181,
-      "datum": "zo 17 mei 12:30",
+      "datum": "zo 17 mei 12:00",
       "thuis": "Juventus FC",
       "thuisLogo": "https://crests.football-data.org/109.png",
       "uit": "ACF Fiorentina",
@@ -1036,7 +1020,7 @@
   "99": [
     {
       "id": 537181,
-      "datum": "zo 17 mei 12:30",
+      "datum": "zo 17 mei 12:00",
       "thuis": "Juventus FC",
       "thuisLogo": "https://crests.football-data.org/109.png",
       "uit": "ACF Fiorentina",
@@ -1054,7 +1038,7 @@
   "487": [
     {
       "id": 537182,
-      "datum": "zo 17 mei 12:30",
+      "datum": "zo 17 mei 12:00",
       "thuis": "AC Pisa 1909",
       "thuisLogo": "https://crests.football-data.org/487.png",
       "uit": "SSC Napoli",
@@ -1072,7 +1056,7 @@
   "113": [
     {
       "id": 537182,
-      "datum": "zo 17 mei 12:30",
+      "datum": "zo 17 mei 12:00",
       "thuis": "AC Pisa 1909",
       "thuisLogo": "https://crests.football-data.org/487.png",
       "uit": "SSC Napoli",
@@ -5533,6 +5517,46 @@
       "thuisLogo": "https://crests.football-data.org/1783.png",
       "uit": "Chapecoense AF",
       "uitLogo": "https://crests.football-data.org/1772_large.png"
+    }
+  ],
+  "384": [
+    {
+      "id": 557839,
+      "datum": "ma 11 mei 21:00",
+      "thuis": "Millwall FC",
+      "thuisLogo": "https://crests.football-data.org/384.png",
+      "uit": "Hull City AFC",
+      "uitLogo": "https://crests.football-data.org/322.png"
+    }
+  ],
+  "322": [
+    {
+      "id": 557839,
+      "datum": "ma 11 mei 21:00",
+      "thuis": "Millwall FC",
+      "thuisLogo": "https://crests.football-data.org/384.png",
+      "uit": "Hull City AFC",
+      "uitLogo": "https://crests.football-data.org/322.png"
+    }
+  ],
+  "340": [
+    {
+      "id": 557838,
+      "datum": "di 12 mei 21:00",
+      "thuis": "Southampton FC",
+      "thuisLogo": "https://crests.football-data.org/340.png",
+      "uit": "Middlesbrough FC",
+      "uitLogo": "https://crests.football-data.org/343.png"
+    }
+  ],
+  "343": [
+    {
+      "id": 557838,
+      "datum": "di 12 mei 21:00",
+      "thuis": "Southampton FC",
+      "thuisLogo": "https://crests.football-data.org/340.png",
+      "uit": "Middlesbrough FC",
+      "uitLogo": "https://crests.football-data.org/343.png"
     }
   ]
 }
