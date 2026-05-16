@@ -35,6 +35,10 @@ jobs:
 
           maand_namen = ['januari','februari','maart','april','mei','juni',
                          'juli','augustus','september','oktober','november','december']
+          maand_kort = {
+              'jan':1,'feb':2,'mrt':3,'maa':3,'apr':4,'mei':5,'jun':6,
+              'jul':7,'aug':8,'sep':9,'okt':10,'nov':11,'dec':12
+          }
           dag_namen   = ['zo','ma','di','wo','do','vr','za']
           logo_map = {
               'AFC': 'images/afc.png',
@@ -54,22 +58,50 @@ jobs:
                   return r.read().decode('utf-8', errors='ignore')
 
           def parse_matches(html):
-              blokken = re.findall(
-                  r'(\d{2}-\d{2}-\d{4}).*?(\d{2}:\d{2}).*?class="[^"]*team[^"]*home[^"]*"[^>]*>(.*?)</.*?class="[^"]*team[^"]*away[^"]*"[^>]*>(.*?)</',
+              # Nieuwe AFC.nl structuur: block-play-program rows met los
+              # datum/tijd/team-divs, zonder jaar in de datum.
+              rows = re.findall(
+                  r'<div class="block-play-program__row">(.*?)</div>\s*</div>\s*</div>',
                   html, re.DOTALL
               )
               matches = []
               now = datetime.now()
-              for datum_str, tijd, thuis_raw, uit_raw in blokken:
-                  thuis = re.sub(r'<[^>]+>', '', thuis_raw).strip()
-                  uit   = re.sub(r'<[^>]+>', '', uit_raw).strip()
-                  dag, maand, jaar = datum_str.split('-')
-                  uur, minuut = tijd.split(':')
-                  d = datetime(int(jaar), int(maand), int(dag), int(uur), int(minuut))
+              for row in rows:
+                  teams = re.findall(
+                      r'<div>\s*(?:<img[^>]*>)?\s*([^<]+?)\s*</div>',
+                      row
+                  )
+                  if len(teams) < 2:
+                      continue
+                  thuis = re.sub(r'\s+', ' ', teams[0]).strip()
+                  uit   = re.sub(r'\s+', ' ', teams[1]).strip()
+
+                  dm = re.search(
+                      r'class="date">\s*(\d{1,2})\s+([a-zà-ÿ]+)\s*</span>',
+                      row, re.IGNORECASE
+                  )
+                  tm = re.search(
+                      r'class="block-play-program__time">\s*(\d{1,2}):(\d{2})',
+                      row
+                  )
+                  if not dm or not tm:
+                      continue
+                  dag = int(dm.group(1))
+                  maand = maand_kort.get(dm.group(2).lower()[:3])
+                  if not maand:
+                      continue
+                  uur, minuut = int(tm.group(1)), int(tm.group(2))
+
+                  # Geen jaar in HTML: kies eerst dit jaar; als ver in verleden
+                  # ligt, zal het volgend jaar zijn (najaar -> voorjaar overgang).
+                  d = datetime(now.year, maand, dag, uur, minuut)
+                  if d < now - timedelta(hours=3):
+                      d = datetime(now.year + 1, maand, dag, uur, minuut)
                   if d < now - timedelta(hours=3):
                       continue
+
                   dag_naam = dag_namen[(d.weekday()+1) % 7]
-                  datum = f"{dag_naam} {int(dag)} {maand_namen[int(maand)-1]} {tijd}"
+                  datum = f"{dag_naam} {dag} {maand_namen[maand-1]} {uur:02d}:{minuut:02d}"
                   matches.append({
                       'datum': datum,
                       'thuis': thuis,
@@ -169,15 +201,13 @@ jobs:
                   print(f"  fout bij ophalen: {e}")
                   continue
 
-              # Matches
+              # Matches - altijd overschrijven (ook met lege lijst) zodat
+              # gespeelde wedstrijden direct verdwijnen.
               try:
                   m = parse_matches(html)
-                  if m:
-                      with open(f"data/{t['basis']}-matches.json", 'w') as f:
-                          json.dump(m, f, ensure_ascii=False, indent=2)
-                      print(f"  {len(m)} wedstrijden")
-                  else:
-                      print(f"  geen wedstrijden gevonden (bestaande data behouden)")
+                  with open(f"data/{t['basis']}-matches.json", 'w') as f:
+                      json.dump(m, f, ensure_ascii=False, indent=2)
+                  print(f"  {len(m)} wedstrijden")
               except Exception as e:
                   print(f"  matches fout: {e}")
 
