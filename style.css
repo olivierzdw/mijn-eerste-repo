@@ -58,7 +58,74 @@ header h1 {
   color: white;
 }
 
+/* Tablet portrait (o.a. iPad verticaal) */
+@media (max-width: 1024px) {
+  header {
+    padding: 1rem 1rem;
+  }
+  header h1 {
+    font-size: 1.8rem;
+    margin-bottom: 0.8rem;
+  }
+  .header-nav {
+    gap: 0.4rem;
+    padding: 0 0.4rem;
+    max-width: 100%;
+  }
+  .nav-btn {
+    padding: 0.45rem 0.4rem;
+    font-size: 0.85rem;
+    line-height: 1.2;
+    border-radius: 16px;
+    word-break: break-word;
+    hyphens: auto;
+  }
+  main {
+    max-width: 100%;
+    padding: 0 1rem;
+  }
+  .ajax-wedstrijd {
+    padding: 0.8rem 1rem;
+    gap: 0.6rem;
+  }
+  .datum {
+    min-width: 70px;
+    font-size: 0.8rem;
+  }
+  .ajax-match {
+    gap: 0.5rem;
+  }
+  .club-blok-klein {
+    width: 110px;
+    gap: 0.3rem;
+  }
+  .club-blok-klein img {
+    width: 28px;
+    height: 28px;
+  }
+  .club-blok-klein span {
+    font-size: 0.85rem;
+    word-break: break-word;
+    line-height: 1.15;
+  }
+  .score-midden-klein input {
+    width: 42px;
+    height: 42px;
+    font-size: 1.1rem;
+  }
+  .score-midden-klein span {
+    font-size: 1.2rem;
+  }
+}
+
+/* Telefoon */
 @media (max-width: 600px) {
+  header {
+    padding: 0.8rem 0.6rem;
+  }
+  header h1 {
+    font-size: 1.5rem;
+  }
   .header-nav {
     gap: 0.3rem;
     padding: 0 0.25rem;
@@ -74,6 +141,35 @@ header h1 {
     padding: 0 0.35rem;
     min-width: 1.1rem;
     margin-left: 0.2rem;
+  }
+  .ajax-wedstrijd {
+    padding: 0.7rem 0.6rem;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .datum {
+    min-width: 0;
+    font-size: 0.75rem;
+  }
+  .ajax-match {
+    width: 100%;
+    gap: 0.4rem;
+  }
+  .club-blok-klein {
+    width: 0;
+    flex: 1 1 0;
+  }
+  .club-blok-klein span {
+    font-size: 0.8rem;
+  }
+  .score-midden-klein input {
+    width: 38px;
+    height: 38px;
+    font-size: 1rem;
+  }
+  .sectie-titel {
+    font-size: 1rem;
+    margin: 1.2rem 0 0.6rem;
   }
 }
 
