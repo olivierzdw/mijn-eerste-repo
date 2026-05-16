@@ -663,7 +663,13 @@ async function toonPagina(pagina) {
     document.getElementById("stand-lijst").innerHTML = `<p style="text-align:center;color:#666">Laden...</p>`;
     const toggle = document.getElementById("stand-toggle");
     try {
-      if (gekozenClub && gekozenClub.competitie) {
+      if (gekozenClub && gekozenClub.amateurScraper) {
+        if (toggle) toggle.classList.add("hidden");
+        document.getElementById("stand-titel").textContent = `${gekozenClub.naam} stand`;
+        const res = await fetch(`data/${gekozenClub.basis}-stand.json?t=${Date.now()}`);
+        if (!res.ok) throw new Error('niet beschikbaar');
+        renderAfcStand(await res.json(), gekozenClub.naam);
+      } else if (gekozenClub && gekozenClub.competitie) {
         if (toggle) toggle.classList.add("hidden");
         document.getElementById("stand-titel").textContent = `${gekozenClub.competitieNaam || gekozenClub.competitie} stand`;
         if (!competitionStands) {
@@ -745,8 +751,9 @@ function renderStand(stand, accentClub = 'Ajax') {
   `;
 }
 
-function renderAfcStand(stand) {
+function renderAfcStand(stand, accentClub = 'AFC JO11-4') {
   const container = document.getElementById("stand-lijst");
+  const accentLower = (accentClub || '').toLowerCase();
   container.innerHTML = `
     <table class="stand-tabel">
       <thead>
@@ -759,8 +766,13 @@ function renderAfcStand(stand) {
         </tr>
       </thead>
       <tbody>
-        ${stand.map(t => `
-          <tr class="${t.club === 'AFC JO11-4' ? 'ajax-rij' : ''}">
+        ${stand.map(t => {
+          const naamLower = (t.club || '').toLowerCase();
+          const isAccent = naamLower === accentLower
+            || naamLower.includes(accentLower)
+            || accentLower.includes(naamLower);
+          return `
+          <tr class="${isAccent ? 'ajax-rij' : ''}">
             <td class="pos">${t.positie}</td>
             <td class="logo-cel">${t.logo ? `<img src="${t.logo}" alt="${t.club}" />` : ''}</td>
             <td class="club-naam">${t.club}</td>
@@ -768,7 +780,8 @@ function renderAfcStand(stand) {
             <td class="punten">${t.punten}</td>
             <td class="${t.doelsaldo > 0 ? 'pos-ds' : t.doelsaldo < 0 ? 'neg-ds' : ''}">${t.doelsaldo > 0 ? '+' : ''}${t.doelsaldo}</td>
           </tr>
-        `).join('')}
+        `;
+        }).join('')}
       </tbody>
     </table>
   `;
@@ -1412,6 +1425,13 @@ function uploadLokaleVoorspellingen() {
   }
 }
 
+// Amateurclubs waarvoor wij een eigen scraper hebben (data/<basis>-matches.json + -stand.json).
+// Deze krijgen voorrang in de zoekresultaten en tonen echte wedstrijden + stand.
+const gescrapedeAmateurTeams = [
+  { basis: 'afc-1', naam: 'AFC 1',       land: 'Amateur · Noord-Holland · Tweede divisie' },
+  { basis: 'afc',   naam: 'AFC JO11-4',  land: 'Amateur · Noord-Holland · 1e klasse' },
+];
+
 async function laadClubsLijst() {
   if (clubsLijst) return;
   try {
@@ -1433,7 +1453,16 @@ async function laadClubsLijst() {
         amateur: true,
       }));
     }
-    clubsLijst = [...pro, ...amateur];
+    // Gescrapede teams als eigen entries (logo: AFC)
+    const gescraped = gescrapedeAmateurTeams.map(t => ({
+      id: `scraped-${t.basis}`,
+      naam: t.naam,
+      logo: 'images/afc.png',
+      land: t.land,
+      basis: t.basis,
+      amateurScraper: true,
+    }));
+    clubsLijst = [...gescraped, ...pro, ...amateur];
   } catch(e) {
     clubsLijst = [];
   }
@@ -1461,15 +1490,16 @@ document.addEventListener("DOMContentLoaded", () => {
 async function zoekClubs(query) {
   await laadClubsLijst();
   const q = query.toLowerCase();
-  // Splits in pro en amateur, en sorteer per groep: start-match boven contains-match
   const matches = clubsLijst.filter(c => c.naam.toLowerCase().includes(q));
+  // Sorteer: 1) gescrapede amateurteams eerst (echte data!), 2) start-match boven contains-match,
+  // 3) pro boven generieke amateurclubs (zonder scraper), 4) alfabetisch.
   matches.sort((a, b) => {
+    const aPrio = a.amateurScraper ? 0 : (a.amateur ? 2 : 1);
+    const bPrio = b.amateurScraper ? 0 : (b.amateur ? 2 : 1);
+    if (aPrio !== bPrio) return aPrio - bPrio;
     const aStart = a.naam.toLowerCase().startsWith(q) ? 0 : 1;
     const bStart = b.naam.toLowerCase().startsWith(q) ? 0 : 1;
     if (aStart !== bStart) return aStart - bStart;
-    const aAm = a.amateur ? 1 : 0;
-    const bAm = b.amateur ? 1 : 0;
-    if (aAm !== bAm) return aAm - bAm;   // pro eerst
     return a.naam.localeCompare(b.naam);
   });
   toonZoekResultaten(matches);
@@ -1515,7 +1545,19 @@ async function kiesClub(club) {
   document.getElementById("club-wedstrijden").innerHTML =
     `<p style="color:#666;text-align:center">Laden...</p>`;
 
-  // Amateur clubs: laad de Wikipedia samenvatting direct in de pagina
+  // Gescraped amateur team (eigen scraper, bv. AFC 1 / AFC JO11-4): laad uit lokale JSON
+  if (club.amateurScraper) {
+    try {
+      const res = await fetch(`data/${club.basis}-matches.json?t=${Date.now()}`);
+      clubWedstrijden = res.ok ? await res.json() : [];
+    } catch (e) {
+      clubWedstrijden = [];
+    }
+    renderClubWedstrijden();
+    return;
+  }
+
+  // Amateur clubs zonder eigen scraper: toon placeholder
   if (club.amateur) {
     clubWedstrijden = [];
     await toonAmateurInfo(club);

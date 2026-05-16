@@ -1,4 +1,4 @@
-name: Fetch AFC JO11-4 matches
+name: Fetch AFC teams
 
 on:
   schedule:
@@ -19,28 +19,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Fetch AFC JO11-4 matches
+      - name: Fetch AFC teams (matches + stand)
         run: |
-          curl -s "https://www.afc.nl/team/afc-jo11-4/" \
-            -H "User-Agent: Mozilla/5.0" \
-            -o afc_page.html
-
           python3 - <<'EOF'
-          import re, json
-          from datetime import datetime
+          import re, json, urllib.request, os
+          from datetime import datetime, timedelta
 
-          with open('afc_page.html', encoding='utf-8') as f:
-              html = f.read()
-
-          dag_map = {'ma':1,'di':2,'wo':3,'do':4,'vr':5,'za':6,'zo':0}
-
-          # Parse wedstrijden uit AFC pagina
-          matches = []
-          # Zoek naar wedstrijd blokken
-          blokken = re.findall(
-              r'(\d{2}-\d{2}-\d{4}).*?(\d{2}:\d{2}).*?class="[^"]*team[^"]*home[^"]*"[^>]*>(.*?)</.*?class="[^"]*team[^"]*away[^"]*"[^>]*>(.*?)</',
-              html, re.DOTALL
-          )
+          # Welke AFC teams scrapen we?
+          # slug = padstuk op afc.nl/team/<slug>/
+          # bestandsbasis = naam voor data/<basis>-matches.json en data/<basis>-stand.json
+          teams = [
+              {'slug': 'afc-1',      'basis': 'afc-1',     'naam': 'AFC 1'},
+              {'slug': 'afc-jo11-4', 'basis': 'afc',       'naam': 'AFC JO11-4'},
+          ]
 
           maand_namen = ['januari','februari','maart','april','mei','juni',
                          'juli','augustus','september','oktober','november','december']
@@ -51,144 +42,128 @@ jobs:
               'Fortius': 'images/fortius.png',
               'Sloterdijk': 'images/sloterdijk.png',
           }
-
           def logo(naam):
               for k, v in logo_map.items():
                   if k.lower() in naam.lower():
                       return v
               return ''
 
-          for datum_str, tijd, thuis_raw, uit_raw in blokken:
-              thuis = re.sub(r'<[^>]+>', '', thuis_raw).strip()
-              uit   = re.sub(r'<[^>]+>', '', uit_raw).strip()
-              dag, maand, jaar = datum_str.split('-')
-              uur, minuut = tijd.split(':')
-              d = datetime(int(jaar), int(maand), int(dag), int(uur), int(minuut))
-              # Verwijder wedstrijden die meer dan 3 uur geleden begonnen zijn
-              from datetime import timedelta as _td
-              if d < datetime.now() - _td(hours=3):
-                  continue
-              dag_naam = dag_namen[(d.weekday()+1)%7]
-              datum = f"{dag_naam} {int(dag)} {maand_namen[int(maand)-1]} {tijd}"
-              matches.append({
-                  'datum': datum,
-                  'thuis': thuis,
-                  'thuisLogo': logo(thuis),
-                  'uit': uit,
-                  'uitLogo': logo(uit),
-              })
+          def fetch(url):
+              req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+              with urllib.request.urlopen(req, timeout=30) as r:
+                  return r.read().decode('utf-8', errors='ignore')
 
-          # Fallback: behoud bestaande data als scrape niks oplevert
-          if not matches:
-              print("Geen wedstrijden gevonden, bestaande data behouden")
-              exit(0)
-
-          with open('data/afc-matches.json', 'w') as f:
-              json.dump(matches, f, ensure_ascii=False, indent=2)
-          print(f"Saved {len(matches)} AFC matches")
-          EOF
-
-      - name: Fetch AFC stand
-        run: |
-          curl -s "https://www.afc.nl/team/afc-jo11-4/" \
-            -H "User-Agent: Mozilla/5.0" \
-            -o afc_page.html
-
-          python3 - <<'EOF'
-          import re, json
-
-          with open('afc_page.html', encoding='utf-8') as f:
-              html = f.read()
-
-          logo_map = {
-              'AFC': 'images/afc.png',
-              'Blauw-Wit': 'images/blauw-wit.png',
-              'Fortius': 'images/fortius.png',
-              'Sloterdijk': 'images/sloterdijk.png',
-          }
-
-          def logo(naam):
-              for k, v in logo_map.items():
-                  if k.lower() in naam.lower():
-                      return v
-              return ''
-
-          # Pak de actieve poule (huidige fase) - die heeft class="active" ipv "d-none"
-          actief = re.search(
-              r'<tbody[^>]*data-poule-standings="(\d+)"[^>]*class="active"[^>]*>(.*?)</tbody>',
-              html, re.DOTALL
-          )
-          if not actief:
-              # Fallback: pak de laatste poule die we vinden
-              alle = re.findall(
-                  r'<tbody[^>]*data-poule-standings="(\d+)"[^>]*>(.*?)</tbody>',
+          def parse_matches(html):
+              blokken = re.findall(
+                  r'(\d{2}-\d{2}-\d{4}).*?(\d{2}:\d{2}).*?class="[^"]*team[^"]*home[^"]*"[^>]*>(.*?)</.*?class="[^"]*team[^"]*away[^"]*"[^>]*>(.*?)</',
                   html, re.DOTALL
               )
-              if alle:
-                  actief = type('M', (), {'group': lambda self,i: alle[-1][i-1]})()
+              matches = []
+              now = datetime.now()
+              for datum_str, tijd, thuis_raw, uit_raw in blokken:
+                  thuis = re.sub(r'<[^>]+>', '', thuis_raw).strip()
+                  uit   = re.sub(r'<[^>]+>', '', uit_raw).strip()
+                  dag, maand, jaar = datum_str.split('-')
+                  uur, minuut = tijd.split(':')
+                  d = datetime(int(jaar), int(maand), int(dag), int(uur), int(minuut))
+                  if d < now - timedelta(hours=3):
+                      continue
+                  dag_naam = dag_namen[(d.weekday()+1) % 7]
+                  datum = f"{dag_naam} {int(dag)} {maand_namen[int(maand)-1]} {tijd}"
+                  matches.append({
+                      'datum': datum,
+                      'thuis': thuis,
+                      'thuisLogo': logo(thuis),
+                      'uit': uit,
+                      'uitLogo': logo(uit),
+                  })
+              return matches
 
-          if not actief:
-              print("Geen poule gevonden, bestaande data behouden")
-              exit(0)
+          def parse_stand(html):
+              actief = re.search(
+                  r'<tbody[^>]*data-poule-standings="(\d+)"[^>]*class="active"[^>]*>(.*?)</tbody>',
+                  html, re.DOTALL
+              )
+              if not actief:
+                  alle = re.findall(
+                      r'<tbody[^>]*data-poule-standings="(\d+)"[^>]*>(.*?)</tbody>',
+                      html, re.DOTALL
+                  )
+                  if not alle:
+                      return None, []
+                  poule_id, tbody = alle[-1]
+              else:
+                  poule_id, tbody = actief.group(1), actief.group(2)
 
-          poule_id = actief.group(1)
-          tbody    = actief.group(2)
-          print(f"Actieve poule: {poule_id}")
+              rij_re = re.compile(
+                  r'<tr[^>]*>\s*<th[^>]*>\s*(\d+)\s*</th>\s*'
+                  r'<td[^>]*>(.*?)</td>\s*<td[^>]*>(\d+)</td>\s*<td[^>]*>(\d+)</td>\s*'
+                  r'<td[^>]*>(\d+)</td>\s*<td[^>]*>(\d+)</td>\s*<td[^>]*>(\d+)</td>\s*'
+                  r'<td[^>]*>(\d+)</td>\s*<td[^>]*>(\d+)</td>',
+                  re.DOTALL
+              )
+              stand = []
+              for m in rij_re.finditer(tbody):
+                  pos, club_raw, g, w, gl, v, p, vv, gt = m.groups()
+                  club = re.sub(r'\s+', ' ', re.sub(r'<[^>]+>', '', club_raw)).strip()
+                  vi, ti = int(vv), int(gt)
+                  stand.append({
+                      'positie':  int(pos),
+                      'club':     club,
+                      'logo':     logo(club),
+                      'gespeeld': int(g),
+                      'gewonnen': int(w),
+                      'gelijk':   int(gl),
+                      'verloren': int(v),
+                      'voor':     vi,
+                      'tegen':    ti,
+                      'doelsaldo': vi - ti,
+                      'punten':   int(p),
+                  })
+              stand.sort(key=lambda r: r['positie'])
+              return poule_id, stand
 
-          # Elke rij: <th>positie</th> + 9 <td>'s (club, G, W, GL, V, P, VV, GT, status)
-          rij_re = re.compile(
-              r'<tr[^>]*>\s*'
-              r'<th[^>]*>\s*(\d+)\s*</th>\s*'
-              r'<td[^>]*>(.*?)</td>\s*'
-              r'<td[^>]*>(\d+)</td>\s*'
-              r'<td[^>]*>(\d+)</td>\s*'
-              r'<td[^>]*>(\d+)</td>\s*'
-              r'<td[^>]*>(\d+)</td>\s*'
-              r'<td[^>]*>(\d+)</td>\s*'
-              r'<td[^>]*>(\d+)</td>\s*'
-              r'<td[^>]*>(\d+)</td>',
-              re.DOTALL
-          )
+          os.makedirs('data', exist_ok=True)
+          for t in teams:
+              url = f"https://www.afc.nl/team/{t['slug']}/"
+              print(f"=== {t['naam']} ({url}) ===")
+              try:
+                  html = fetch(url)
+              except Exception as e:
+                  print(f"  fout bij ophalen: {e}")
+                  continue
 
-          stand = []
-          for m in rij_re.finditer(tbody):
-              pos, club_raw, gespeeld, won, gel, ver, punten, voor, tegen = m.groups()
-              club = re.sub(r'<[^>]+>', '', club_raw).strip()
-              # Normaliseer dubbele spaties
-              club = re.sub(r'\s+', ' ', club)
-              vi = int(voor); ti = int(tegen)
-              stand.append({
-                  'positie':  int(pos),
-                  'club':     club,
-                  'logo':     logo(club),
-                  'gespeeld': int(gespeeld),
-                  'gewonnen': int(won),
-                  'gelijk':   int(gel),
-                  'verloren': int(ver),
-                  'voor':     vi,
-                  'tegen':    ti,
-                  'doelsaldo': vi - ti,
-                  'punten':   int(punten),
-              })
+              # Matches
+              try:
+                  m = parse_matches(html)
+                  if m:
+                      with open(f"data/{t['basis']}-matches.json", 'w') as f:
+                          json.dump(m, f, ensure_ascii=False, indent=2)
+                      print(f"  {len(m)} wedstrijden")
+                  else:
+                      print(f"  geen wedstrijden gevonden (bestaande data behouden)")
+              except Exception as e:
+                  print(f"  matches fout: {e}")
 
-          if not stand:
-              print("Geen stand gevonden, bestaande data behouden")
-              exit(0)
-
-          # Sorteer op positie voor de zekerheid
-          stand.sort(key=lambda r: r['positie'])
-
-          with open('data/afc-stand.json', 'w') as f:
-              json.dump(stand, f, ensure_ascii=False, indent=2)
-          print(f"Saved {len(stand)} teams uit poule {poule_id}")
+              # Stand
+              try:
+                  poule_id, stand = parse_stand(html)
+                  if stand:
+                      with open(f"data/{t['basis']}-stand.json", 'w') as f:
+                          json.dump(stand, f, ensure_ascii=False, indent=2)
+                      print(f"  poule {poule_id}: {len(stand)} teams in stand")
+                  else:
+                      print(f"  geen stand gevonden (bestaande data behouden)")
+              except Exception as e:
+                  print(f"  stand fout: {e}")
           EOF
 
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/afc-matches.json data/afc-stand.json
-          git diff --staged --quiet || git commit -m "Update AFC wedstrijden en stand"
+          git add data/*-matches.json data/*-stand.json
+          git diff --staged --quiet || git commit -m "Update AFC team wedstrijden en stand"
           git push
 
       - uses: actions/configure-pages@v5
