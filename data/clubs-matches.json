@@ -711,366 +711,6 @@
       "uitLogo": "https://crests.football-data.org/88.png"
     }
   ],
-  "12": [
-    {
-      "id": 540703,
-      "datum": "za 16 mei 15:30",
-      "thuis": "SV Werder Bremen",
-      "thuisLogo": "https://crests.football-data.org/12.png",
-      "uit": "Borussia Dortmund",
-      "uitLogo": "https://crests.football-data.org/4.png"
-    }
-  ],
-  "4": [
-    {
-      "id": 540703,
-      "datum": "za 16 mei 15:30",
-      "thuis": "SV Werder Bremen",
-      "thuisLogo": "https://crests.football-data.org/12.png",
-      "uit": "Borussia Dortmund",
-      "uitLogo": "https://crests.football-data.org/4.png"
-    }
-  ],
-  "44": [
-    {
-      "id": 540704,
-      "datum": "za 16 mei 15:30",
-      "thuis": "1. FC Heidenheim 1846",
-      "thuisLogo": "https://crests.football-data.org/44.png",
-      "uit": "1. FSV Mainz 05",
-      "uitLogo": "https://crests.football-data.org/15.png"
-    }
-  ],
-  "15": [
-    {
-      "id": 540704,
-      "datum": "za 16 mei 15:30",
-      "thuis": "1. FC Heidenheim 1846",
-      "thuisLogo": "https://crests.football-data.org/44.png",
-      "uit": "1. FSV Mainz 05",
-      "uitLogo": "https://crests.football-data.org/15.png"
-    }
-  ],
-  "17": [
-    {
-      "id": 540705,
-      "datum": "za 16 mei 15:30",
-      "thuis": "SC Freiburg",
-      "thuisLogo": "https://crests.football-data.org/17.png",
-      "uit": "RB Leipzig",
-      "uitLogo": "https://crests.football-data.org/721.png"
-    }
-  ],
-  "721": [
-    {
-      "id": 540705,
-      "datum": "za 16 mei 15:30",
-      "thuis": "SC Freiburg",
-      "thuisLogo": "https://crests.football-data.org/17.png",
-      "uit": "RB Leipzig",
-      "uitLogo": "https://crests.football-data.org/721.png"
-    }
-  ],
-  "19": [
-    {
-      "id": 540706,
-      "datum": "za 16 mei 15:30",
-      "thuis": "Eintracht Frankfurt",
-      "thuisLogo": "https://crests.football-data.org/19.png",
-      "uit": "VfB Stuttgart",
-      "uitLogo": "https://crests.football-data.org/10.png"
-    }
-  ],
-  "10": [
-    {
-      "id": 540706,
-      "datum": "za 16 mei 15:30",
-      "thuis": "Eintracht Frankfurt",
-      "thuisLogo": "https://crests.football-data.org/19.png",
-      "uit": "VfB Stuttgart",
-      "uitLogo": "https://crests.football-data.org/10.png"
-    }
-  ],
-  "20": [
-    {
-      "id": 540707,
-      "datum": "za 16 mei 15:30",
-      "thuis": "FC St. Pauli 1910",
-      "thuisLogo": "https://crests.football-data.org/20.png",
-      "uit": "VfL Wolfsburg",
-      "uitLogo": "https://crests.football-data.org/11.png"
-    }
-  ],
-  "11": [
-    {
-      "id": 540707,
-      "datum": "za 16 mei 15:30",
-      "thuis": "FC St. Pauli 1910",
-      "thuisLogo": "https://crests.football-data.org/20.png",
-      "uit": "VfL Wolfsburg",
-      "uitLogo": "https://crests.football-data.org/11.png"
-    }
-  ],
-  "28": [
-    {
-      "id": 540708,
-      "datum": "za 16 mei 15:30",
-      "thuis": "1. FC Union Berlin",
-      "thuisLogo": "https://crests.football-data.org/28.png",
-      "uit": "FC Augsburg",
-      "uitLogo": "https://crests.football-data.org/16.png"
-    }
-  ],
-  "16": [
-    {
-      "id": 540708,
-      "datum": "za 16 mei 15:30",
-      "thuis": "1. FC Union Berlin",
-      "thuisLogo": "https://crests.football-data.org/28.png",
-      "uit": "FC Augsburg",
-      "uitLogo": "https://crests.football-data.org/16.png"
-    }
-  ],
-  "18": [
-    {
-      "id": 540709,
-      "datum": "za 16 mei 15:30",
-      "thuis": "Borussia Mönchengladbach",
-      "thuisLogo": "https://crests.football-data.org/18.png",
-      "uit": "TSG 1899 Hoffenheim",
-      "uitLogo": "https://crests.football-data.org/2.png"
-    }
-  ],
-  "2": [
-    {
-      "id": 540709,
-      "datum": "za 16 mei 15:30",
-      "thuis": "Borussia Mönchengladbach",
-      "thuisLogo": "https://crests.football-data.org/18.png",
-      "uit": "TSG 1899 Hoffenheim",
-      "uitLogo": "https://crests.football-data.org/2.png"
-    }
-  ],
-  "5": [
-    {
-      "id": 540710,
-      "datum": "za 16 mei 15:30",
-      "thuis": "FC Bayern München",
-      "thuisLogo": "https://crests.football-data.org/5.png",
-      "uit": "1. FC Köln",
-      "uitLogo": "https://crests.football-data.org/1.png"
-    }
-  ],
-  "1": [
-    {
-      "id": 540710,
-      "datum": "za 16 mei 15:30",
-      "thuis": "FC Bayern München",
-      "thuisLogo": "https://crests.football-data.org/5.png",
-      "uit": "1. FC Köln",
-      "uitLogo": "https://crests.football-data.org/1.png"
-    }
-  ],
-  "3": [
-    {
-      "id": 540711,
-      "datum": "za 16 mei 15:30",
-      "thuis": "Bayer 04 Leverkusen",
-      "thuisLogo": "https://crests.football-data.org/3.png",
-      "uit": "Hamburger SV",
-      "uitLogo": "https://crests.football-data.org/7.png"
-    }
-  ],
-  "7": [
-    {
-      "id": 540711,
-      "datum": "za 16 mei 15:30",
-      "thuis": "Bayer 04 Leverkusen",
-      "thuisLogo": "https://crests.football-data.org/3.png",
-      "uit": "Hamburger SV",
-      "uitLogo": "https://crests.football-data.org/7.png"
-    }
-  ],
-  "100": [
-    {
-      "id": 537175,
-      "datum": "zo 17 mei 12:00",
-      "thuis": "AS Roma",
-      "thuisLogo": "https://crests.football-data.org/100.png",
-      "uit": "SS Lazio",
-      "uitLogo": "https://crests.football-data.org/110.png"
-    },
-    {
-      "id": 537189,
-      "datum": "zo 24 mei 15:00",
-      "thuis": "Hellas Verona FC",
-      "thuisLogo": "https://crests.football-data.org/450.png",
-      "uit": "AS Roma",
-      "uitLogo": "https://crests.football-data.org/100.png"
-    }
-  ],
-  "110": [
-    {
-      "id": 537175,
-      "datum": "zo 17 mei 12:00",
-      "thuis": "AS Roma",
-      "thuisLogo": "https://crests.football-data.org/100.png",
-      "uit": "SS Lazio",
-      "uitLogo": "https://crests.football-data.org/110.png"
-    },
-    {
-      "id": 537190,
-      "datum": "zo 24 mei 15:00",
-      "thuis": "SS Lazio",
-      "thuisLogo": "https://crests.football-data.org/110.png",
-      "uit": "AC Pisa 1909",
-      "uitLogo": "https://crests.football-data.org/487.png"
-    }
-  ],
-  "107": [
-    {
-      "id": 537178,
-      "datum": "zo 17 mei 12:00",
-      "thuis": "Genoa CFC",
-      "thuisLogo": "https://crests.football-data.org/107.png",
-      "uit": "AC Milan",
-      "uitLogo": "https://crests.football-data.org/98.png"
-    },
-    {
-      "id": 537194,
-      "datum": "zo 24 mei 15:00",
-      "thuis": "US Lecce",
-      "thuisLogo": "https://crests.football-data.org/5890.png",
-      "uit": "Genoa CFC",
-      "uitLogo": "https://crests.football-data.org/107.png"
-    }
-  ],
-  "98": [
-    {
-      "id": 537178,
-      "datum": "zo 17 mei 12:00",
-      "thuis": "Genoa CFC",
-      "thuisLogo": "https://crests.football-data.org/107.png",
-      "uit": "AC Milan",
-      "uitLogo": "https://crests.football-data.org/98.png"
-    },
-    {
-      "id": 537186,
-      "datum": "zo 24 mei 15:00",
-      "thuis": "AC Milan",
-      "thuisLogo": "https://crests.football-data.org/98.png",
-      "uit": "Cagliari Calcio",
-      "uitLogo": "https://crests.football-data.org/104.png"
-    }
-  ],
-  "7397": [
-    {
-      "id": 537179,
-      "datum": "zo 17 mei 12:00",
-      "thuis": "Como 1907",
-      "thuisLogo": "https://crests.football-data.org/7397.png",
-      "uit": "Parma Calcio 1913",
-      "uitLogo": "https://crests.football-data.org/112.png"
-    },
-    {
-      "id": 537193,
-      "datum": "zo 24 mei 15:00",
-      "thuis": "US Cremonese",
-      "thuisLogo": "https://crests.football-data.org/457.png",
-      "uit": "Como 1907",
-      "uitLogo": "https://crests.football-data.org/7397.png"
-    }
-  ],
-  "112": [
-    {
-      "id": 537179,
-      "datum": "zo 17 mei 12:00",
-      "thuis": "Como 1907",
-      "thuisLogo": "https://crests.football-data.org/7397.png",
-      "uit": "Parma Calcio 1913",
-      "uitLogo": "https://crests.football-data.org/112.png"
-    },
-    {
-      "id": 537191,
-      "datum": "zo 24 mei 15:00",
-      "thuis": "Parma Calcio 1913",
-      "thuisLogo": "https://crests.football-data.org/112.png",
-      "uit": "US Sassuolo Calcio",
-      "uitLogo": "https://crests.football-data.org/471.png"
-    }
-  ],
-  "109": [
-    {
-      "id": 537181,
-      "datum": "zo 17 mei 12:00",
-      "thuis": "Juventus FC",
-      "thuisLogo": "https://crests.football-data.org/109.png",
-      "uit": "ACF Fiorentina",
-      "uitLogo": "https://crests.football-data.org/99.png"
-    },
-    {
-      "id": 537188,
-      "datum": "zo 24 mei 15:00",
-      "thuis": "Torino FC",
-      "thuisLogo": "https://crests.football-data.org/586.png",
-      "uit": "Juventus FC",
-      "uitLogo": "https://crests.football-data.org/109.png"
-    }
-  ],
-  "99": [
-    {
-      "id": 537181,
-      "datum": "zo 17 mei 12:00",
-      "thuis": "Juventus FC",
-      "thuisLogo": "https://crests.football-data.org/109.png",
-      "uit": "ACF Fiorentina",
-      "uitLogo": "https://crests.football-data.org/99.png"
-    },
-    {
-      "id": 537185,
-      "datum": "zo 24 mei 15:00",
-      "thuis": "ACF Fiorentina",
-      "thuisLogo": "https://crests.football-data.org/99.png",
-      "uit": "Atalanta BC",
-      "uitLogo": "https://crests.football-data.org/102.png"
-    }
-  ],
-  "487": [
-    {
-      "id": 537182,
-      "datum": "zo 17 mei 12:00",
-      "thuis": "AC Pisa 1909",
-      "thuisLogo": "https://crests.football-data.org/487.png",
-      "uit": "SSC Napoli",
-      "uitLogo": "https://crests.football-data.org/113.png"
-    },
-    {
-      "id": 537190,
-      "datum": "zo 24 mei 15:00",
-      "thuis": "SS Lazio",
-      "thuisLogo": "https://crests.football-data.org/110.png",
-      "uit": "AC Pisa 1909",
-      "uitLogo": "https://crests.football-data.org/487.png"
-    }
-  ],
-  "113": [
-    {
-      "id": 537182,
-      "datum": "zo 17 mei 12:00",
-      "thuis": "AC Pisa 1909",
-      "thuisLogo": "https://crests.football-data.org/487.png",
-      "uit": "SSC Napoli",
-      "uitLogo": "https://crests.football-data.org/113.png"
-    },
-    {
-      "id": 537192,
-      "datum": "zo 24 mei 15:00",
-      "thuis": "SSC Napoli",
-      "thuisLogo": "https://crests.football-data.org/113.png",
-      "uit": "Udinese Calcio",
-      "uitLogo": "https://crests.football-data.org/115.png"
-    }
-  ],
   "108": [
     {
       "id": 537180,
@@ -1249,6 +889,106 @@
       "thuisLogo": "https://crests.football-data.org/457.png",
       "uit": "Como 1907",
       "uitLogo": "https://crests.football-data.org/7397.png"
+    }
+  ],
+  "99": [
+    {
+      "id": 537185,
+      "datum": "zo 24 mei 15:00",
+      "thuis": "ACF Fiorentina",
+      "thuisLogo": "https://crests.football-data.org/99.png",
+      "uit": "Atalanta BC",
+      "uitLogo": "https://crests.football-data.org/102.png"
+    }
+  ],
+  "98": [
+    {
+      "id": 537186,
+      "datum": "zo 24 mei 15:00",
+      "thuis": "AC Milan",
+      "thuisLogo": "https://crests.football-data.org/98.png",
+      "uit": "Cagliari Calcio",
+      "uitLogo": "https://crests.football-data.org/104.png"
+    }
+  ],
+  "109": [
+    {
+      "id": 537188,
+      "datum": "zo 24 mei 15:00",
+      "thuis": "Torino FC",
+      "thuisLogo": "https://crests.football-data.org/586.png",
+      "uit": "Juventus FC",
+      "uitLogo": "https://crests.football-data.org/109.png"
+    }
+  ],
+  "100": [
+    {
+      "id": 537189,
+      "datum": "zo 24 mei 15:00",
+      "thuis": "Hellas Verona FC",
+      "thuisLogo": "https://crests.football-data.org/450.png",
+      "uit": "AS Roma",
+      "uitLogo": "https://crests.football-data.org/100.png"
+    }
+  ],
+  "110": [
+    {
+      "id": 537190,
+      "datum": "zo 24 mei 15:00",
+      "thuis": "SS Lazio",
+      "thuisLogo": "https://crests.football-data.org/110.png",
+      "uit": "AC Pisa 1909",
+      "uitLogo": "https://crests.football-data.org/487.png"
+    }
+  ],
+  "487": [
+    {
+      "id": 537190,
+      "datum": "zo 24 mei 15:00",
+      "thuis": "SS Lazio",
+      "thuisLogo": "https://crests.football-data.org/110.png",
+      "uit": "AC Pisa 1909",
+      "uitLogo": "https://crests.football-data.org/487.png"
+    }
+  ],
+  "112": [
+    {
+      "id": 537191,
+      "datum": "zo 24 mei 15:00",
+      "thuis": "Parma Calcio 1913",
+      "thuisLogo": "https://crests.football-data.org/112.png",
+      "uit": "US Sassuolo Calcio",
+      "uitLogo": "https://crests.football-data.org/471.png"
+    }
+  ],
+  "113": [
+    {
+      "id": 537192,
+      "datum": "zo 24 mei 15:00",
+      "thuis": "SSC Napoli",
+      "thuisLogo": "https://crests.football-data.org/113.png",
+      "uit": "Udinese Calcio",
+      "uitLogo": "https://crests.football-data.org/115.png"
+    }
+  ],
+  "7397": [
+    {
+      "id": 537193,
+      "datum": "zo 24 mei 15:00",
+      "thuis": "US Cremonese",
+      "thuisLogo": "https://crests.football-data.org/457.png",
+      "uit": "Como 1907",
+      "uitLogo": "https://crests.football-data.org/7397.png"
+    }
+  ],
+  "107": [
+    {
+      "id": 537194,
+      "datum": "zo 24 mei 15:00",
+      "thuis": "US Lecce",
+      "thuisLogo": "https://crests.football-data.org/5890.png",
+      "uit": "Genoa CFC",
+      "uitLogo": "https://crests.football-data.org/107.png"
     }
   ],
   "525": [
@@ -1617,1674 +1357,6 @@
       "thuisLogo": "https://crests.football-data.org/6806.png",
       "uit": "SBV Excelsior",
       "uitLogo": "https://crests.football-data.org/670.png"
-    }
-  ],
-  "583": [
-    {
-      "id": 545997,
-      "datum": "za 16 mei 16:30",
-      "thuis": "Moreirense FC",
-      "thuisLogo": "https://crests.football-data.org/583.png",
-      "uit": "AVS",
-      "uitLogo": "https://crests.football-data.org/10340.png"
-    }
-  ],
-  "10340": [
-    {
-      "id": 545997,
-      "datum": "za 16 mei 16:30",
-      "thuis": "Moreirense FC",
-      "thuisLogo": "https://crests.football-data.org/583.png",
-      "uit": "AVS",
-      "uitLogo": "https://crests.football-data.org/10340.png"
-    }
-  ],
-  "503": [
-    {
-      "id": 546000,
-      "datum": "za 16 mei 16:30",
-      "thuis": "FC Porto",
-      "thuisLogo": "https://crests.football-data.org/503.png",
-      "uit": "CD Santa Clara",
-      "uitLogo": "https://crests.football-data.org/5530.png"
-    }
-  ],
-  "5530": [
-    {
-      "id": 546000,
-      "datum": "za 16 mei 16:30",
-      "thuis": "FC Porto",
-      "thuisLogo": "https://crests.football-data.org/503.png",
-      "uit": "CD Santa Clara",
-      "uitLogo": "https://crests.football-data.org/5530.png"
-    }
-  ],
-  "5529": [
-    {
-      "id": 546002,
-      "datum": "za 16 mei 19:00",
-      "thuis": "CD Nacional",
-      "thuisLogo": "https://crests.football-data.org/5529.png",
-      "uit": "Vitória SC",
-      "uitLogo": "https://crests.football-data.org/5543.png"
-    }
-  ],
-  "5543": [
-    {
-      "id": 546002,
-      "datum": "za 16 mei 19:00",
-      "thuis": "CD Nacional",
-      "thuisLogo": "https://crests.football-data.org/5529.png",
-      "uit": "Vitória SC",
-      "uitLogo": "https://crests.football-data.org/5543.png"
-    }
-  ],
-  "6618": [
-    {
-      "id": 546003,
-      "datum": "za 16 mei 19:00",
-      "thuis": "Casa Pia AC",
-      "thuisLogo": "https://crests.football-data.org/6618.png",
-      "uit": "Rio Ave FC",
-      "uitLogo": "https://crests.football-data.org/496.png"
-    }
-  ],
-  "496": [
-    {
-      "id": 546003,
-      "datum": "za 16 mei 19:00",
-      "thuis": "Casa Pia AC",
-      "thuisLogo": "https://crests.football-data.org/6618.png",
-      "uit": "Rio Ave FC",
-      "uitLogo": "https://crests.football-data.org/496.png"
-    }
-  ],
-  "712": [
-    {
-      "id": 546004,
-      "datum": "za 16 mei 19:00",
-      "thuis": "FC Arouca",
-      "thuisLogo": "https://crests.football-data.org/712.png",
-      "uit": "CD Tondela",
-      "uitLogo": "https://crests.football-data.org/1049.png"
-    }
-  ],
-  "1049": [
-    {
-      "id": 546004,
-      "datum": "za 16 mei 19:00",
-      "thuis": "FC Arouca",
-      "thuisLogo": "https://crests.football-data.org/712.png",
-      "uit": "CD Tondela",
-      "uitLogo": "https://crests.football-data.org/1049.png"
-    }
-  ],
-  "5613": [
-    {
-      "id": 546005,
-      "datum": "za 16 mei 19:00",
-      "thuis": "Sporting Clube de Braga",
-      "thuisLogo": "https://crests.football-data.org/5613.png",
-      "uit": "CF Estrela da Amadora",
-      "uitLogo": "https://crests.football-data.org/9136.png"
-    }
-  ],
-  "9136": [
-    {
-      "id": 546005,
-      "datum": "za 16 mei 19:00",
-      "thuis": "Sporting Clube de Braga",
-      "thuisLogo": "https://crests.football-data.org/5613.png",
-      "uit": "CF Estrela da Amadora",
-      "uitLogo": "https://crests.football-data.org/9136.png"
-    }
-  ],
-  "5531": [
-    {
-      "id": 545998,
-      "datum": "za 16 mei 21:30",
-      "thuis": "FC Famalicão",
-      "thuisLogo": "https://crests.football-data.org/5531.png",
-      "uit": "FC Alverca",
-      "uitLogo": "https://crests.football-data.org/7822.png"
-    }
-  ],
-  "7822": [
-    {
-      "id": 545998,
-      "datum": "za 16 mei 21:30",
-      "thuis": "FC Famalicão",
-      "thuisLogo": "https://crests.football-data.org/5531.png",
-      "uit": "FC Alverca",
-      "uitLogo": "https://crests.football-data.org/7822.png"
-    }
-  ],
-  "498": [
-    {
-      "id": 545999,
-      "datum": "za 16 mei 21:30",
-      "thuis": "Sporting Clube de Portugal",
-      "thuisLogo": "https://crests.football-data.org/498.png",
-      "uit": "Gil Vicente FC",
-      "uitLogo": "https://crests.football-data.org/5533.png"
-    }
-  ],
-  "5533": [
-    {
-      "id": 545999,
-      "datum": "za 16 mei 21:30",
-      "thuis": "Sporting Clube de Portugal",
-      "thuisLogo": "https://crests.football-data.org/498.png",
-      "uit": "Gil Vicente FC",
-      "uitLogo": "https://crests.football-data.org/5533.png"
-    }
-  ],
-  "582": [
-    {
-      "id": 546001,
-      "datum": "za 16 mei 21:30",
-      "thuis": "GD Estoril Praia",
-      "thuisLogo": "https://crests.football-data.org/582.png",
-      "uit": "Sport Lisboa e Benfica",
-      "uitLogo": "https://crests.football-data.org/1903.png"
-    }
-  ],
-  "1903": [
-    {
-      "id": 546001,
-      "datum": "za 16 mei 21:30",
-      "thuis": "GD Estoril Praia",
-      "thuisLogo": "https://crests.football-data.org/582.png",
-      "uit": "Sport Lisboa e Benfica",
-      "uitLogo": "https://crests.football-data.org/1903.png"
-    }
-  ],
-  "1766": [
-    {
-      "id": 554891,
-      "datum": "za 16 mei 23:30",
-      "thuis": "CA Mineiro",
-      "thuisLogo": "https://crests.football-data.org/1766.png",
-      "uit": "Mirassol FC",
-      "uitLogo": "https://crests.football-data.org/4364.png"
-    },
-    {
-      "id": 554900,
-      "datum": "zo 24 mei 23:30",
-      "thuis": "SC Corinthians Paulista",
-      "thuisLogo": "https://crests.football-data.org/1779.png",
-      "uit": "CA Mineiro",
-      "uitLogo": "https://crests.football-data.org/1766.png"
-    },
-    {
-      "id": 554919,
-      "datum": "zo 31 mei 21:00",
-      "thuis": "CR Vasco da Gama",
-      "thuisLogo": "https://crests.football-data.org/1780.png",
-      "uit": "CA Mineiro",
-      "uitLogo": "https://crests.football-data.org/1766.png"
-    },
-    {
-      "id": 554920,
-      "datum": "wo 22 juli 02:00",
-      "thuis": "CA Mineiro",
-      "thuisLogo": "https://crests.football-data.org/1766.png",
-      "uit": "EC Bahia",
-      "uitLogo": "https://crests.football-data.org/1777.png"
-    },
-    {
-      "id": 554936,
-      "datum": "za 25 juli 02:00",
-      "thuis": "SE Palmeiras",
-      "thuisLogo": "https://crests.football-data.org/1769.png",
-      "uit": "CA Mineiro",
-      "uitLogo": "https://crests.football-data.org/1766.png"
-    },
-    {
-      "id": 554940,
-      "datum": "wo 29 juli 02:00",
-      "thuis": "CA Mineiro",
-      "thuisLogo": "https://crests.football-data.org/1766.png",
-      "uit": "RB Bragantino",
-      "uitLogo": "https://crests.football-data.org/4286.png"
-    },
-    {
-      "id": 554958,
-      "datum": "za 8 augustus 02:00",
-      "thuis": "Clube do Remo",
-      "thuisLogo": "https://crests.football-data.org/4287.png",
-      "uit": "CA Mineiro",
-      "uitLogo": "https://crests.football-data.org/1766.png"
-    },
-    {
-      "id": 554961,
-      "datum": "za 15 augustus 02:00",
-      "thuis": "CA Mineiro",
-      "thuisLogo": "https://crests.football-data.org/1766.png",
-      "uit": "Grêmio FBPA",
-      "uitLogo": "https://crests.football-data.org/1767.png"
-    },
-    {
-      "id": 554976,
-      "datum": "za 22 augustus 02:00",
-      "thuis": "SC Internacional",
-      "thuisLogo": "https://crests.football-data.org/6684.png",
-      "uit": "CA Mineiro",
-      "uitLogo": "https://crests.football-data.org/1766.png"
-    },
-    {
-      "id": 554981,
-      "datum": "za 29 augustus 02:00",
-      "thuis": "CA Mineiro",
-      "thuisLogo": "https://crests.football-data.org/1766.png",
-      "uit": "EC Vitória",
-      "uitLogo": "https://crests.football-data.org/1782.png"
-    },
-    {
-      "id": 554998,
-      "datum": "za 5 september 02:00",
-      "thuis": "São Paulo FC",
-      "thuisLogo": "https://crests.football-data.org/1776.png",
-      "uit": "CA Mineiro",
-      "uitLogo": "https://crests.football-data.org/1766.png"
-    },
-    {
-      "id": 555000,
-      "datum": "za 12 september 02:00",
-      "thuis": "CA Mineiro",
-      "thuisLogo": "https://crests.football-data.org/1766.png",
-      "uit": "Fluminense FC",
-      "uitLogo": "https://crests.football-data.org/1765.png"
-    },
-    {
-      "id": 555011,
-      "datum": "za 19 september 02:00",
-      "thuis": "CA Mineiro",
-      "thuisLogo": "https://crests.football-data.org/1766.png",
-      "uit": "Chapecoense AF",
-      "uitLogo": "https://crests.football-data.org/1772_large.png"
-    },
-    {
-      "id": 555020,
-      "datum": "wo 7 oktober 02:00",
-      "thuis": "CA Paranaense",
-      "thuisLogo": "https://crests.football-data.org/1768.png",
-      "uit": "CA Mineiro",
-      "uitLogo": "https://crests.football-data.org/1766.png"
-    },
-    {
-      "id": 555030,
-      "datum": "za 10 oktober 02:00",
-      "thuis": "CA Mineiro",
-      "thuisLogo": "https://crests.football-data.org/1766.png",
-      "uit": "Santos FC",
-      "uitLogo": "https://crests.football-data.org/6685.png"
-    },
-    {
-      "id": 555041,
-      "datum": "za 17 oktober 02:00",
-      "thuis": "CA Mineiro",
-      "thuisLogo": "https://crests.football-data.org/1766.png",
-      "uit": "Coritiba FBC",
-      "uitLogo": "https://crests.football-data.org/4241.png"
-    },
-    {
-      "id": 555053,
-      "datum": "za 24 oktober 02:00",
-      "thuis": "CR Flamengo",
-      "thuisLogo": "https://crests.football-data.org/1783.png",
-      "uit": "CA Mineiro",
-      "uitLogo": "https://crests.football-data.org/1766.png"
-    },
-    {
-      "id": 555060,
-      "datum": "wo 28 oktober 01:00",
-      "thuis": "CA Mineiro",
-      "thuisLogo": "https://crests.football-data.org/1766.png",
-      "uit": "Cruzeiro EC",
-      "uitLogo": "https://crests.football-data.org/1771.png"
-    },
-    {
-      "id": 555071,
-      "datum": "wo 4 november 01:00",
-      "thuis": "Botafogo FR",
-      "thuisLogo": "https://crests.football-data.org/1770.png",
-      "uit": "CA Mineiro",
-      "uitLogo": "https://crests.football-data.org/1766.png"
-    },
-    {
-      "id": 555085,
-      "datum": "wo 18 november 01:00",
-      "thuis": "Mirassol FC",
-      "thuisLogo": "https://crests.football-data.org/4364.png",
-      "uit": "CA Mineiro",
-      "uitLogo": "https://crests.football-data.org/1766.png"
-    },
-    {
-      "id": 555091,
-      "datum": "za 21 november 01:00",
-      "thuis": "CA Mineiro",
-      "thuisLogo": "https://crests.football-data.org/1766.png",
-      "uit": "SC Corinthians Paulista",
-      "uitLogo": "https://crests.football-data.org/1779.png"
-    },
-    {
-      "id": 555100,
-      "datum": "za 28 november 01:00",
-      "thuis": "CA Mineiro",
-      "thuisLogo": "https://crests.football-data.org/1766.png",
-      "uit": "CR Vasco da Gama",
-      "uitLogo": "https://crests.football-data.org/1780.png"
-    },
-    {
-      "id": 555111,
-      "datum": "wo 2 december 01:00",
-      "thuis": "EC Bahia",
-      "thuisLogo": "https://crests.football-data.org/1777.png",
-      "uit": "CA Mineiro",
-      "uitLogo": "https://crests.football-data.org/1766.png"
-    }
-  ],
-  "4364": [
-    {
-      "id": 554891,
-      "datum": "za 16 mei 23:30",
-      "thuis": "CA Mineiro",
-      "thuisLogo": "https://crests.football-data.org/1766.png",
-      "uit": "Mirassol FC",
-      "uitLogo": "https://crests.football-data.org/4364.png"
-    },
-    {
-      "id": 554905,
-      "datum": "zo 24 mei 00:00",
-      "thuis": "Mirassol FC",
-      "thuisLogo": "https://crests.football-data.org/4364.png",
-      "uit": "Fluminense FC",
-      "uitLogo": "https://crests.football-data.org/1765.png"
-    },
-    {
-      "id": 554910,
-      "datum": "za 30 mei 21:00",
-      "thuis": "CA Paranaense",
-      "thuisLogo": "https://crests.football-data.org/1768.png",
-      "uit": "Mirassol FC",
-      "uitLogo": "https://crests.football-data.org/4364.png"
-    },
-    {
-      "id": 554927,
-      "datum": "wo 22 juli 02:00",
-      "thuis": "Mirassol FC",
-      "thuisLogo": "https://crests.football-data.org/4364.png",
-      "uit": "Grêmio FBPA",
-      "uitLogo": "https://crests.football-data.org/1767.png"
-    },
-    {
-      "id": 554939,
-      "datum": "za 25 juli 02:00",
-      "thuis": "CR Vasco da Gama",
-      "thuisLogo": "https://crests.football-data.org/1780.png",
-      "uit": "Mirassol FC",
-      "uitLogo": "https://crests.football-data.org/4364.png"
-    },
-    {
-      "id": 554947,
-      "datum": "wo 29 juli 02:00",
-      "thuis": "Mirassol FC",
-      "thuisLogo": "https://crests.football-data.org/4364.png",
-      "uit": "Clube do Remo",
-      "uitLogo": "https://crests.football-data.org/4287.png"
-    },
-    {
-      "id": 554954,
-      "datum": "za 8 augustus 02:00",
-      "thuis": "Cruzeiro EC",
-      "thuisLogo": "https://crests.football-data.org/1771.png",
-      "uit": "Mirassol FC",
-      "uitLogo": "https://crests.football-data.org/4364.png"
-    },
-    {
-      "id": 554966,
-      "datum": "za 15 augustus 02:00",
-      "thuis": "Mirassol FC",
-      "thuisLogo": "https://crests.football-data.org/4364.png",
-      "uit": "CR Flamengo",
-      "uitLogo": "https://crests.football-data.org/1783.png"
-    },
-    {
-      "id": 554978,
-      "datum": "za 22 augustus 02:00",
-      "thuis": "Santos FC",
-      "thuisLogo": "https://crests.football-data.org/6685.png",
-      "uit": "Mirassol FC",
-      "uitLogo": "https://crests.football-data.org/4364.png"
-    },
-    {
-      "id": 554986,
-      "datum": "za 29 augustus 02:00",
-      "thuis": "Mirassol FC",
-      "thuisLogo": "https://crests.football-data.org/4364.png",
-      "uit": "SE Palmeiras",
-      "uitLogo": "https://crests.football-data.org/1769.png"
-    },
-    {
-      "id": 554993,
-      "datum": "za 5 september 02:00",
-      "thuis": "Coritiba FBC",
-      "thuisLogo": "https://crests.football-data.org/4241.png",
-      "uit": "Mirassol FC",
-      "uitLogo": "https://crests.football-data.org/4364.png"
-    },
-    {
-      "id": 555007,
-      "datum": "za 12 september 02:00",
-      "thuis": "Mirassol FC",
-      "thuisLogo": "https://crests.football-data.org/4364.png",
-      "uit": "EC Vitória",
-      "uitLogo": "https://crests.football-data.org/1782.png"
-    },
-    {
-      "id": 555015,
-      "datum": "za 19 september 02:00",
-      "thuis": "Mirassol FC",
-      "thuisLogo": "https://crests.football-data.org/4364.png",
-      "uit": "Botafogo FR",
-      "uitLogo": "https://crests.football-data.org/1770.png"
-    },
-    {
-      "id": 555022,
-      "datum": "wo 7 oktober 02:00",
-      "thuis": "RB Bragantino",
-      "thuisLogo": "https://crests.football-data.org/4286.png",
-      "uit": "Mirassol FC",
-      "uitLogo": "https://crests.football-data.org/4364.png"
-    },
-    {
-      "id": 555031,
-      "datum": "za 10 oktober 02:00",
-      "thuis": "EC Bahia",
-      "thuisLogo": "https://crests.football-data.org/1777.png",
-      "uit": "Mirassol FC",
-      "uitLogo": "https://crests.football-data.org/4364.png"
-    },
-    {
-      "id": 555047,
-      "datum": "za 17 oktober 02:00",
-      "thuis": "Mirassol FC",
-      "thuisLogo": "https://crests.football-data.org/4364.png",
-      "uit": "SC Internacional",
-      "uitLogo": "https://crests.football-data.org/6684.png"
-    },
-    {
-      "id": 555055,
-      "datum": "za 24 oktober 02:00",
-      "thuis": "Mirassol FC",
-      "thuisLogo": "https://crests.football-data.org/4364.png",
-      "uit": "São Paulo FC",
-      "uitLogo": "https://crests.football-data.org/1776.png"
-    },
-    {
-      "id": 555063,
-      "datum": "wo 28 oktober 01:00",
-      "thuis": "SC Corinthians Paulista",
-      "thuisLogo": "https://crests.football-data.org/1779.png",
-      "uit": "Mirassol FC",
-      "uitLogo": "https://crests.football-data.org/4364.png"
-    },
-    {
-      "id": 555073,
-      "datum": "wo 4 november 01:00",
-      "thuis": "Chapecoense AF",
-      "thuisLogo": "https://crests.football-data.org/1772_large.png",
-      "uit": "Mirassol FC",
-      "uitLogo": "https://crests.football-data.org/4364.png"
-    },
-    {
-      "id": 555085,
-      "datum": "wo 18 november 01:00",
-      "thuis": "Mirassol FC",
-      "thuisLogo": "https://crests.football-data.org/4364.png",
-      "uit": "CA Mineiro",
-      "uitLogo": "https://crests.football-data.org/1766.png"
-    },
-    {
-      "id": 555096,
-      "datum": "za 21 november 01:00",
-      "thuis": "Fluminense FC",
-      "thuisLogo": "https://crests.football-data.org/1765.png",
-      "uit": "Mirassol FC",
-      "uitLogo": "https://crests.football-data.org/4364.png"
-    },
-    {
-      "id": 555107,
-      "datum": "za 28 november 01:00",
-      "thuis": "Mirassol FC",
-      "thuisLogo": "https://crests.football-data.org/4364.png",
-      "uit": "CA Paranaense",
-      "uitLogo": "https://crests.football-data.org/1768.png"
-    },
-    {
-      "id": 555115,
-      "datum": "wo 2 december 01:00",
-      "thuis": "Grêmio FBPA",
-      "thuisLogo": "https://crests.football-data.org/1767.png",
-      "uit": "Mirassol FC",
-      "uitLogo": "https://crests.football-data.org/4364.png"
-    }
-  ],
-  "6684": [
-    {
-      "id": 554897,
-      "datum": "za 16 mei 23:30",
-      "thuis": "SC Internacional",
-      "thuisLogo": "https://crests.football-data.org/6684.png",
-      "uit": "CR Vasco da Gama",
-      "uitLogo": "https://crests.football-data.org/1780.png"
-    },
-    {
-      "id": 554909,
-      "datum": "za 23 mei 22:00",
-      "thuis": "EC Vitória",
-      "thuisLogo": "https://crests.football-data.org/1782.png",
-      "uit": "SC Internacional",
-      "uitLogo": "https://crests.football-data.org/6684.png"
-    },
-    {
-      "id": 554912,
-      "datum": "zo 31 mei 16:00",
-      "thuis": "RB Bragantino",
-      "thuisLogo": "https://crests.football-data.org/4286.png",
-      "uit": "SC Internacional",
-      "uitLogo": "https://crests.football-data.org/6684.png"
-    },
-    {
-      "id": 554926,
-      "datum": "wo 22 juli 02:00",
-      "thuis": "SC Internacional",
-      "thuisLogo": "https://crests.football-data.org/6684.png",
-      "uit": "Cruzeiro EC",
-      "uitLogo": "https://crests.football-data.org/1771.png"
-    },
-    {
-      "id": 554930,
-      "datum": "za 25 juli 02:00",
-      "thuis": "CA Paranaense",
-      "thuisLogo": "https://crests.football-data.org/1768.png",
-      "uit": "SC Internacional",
-      "uitLogo": "https://crests.football-data.org/6684.png"
-    },
-    {
-      "id": 554946,
-      "datum": "wo 29 juli 02:00",
-      "thuis": "SC Internacional",
-      "thuisLogo": "https://crests.football-data.org/6684.png",
-      "uit": "CR Flamengo",
-      "uitLogo": "https://crests.football-data.org/1783.png"
-    },
-    {
-      "id": 554957,
-      "datum": "za 8 augustus 02:00",
-      "thuis": "SE Palmeiras",
-      "thuisLogo": "https://crests.football-data.org/1769.png",
-      "uit": "SC Internacional",
-      "uitLogo": "https://crests.football-data.org/6684.png"
-    },
-    {
-      "id": 554965,
-      "datum": "za 15 augustus 02:00",
-      "thuis": "SC Internacional",
-      "thuisLogo": "https://crests.football-data.org/6684.png",
-      "uit": "Clube do Remo",
-      "uitLogo": "https://crests.football-data.org/4287.png"
-    },
-    {
-      "id": 554976,
-      "datum": "za 22 augustus 02:00",
-      "thuis": "SC Internacional",
-      "thuisLogo": "https://crests.football-data.org/6684.png",
-      "uit": "CA Mineiro",
-      "uitLogo": "https://crests.football-data.org/1766.png"
-    },
-    {
-      "id": 554982,
-      "datum": "za 29 augustus 02:00",
-      "thuis": "EC Bahia",
-      "thuisLogo": "https://crests.football-data.org/1777.png",
-      "uit": "SC Internacional",
-      "uitLogo": "https://crests.football-data.org/6684.png"
-    },
-    {
-      "id": 554996,
-      "datum": "za 5 september 02:00",
-      "thuis": "SC Internacional",
-      "thuisLogo": "https://crests.football-data.org/6684.png",
-      "uit": "Santos FC",
-      "uitLogo": "https://crests.football-data.org/6685.png"
-    },
-    {
-      "id": 555003,
-      "datum": "za 12 september 02:00",
-      "thuis": "Chapecoense AF",
-      "thuisLogo": "https://crests.football-data.org/1772_large.png",
-      "uit": "SC Internacional",
-      "uitLogo": "https://crests.football-data.org/6684.png"
-    },
-    {
-      "id": 555017,
-      "datum": "za 19 september 02:00",
-      "thuis": "São Paulo FC",
-      "thuisLogo": "https://crests.football-data.org/1776.png",
-      "uit": "SC Internacional",
-      "uitLogo": "https://crests.football-data.org/6684.png"
-    },
-    {
-      "id": 555025,
-      "datum": "wo 7 oktober 02:00",
-      "thuis": "SC Internacional",
-      "thuisLogo": "https://crests.football-data.org/6684.png",
-      "uit": "SC Corinthians Paulista",
-      "uitLogo": "https://crests.football-data.org/1779.png"
-    },
-    {
-      "id": 555036,
-      "datum": "za 10 oktober 02:00",
-      "thuis": "Grêmio FBPA",
-      "thuisLogo": "https://crests.football-data.org/1767.png",
-      "uit": "SC Internacional",
-      "uitLogo": "https://crests.football-data.org/6684.png"
-    },
-    {
-      "id": 555047,
-      "datum": "za 17 oktober 02:00",
-      "thuis": "Mirassol FC",
-      "thuisLogo": "https://crests.football-data.org/4364.png",
-      "uit": "SC Internacional",
-      "uitLogo": "https://crests.football-data.org/6684.png"
-    },
-    {
-      "id": 555054,
-      "datum": "za 24 oktober 02:00",
-      "thuis": "SC Internacional",
-      "thuisLogo": "https://crests.football-data.org/6684.png",
-      "uit": "Botafogo FR",
-      "uitLogo": "https://crests.football-data.org/1770.png"
-    },
-    {
-      "id": 555065,
-      "datum": "wo 28 oktober 01:00",
-      "thuis": "Fluminense FC",
-      "thuisLogo": "https://crests.football-data.org/1765.png",
-      "uit": "SC Internacional",
-      "uitLogo": "https://crests.football-data.org/6684.png"
-    },
-    {
-      "id": 555076,
-      "datum": "wo 4 november 01:00",
-      "thuis": "SC Internacional",
-      "thuisLogo": "https://crests.football-data.org/6684.png",
-      "uit": "Coritiba FBC",
-      "uitLogo": "https://crests.football-data.org/4241.png"
-    },
-    {
-      "id": 555088,
-      "datum": "wo 18 november 01:00",
-      "thuis": "CR Vasco da Gama",
-      "thuisLogo": "https://crests.football-data.org/1780.png",
-      "uit": "SC Internacional",
-      "uitLogo": "https://crests.football-data.org/6684.png"
-    },
-    {
-      "id": 555097,
-      "datum": "za 21 november 01:00",
-      "thuis": "SC Internacional",
-      "thuisLogo": "https://crests.football-data.org/6684.png",
-      "uit": "EC Vitória",
-      "uitLogo": "https://crests.football-data.org/1782.png"
-    },
-    {
-      "id": 555106,
-      "datum": "za 28 november 01:00",
-      "thuis": "SC Internacional",
-      "thuisLogo": "https://crests.football-data.org/6684.png",
-      "uit": "RB Bragantino",
-      "uitLogo": "https://crests.football-data.org/4286.png"
-    },
-    {
-      "id": 555113,
-      "datum": "wo 2 december 01:00",
-      "thuis": "Cruzeiro EC",
-      "thuisLogo": "https://crests.football-data.org/1771.png",
-      "uit": "SC Internacional",
-      "uitLogo": "https://crests.football-data.org/6684.png"
-    }
-  ],
-  "1780": [
-    {
-      "id": 554897,
-      "datum": "za 16 mei 23:30",
-      "thuis": "SC Internacional",
-      "thuisLogo": "https://crests.football-data.org/6684.png",
-      "uit": "CR Vasco da Gama",
-      "uitLogo": "https://crests.football-data.org/1780.png"
-    },
-    {
-      "id": 554908,
-      "datum": "ma 25 mei 01:30",
-      "thuis": "CR Vasco da Gama",
-      "thuisLogo": "https://crests.football-data.org/1780.png",
-      "uit": "RB Bragantino",
-      "uitLogo": "https://crests.football-data.org/4286.png"
-    },
-    {
-      "id": 554919,
-      "datum": "zo 31 mei 21:00",
-      "thuis": "CR Vasco da Gama",
-      "thuisLogo": "https://crests.football-data.org/1780.png",
-      "uit": "CA Mineiro",
-      "uitLogo": "https://crests.football-data.org/1766.png"
-    },
-    {
-      "id": 554929,
-      "datum": "wo 22 juli 02:00",
-      "thuis": "EC Vitória",
-      "thuisLogo": "https://crests.football-data.org/1782.png",
-      "uit": "CR Vasco da Gama",
-      "uitLogo": "https://crests.football-data.org/1780.png"
-    },
-    {
-      "id": 554939,
-      "datum": "za 25 juli 02:00",
-      "thuis": "CR Vasco da Gama",
-      "thuisLogo": "https://crests.football-data.org/1780.png",
-      "uit": "Mirassol FC",
-      "uitLogo": "https://crests.football-data.org/4364.png"
-    },
-    {
-      "id": 554942,
-      "datum": "wo 29 juli 02:00",
-      "thuis": "Chapecoense AF",
-      "thuisLogo": "https://crests.football-data.org/1772_large.png",
-      "uit": "CR Vasco da Gama",
-      "uitLogo": "https://crests.football-data.org/1780.png"
-    },
-    {
-      "id": 554950,
-      "datum": "za 8 augustus 02:00",
-      "thuis": "EC Bahia",
-      "thuisLogo": "https://crests.football-data.org/1777.png",
-      "uit": "CR Vasco da Gama",
-      "uitLogo": "https://crests.football-data.org/1780.png"
-    },
-    {
-      "id": 554968,
-      "datum": "za 15 augustus 02:00",
-      "thuis": "CR Vasco da Gama",
-      "thuisLogo": "https://crests.football-data.org/1780.png",
-      "uit": "Santos FC",
-      "uitLogo": "https://crests.football-data.org/6685.png"
-    },
-    {
-      "id": 554977,
-      "datum": "za 22 augustus 02:00",
-      "thuis": "SE Palmeiras",
-      "thuisLogo": "https://crests.football-data.org/1769.png",
-      "uit": "CR Vasco da Gama",
-      "uitLogo": "https://crests.football-data.org/1780.png"
-    },
-    {
-      "id": 554989,
-      "datum": "za 29 augustus 02:00",
-      "thuis": "CR Vasco da Gama",
-      "thuisLogo": "https://crests.football-data.org/1780.png",
-      "uit": "Cruzeiro EC",
-      "uitLogo": "https://crests.football-data.org/1771.png"
-    },
-    {
-      "id": 554995,
-      "datum": "za 5 september 02:00",
-      "thuis": "Fluminense FC",
-      "thuisLogo": "https://crests.football-data.org/1765.png",
-      "uit": "CR Vasco da Gama",
-      "uitLogo": "https://crests.football-data.org/1780.png"
-    },
-    {
-      "id": 555006,
-      "datum": "za 12 september 02:00",
-      "thuis": "Grêmio FBPA",
-      "thuisLogo": "https://crests.football-data.org/1767.png",
-      "uit": "CR Vasco da Gama",
-      "uitLogo": "https://crests.football-data.org/1780.png"
-    },
-    {
-      "id": 555018,
-      "datum": "za 19 september 02:00",
-      "thuis": "CR Vasco da Gama",
-      "thuisLogo": "https://crests.football-data.org/1780.png",
-      "uit": "Coritiba FBC",
-      "uitLogo": "https://crests.football-data.org/4241.png"
-    },
-    {
-      "id": 555021,
-      "datum": "wo 7 oktober 02:00",
-      "thuis": "Botafogo FR",
-      "thuisLogo": "https://crests.football-data.org/1770.png",
-      "uit": "CR Vasco da Gama",
-      "uitLogo": "https://crests.football-data.org/1780.png"
-    },
-    {
-      "id": 555039,
-      "datum": "za 10 oktober 02:00",
-      "thuis": "CR Vasco da Gama",
-      "thuisLogo": "https://crests.football-data.org/1780.png",
-      "uit": "Clube do Remo",
-      "uitLogo": "https://crests.football-data.org/4287.png"
-    },
-    {
-      "id": 555049,
-      "datum": "za 17 oktober 02:00",
-      "thuis": "São Paulo FC",
-      "thuisLogo": "https://crests.football-data.org/1776.png",
-      "uit": "CR Vasco da Gama",
-      "uitLogo": "https://crests.football-data.org/1780.png"
-    },
-    {
-      "id": 555058,
-      "datum": "za 24 oktober 02:00",
-      "thuis": "CR Vasco da Gama",
-      "thuisLogo": "https://crests.football-data.org/1780.png",
-      "uit": "SC Corinthians Paulista",
-      "uitLogo": "https://crests.football-data.org/1779.png"
-    },
-    {
-      "id": 555069,
-      "datum": "wo 28 oktober 01:00",
-      "thuis": "CR Vasco da Gama",
-      "thuisLogo": "https://crests.football-data.org/1780.png",
-      "uit": "CR Flamengo",
-      "uitLogo": "https://crests.football-data.org/1783.png"
-    },
-    {
-      "id": 555070,
-      "datum": "wo 4 november 01:00",
-      "thuis": "CA Paranaense",
-      "thuisLogo": "https://crests.football-data.org/1768.png",
-      "uit": "CR Vasco da Gama",
-      "uitLogo": "https://crests.football-data.org/1780.png"
-    },
-    {
-      "id": 555088,
-      "datum": "wo 18 november 01:00",
-      "thuis": "CR Vasco da Gama",
-      "thuisLogo": "https://crests.football-data.org/1780.png",
-      "uit": "SC Internacional",
-      "uitLogo": "https://crests.football-data.org/6684.png"
-    },
-    {
-      "id": 555094,
-      "datum": "za 21 november 01:00",
-      "thuis": "RB Bragantino",
-      "thuisLogo": "https://crests.football-data.org/4286.png",
-      "uit": "CR Vasco da Gama",
-      "uitLogo": "https://crests.football-data.org/1780.png"
-    },
-    {
-      "id": 555100,
-      "datum": "za 28 november 01:00",
-      "thuis": "CA Mineiro",
-      "thuisLogo": "https://crests.football-data.org/1766.png",
-      "uit": "CR Vasco da Gama",
-      "uitLogo": "https://crests.football-data.org/1780.png"
-    },
-    {
-      "id": 555119,
-      "datum": "wo 2 december 01:00",
-      "thuis": "CR Vasco da Gama",
-      "thuisLogo": "https://crests.football-data.org/1780.png",
-      "uit": "EC Vitória",
-      "uitLogo": "https://crests.football-data.org/1782.png"
-    }
-  ],
-  "1765": [
-    {
-      "id": 554896,
-      "datum": "zo 17 mei 00:00",
-      "thuis": "Fluminense FC",
-      "thuisLogo": "https://crests.football-data.org/1765.png",
-      "uit": "São Paulo FC",
-      "uitLogo": "https://crests.football-data.org/1776.png"
-    },
-    {
-      "id": 554905,
-      "datum": "zo 24 mei 00:00",
-      "thuis": "Mirassol FC",
-      "thuisLogo": "https://crests.football-data.org/4364.png",
-      "uit": "Fluminense FC",
-      "uitLogo": "https://crests.football-data.org/1765.png"
-    },
-    {
-      "id": 554913,
-      "datum": "ma 1 juni 01:30",
-      "thuis": "Cruzeiro EC",
-      "thuisLogo": "https://crests.football-data.org/1771.png",
-      "uit": "Fluminense FC",
-      "uitLogo": "https://crests.football-data.org/1765.png"
-    },
-    {
-      "id": 554925,
-      "datum": "wo 22 juli 02:00",
-      "thuis": "Fluminense FC",
-      "thuisLogo": "https://crests.football-data.org/1765.png",
-      "uit": "RB Bragantino",
-      "uitLogo": "https://crests.football-data.org/4286.png"
-    },
-    {
-      "id": 554935,
-      "datum": "za 25 juli 02:00",
-      "thuis": "Grêmio FBPA",
-      "thuisLogo": "https://crests.football-data.org/1767.png",
-      "uit": "Fluminense FC",
-      "uitLogo": "https://crests.football-data.org/1765.png"
-    },
-    {
-      "id": 554945,
-      "datum": "wo 29 juli 02:00",
-      "thuis": "Fluminense FC",
-      "thuisLogo": "https://crests.football-data.org/1765.png",
-      "uit": "EC Bahia",
-      "uitLogo": "https://crests.football-data.org/1777.png"
-    },
-    {
-      "id": 554951,
-      "datum": "za 8 augustus 02:00",
-      "thuis": "Botafogo FR",
-      "thuisLogo": "https://crests.football-data.org/1770.png",
-      "uit": "Fluminense FC",
-      "uitLogo": "https://crests.football-data.org/1765.png"
-    },
-    {
-      "id": 554964,
-      "datum": "za 15 augustus 02:00",
-      "thuis": "Fluminense FC",
-      "thuisLogo": "https://crests.football-data.org/1765.png",
-      "uit": "SE Palmeiras",
-      "uitLogo": "https://crests.football-data.org/1769.png"
-    },
-    {
-      "id": 554975,
-      "datum": "za 22 augustus 02:00",
-      "thuis": "Fluminense FC",
-      "thuisLogo": "https://crests.football-data.org/1765.png",
-      "uit": "Clube do Remo",
-      "uitLogo": "https://crests.football-data.org/4287.png"
-    },
-    {
-      "id": 554980,
-      "datum": "za 29 augustus 02:00",
-      "thuis": "CA Paranaense",
-      "thuisLogo": "https://crests.football-data.org/1768.png",
-      "uit": "Fluminense FC",
-      "uitLogo": "https://crests.football-data.org/1765.png"
-    },
-    {
-      "id": 554995,
-      "datum": "za 5 september 02:00",
-      "thuis": "Fluminense FC",
-      "thuisLogo": "https://crests.football-data.org/1765.png",
-      "uit": "CR Vasco da Gama",
-      "uitLogo": "https://crests.football-data.org/1780.png"
-    },
-    {
-      "id": 555000,
-      "datum": "za 12 september 02:00",
-      "thuis": "CA Mineiro",
-      "thuisLogo": "https://crests.football-data.org/1766.png",
-      "uit": "Fluminense FC",
-      "uitLogo": "https://crests.football-data.org/1765.png"
-    },
-    {
-      "id": 555012,
-      "datum": "za 19 september 02:00",
-      "thuis": "SC Corinthians Paulista",
-      "thuisLogo": "https://crests.football-data.org/1779.png",
-      "uit": "Fluminense FC",
-      "uitLogo": "https://crests.football-data.org/1765.png"
-    },
-    {
-      "id": 555024,
-      "datum": "wo 7 oktober 02:00",
-      "thuis": "Fluminense FC",
-      "thuisLogo": "https://crests.football-data.org/1765.png",
-      "uit": "Coritiba FBC",
-      "uitLogo": "https://crests.football-data.org/4241.png"
-    },
-    {
-      "id": 555035,
-      "datum": "za 10 oktober 02:00",
-      "thuis": "CR Flamengo",
-      "thuisLogo": "https://crests.football-data.org/1783.png",
-      "uit": "Fluminense FC",
-      "uitLogo": "https://crests.football-data.org/1765.png"
-    },
-    {
-      "id": 555045,
-      "datum": "za 17 oktober 02:00",
-      "thuis": "Fluminense FC",
-      "thuisLogo": "https://crests.football-data.org/1765.png",
-      "uit": "Santos FC",
-      "uitLogo": "https://crests.football-data.org/6685.png"
-    },
-    {
-      "id": 555050,
-      "datum": "za 24 oktober 02:00",
-      "thuis": "Chapecoense AF",
-      "thuisLogo": "https://crests.football-data.org/1772_large.png",
-      "uit": "Fluminense FC",
-      "uitLogo": "https://crests.football-data.org/1765.png"
-    },
-    {
-      "id": 555065,
-      "datum": "wo 28 oktober 01:00",
-      "thuis": "Fluminense FC",
-      "thuisLogo": "https://crests.football-data.org/1765.png",
-      "uit": "SC Internacional",
-      "uitLogo": "https://crests.football-data.org/6684.png"
-    },
-    {
-      "id": 555079,
-      "datum": "wo 4 november 01:00",
-      "thuis": "EC Vitória",
-      "thuisLogo": "https://crests.football-data.org/1782.png",
-      "uit": "Fluminense FC",
-      "uitLogo": "https://crests.football-data.org/1765.png"
-    },
-    {
-      "id": 555087,
-      "datum": "wo 18 november 01:00",
-      "thuis": "São Paulo FC",
-      "thuisLogo": "https://crests.football-data.org/1776.png",
-      "uit": "Fluminense FC",
-      "uitLogo": "https://crests.football-data.org/1765.png"
-    },
-    {
-      "id": 555096,
-      "datum": "za 21 november 01:00",
-      "thuis": "Fluminense FC",
-      "thuisLogo": "https://crests.football-data.org/1765.png",
-      "uit": "Mirassol FC",
-      "uitLogo": "https://crests.football-data.org/4364.png"
-    },
-    {
-      "id": 555105,
-      "datum": "za 28 november 01:00",
-      "thuis": "Fluminense FC",
-      "thuisLogo": "https://crests.football-data.org/1765.png",
-      "uit": "Cruzeiro EC",
-      "uitLogo": "https://crests.football-data.org/1771.png"
-    },
-    {
-      "id": 555112,
-      "datum": "wo 2 december 01:00",
-      "thuis": "RB Bragantino",
-      "thuisLogo": "https://crests.football-data.org/4286.png",
-      "uit": "Fluminense FC",
-      "uitLogo": "https://crests.football-data.org/1765.png"
-    }
-  ],
-  "1776": [
-    {
-      "id": 554896,
-      "datum": "zo 17 mei 00:00",
-      "thuis": "Fluminense FC",
-      "thuisLogo": "https://crests.football-data.org/1765.png",
-      "uit": "São Paulo FC",
-      "uitLogo": "https://crests.football-data.org/1776.png"
-    },
-    {
-      "id": 554907,
-      "datum": "za 23 mei 22:00",
-      "thuis": "São Paulo FC",
-      "thuisLogo": "https://crests.football-data.org/1776.png",
-      "uit": "Botafogo FR",
-      "uitLogo": "https://crests.football-data.org/1770.png"
-    },
-    {
-      "id": 554917,
-      "datum": "zo 31 mei 00:30",
-      "thuis": "Clube do Remo",
-      "thuisLogo": "https://crests.football-data.org/4287.png",
-      "uit": "São Paulo FC",
-      "uitLogo": "https://crests.football-data.org/1776.png"
-    },
-    {
-      "id": 554928,
-      "datum": "wo 22 juli 02:00",
-      "thuis": "São Paulo FC",
-      "thuisLogo": "https://crests.football-data.org/1776.png",
-      "uit": "CA Paranaense",
-      "uitLogo": "https://crests.football-data.org/1768.png"
-    },
-    {
-      "id": 554934,
-      "datum": "za 25 juli 02:00",
-      "thuis": "CR Flamengo",
-      "thuisLogo": "https://crests.football-data.org/1783.png",
-      "uit": "São Paulo FC",
-      "uitLogo": "https://crests.football-data.org/1776.png"
-    },
-    {
-      "id": 554948,
-      "datum": "wo 29 juli 02:00",
-      "thuis": "São Paulo FC",
-      "thuisLogo": "https://crests.football-data.org/1776.png",
-      "uit": "Santos FC",
-      "uitLogo": "https://crests.football-data.org/6685.png"
-    },
-    {
-      "id": 554956,
-      "datum": "za 8 augustus 02:00",
-      "thuis": "Grêmio FBPA",
-      "thuisLogo": "https://crests.football-data.org/1767.png",
-      "uit": "São Paulo FC",
-      "uitLogo": "https://crests.football-data.org/1776.png"
-    },
-    {
-      "id": 554967,
-      "datum": "za 15 augustus 02:00",
-      "thuis": "São Paulo FC",
-      "thuisLogo": "https://crests.football-data.org/1776.png",
-      "uit": "Coritiba FBC",
-      "uitLogo": "https://crests.football-data.org/4241.png"
-    },
-    {
-      "id": 554972,
-      "datum": "za 22 augustus 02:00",
-      "thuis": "Chapecoense AF",
-      "thuisLogo": "https://crests.football-data.org/1772_large.png",
-      "uit": "São Paulo FC",
-      "uitLogo": "https://crests.football-data.org/1776.png"
-    },
-    {
-      "id": 554988,
-      "datum": "za 29 augustus 02:00",
-      "thuis": "São Paulo FC",
-      "thuisLogo": "https://crests.football-data.org/1776.png",
-      "uit": "RB Bragantino",
-      "uitLogo": "https://crests.football-data.org/4286.png"
-    },
-    {
-      "id": 554998,
-      "datum": "za 5 september 02:00",
-      "thuis": "São Paulo FC",
-      "thuisLogo": "https://crests.football-data.org/1776.png",
-      "uit": "CA Mineiro",
-      "uitLogo": "https://crests.football-data.org/1766.png"
-    },
-    {
-      "id": 555008,
-      "datum": "za 12 september 02:00",
-      "thuis": "SE Palmeiras",
-      "thuisLogo": "https://crests.football-data.org/1769.png",
-      "uit": "São Paulo FC",
-      "uitLogo": "https://crests.football-data.org/1776.png"
-    },
-    {
-      "id": 555017,
-      "datum": "za 19 september 02:00",
-      "thuis": "São Paulo FC",
-      "thuisLogo": "https://crests.football-data.org/1776.png",
-      "uit": "SC Internacional",
-      "uitLogo": "https://crests.football-data.org/6684.png"
-    },
-    {
-      "id": 555023,
-      "datum": "wo 7 oktober 02:00",
-      "thuis": "Cruzeiro EC",
-      "thuisLogo": "https://crests.football-data.org/1771.png",
-      "uit": "São Paulo FC",
-      "uitLogo": "https://crests.football-data.org/1776.png"
-    },
-    {
-      "id": 555038,
-      "datum": "za 10 oktober 02:00",
-      "thuis": "São Paulo FC",
-      "thuisLogo": "https://crests.football-data.org/1776.png",
-      "uit": "EC Vitória",
-      "uitLogo": "https://crests.football-data.org/1782.png"
-    },
-    {
-      "id": 555049,
-      "datum": "za 17 oktober 02:00",
-      "thuis": "São Paulo FC",
-      "thuisLogo": "https://crests.football-data.org/1776.png",
-      "uit": "CR Vasco da Gama",
-      "uitLogo": "https://crests.football-data.org/1780.png"
-    },
-    {
-      "id": 555055,
-      "datum": "za 24 oktober 02:00",
-      "thuis": "Mirassol FC",
-      "thuisLogo": "https://crests.football-data.org/4364.png",
-      "uit": "São Paulo FC",
-      "uitLogo": "https://crests.football-data.org/1776.png"
-    },
-    {
-      "id": 555061,
-      "datum": "wo 28 oktober 01:00",
-      "thuis": "EC Bahia",
-      "thuisLogo": "https://crests.football-data.org/1777.png",
-      "uit": "São Paulo FC",
-      "uitLogo": "https://crests.football-data.org/1776.png"
-    },
-    {
-      "id": 555078,
-      "datum": "wo 4 november 01:00",
-      "thuis": "São Paulo FC",
-      "thuisLogo": "https://crests.football-data.org/1776.png",
-      "uit": "SC Corinthians Paulista",
-      "uitLogo": "https://crests.football-data.org/1779.png"
-    },
-    {
-      "id": 555087,
-      "datum": "wo 18 november 01:00",
-      "thuis": "São Paulo FC",
-      "thuisLogo": "https://crests.football-data.org/1776.png",
-      "uit": "Fluminense FC",
-      "uitLogo": "https://crests.football-data.org/1765.png"
-    },
-    {
-      "id": 555093,
-      "datum": "za 21 november 01:00",
-      "thuis": "Botafogo FR",
-      "thuisLogo": "https://crests.football-data.org/1770.png",
-      "uit": "São Paulo FC",
-      "uitLogo": "https://crests.football-data.org/1776.png"
-    },
-    {
-      "id": 555108,
-      "datum": "za 28 november 01:00",
-      "thuis": "São Paulo FC",
-      "thuisLogo": "https://crests.football-data.org/1776.png",
-      "uit": "Clube do Remo",
-      "uitLogo": "https://crests.football-data.org/4287.png"
-    },
-    {
-      "id": 555110,
-      "datum": "wo 2 december 01:00",
-      "thuis": "CA Paranaense",
-      "thuisLogo": "https://crests.football-data.org/1768.png",
-      "uit": "São Paulo FC",
-      "uitLogo": "https://crests.football-data.org/1776.png"
-    }
-  ],
-  "1769": [
-    {
-      "id": 554898,
-      "datum": "zo 17 mei 02:00",
-      "thuis": "SE Palmeiras",
-      "thuisLogo": "https://crests.football-data.org/1769.png",
-      "uit": "Cruzeiro EC",
-      "uitLogo": "https://crests.football-data.org/1771.png"
-    },
-    {
-      "id": 554903,
-      "datum": "zo 24 mei 02:00",
-      "thuis": "CR Flamengo",
-      "thuisLogo": "https://crests.football-data.org/1783.png",
-      "uit": "SE Palmeiras",
-      "uitLogo": "https://crests.football-data.org/1769.png"
-    },
-    {
-      "id": 554916,
-      "datum": "zo 31 mei 21:00",
-      "thuis": "SE Palmeiras",
-      "thuisLogo": "https://crests.football-data.org/1769.png",
-      "uit": "Chapecoense AF",
-      "uitLogo": "https://crests.football-data.org/1772_large.png"
-    },
-    {
-      "id": 554924,
-      "datum": "wo 22 juli 02:00",
-      "thuis": "Coritiba FBC",
-      "thuisLogo": "https://crests.football-data.org/4241.png",
-      "uit": "SE Palmeiras",
-      "uitLogo": "https://crests.football-data.org/1769.png"
-    },
-    {
-      "id": 554936,
-      "datum": "za 25 juli 02:00",
-      "thuis": "SE Palmeiras",
-      "thuisLogo": "https://crests.football-data.org/1769.png",
-      "uit": "CA Mineiro",
-      "uitLogo": "https://crests.football-data.org/1766.png"
-    },
-    {
-      "id": 554949,
-      "datum": "wo 29 juli 02:00",
-      "thuis": "EC Vitória",
-      "thuisLogo": "https://crests.football-data.org/1782.png",
-      "uit": "SE Palmeiras",
-      "uitLogo": "https://crests.football-data.org/1769.png"
-    },
-    {
-      "id": 554957,
-      "datum": "za 8 augustus 02:00",
-      "thuis": "SE Palmeiras",
-      "thuisLogo": "https://crests.football-data.org/1769.png",
-      "uit": "SC Internacional",
-      "uitLogo": "https://crests.football-data.org/6684.png"
-    },
-    {
-      "id": 554964,
-      "datum": "za 15 augustus 02:00",
-      "thuis": "Fluminense FC",
-      "thuisLogo": "https://crests.football-data.org/1765.png",
-      "uit": "SE Palmeiras",
-      "uitLogo": "https://crests.football-data.org/1769.png"
-    },
-    {
-      "id": 554977,
-      "datum": "za 22 augustus 02:00",
-      "thuis": "SE Palmeiras",
-      "thuisLogo": "https://crests.football-data.org/1769.png",
-      "uit": "CR Vasco da Gama",
-      "uitLogo": "https://crests.football-data.org/1780.png"
-    },
-    {
-      "id": 554986,
-      "datum": "za 29 augustus 02:00",
-      "thuis": "Mirassol FC",
-      "thuisLogo": "https://crests.football-data.org/4364.png",
-      "uit": "SE Palmeiras",
-      "uitLogo": "https://crests.football-data.org/1769.png"
-    },
-    {
-      "id": 554990,
-      "datum": "za 5 september 02:00",
-      "thuis": "Botafogo FR",
-      "thuisLogo": "https://crests.football-data.org/1770.png",
-      "uit": "SE Palmeiras",
-      "uitLogo": "https://crests.football-data.org/1769.png"
-    },
-    {
-      "id": 555008,
-      "datum": "za 12 september 02:00",
-      "thuis": "SE Palmeiras",
-      "thuisLogo": "https://crests.football-data.org/1769.png",
-      "uit": "São Paulo FC",
-      "uitLogo": "https://crests.football-data.org/1776.png"
-    },
-    {
-      "id": 555014,
-      "datum": "za 19 september 02:00",
-      "thuis": "Grêmio FBPA",
-      "thuisLogo": "https://crests.football-data.org/1767.png",
-      "uit": "SE Palmeiras",
-      "uitLogo": "https://crests.football-data.org/1769.png"
-    },
-    {
-      "id": 555026,
-      "datum": "wo 7 oktober 02:00",
-      "thuis": "SE Palmeiras",
-      "thuisLogo": "https://crests.football-data.org/1769.png",
-      "uit": "EC Bahia",
-      "uitLogo": "https://crests.football-data.org/1777.png"
-    },
-    {
-      "id": 555037,
-      "datum": "za 10 oktober 02:00",
-      "thuis": "SE Palmeiras",
-      "thuisLogo": "https://crests.football-data.org/1769.png",
-      "uit": "SC Corinthians Paulista",
-      "uitLogo": "https://crests.football-data.org/1779.png"
-    },
-    {
-      "id": 555040,
-      "datum": "za 17 oktober 02:00",
-      "thuis": "CA Paranaense",
-      "thuisLogo": "https://crests.football-data.org/1768.png",
-      "uit": "SE Palmeiras",
-      "uitLogo": "https://crests.football-data.org/1769.png"
-    },
-    {
-      "id": 555056,
-      "datum": "za 24 oktober 02:00",
-      "thuis": "SE Palmeiras",
-      "thuisLogo": "https://crests.football-data.org/1769.png",
-      "uit": "RB Bragantino",
-      "uitLogo": "https://crests.football-data.org/4286.png"
-    },
-    {
-      "id": 555068,
-      "datum": "wo 28 oktober 01:00",
-      "thuis": "Santos FC",
-      "thuisLogo": "https://crests.football-data.org/6685.png",
-      "uit": "SE Palmeiras",
-      "uitLogo": "https://crests.football-data.org/1769.png"
-    },
-    {
-      "id": 555077,
-      "datum": "wo 4 november 01:00",
-      "thuis": "SE Palmeiras",
-      "thuisLogo": "https://crests.football-data.org/1769.png",
-      "uit": "Clube do Remo",
-      "uitLogo": "https://crests.football-data.org/4287.png"
-    },
-    {
-      "id": 555082,
-      "datum": "wo 18 november 01:00",
-      "thuis": "Cruzeiro EC",
-      "thuisLogo": "https://crests.football-data.org/1771.png",
-      "uit": "SE Palmeiras",
-      "uitLogo": "https://crests.football-data.org/1769.png"
-    },
-    {
-      "id": 555098,
-      "datum": "za 21 november 01:00",
-      "thuis": "SE Palmeiras",
-      "thuisLogo": "https://crests.football-data.org/1769.png",
-      "uit": "CR Flamengo",
-      "uitLogo": "https://crests.football-data.org/1783.png"
-    },
-    {
-      "id": 555102,
-      "datum": "za 28 november 01:00",
-      "thuis": "Chapecoense AF",
-      "thuisLogo": "https://crests.football-data.org/1772_large.png",
-      "uit": "SE Palmeiras",
-      "uitLogo": "https://crests.football-data.org/1769.png"
-    },
-    {
-      "id": 555116,
-      "datum": "wo 2 december 01:00",
-      "thuis": "SE Palmeiras",
-      "thuisLogo": "https://crests.football-data.org/1769.png",
-      "uit": "Coritiba FBC",
-      "uitLogo": "https://crests.football-data.org/4241.png"
-    }
-  ],
-  "1771": [
-    {
-      "id": 554898,
-      "datum": "zo 17 mei 02:00",
-      "thuis": "SE Palmeiras",
-      "thuisLogo": "https://crests.football-data.org/1769.png",
-      "uit": "Cruzeiro EC",
-      "uitLogo": "https://crests.football-data.org/1771.png"
-    },
-    {
-      "id": 554902,
-      "datum": "zo 24 mei 21:00",
-      "thuis": "Cruzeiro EC",
-      "thuisLogo": "https://crests.football-data.org/1771.png",
-      "uit": "Chapecoense AF",
-      "uitLogo": "https://crests.football-data.org/1772_large.png"
-    },
-    {
-      "id": 554913,
-      "datum": "ma 1 juni 01:30",
-      "thuis": "Cruzeiro EC",
-      "thuisLogo": "https://crests.football-data.org/1771.png",
-      "uit": "Fluminense FC",
-      "uitLogo": "https://crests.football-data.org/1765.png"
-    },
-    {
-      "id": 554926,
-      "datum": "wo 22 juli 02:00",
-      "thuis": "SC Internacional",
-      "thuisLogo": "https://crests.football-data.org/6684.png",
-      "uit": "Cruzeiro EC",
-      "uitLogo": "https://crests.football-data.org/1771.png"
-    },
-    {
-      "id": 554933,
-      "datum": "za 25 juli 02:00",
-      "thuis": "Cruzeiro EC",
-      "thuisLogo": "https://crests.football-data.org/1771.png",
-      "uit": "Botafogo FR",
-      "uitLogo": "https://crests.football-data.org/1770.png"
-    },
-    {
-      "id": 554944,
-      "datum": "wo 29 juli 02:00",
-      "thuis": "Coritiba FBC",
-      "thuisLogo": "https://crests.football-data.org/4241.png",
-      "uit": "Cruzeiro EC",
-      "uitLogo": "https://crests.football-data.org/1771.png"
-    },
-    {
-      "id": 554954,
-      "datum": "za 8 augustus 02:00",
-      "thuis": "Cruzeiro EC",
-      "thuisLogo": "https://crests.football-data.org/1771.png",
-      "uit": "Mirassol FC",
-      "uitLogo": "https://crests.football-data.org/4364.png"
-    },
-    {
-      "id": 554963,
-      "datum": "za 15 augustus 02:00",
-      "thuis": "SC Corinthians Paulista",
-      "thuisLogo": "https://crests.football-data.org/1779.png",
-      "uit": "Cruzeiro EC",
-      "uitLogo": "https://crests.football-data.org/1771.png"
-    },
-    {
-      "id": 554974,
-      "datum": "za 22 augustus 02:00",
-      "thuis": "Cruzeiro EC",
-      "thuisLogo": "https://crests.football-data.org/1771.png",
-      "uit": "CR Flamengo",
-      "uitLogo": "https://crests.football-data.org/1783.png"
-    },
-    {
-      "id": 554989,
-      "datum": "za 29 augustus 02:00",
-      "thuis": "CR Vasco da Gama",
-      "thuisLogo": "https://crests.football-data.org/1780.png",
-      "uit": "Cruzeiro EC",
-      "uitLogo": "https://crests.football-data.org/1771.png"
-    },
-    {
-      "id": 554994,
-      "datum": "za 5 september 02:00",
-      "thuis": "Cruzeiro EC",
-      "thuisLogo": "https://crests.football-data.org/1771.png",
-      "uit": "CA Paranaense",
-      "uitLogo": "https://crests.football-data.org/1768.png"
-    },
-    {
-      "id": 555009,
-      "datum": "za 12 september 02:00",
-      "thuis": "Santos FC",
-      "thuisLogo": "https://crests.football-data.org/6685.png",
-      "uit": "Cruzeiro EC",
-      "uitLogo": "https://crests.football-data.org/1771.png"
-    },
-    {
-      "id": 555019,
-      "datum": "za 19 september 02:00",
-      "thuis": "EC Vitória",
-      "thuisLogo": "https://crests.football-data.org/1782.png",
-      "uit": "Cruzeiro EC",
-      "uitLogo": "https://crests.football-data.org/1771.png"
-    },
-    {
-      "id": 555023,
-      "datum": "wo 7 oktober 02:00",
-      "thuis": "Cruzeiro EC",
-      "thuisLogo": "https://crests.football-data.org/1771.png",
-      "uit": "São Paulo FC",
-      "uitLogo": "https://crests.football-data.org/1776.png"
-    },
-    {
-      "id": 555032,
-      "datum": "za 10 oktober 02:00",
-      "thuis": "RB Bragantino",
-      "thuisLogo": "https://crests.football-data.org/4286.png",
-      "uit": "Cruzeiro EC",
-      "uitLogo": "https://crests.football-data.org/1771.png"
-    },
-    {
-      "id": 555046,
-      "datum": "za 17 oktober 02:00",
-      "thuis": "Grêmio FBPA",
-      "thuisLogo": "https://crests.football-data.org/1767.png",
-      "uit": "Cruzeiro EC",
-      "uitLogo": "https://crests.football-data.org/1771.png"
-    },
-    {
-      "id": 555052,
-      "datum": "za 24 oktober 02:00",
-      "thuis": "Cruzeiro EC",
-      "thuisLogo": "https://crests.football-data.org/1771.png",
-      "uit": "Clube do Remo",
-      "uitLogo": "https://crests.football-data.org/4287.png"
-    },
-    {
-      "id": 555060,
-      "datum": "wo 28 oktober 01:00",
-      "thuis": "CA Mineiro",
-      "thuisLogo": "https://crests.football-data.org/1766.png",
-      "uit": "Cruzeiro EC",
-      "uitLogo": "https://crests.football-data.org/1771.png"
-    },
-    {
-      "id": 555074,
-      "datum": "wo 4 november 01:00",
-      "thuis": "Cruzeiro EC",
-      "thuisLogo": "https://crests.football-data.org/1771.png",
-      "uit": "EC Bahia",
-      "uitLogo": "https://crests.football-data.org/1777.png"
-    },
-    {
-      "id": 555082,
-      "datum": "wo 18 november 01:00",
-      "thuis": "Cruzeiro EC",
-      "thuisLogo": "https://crests.football-data.org/1771.png",
-      "uit": "SE Palmeiras",
-      "uitLogo": "https://crests.football-data.org/1769.png"
-    },
-    {
-      "id": 555095,
-      "datum": "za 21 november 01:00",
-      "thuis": "Chapecoense AF",
-      "thuisLogo": "https://crests.football-data.org/1772_large.png",
-      "uit": "Cruzeiro EC",
-      "uitLogo": "https://crests.football-data.org/1771.png"
-    },
-    {
-      "id": 555105,
-      "datum": "za 28 november 01:00",
-      "thuis": "Fluminense FC",
-      "thuisLogo": "https://crests.football-data.org/1765.png",
-      "uit": "Cruzeiro EC",
-      "uitLogo": "https://crests.football-data.org/1771.png"
-    },
-    {
-      "id": 555113,
-      "datum": "wo 2 december 01:00",
-      "thuis": "Cruzeiro EC",
-      "thuisLogo": "https://crests.football-data.org/1771.png",
-      "uit": "SC Internacional",
-      "uitLogo": "https://crests.football-data.org/6684.png"
     }
   ],
   "6685": [
@@ -5517,6 +3589,1430 @@
       "thuisLogo": "https://crests.football-data.org/1783.png",
       "uit": "Chapecoense AF",
       "uitLogo": "https://crests.football-data.org/1772_large.png"
+    }
+  ],
+  "1776": [
+    {
+      "id": 554907,
+      "datum": "za 23 mei 22:00",
+      "thuis": "São Paulo FC",
+      "thuisLogo": "https://crests.football-data.org/1776.png",
+      "uit": "Botafogo FR",
+      "uitLogo": "https://crests.football-data.org/1770.png"
+    },
+    {
+      "id": 554917,
+      "datum": "zo 31 mei 00:30",
+      "thuis": "Clube do Remo",
+      "thuisLogo": "https://crests.football-data.org/4287.png",
+      "uit": "São Paulo FC",
+      "uitLogo": "https://crests.football-data.org/1776.png"
+    },
+    {
+      "id": 554928,
+      "datum": "wo 22 juli 02:00",
+      "thuis": "São Paulo FC",
+      "thuisLogo": "https://crests.football-data.org/1776.png",
+      "uit": "CA Paranaense",
+      "uitLogo": "https://crests.football-data.org/1768.png"
+    },
+    {
+      "id": 554934,
+      "datum": "za 25 juli 02:00",
+      "thuis": "CR Flamengo",
+      "thuisLogo": "https://crests.football-data.org/1783.png",
+      "uit": "São Paulo FC",
+      "uitLogo": "https://crests.football-data.org/1776.png"
+    },
+    {
+      "id": 554948,
+      "datum": "wo 29 juli 02:00",
+      "thuis": "São Paulo FC",
+      "thuisLogo": "https://crests.football-data.org/1776.png",
+      "uit": "Santos FC",
+      "uitLogo": "https://crests.football-data.org/6685.png"
+    },
+    {
+      "id": 554956,
+      "datum": "za 8 augustus 02:00",
+      "thuis": "Grêmio FBPA",
+      "thuisLogo": "https://crests.football-data.org/1767.png",
+      "uit": "São Paulo FC",
+      "uitLogo": "https://crests.football-data.org/1776.png"
+    },
+    {
+      "id": 554967,
+      "datum": "za 15 augustus 02:00",
+      "thuis": "São Paulo FC",
+      "thuisLogo": "https://crests.football-data.org/1776.png",
+      "uit": "Coritiba FBC",
+      "uitLogo": "https://crests.football-data.org/4241.png"
+    },
+    {
+      "id": 554972,
+      "datum": "za 22 augustus 02:00",
+      "thuis": "Chapecoense AF",
+      "thuisLogo": "https://crests.football-data.org/1772_large.png",
+      "uit": "São Paulo FC",
+      "uitLogo": "https://crests.football-data.org/1776.png"
+    },
+    {
+      "id": 554988,
+      "datum": "za 29 augustus 02:00",
+      "thuis": "São Paulo FC",
+      "thuisLogo": "https://crests.football-data.org/1776.png",
+      "uit": "RB Bragantino",
+      "uitLogo": "https://crests.football-data.org/4286.png"
+    },
+    {
+      "id": 554998,
+      "datum": "za 5 september 02:00",
+      "thuis": "São Paulo FC",
+      "thuisLogo": "https://crests.football-data.org/1776.png",
+      "uit": "CA Mineiro",
+      "uitLogo": "https://crests.football-data.org/1766.png"
+    },
+    {
+      "id": 555008,
+      "datum": "za 12 september 02:00",
+      "thuis": "SE Palmeiras",
+      "thuisLogo": "https://crests.football-data.org/1769.png",
+      "uit": "São Paulo FC",
+      "uitLogo": "https://crests.football-data.org/1776.png"
+    },
+    {
+      "id": 555017,
+      "datum": "za 19 september 02:00",
+      "thuis": "São Paulo FC",
+      "thuisLogo": "https://crests.football-data.org/1776.png",
+      "uit": "SC Internacional",
+      "uitLogo": "https://crests.football-data.org/6684.png"
+    },
+    {
+      "id": 555023,
+      "datum": "wo 7 oktober 02:00",
+      "thuis": "Cruzeiro EC",
+      "thuisLogo": "https://crests.football-data.org/1771.png",
+      "uit": "São Paulo FC",
+      "uitLogo": "https://crests.football-data.org/1776.png"
+    },
+    {
+      "id": 555038,
+      "datum": "za 10 oktober 02:00",
+      "thuis": "São Paulo FC",
+      "thuisLogo": "https://crests.football-data.org/1776.png",
+      "uit": "EC Vitória",
+      "uitLogo": "https://crests.football-data.org/1782.png"
+    },
+    {
+      "id": 555049,
+      "datum": "za 17 oktober 02:00",
+      "thuis": "São Paulo FC",
+      "thuisLogo": "https://crests.football-data.org/1776.png",
+      "uit": "CR Vasco da Gama",
+      "uitLogo": "https://crests.football-data.org/1780.png"
+    },
+    {
+      "id": 555055,
+      "datum": "za 24 oktober 02:00",
+      "thuis": "Mirassol FC",
+      "thuisLogo": "https://crests.football-data.org/4364.png",
+      "uit": "São Paulo FC",
+      "uitLogo": "https://crests.football-data.org/1776.png"
+    },
+    {
+      "id": 555061,
+      "datum": "wo 28 oktober 01:00",
+      "thuis": "EC Bahia",
+      "thuisLogo": "https://crests.football-data.org/1777.png",
+      "uit": "São Paulo FC",
+      "uitLogo": "https://crests.football-data.org/1776.png"
+    },
+    {
+      "id": 555078,
+      "datum": "wo 4 november 01:00",
+      "thuis": "São Paulo FC",
+      "thuisLogo": "https://crests.football-data.org/1776.png",
+      "uit": "SC Corinthians Paulista",
+      "uitLogo": "https://crests.football-data.org/1779.png"
+    },
+    {
+      "id": 555087,
+      "datum": "wo 18 november 01:00",
+      "thuis": "São Paulo FC",
+      "thuisLogo": "https://crests.football-data.org/1776.png",
+      "uit": "Fluminense FC",
+      "uitLogo": "https://crests.football-data.org/1765.png"
+    },
+    {
+      "id": 555093,
+      "datum": "za 21 november 01:00",
+      "thuis": "Botafogo FR",
+      "thuisLogo": "https://crests.football-data.org/1770.png",
+      "uit": "São Paulo FC",
+      "uitLogo": "https://crests.football-data.org/1776.png"
+    },
+    {
+      "id": 555108,
+      "datum": "za 28 november 01:00",
+      "thuis": "São Paulo FC",
+      "thuisLogo": "https://crests.football-data.org/1776.png",
+      "uit": "Clube do Remo",
+      "uitLogo": "https://crests.football-data.org/4287.png"
+    },
+    {
+      "id": 555110,
+      "datum": "wo 2 december 01:00",
+      "thuis": "CA Paranaense",
+      "thuisLogo": "https://crests.football-data.org/1768.png",
+      "uit": "São Paulo FC",
+      "uitLogo": "https://crests.football-data.org/1776.png"
+    }
+  ],
+  "6684": [
+    {
+      "id": 554909,
+      "datum": "za 23 mei 22:00",
+      "thuis": "EC Vitória",
+      "thuisLogo": "https://crests.football-data.org/1782.png",
+      "uit": "SC Internacional",
+      "uitLogo": "https://crests.football-data.org/6684.png"
+    },
+    {
+      "id": 554912,
+      "datum": "zo 31 mei 16:00",
+      "thuis": "RB Bragantino",
+      "thuisLogo": "https://crests.football-data.org/4286.png",
+      "uit": "SC Internacional",
+      "uitLogo": "https://crests.football-data.org/6684.png"
+    },
+    {
+      "id": 554926,
+      "datum": "wo 22 juli 02:00",
+      "thuis": "SC Internacional",
+      "thuisLogo": "https://crests.football-data.org/6684.png",
+      "uit": "Cruzeiro EC",
+      "uitLogo": "https://crests.football-data.org/1771.png"
+    },
+    {
+      "id": 554930,
+      "datum": "za 25 juli 02:00",
+      "thuis": "CA Paranaense",
+      "thuisLogo": "https://crests.football-data.org/1768.png",
+      "uit": "SC Internacional",
+      "uitLogo": "https://crests.football-data.org/6684.png"
+    },
+    {
+      "id": 554946,
+      "datum": "wo 29 juli 02:00",
+      "thuis": "SC Internacional",
+      "thuisLogo": "https://crests.football-data.org/6684.png",
+      "uit": "CR Flamengo",
+      "uitLogo": "https://crests.football-data.org/1783.png"
+    },
+    {
+      "id": 554957,
+      "datum": "za 8 augustus 02:00",
+      "thuis": "SE Palmeiras",
+      "thuisLogo": "https://crests.football-data.org/1769.png",
+      "uit": "SC Internacional",
+      "uitLogo": "https://crests.football-data.org/6684.png"
+    },
+    {
+      "id": 554965,
+      "datum": "za 15 augustus 02:00",
+      "thuis": "SC Internacional",
+      "thuisLogo": "https://crests.football-data.org/6684.png",
+      "uit": "Clube do Remo",
+      "uitLogo": "https://crests.football-data.org/4287.png"
+    },
+    {
+      "id": 554976,
+      "datum": "za 22 augustus 02:00",
+      "thuis": "SC Internacional",
+      "thuisLogo": "https://crests.football-data.org/6684.png",
+      "uit": "CA Mineiro",
+      "uitLogo": "https://crests.football-data.org/1766.png"
+    },
+    {
+      "id": 554982,
+      "datum": "za 29 augustus 02:00",
+      "thuis": "EC Bahia",
+      "thuisLogo": "https://crests.football-data.org/1777.png",
+      "uit": "SC Internacional",
+      "uitLogo": "https://crests.football-data.org/6684.png"
+    },
+    {
+      "id": 554996,
+      "datum": "za 5 september 02:00",
+      "thuis": "SC Internacional",
+      "thuisLogo": "https://crests.football-data.org/6684.png",
+      "uit": "Santos FC",
+      "uitLogo": "https://crests.football-data.org/6685.png"
+    },
+    {
+      "id": 555003,
+      "datum": "za 12 september 02:00",
+      "thuis": "Chapecoense AF",
+      "thuisLogo": "https://crests.football-data.org/1772_large.png",
+      "uit": "SC Internacional",
+      "uitLogo": "https://crests.football-data.org/6684.png"
+    },
+    {
+      "id": 555017,
+      "datum": "za 19 september 02:00",
+      "thuis": "São Paulo FC",
+      "thuisLogo": "https://crests.football-data.org/1776.png",
+      "uit": "SC Internacional",
+      "uitLogo": "https://crests.football-data.org/6684.png"
+    },
+    {
+      "id": 555025,
+      "datum": "wo 7 oktober 02:00",
+      "thuis": "SC Internacional",
+      "thuisLogo": "https://crests.football-data.org/6684.png",
+      "uit": "SC Corinthians Paulista",
+      "uitLogo": "https://crests.football-data.org/1779.png"
+    },
+    {
+      "id": 555036,
+      "datum": "za 10 oktober 02:00",
+      "thuis": "Grêmio FBPA",
+      "thuisLogo": "https://crests.football-data.org/1767.png",
+      "uit": "SC Internacional",
+      "uitLogo": "https://crests.football-data.org/6684.png"
+    },
+    {
+      "id": 555047,
+      "datum": "za 17 oktober 02:00",
+      "thuis": "Mirassol FC",
+      "thuisLogo": "https://crests.football-data.org/4364.png",
+      "uit": "SC Internacional",
+      "uitLogo": "https://crests.football-data.org/6684.png"
+    },
+    {
+      "id": 555054,
+      "datum": "za 24 oktober 02:00",
+      "thuis": "SC Internacional",
+      "thuisLogo": "https://crests.football-data.org/6684.png",
+      "uit": "Botafogo FR",
+      "uitLogo": "https://crests.football-data.org/1770.png"
+    },
+    {
+      "id": 555065,
+      "datum": "wo 28 oktober 01:00",
+      "thuis": "Fluminense FC",
+      "thuisLogo": "https://crests.football-data.org/1765.png",
+      "uit": "SC Internacional",
+      "uitLogo": "https://crests.football-data.org/6684.png"
+    },
+    {
+      "id": 555076,
+      "datum": "wo 4 november 01:00",
+      "thuis": "SC Internacional",
+      "thuisLogo": "https://crests.football-data.org/6684.png",
+      "uit": "Coritiba FBC",
+      "uitLogo": "https://crests.football-data.org/4241.png"
+    },
+    {
+      "id": 555088,
+      "datum": "wo 18 november 01:00",
+      "thuis": "CR Vasco da Gama",
+      "thuisLogo": "https://crests.football-data.org/1780.png",
+      "uit": "SC Internacional",
+      "uitLogo": "https://crests.football-data.org/6684.png"
+    },
+    {
+      "id": 555097,
+      "datum": "za 21 november 01:00",
+      "thuis": "SC Internacional",
+      "thuisLogo": "https://crests.football-data.org/6684.png",
+      "uit": "EC Vitória",
+      "uitLogo": "https://crests.football-data.org/1782.png"
+    },
+    {
+      "id": 555106,
+      "datum": "za 28 november 01:00",
+      "thuis": "SC Internacional",
+      "thuisLogo": "https://crests.football-data.org/6684.png",
+      "uit": "RB Bragantino",
+      "uitLogo": "https://crests.football-data.org/4286.png"
+    },
+    {
+      "id": 555113,
+      "datum": "wo 2 december 01:00",
+      "thuis": "Cruzeiro EC",
+      "thuisLogo": "https://crests.football-data.org/1771.png",
+      "uit": "SC Internacional",
+      "uitLogo": "https://crests.football-data.org/6684.png"
+    }
+  ],
+  "4364": [
+    {
+      "id": 554905,
+      "datum": "zo 24 mei 00:00",
+      "thuis": "Mirassol FC",
+      "thuisLogo": "https://crests.football-data.org/4364.png",
+      "uit": "Fluminense FC",
+      "uitLogo": "https://crests.football-data.org/1765.png"
+    },
+    {
+      "id": 554910,
+      "datum": "za 30 mei 21:00",
+      "thuis": "CA Paranaense",
+      "thuisLogo": "https://crests.football-data.org/1768.png",
+      "uit": "Mirassol FC",
+      "uitLogo": "https://crests.football-data.org/4364.png"
+    },
+    {
+      "id": 554927,
+      "datum": "wo 22 juli 02:00",
+      "thuis": "Mirassol FC",
+      "thuisLogo": "https://crests.football-data.org/4364.png",
+      "uit": "Grêmio FBPA",
+      "uitLogo": "https://crests.football-data.org/1767.png"
+    },
+    {
+      "id": 554939,
+      "datum": "za 25 juli 02:00",
+      "thuis": "CR Vasco da Gama",
+      "thuisLogo": "https://crests.football-data.org/1780.png",
+      "uit": "Mirassol FC",
+      "uitLogo": "https://crests.football-data.org/4364.png"
+    },
+    {
+      "id": 554947,
+      "datum": "wo 29 juli 02:00",
+      "thuis": "Mirassol FC",
+      "thuisLogo": "https://crests.football-data.org/4364.png",
+      "uit": "Clube do Remo",
+      "uitLogo": "https://crests.football-data.org/4287.png"
+    },
+    {
+      "id": 554954,
+      "datum": "za 8 augustus 02:00",
+      "thuis": "Cruzeiro EC",
+      "thuisLogo": "https://crests.football-data.org/1771.png",
+      "uit": "Mirassol FC",
+      "uitLogo": "https://crests.football-data.org/4364.png"
+    },
+    {
+      "id": 554966,
+      "datum": "za 15 augustus 02:00",
+      "thuis": "Mirassol FC",
+      "thuisLogo": "https://crests.football-data.org/4364.png",
+      "uit": "CR Flamengo",
+      "uitLogo": "https://crests.football-data.org/1783.png"
+    },
+    {
+      "id": 554978,
+      "datum": "za 22 augustus 02:00",
+      "thuis": "Santos FC",
+      "thuisLogo": "https://crests.football-data.org/6685.png",
+      "uit": "Mirassol FC",
+      "uitLogo": "https://crests.football-data.org/4364.png"
+    },
+    {
+      "id": 554986,
+      "datum": "za 29 augustus 02:00",
+      "thuis": "Mirassol FC",
+      "thuisLogo": "https://crests.football-data.org/4364.png",
+      "uit": "SE Palmeiras",
+      "uitLogo": "https://crests.football-data.org/1769.png"
+    },
+    {
+      "id": 554993,
+      "datum": "za 5 september 02:00",
+      "thuis": "Coritiba FBC",
+      "thuisLogo": "https://crests.football-data.org/4241.png",
+      "uit": "Mirassol FC",
+      "uitLogo": "https://crests.football-data.org/4364.png"
+    },
+    {
+      "id": 555007,
+      "datum": "za 12 september 02:00",
+      "thuis": "Mirassol FC",
+      "thuisLogo": "https://crests.football-data.org/4364.png",
+      "uit": "EC Vitória",
+      "uitLogo": "https://crests.football-data.org/1782.png"
+    },
+    {
+      "id": 555015,
+      "datum": "za 19 september 02:00",
+      "thuis": "Mirassol FC",
+      "thuisLogo": "https://crests.football-data.org/4364.png",
+      "uit": "Botafogo FR",
+      "uitLogo": "https://crests.football-data.org/1770.png"
+    },
+    {
+      "id": 555022,
+      "datum": "wo 7 oktober 02:00",
+      "thuis": "RB Bragantino",
+      "thuisLogo": "https://crests.football-data.org/4286.png",
+      "uit": "Mirassol FC",
+      "uitLogo": "https://crests.football-data.org/4364.png"
+    },
+    {
+      "id": 555031,
+      "datum": "za 10 oktober 02:00",
+      "thuis": "EC Bahia",
+      "thuisLogo": "https://crests.football-data.org/1777.png",
+      "uit": "Mirassol FC",
+      "uitLogo": "https://crests.football-data.org/4364.png"
+    },
+    {
+      "id": 555047,
+      "datum": "za 17 oktober 02:00",
+      "thuis": "Mirassol FC",
+      "thuisLogo": "https://crests.football-data.org/4364.png",
+      "uit": "SC Internacional",
+      "uitLogo": "https://crests.football-data.org/6684.png"
+    },
+    {
+      "id": 555055,
+      "datum": "za 24 oktober 02:00",
+      "thuis": "Mirassol FC",
+      "thuisLogo": "https://crests.football-data.org/4364.png",
+      "uit": "São Paulo FC",
+      "uitLogo": "https://crests.football-data.org/1776.png"
+    },
+    {
+      "id": 555063,
+      "datum": "wo 28 oktober 01:00",
+      "thuis": "SC Corinthians Paulista",
+      "thuisLogo": "https://crests.football-data.org/1779.png",
+      "uit": "Mirassol FC",
+      "uitLogo": "https://crests.football-data.org/4364.png"
+    },
+    {
+      "id": 555073,
+      "datum": "wo 4 november 01:00",
+      "thuis": "Chapecoense AF",
+      "thuisLogo": "https://crests.football-data.org/1772_large.png",
+      "uit": "Mirassol FC",
+      "uitLogo": "https://crests.football-data.org/4364.png"
+    },
+    {
+      "id": 555085,
+      "datum": "wo 18 november 01:00",
+      "thuis": "Mirassol FC",
+      "thuisLogo": "https://crests.football-data.org/4364.png",
+      "uit": "CA Mineiro",
+      "uitLogo": "https://crests.football-data.org/1766.png"
+    },
+    {
+      "id": 555096,
+      "datum": "za 21 november 01:00",
+      "thuis": "Fluminense FC",
+      "thuisLogo": "https://crests.football-data.org/1765.png",
+      "uit": "Mirassol FC",
+      "uitLogo": "https://crests.football-data.org/4364.png"
+    },
+    {
+      "id": 555107,
+      "datum": "za 28 november 01:00",
+      "thuis": "Mirassol FC",
+      "thuisLogo": "https://crests.football-data.org/4364.png",
+      "uit": "CA Paranaense",
+      "uitLogo": "https://crests.football-data.org/1768.png"
+    },
+    {
+      "id": 555115,
+      "datum": "wo 2 december 01:00",
+      "thuis": "Grêmio FBPA",
+      "thuisLogo": "https://crests.football-data.org/1767.png",
+      "uit": "Mirassol FC",
+      "uitLogo": "https://crests.football-data.org/4364.png"
+    }
+  ],
+  "1765": [
+    {
+      "id": 554905,
+      "datum": "zo 24 mei 00:00",
+      "thuis": "Mirassol FC",
+      "thuisLogo": "https://crests.football-data.org/4364.png",
+      "uit": "Fluminense FC",
+      "uitLogo": "https://crests.football-data.org/1765.png"
+    },
+    {
+      "id": 554913,
+      "datum": "ma 1 juni 01:30",
+      "thuis": "Cruzeiro EC",
+      "thuisLogo": "https://crests.football-data.org/1771.png",
+      "uit": "Fluminense FC",
+      "uitLogo": "https://crests.football-data.org/1765.png"
+    },
+    {
+      "id": 554925,
+      "datum": "wo 22 juli 02:00",
+      "thuis": "Fluminense FC",
+      "thuisLogo": "https://crests.football-data.org/1765.png",
+      "uit": "RB Bragantino",
+      "uitLogo": "https://crests.football-data.org/4286.png"
+    },
+    {
+      "id": 554935,
+      "datum": "za 25 juli 02:00",
+      "thuis": "Grêmio FBPA",
+      "thuisLogo": "https://crests.football-data.org/1767.png",
+      "uit": "Fluminense FC",
+      "uitLogo": "https://crests.football-data.org/1765.png"
+    },
+    {
+      "id": 554945,
+      "datum": "wo 29 juli 02:00",
+      "thuis": "Fluminense FC",
+      "thuisLogo": "https://crests.football-data.org/1765.png",
+      "uit": "EC Bahia",
+      "uitLogo": "https://crests.football-data.org/1777.png"
+    },
+    {
+      "id": 554951,
+      "datum": "za 8 augustus 02:00",
+      "thuis": "Botafogo FR",
+      "thuisLogo": "https://crests.football-data.org/1770.png",
+      "uit": "Fluminense FC",
+      "uitLogo": "https://crests.football-data.org/1765.png"
+    },
+    {
+      "id": 554964,
+      "datum": "za 15 augustus 02:00",
+      "thuis": "Fluminense FC",
+      "thuisLogo": "https://crests.football-data.org/1765.png",
+      "uit": "SE Palmeiras",
+      "uitLogo": "https://crests.football-data.org/1769.png"
+    },
+    {
+      "id": 554975,
+      "datum": "za 22 augustus 02:00",
+      "thuis": "Fluminense FC",
+      "thuisLogo": "https://crests.football-data.org/1765.png",
+      "uit": "Clube do Remo",
+      "uitLogo": "https://crests.football-data.org/4287.png"
+    },
+    {
+      "id": 554980,
+      "datum": "za 29 augustus 02:00",
+      "thuis": "CA Paranaense",
+      "thuisLogo": "https://crests.football-data.org/1768.png",
+      "uit": "Fluminense FC",
+      "uitLogo": "https://crests.football-data.org/1765.png"
+    },
+    {
+      "id": 554995,
+      "datum": "za 5 september 02:00",
+      "thuis": "Fluminense FC",
+      "thuisLogo": "https://crests.football-data.org/1765.png",
+      "uit": "CR Vasco da Gama",
+      "uitLogo": "https://crests.football-data.org/1780.png"
+    },
+    {
+      "id": 555000,
+      "datum": "za 12 september 02:00",
+      "thuis": "CA Mineiro",
+      "thuisLogo": "https://crests.football-data.org/1766.png",
+      "uit": "Fluminense FC",
+      "uitLogo": "https://crests.football-data.org/1765.png"
+    },
+    {
+      "id": 555012,
+      "datum": "za 19 september 02:00",
+      "thuis": "SC Corinthians Paulista",
+      "thuisLogo": "https://crests.football-data.org/1779.png",
+      "uit": "Fluminense FC",
+      "uitLogo": "https://crests.football-data.org/1765.png"
+    },
+    {
+      "id": 555024,
+      "datum": "wo 7 oktober 02:00",
+      "thuis": "Fluminense FC",
+      "thuisLogo": "https://crests.football-data.org/1765.png",
+      "uit": "Coritiba FBC",
+      "uitLogo": "https://crests.football-data.org/4241.png"
+    },
+    {
+      "id": 555035,
+      "datum": "za 10 oktober 02:00",
+      "thuis": "CR Flamengo",
+      "thuisLogo": "https://crests.football-data.org/1783.png",
+      "uit": "Fluminense FC",
+      "uitLogo": "https://crests.football-data.org/1765.png"
+    },
+    {
+      "id": 555045,
+      "datum": "za 17 oktober 02:00",
+      "thuis": "Fluminense FC",
+      "thuisLogo": "https://crests.football-data.org/1765.png",
+      "uit": "Santos FC",
+      "uitLogo": "https://crests.football-data.org/6685.png"
+    },
+    {
+      "id": 555050,
+      "datum": "za 24 oktober 02:00",
+      "thuis": "Chapecoense AF",
+      "thuisLogo": "https://crests.football-data.org/1772_large.png",
+      "uit": "Fluminense FC",
+      "uitLogo": "https://crests.football-data.org/1765.png"
+    },
+    {
+      "id": 555065,
+      "datum": "wo 28 oktober 01:00",
+      "thuis": "Fluminense FC",
+      "thuisLogo": "https://crests.football-data.org/1765.png",
+      "uit": "SC Internacional",
+      "uitLogo": "https://crests.football-data.org/6684.png"
+    },
+    {
+      "id": 555079,
+      "datum": "wo 4 november 01:00",
+      "thuis": "EC Vitória",
+      "thuisLogo": "https://crests.football-data.org/1782.png",
+      "uit": "Fluminense FC",
+      "uitLogo": "https://crests.football-data.org/1765.png"
+    },
+    {
+      "id": 555087,
+      "datum": "wo 18 november 01:00",
+      "thuis": "São Paulo FC",
+      "thuisLogo": "https://crests.football-data.org/1776.png",
+      "uit": "Fluminense FC",
+      "uitLogo": "https://crests.football-data.org/1765.png"
+    },
+    {
+      "id": 555096,
+      "datum": "za 21 november 01:00",
+      "thuis": "Fluminense FC",
+      "thuisLogo": "https://crests.football-data.org/1765.png",
+      "uit": "Mirassol FC",
+      "uitLogo": "https://crests.football-data.org/4364.png"
+    },
+    {
+      "id": 555105,
+      "datum": "za 28 november 01:00",
+      "thuis": "Fluminense FC",
+      "thuisLogo": "https://crests.football-data.org/1765.png",
+      "uit": "Cruzeiro EC",
+      "uitLogo": "https://crests.football-data.org/1771.png"
+    },
+    {
+      "id": 555112,
+      "datum": "wo 2 december 01:00",
+      "thuis": "RB Bragantino",
+      "thuisLogo": "https://crests.football-data.org/4286.png",
+      "uit": "Fluminense FC",
+      "uitLogo": "https://crests.football-data.org/1765.png"
+    }
+  ],
+  "1769": [
+    {
+      "id": 554903,
+      "datum": "zo 24 mei 02:00",
+      "thuis": "CR Flamengo",
+      "thuisLogo": "https://crests.football-data.org/1783.png",
+      "uit": "SE Palmeiras",
+      "uitLogo": "https://crests.football-data.org/1769.png"
+    },
+    {
+      "id": 554916,
+      "datum": "zo 31 mei 21:00",
+      "thuis": "SE Palmeiras",
+      "thuisLogo": "https://crests.football-data.org/1769.png",
+      "uit": "Chapecoense AF",
+      "uitLogo": "https://crests.football-data.org/1772_large.png"
+    },
+    {
+      "id": 554924,
+      "datum": "wo 22 juli 02:00",
+      "thuis": "Coritiba FBC",
+      "thuisLogo": "https://crests.football-data.org/4241.png",
+      "uit": "SE Palmeiras",
+      "uitLogo": "https://crests.football-data.org/1769.png"
+    },
+    {
+      "id": 554936,
+      "datum": "za 25 juli 02:00",
+      "thuis": "SE Palmeiras",
+      "thuisLogo": "https://crests.football-data.org/1769.png",
+      "uit": "CA Mineiro",
+      "uitLogo": "https://crests.football-data.org/1766.png"
+    },
+    {
+      "id": 554949,
+      "datum": "wo 29 juli 02:00",
+      "thuis": "EC Vitória",
+      "thuisLogo": "https://crests.football-data.org/1782.png",
+      "uit": "SE Palmeiras",
+      "uitLogo": "https://crests.football-data.org/1769.png"
+    },
+    {
+      "id": 554957,
+      "datum": "za 8 augustus 02:00",
+      "thuis": "SE Palmeiras",
+      "thuisLogo": "https://crests.football-data.org/1769.png",
+      "uit": "SC Internacional",
+      "uitLogo": "https://crests.football-data.org/6684.png"
+    },
+    {
+      "id": 554964,
+      "datum": "za 15 augustus 02:00",
+      "thuis": "Fluminense FC",
+      "thuisLogo": "https://crests.football-data.org/1765.png",
+      "uit": "SE Palmeiras",
+      "uitLogo": "https://crests.football-data.org/1769.png"
+    },
+    {
+      "id": 554977,
+      "datum": "za 22 augustus 02:00",
+      "thuis": "SE Palmeiras",
+      "thuisLogo": "https://crests.football-data.org/1769.png",
+      "uit": "CR Vasco da Gama",
+      "uitLogo": "https://crests.football-data.org/1780.png"
+    },
+    {
+      "id": 554986,
+      "datum": "za 29 augustus 02:00",
+      "thuis": "Mirassol FC",
+      "thuisLogo": "https://crests.football-data.org/4364.png",
+      "uit": "SE Palmeiras",
+      "uitLogo": "https://crests.football-data.org/1769.png"
+    },
+    {
+      "id": 554990,
+      "datum": "za 5 september 02:00",
+      "thuis": "Botafogo FR",
+      "thuisLogo": "https://crests.football-data.org/1770.png",
+      "uit": "SE Palmeiras",
+      "uitLogo": "https://crests.football-data.org/1769.png"
+    },
+    {
+      "id": 555008,
+      "datum": "za 12 september 02:00",
+      "thuis": "SE Palmeiras",
+      "thuisLogo": "https://crests.football-data.org/1769.png",
+      "uit": "São Paulo FC",
+      "uitLogo": "https://crests.football-data.org/1776.png"
+    },
+    {
+      "id": 555014,
+      "datum": "za 19 september 02:00",
+      "thuis": "Grêmio FBPA",
+      "thuisLogo": "https://crests.football-data.org/1767.png",
+      "uit": "SE Palmeiras",
+      "uitLogo": "https://crests.football-data.org/1769.png"
+    },
+    {
+      "id": 555026,
+      "datum": "wo 7 oktober 02:00",
+      "thuis": "SE Palmeiras",
+      "thuisLogo": "https://crests.football-data.org/1769.png",
+      "uit": "EC Bahia",
+      "uitLogo": "https://crests.football-data.org/1777.png"
+    },
+    {
+      "id": 555037,
+      "datum": "za 10 oktober 02:00",
+      "thuis": "SE Palmeiras",
+      "thuisLogo": "https://crests.football-data.org/1769.png",
+      "uit": "SC Corinthians Paulista",
+      "uitLogo": "https://crests.football-data.org/1779.png"
+    },
+    {
+      "id": 555040,
+      "datum": "za 17 oktober 02:00",
+      "thuis": "CA Paranaense",
+      "thuisLogo": "https://crests.football-data.org/1768.png",
+      "uit": "SE Palmeiras",
+      "uitLogo": "https://crests.football-data.org/1769.png"
+    },
+    {
+      "id": 555056,
+      "datum": "za 24 oktober 02:00",
+      "thuis": "SE Palmeiras",
+      "thuisLogo": "https://crests.football-data.org/1769.png",
+      "uit": "RB Bragantino",
+      "uitLogo": "https://crests.football-data.org/4286.png"
+    },
+    {
+      "id": 555068,
+      "datum": "wo 28 oktober 01:00",
+      "thuis": "Santos FC",
+      "thuisLogo": "https://crests.football-data.org/6685.png",
+      "uit": "SE Palmeiras",
+      "uitLogo": "https://crests.football-data.org/1769.png"
+    },
+    {
+      "id": 555077,
+      "datum": "wo 4 november 01:00",
+      "thuis": "SE Palmeiras",
+      "thuisLogo": "https://crests.football-data.org/1769.png",
+      "uit": "Clube do Remo",
+      "uitLogo": "https://crests.football-data.org/4287.png"
+    },
+    {
+      "id": 555082,
+      "datum": "wo 18 november 01:00",
+      "thuis": "Cruzeiro EC",
+      "thuisLogo": "https://crests.football-data.org/1771.png",
+      "uit": "SE Palmeiras",
+      "uitLogo": "https://crests.football-data.org/1769.png"
+    },
+    {
+      "id": 555098,
+      "datum": "za 21 november 01:00",
+      "thuis": "SE Palmeiras",
+      "thuisLogo": "https://crests.football-data.org/1769.png",
+      "uit": "CR Flamengo",
+      "uitLogo": "https://crests.football-data.org/1783.png"
+    },
+    {
+      "id": 555102,
+      "datum": "za 28 november 01:00",
+      "thuis": "Chapecoense AF",
+      "thuisLogo": "https://crests.football-data.org/1772_large.png",
+      "uit": "SE Palmeiras",
+      "uitLogo": "https://crests.football-data.org/1769.png"
+    },
+    {
+      "id": 555116,
+      "datum": "wo 2 december 01:00",
+      "thuis": "SE Palmeiras",
+      "thuisLogo": "https://crests.football-data.org/1769.png",
+      "uit": "Coritiba FBC",
+      "uitLogo": "https://crests.football-data.org/4241.png"
+    }
+  ],
+  "1771": [
+    {
+      "id": 554902,
+      "datum": "zo 24 mei 21:00",
+      "thuis": "Cruzeiro EC",
+      "thuisLogo": "https://crests.football-data.org/1771.png",
+      "uit": "Chapecoense AF",
+      "uitLogo": "https://crests.football-data.org/1772_large.png"
+    },
+    {
+      "id": 554913,
+      "datum": "ma 1 juni 01:30",
+      "thuis": "Cruzeiro EC",
+      "thuisLogo": "https://crests.football-data.org/1771.png",
+      "uit": "Fluminense FC",
+      "uitLogo": "https://crests.football-data.org/1765.png"
+    },
+    {
+      "id": 554926,
+      "datum": "wo 22 juli 02:00",
+      "thuis": "SC Internacional",
+      "thuisLogo": "https://crests.football-data.org/6684.png",
+      "uit": "Cruzeiro EC",
+      "uitLogo": "https://crests.football-data.org/1771.png"
+    },
+    {
+      "id": 554933,
+      "datum": "za 25 juli 02:00",
+      "thuis": "Cruzeiro EC",
+      "thuisLogo": "https://crests.football-data.org/1771.png",
+      "uit": "Botafogo FR",
+      "uitLogo": "https://crests.football-data.org/1770.png"
+    },
+    {
+      "id": 554944,
+      "datum": "wo 29 juli 02:00",
+      "thuis": "Coritiba FBC",
+      "thuisLogo": "https://crests.football-data.org/4241.png",
+      "uit": "Cruzeiro EC",
+      "uitLogo": "https://crests.football-data.org/1771.png"
+    },
+    {
+      "id": 554954,
+      "datum": "za 8 augustus 02:00",
+      "thuis": "Cruzeiro EC",
+      "thuisLogo": "https://crests.football-data.org/1771.png",
+      "uit": "Mirassol FC",
+      "uitLogo": "https://crests.football-data.org/4364.png"
+    },
+    {
+      "id": 554963,
+      "datum": "za 15 augustus 02:00",
+      "thuis": "SC Corinthians Paulista",
+      "thuisLogo": "https://crests.football-data.org/1779.png",
+      "uit": "Cruzeiro EC",
+      "uitLogo": "https://crests.football-data.org/1771.png"
+    },
+    {
+      "id": 554974,
+      "datum": "za 22 augustus 02:00",
+      "thuis": "Cruzeiro EC",
+      "thuisLogo": "https://crests.football-data.org/1771.png",
+      "uit": "CR Flamengo",
+      "uitLogo": "https://crests.football-data.org/1783.png"
+    },
+    {
+      "id": 554989,
+      "datum": "za 29 augustus 02:00",
+      "thuis": "CR Vasco da Gama",
+      "thuisLogo": "https://crests.football-data.org/1780.png",
+      "uit": "Cruzeiro EC",
+      "uitLogo": "https://crests.football-data.org/1771.png"
+    },
+    {
+      "id": 554994,
+      "datum": "za 5 september 02:00",
+      "thuis": "Cruzeiro EC",
+      "thuisLogo": "https://crests.football-data.org/1771.png",
+      "uit": "CA Paranaense",
+      "uitLogo": "https://crests.football-data.org/1768.png"
+    },
+    {
+      "id": 555009,
+      "datum": "za 12 september 02:00",
+      "thuis": "Santos FC",
+      "thuisLogo": "https://crests.football-data.org/6685.png",
+      "uit": "Cruzeiro EC",
+      "uitLogo": "https://crests.football-data.org/1771.png"
+    },
+    {
+      "id": 555019,
+      "datum": "za 19 september 02:00",
+      "thuis": "EC Vitória",
+      "thuisLogo": "https://crests.football-data.org/1782.png",
+      "uit": "Cruzeiro EC",
+      "uitLogo": "https://crests.football-data.org/1771.png"
+    },
+    {
+      "id": 555023,
+      "datum": "wo 7 oktober 02:00",
+      "thuis": "Cruzeiro EC",
+      "thuisLogo": "https://crests.football-data.org/1771.png",
+      "uit": "São Paulo FC",
+      "uitLogo": "https://crests.football-data.org/1776.png"
+    },
+    {
+      "id": 555032,
+      "datum": "za 10 oktober 02:00",
+      "thuis": "RB Bragantino",
+      "thuisLogo": "https://crests.football-data.org/4286.png",
+      "uit": "Cruzeiro EC",
+      "uitLogo": "https://crests.football-data.org/1771.png"
+    },
+    {
+      "id": 555046,
+      "datum": "za 17 oktober 02:00",
+      "thuis": "Grêmio FBPA",
+      "thuisLogo": "https://crests.football-data.org/1767.png",
+      "uit": "Cruzeiro EC",
+      "uitLogo": "https://crests.football-data.org/1771.png"
+    },
+    {
+      "id": 555052,
+      "datum": "za 24 oktober 02:00",
+      "thuis": "Cruzeiro EC",
+      "thuisLogo": "https://crests.football-data.org/1771.png",
+      "uit": "Clube do Remo",
+      "uitLogo": "https://crests.football-data.org/4287.png"
+    },
+    {
+      "id": 555060,
+      "datum": "wo 28 oktober 01:00",
+      "thuis": "CA Mineiro",
+      "thuisLogo": "https://crests.football-data.org/1766.png",
+      "uit": "Cruzeiro EC",
+      "uitLogo": "https://crests.football-data.org/1771.png"
+    },
+    {
+      "id": 555074,
+      "datum": "wo 4 november 01:00",
+      "thuis": "Cruzeiro EC",
+      "thuisLogo": "https://crests.football-data.org/1771.png",
+      "uit": "EC Bahia",
+      "uitLogo": "https://crests.football-data.org/1777.png"
+    },
+    {
+      "id": 555082,
+      "datum": "wo 18 november 01:00",
+      "thuis": "Cruzeiro EC",
+      "thuisLogo": "https://crests.football-data.org/1771.png",
+      "uit": "SE Palmeiras",
+      "uitLogo": "https://crests.football-data.org/1769.png"
+    },
+    {
+      "id": 555095,
+      "datum": "za 21 november 01:00",
+      "thuis": "Chapecoense AF",
+      "thuisLogo": "https://crests.football-data.org/1772_large.png",
+      "uit": "Cruzeiro EC",
+      "uitLogo": "https://crests.football-data.org/1771.png"
+    },
+    {
+      "id": 555105,
+      "datum": "za 28 november 01:00",
+      "thuis": "Fluminense FC",
+      "thuisLogo": "https://crests.football-data.org/1765.png",
+      "uit": "Cruzeiro EC",
+      "uitLogo": "https://crests.football-data.org/1771.png"
+    },
+    {
+      "id": 555113,
+      "datum": "wo 2 december 01:00",
+      "thuis": "Cruzeiro EC",
+      "thuisLogo": "https://crests.football-data.org/1771.png",
+      "uit": "SC Internacional",
+      "uitLogo": "https://crests.football-data.org/6684.png"
+    }
+  ],
+  "1766": [
+    {
+      "id": 554900,
+      "datum": "zo 24 mei 23:30",
+      "thuis": "SC Corinthians Paulista",
+      "thuisLogo": "https://crests.football-data.org/1779.png",
+      "uit": "CA Mineiro",
+      "uitLogo": "https://crests.football-data.org/1766.png"
+    },
+    {
+      "id": 554919,
+      "datum": "zo 31 mei 21:00",
+      "thuis": "CR Vasco da Gama",
+      "thuisLogo": "https://crests.football-data.org/1780.png",
+      "uit": "CA Mineiro",
+      "uitLogo": "https://crests.football-data.org/1766.png"
+    },
+    {
+      "id": 554920,
+      "datum": "wo 22 juli 02:00",
+      "thuis": "CA Mineiro",
+      "thuisLogo": "https://crests.football-data.org/1766.png",
+      "uit": "EC Bahia",
+      "uitLogo": "https://crests.football-data.org/1777.png"
+    },
+    {
+      "id": 554936,
+      "datum": "za 25 juli 02:00",
+      "thuis": "SE Palmeiras",
+      "thuisLogo": "https://crests.football-data.org/1769.png",
+      "uit": "CA Mineiro",
+      "uitLogo": "https://crests.football-data.org/1766.png"
+    },
+    {
+      "id": 554940,
+      "datum": "wo 29 juli 02:00",
+      "thuis": "CA Mineiro",
+      "thuisLogo": "https://crests.football-data.org/1766.png",
+      "uit": "RB Bragantino",
+      "uitLogo": "https://crests.football-data.org/4286.png"
+    },
+    {
+      "id": 554958,
+      "datum": "za 8 augustus 02:00",
+      "thuis": "Clube do Remo",
+      "thuisLogo": "https://crests.football-data.org/4287.png",
+      "uit": "CA Mineiro",
+      "uitLogo": "https://crests.football-data.org/1766.png"
+    },
+    {
+      "id": 554961,
+      "datum": "za 15 augustus 02:00",
+      "thuis": "CA Mineiro",
+      "thuisLogo": "https://crests.football-data.org/1766.png",
+      "uit": "Grêmio FBPA",
+      "uitLogo": "https://crests.football-data.org/1767.png"
+    },
+    {
+      "id": 554976,
+      "datum": "za 22 augustus 02:00",
+      "thuis": "SC Internacional",
+      "thuisLogo": "https://crests.football-data.org/6684.png",
+      "uit": "CA Mineiro",
+      "uitLogo": "https://crests.football-data.org/1766.png"
+    },
+    {
+      "id": 554981,
+      "datum": "za 29 augustus 02:00",
+      "thuis": "CA Mineiro",
+      "thuisLogo": "https://crests.football-data.org/1766.png",
+      "uit": "EC Vitória",
+      "uitLogo": "https://crests.football-data.org/1782.png"
+    },
+    {
+      "id": 554998,
+      "datum": "za 5 september 02:00",
+      "thuis": "São Paulo FC",
+      "thuisLogo": "https://crests.football-data.org/1776.png",
+      "uit": "CA Mineiro",
+      "uitLogo": "https://crests.football-data.org/1766.png"
+    },
+    {
+      "id": 555000,
+      "datum": "za 12 september 02:00",
+      "thuis": "CA Mineiro",
+      "thuisLogo": "https://crests.football-data.org/1766.png",
+      "uit": "Fluminense FC",
+      "uitLogo": "https://crests.football-data.org/1765.png"
+    },
+    {
+      "id": 555011,
+      "datum": "za 19 september 02:00",
+      "thuis": "CA Mineiro",
+      "thuisLogo": "https://crests.football-data.org/1766.png",
+      "uit": "Chapecoense AF",
+      "uitLogo": "https://crests.football-data.org/1772_large.png"
+    },
+    {
+      "id": 555020,
+      "datum": "wo 7 oktober 02:00",
+      "thuis": "CA Paranaense",
+      "thuisLogo": "https://crests.football-data.org/1768.png",
+      "uit": "CA Mineiro",
+      "uitLogo": "https://crests.football-data.org/1766.png"
+    },
+    {
+      "id": 555030,
+      "datum": "za 10 oktober 02:00",
+      "thuis": "CA Mineiro",
+      "thuisLogo": "https://crests.football-data.org/1766.png",
+      "uit": "Santos FC",
+      "uitLogo": "https://crests.football-data.org/6685.png"
+    },
+    {
+      "id": 555041,
+      "datum": "za 17 oktober 02:00",
+      "thuis": "CA Mineiro",
+      "thuisLogo": "https://crests.football-data.org/1766.png",
+      "uit": "Coritiba FBC",
+      "uitLogo": "https://crests.football-data.org/4241.png"
+    },
+    {
+      "id": 555053,
+      "datum": "za 24 oktober 02:00",
+      "thuis": "CR Flamengo",
+      "thuisLogo": "https://crests.football-data.org/1783.png",
+      "uit": "CA Mineiro",
+      "uitLogo": "https://crests.football-data.org/1766.png"
+    },
+    {
+      "id": 555060,
+      "datum": "wo 28 oktober 01:00",
+      "thuis": "CA Mineiro",
+      "thuisLogo": "https://crests.football-data.org/1766.png",
+      "uit": "Cruzeiro EC",
+      "uitLogo": "https://crests.football-data.org/1771.png"
+    },
+    {
+      "id": 555071,
+      "datum": "wo 4 november 01:00",
+      "thuis": "Botafogo FR",
+      "thuisLogo": "https://crests.football-data.org/1770.png",
+      "uit": "CA Mineiro",
+      "uitLogo": "https://crests.football-data.org/1766.png"
+    },
+    {
+      "id": 555085,
+      "datum": "wo 18 november 01:00",
+      "thuis": "Mirassol FC",
+      "thuisLogo": "https://crests.football-data.org/4364.png",
+      "uit": "CA Mineiro",
+      "uitLogo": "https://crests.football-data.org/1766.png"
+    },
+    {
+      "id": 555091,
+      "datum": "za 21 november 01:00",
+      "thuis": "CA Mineiro",
+      "thuisLogo": "https://crests.football-data.org/1766.png",
+      "uit": "SC Corinthians Paulista",
+      "uitLogo": "https://crests.football-data.org/1779.png"
+    },
+    {
+      "id": 555100,
+      "datum": "za 28 november 01:00",
+      "thuis": "CA Mineiro",
+      "thuisLogo": "https://crests.football-data.org/1766.png",
+      "uit": "CR Vasco da Gama",
+      "uitLogo": "https://crests.football-data.org/1780.png"
+    },
+    {
+      "id": 555111,
+      "datum": "wo 2 december 01:00",
+      "thuis": "EC Bahia",
+      "thuisLogo": "https://crests.football-data.org/1777.png",
+      "uit": "CA Mineiro",
+      "uitLogo": "https://crests.football-data.org/1766.png"
+    }
+  ],
+  "1780": [
+    {
+      "id": 554908,
+      "datum": "ma 25 mei 01:30",
+      "thuis": "CR Vasco da Gama",
+      "thuisLogo": "https://crests.football-data.org/1780.png",
+      "uit": "RB Bragantino",
+      "uitLogo": "https://crests.football-data.org/4286.png"
+    },
+    {
+      "id": 554919,
+      "datum": "zo 31 mei 21:00",
+      "thuis": "CR Vasco da Gama",
+      "thuisLogo": "https://crests.football-data.org/1780.png",
+      "uit": "CA Mineiro",
+      "uitLogo": "https://crests.football-data.org/1766.png"
+    },
+    {
+      "id": 554929,
+      "datum": "wo 22 juli 02:00",
+      "thuis": "EC Vitória",
+      "thuisLogo": "https://crests.football-data.org/1782.png",
+      "uit": "CR Vasco da Gama",
+      "uitLogo": "https://crests.football-data.org/1780.png"
+    },
+    {
+      "id": 554939,
+      "datum": "za 25 juli 02:00",
+      "thuis": "CR Vasco da Gama",
+      "thuisLogo": "https://crests.football-data.org/1780.png",
+      "uit": "Mirassol FC",
+      "uitLogo": "https://crests.football-data.org/4364.png"
+    },
+    {
+      "id": 554942,
+      "datum": "wo 29 juli 02:00",
+      "thuis": "Chapecoense AF",
+      "thuisLogo": "https://crests.football-data.org/1772_large.png",
+      "uit": "CR Vasco da Gama",
+      "uitLogo": "https://crests.football-data.org/1780.png"
+    },
+    {
+      "id": 554950,
+      "datum": "za 8 augustus 02:00",
+      "thuis": "EC Bahia",
+      "thuisLogo": "https://crests.football-data.org/1777.png",
+      "uit": "CR Vasco da Gama",
+      "uitLogo": "https://crests.football-data.org/1780.png"
+    },
+    {
+      "id": 554968,
+      "datum": "za 15 augustus 02:00",
+      "thuis": "CR Vasco da Gama",
+      "thuisLogo": "https://crests.football-data.org/1780.png",
+      "uit": "Santos FC",
+      "uitLogo": "https://crests.football-data.org/6685.png"
+    },
+    {
+      "id": 554977,
+      "datum": "za 22 augustus 02:00",
+      "thuis": "SE Palmeiras",
+      "thuisLogo": "https://crests.football-data.org/1769.png",
+      "uit": "CR Vasco da Gama",
+      "uitLogo": "https://crests.football-data.org/1780.png"
+    },
+    {
+      "id": 554989,
+      "datum": "za 29 augustus 02:00",
+      "thuis": "CR Vasco da Gama",
+      "thuisLogo": "https://crests.football-data.org/1780.png",
+      "uit": "Cruzeiro EC",
+      "uitLogo": "https://crests.football-data.org/1771.png"
+    },
+    {
+      "id": 554995,
+      "datum": "za 5 september 02:00",
+      "thuis": "Fluminense FC",
+      "thuisLogo": "https://crests.football-data.org/1765.png",
+      "uit": "CR Vasco da Gama",
+      "uitLogo": "https://crests.football-data.org/1780.png"
+    },
+    {
+      "id": 555006,
+      "datum": "za 12 september 02:00",
+      "thuis": "Grêmio FBPA",
+      "thuisLogo": "https://crests.football-data.org/1767.png",
+      "uit": "CR Vasco da Gama",
+      "uitLogo": "https://crests.football-data.org/1780.png"
+    },
+    {
+      "id": 555018,
+      "datum": "za 19 september 02:00",
+      "thuis": "CR Vasco da Gama",
+      "thuisLogo": "https://crests.football-data.org/1780.png",
+      "uit": "Coritiba FBC",
+      "uitLogo": "https://crests.football-data.org/4241.png"
+    },
+    {
+      "id": 555021,
+      "datum": "wo 7 oktober 02:00",
+      "thuis": "Botafogo FR",
+      "thuisLogo": "https://crests.football-data.org/1770.png",
+      "uit": "CR Vasco da Gama",
+      "uitLogo": "https://crests.football-data.org/1780.png"
+    },
+    {
+      "id": 555039,
+      "datum": "za 10 oktober 02:00",
+      "thuis": "CR Vasco da Gama",
+      "thuisLogo": "https://crests.football-data.org/1780.png",
+      "uit": "Clube do Remo",
+      "uitLogo": "https://crests.football-data.org/4287.png"
+    },
+    {
+      "id": 555049,
+      "datum": "za 17 oktober 02:00",
+      "thuis": "São Paulo FC",
+      "thuisLogo": "https://crests.football-data.org/1776.png",
+      "uit": "CR Vasco da Gama",
+      "uitLogo": "https://crests.football-data.org/1780.png"
+    },
+    {
+      "id": 555058,
+      "datum": "za 24 oktober 02:00",
+      "thuis": "CR Vasco da Gama",
+      "thuisLogo": "https://crests.football-data.org/1780.png",
+      "uit": "SC Corinthians Paulista",
+      "uitLogo": "https://crests.football-data.org/1779.png"
+    },
+    {
+      "id": 555069,
+      "datum": "wo 28 oktober 01:00",
+      "thuis": "CR Vasco da Gama",
+      "thuisLogo": "https://crests.football-data.org/1780.png",
+      "uit": "CR Flamengo",
+      "uitLogo": "https://crests.football-data.org/1783.png"
+    },
+    {
+      "id": 555070,
+      "datum": "wo 4 november 01:00",
+      "thuis": "CA Paranaense",
+      "thuisLogo": "https://crests.football-data.org/1768.png",
+      "uit": "CR Vasco da Gama",
+      "uitLogo": "https://crests.football-data.org/1780.png"
+    },
+    {
+      "id": 555088,
+      "datum": "wo 18 november 01:00",
+      "thuis": "CR Vasco da Gama",
+      "thuisLogo": "https://crests.football-data.org/1780.png",
+      "uit": "SC Internacional",
+      "uitLogo": "https://crests.football-data.org/6684.png"
+    },
+    {
+      "id": 555094,
+      "datum": "za 21 november 01:00",
+      "thuis": "RB Bragantino",
+      "thuisLogo": "https://crests.football-data.org/4286.png",
+      "uit": "CR Vasco da Gama",
+      "uitLogo": "https://crests.football-data.org/1780.png"
+    },
+    {
+      "id": 555100,
+      "datum": "za 28 november 01:00",
+      "thuis": "CA Mineiro",
+      "thuisLogo": "https://crests.football-data.org/1766.png",
+      "uit": "CR Vasco da Gama",
+      "uitLogo": "https://crests.football-data.org/1780.png"
+    },
+    {
+      "id": 555119,
+      "datum": "wo 2 december 01:00",
+      "thuis": "CR Vasco da Gama",
+      "thuisLogo": "https://crests.football-data.org/1780.png",
+      "uit": "EC Vitória",
+      "uitLogo": "https://crests.football-data.org/1782.png"
     }
   ],
   "384": [
