@@ -4027,6 +4027,16 @@
       "uitLogo": "https://crests.football-data.org/58.png",
       "thuisScore": 2,
       "uitScore": 2
+    },
+    {
+      "id": 538147,
+      "datum": "ma 18 mei",
+      "thuis": "Arsenal FC",
+      "thuisLogo": "https://crests.football-data.org/57.png",
+      "uit": "Burnley FC",
+      "uitLogo": "https://crests.football-data.org/328.png",
+      "thuisScore": 1,
+      "uitScore": 0
     }
   ],
   "76": [
@@ -7173,6 +7183,16 @@
       "uitLogo": "https://crests.football-data.org/57.png",
       "thuisScore": 0,
       "uitScore": 1
+    },
+    {
+      "id": 538147,
+      "datum": "ma 18 mei",
+      "thuis": "Arsenal FC",
+      "thuisLogo": "https://crests.football-data.org/57.png",
+      "uit": "Burnley FC",
+      "uitLogo": "https://crests.football-data.org/328.png",
+      "thuisScore": 1,
+      "uitScore": 0
     },
     {
       "id": 551981,
@@ -51107,7 +51127,7 @@
       "thuisLogo": "https://crests.football-data.org/1765.png",
       "uit": "São Paulo FC",
       "uitLogo": "https://crests.football-data.org/1776.png",
-      "thuisScore": 2,
+      "thuisScore": 3,
       "uitScore": 1
     }
   ],
@@ -52059,7 +52079,7 @@
       "thuisLogo": "https://crests.football-data.org/1765.png",
       "uit": "São Paulo FC",
       "uitLogo": "https://crests.football-data.org/1776.png",
-      "thuisScore": 2,
+      "thuisScore": 3,
       "uitScore": 1
     }
   ],
