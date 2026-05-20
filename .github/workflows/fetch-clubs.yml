@@ -116,6 +116,7 @@ jobs:
                       r = {
                           'id':         m['id'],
                           'datum':      fmt(m['utcDate'], met_tijd=False),
+                          'datumIso':   m['utcDate'][:10],
                           'thuis':      m['homeTeam']['name'],
                           'thuisLogo':  logo_override.get(m['homeTeam']['name'], m['homeTeam'].get('crest','')),
                           'uit':        m['awayTeam']['name'],

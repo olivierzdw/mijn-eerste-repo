@@ -1018,7 +1018,18 @@ async function renderSamenvattingen() {
       const res = await fetch(`data/clubs-results.json?t=${Date.now()}`);
       clubsResults = await res.json();
     }
-    const results = (clubsResults[String(samenvattingClubId)] || []).slice().reverse().slice(0, 15);
+    // Sorteer op datum aflopend (meest recent eerst). Gebruik datumIso
+    // als die er is; anders val terug op oorspronkelijke arrayvolgorde
+    // (API geeft chronologisch ascending terug, dus reverse = newest first).
+    const ruw = (clubsResults[String(samenvattingClubId)] || []).slice();
+    const heeftIso = ruw.some(r => r.datumIso);
+    let gesorteerd;
+    if (heeftIso) {
+      gesorteerd = ruw.sort((a, b) => (b.datumIso || '').localeCompare(a.datumIso || ''));
+    } else {
+      gesorteerd = ruw.reverse();
+    }
+    const results = gesorteerd.slice(0, 15);
     if (results.length === 0) {
       lijst.innerHTML = `<div class="samenvatting-leeg">Nog geen uitslagen gevonden voor deze club.</div>`;
       return;
