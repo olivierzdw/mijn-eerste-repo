@@ -78,6 +78,29 @@ async function fbChatLees() {
   } catch(e) { return {}; }
 }
 
+// Reset chat elke 24 uur. Een gedeelde timestamp in Firebase
+// (/chat-meta/lastReset) zorgt dat alleen de eerste client die de
+// drempel passeert daadwerkelijk wist; de rest ziet dan een lege chat
+// via de bestaande sync.
+const CHAT_RESET_MS = 24 * 60 * 60 * 1000;
+async function checkChatReset() {
+  if (!FIREBASE_URL) return;
+  try {
+    const res = await fetch(`${FIREBASE_URL}/chat-meta/lastReset.json`);
+    const last = await res.json();
+    const nu = Date.now();
+    if (!last || (nu - Number(last)) >= CHAT_RESET_MS) {
+      // Markeer eerst de nieuwe reset-tijd om dubbele resets te voorkomen
+      await fetch(`${FIREBASE_URL}/chat-meta/lastReset.json`, {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(nu),
+      });
+      await fetch(`${FIREBASE_URL}/chat.json`, { method: 'DELETE' });
+    }
+  } catch(e) { /* stil falen, geen reset is geen ramp */ }
+}
+
 async function fbChatPush(bericht) {
   if (!FIREBASE_URL) return null;
   try {
@@ -209,9 +232,12 @@ async function verstuurBericht() {
 }
 
 async function laadChatEnStart() {
+  await checkChatReset();
   const data = await fbChatLees();
   chatBerichten = chatObjectNaarLijst(data);
   startChatSync();
+  // Ook periodiek checken zodat een open tab vanzelf reset na 24u
+  setInterval(checkChatReset, 60 * 60 * 1000); // elk uur
 }
 
 // ── Gebruikers ────────────────────────────────────────────────
