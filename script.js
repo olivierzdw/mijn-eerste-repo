@@ -251,20 +251,28 @@ function slaGebruikersOp(lijst) {
   fbSchrijf(lijst);
 }
 
+// Actieve speler staat in sessionStorage: zodra de tab/browser dicht
+// gaat is hij weg, en moet je bij terugkomst opnieuw kiezen.
+// Oude localStorage-versie (van vorige builds) eenmalig opruimen.
+try { localStorage.removeItem("olliebet-actief"); } catch(e) {}
+
 function actiefGebruiker() {
-  return localStorage.getItem("olliebet-actief") || null;
+  return sessionStorage.getItem("olliebet-actief") || null;
 }
 
 function setActiefGebruiker(naam) {
-  localStorage.setItem("olliebet-actief", naam);
+  if (naam) sessionStorage.setItem("olliebet-actief", naam);
+  else sessionStorage.removeItem("olliebet-actief");
 }
 
 function renderGebruikers() {
   const lijst = laadGebruikers();
   let actief = actiefGebruiker();
-  if (lijst.length > 0 && (!actief || !lijst.includes(actief))) {
-    actief = lijst[0];
-    setActiefGebruiker(actief);
+  // Auto-select niet meer: speler moet zelf zijn naam aanklikken.
+  // Wel: als de opgeslagen actieve naam niet meer bestaat, wis 'm.
+  if (actief && !lijst.includes(actief)) {
+    setActiefGebruiker(null);
+    actief = null;
   }
   const container = document.getElementById("gebruikers-lijst");
   container.innerHTML = "";
@@ -308,7 +316,7 @@ function verwijderGebruiker(naam) {
   localStorage.removeItem(`olliebet-ajax-${naam}`);
   localStorage.removeItem(`olliebet-afc-${naam}`);
   if (actiefGebruiker() === naam) {
-    localStorage.setItem("olliebet-actief", lijst[0] || "");
+    setActiefGebruiker(null);
   }
   renderGebruikers();
 }
