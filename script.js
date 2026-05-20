@@ -423,9 +423,9 @@ async function fetchAfcWedstrijden() {
   }
 }
 
-async function fetchLiveEredivisie() {
+async function fetchLiveMatches() {
   try {
-    const res = await fetch('https://api.football-data.org/v4/competitions/DED/matches?status=LIVE', {
+    const res = await fetch('https://api.football-data.org/v4/matches?status=LIVE,IN_PLAY,PAUSED', {
       headers: { 'X-Auth-Token': FOOTBALL_API_KEY }
     });
     const data = await res.json();
@@ -436,21 +436,27 @@ async function fetchLiveEredivisie() {
 }
 
 async function updateLiveMinuten() {
-  const wedstrijden = await fetchLiveEredivisie();
+  const wedstrijden = await fetchLiveMatches();
+  // Match op id (uniek over alle competities) ipv naam
+  const liveMap = {};
+  wedstrijden.forEach(m => {
+    const home = m.score?.fullTime?.home ?? m.score?.halfTime?.home ?? 0;
+    const away = m.score?.fullTime?.away ?? m.score?.halfTime?.away ?? 0;
+    liveMap[m.id] = {
+      minuut:     m.minute ?? m.score?.duration ?? '?',
+      thuisScore: home,
+      uitScore:   away,
+      status:     m.status,
+    };
+  });
 
   ajaxWedstrijden.forEach((w, i) => {
     const badge = document.getElementById(`live-ajax-${i}`);
     if (!badge) return;
-
-    const match = wedstrijden.find(m => {
-      const thuis = clubNaamMapping[m.homeTeam.name];
-      const uit   = clubNaamMapping[m.awayTeam.name];
-      return thuis === w.thuis && uit === w.uit;
-    });
-
-    if (match) {
-      const minuut = match.minute || match.score?.duration || "?";
-      badge.textContent = `⏱ ${minuut}'`;
+    const live = liveMap[w.id];
+    if (live) {
+      const minuutLabel = live.status === 'PAUSED' ? 'rust' : `${live.minuut}'`;
+      badge.textContent = `🔴 ${live.thuisScore}-${live.uitScore} · ${minuutLabel}`;
       badge.classList.add("live");
     } else {
       badge.textContent = "";
