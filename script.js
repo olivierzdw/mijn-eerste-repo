@@ -251,10 +251,10 @@ function slaGebruikersOp(lijst) {
   fbSchrijf(lijst);
 }
 
-// Actieve speler staat in sessionStorage: zodra de tab/browser dicht
-// gaat is hij weg, en moet je bij terugkomst opnieuw kiezen.
-// Oude localStorage-versie (van vorige builds) eenmalig opruimen.
+// Actieve speler wordt bij ELKE page load (inclusief refresh) gewist,
+// zodat je altijd opnieuw moet kiezen wie je bent.
 try { localStorage.removeItem("olliebet-actief"); } catch(e) {}
+try { sessionStorage.removeItem("olliebet-actief"); } catch(e) {}
 
 function actiefGebruiker() {
   return sessionStorage.getItem("olliebet-actief") || null;
