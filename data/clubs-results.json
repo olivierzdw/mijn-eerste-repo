@@ -851,6 +851,16 @@
       "uitLogo": "https://crests.football-data.org/bournemouth.png",
       "thuisScore": 0,
       "uitScore": 1
+    },
+    {
+      "id": 538145,
+      "datum": "di 19 mei",
+      "thuis": "AFC Bournemouth",
+      "thuisLogo": "https://crests.football-data.org/bournemouth.png",
+      "uit": "Manchester City FC",
+      "uitLogo": "https://crests.football-data.org/65.png",
+      "thuisScore": 1,
+      "uitScore": 1
     }
   ],
   "58": [
@@ -3567,6 +3577,16 @@
       "uitScore": 1
     },
     {
+      "id": 538149,
+      "datum": "di 19 mei",
+      "thuis": "Chelsea FC",
+      "thuisLogo": "https://crests.football-data.org/61.png",
+      "uit": "Tottenham Hotspur FC",
+      "uitLogo": "https://crests.football-data.org/73.png",
+      "thuisScore": 2,
+      "uitScore": 1
+    },
+    {
       "id": 552012,
       "datum": "di 16 september",
       "thuis": "Tottenham Hotspur FC",
@@ -4773,6 +4793,16 @@
       "uitScore": 0
     },
     {
+      "id": 538145,
+      "datum": "di 19 mei",
+      "thuis": "AFC Bournemouth",
+      "thuisLogo": "https://crests.football-data.org/bournemouth.png",
+      "uit": "Manchester City FC",
+      "uitLogo": "https://crests.football-data.org/65.png",
+      "thuisScore": 1,
+      "uitScore": 1
+    },
+    {
       "id": 551965,
       "datum": "do 18 september",
       "thuis": "Manchester City FC",
@@ -5976,6 +6006,16 @@
       "uit": "Chelsea FC",
       "uitLogo": "https://crests.football-data.org/61.png",
       "thuisScore": 1,
+      "uitScore": 1
+    },
+    {
+      "id": 538149,
+      "datum": "di 19 mei",
+      "thuis": "Chelsea FC",
+      "thuisLogo": "https://crests.football-data.org/61.png",
+      "uit": "Tottenham Hotspur FC",
+      "uitLogo": "https://crests.football-data.org/73.png",
+      "thuisScore": 2,
       "uitScore": 1
     },
     {
@@ -51127,7 +51167,7 @@
       "thuisLogo": "https://crests.football-data.org/1765.png",
       "uit": "São Paulo FC",
       "uitLogo": "https://crests.football-data.org/1776.png",
-      "thuisScore": 3,
+      "thuisScore": 2,
       "uitScore": 1
     }
   ],
@@ -52079,7 +52119,7 @@
       "thuisLogo": "https://crests.football-data.org/1765.png",
       "uit": "São Paulo FC",
       "uitLogo": "https://crests.football-data.org/1776.png",
-      "thuisScore": 3,
+      "thuisScore": 2,
       "uitScore": 1
     }
   ],

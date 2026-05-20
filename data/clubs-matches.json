@@ -1,49 +1,5 @@
 {
-  "1044": [
-    {
-      "id": 538145,
-      "datum": "di 19 mei 20:30",
-      "thuis": "AFC Bournemouth",
-      "thuisLogo": "https://crests.football-data.org/bournemouth.png",
-      "uit": "Manchester City FC",
-      "uitLogo": "https://crests.football-data.org/65.png"
-    },
-    {
-      "id": 538162,
-      "datum": "zo 24 mei 17:00",
-      "thuis": "Nottingham Forest FC",
-      "thuisLogo": "https://crests.football-data.org/351.png",
-      "uit": "AFC Bournemouth",
-      "uitLogo": "https://crests.football-data.org/bournemouth.png"
-    }
-  ],
-  "65": [
-    {
-      "id": 538145,
-      "datum": "di 19 mei 20:30",
-      "thuis": "AFC Bournemouth",
-      "thuisLogo": "https://crests.football-data.org/bournemouth.png",
-      "uit": "Manchester City FC",
-      "uitLogo": "https://crests.football-data.org/65.png"
-    },
-    {
-      "id": 538161,
-      "datum": "zo 24 mei 17:00",
-      "thuis": "Manchester City FC",
-      "thuisLogo": "https://crests.football-data.org/65.png",
-      "uit": "Aston Villa FC",
-      "uitLogo": "https://crests.football-data.org/58.png"
-    }
-  ],
-  "61": [
-    {
-      "id": 538149,
-      "datum": "di 19 mei 21:15",
-      "thuis": "Chelsea FC",
-      "thuisLogo": "https://crests.football-data.org/61.png",
-      "uit": "Tottenham Hotspur FC",
-      "uitLogo": "https://crests.football-data.org/73.png"
-    },
+  "71": [
     {
       "id": 538155,
       "datum": "zo 24 mei 17:00",
@@ -53,25 +9,7 @@
       "uitLogo": "https://crests.football-data.org/61.png"
     }
   ],
-  "73": [
-    {
-      "id": 538149,
-      "datum": "di 19 mei 21:15",
-      "thuis": "Chelsea FC",
-      "thuisLogo": "https://crests.football-data.org/61.png",
-      "uit": "Tottenham Hotspur FC",
-      "uitLogo": "https://crests.football-data.org/73.png"
-    },
-    {
-      "id": 538163,
-      "datum": "zo 24 mei 17:00",
-      "thuis": "Tottenham Hotspur FC",
-      "thuisLogo": "https://crests.football-data.org/73.png",
-      "uit": "Everton FC",
-      "uitLogo": "https://crests.football-data.org/62.png"
-    }
-  ],
-  "71": [
+  "61": [
     {
       "id": 538155,
       "datum": "zo 24 mei 17:00",
@@ -189,6 +127,16 @@
       "uitLogo": "https://crests.football-data.org/402.png"
     }
   ],
+  "65": [
+    {
+      "id": 538161,
+      "datum": "zo 24 mei 17:00",
+      "thuis": "Manchester City FC",
+      "thuisLogo": "https://crests.football-data.org/65.png",
+      "uit": "Aston Villa FC",
+      "uitLogo": "https://crests.football-data.org/58.png"
+    }
+  ],
   "58": [
     {
       "id": 538161,
@@ -207,6 +155,26 @@
       "thuisLogo": "https://crests.football-data.org/351.png",
       "uit": "AFC Bournemouth",
       "uitLogo": "https://crests.football-data.org/bournemouth.png"
+    }
+  ],
+  "1044": [
+    {
+      "id": 538162,
+      "datum": "zo 24 mei 17:00",
+      "thuis": "Nottingham Forest FC",
+      "thuisLogo": "https://crests.football-data.org/351.png",
+      "uit": "AFC Bournemouth",
+      "uitLogo": "https://crests.football-data.org/bournemouth.png"
+    }
+  ],
+  "73": [
+    {
+      "id": 538163,
+      "datum": "zo 24 mei 17:00",
+      "thuis": "Tottenham Hotspur FC",
+      "thuisLogo": "https://crests.football-data.org/73.png",
+      "uit": "Everton FC",
+      "uitLogo": "https://crests.football-data.org/62.png"
     }
   ],
   "62": [

@@ -17,14 +17,14 @@
       "positie": 2,
       "club": "Manchester City FC",
       "logo": "https://crests.football-data.org/65.png",
-      "gespeeld": 36,
-      "punten": 77,
+      "gespeeld": 37,
+      "punten": 78,
       "gewonnen": 23,
-      "gelijk": 8,
+      "gelijk": 9,
       "verloren": 5,
       "doelsaldo": 43,
-      "voor": 75,
-      "tegen": 32
+      "voor": 76,
+      "tegen": 33
     },
     {
       "positie": 3,
@@ -69,14 +69,14 @@
       "positie": 6,
       "club": "AFC Bournemouth",
       "logo": "https://crests.football-data.org/bournemouth.png",
-      "gespeeld": 36,
-      "punten": 55,
+      "gespeeld": 37,
+      "punten": 56,
       "gewonnen": 13,
-      "gelijk": 16,
+      "gelijk": 17,
       "verloren": 7,
       "doelsaldo": 4,
-      "voor": 56,
-      "tegen": 52
+      "voor": 57,
+      "tegen": 53
     },
     {
       "positie": 7,
@@ -93,6 +93,19 @@
     },
     {
       "positie": 8,
+      "club": "Chelsea FC",
+      "logo": "https://crests.football-data.org/61.png",
+      "gespeeld": 37,
+      "punten": 52,
+      "gewonnen": 14,
+      "gelijk": 10,
+      "verloren": 13,
+      "doelsaldo": 7,
+      "voor": 57,
+      "tegen": 50
+    },
+    {
+      "positie": 9,
       "club": "Brentford FC",
       "logo": "https://crests.football-data.org/402.png",
       "gespeeld": 37,
@@ -105,7 +118,7 @@
       "tegen": 51
     },
     {
-      "positie": 9,
+      "positie": 10,
       "club": "Sunderland AFC",
       "logo": "https://crests.football-data.org/71.png",
       "gespeeld": 37,
@@ -116,19 +129,6 @@
       "doelsaldo": -7,
       "voor": 40,
       "tegen": 47
-    },
-    {
-      "positie": 10,
-      "club": "Chelsea FC",
-      "logo": "https://crests.football-data.org/61.png",
-      "gespeeld": 36,
-      "punten": 49,
-      "gewonnen": 13,
-      "gelijk": 10,
-      "verloren": 13,
-      "doelsaldo": 6,
-      "voor": 55,
-      "tegen": 49
     },
     {
       "positie": 11,
@@ -212,14 +212,14 @@
       "positie": 17,
       "club": "Tottenham Hotspur FC",
       "logo": "https://crests.football-data.org/73.png",
-      "gespeeld": 36,
+      "gespeeld": 37,
       "punten": 38,
       "gewonnen": 9,
       "gelijk": 11,
-      "verloren": 16,
-      "doelsaldo": -9,
-      "voor": 46,
-      "tegen": 55
+      "verloren": 17,
+      "doelsaldo": -10,
+      "voor": 47,
+      "tegen": 57
     },
     {
       "positie": 18,
