@@ -175,21 +175,24 @@ jobs:
                   return None, []
 
               # Voorkeursvolgorde:
-              # 1) active EN bevat team
-              # 2) bevat team
-              # 3) active
-              # 4) laatste poule op de pagina
-              for p in poules:
-                  if p['active'] and p['bevat_team']:
-                      return p['id'], p['stand']
-              for p in poules:
-                  if p['bevat_team']:
-                      return p['id'], p['stand']
-              for p in poules:
-                  if p['active']:
-                      return p['id'], p['stand']
-              p = poules[-1]
-              return p['id'], p['stand']
+              # 1) active EN bevat team   (huidige poule waarin team speelt)
+              # 2) bevat team             (team komt erin voor)
+              # 3) active                 (fallback: wat de site nu toont)
+              # 4) hoogste poule-id       (nieuwste competitie volgens Sportlink)
+              # Binnen elke groep prefereer hoogste poule_id (= nieuwste).
+              def hoogste(lst):
+                  return max(lst, key=lambda p: int(p['id']))
+              kandidaten = [p for p in poules if p['active'] and p['bevat_team']]
+              if kandidaten:
+                  k = hoogste(kandidaten); return k['id'], k['stand']
+              kandidaten = [p for p in poules if p['bevat_team']]
+              if kandidaten:
+                  k = hoogste(kandidaten); return k['id'], k['stand']
+              kandidaten = [p for p in poules if p['active']]
+              if kandidaten:
+                  k = hoogste(kandidaten); return k['id'], k['stand']
+              k = hoogste(poules)
+              return k['id'], k['stand']
 
           os.makedirs('data', exist_ok=True)
           for t in teams:
@@ -223,6 +226,10 @@ jobs:
                               vorige = f.read().strip()
                       if vorige and vorige != poule_id:
                           print(f"  >>> NIEUWE POULE gedetecteerd: {vorige} -> {poule_id}")
+                          # Schrijf signaal-bestand zodat commit-step dit
+                          # in de commitmessage kan opnemen.
+                          with open('data/.poule-changed', 'a') as f:
+                              f.write(f"{t['naam']}: {vorige} -> {poule_id}\n")
                       with open(meta_pad, 'w') as f:
                           f.write(poule_id or '')
                       with open(f"data/{t['basis']}-stand.json", 'w') as f:
@@ -239,7 +246,13 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/*-matches.json data/*-stand.json data/*-poule.txt
-          git diff --staged --quiet || git commit -m "Update AFC team wedstrijden en stand"
+          if [ -f data/.poule-changed ]; then
+            MSG="Nieuwe AFC poule gedetecteerd"$'\n\n'"$(cat data/.poule-changed)"
+            rm data/.poule-changed
+          else
+            MSG="Update AFC team wedstrijden en stand"
+          fi
+          git diff --staged --quiet || git commit -m "$MSG"
           git push
 
       - uses: actions/configure-pages@v5
