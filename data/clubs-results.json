@@ -29173,6 +29173,17 @@
       "uitLogo": "https://crests.football-data.org/99.png",
       "thuisScore": 0,
       "uitScore": 2
+    },
+    {
+      "id": 537185,
+      "datum": "vr 22 mei",
+      "datumIso": "2026-05-22",
+      "thuis": "ACF Fiorentina",
+      "thuisLogo": "https://crests.football-data.org/99.png",
+      "uit": "Atalanta BC",
+      "uitLogo": "https://crests.football-data.org/102.png",
+      "thuisScore": 1,
+      "uitScore": 1
     }
   ],
   "7397": [
@@ -30399,6 +30410,17 @@
       "uit": "Bologna FC 1909",
       "uitLogo": "https://crests.football-data.org/103.png",
       "thuisScore": 0,
+      "uitScore": 1
+    },
+    {
+      "id": 537185,
+      "datum": "vr 22 mei",
+      "datumIso": "2026-05-22",
+      "thuis": "ACF Fiorentina",
+      "thuisLogo": "https://crests.football-data.org/99.png",
+      "uit": "Atalanta BC",
+      "uitLogo": "https://crests.football-data.org/102.png",
+      "thuisScore": 1,
       "uitScore": 1
     },
     {
@@ -48031,7 +48053,7 @@
       "thuisLogo": "https://crests.football-data.org/6618.png",
       "uit": "Rio Ave FC",
       "uitLogo": "https://crests.football-data.org/496.png",
-      "thuisScore": 1,
+      "thuisScore": 2,
       "uitScore": 1
     }
   ],
@@ -50044,7 +50066,7 @@
       "uit": "AVS",
       "uitLogo": "https://crests.football-data.org/10340.png",
       "thuisScore": 0,
-      "uitScore": 0
+      "uitScore": 1
     }
   ],
   "5531": [
@@ -51924,7 +51946,7 @@
       "uit": "AVS",
       "uitLogo": "https://crests.football-data.org/10340.png",
       "thuisScore": 0,
-      "uitScore": 0
+      "uitScore": 1
     }
   ],
   "7822": [
@@ -54665,7 +54687,7 @@
       "thuisLogo": "https://crests.football-data.org/6618.png",
       "uit": "Rio Ave FC",
       "uitLogo": "https://crests.football-data.org/496.png",
-      "thuisScore": 1,
+      "thuisScore": 2,
       "uitScore": 1
     }
   ],
