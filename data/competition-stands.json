@@ -829,14 +829,14 @@
       "positie": 6,
       "club": "Juventus FC",
       "logo": "https://crests.football-data.org/109.png",
-      "gespeeld": 37,
-      "punten": 68,
+      "gespeeld": 38,
+      "punten": 69,
       "gewonnen": 19,
-      "gelijk": 11,
+      "gelijk": 12,
       "verloren": 7,
       "doelsaldo": 27,
-      "voor": 59,
-      "tegen": 32
+      "voor": 61,
+      "tegen": 34
     },
     {
       "positie": 7,
@@ -905,6 +905,19 @@
     },
     {
       "positie": 12,
+      "club": "Torino FC",
+      "logo": "https://crests.football-data.org/586.png",
+      "gespeeld": 38,
+      "punten": 45,
+      "gewonnen": 12,
+      "gelijk": 9,
+      "verloren": 17,
+      "doelsaldo": -19,
+      "voor": 44,
+      "tegen": 63
+    },
+    {
+      "positie": 13,
       "club": "Parma Calcio 1913",
       "logo": "https://crests.football-data.org/112.png",
       "gespeeld": 38,
@@ -915,19 +928,6 @@
       "doelsaldo": -18,
       "voor": 28,
       "tegen": 46
-    },
-    {
-      "positie": 13,
-      "club": "Torino FC",
-      "logo": "https://crests.football-data.org/586.png",
-      "gespeeld": 37,
-      "punten": 44,
-      "gewonnen": 12,
-      "gelijk": 8,
-      "verloren": 17,
-      "doelsaldo": -19,
-      "voor": 42,
-      "tegen": 61
     },
     {
       "positie": 14,
@@ -1797,6 +1797,19 @@
     },
     {
       "positie": 6,
+      "club": "Coritiba FBC",
+      "logo": "https://crests.football-data.org/4241.png",
+      "gespeeld": 17,
+      "punten": 26,
+      "gewonnen": 7,
+      "gelijk": 5,
+      "verloren": 5,
+      "doelsaldo": 3,
+      "voor": 24,
+      "tegen": 21
+    },
+    {
+      "positie": 7,
       "club": "São Paulo FC",
       "logo": "https://crests.football-data.org/1776.png",
       "gespeeld": 17,
@@ -1809,30 +1822,17 @@
       "tegen": 19
     },
     {
-      "positie": 7,
+      "positie": 8,
       "club": "EC Bahia",
       "logo": "https://crests.football-data.org/1777.png",
-      "gespeeld": 15,
-      "punten": 23,
-      "gewonnen": 6,
-      "gelijk": 5,
-      "verloren": 4,
-      "doelsaldo": 2,
-      "voor": 21,
-      "tegen": 19
-    },
-    {
-      "positie": 7,
-      "club": "Coritiba FBC",
-      "logo": "https://crests.football-data.org/4241.png",
       "gespeeld": 16,
       "punten": 23,
       "gewonnen": 6,
       "gelijk": 5,
       "verloren": 5,
-      "doelsaldo": 2,
-      "voor": 21,
-      "tegen": 19
+      "doelsaldo": 1,
+      "voor": 23,
+      "tegen": 22
     },
     {
       "positie": 9,

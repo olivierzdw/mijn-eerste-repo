@@ -56449,7 +56449,7 @@
       "uit": "CA Paranaense",
       "uitLogo": "https://crests.football-data.org/1768.png",
       "thuisScore": 1,
-      "uitScore": 3
+      "uitScore": 2
     }
   ],
   "1782": [
@@ -56816,7 +56816,7 @@
       "uit": "CA Paranaense",
       "uitLogo": "https://crests.football-data.org/1768.png",
       "thuisScore": 1,
-      "uitScore": 3
+      "uitScore": 2
     }
   ],
   "1765": [
@@ -56993,7 +56993,7 @@
       "thuisLogo": "https://crests.football-data.org/1765.png",
       "uit": "São Paulo FC",
       "uitLogo": "https://crests.football-data.org/1776.png",
-      "thuisScore": 3,
+      "thuisScore": 2,
       "uitScore": 1
     },
     {
@@ -57372,7 +57372,7 @@
       "uit": "Chapecoense AF",
       "uitLogo": "https://crests.football-data.org/1772_large.png",
       "thuisScore": 2,
-      "uitScore": 2
+      "uitScore": 1
     }
   ],
   "6685": [
@@ -58094,7 +58094,7 @@
       "thuisLogo": "https://crests.football-data.org/1765.png",
       "uit": "São Paulo FC",
       "uitLogo": "https://crests.football-data.org/1776.png",
-      "thuisScore": 3,
+      "thuisScore": 2,
       "uitScore": 1
     },
     {
@@ -59018,7 +59018,7 @@
       "uit": "Chapecoense AF",
       "uitLogo": "https://crests.football-data.org/1772_large.png",
       "thuisScore": 2,
-      "uitScore": 2
+      "uitScore": 1
     }
   ],
   "332": [
@@ -62078,28 +62078,6 @@
       "uitLogo": "https://crests.football-data.org/384.png",
       "thuisScore": 0,
       "uitScore": 0
-    },
-    {
-      "id": 557839,
-      "datum": "ma 11 mei",
-      "datumIso": "2026-05-11",
-      "thuis": "Millwall FC",
-      "thuisLogo": "https://crests.football-data.org/384.png",
-      "uit": "Hull City AFC",
-      "uitLogo": "https://crests.football-data.org/322.png",
-      "thuisScore": 0,
-      "uitScore": 2
-    },
-    {
-      "id": 557983,
-      "datum": "za 23 mei",
-      "datumIso": "2026-05-23",
-      "thuis": "Hull City AFC",
-      "thuisLogo": "https://crests.football-data.org/322.png",
-      "uit": "Middlesbrough FC",
-      "uitLogo": "https://crests.football-data.org/343.png",
-      "thuisScore": 1,
-      "uitScore": 0
     }
   ],
   "340": [
@@ -62619,17 +62597,6 @@
       "uitLogo": "https://crests.football-data.org/340.png",
       "thuisScore": 0,
       "uitScore": 0
-    },
-    {
-      "id": 557838,
-      "datum": "di 12 mei",
-      "datumIso": "2026-05-12",
-      "thuis": "Southampton FC",
-      "thuisLogo": "https://crests.football-data.org/340.png",
-      "uit": "Middlesbrough FC",
-      "uitLogo": "https://crests.football-data.org/343.png",
-      "thuisScore": 2,
-      "uitScore": 1
     }
   ],
   "404": [
@@ -63656,28 +63623,6 @@
       "uit": "Southampton FC",
       "uitLogo": "https://crests.football-data.org/340.png",
       "thuisScore": 0,
-      "uitScore": 0
-    },
-    {
-      "id": 557838,
-      "datum": "di 12 mei",
-      "datumIso": "2026-05-12",
-      "thuis": "Southampton FC",
-      "thuisLogo": "https://crests.football-data.org/340.png",
-      "uit": "Middlesbrough FC",
-      "uitLogo": "https://crests.football-data.org/343.png",
-      "thuisScore": 2,
-      "uitScore": 1
-    },
-    {
-      "id": 557983,
-      "datum": "za 23 mei",
-      "datumIso": "2026-05-23",
-      "thuis": "Hull City AFC",
-      "thuisLogo": "https://crests.football-data.org/322.png",
-      "uit": "Middlesbrough FC",
-      "uitLogo": "https://crests.football-data.org/343.png",
-      "thuisScore": 1,
       "uitScore": 0
     }
   ],
@@ -65214,17 +65159,6 @@
       "uitLogo": "https://crests.football-data.org/384.png",
       "thuisScore": 0,
       "uitScore": 0
-    },
-    {
-      "id": 557839,
-      "datum": "ma 11 mei",
-      "datumIso": "2026-05-11",
-      "thuis": "Millwall FC",
-      "thuisLogo": "https://crests.football-data.org/384.png",
-      "uit": "Hull City AFC",
-      "uitLogo": "https://crests.football-data.org/322.png",
-      "thuisScore": 0,
-      "uitScore": 2
     }
   ],
   "1082": [
