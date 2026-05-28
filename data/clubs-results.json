@@ -43631,6 +43631,17 @@
       "uitScore": 0
     },
     {
+      "id": 537735,
+      "datum": "ma 11 mei",
+      "datumIso": "2026-05-11",
+      "thuis": "NAC Breda",
+      "thuisLogo": "images/nac-breda-v2.png",
+      "uit": "SC Heerenveen",
+      "uitLogo": "https://crests.football-data.org/673.png",
+      "thuisScore": 2,
+      "uitScore": 0
+    },
+    {
       "id": 537738,
       "datum": "zo 17 mei",
       "datumIso": "2026-05-17",
@@ -43994,6 +44005,17 @@
       "uitLogo": "https://crests.football-data.org/673.png",
       "thuisScore": 0,
       "uitScore": 2
+    },
+    {
+      "id": 537735,
+      "datum": "ma 11 mei",
+      "datumIso": "2026-05-11",
+      "thuis": "NAC Breda",
+      "thuisLogo": "images/nac-breda-v2.png",
+      "uit": "SC Heerenveen",
+      "uitLogo": "https://crests.football-data.org/673.png",
+      "thuisScore": 2,
+      "uitScore": 0
     },
     {
       "id": 537745,
@@ -48691,7 +48713,7 @@
       "thuisLogo": "https://crests.football-data.org/6618.png",
       "uit": "Rio Ave FC",
       "uitLogo": "https://crests.football-data.org/496.png",
-      "thuisScore": 2,
+      "thuisScore": 1,
       "uitScore": 1
     }
   ],
@@ -50704,7 +50726,7 @@
       "uit": "AVS",
       "uitLogo": "https://crests.football-data.org/10340.png",
       "thuisScore": 0,
-      "uitScore": 1
+      "uitScore": 0
     }
   ],
   "5531": [
@@ -52584,7 +52606,7 @@
       "uit": "AVS",
       "uitLogo": "https://crests.football-data.org/10340.png",
       "thuisScore": 0,
-      "uitScore": 1
+      "uitScore": 0
     }
   ],
   "7822": [
@@ -55325,7 +55347,7 @@
       "thuisLogo": "https://crests.football-data.org/6618.png",
       "uit": "Rio Ave FC",
       "uitLogo": "https://crests.football-data.org/496.png",
-      "thuisScore": 2,
+      "thuisScore": 1,
       "uitScore": 1
     }
   ],
