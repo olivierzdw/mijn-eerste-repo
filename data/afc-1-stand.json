@@ -1,6 +1,19 @@
 [
   {
     "positie": 1,
+    "club": "Breukelen FC 1",
+    "logo": "",
+    "gespeeld": 24,
+    "gewonnen": 14,
+    "gelijk": 4,
+    "verloren": 6,
+    "voor": 64,
+    "tegen": 41,
+    "doelsaldo": 23,
+    "punten": 45
+  },
+  {
+    "positie": 2,
     "club": "SDZ 1",
     "logo": "",
     "gespeeld": 24,
@@ -13,7 +26,7 @@
     "punten": 45
   },
   {
-    "positie": 2,
+    "positie": 3,
     "club": "RKDES 1",
     "logo": "",
     "gespeeld": 24,
@@ -24,19 +37,6 @@
     "tegen": 25,
     "doelsaldo": 19,
     "punten": 45
-  },
-  {
-    "positie": 3,
-    "club": "Breukelen FC 1",
-    "logo": "",
-    "gespeeld": 23,
-    "gewonnen": 14,
-    "gelijk": 3,
-    "verloren": 6,
-    "voor": 62,
-    "tegen": 39,
-    "doelsaldo": 23,
-    "punten": 44
   },
   {
     "positie": 4,
@@ -68,14 +68,14 @@
     "positie": 6,
     "club": "Buitenveldert sc. 1",
     "logo": "",
-    "gespeeld": 23,
+    "gespeeld": 24,
     "gewonnen": 11,
-    "gelijk": 8,
+    "gelijk": 9,
     "verloren": 4,
-    "voor": 45,
-    "tegen": 33,
+    "voor": 47,
+    "tegen": 35,
     "doelsaldo": 12,
-    "punten": 41
+    "punten": 42
   },
   {
     "positie": 7,
