@@ -3,14 +3,14 @@
     "positie": 1,
     "club": "Atletico Club Amsterdam JO11-2",
     "logo": "",
-    "gespeeld": 4,
-    "gewonnen": 3,
+    "gespeeld": 5,
+    "gewonnen": 4,
     "gelijk": 1,
     "verloren": 0,
-    "voor": 23,
+    "voor": 27,
     "tegen": 13,
-    "doelsaldo": 10,
-    "punten": 10
+    "doelsaldo": 14,
+    "punten": 13
   },
   {
     "positie": 2,
@@ -68,13 +68,13 @@
     "positie": 6,
     "club": "DTA Fortius asv JO11-2",
     "logo": "images/fortius.png",
-    "gespeeld": 4,
+    "gespeeld": 5,
     "gewonnen": 1,
     "gelijk": 0,
-    "verloren": 3,
+    "verloren": 4,
     "voor": 9,
-    "tegen": 21,
-    "doelsaldo": -12,
+    "tegen": 25,
+    "doelsaldo": -16,
     "punten": 3
   }
 ]
