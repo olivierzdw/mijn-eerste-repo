@@ -1128,6 +1128,19 @@
     },
     {
       "positie": 9,
+      "club": "Toulouse FC",
+      "logo": "https://crests.football-data.org/511.png",
+      "gespeeld": 34,
+      "punten": 45,
+      "gewonnen": 12,
+      "gelijk": 9,
+      "verloren": 13,
+      "doelsaldo": 1,
+      "voor": 47,
+      "tegen": 46
+    },
+    {
+      "positie": 10,
       "club": "FC Lorient",
       "logo": "https://crests.football-data.org/525.png",
       "gespeeld": 34,
@@ -1138,19 +1151,6 @@
       "doelsaldo": -3,
       "voor": 48,
       "tegen": 51
-    },
-    {
-      "positie": 10,
-      "club": "Toulouse FC",
-      "logo": "https://crests.football-data.org/511.png",
-      "gespeeld": 33,
-      "punten": 44,
-      "gewonnen": 12,
-      "gelijk": 8,
-      "verloren": 13,
-      "doelsaldo": 1,
-      "voor": 47,
-      "tegen": 46
     },
     {
       "positie": 11,
@@ -1234,10 +1234,10 @@
       "positie": 17,
       "club": "FC Nantes",
       "logo": "https://crests.football-data.org/543.png",
-      "gespeeld": 33,
-      "punten": 23,
+      "gespeeld": 34,
+      "punten": 24,
       "gewonnen": 5,
-      "gelijk": 8,
+      "gelijk": 9,
       "verloren": 20,
       "doelsaldo": -23,
       "voor": 29,
