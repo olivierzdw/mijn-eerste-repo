@@ -3238,45 +3238,5 @@
       "uit": "EC Vitória",
       "uitLogo": "https://crests.football-data.org/1782.png"
     }
-  ],
-  "384": [
-    {
-      "id": 557839,
-      "datum": "ma 11 mei 21:00",
-      "thuis": "Millwall FC",
-      "thuisLogo": "https://crests.football-data.org/384.png",
-      "uit": "Hull City AFC",
-      "uitLogo": "https://crests.football-data.org/322.png"
-    }
-  ],
-  "322": [
-    {
-      "id": 557839,
-      "datum": "ma 11 mei 21:00",
-      "thuis": "Millwall FC",
-      "thuisLogo": "https://crests.football-data.org/384.png",
-      "uit": "Hull City AFC",
-      "uitLogo": "https://crests.football-data.org/322.png"
-    }
-  ],
-  "340": [
-    {
-      "id": 557838,
-      "datum": "di 12 mei 21:00",
-      "thuis": "Southampton FC",
-      "thuisLogo": "https://crests.football-data.org/340.png",
-      "uit": "Middlesbrough FC",
-      "uitLogo": "https://crests.football-data.org/343.png"
-    }
-  ],
-  "343": [
-    {
-      "id": 557838,
-      "datum": "di 12 mei 21:00",
-      "thuis": "Southampton FC",
-      "thuisLogo": "https://crests.football-data.org/340.png",
-      "uit": "Middlesbrough FC",
-      "uitLogo": "https://crests.football-data.org/343.png"
-    }
   ]
 }

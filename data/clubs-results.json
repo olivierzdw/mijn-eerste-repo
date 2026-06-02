@@ -949,6 +949,17 @@
       "uitScore": 1
     },
     {
+      "id": 538145,
+      "datum": "di 19 mei",
+      "datumIso": "2026-05-19",
+      "thuis": "AFC Bournemouth",
+      "thuisLogo": "https://crests.football-data.org/bournemouth.png",
+      "uit": "Manchester City FC",
+      "uitLogo": "https://crests.football-data.org/65.png",
+      "thuisScore": 1,
+      "uitScore": 1
+    },
+    {
       "id": 538162,
       "datum": "zo 24 mei",
       "datumIso": "2026-05-24",
@@ -1376,7 +1387,7 @@
       "thuisLogo": "https://crests.football-data.org/65.png",
       "uit": "Aston Villa FC",
       "uitLogo": "https://crests.football-data.org/58.png",
-      "thuisScore": 2,
+      "thuisScore": 1,
       "uitScore": 2
     }
   ],
@@ -5380,6 +5391,17 @@
       "uitScore": 0
     },
     {
+      "id": 538145,
+      "datum": "di 19 mei",
+      "datumIso": "2026-05-19",
+      "thuis": "AFC Bournemouth",
+      "thuisLogo": "https://crests.football-data.org/bournemouth.png",
+      "uit": "Manchester City FC",
+      "uitLogo": "https://crests.football-data.org/65.png",
+      "thuisScore": 1,
+      "uitScore": 1
+    },
+    {
       "id": 538161,
       "datum": "zo 24 mei",
       "datumIso": "2026-05-24",
@@ -5387,7 +5409,7 @@
       "thuisLogo": "https://crests.football-data.org/65.png",
       "uit": "Aston Villa FC",
       "uitLogo": "https://crests.football-data.org/58.png",
-      "thuisScore": 2,
+      "thuisScore": 1,
       "uitScore": 2
     },
     {
@@ -30120,7 +30142,7 @@
       "uit": "Parma Calcio 1913",
       "uitLogo": "https://crests.football-data.org/112.png",
       "thuisScore": 1,
-      "uitScore": 1
+      "uitScore": 0
     },
     {
       "id": 537193,
@@ -32462,7 +32484,7 @@
       "uit": "Parma Calcio 1913",
       "uitLogo": "https://crests.football-data.org/112.png",
       "thuisScore": 1,
-      "uitScore": 1
+      "uitScore": 0
     },
     {
       "id": 537191,
@@ -57136,7 +57158,7 @@
       "thuisLogo": "https://crests.football-data.org/1771.png",
       "uit": "Fluminense FC",
       "uitLogo": "https://crests.football-data.org/1765.png",
-      "thuisScore": 0,
+      "thuisScore": 1,
       "uitScore": 1
     }
   ],
@@ -59281,7 +59303,7 @@
       "thuisLogo": "https://crests.football-data.org/1771.png",
       "uit": "Fluminense FC",
       "uitLogo": "https://crests.football-data.org/1765.png",
-      "thuisScore": 0,
+      "thuisScore": 1,
       "uitScore": 1
     }
   ],
