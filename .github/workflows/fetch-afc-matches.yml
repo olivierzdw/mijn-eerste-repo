@@ -19,18 +19,24 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Fetch AFC teams (matches + stand)
+      - name: Discover & scrape every AFC team
         run: |
           python3 - <<'EOF'
-          import re, json, urllib.request, os
+          import re, json, urllib.request, urllib.error, os, time
           from datetime import datetime, timedelta
 
-          # Welke AFC teams scrapen we?
-          # slug = padstuk op afc.nl/team/<slug>/
-          # bestandsbasis = naam voor data/<basis>-matches.json en data/<basis>-stand.json
-          teams = [
-              {'slug': 'afc-1',      'basis': 'afc-1',     'naam': 'AFC 1'},
-              {'slug': 'afc-jo11-4', 'basis': 'afc',       'naam': 'AFC JO11-4'},
+          # Overzichts­pagina's waaruit we /team/<slug>/ URLs ontdekken.
+          # Als AFC nieuwe teams toevoegt (bv. nieuw seizoen) verschijnen ze
+          # vanzelf — we hoeven niets te hardcoderen.
+          overview_urls = [
+              'https://www.afc.nl/senioren-zaterdag/',
+              'https://www.afc.nl/senioren-zondag/',
+              'https://www.afc.nl/jeugd-zaterdag/',
+              'https://www.afc.nl/jeugd-zondag/',
+              'https://www.afc.nl/vrouwen/',
+              'https://www.afc.nl/meisjes-zaterdag/',
+              'https://www.afc.nl/meisjes-zaterdag-copy/',
+              'https://www.afc.nl/veteranen-zaterdag/',
           ]
 
           maand_namen = ['januari','februari','maart','april','mei','juni',
@@ -57,9 +63,43 @@ jobs:
               with urllib.request.urlopen(req, timeout=30) as r:
                   return r.read().decode('utf-8', errors='ignore')
 
+          def slug_naar_naam(slug):
+              # Fallback: maak een leesbare naam van de slug, bv. "afc-jo11-4" → "AFC JO11-4".
+              s = slug.upper().replace('-', ' ')
+              # Plak achterhangsels weer aan: "JO11 4" → "JO11-4", "O23 1" → "O23-1", "VR 1" → "VR1"
+              s = re.sub(r'\b(JO|MO|VR|O)\s*(\d+)\s*-?\s*(\d+)?', lambda m:
+                         f"{m.group(1)}{m.group(2)}" + (f"-{m.group(3)}" if m.group(3) else ''), s)
+              # Verwijder trailing "-N" duplicaat (slug "afc-3-2" → "AFC 3" kan dubbel zijn)
+              return s
+
+          # ───── Stap 1: ontdek alle team-slugs ─────
+          discovered = {}  # slug → {soort}
+          slug_re = re.compile(r'/team/([a-z0-9][a-z0-9\-]*?)/', re.IGNORECASE)
+          for url in overview_urls:
+              try:
+                  html = fetch(url)
+              except Exception as e:
+                  print(f"overzicht {url} fout: {e}")
+                  continue
+              # Bepaal soort uit URL voor in de zoekomschrijving
+              if 'senioren-zaterdag' in url:    soort = 'Senioren zaterdag'
+              elif 'senioren-zondag' in url:    soort = 'Senioren zondag'
+              elif 'jeugd-zaterdag' in url:     soort = 'Jeugd zaterdag'
+              elif 'jeugd-zondag' in url:       soort = 'Jeugd zondag'
+              elif 'vrouwen' in url:            soort = 'Vrouwen'
+              elif 'meisjes' in url:            soort = 'Meisjes'
+              elif 'veteranen' in url:          soort = 'Veteranen'
+              else:                             soort = 'AFC'
+              gevonden = set(m.group(1).lower() for m in slug_re.finditer(html))
+              for slug in gevonden:
+                  if slug not in discovered:
+                      discovered[slug] = {'soort': soort}
+              print(f"{url}: {len(gevonden)} slugs")
+              time.sleep(1)
+          print(f"Totaal unieke teams ontdekt: {len(discovered)}")
+
+          # ───── Stap 2: per team matches + stand scrapen ─────
           def parse_matches(html):
-              # Nieuwe AFC.nl structuur: block-play-program rows met los
-              # datum/tijd/team-divs, zonder jaar in de datum.
               rows = re.findall(
                   r'<div class="block-play-program__row">(.*?)</div>\s*</div>\s*</div>',
                   html, re.DOTALL
@@ -92,8 +132,6 @@ jobs:
                       continue
                   uur, minuut = int(tm.group(1)), int(tm.group(2))
 
-                  # Geen jaar in HTML: kies eerst dit jaar; als ver in verleden
-                  # ligt, zal het volgend jaar zijn (najaar -> voorjaar overgang).
                   d = datetime(now.year, maand, dag, uur, minuut)
                   if d < now - timedelta(hours=3):
                       d = datetime(now.year + 1, maand, dag, uur, minuut)
@@ -142,7 +180,6 @@ jobs:
               return stand
 
           def parse_stand(html, team_naam):
-              # Verzamel ALLE poules + of ze "active" gemarkeerd zijn
               poules = []
               for m in re.finditer(
                   r'<tbody([^>]*)data-poule-standings="(\d+)"([^>]*)>(.*?)</tbody>',
@@ -155,10 +192,7 @@ jobs:
                   stand = parse_stand_van_tbody(body)
                   if not stand:
                       continue
-                  # Bevat deze poule ons team?
                   team_kort = team_naam.lower()
-                  # Pak deel achter "AFC " bv "JO11-4" of "1" zodat we matchen op
-                  # zowel "AFC 1" als "AFC JO11-4"
                   bevat_team = any(
                       team_kort in (r['club'] or '').lower()
                       or (r['club'] or '').lower() in team_kort
@@ -170,16 +204,8 @@ jobs:
                       'bevat_team': bevat_team,
                       'stand': stand,
                   })
-
               if not poules:
                   return None, []
-
-              # Voorkeursvolgorde:
-              # 1) active EN bevat team   (huidige poule waarin team speelt)
-              # 2) bevat team             (team komt erin voor)
-              # 3) active                 (fallback: wat de site nu toont)
-              # 4) hoogste poule-id       (nieuwste competitie volgens Sportlink)
-              # Binnen elke groep prefereer hoogste poule_id (= nieuwste).
               def hoogste(lst):
                   return max(lst, key=lambda p: int(p['id']))
               kandidaten = [p for p in poules if p['active'] and p['bevat_team']]
@@ -194,58 +220,101 @@ jobs:
               k = hoogste(poules)
               return k['id'], k['stand']
 
-          os.makedirs('data', exist_ok=True)
-          for t in teams:
-              url = f"https://www.afc.nl/team/{t['slug']}/"
-              print(f"=== {t['naam']} ({url}) ===")
+          def parse_team_naam(html, fallback):
+              # Probeer een <h1> uit de hero te halen
+              m = re.search(r'<h1[^>]*>\s*([^<]+?)\s*</h1>', html)
+              if m:
+                  naam = re.sub(r'\s+', ' ', m.group(1)).strip()
+                  if naam:
+                      return naam
+              return fallback
+
+          os.makedirs('data/afc-teams', exist_ok=True)
+          team_index = []  # voor data/afc-teams.json
+          poule_changes = []
+
+          for slug, meta in sorted(discovered.items()):
+              url = f"https://www.afc.nl/team/{slug}/"
               try:
                   html = fetch(url)
               except Exception as e:
-                  print(f"  fout bij ophalen: {e}")
+                  print(f"  {slug}: fout bij ophalen: {e}")
                   continue
 
-              # Matches - altijd overschrijven (ook met lege lijst) zodat
-              # gespeelde wedstrijden direct verdwijnen.
+              naam = parse_team_naam(html, slug_naar_naam(slug))
+
+              # Matches
               try:
                   m = parse_matches(html)
-                  with open(f"data/{t['basis']}-matches.json", 'w') as f:
+                  with open(f"data/afc-teams/{slug}-matches.json", 'w') as f:
                       json.dump(m, f, ensure_ascii=False, indent=2)
-                  print(f"  {len(m)} wedstrijden")
+                  aantal_m = len(m)
               except Exception as e:
-                  print(f"  matches fout: {e}")
+                  print(f"  {slug}: matches fout: {e}")
+                  aantal_m = 0
 
               # Stand
+              poule_id = None
+              aantal_s = 0
               try:
-                  poule_id, stand = parse_stand(html, t['naam'])
+                  pid, stand = parse_stand(html, naam)
                   if stand:
-                      # Detecteer wisseling van poule en log dat duidelijk
-                      meta_pad = f"data/{t['basis']}-poule.txt"
+                      meta_pad = f"data/afc-teams/{slug}-poule.txt"
                       vorige = None
                       if os.path.exists(meta_pad):
                           with open(meta_pad) as f:
                               vorige = f.read().strip()
-                      if vorige and vorige != poule_id:
-                          print(f"  >>> NIEUWE POULE gedetecteerd: {vorige} -> {poule_id}")
-                          # Schrijf signaal-bestand zodat commit-step dit
-                          # in de commitmessage kan opnemen.
-                          with open('data/.poule-changed', 'a') as f:
-                              f.write(f"{t['naam']}: {vorige} -> {poule_id}\n")
+                      if vorige and vorige != pid:
+                          poule_changes.append(f"{naam}: {vorige} -> {pid}")
+                          print(f"  >>> NIEUWE POULE: {naam}: {vorige} -> {pid}")
                       with open(meta_pad, 'w') as f:
-                          f.write(poule_id or '')
-                      with open(f"data/{t['basis']}-stand.json", 'w') as f:
+                          f.write(pid or '')
+                      with open(f"data/afc-teams/{slug}-stand.json", 'w') as f:
                           json.dump(stand, f, ensure_ascii=False, indent=2)
-                      print(f"  poule {poule_id}: {len(stand)} teams in stand")
-                  else:
-                      print(f"  geen stand gevonden (bestaande data behouden)")
+                      poule_id = pid
+                      aantal_s = len(stand)
               except Exception as e:
-                  print(f"  stand fout: {e}")
+                  print(f"  {slug}: stand fout: {e}")
+
+              team_index.append({
+                  'slug':     slug,
+                  'naam':     naam,
+                  'soort':    meta['soort'],
+                  'pouleId':  poule_id,
+                  'heeftStand':    aantal_s > 0,
+                  'aantalMatches': aantal_m,
+              })
+              print(f"  {slug} ({naam}): {aantal_m} wedstrijden, {aantal_s} in stand")
+              time.sleep(0.5)
+
+          # Sorteer index logisch: senioren zaterdag eerst, dan zondag, dan
+          # jeugd zaterdag, jeugd zondag, vrouwen, meisjes, veteranen.
+          soort_orde = {
+              'Senioren zaterdag': 0,
+              'Senioren zondag':   1,
+              'Jeugd zaterdag':    2,
+              'Jeugd zondag':      3,
+              'Vrouwen':           4,
+              'Meisjes':           5,
+              'Veteranen':         6,
+          }
+          team_index.sort(key=lambda t: (soort_orde.get(t['soort'], 9), t['naam']))
+
+          with open('data/afc-teams.json', 'w') as f:
+              json.dump(team_index, f, ensure_ascii=False, indent=2)
+
+          if poule_changes:
+              with open('data/.poule-changed', 'w') as f:
+                  f.write('\n'.join(poule_changes) + '\n')
+
+          print(f"Klaar: {len(team_index)} AFC teams geïndexeerd")
           EOF
 
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/*-matches.json data/*-stand.json data/*-poule.txt
+          git add data/afc-teams.json data/afc-teams/
           if [ -f data/.poule-changed ]; then
             MSG="Nieuwe AFC poule gedetecteerd"$'\n\n'"$(cat data/.poule-changed)"
             rm data/.poule-changed

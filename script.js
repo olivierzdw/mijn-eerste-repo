@@ -303,8 +303,9 @@ function renderGebruikers() {
   document.getElementById("geen-gebruiker").classList.toggle("hidden", heeftGebruiker);
 
   if (heeftGebruiker) {
-    fetchAjaxWedstrijden();
-    fetchAfcWedstrijden();
+    // Ajax + AFC JO11-4 staan niet meer vast op het beginscherm —
+    // de speler vindt ze (en elke andere club / elk AFC team) via
+    // de zoekbalk bovenaan.
   } else {
     // Geen actieve gebruiker: open meteen het naam-invoerveld zodat
     // de speler direct kan typen. Typen is verplicht.
@@ -717,7 +718,7 @@ async function toonPagina(pagina) {
       if (gekozenClub && gekozenClub.amateurScraper) {
         if (toggle) toggle.classList.add("hidden");
         document.getElementById("stand-titel").textContent = `${gekozenClub.naam} stand`;
-        const res = await fetch(`data/${gekozenClub.basis}-stand.json?t=${Date.now()}`);
+        const res = await fetch(`data/afc-teams/${gekozenClub.basis}-stand.json?t=${Date.now()}`);
         if (!res.ok) throw new Error('niet beschikbaar');
         renderAfcStand(await res.json(), gekozenClub.naam);
       } else if (gekozenClub && gekozenClub.competitie) {
@@ -761,7 +762,7 @@ async function toonGekozenStand() {
   try {
     if (standType === 'afc') {
       document.getElementById("stand-titel").textContent = `AFC JO11-4 stand`;
-      const res = await fetch(`data/afc-stand.json?t=${Date.now()}`);
+      const res = await fetch(`data/afc-teams/afc-jo11-4-stand.json?t=${Date.now()}`);
       renderAfcStand(await res.json());
     } else {
       document.getElementById("stand-titel").textContent = `Eredivisie stand`;
@@ -1487,15 +1488,34 @@ function uploadLokaleVoorspellingen() {
   }
 }
 
-// Amateurclubs waarvoor wij een eigen scraper hebben (data/<basis>-matches.json + -stand.json).
-// Deze krijgen voorrang in de zoekresultaten en tonen echte wedstrijden + stand.
-const gescrapedeAmateurTeams = [
-  { basis: 'afc-1', naam: 'AFC 1',       land: 'Amateur · Noord-Holland · Tweede divisie' },
-  { basis: 'afc',   naam: 'AFC JO11-4',  land: 'Amateur · Noord-Holland · 1e klasse' },
-];
+// Amateurteams waarvoor wij een eigen scraper hebben.
+// Wordt geladen uit data/afc-teams.json (door de workflow automatisch
+// gevuld met ALLE AFC teams — senioren, jeugd, vrouwen, meisjes,
+// veteranen). Per team:
+//   basis = afc.nl slug (gebruikt voor data/afc-teams/<slug>-…)
+//   naam  = zichtbare naam (bv. "AFC JO11-4")
+//   land  = "Amateur · AFC · <soort>"
+let gescrapedeAmateurTeams = [];
+
+async function laadAfcTeams() {
+  if (gescrapedeAmateurTeams.length) return;
+  try {
+    const res = await fetch(`data/afc-teams.json?t=${Date.now()}`);
+    if (!res.ok) return;
+    const lijst = await res.json();
+    gescrapedeAmateurTeams = lijst.map(t => ({
+      basis: t.slug,
+      naam:  t.naam,
+      land:  `Amateur · AFC · ${t.soort || ''}`.replace(/ · $/, ''),
+    }));
+  } catch (e) {
+    // Laat leeg — zoekresultaten tonen dan geen AFC teams.
+  }
+}
 
 async function laadClubsLijst() {
   if (clubsLijst) return;
+  await laadAfcTeams();
   try {
     const [proRes, amateurRes] = await Promise.all([
       fetch(`data/clubs.json?t=${Date.now()}`),
@@ -1607,10 +1627,10 @@ async function kiesClub(club) {
   document.getElementById("club-wedstrijden").innerHTML =
     `<p style="color:#666;text-align:center">Laden...</p>`;
 
-  // Gescraped amateur team (eigen scraper, bv. AFC 1 / AFC JO11-4): laad uit lokale JSON
+  // Gescraped amateur team (eigen scraper, AFC team): laad uit lokale JSON
   if (club.amateurScraper) {
     try {
-      const res = await fetch(`data/${club.basis}-matches.json?t=${Date.now()}`);
+      const res = await fetch(`data/afc-teams/${club.basis}-matches.json?t=${Date.now()}`);
       clubWedstrijden = res.ok ? await res.json() : [];
     } catch (e) {
       clubWedstrijden = [];
@@ -1744,8 +1764,8 @@ renderGebruikers();
 renderFavorieten();
 updateLiveMinuten();
 setInterval(updateLiveMinuten, 60000);
-setInterval(fetchAjaxWedstrijden, 5 * 60 * 1000);
-setInterval(fetchAfcWedstrijden, 5 * 60 * 1000);
+// Ajax + AFC JO11-4 staan niet meer op het beginscherm; de zoekbalk
+// haalt hun data ad hoc op als je ze kiest. Geen vaste interval nodig.
 
 // Firebase: laad spelerslijst bij opstarten en blijf in sync
 (async () => {
