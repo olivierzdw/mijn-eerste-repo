@@ -1842,13 +1842,75 @@ async function fetchOpstelling(competitie, wedstrijd) {
     const sumUrl = `https://site.api.espn.com/apis/site/v2/sports/soccer/${league}/summary?event=${event.id}`;
     const sum = await (await fetch(sumUrl)).json();
     const rosters = sum.rosters || [];
-    if (!rosters.length || !rosters.some(r => (r.roster || []).length)) {
-      return { fout: 'Opstelling nog niet bekend (komt vaak ~1 uur voor aftrap).' };
+    if (rosters.length && rosters.some(r => (r.roster || []).length)) {
+      return { rosters };
     }
-    return { rosters };
+    // Geen bevestigde opstelling → val terug op verwachte opstelling
+    // op basis van de laatste wedstrijd van elk team.
+    const comps = event.competitions?.[0]?.competitors || [];
+    const teams = comps.map(c => ({
+      id: c.team?.id,
+      naam: c.team?.displayName || '',
+      thuisUit: c.homeAway,
+    }));
+    // Houd thuis vóór uit voor consistente volgorde
+    teams.sort((a, b) => (a.thuisUit === 'home' ? -1 : 1));
+    const verwachteRosters = [];
+    for (const t of teams) {
+      if (!t.id) continue;
+      const last = await fetchLastTeamLineup(league, t.id);
+      if (last) {
+        verwachteRosters.push({
+          team: { displayName: t.naam },
+          formation: last.formation || '',
+          roster: last.roster,
+          _label: last.label,
+        });
+      }
+    }
+    if (verwachteRosters.length) {
+      return { rosters: verwachteRosters, verwacht: true };
+    }
+    return { fout: 'Opstelling nog niet bekend (komt vaak ~1 uur voor aftrap).' };
   } catch (e) {
     return { fout: 'Kon opstelling niet ophalen.' };
   }
+}
+
+// Haal de laatste afgeronde wedstrijd van een team op en geef de
+// opstelling van dat team terug (voor "verwachte opstelling").
+async function fetchLastTeamLineup(league, teamId) {
+  try {
+    const schedUrl = `https://site.api.espn.com/apis/site/v2/sports/soccer/${league}/teams/${teamId}/schedule`;
+    const sched = await (await fetch(schedUrl)).json();
+    const events = sched.events || [];
+    const now = Date.now();
+    const past = events
+      .filter(e => e && e.date && new Date(e.date).getTime() < now)
+      .sort((a, b) => new Date(b.date) - new Date(a.date));
+    for (const ev of past.slice(0, 6)) {
+      try {
+        const sumUrl = `https://site.api.espn.com/apis/site/v2/sports/soccer/${league}/summary?event=${ev.id}`;
+        const sum = await (await fetch(sumUrl)).json();
+        const rosters = sum.rosters || [];
+        const mine = rosters.find(r => String(r.team?.id) === String(teamId));
+        if (!mine || !(mine.roster || []).length) continue;
+        // Vind tegenstander-naam
+        const comps = sum.header?.competitions?.[0]?.competitors
+                   || sum.competitions?.[0]?.competitors
+                   || [];
+        const opp = comps.find(c => String(c.team?.id) !== String(teamId))?.team?.displayName || '';
+        const d = new Date(ev.date);
+        const dStr = `${String(d.getDate()).padStart(2,'0')}-${String(d.getMonth()+1).padStart(2,'0')}`;
+        return {
+          roster: mine.roster,
+          formation: mine.formation || '',
+          label: opp ? `laatste wedstrijd: ${opp} (${dStr})` : `laatste wedstrijd (${dStr})`,
+        };
+      } catch (e) { /* probeer volgende */ }
+    }
+  } catch (e) { /* niets */ }
+  return null;
 }
 
 async function toggleOpstelling(uid, btn, competitie, wedstrijd) {
@@ -1867,11 +1929,17 @@ async function toggleOpstelling(uid, btn, competitie, wedstrijd) {
     wrap.innerHTML = `<p style="text-align:center;color:#888;padding:10px">${escapeHTML(result.fout)}</p>`;
     return;
   }
-  wrap.innerHTML = result.rosters.map(r => {
+  const banner = result.verwacht
+    ? `<div class="ops-verwacht">⚠️ Verwachte opstelling — gebaseerd op de laatste wedstrijd van elk team. Bevestigde opstelling verschijnt ~1 uur voor aftrap.</div>`
+    : '';
+  wrap.innerHTML = banner + result.rosters.map(r => {
     const teamNaam = (r.team || {}).displayName || '';
     const formatie = r.formation ? ` — ${r.formation}` : '';
+    const sublabel = r._label ? `<div class="ops-sublabel">${escapeHTML(r._label)}</div>` : '';
     const starters = (r.roster || []).filter(p => p.starter);
     const bench    = (r.roster || []).filter(p => !p.starter);
+    const lijstA = starters.length ? starters : (r.roster || []).slice(0, 11);
+    const lijstB = starters.length ? bench    : (r.roster || []).slice(11);
     const speler = (p) => {
       const naam = (p.athlete || {}).displayName || '';
       const pos  = (p.position && p.position.abbreviation) || '';
@@ -1881,8 +1949,9 @@ async function toggleOpstelling(uid, btn, competitie, wedstrijd) {
     return `
       <div class="ops-team">
         <h4>${escapeHTML(teamNaam)}${escapeHTML(formatie)}</h4>
-        <ul class="ops-lijst ops-starters">${starters.map(speler).join('')}</ul>
-        ${bench.length ? `<details class="ops-bank"><summary>Bank (${bench.length})</summary><ul class="ops-lijst">${bench.map(speler).join('')}</ul></details>` : ''}
+        ${sublabel}
+        <ul class="ops-lijst ops-starters">${lijstA.map(speler).join('')}</ul>
+        ${lijstB.length ? `<details class="ops-bank"><summary>Bank (${lijstB.length})</summary><ul class="ops-lijst">${lijstB.map(speler).join('')}</ul></details>` : ''}
       </div>
     `;
   }).join('');

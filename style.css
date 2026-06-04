@@ -1622,3 +1622,20 @@ button:hover {
   margin-bottom: 4px;
 }
 .ops-bank summary:hover { color: #cfd8e3; }
+.ops-verwacht {
+  grid-column: 1 / -1;
+  background: rgba(255, 193, 7, 0.12);
+  border: 1px solid rgba(255, 193, 7, 0.35);
+  color: #ffd866;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 12px;
+  line-height: 1.4;
+  margin-bottom: 4px;
+}
+.ops-sublabel {
+  font-size: 11px;
+  color: #8a96a7;
+  margin: -4px 0 6px;
+  font-style: italic;
+}
