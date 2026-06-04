@@ -251,10 +251,15 @@ function slaGebruikersOp(lijst) {
   fbSchrijf(lijst);
 }
 
-// Actieve speler wordt bij ELKE page load (inclusief refresh) gewist,
-// zodat je altijd opnieuw moet kiezen wie je bent.
+// Bij ELKE page load (inclusief refresh) ben je nog niemand: je moet
+// eerst je naam typen via "+ Speler". Voorspellingen blijven onder
+// die naam bewaard in Firebase + localStorage, dus als je dezelfde
+// naam intypt krijg je je oude data terug. De spelerslijst zelf
+// blijft staan zodat predictions en gokstand kunnen koppelen — maar
+// hij wordt verborgen in de UI tot je deze sessie hebt getypt.
 try { localStorage.removeItem("olliebet-actief"); } catch(e) {}
 try { sessionStorage.removeItem("olliebet-actief"); } catch(e) {}
+try { sessionStorage.removeItem("olliebet-naam-getypt"); } catch(e) {}
 
 function actiefGebruiker() {
   return sessionStorage.getItem("olliebet-actief") || null;
@@ -268,7 +273,7 @@ function setActiefGebruiker(naam) {
 function renderGebruikers() {
   const lijst = laadGebruikers();
   let actief = actiefGebruiker();
-  // Auto-select niet meer: speler moet zelf zijn naam aanklikken.
+  // Auto-select niet meer: speler moet zelf zijn naam typen.
   // Wel: als de opgeslagen actieve naam niet meer bestaat, wis 'm.
   if (actief && !lijst.includes(actief)) {
     setActiefGebruiker(null);
@@ -277,25 +282,21 @@ function renderGebruikers() {
   const container = document.getElementById("gebruikers-lijst");
   container.innerHTML = "";
 
-  lijst.forEach(naam => {
+  // Toon ALLEEN de actieve gebruiker als knop (degene die deze sessie
+  // z'n naam heeft getypt). Andere spelers staan wel in de Firebase-
+  // lijst (nodig voor gokstand etc.) maar zijn niet zichtbaar als
+  // aanklikbare knop — typen is verplicht.
+  if (actief) {
     const wrap = document.createElement("div");
     wrap.className = "gebruiker-wrap";
 
     const btn = document.createElement("button");
-    btn.className = "gebruiker-btn" + (naam === actief ? " actief" : "");
-    btn.textContent = naam;
-    btn.onclick = () => wisselGebruiker(naam);
-
-    const del = document.createElement("button");
-    del.className = "gebruiker-verwijder";
-    del.textContent = "✕";
-    del.title = `${naam} verwijderen`;
-    del.onclick = (e) => { e.stopPropagation(); verwijderGebruiker(naam); };
+    btn.className = "gebruiker-btn actief";
+    btn.textContent = actief;
 
     wrap.appendChild(btn);
-    wrap.appendChild(del);
     container.appendChild(wrap);
-  });
+  }
 
   const heeftGebruiker = actief && lijst.includes(actief);
   document.getElementById("main-inhoud").classList.toggle("hidden", !heeftGebruiker);
@@ -304,6 +305,15 @@ function renderGebruikers() {
   if (heeftGebruiker) {
     fetchAjaxWedstrijden();
     fetchAfcWedstrijden();
+  } else {
+    // Geen actieve gebruiker: open meteen het naam-invoerveld zodat
+    // de speler direct kan typen. Typen is verplicht.
+    const form = document.getElementById("nieuwe-gebruiker-form");
+    if (form && form.classList.contains("hidden")) {
+      form.classList.remove("hidden");
+      const inp = document.getElementById("nieuwe-naam");
+      if (inp) { try { inp.focus(); } catch(e) {} }
+    }
   }
 }
 
@@ -342,13 +352,14 @@ function voegGebruikerToe() {
   const naam = document.getElementById("nieuwe-naam").value.trim();
   if (!naam) return;
   const lijst = laadGebruikers();
-  if (lijst.includes(naam)) {
-    alert(`"${naam}" bestaat al.`);
-    return;
+  // Naam bestaat al? Dan log je gewoon in als die naam (je oude
+  // voorspellingen komen terug). Anders toevoegen.
+  if (!lijst.includes(naam)) {
+    lijst.push(naam);
+    slaGebruikersOp(lijst);
   }
-  lijst.push(naam);
-  slaGebruikersOp(lijst);
   setActiefGebruiker(naam);
+  sessionStorage.setItem("olliebet-naam-getypt", "1");
   verbergNieuweGebruiker();
   renderGebruikers();
 }
