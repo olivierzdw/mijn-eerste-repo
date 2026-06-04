@@ -659,6 +659,14 @@ async function toonPagina(pagina) {
   document.getElementById("stand-panel").classList.toggle("hidden", pagina !== "stand");
   document.getElementById("chat-panel").classList.toggle("hidden", pagina !== "chat");
   document.getElementById("samenvattingen-panel").classList.toggle("hidden", pagina !== "samenvattingen");
+  document.getElementById("spelletje-panel").classList.toggle("hidden", pagina !== "spelletje");
+  document.getElementById("btn-spelletje").classList.toggle("actief", pagina === "spelletje");
+  document.getElementById("btn-spelletje").textContent = pagina === "spelletje" ? "Wedstrijden" : "Spelletje";
+  if (pagina === "spelletje") {
+    kiesSpelletje(huidigSpel);
+  } else {
+    stopSnake();
+  }
   document.getElementById("btn-uitslagen").classList.toggle("actief", pagina === "uitslagen");
   document.getElementById("btn-uitslagen").textContent = pagina === "uitslagen" ? "Wedstrijden" : "Uitslagen";
   document.getElementById("btn-stand").classList.toggle("actief", pagina === "stand");
@@ -1810,6 +1818,288 @@ function controleerCode() {
     input.value = "";
     input.focus();
   }
+}
+
+// ── Spelletjes ────────────────────────────────────────────────
+
+let huidigSpel = "penalty";
+
+function kiesSpelletje(spel) {
+  huidigSpel = spel;
+  document.querySelectorAll(".spelletje-keuze-btn").forEach(b => {
+    b.classList.toggle("actief", b.dataset.spel === spel);
+  });
+  stopSnake();
+  if (spel === "penalty") renderPenalty();
+  else if (spel === "snake") renderSnake();
+}
+
+// ── Penalty game ───────
+let penaltyState = JSON.parse(localStorage.getItem("olliebet-penalty") || '{"goals":0,"saves":0,"pogingen":0}');
+
+function slaPenaltyOp() {
+  localStorage.setItem("olliebet-penalty", JSON.stringify(penaltyState));
+}
+
+function renderPenalty() {
+  const el = document.getElementById("spelletje-inhoud");
+  el.innerHTML = `
+    <div class="penalty-game">
+      <div class="penalty-score" id="penalty-score"></div>
+      <div class="penalty-goal">
+        <div class="penalty-net"></div>
+        <div class="penalty-keeper" id="penalty-keeper">🧤</div>
+        <div class="penalty-zones" id="penalty-zones">
+          ${[0,1,2,3,4,5,6,7,8].map(i => `<div class="penalty-zone" data-zone="${i}"></div>`).join('')}
+        </div>
+        <div class="penalty-bal hidden" id="penalty-bal">⚽</div>
+      </div>
+      <div class="penalty-msg" id="penalty-msg">Klik in het doel om te schieten</div>
+      <div class="penalty-acties">
+        <button onclick="resetPenalty()" class="penalty-reset">Reset score</button>
+      </div>
+    </div>
+  `;
+  updatePenaltyScore();
+  el.querySelectorAll(".penalty-zone").forEach(z => {
+    z.addEventListener("click", () => schietPenalty(parseInt(z.dataset.zone, 10)));
+  });
+}
+
+function updatePenaltyScore() {
+  const el = document.getElementById("penalty-score");
+  if (!el) return;
+  const p = penaltyState;
+  const perc = p.pogingen ? Math.round(100 * p.goals / p.pogingen) : 0;
+  el.innerHTML = `⚽ <b>${p.goals}</b> goals · 🧤 <b>${p.saves}</b> saves · ${p.pogingen} pogingen (${perc}%)`;
+}
+
+let penaltyBezig = false;
+function schietPenalty(zoneSpeler) {
+  if (penaltyBezig) return;
+  penaltyBezig = true;
+  const zoneKeeper = Math.floor(Math.random() * 9);
+  const keeperEl = document.getElementById("penalty-keeper");
+  const balEl    = document.getElementById("penalty-bal");
+  const msgEl    = document.getElementById("penalty-msg");
+  const zonesEl  = document.getElementById("penalty-zones");
+  const zoneSpEl = zonesEl.querySelector(`[data-zone="${zoneSpeler}"]`);
+  const zoneKpEl = zonesEl.querySelector(`[data-zone="${zoneKeeper}"]`);
+
+  // Bal animeren naar geschoten vak
+  const goalRect = zonesEl.getBoundingClientRect();
+  const spRect   = zoneSpEl.getBoundingClientRect();
+  const kpRect   = zoneKpEl.getBoundingClientRect();
+  balEl.classList.remove("hidden");
+  balEl.style.left = `50%`;
+  balEl.style.top  = `100%`;
+  balEl.style.transform = `translate(-50%, -50%) scale(1)`;
+  // Geef een tick zodat browser de start-state oppikt voordat we naar eind animeren
+  requestAnimationFrame(() => {
+    balEl.style.transition = "left 0.5s ease-out, top 0.5s ease-out, transform 0.5s ease-out";
+    const x = ((spRect.left + spRect.width/2) - goalRect.left) / goalRect.width * 100;
+    const y = ((spRect.top  + spRect.height/2) - goalRect.top)  / goalRect.height * 100;
+    balEl.style.left = `${x}%`;
+    balEl.style.top  = `${y}%`;
+    balEl.style.transform = `translate(-50%, -50%) scale(0.6)`;
+  });
+
+  // Keeper duikt naar zijn vak
+  const kx = ((kpRect.left + kpRect.width/2)  - goalRect.left) / goalRect.width * 100;
+  const ky = ((kpRect.top  + kpRect.height/2) - goalRect.top)  / goalRect.height * 100;
+  keeperEl.style.transition = "left 0.45s ease-out, top 0.45s ease-out";
+  keeperEl.style.left = `${kx}%`;
+  keeperEl.style.top  = `${ky}%`;
+
+  setTimeout(() => {
+    penaltyState.pogingen++;
+    if (zoneKeeper === zoneSpeler) {
+      penaltyState.saves++;
+      msgEl.innerHTML = `🧤 <b>Gepakt!</b> De keeper koos hetzelfde vak.`;
+      msgEl.className = "penalty-msg save";
+    } else {
+      penaltyState.goals++;
+      msgEl.innerHTML = `⚽ <b>GOAL!</b> De keeper dook naar het verkeerde vak.`;
+      msgEl.className = "penalty-msg goal";
+    }
+    slaPenaltyOp();
+    updatePenaltyScore();
+    // Reset na een tijdje
+    setTimeout(() => {
+      balEl.classList.add("hidden");
+      balEl.style.transition = "none";
+      keeperEl.style.transition = "left 0.4s ease-in-out, top 0.4s ease-in-out";
+      keeperEl.style.left = "50%";
+      keeperEl.style.top  = "85%";
+      msgEl.className = "penalty-msg";
+      msgEl.textContent = "Klik in het doel om te schieten";
+      penaltyBezig = false;
+    }, 1400);
+  }, 500);
+}
+
+function resetPenalty() {
+  if (!confirm("Score op 0 zetten?")) return;
+  penaltyState = { goals: 0, saves: 0, pogingen: 0 };
+  slaPenaltyOp();
+  updatePenaltyScore();
+}
+
+// ── Snake game ───────
+let snakeState = null;
+let snakeLoop  = null;
+
+function renderSnake() {
+  const best = parseInt(localStorage.getItem("olliebet-snake-best") || "0", 10);
+  const el = document.getElementById("spelletje-inhoud");
+  el.innerHTML = `
+    <div class="snake-game">
+      <div class="snake-info">Score: <b id="snake-score">0</b> · Best: <b id="snake-best">${best}</b></div>
+      <canvas id="snake-canvas" width="400" height="400" tabindex="0"></canvas>
+      <div class="snake-hint">Pijltjes (of WASD) om te bewegen · swipen werkt op mobiel</div>
+      <div class="penalty-acties">
+        <button onclick="startSnake()">▶ Start / Restart</button>
+      </div>
+    </div>
+  `;
+  startSnake();
+}
+
+function startSnake() {
+  stopSnake();
+  const canvas = document.getElementById("snake-canvas");
+  if (!canvas) return;
+  const ctx = canvas.getContext("2d");
+  const grid = 20;             // 20x20 cellen
+  const cell = canvas.width / grid;
+  snakeState = {
+    canvas, ctx, grid, cell,
+    snake: [{x: 10, y: 10}],
+    dir:   {x: 1,  y: 0},
+    nextDir: {x: 1, y: 0},
+    food:  randomFood(grid, [{x:10,y:10}]),
+    score: 0,
+    dood:  false,
+  };
+  canvas.focus();
+  tekenSnake();
+  snakeLoop = setInterval(stapSnake, 120);
+
+  // Toetsen
+  const handler = (e) => {
+    if (!snakeState) return;
+    const map = {
+      ArrowUp:    {x:0, y:-1}, w:{x:0, y:-1}, W:{x:0, y:-1},
+      ArrowDown:  {x:0, y: 1}, s:{x:0, y: 1}, S:{x:0, y: 1},
+      ArrowLeft:  {x:-1,y: 0}, a:{x:-1,y: 0}, A:{x:-1,y: 0},
+      ArrowRight: {x: 1,y: 0}, d:{x: 1,y: 0}, D:{x: 1,y: 0},
+    };
+    const nd = map[e.key];
+    if (!nd) return;
+    // Niet 180° omkeren
+    if (nd.x === -snakeState.dir.x && nd.y === -snakeState.dir.y) return;
+    snakeState.nextDir = nd;
+    e.preventDefault();
+  };
+  snakeState.keyHandler = handler;
+  document.addEventListener("keydown", handler);
+
+  // Touch swipes
+  let tx=0, ty=0;
+  const touchStart = (e) => { tx = e.touches[0].clientX; ty = e.touches[0].clientY; };
+  const touchEnd = (e) => {
+    if (!snakeState) return;
+    const dx = e.changedTouches[0].clientX - tx;
+    const dy = e.changedTouches[0].clientY - ty;
+    if (Math.abs(dx) < 20 && Math.abs(dy) < 20) return;
+    let nd;
+    if (Math.abs(dx) > Math.abs(dy)) nd = {x: dx>0?1:-1, y:0};
+    else                              nd = {x:0, y: dy>0?1:-1};
+    if (nd.x === -snakeState.dir.x && nd.y === -snakeState.dir.y) return;
+    snakeState.nextDir = nd;
+  };
+  canvas.addEventListener("touchstart", touchStart, {passive:true});
+  canvas.addEventListener("touchend", touchEnd, {passive:true});
+  snakeState.touchStart = touchStart;
+  snakeState.touchEnd = touchEnd;
+}
+
+function stopSnake() {
+  if (snakeLoop) { clearInterval(snakeLoop); snakeLoop = null; }
+  if (snakeState && snakeState.keyHandler) {
+    document.removeEventListener("keydown", snakeState.keyHandler);
+  }
+  if (snakeState && snakeState.canvas) {
+    snakeState.canvas.removeEventListener("touchstart", snakeState.touchStart);
+    snakeState.canvas.removeEventListener("touchend",   snakeState.touchEnd);
+  }
+  snakeState = null;
+}
+
+function randomFood(grid, snake) {
+  while (true) {
+    const f = { x: Math.floor(Math.random()*grid), y: Math.floor(Math.random()*grid) };
+    if (!snake.some(s => s.x === f.x && s.y === f.y)) return f;
+  }
+}
+
+function stapSnake() {
+  const s = snakeState;
+  if (!s || s.dood) return;
+  s.dir = s.nextDir;
+  const head = { x: s.snake[0].x + s.dir.x, y: s.snake[0].y + s.dir.y };
+  // Muur?
+  if (head.x < 0 || head.y < 0 || head.x >= s.grid || head.y >= s.grid) return gameOverSnake();
+  // Zichzelf?
+  if (s.snake.some(seg => seg.x === head.x && seg.y === head.y)) return gameOverSnake();
+  s.snake.unshift(head);
+  if (head.x === s.food.x && head.y === s.food.y) {
+    s.score++;
+    document.getElementById("snake-score").textContent = s.score;
+    s.food = randomFood(s.grid, s.snake);
+  } else {
+    s.snake.pop();
+  }
+  tekenSnake();
+}
+
+function tekenSnake() {
+  const s = snakeState;
+  if (!s) return;
+  const { ctx, canvas, cell } = s;
+  ctx.fillStyle = "#0a1929";
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+  // Voer
+  ctx.fillStyle = "#e94560";
+  ctx.beginPath();
+  ctx.arc(s.food.x*cell + cell/2, s.food.y*cell + cell/2, cell/2 - 2, 0, Math.PI*2);
+  ctx.fill();
+  // Slang
+  s.snake.forEach((seg, i) => {
+    ctx.fillStyle = i === 0 ? "#7ee787" : "#4caf50";
+    ctx.fillRect(seg.x*cell + 1, seg.y*cell + 1, cell - 2, cell - 2);
+  });
+}
+
+function gameOverSnake() {
+  const s = snakeState;
+  if (!s) return;
+  s.dood = true;
+  const best = parseInt(localStorage.getItem("olliebet-snake-best") || "0", 10);
+  if (s.score > best) {
+    localStorage.setItem("olliebet-snake-best", String(s.score));
+    document.getElementById("snake-best").textContent = s.score;
+  }
+  const { ctx, canvas } = s;
+  ctx.fillStyle = "rgba(0,0,0,0.65)";
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+  ctx.fillStyle = "#fff";
+  ctx.font = "bold 32px sans-serif";
+  ctx.textAlign = "center";
+  ctx.fillText("Game Over", canvas.width/2, canvas.height/2 - 10);
+  ctx.font = "20px sans-serif";
+  ctx.fillText(`Score: ${s.score}`, canvas.width/2, canvas.height/2 + 24);
+  if (snakeLoop) { clearInterval(snakeLoop); snakeLoop = null; }
 }
 
 (function initCodeGate() {
