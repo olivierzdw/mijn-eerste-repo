@@ -1,0 +1,80 @@
+[
+  {
+    "positie": 1,
+    "club": "SDZ O23-3",
+    "logo": "",
+    "gespeeld": 10,
+    "gewonnen": 7,
+    "gelijk": 0,
+    "verloren": 3,
+    "voor": 46,
+    "tegen": 21,
+    "doelsaldo": 25,
+    "punten": 21
+  },
+  {
+    "positie": 2,
+    "club": "JOS Watergraafsmeer O23-1",
+    "logo": "",
+    "gespeeld": 9,
+    "gewonnen": 6,
+    "gelijk": 0,
+    "verloren": 3,
+    "voor": 40,
+    "tegen": 19,
+    "doelsaldo": 21,
+    "punten": 18
+  },
+  {
+    "positie": 3,
+    "club": "Abcoude fc O23-1",
+    "logo": "",
+    "gespeeld": 10,
+    "gewonnen": 5,
+    "gelijk": 0,
+    "verloren": 5,
+    "voor": 30,
+    "tegen": 26,
+    "doelsaldo": 4,
+    "punten": 15
+  },
+  {
+    "positie": 4,
+    "club": "AFC O23-1",
+    "logo": "images/afc.png",
+    "gespeeld": 9,
+    "gewonnen": 5,
+    "gelijk": 0,
+    "verloren": 4,
+    "voor": 44,
+    "tegen": 34,
+    "doelsaldo": 10,
+    "punten": 14
+  },
+  {
+    "positie": 5,
+    "club": "TABA afc O23-3",
+    "logo": "images/afc.png",
+    "gespeeld": 10,
+    "gewonnen": 4,
+    "gelijk": 1,
+    "verloren": 5,
+    "voor": 23,
+    "tegen": 42,
+    "doelsaldo": -19,
+    "punten": 13
+  },
+  {
+    "positie": 6,
+    "club": "GeuzenMiddenmeer O23-2",
+    "logo": "",
+    "gespeeld": 10,
+    "gewonnen": 1,
+    "gelijk": 1,
+    "verloren": 8,
+    "voor": 16,
+    "tegen": 57,
+    "doelsaldo": -41,
+    "punten": 4
+  }
+]

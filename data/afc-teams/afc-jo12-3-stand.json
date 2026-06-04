@@ -1,0 +1,80 @@
+[
+  {
+    "positie": 1,
+    "club": "IVV JO12-1",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 5,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 40,
+    "tegen": 18,
+    "doelsaldo": 22,
+    "punten": 15
+  },
+  {
+    "positie": 2,
+    "club": "ASC De Volewijckers JO12-1",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 3,
+    "gelijk": 1,
+    "verloren": 1,
+    "voor": 35,
+    "tegen": 13,
+    "doelsaldo": 22,
+    "punten": 10
+  },
+  {
+    "positie": 3,
+    "club": "RKSV TOB JO12-1",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 3,
+    "voor": 18,
+    "tegen": 30,
+    "doelsaldo": -12,
+    "punten": 6
+  },
+  {
+    "positie": 4,
+    "club": "AFC JO12-3",
+    "logo": "images/afc.png",
+    "gespeeld": 5,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 3,
+    "voor": 24,
+    "tegen": 39,
+    "doelsaldo": -15,
+    "punten": 6
+  },
+  {
+    "positie": 5,
+    "club": "Real Sranang sv. JO12-1",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 1,
+    "gelijk": 1,
+    "verloren": 3,
+    "voor": 18,
+    "tegen": 21,
+    "doelsaldo": -3,
+    "punten": 4
+  },
+  {
+    "positie": 6,
+    "club": "TOS-Actief JO12-1",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 4,
+    "voor": 12,
+    "tegen": 26,
+    "doelsaldo": -14,
+    "punten": 3
+  }
+]

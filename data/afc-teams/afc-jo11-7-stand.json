@@ -1,0 +1,80 @@
+[
+  {
+    "positie": 1,
+    "club": "AFC JO11-7",
+    "logo": "images/afc.png",
+    "gespeeld": 5,
+    "gewonnen": 5,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 34,
+    "tegen": 13,
+    "doelsaldo": 21,
+    "punten": 15
+  },
+  {
+    "positie": 2,
+    "club": "DRC JO11-2",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 3,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 23,
+    "tegen": 21,
+    "doelsaldo": 2,
+    "punten": 9
+  },
+  {
+    "positie": 3,
+    "club": "Dijk De asv JO11-5",
+    "logo": "",
+    "gespeeld": 4,
+    "gewonnen": 2,
+    "gelijk": 1,
+    "verloren": 1,
+    "voor": 17,
+    "tegen": 19,
+    "doelsaldo": -2,
+    "punten": 7
+  },
+  {
+    "positie": 4,
+    "club": "AS'80 JO11-11",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 2,
+    "gelijk": 1,
+    "verloren": 2,
+    "voor": 20,
+    "tegen": 28,
+    "doelsaldo": -8,
+    "punten": 7
+  },
+  {
+    "positie": 5,
+    "club": "WV-HEDW JO11-6",
+    "logo": "",
+    "gespeeld": 4,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 3,
+    "voor": 13,
+    "tegen": 18,
+    "doelsaldo": -5,
+    "punten": 3
+  },
+  {
+    "positie": 6,
+    "club": "AFC IJburg JO11-4",
+    "logo": "images/afc.png",
+    "gespeeld": 5,
+    "gewonnen": 0,
+    "gelijk": 0,
+    "verloren": 5,
+    "voor": 15,
+    "tegen": 23,
+    "doelsaldo": -8,
+    "punten": 0
+  }
+]

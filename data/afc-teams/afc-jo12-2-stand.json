@@ -1,0 +1,80 @@
+[
+  {
+    "positie": 1,
+    "club": "AFC JO12-2",
+    "logo": "images/afc.png",
+    "gespeeld": 5,
+    "gewonnen": 4,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 42,
+    "tegen": 9,
+    "doelsaldo": 33,
+    "punten": 12
+  },
+  {
+    "positie": 2,
+    "club": "VVA/Spartaan JO12-1",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 4,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 40,
+    "tegen": 15,
+    "doelsaldo": 25,
+    "punten": 12
+  },
+  {
+    "positie": 3,
+    "club": "Kadoelen sv JO12-1 JM",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 4,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 19,
+    "tegen": 13,
+    "doelsaldo": 6,
+    "punten": 12
+  },
+  {
+    "positie": 4,
+    "club": "OFC JO12-1",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 3,
+    "voor": 16,
+    "tegen": 29,
+    "doelsaldo": -13,
+    "punten": 6
+  },
+  {
+    "positie": 5,
+    "club": "Sloterdijk avv. JO12-1",
+    "logo": "images/sloterdijk.png",
+    "gespeeld": 5,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 4,
+    "voor": 7,
+    "tegen": 19,
+    "doelsaldo": -12,
+    "punten": 3
+  },
+  {
+    "positie": 6,
+    "club": "Westzaan JO12-1",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 0,
+    "gelijk": 0,
+    "verloren": 5,
+    "voor": 1,
+    "tegen": 40,
+    "doelsaldo": -39,
+    "punten": 0
+  }
+]

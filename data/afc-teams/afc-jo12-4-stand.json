@@ -1,0 +1,80 @@
+[
+  {
+    "positie": 1,
+    "club": "DCG Rksv JO12-1",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 5,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 48,
+    "tegen": 11,
+    "doelsaldo": 37,
+    "punten": 15
+  },
+  {
+    "positie": 2,
+    "club": "SDW JO12-2",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 3,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 25,
+    "tegen": 26,
+    "doelsaldo": -1,
+    "punten": 9
+  },
+  {
+    "positie": 3,
+    "club": "VVA/Spartaan JO12-2",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 3,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 24,
+    "tegen": 34,
+    "doelsaldo": -10,
+    "punten": 9
+  },
+  {
+    "positie": 4,
+    "club": "SDZ JO12-1",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 3,
+    "voor": 27,
+    "tegen": 23,
+    "doelsaldo": 4,
+    "punten": 6
+  },
+  {
+    "positie": 5,
+    "club": "RODA '23 Rksv JO12-2",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 3,
+    "voor": 28,
+    "tegen": 31,
+    "doelsaldo": -3,
+    "punten": 6
+  },
+  {
+    "positie": 6,
+    "club": "AFC JO12-4",
+    "logo": "images/afc.png",
+    "gespeeld": 5,
+    "gewonnen": 0,
+    "gelijk": 0,
+    "verloren": 5,
+    "voor": 9,
+    "tegen": 36,
+    "doelsaldo": -27,
+    "punten": 0
+  }
+]

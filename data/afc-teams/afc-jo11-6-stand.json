@@ -1,0 +1,80 @@
+[
+  {
+    "positie": 1,
+    "club": "Hercules Zaandam sc JO11-2",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 4,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 32,
+    "tegen": 9,
+    "doelsaldo": 23,
+    "punten": 12
+  },
+  {
+    "positie": 2,
+    "club": "SDW JO11-2",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 4,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 30,
+    "tegen": 11,
+    "doelsaldo": 19,
+    "punten": 12
+  },
+  {
+    "positie": 3,
+    "club": "OSV JO11-1",
+    "logo": "",
+    "gespeeld": 4,
+    "gewonnen": 3,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 22,
+    "tegen": 10,
+    "doelsaldo": 12,
+    "punten": 9
+  },
+  {
+    "positie": 4,
+    "club": "ZSGOWMS JO11-1",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 3,
+    "voor": 15,
+    "tegen": 29,
+    "doelsaldo": -14,
+    "punten": 6
+  },
+  {
+    "positie": 5,
+    "club": "ZVC '22 JO11-2",
+    "logo": "",
+    "gespeeld": 4,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 3,
+    "voor": 13,
+    "tegen": 19,
+    "doelsaldo": -6,
+    "punten": 3
+  },
+  {
+    "positie": 6,
+    "club": "AFC JO11-6",
+    "logo": "images/afc.png",
+    "gespeeld": 5,
+    "gewonnen": 0,
+    "gelijk": 0,
+    "verloren": 5,
+    "voor": 9,
+    "tegen": 43,
+    "doelsaldo": -34,
+    "punten": 0
+  }
+]

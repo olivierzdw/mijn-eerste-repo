@@ -1,0 +1,80 @@
+[
+  {
+    "positie": 1,
+    "club": "SDW JO16-3",
+    "logo": "",
+    "gespeeld": 10,
+    "gewonnen": 7,
+    "gelijk": 1,
+    "verloren": 2,
+    "voor": 48,
+    "tegen": 30,
+    "doelsaldo": 18,
+    "punten": 22
+  },
+  {
+    "positie": 2,
+    "club": "AFC JO16-3",
+    "logo": "images/afc.png",
+    "gespeeld": 10,
+    "gewonnen": 6,
+    "gelijk": 1,
+    "verloren": 3,
+    "voor": 58,
+    "tegen": 41,
+    "doelsaldo": 17,
+    "punten": 19
+  },
+  {
+    "positie": 3,
+    "club": "RODA '23 Rksv JO16-2",
+    "logo": "",
+    "gespeeld": 10,
+    "gewonnen": 5,
+    "gelijk": 2,
+    "verloren": 3,
+    "voor": 46,
+    "tegen": 32,
+    "doelsaldo": 14,
+    "punten": 17
+  },
+  {
+    "positie": 4,
+    "club": "Waterwijk asc JO16-2",
+    "logo": "",
+    "gespeeld": 10,
+    "gewonnen": 5,
+    "gelijk": 0,
+    "verloren": 5,
+    "voor": 27,
+    "tegen": 31,
+    "doelsaldo": -4,
+    "punten": 15
+  },
+  {
+    "positie": 5,
+    "club": "Sporting Martinus JO16-2",
+    "logo": "",
+    "gespeeld": 10,
+    "gewonnen": 2,
+    "gelijk": 2,
+    "verloren": 6,
+    "voor": 27,
+    "tegen": 41,
+    "doelsaldo": -14,
+    "punten": 8
+  },
+  {
+    "positie": 6,
+    "club": "SCPB'22 JO16-3",
+    "logo": "",
+    "gespeeld": 10,
+    "gewonnen": 1,
+    "gelijk": 2,
+    "verloren": 7,
+    "voor": 27,
+    "tegen": 58,
+    "doelsaldo": -31,
+    "punten": 5
+  }
+]

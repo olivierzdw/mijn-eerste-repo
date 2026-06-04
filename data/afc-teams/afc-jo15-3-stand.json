@@ -1,0 +1,80 @@
+[
+  {
+    "positie": 1,
+    "club": "RODA '23 Rksv JO15-2",
+    "logo": "",
+    "gespeeld": 10,
+    "gewonnen": 7,
+    "gelijk": 1,
+    "verloren": 2,
+    "voor": 53,
+    "tegen": 26,
+    "doelsaldo": 27,
+    "punten": 22
+  },
+  {
+    "positie": 2,
+    "club": "Sporting Martinus JO15-2",
+    "logo": "",
+    "gespeeld": 10,
+    "gewonnen": 6,
+    "gelijk": 0,
+    "verloren": 4,
+    "voor": 31,
+    "tegen": 20,
+    "doelsaldo": 11,
+    "punten": 18
+  },
+  {
+    "positie": 3,
+    "club": "Buitenboys sc. JO15-3",
+    "logo": "",
+    "gespeeld": 10,
+    "gewonnen": 4,
+    "gelijk": 3,
+    "verloren": 3,
+    "voor": 32,
+    "tegen": 33,
+    "doelsaldo": -1,
+    "punten": 15
+  },
+  {
+    "positie": 4,
+    "club": "WV-HEDW JO15-2",
+    "logo": "",
+    "gespeeld": 10,
+    "gewonnen": 4,
+    "gelijk": 1,
+    "verloren": 5,
+    "voor": 32,
+    "tegen": 37,
+    "doelsaldo": -5,
+    "punten": 13
+  },
+  {
+    "positie": 5,
+    "club": "SDZ JO15-3",
+    "logo": "",
+    "gespeeld": 10,
+    "gewonnen": 3,
+    "gelijk": 3,
+    "verloren": 4,
+    "voor": 37,
+    "tegen": 48,
+    "doelsaldo": -11,
+    "punten": 12
+  },
+  {
+    "positie": 6,
+    "club": "AFC JO15-3",
+    "logo": "images/afc.png",
+    "gespeeld": 10,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 8,
+    "voor": 27,
+    "tegen": 48,
+    "doelsaldo": -21,
+    "punten": 6
+  }
+]

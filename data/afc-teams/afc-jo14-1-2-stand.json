@@ -1,0 +1,80 @@
+[
+  {
+    "positie": 1,
+    "club": "Swift JO14-1",
+    "logo": "",
+    "gespeeld": 10,
+    "gewonnen": 7,
+    "gelijk": 2,
+    "verloren": 1,
+    "voor": 35,
+    "tegen": 20,
+    "doelsaldo": 15,
+    "punten": 23
+  },
+  {
+    "positie": 2,
+    "club": "Waterwijk asc JO14-1",
+    "logo": "",
+    "gespeeld": 10,
+    "gewonnen": 5,
+    "gelijk": 2,
+    "verloren": 3,
+    "voor": 27,
+    "tegen": 25,
+    "doelsaldo": 2,
+    "punten": 17
+  },
+  {
+    "positie": 3,
+    "club": "KDO sv JO14-1",
+    "logo": "",
+    "gespeeld": 10,
+    "gewonnen": 4,
+    "gelijk": 2,
+    "verloren": 4,
+    "voor": 27,
+    "tegen": 19,
+    "doelsaldo": 8,
+    "punten": 14
+  },
+  {
+    "positie": 4,
+    "club": "SDZ JO14-1",
+    "logo": "",
+    "gespeeld": 9,
+    "gewonnen": 4,
+    "gelijk": 0,
+    "verloren": 5,
+    "voor": 25,
+    "tegen": 34,
+    "doelsaldo": -9,
+    "punten": 12
+  },
+  {
+    "positie": 5,
+    "club": "AFC JO14-1",
+    "logo": "images/afc.png",
+    "gespeeld": 9,
+    "gewonnen": 2,
+    "gelijk": 2,
+    "verloren": 5,
+    "voor": 28,
+    "tegen": 30,
+    "doelsaldo": -2,
+    "punten": 8
+  },
+  {
+    "positie": 6,
+    "club": "AFC IJburg JO14-1",
+    "logo": "images/afc.png",
+    "gespeeld": 10,
+    "gewonnen": 2,
+    "gelijk": 2,
+    "verloren": 6,
+    "voor": 25,
+    "tegen": 39,
+    "doelsaldo": -14,
+    "punten": 8
+  }
+]

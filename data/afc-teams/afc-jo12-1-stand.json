@@ -1,0 +1,80 @@
+[
+  {
+    "positie": 1,
+    "club": "ZVC '22 JO12-1",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 5,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 24,
+    "tegen": 7,
+    "doelsaldo": 17,
+    "punten": 15
+  },
+  {
+    "positie": 2,
+    "club": "Purmerend JO12-1JM",
+    "logo": "",
+    "gespeeld": 4,
+    "gewonnen": 3,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 18,
+    "tegen": 11,
+    "doelsaldo": 7,
+    "punten": 9
+  },
+  {
+    "positie": 3,
+    "club": "Volendam (rkav) JO12-1",
+    "logo": "",
+    "gespeeld": 4,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 14,
+    "tegen": 18,
+    "doelsaldo": -4,
+    "punten": 6
+  },
+  {
+    "positie": 4,
+    "club": "DSS JO12-1",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 3,
+    "voor": 27,
+    "tegen": 20,
+    "doelsaldo": 7,
+    "punten": 6
+  },
+  {
+    "positie": 5,
+    "club": "HBC JO12-1",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 3,
+    "voor": 24,
+    "tegen": 18,
+    "doelsaldo": 6,
+    "punten": 6
+  },
+  {
+    "positie": 6,
+    "club": "AFC JO12-1",
+    "logo": "images/afc.png",
+    "gespeeld": 5,
+    "gewonnen": 0,
+    "gelijk": 0,
+    "verloren": 5,
+    "voor": 7,
+    "tegen": 40,
+    "doelsaldo": -33,
+    "punten": 0
+  }
+]

@@ -1,0 +1,93 @@
+[
+  {
+    "positie": 1,
+    "club": "SDW MO13-1",
+    "logo": "",
+    "gespeeld": 12,
+    "gewonnen": 9,
+    "gelijk": 1,
+    "verloren": 2,
+    "voor": 57,
+    "tegen": 24,
+    "doelsaldo": 33,
+    "punten": 28
+  },
+  {
+    "positie": 2,
+    "club": "Diemen sv. MO13-1",
+    "logo": "",
+    "gespeeld": 12,
+    "gewonnen": 7,
+    "gelijk": 3,
+    "verloren": 2,
+    "voor": 44,
+    "tegen": 18,
+    "doelsaldo": 26,
+    "punten": 24
+  },
+  {
+    "positie": 3,
+    "club": "WV-HEDW MO13-2",
+    "logo": "",
+    "gespeeld": 12,
+    "gewonnen": 6,
+    "gelijk": 1,
+    "verloren": 5,
+    "voor": 43,
+    "tegen": 34,
+    "doelsaldo": 9,
+    "punten": 19
+  },
+  {
+    "positie": 4,
+    "club": "FC Weesp MO13-2 (9-tal)",
+    "logo": "",
+    "gespeeld": 12,
+    "gewonnen": 5,
+    "gelijk": 2,
+    "verloren": 5,
+    "voor": 36,
+    "tegen": 34,
+    "doelsaldo": 2,
+    "punten": 17
+  },
+  {
+    "positie": 5,
+    "club": "AFC MO13-1",
+    "logo": "images/afc.png",
+    "gespeeld": 12,
+    "gewonnen": 3,
+    "gelijk": 4,
+    "verloren": 5,
+    "voor": 27,
+    "tegen": 28,
+    "doelsaldo": -1,
+    "punten": 13
+  },
+  {
+    "positie": 6,
+    "club": "SDZ MO13-1",
+    "logo": "",
+    "gespeeld": 12,
+    "gewonnen": 3,
+    "gelijk": 3,
+    "verloren": 6,
+    "voor": 22,
+    "tegen": 37,
+    "doelsaldo": -15,
+    "punten": 12
+  },
+  {
+    "positie": 7,
+    "club": "AFC IJburg MO13-2",
+    "logo": "images/afc.png",
+    "gespeeld": 12,
+    "gewonnen": 0,
+    "gelijk": 4,
+    "verloren": 8,
+    "voor": 10,
+    "tegen": 64,
+    "doelsaldo": -54,
+    "punten": 4
+  }
+]

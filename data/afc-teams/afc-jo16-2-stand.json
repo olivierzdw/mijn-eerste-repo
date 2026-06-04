@@ -1,0 +1,80 @@
+[
+  {
+    "positie": 1,
+    "club": "Meer De sv. JO16-1",
+    "logo": "",
+    "gespeeld": 10,
+    "gewonnen": 6,
+    "gelijk": 3,
+    "verloren": 1,
+    "voor": 53,
+    "tegen": 23,
+    "doelsaldo": 30,
+    "punten": 20
+  },
+  {
+    "positie": 2,
+    "club": "SCPB'22 JO16-2",
+    "logo": "",
+    "gespeeld": 10,
+    "gewonnen": 6,
+    "gelijk": 0,
+    "verloren": 4,
+    "voor": 32,
+    "tegen": 34,
+    "doelsaldo": -2,
+    "punten": 18
+  },
+  {
+    "positie": 3,
+    "club": "AFC JO16-2",
+    "logo": "images/afc.png",
+    "gespeeld": 9,
+    "gewonnen": 4,
+    "gelijk": 2,
+    "verloren": 3,
+    "voor": 28,
+    "tegen": 30,
+    "doelsaldo": -2,
+    "punten": 14
+  },
+  {
+    "positie": 4,
+    "club": "SDW JO16-1",
+    "logo": "",
+    "gespeeld": 9,
+    "gewonnen": 3,
+    "gelijk": 4,
+    "verloren": 2,
+    "voor": 37,
+    "tegen": 18,
+    "doelsaldo": 19,
+    "punten": 13
+  },
+  {
+    "positie": 5,
+    "club": "TOS-Actief JO16-1",
+    "logo": "",
+    "gespeeld": 10,
+    "gewonnen": 4,
+    "gelijk": 1,
+    "verloren": 5,
+    "voor": 38,
+    "tegen": 32,
+    "doelsaldo": 6,
+    "punten": 12
+  },
+  {
+    "positie": 6,
+    "club": "Diemen sv. JO16-1",
+    "logo": "",
+    "gespeeld": 10,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 9,
+    "voor": 6,
+    "tegen": 57,
+    "doelsaldo": -51,
+    "punten": 3
+  }
+]

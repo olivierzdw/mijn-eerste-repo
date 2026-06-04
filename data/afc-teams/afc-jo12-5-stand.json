@@ -1,0 +1,80 @@
+[
+  {
+    "positie": 1,
+    "club": "AFC JO12-5",
+    "logo": "images/afc.png",
+    "gespeeld": 5,
+    "gewonnen": 4,
+    "gelijk": 1,
+    "verloren": 0,
+    "voor": 17,
+    "tegen": 8,
+    "doelsaldo": 9,
+    "punten": 13
+  },
+  {
+    "positie": 2,
+    "club": "SDZ JO12-2",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 2,
+    "gelijk": 1,
+    "verloren": 2,
+    "voor": 25,
+    "tegen": 21,
+    "doelsaldo": 4,
+    "punten": 7
+  },
+  {
+    "positie": 3,
+    "club": "Atletico Club Amsterdam JO12-2",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 2,
+    "gelijk": 1,
+    "verloren": 2,
+    "voor": 14,
+    "tegen": 16,
+    "doelsaldo": -2,
+    "punten": 7
+  },
+  {
+    "positie": 4,
+    "club": "vv Zwanenburg JO12-2",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 3,
+    "voor": 26,
+    "tegen": 19,
+    "doelsaldo": 7,
+    "punten": 6
+  },
+  {
+    "positie": 5,
+    "club": "DCG Rksv JO12-6",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 3,
+    "voor": 16,
+    "tegen": 21,
+    "doelsaldo": -5,
+    "punten": 6
+  },
+  {
+    "positie": 6,
+    "club": "SCPB'22 JO12-4",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 1,
+    "gelijk": 1,
+    "verloren": 3,
+    "voor": 10,
+    "tegen": 23,
+    "doelsaldo": -13,
+    "punten": 4
+  }
+]

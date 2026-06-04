@@ -1,0 +1,80 @@
+[
+  {
+    "positie": 1,
+    "club": "AFC Ajax JO11-2",
+    "logo": "images/afc.png",
+    "gespeeld": 5,
+    "gewonnen": 4,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 22,
+    "tegen": 16,
+    "doelsaldo": 6,
+    "punten": 12
+  },
+  {
+    "positie": 2,
+    "club": "Waterwijk asc JO11-1",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 3,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 22,
+    "tegen": 13,
+    "doelsaldo": 9,
+    "punten": 9
+  },
+  {
+    "positie": 3,
+    "club": "SDZ JO11-2",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 2,
+    "gelijk": 2,
+    "verloren": 1,
+    "voor": 16,
+    "tegen": 14,
+    "doelsaldo": 2,
+    "punten": 8
+  },
+  {
+    "positie": 4,
+    "club": "AFC JO11-1",
+    "logo": "images/afc.png",
+    "gespeeld": 5,
+    "gewonnen": 2,
+    "gelijk": 1,
+    "verloren": 2,
+    "voor": 17,
+    "tegen": 18,
+    "doelsaldo": -1,
+    "punten": 7
+  },
+  {
+    "positie": 5,
+    "club": "Spakenburg JO11-1",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 1,
+    "gelijk": 2,
+    "verloren": 2,
+    "voor": 18,
+    "tegen": 26,
+    "doelsaldo": -8,
+    "punten": 5
+  },
+  {
+    "positie": 6,
+    "club": "AS'80 JO11-1",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 0,
+    "gelijk": 1,
+    "verloren": 4,
+    "voor": 19,
+    "tegen": 27,
+    "doelsaldo": -8,
+    "punten": 1
+  }
+]

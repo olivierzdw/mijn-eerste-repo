@@ -1,0 +1,80 @@
+[
+  {
+    "positie": 1,
+    "club": "Atletico Club Amsterdam JO11-2",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 4,
+    "gelijk": 1,
+    "verloren": 0,
+    "voor": 27,
+    "tegen": 13,
+    "doelsaldo": 14,
+    "punten": 13
+  },
+  {
+    "positie": 2,
+    "club": "Sloterdijk avv. JO11-1",
+    "logo": "images/sloterdijk.png",
+    "gespeeld": 5,
+    "gewonnen": 3,
+    "gelijk": 1,
+    "verloren": 1,
+    "voor": 28,
+    "tegen": 19,
+    "doelsaldo": 9,
+    "punten": 10
+  },
+  {
+    "positie": 3,
+    "club": "ASV Blauw-Wit JO11-5",
+    "logo": "images/blauw-wit.png",
+    "gespeeld": 5,
+    "gewonnen": 2,
+    "gelijk": 1,
+    "verloren": 2,
+    "voor": 19,
+    "tegen": 20,
+    "doelsaldo": -1,
+    "punten": 7
+  },
+  {
+    "positie": 4,
+    "club": "SDW JO11-1",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 3,
+    "voor": 21,
+    "tegen": 19,
+    "doelsaldo": 2,
+    "punten": 6
+  },
+  {
+    "positie": 5,
+    "club": "AFC JO11-4",
+    "logo": "images/afc.png",
+    "gespeeld": 5,
+    "gewonnen": 1,
+    "gelijk": 1,
+    "verloren": 3,
+    "voor": 21,
+    "tegen": 29,
+    "doelsaldo": -8,
+    "punten": 4
+  },
+  {
+    "positie": 6,
+    "club": "DTA Fortius asv JO11-2",
+    "logo": "images/fortius.png",
+    "gespeeld": 5,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 4,
+    "voor": 9,
+    "tegen": 25,
+    "doelsaldo": -16,
+    "punten": 3
+  }
+]

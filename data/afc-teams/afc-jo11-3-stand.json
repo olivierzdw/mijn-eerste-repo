@@ -1,0 +1,80 @@
+[
+  {
+    "positie": 1,
+    "club": "AFC JO11-3",
+    "logo": "images/afc.png",
+    "gespeeld": 5,
+    "gewonnen": 4,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 41,
+    "tegen": 17,
+    "doelsaldo": 24,
+    "punten": 12
+  },
+  {
+    "positie": 2,
+    "club": "WV-HEDW JO11-3",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 3,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 37,
+    "tegen": 19,
+    "doelsaldo": 18,
+    "punten": 9
+  },
+  {
+    "positie": 3,
+    "club": "AFC IJburg JO11-2",
+    "logo": "images/afc.png",
+    "gespeeld": 5,
+    "gewonnen": 3,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 16,
+    "tegen": 29,
+    "doelsaldo": -13,
+    "punten": 9
+  },
+  {
+    "positie": 4,
+    "club": "Graveland 's JO11-1",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 2,
+    "gelijk": 1,
+    "verloren": 2,
+    "voor": 30,
+    "tegen": 29,
+    "doelsaldo": 1,
+    "punten": 7
+  },
+  {
+    "positie": 5,
+    "club": "Zeeburgia avv JO11-3",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 3,
+    "voor": 31,
+    "tegen": 27,
+    "doelsaldo": 4,
+    "punten": 6
+  },
+  {
+    "positie": 6,
+    "club": "SDO JO11-2",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 0,
+    "gelijk": 1,
+    "verloren": 4,
+    "voor": 9,
+    "tegen": 43,
+    "doelsaldo": -34,
+    "punten": 1
+  }
+]

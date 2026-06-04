@@ -1,0 +1,80 @@
+[
+  {
+    "positie": 1,
+    "club": "AFC IJburg JO11-1",
+    "logo": "images/afc.png",
+    "gespeeld": 5,
+    "gewonnen": 4,
+    "gelijk": 1,
+    "verloren": 0,
+    "voor": 45,
+    "tegen": 7,
+    "doelsaldo": 38,
+    "punten": 13
+  },
+  {
+    "positie": 2,
+    "club": "WV-HEDW JO11-2",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 3,
+    "gelijk": 1,
+    "verloren": 1,
+    "voor": 25,
+    "tegen": 12,
+    "doelsaldo": 13,
+    "punten": 10
+  },
+  {
+    "positie": 3,
+    "club": "AFC JO11-2",
+    "logo": "images/afc.png",
+    "gespeeld": 5,
+    "gewonnen": 3,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 27,
+    "tegen": 23,
+    "doelsaldo": 4,
+    "punten": 9
+  },
+  {
+    "positie": 4,
+    "club": "Atletico Club Amsterdam JO11-4",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 3,
+    "voor": 23,
+    "tegen": 33,
+    "doelsaldo": -10,
+    "punten": 6
+  },
+  {
+    "positie": 5,
+    "club": "Sporting Martinus JO11-1",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 3,
+    "voor": 12,
+    "tegen": 25,
+    "doelsaldo": -13,
+    "punten": 6
+  },
+  {
+    "positie": 6,
+    "club": "Swift JO11-3",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 0,
+    "gelijk": 0,
+    "verloren": 5,
+    "voor": 7,
+    "tegen": 39,
+    "doelsaldo": -32,
+    "punten": 0
+  }
+]

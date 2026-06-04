@@ -1,0 +1,80 @@
+[
+  {
+    "positie": 1,
+    "club": "Zeeburgia avv JO11-1",
+    "logo": "",
+    "gespeeld": 4,
+    "gewonnen": 4,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 26,
+    "tegen": 13,
+    "doelsaldo": 13,
+    "punten": 12
+  },
+  {
+    "positie": 2,
+    "club": "ASC De Volewijckers JO11-2",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 3,
+    "gelijk": 1,
+    "verloren": 1,
+    "voor": 22,
+    "tegen": 16,
+    "doelsaldo": 6,
+    "punten": 10
+  },
+  {
+    "positie": 3,
+    "club": "TOS-Actief JO11-1",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 3,
+    "gelijk": 1,
+    "verloren": 1,
+    "voor": 26,
+    "tegen": 21,
+    "doelsaldo": 5,
+    "punten": 10
+  },
+  {
+    "positie": 4,
+    "club": "VVA/Spartaan JO11-1",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 1,
+    "gelijk": 1,
+    "verloren": 3,
+    "voor": 25,
+    "tegen": 29,
+    "doelsaldo": -4,
+    "punten": 4
+  },
+  {
+    "positie": 5,
+    "club": "Buitenveldert sc. JO11-3",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 0,
+    "gelijk": 2,
+    "verloren": 3,
+    "voor": 9,
+    "tegen": 23,
+    "doelsaldo": -14,
+    "punten": 2
+  },
+  {
+    "positie": 6,
+    "club": "AFC JO11-5",
+    "logo": "images/afc.png",
+    "gespeeld": 4,
+    "gewonnen": 0,
+    "gelijk": 1,
+    "verloren": 3,
+    "voor": 11,
+    "tegen": 17,
+    "doelsaldo": -6,
+    "punten": 1
+  }
+]

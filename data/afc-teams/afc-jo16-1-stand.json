@@ -1,0 +1,80 @@
+[
+  {
+    "positie": 1,
+    "club": "Hoofddorp s.v. JO16-1",
+    "logo": "",
+    "gespeeld": 10,
+    "gewonnen": 7,
+    "gelijk": 3,
+    "verloren": 0,
+    "voor": 31,
+    "tegen": 10,
+    "doelsaldo": 21,
+    "punten": 24
+  },
+  {
+    "positie": 2,
+    "club": "Kon. HFC JO16-1 (zon)",
+    "logo": "",
+    "gespeeld": 10,
+    "gewonnen": 7,
+    "gelijk": 2,
+    "verloren": 1,
+    "voor": 50,
+    "tegen": 18,
+    "doelsaldo": 32,
+    "punten": 23
+  },
+  {
+    "positie": 3,
+    "club": "AFC JO16-1",
+    "logo": "images/afc.png",
+    "gespeeld": 10,
+    "gewonnen": 5,
+    "gelijk": 1,
+    "verloren": 4,
+    "voor": 27,
+    "tegen": 24,
+    "doelsaldo": 3,
+    "punten": 16
+  },
+  {
+    "positie": 4,
+    "club": "Waterwijk asc JO16-1",
+    "logo": "",
+    "gespeeld": 10,
+    "gewonnen": 2,
+    "gelijk": 4,
+    "verloren": 4,
+    "voor": 17,
+    "tegen": 30,
+    "doelsaldo": -13,
+    "punten": 10
+  },
+  {
+    "positie": 5,
+    "club": "RODA '23 Rksv JO16-1",
+    "logo": "",
+    "gespeeld": 10,
+    "gewonnen": 1,
+    "gelijk": 3,
+    "verloren": 6,
+    "voor": 22,
+    "tegen": 41,
+    "doelsaldo": -19,
+    "punten": 6
+  },
+  {
+    "positie": 6,
+    "club": "SCPB'22 JO16-1",
+    "logo": "",
+    "gespeeld": 10,
+    "gewonnen": 1,
+    "gelijk": 1,
+    "verloren": 8,
+    "voor": 11,
+    "tegen": 35,
+    "doelsaldo": -24,
+    "punten": 4
+  }
+]

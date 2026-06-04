@@ -1,0 +1,67 @@
+[
+  {
+    "positie": 1,
+    "club": "SDZ JO11-9",
+    "logo": "",
+    "gespeeld": 4,
+    "gewonnen": 4,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 32,
+    "tegen": 7,
+    "doelsaldo": 25,
+    "punten": 12
+  },
+  {
+    "positie": 2,
+    "club": "SDW JO11-7",
+    "logo": "",
+    "gespeeld": 4,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 31,
+    "tegen": 21,
+    "doelsaldo": 10,
+    "punten": 6
+  },
+  {
+    "positie": 3,
+    "club": "DIO sv. JO11-3",
+    "logo": "",
+    "gespeeld": 4,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 18,
+    "tegen": 29,
+    "doelsaldo": -11,
+    "punten": 6
+  },
+  {
+    "positie": 4,
+    "club": "AFC MO11-1",
+    "logo": "images/afc.png",
+    "gespeeld": 4,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 3,
+    "voor": 21,
+    "tegen": 30,
+    "doelsaldo": -9,
+    "punten": 3
+  },
+  {
+    "positie": 5,
+    "club": "TOS-Actief JO11-4",
+    "logo": "",
+    "gespeeld": 4,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 3,
+    "voor": 17,
+    "tegen": 32,
+    "doelsaldo": -15,
+    "punten": 3
+  }
+]

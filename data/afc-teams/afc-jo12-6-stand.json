@@ -1,0 +1,80 @@
+[
+  {
+    "positie": 1,
+    "club": "AFC JO12-6",
+    "logo": "images/afc.png",
+    "gespeeld": 5,
+    "gewonnen": 4,
+    "gelijk": 1,
+    "verloren": 0,
+    "voor": 34,
+    "tegen": 11,
+    "doelsaldo": 23,
+    "punten": 13
+  },
+  {
+    "positie": 2,
+    "club": "Vlug en Vaardig cvv. JO12-1",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 4,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 36,
+    "tegen": 12,
+    "doelsaldo": 24,
+    "punten": 12
+  },
+  {
+    "positie": 3,
+    "club": "VVA/Spartaan JO12-3",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 2,
+    "gelijk": 1,
+    "verloren": 2,
+    "voor": 28,
+    "tegen": 26,
+    "doelsaldo": 2,
+    "punten": 7
+  },
+  {
+    "positie": 4,
+    "club": "SDZ JO12-6",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 1,
+    "gelijk": 2,
+    "verloren": 2,
+    "voor": 20,
+    "tegen": 33,
+    "doelsaldo": -13,
+    "punten": 5
+  },
+  {
+    "positie": 5,
+    "club": "AGB JO12-2",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 4,
+    "voor": 13,
+    "tegen": 22,
+    "doelsaldo": -9,
+    "punten": 3
+  },
+  {
+    "positie": 6,
+    "club": "ZSGOWMS JO12-2",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 4,
+    "voor": 16,
+    "tegen": 43,
+    "doelsaldo": -27,
+    "punten": 3
+  }
+]
