@@ -1547,3 +1547,78 @@ button:hover {
   color: #8a96a7;
   margin-bottom: 12px;
 }
+
+/* ── Opstellingen ── */
+.opstelling-btn {
+  display: block;
+  margin: 6px auto 4px;
+  padding: 6px 14px;
+  background: rgba(255,255,255,0.05);
+  color: #cfd8e3;
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 999px;
+  font-size: 13px;
+  cursor: pointer;
+}
+.opstelling-btn:hover { background: rgba(233,69,96,0.18); color: #fff; border-color: #e94560; }
+.opstelling-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin: 8px 0 14px;
+}
+@media (max-width: 600px) {
+  .opstelling-wrap { grid-template-columns: 1fr; }
+}
+.ops-team {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 10px;
+  padding: 10px 12px;
+}
+.ops-team h4 {
+  margin: 0 0 8px;
+  font-size: 14px;
+  color: #fff;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  padding-bottom: 6px;
+}
+.ops-lijst {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 13px;
+}
+.ops-lijst li {
+  display: grid;
+  grid-template-columns: 28px 1fr auto;
+  gap: 8px;
+  align-items: center;
+  padding: 3px 0;
+  color: #cfd8e3;
+}
+.ops-rug {
+  color: #e94560;
+  font-weight: 600;
+  text-align: right;
+}
+.ops-naam { color: #fff; }
+.ops-pos {
+  color: #8a96a7;
+  font-size: 11px;
+  background: rgba(255,255,255,0.06);
+  padding: 1px 6px;
+  border-radius: 4px;
+}
+.ops-bank {
+  margin-top: 8px;
+  border-top: 1px dashed rgba(255,255,255,0.08);
+  padding-top: 6px;
+}
+.ops-bank summary {
+  cursor: pointer;
+  font-size: 12px;
+  color: #8a96a7;
+  margin-bottom: 4px;
+}
+.ops-bank summary:hover { color: #cfd8e3; }

@@ -1740,14 +1740,123 @@ function renderClubWedstrijden() {
           <input class="scorer-input" type="text" placeholder="Scorers..." value="${v.uitScorers ?? ""}" id="club-scorers-uit-${i}" />
         </div>
       </div>
+      ${gekozenClub && gekozenClub.competitie ? `
+        <button class="opstelling-btn" data-i="${i}">📋 Toon opstellingen</button>
+        <div class="opstelling-wrap hidden" id="opstelling-${i}"></div>
+      ` : ''}
     `;
     container.appendChild(div);
+  });
+
+  // Opstelling-knop handlers
+  container.querySelectorAll(".opstelling-btn").forEach(btn => {
+    btn.addEventListener("click", () => toggleOpstelling(parseInt(btn.dataset.i, 10), btn));
   });
 
   const btn = document.createElement("button");
   btn.textContent = "Sla voorspellingen op";
   btn.onclick = slaClubOp;
   container.appendChild(btn);
+}
+
+// ── Opstellingen via ESPN ──────────────────────────────────────
+// ESPN heeft een open scoreboard/summary endpoint met lineups (gratis,
+// geen key). We mappen onze football-data competition codes naar de
+// ESPN league code en zoeken het event op datum + teamnamen.
+const ESPN_LEAGUE = {
+  PL: 'eng.1', PD: 'esp.1', BL1: 'ger.1', SA: 'ita.1', FL1: 'fra.1',
+  DED: 'ned.1', PPL: 'por.1', BSA: 'bra.1', ELC: 'eng.2',
+  CL: 'uefa.champions', EL: 'uefa.europa',
+};
+
+function normTeam(s) {
+  return (s || '').toLowerCase()
+    .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    .replace(/\b(fc|sc|afc|vv|de|the|club|sv|cf|ac|as|ssc|rc|cd|sd|ud)\b/g, '')
+    .replace(/[^a-z0-9]/g, '');
+}
+
+async function fetchOpstelling(wedstrijd) {
+  const league = ESPN_LEAGUE[gekozenClub.competitie];
+  if (!league) return { fout: 'Competitie niet ondersteund door ESPN.' };
+  const d = parseNlDatum(wedstrijd.datum);
+  if (!d) return { fout: 'Datum onbekend.' };
+  // ESPN scoreboard accepteert YYYYMMDD; pak een 2-dagen window voor
+  // tijdzone-verschillen.
+  const ymd = (dd) => `${dd.getFullYear()}${String(dd.getMonth()+1).padStart(2,'0')}${String(dd.getDate()).padStart(2,'0')}`;
+  const dayBefore = new Date(d.getTime() - 24*3600*1000);
+  const dayAfter  = new Date(d.getTime() + 24*3600*1000);
+  const dates = [ymd(dayBefore), ymd(d), ymd(dayAfter)];
+  const want = normTeam(wedstrijd.thuis) + normTeam(wedstrijd.uit);
+  let event = null;
+  for (const ds of dates) {
+    try {
+      const url = `https://site.api.espn.com/apis/site/v2/sports/soccer/${league}/scoreboard?dates=${ds}`;
+      const data = await (await fetch(url)).json();
+      for (const ev of data.events || []) {
+        const cs = ev.competitions?.[0]?.competitors || [];
+        const home = cs.find(c => c.homeAway === 'home')?.team?.displayName || '';
+        const away = cs.find(c => c.homeAway === 'away')?.team?.displayName || '';
+        const key1 = normTeam(home) + normTeam(away);
+        const key2 = normTeam(away) + normTeam(home);
+        if (key1 === want || key2 === want
+            || key1.includes(normTeam(wedstrijd.thuis)) && key1.includes(normTeam(wedstrijd.uit))) {
+          event = ev;
+          break;
+        }
+      }
+      if (event) break;
+    } catch (e) { /* probeer volgende datum */ }
+  }
+  if (!event) return { fout: 'Wedstrijd niet gevonden bij ESPN.' };
+  try {
+    const sumUrl = `https://site.api.espn.com/apis/site/v2/sports/soccer/${league}/summary?event=${event.id}`;
+    const sum = await (await fetch(sumUrl)).json();
+    const rosters = sum.rosters || [];
+    if (!rosters.length || !rosters.some(r => (r.roster || []).length)) {
+      return { fout: 'Opstelling nog niet bekend (komt vaak ~1 uur voor aftrap).' };
+    }
+    return { rosters };
+  } catch (e) {
+    return { fout: 'Kon opstelling niet ophalen.' };
+  }
+}
+
+async function toggleOpstelling(i, btn) {
+  const wrap = document.getElementById(`opstelling-${i}`);
+  if (!wrap) return;
+  if (!wrap.classList.contains("hidden")) {
+    wrap.classList.add("hidden");
+    btn.textContent = "📋 Toon opstellingen";
+    return;
+  }
+  wrap.classList.remove("hidden");
+  wrap.innerHTML = `<p style="text-align:center;color:#666;padding:10px">Opstelling laden…</p>`;
+  btn.textContent = "📋 Verberg opstellingen";
+  const result = await fetchOpstelling(clubWedstrijden[i]);
+  if (result.fout) {
+    wrap.innerHTML = `<p style="text-align:center;color:#888;padding:10px">${escapeHTML(result.fout)}</p>`;
+    return;
+  }
+  wrap.innerHTML = result.rosters.map(r => {
+    const teamNaam = (r.team || {}).displayName || '';
+    const formatie = r.formation ? ` — ${r.formation}` : '';
+    const starters = (r.roster || []).filter(p => p.starter);
+    const bench    = (r.roster || []).filter(p => !p.starter);
+    const speler = (p) => {
+      const naam = (p.athlete || {}).displayName || '';
+      const pos  = (p.position && p.position.abbreviation) || '';
+      const rug  = p.jersey || '';
+      return `<li><span class="ops-rug">${escapeHTML(rug)}</span> <span class="ops-naam">${escapeHTML(naam)}</span> <span class="ops-pos">${escapeHTML(pos)}</span></li>`;
+    };
+    return `
+      <div class="ops-team">
+        <h4>${escapeHTML(teamNaam)}${escapeHTML(formatie)}</h4>
+        <ul class="ops-lijst ops-starters">${starters.map(speler).join('')}</ul>
+        ${bench.length ? `<details class="ops-bank"><summary>Bank (${bench.length})</summary><ul class="ops-lijst">${bench.map(speler).join('')}</ul></details>` : ''}
+      </div>
+    `;
+  }).join('');
 }
 
 function slaClubOp() {
