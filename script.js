@@ -939,7 +939,13 @@ function toggleFavoriet(club) {
   const lijst = laadFavorieten();
   const idx   = lijst.findIndex(c => c.id === club.id);
   if (idx >= 0) lijst.splice(idx, 1);
-  else lijst.push({ id: club.id, naam: club.naam, logo: club.logo || '', land: club.land || '' });
+  else lijst.push({
+    id: club.id,
+    naam: club.naam,
+    logo: club.logo || '',
+    land: club.land || '',
+    competitie: club.competitie || null,
+  });
   slaFavorietenOp(lijst);
   renderFavorieten();
 }
@@ -967,6 +973,18 @@ async function renderFavorieten() {
     }
   }
 
+  // Backfill: oude favorieten (zonder competitie veld) krijgen 'm alsnog
+  // uit clubsLijst, zodat de Opstelling-knop verschijnt.
+  await laadClubsLijst();
+  let aangepast = false;
+  favs.forEach(f => {
+    if (!f.competitie && clubsLijst) {
+      const m = clubsLijst.find(c => c.id === f.id);
+      if (m && m.competitie) { f.competitie = m.competitie; aangepast = true; }
+    }
+  });
+  if (aangepast) slaFavorietenOp(favs);
+
   for (const fav of favs) {
     const matches = clubsMatches[String(fav.id)] || [];
     const opgeslagen = JSON.parse(localStorage.getItem(sleutelClub(fav.id)) || "{}");
@@ -990,6 +1008,7 @@ async function renderFavorieten() {
         const v = opgeslagen[w.id] || {};
         const div = document.createElement("div");
         div.className = "ajax-wedstrijd";
+        const uid = `fav-${fav.id}-${i}`;
         div.innerHTML = `
           <span class="datum">${w.datum}</span>
           <div class="ajax-match">
@@ -1009,8 +1028,10 @@ async function renderFavorieten() {
               <input class="scorer-input" type="text" placeholder="Scorers..." value="${escapeHTML(v.uitScorers ?? '')}" data-fav-id="${fav.id}" data-veld="uitScorers" data-match="${w.id}" />
             </div>
           </div>
+          ${fav.competitie ? maakOpstellingHTML(uid) : ''}
         `;
         wrap.appendChild(div);
+        if (fav.competitie) bindOpstelling(uid, fav.competitie, w);
       });
 
       const btn = document.createElement("button");
@@ -1740,17 +1761,12 @@ function renderClubWedstrijden() {
           <input class="scorer-input" type="text" placeholder="Scorers..." value="${v.uitScorers ?? ""}" id="club-scorers-uit-${i}" />
         </div>
       </div>
-      ${gekozenClub && gekozenClub.competitie ? `
-        <button class="opstelling-btn" data-i="${i}">📋 Toon opstellingen</button>
-        <div class="opstelling-wrap hidden" id="opstelling-${i}"></div>
-      ` : ''}
+      ${gekozenClub && gekozenClub.competitie ? maakOpstellingHTML(`club-${i}`) : ''}
     `;
     container.appendChild(div);
-  });
-
-  // Opstelling-knop handlers
-  container.querySelectorAll(".opstelling-btn").forEach(btn => {
-    btn.addEventListener("click", () => toggleOpstelling(parseInt(btn.dataset.i, 10), btn));
+    if (gekozenClub && gekozenClub.competitie) {
+      bindOpstelling(`club-${i}`, gekozenClub.competitie, w);
+    }
   });
 
   const btn = document.createElement("button");
@@ -1776,8 +1792,21 @@ function normTeam(s) {
     .replace(/[^a-z0-9]/g, '');
 }
 
-async function fetchOpstelling(wedstrijd) {
-  const league = ESPN_LEAGUE[gekozenClub.competitie];
+function maakOpstellingHTML(uid) {
+  return `
+    <button class="opstelling-btn" id="ops-btn-${uid}">📋 Toon opstellingen</button>
+    <div class="opstelling-wrap hidden" id="opstelling-${uid}"></div>
+  `;
+}
+
+function bindOpstelling(uid, competitie, wedstrijd) {
+  const btn = document.getElementById(`ops-btn-${uid}`);
+  if (!btn) return;
+  btn.addEventListener("click", () => toggleOpstelling(uid, btn, competitie, wedstrijd));
+}
+
+async function fetchOpstelling(competitie, wedstrijd) {
+  const league = ESPN_LEAGUE[competitie];
   if (!league) return { fout: 'Competitie niet ondersteund door ESPN.' };
   const d = parseNlDatum(wedstrijd.datum);
   if (!d) return { fout: 'Datum onbekend.' };
@@ -1822,8 +1851,8 @@ async function fetchOpstelling(wedstrijd) {
   }
 }
 
-async function toggleOpstelling(i, btn) {
-  const wrap = document.getElementById(`opstelling-${i}`);
+async function toggleOpstelling(uid, btn, competitie, wedstrijd) {
+  const wrap = document.getElementById(`opstelling-${uid}`);
   if (!wrap) return;
   if (!wrap.classList.contains("hidden")) {
     wrap.classList.add("hidden");
@@ -1833,7 +1862,7 @@ async function toggleOpstelling(i, btn) {
   wrap.classList.remove("hidden");
   wrap.innerHTML = `<p style="text-align:center;color:#666;padding:10px">Opstelling laden…</p>`;
   btn.textContent = "📋 Verberg opstellingen";
-  const result = await fetchOpstelling(clubWedstrijden[i]);
+  const result = await fetchOpstelling(competitie, wedstrijd);
   if (result.fout) {
     wrap.innerHTML = `<p style="text-align:center;color:#888;padding:10px">${escapeHTML(result.fout)}</p>`;
     return;
