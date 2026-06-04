@@ -2146,8 +2146,12 @@ function stopSnake() {
 }
 
 function randomFood(grid, snake) {
+  // Niet tegen de randen: blijf 1 cel weg van elke muur.
   while (true) {
-    const f = { x: Math.floor(Math.random()*grid), y: Math.floor(Math.random()*grid) };
+    const f = {
+      x: 1 + Math.floor(Math.random()*(grid-2)),
+      y: 1 + Math.floor(Math.random()*(grid-2)),
+    };
     if (!snake.some(s => s.x === f.x && s.y === f.y)) return f;
   }
 }
