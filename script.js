@@ -731,8 +731,12 @@ async function toonPagina(pagina) {
         const stand = competitionStands[gekozenClub.competitie] || [];
         renderStand(stand, gekozenClub.naam);
       } else {
-        if (toggle) toggle.classList.remove("hidden");
-        await toonGekozenStand();
+        // Geen club gekozen → géén automatische Eredivisie/AFC stand meer.
+        // Speler moet eerst een club zoeken bovenaan.
+        if (toggle) toggle.classList.add("hidden");
+        document.getElementById("stand-titel").textContent = "Stand";
+        document.getElementById("stand-lijst").innerHTML =
+          `<p style="text-align:center;color:#666;padding:30px 10px">Zoek bovenaan een club om hun stand te zien.</p>`;
       }
     } catch(e) {
       document.getElementById("stand-lijst").innerHTML = `<p style="text-align:center;color:#666">Kon stand niet laden.</p>`;
