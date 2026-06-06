@@ -55,14 +55,14 @@
     "positie": 5,
     "club": "TABA afc 2",
     "logo": "images/afc.png",
-    "gespeeld": 25,
-    "gewonnen": 13,
+    "gespeeld": 26,
+    "gewonnen": 14,
     "gelijk": 4,
     "verloren": 8,
-    "voor": 74,
+    "voor": 75,
     "tegen": 66,
-    "doelsaldo": 8,
-    "punten": 43
+    "doelsaldo": 9,
+    "punten": 46
   },
   {
     "positie": 6,
@@ -120,13 +120,13 @@
     "positie": 10,
     "club": "Zeeburgia avv 2",
     "logo": "",
-    "gespeeld": 25,
+    "gespeeld": 26,
     "gewonnen": 9,
     "gelijk": 5,
-    "verloren": 11,
+    "verloren": 12,
     "voor": 60,
-    "tegen": 63,
-    "doelsaldo": -3,
+    "tegen": 64,
+    "doelsaldo": -4,
     "punten": 32
   },
   {
