@@ -3,27 +3,27 @@
     "positie": 1,
     "club": "AFC Ajax 35+1",
     "logo": "images/afc.png",
-    "gespeeld": 25,
+    "gespeeld": 26,
     "gewonnen": 23,
-    "gelijk": 0,
+    "gelijk": 1,
     "verloren": 2,
-    "voor": 114,
-    "tegen": 36,
+    "voor": 115,
+    "tegen": 37,
     "doelsaldo": 78,
-    "punten": 69
+    "punten": 70
   },
   {
     "positie": 2,
     "club": "Meteoor De sv. 35+1",
     "logo": "",
-    "gespeeld": 25,
+    "gespeeld": 26,
     "gewonnen": 19,
-    "gelijk": 1,
+    "gelijk": 2,
     "verloren": 5,
-    "voor": 113,
-    "tegen": 46,
+    "voor": 114,
+    "tegen": 47,
     "doelsaldo": 67,
-    "punten": 58
+    "punten": 59
   },
   {
     "positie": 3,
