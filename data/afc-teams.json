@@ -160,6 +160,14 @@
     "aantalMatches": 0
   },
   {
+    "slug": "afc-jo10-1",
+    "naam": "AFC JO10-1",
+    "soort": "Jeugd zaterdag",
+    "pouleId": null,
+    "heeftStand": false,
+    "aantalMatches": 0
+  },
+  {
     "slug": "afc-jo10-2",
     "naam": "AFC JO10-2",
     "soort": "Jeugd zaterdag",
