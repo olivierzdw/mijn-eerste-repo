@@ -29,27 +29,27 @@
     "positie": 3,
     "club": "AFC JO16-2",
     "logo": "images/afc.png",
-    "gespeeld": 9,
+    "gespeeld": 10,
     "gewonnen": 4,
-    "gelijk": 2,
+    "gelijk": 3,
     "verloren": 3,
-    "voor": 28,
-    "tegen": 30,
+    "voor": 30,
+    "tegen": 32,
     "doelsaldo": -2,
-    "punten": 14
+    "punten": 15
   },
   {
     "positie": 4,
     "club": "SDW JO16-1",
     "logo": "",
-    "gespeeld": 9,
+    "gespeeld": 10,
     "gewonnen": 3,
-    "gelijk": 4,
+    "gelijk": 5,
     "verloren": 2,
-    "voor": 37,
-    "tegen": 18,
+    "voor": 39,
+    "tegen": 20,
     "doelsaldo": 19,
-    "punten": 13
+    "punten": 14
   },
   {
     "positie": 5,
