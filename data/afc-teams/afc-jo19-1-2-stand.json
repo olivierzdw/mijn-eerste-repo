@@ -16,27 +16,27 @@
     "positie": 2,
     "club": "Succes JO19-1",
     "logo": "",
-    "gespeeld": 8,
+    "gespeeld": 9,
     "gewonnen": 7,
     "gelijk": 0,
-    "verloren": 1,
-    "voor": 25,
-    "tegen": 10,
-    "doelsaldo": 15,
+    "verloren": 2,
+    "voor": 26,
+    "tegen": 13,
+    "doelsaldo": 13,
     "punten": 21
   },
   {
     "positie": 3,
     "club": "AFC JO19-3",
     "logo": "images/afc.png",
-    "gespeeld": 8,
-    "gewonnen": 4,
+    "gespeeld": 9,
+    "gewonnen": 5,
     "gelijk": 2,
     "verloren": 2,
-    "voor": 24,
-    "tegen": 17,
-    "doelsaldo": 7,
-    "punten": 14
+    "voor": 27,
+    "tegen": 18,
+    "doelsaldo": 9,
+    "punten": 17
   },
   {
     "positie": 4,
@@ -53,6 +53,19 @@
   },
   {
     "positie": 5,
+    "club": "AFC JO19-1",
+    "logo": "images/afc.png",
+    "gespeeld": 8,
+    "gewonnen": 4,
+    "gelijk": 0,
+    "verloren": 4,
+    "voor": 34,
+    "tegen": 34,
+    "doelsaldo": 0,
+    "punten": 12
+  },
+  {
+    "positie": 6,
     "club": "Sporting Martinus JO19-1",
     "logo": "",
     "gespeeld": 9,
@@ -65,7 +78,7 @@
     "punten": 11
   },
   {
-    "positie": 6,
+    "positie": 7,
     "club": "Swift JO19-1",
     "logo": "",
     "gespeeld": 9,
@@ -78,29 +91,16 @@
     "punten": 10
   },
   {
-    "positie": 7,
-    "club": "AFC JO19-1",
-    "logo": "images/afc.png",
-    "gespeeld": 7,
-    "gewonnen": 3,
-    "gelijk": 0,
-    "verloren": 4,
-    "voor": 26,
-    "tegen": 31,
-    "doelsaldo": -5,
-    "punten": 9
-  },
-  {
     "positie": 8,
     "club": "RODA '23 Rksv JO19-1",
     "logo": "",
-    "gespeeld": 8,
+    "gespeeld": 9,
     "gewonnen": 3,
     "gelijk": 0,
-    "verloren": 5,
-    "voor": 15,
-    "tegen": 32,
-    "doelsaldo": -17,
+    "verloren": 6,
+    "voor": 18,
+    "tegen": 40,
+    "doelsaldo": -22,
     "punten": 9
   },
   {

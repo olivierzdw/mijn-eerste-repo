@@ -27,6 +27,19 @@
   },
   {
     "positie": 3,
+    "club": "Waterwijk asc JO17-1",
+    "logo": "",
+    "gespeeld": 9,
+    "gewonnen": 5,
+    "gelijk": 2,
+    "verloren": 2,
+    "voor": 24,
+    "tegen": 16,
+    "doelsaldo": 8,
+    "punten": 17
+  },
+  {
+    "positie": 4,
     "club": "GeuzenMiddenmeer JO17-1",
     "logo": "",
     "gespeeld": 10,
@@ -39,29 +52,16 @@
     "punten": 15
   },
   {
-    "positie": 4,
-    "club": "Waterwijk asc JO17-1",
-    "logo": "",
-    "gespeeld": 8,
-    "gewonnen": 4,
-    "gelijk": 2,
-    "verloren": 2,
-    "voor": 23,
-    "tegen": 16,
-    "doelsaldo": 7,
-    "punten": 14
-  },
-  {
     "positie": 5,
     "club": "DSS JO17-2",
     "logo": "",
-    "gespeeld": 9,
+    "gespeeld": 10,
     "gewonnen": 4,
     "gelijk": 2,
-    "verloren": 3,
+    "verloren": 4,
     "voor": 23,
-    "tegen": 18,
-    "doelsaldo": 5,
+    "tegen": 19,
+    "doelsaldo": 4,
     "punten": 14
   },
   {

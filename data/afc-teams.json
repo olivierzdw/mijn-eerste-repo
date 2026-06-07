@@ -125,7 +125,7 @@
     "soort": "Senioren zondag",
     "pouleId": "790958",
     "heeftStand": true,
-    "aantalMatches": 1
+    "aantalMatches": 0
   },
   {
     "slug": "afc-6",
@@ -149,7 +149,7 @@
     "soort": "Senioren zondag",
     "pouleId": "790885",
     "heeftStand": true,
-    "aantalMatches": 1
+    "aantalMatches": 0
   },
   {
     "slug": "afc-9",
@@ -445,7 +445,7 @@
     "soort": "Jeugd zaterdag",
     "pouleId": "811195",
     "heeftStand": true,
-    "aantalMatches": 1
+    "aantalMatches": 0
   },
   {
     "slug": "afc-jo19-2",
@@ -645,7 +645,7 @@
     "soort": "Jeugd zondag",
     "pouleId": "811215",
     "heeftStand": true,
-    "aantalMatches": 1
+    "aantalMatches": 0
   },
   {
     "slug": "afc-jo15-3",

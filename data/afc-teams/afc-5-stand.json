@@ -53,6 +53,19 @@
   },
   {
     "positie": 5,
+    "club": "DWS afc 3",
+    "logo": "images/afc.png",
+    "gespeeld": 21,
+    "gewonnen": 11,
+    "gelijk": 3,
+    "verloren": 7,
+    "voor": 52,
+    "tegen": 34,
+    "doelsaldo": 18,
+    "punten": 36
+  },
+  {
+    "positie": 6,
     "club": "AFC 5",
     "logo": "images/afc.png",
     "gespeeld": 21,
@@ -63,19 +76,6 @@
     "tegen": 44,
     "doelsaldo": 11,
     "punten": 34
-  },
-  {
-    "positie": 6,
-    "club": "DWS afc 3",
-    "logo": "images/afc.png",
-    "gespeeld": 20,
-    "gewonnen": 10,
-    "gelijk": 3,
-    "verloren": 7,
-    "voor": 51,
-    "tegen": 34,
-    "doelsaldo": 17,
-    "punten": 33
   },
   {
     "positie": 7,
@@ -94,13 +94,13 @@
     "positie": 8,
     "club": "DSOV 4",
     "logo": "",
-    "gespeeld": 21,
+    "gespeeld": 22,
     "gewonnen": 6,
     "gelijk": 3,
-    "verloren": 12,
+    "verloren": 13,
     "voor": 40,
-    "tegen": 52,
-    "doelsaldo": -12,
+    "tegen": 53,
+    "doelsaldo": -13,
     "punten": 21
   },
   {

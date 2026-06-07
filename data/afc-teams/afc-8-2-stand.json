@@ -81,27 +81,27 @@
     "positie": 7,
     "club": "Nieuw West United SV 2",
     "logo": "",
-    "gespeeld": 17,
+    "gespeeld": 18,
     "gewonnen": 6,
-    "gelijk": 2,
+    "gelijk": 3,
     "verloren": 9,
-    "voor": 50,
-    "tegen": 71,
+    "voor": 55,
+    "tegen": 76,
     "doelsaldo": -21,
-    "punten": 20
+    "punten": 21
   },
   {
     "positie": 8,
     "club": "AFC 8",
     "logo": "images/afc.png",
-    "gespeeld": 17,
+    "gespeeld": 18,
     "gewonnen": 4,
-    "gelijk": 3,
+    "gelijk": 4,
     "verloren": 10,
-    "voor": 32,
-    "tegen": 51,
+    "voor": 37,
+    "tegen": 56,
     "doelsaldo": -19,
-    "punten": 15
+    "punten": 16
   },
   {
     "positie": 9,
