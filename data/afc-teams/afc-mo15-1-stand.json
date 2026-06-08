@@ -107,17 +107,30 @@
     "positie": 9,
     "club": "Volendam (rkav) JO14-4",
     "logo": "",
-    "gespeeld": 9,
+    "gespeeld": 10,
     "gewonnen": 2,
     "gelijk": 1,
-    "verloren": 6,
+    "verloren": 7,
     "voor": 15,
-    "tegen": 35,
-    "doelsaldo": -20,
+    "tegen": 36,
+    "doelsaldo": -21,
     "punten": 7
   },
   {
     "positie": 10,
+    "club": "AMVJ JO14-2",
+    "logo": "",
+    "gespeeld": 10,
+    "gewonnen": 1,
+    "gelijk": 2,
+    "verloren": 7,
+    "voor": 13,
+    "tegen": 40,
+    "doelsaldo": -27,
+    "punten": 5
+  },
+  {
+    "positie": 11,
     "club": "Abcoude fc JO14-3",
     "logo": "",
     "gespeeld": 10,
@@ -128,18 +141,5 @@
     "tegen": 56,
     "doelsaldo": -40,
     "punten": 5
-  },
-  {
-    "positie": 11,
-    "club": "AMVJ JO14-2",
-    "logo": "",
-    "gespeeld": 9,
-    "gewonnen": 0,
-    "gelijk": 2,
-    "verloren": 7,
-    "voor": 12,
-    "tegen": 40,
-    "doelsaldo": -28,
-    "punten": 2
   }
 ]
