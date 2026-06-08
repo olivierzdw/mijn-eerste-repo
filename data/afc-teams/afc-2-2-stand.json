@@ -53,6 +53,19 @@
   },
   {
     "positie": 5,
+    "club": "DRC 2",
+    "logo": "",
+    "gespeeld": 22,
+    "gewonnen": 10,
+    "gelijk": 2,
+    "verloren": 10,
+    "voor": 72,
+    "tegen": 68,
+    "doelsaldo": 4,
+    "punten": 32
+  },
+  {
+    "positie": 6,
     "club": "Swift 5",
     "logo": "",
     "gespeeld": 22,
@@ -65,7 +78,7 @@
     "punten": 32
   },
   {
-    "positie": 6,
+    "positie": 7,
     "club": "PVCV 2",
     "logo": "",
     "gespeeld": 22,
@@ -76,19 +89,6 @@
     "tegen": 57,
     "doelsaldo": -2,
     "punten": 32
-  },
-  {
-    "positie": 7,
-    "club": "DRC 2",
-    "logo": "",
-    "gespeeld": 21,
-    "gewonnen": 10,
-    "gelijk": 1,
-    "verloren": 10,
-    "voor": 68,
-    "tegen": 64,
-    "doelsaldo": 4,
-    "punten": 31
   },
   {
     "positie": 8,
@@ -120,14 +120,14 @@
     "positie": 10,
     "club": "SDZ 4",
     "logo": "",
-    "gespeeld": 21,
+    "gespeeld": 22,
     "gewonnen": 5,
-    "gelijk": 5,
+    "gelijk": 6,
     "verloren": 11,
-    "voor": 42,
-    "tegen": 64,
+    "voor": 46,
+    "tegen": 68,
     "doelsaldo": -22,
-    "punten": 20
+    "punten": 21
   },
   {
     "positie": 11,
