@@ -14,6 +14,19 @@
   },
   {
     "positie": 2,
+    "club": "FIT avv 5",
+    "logo": "",
+    "gespeeld": 22,
+    "gewonnen": 17,
+    "gelijk": 1,
+    "verloren": 4,
+    "voor": 107,
+    "tegen": 36,
+    "doelsaldo": 71,
+    "punten": 52
+  },
+  {
+    "positie": 3,
     "club": "Buitenveldert sc. 3",
     "logo": "",
     "gespeeld": 22,
@@ -24,19 +37,6 @@
     "tegen": 61,
     "doelsaldo": 76,
     "punten": 51
-  },
-  {
-    "positie": 3,
-    "club": "FIT avv 5",
-    "logo": "",
-    "gespeeld": 21,
-    "gewonnen": 16,
-    "gelijk": 1,
-    "verloren": 4,
-    "voor": 99,
-    "tegen": 36,
-    "doelsaldo": 63,
-    "punten": 49
   },
   {
     "positie": 4,
@@ -133,13 +133,13 @@
     "positie": 11,
     "club": "SDZ 8",
     "logo": "",
-    "gespeeld": 21,
+    "gespeeld": 22,
     "gewonnen": 4,
     "gelijk": 1,
-    "verloren": 16,
+    "verloren": 17,
     "voor": 34,
-    "tegen": 113,
-    "doelsaldo": -79,
+    "tegen": 121,
+    "doelsaldo": -87,
     "punten": 13
   },
   {
