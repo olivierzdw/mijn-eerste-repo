@@ -14,6 +14,19 @@
   },
   {
     "positie": 2,
+    "club": "TOS-Actief JO11-1",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 3,
+    "gelijk": 1,
+    "verloren": 1,
+    "voor": 27,
+    "tegen": 21,
+    "doelsaldo": 6,
+    "punten": 10
+  },
+  {
+    "positie": 3,
     "club": "ASC De Volewijckers JO11-2",
     "logo": "",
     "gespeeld": 5,
@@ -26,19 +39,6 @@
     "punten": 10
   },
   {
-    "positie": 3,
-    "club": "TOS-Actief JO11-1",
-    "logo": "",
-    "gespeeld": 5,
-    "gewonnen": 3,
-    "gelijk": 1,
-    "verloren": 1,
-    "voor": 26,
-    "tegen": 21,
-    "doelsaldo": 5,
-    "punten": 10
-  },
-  {
     "positie": 4,
     "club": "VVA/Spartaan JO11-1",
     "logo": "",
@@ -47,8 +47,8 @@
     "gelijk": 1,
     "verloren": 3,
     "voor": 25,
-    "tegen": 29,
-    "doelsaldo": -4,
+    "tegen": 30,
+    "doelsaldo": -5,
     "punten": 4
   },
   {
