@@ -27,6 +27,19 @@
   },
   {
     "positie": 3,
+    "club": "RKSV TOB 35+1",
+    "logo": "",
+    "gespeeld": 26,
+    "gewonnen": 16,
+    "gelijk": 2,
+    "verloren": 8,
+    "voor": 83,
+    "tegen": 57,
+    "doelsaldo": 26,
+    "punten": 50
+  },
+  {
+    "positie": 4,
     "club": "Real Sranang sv. 35+1",
     "logo": "",
     "gespeeld": 26,
@@ -39,7 +52,7 @@
     "punten": 48
   },
   {
-    "positie": 4,
+    "positie": 5,
     "club": "Hoofddorp s.v. 35+1",
     "logo": "",
     "gespeeld": 26,
@@ -50,19 +63,6 @@
     "tegen": 70,
     "doelsaldo": 23,
     "punten": 48
-  },
-  {
-    "positie": 5,
-    "club": "RKSV TOB 35+1",
-    "logo": "",
-    "gespeeld": 25,
-    "gewonnen": 15,
-    "gelijk": 2,
-    "verloren": 8,
-    "voor": 75,
-    "tegen": 54,
-    "doelsaldo": 21,
-    "punten": 47
   },
   {
     "positie": 6,
@@ -120,13 +120,13 @@
     "positie": 10,
     "club": "Overbos sv. 35+1",
     "logo": "",
-    "gespeeld": 25,
+    "gespeeld": 26,
     "gewonnen": 8,
     "gelijk": 3,
-    "verloren": 14,
-    "voor": 70,
-    "tegen": 104,
-    "doelsaldo": -34,
+    "verloren": 15,
+    "voor": 73,
+    "tegen": 112,
+    "doelsaldo": -39,
     "punten": 27
   },
   {
