@@ -91,8 +91,8 @@
     "slug": "afc",
     "naam": "AFC",
     "soort": "Senioren zondag",
-    "pouleId": null,
-    "heeftStand": false,
+    "pouleId": "787986",
+    "heeftStand": true,
     "aantalMatches": 0
   },
   {
