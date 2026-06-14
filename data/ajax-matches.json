@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "id": 558221,
+    "datum": "zo 9 augustus 14:30",
+    "thuis": "PEC Zwolle",
+    "thuisLogo": "https://crests.football-data.org/684.png",
+    "uit": "Ajax",
+    "uitLogo": "https://crests.football-data.org/678.png"
+  },
+  {
+    "id": 558231,
+    "datum": "zo 16 augustus 16:45",
+    "thuis": "Ajax",
+    "thuisLogo": "https://crests.football-data.org/678.png",
+    "uit": "Heerenveen",
+    "uitLogo": "https://crests.football-data.org/673.png"
+  },
+  {
+    "id": 558248,
+    "datum": "zo 30 augustus 16:45",
+    "thuis": "Telstar 1963",
+    "thuisLogo": "https://crests.football-data.org/1912.png",
+    "uit": "Ajax",
+    "uitLogo": "https://crests.football-data.org/678.png"
+  },
+  {
+    "id": 558253,
+    "datum": "za 5 september 20:00",
+    "thuis": "Ajax",
+    "thuisLogo": "https://crests.football-data.org/678.png",
+    "uit": "PSV",
+    "uitLogo": "https://crests.football-data.org/674.png"
+  },
+  {
+    "id": 558240,
+    "datum": "di 15 september 20:00",
+    "thuis": "Ajax",
+    "thuisLogo": "https://crests.football-data.org/678.png",
+    "uit": "Willem II Tilburg",
+    "uitLogo": "https://crests.football-data.org/672.png"
+  }
+]
