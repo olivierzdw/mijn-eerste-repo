@@ -32,11 +32,243 @@
     "uitLogo": "https://crests.football-data.org/674.png"
   },
   {
+    "id": 558896,
+    "datum": "za 12 september 22:00",
+    "thuis": "Fortuna Sittard",
+    "thuisLogo": "https://crests.football-data.org/1920.png",
+    "uit": "Ajax",
+    "uitLogo": "https://crests.football-data.org/678.png"
+  },
+  {
     "id": 558240,
     "datum": "di 15 september 20:00",
     "thuis": "Ajax",
     "thuisLogo": "https://crests.football-data.org/678.png",
     "uit": "Willem II Tilburg",
     "uitLogo": "https://crests.football-data.org/672.png"
+  },
+  {
+    "id": 558887,
+    "datum": "za 19 september 22:00",
+    "thuis": "Ajax",
+    "thuisLogo": "https://crests.football-data.org/678.png",
+    "uit": "SBV Excelsior",
+    "uitLogo": "https://crests.football-data.org/670.png"
+  },
+  {
+    "id": 558878,
+    "datum": "za 10 oktober 23:00",
+    "thuis": "Ajax",
+    "thuisLogo": "https://crests.football-data.org/678.png",
+    "uit": "NEC",
+    "uitLogo": "https://crests.football-data.org/1915.png"
+  },
+  {
+    "id": 558864,
+    "datum": "zo 18 oktober 18:45",
+    "thuis": "Groningen",
+    "thuisLogo": "https://crests.football-data.org/677.png",
+    "uit": "Ajax",
+    "uitLogo": "https://crests.football-data.org/678.png"
+  },
+  {
+    "id": 558856,
+    "datum": "zo 25 oktober 17:45",
+    "thuis": "Sparta",
+    "thuisLogo": "https://crests.football-data.org/6806.png",
+    "uit": "Ajax",
+    "uitLogo": "https://crests.football-data.org/678.png"
+  },
+  {
+    "id": 558851,
+    "datum": "za 31 oktober 22:00",
+    "thuis": "Ajax",
+    "thuisLogo": "https://crests.football-data.org/678.png",
+    "uit": "AZ",
+    "uitLogo": "https://crests.football-data.org/682.png"
+  },
+  {
+    "id": 558839,
+    "datum": "zo 8 november 15:30",
+    "thuis": "FC Twente '65",
+    "thuisLogo": "https://crests.football-data.org/666.png",
+    "uit": "Ajax",
+    "uitLogo": "https://crests.football-data.org/678.png"
+  },
+  {
+    "id": 558836,
+    "datum": "zo 22 november 18:00",
+    "thuis": "Ajax",
+    "thuisLogo": "https://crests.football-data.org/678.png",
+    "uit": "ADO Den Haag",
+    "uitLogo": "https://crests.football-data.org/680.png"
+  },
+  {
+    "id": 558824,
+    "datum": "zo 29 november 18:00",
+    "thuis": "Feyenoord Rotterdam",
+    "thuisLogo": "https://crests.football-data.org/675.png",
+    "uit": "Ajax",
+    "uitLogo": "https://crests.football-data.org/678.png"
+  },
+  {
+    "id": 558811,
+    "datum": "zo 6 december 18:00",
+    "thuis": "Ajax",
+    "thuisLogo": "https://crests.football-data.org/678.png",
+    "uit": "FC Utrecht",
+    "uitLogo": "https://crests.football-data.org/676.png"
+  },
+  {
+    "id": 558801,
+    "datum": "zo 13 december 18:00",
+    "thuis": "Ajax",
+    "thuisLogo": "https://crests.football-data.org/678.png",
+    "uit": "SC Cambuur-Leeuwarden",
+    "uitLogo": "https://crests.football-data.org/1909.png"
+  },
+  {
+    "id": 558796,
+    "datum": "zo 20 december 18:00",
+    "thuis": "Go Ahead Eagles",
+    "thuisLogo": "https://crests.football-data.org/718.png",
+    "uit": "Ajax",
+    "uitLogo": "https://crests.football-data.org/678.png"
+  },
+  {
+    "id": 558789,
+    "datum": "za 9 januari 13:00",
+    "thuis": "Willem II Tilburg",
+    "thuisLogo": "https://crests.football-data.org/672.png",
+    "uit": "Ajax",
+    "uitLogo": "https://crests.football-data.org/678.png"
+  },
+  {
+    "id": 558781,
+    "datum": "zo 17 januari 13:00",
+    "thuis": "Ajax",
+    "thuisLogo": "https://crests.football-data.org/678.png",
+    "uit": "Groningen",
+    "uitLogo": "https://crests.football-data.org/677.png"
+  },
+  {
+    "id": 558768,
+    "datum": "zo 24 januari 13:00",
+    "thuis": "Ajax",
+    "thuisLogo": "https://crests.football-data.org/678.png",
+    "uit": "Telstar 1963",
+    "uitLogo": "https://crests.football-data.org/1912.png"
+  },
+  {
+    "id": 558757,
+    "datum": "zo 31 januari 13:00",
+    "thuis": "Heerenveen",
+    "thuisLogo": "https://crests.football-data.org/673.png",
+    "uit": "Ajax",
+    "uitLogo": "https://crests.football-data.org/678.png"
+  },
+  {
+    "id": 558754,
+    "datum": "zo 14 februari 13:00",
+    "thuis": "SBV Excelsior",
+    "thuisLogo": "https://crests.football-data.org/670.png",
+    "uit": "Ajax",
+    "uitLogo": "https://crests.football-data.org/678.png"
+  },
+  {
+    "id": 558744,
+    "datum": "zo 21 februari 13:00",
+    "thuis": "Ajax",
+    "thuisLogo": "https://crests.football-data.org/678.png",
+    "uit": "Go Ahead Eagles",
+    "uitLogo": "https://crests.football-data.org/718.png"
+  },
+  {
+    "id": 558734,
+    "datum": "zo 28 februari 13:00",
+    "thuis": "Ajax",
+    "thuisLogo": "https://crests.football-data.org/678.png",
+    "uit": "Feyenoord Rotterdam",
+    "uitLogo": "https://crests.football-data.org/675.png"
+  },
+  {
+    "id": 558724,
+    "datum": "zo 7 maart 13:00",
+    "thuis": "ADO Den Haag",
+    "thuisLogo": "https://crests.football-data.org/680.png",
+    "uit": "Ajax",
+    "uitLogo": "https://crests.football-data.org/678.png"
+  },
+  {
+    "id": 558711,
+    "datum": "zo 14 maart 13:00",
+    "thuis": "Ajax",
+    "thuisLogo": "https://crests.football-data.org/678.png",
+    "uit": "PEC Zwolle",
+    "uitLogo": "https://crests.football-data.org/684.png"
+  },
+  {
+    "id": 558707,
+    "datum": "zo 21 maart 13:00",
+    "thuis": "NEC",
+    "thuisLogo": "https://crests.football-data.org/1915.png",
+    "uit": "Ajax",
+    "uitLogo": "https://crests.football-data.org/678.png"
+  },
+  {
+    "id": 558696,
+    "datum": "zo 4 april 14:00",
+    "thuis": "Ajax",
+    "thuisLogo": "https://crests.football-data.org/678.png",
+    "uit": "FC Twente '65",
+    "uitLogo": "https://crests.football-data.org/666.png"
+  },
+  {
+    "id": 558689,
+    "datum": "zo 11 april 14:00",
+    "thuis": "FC Utrecht",
+    "thuisLogo": "https://crests.football-data.org/676.png",
+    "uit": "Ajax",
+    "uitLogo": "https://crests.football-data.org/678.png"
+  },
+  {
+    "id": 558683,
+    "datum": "zo 25 april 14:00",
+    "thuis": "PSV",
+    "thuisLogo": "https://crests.football-data.org/674.png",
+    "uit": "Ajax",
+    "uitLogo": "https://crests.football-data.org/678.png"
+  },
+  {
+    "id": 558671,
+    "datum": "zo 2 mei 14:00",
+    "thuis": "Ajax",
+    "thuisLogo": "https://crests.football-data.org/678.png",
+    "uit": "Fortuna Sittard",
+    "uitLogo": "https://crests.football-data.org/1920.png"
+  },
+  {
+    "id": 558663,
+    "datum": "zo 9 mei 14:00",
+    "thuis": "AZ",
+    "thuisLogo": "https://crests.football-data.org/682.png",
+    "uit": "Ajax",
+    "uitLogo": "https://crests.football-data.org/678.png"
+  },
+  {
+    "id": 558651,
+    "datum": "zo 16 mei 14:00",
+    "thuis": "Ajax",
+    "thuisLogo": "https://crests.football-data.org/678.png",
+    "uit": "Sparta",
+    "uitLogo": "https://crests.football-data.org/6806.png"
+  },
+  {
+    "id": 558642,
+    "datum": "zo 23 mei 14:00",
+    "thuis": "SC Cambuur-Leeuwarden",
+    "thuisLogo": "https://crests.football-data.org/1909.png",
+    "uit": "Ajax",
+    "uitLogo": "https://crests.football-data.org/678.png"
   }
 ]
