@@ -32,6 +32,30 @@
     "competitieNaam": "Bundesliga"
   },
   {
+    "id": 98,
+    "naam": "AC Milan",
+    "logo": "https://crests.football-data.org/98.png",
+    "land": "Italy",
+    "competitie": "SA",
+    "competitieNaam": "Serie A"
+  },
+  {
+    "id": 5911,
+    "naam": "AC Monza",
+    "logo": "https://crests.football-data.org/5911.png",
+    "land": "Italy",
+    "competitie": "SA",
+    "competitieNaam": "Serie A"
+  },
+  {
+    "id": 99,
+    "naam": "ACF Fiorentina",
+    "logo": "https://crests.football-data.org/99.png",
+    "land": "Italy",
+    "competitie": "SA",
+    "competitieNaam": "Serie A"
+  },
+  {
     "id": 680,
     "naam": "ADO Den Haag",
     "logo": "https://crests.football-data.org/680.png",
@@ -70,6 +94,14 @@
     "land": "Monaco",
     "competitie": "FL1",
     "competitieNaam": "Ligue 1"
+  },
+  {
+    "id": 100,
+    "naam": "AS Roma",
+    "logo": "https://crests.football-data.org/100.png",
+    "land": "Italy",
+    "competitie": "SA",
+    "competitieNaam": "Serie A"
   },
   {
     "id": 10340,
@@ -116,8 +148,8 @@
     "naam": "Atalanta BC",
     "logo": "https://crests.football-data.org/102.png",
     "land": "Italy",
-    "competitie": "CL",
-    "competitieNaam": "Champions League"
+    "competitie": "SA",
+    "competitieNaam": "Serie A"
   },
   {
     "id": 77,
@@ -150,6 +182,14 @@
     "land": "England",
     "competitie": "ELC",
     "competitieNaam": "Championship"
+  },
+  {
+    "id": 103,
+    "naam": "Bologna FC 1909",
+    "logo": "https://crests.football-data.org/103.png",
+    "land": "Italy",
+    "competitie": "SA",
+    "competitieNaam": "Serie A"
   },
   {
     "id": 4,
@@ -280,6 +320,14 @@
     "competitieNaam": "Brasileirão"
   },
   {
+    "id": 104,
+    "naam": "Cagliari Calcio",
+    "logo": "https://crests.football-data.org/104.png",
+    "land": "Italy",
+    "competitie": "SA",
+    "competitieNaam": "Serie A"
+  },
+  {
     "id": 6618,
     "naam": "Casa Pia AC",
     "logo": "https://crests.football-data.org/6618.png",
@@ -334,6 +382,14 @@
     "land": "Brazil",
     "competitie": "BSA",
     "competitieNaam": "Brasileirão"
+  },
+  {
+    "id": 7397,
+    "naam": "Como 1907",
+    "logo": "https://crests.football-data.org/7397.png",
+    "land": "Italy",
+    "competitie": "SA",
+    "competitieNaam": "Serie A"
   },
   {
     "id": 4241,
@@ -484,8 +540,8 @@
     "naam": "FC Internazionale Milano",
     "logo": "https://crests.football-data.org/108.png",
     "land": "Italy",
-    "competitie": "CL",
-    "competitieNaam": "Champions League"
+    "competitie": "SA",
+    "competitieNaam": "Serie A"
   },
   {
     "id": 1876,
@@ -592,6 +648,14 @@
     "competitieNaam": "Eredivisie"
   },
   {
+    "id": 470,
+    "naam": "Frosinone Calcio",
+    "logo": "https://crests.football-data.org/470.png",
+    "land": "Italy",
+    "competitie": "SA",
+    "competitieNaam": "Serie A"
+  },
+  {
     "id": 63,
     "naam": "Fulham FC",
     "logo": "https://crests.football-data.org/63.png",
@@ -614,6 +678,14 @@
     "land": "Turkey",
     "competitie": "CL",
     "competitieNaam": "Champions League"
+  },
+  {
+    "id": 107,
+    "naam": "Genoa CFC",
+    "logo": "https://crests.football-data.org/107.png",
+    "land": "Italy",
+    "competitie": "SA",
+    "competitieNaam": "Serie A"
   },
   {
     "id": 82,
@@ -684,8 +756,8 @@
     "naam": "Juventus FC",
     "logo": "https://crests.football-data.org/109.png",
     "land": "Italy",
-    "competitie": "CL",
-    "competitieNaam": "Champions League"
+    "competitie": "SA",
+    "competitieNaam": "Serie A"
   },
   {
     "id": 533,
@@ -896,6 +968,14 @@
     "competitieNaam": "Ligue 1"
   },
   {
+    "id": 112,
+    "naam": "Parma Calcio 1913",
+    "logo": "https://crests.football-data.org/112.png",
+    "land": "Italy",
+    "competitie": "SA",
+    "competitieNaam": "Serie A"
+  },
+  {
     "id": 325,
     "naam": "Portsmouth FC",
     "logo": "https://crests.football-data.org/325.png",
@@ -1104,12 +1184,20 @@
     "competitieNaam": "Champions League"
   },
   {
+    "id": 110,
+    "naam": "SS Lazio",
+    "logo": "https://crests.football-data.org/110.png",
+    "land": "Italy",
+    "competitie": "SA",
+    "competitieNaam": "Serie A"
+  },
+  {
     "id": 113,
     "naam": "SSC Napoli",
     "logo": "https://crests.football-data.org/113.png",
     "land": "Italy",
-    "competitie": "CL",
-    "competitieNaam": "Champions League"
+    "competitie": "SA",
+    "competitieNaam": "Serie A"
   },
   {
     "id": 12,
@@ -1256,6 +1344,14 @@
     "competitieNaam": "Eredivisie"
   },
   {
+    "id": 586,
+    "naam": "Torino FC",
+    "logo": "https://crests.football-data.org/586.png",
+    "land": "Italy",
+    "competitie": "SA",
+    "competitieNaam": "Serie A"
+  },
+  {
     "id": 73,
     "naam": "Tottenham Hotspur FC",
     "logo": "https://crests.football-data.org/73.png",
@@ -1272,12 +1368,44 @@
     "competitieNaam": "Ligue 1"
   },
   {
+    "id": 5890,
+    "naam": "US Lecce",
+    "logo": "https://crests.football-data.org/5890.png",
+    "land": "Italy",
+    "competitie": "SA",
+    "competitieNaam": "Serie A"
+  },
+  {
+    "id": 471,
+    "naam": "US Sassuolo Calcio",
+    "logo": "https://crests.football-data.org/471.png",
+    "land": "Italy",
+    "competitie": "SA",
+    "competitieNaam": "Serie A"
+  },
+  {
+    "id": 115,
+    "naam": "Udinese Calcio",
+    "logo": "https://crests.football-data.org/115.png",
+    "land": "Italy",
+    "competitie": "SA",
+    "competitieNaam": "Serie A"
+  },
+  {
     "id": 95,
     "naam": "Valencia CF",
     "logo": "https://crests.football-data.org/95.png",
     "land": "Spain",
     "competitie": "PD",
     "competitieNaam": "La Liga"
+  },
+  {
+    "id": 454,
+    "naam": "Venezia FC",
+    "logo": "https://crests.football-data.org/454.png",
+    "land": "Italy",
+    "competitie": "SA",
+    "competitieNaam": "Serie A"
   },
   {
     "id": 10,
