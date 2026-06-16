@@ -456,6 +456,14 @@
     "competitieNaam": "Brasileirão"
   },
   {
+    "id": 531,
+    "naam": "ES Troyes AC",
+    "logo": "https://crests.football-data.org/531.png",
+    "land": "France",
+    "competitie": "FL1",
+    "competitieNaam": "Ligue 1"
+  },
+  {
     "id": 19,
     "naam": "Eintracht Frankfurt",
     "logo": "https://crests.football-data.org/19.png",
@@ -555,22 +563,6 @@
     "id": 525,
     "naam": "FC Lorient",
     "logo": "https://crests.football-data.org/525.png",
-    "land": "France",
-    "competitie": "FL1",
-    "competitieNaam": "Ligue 1"
-  },
-  {
-    "id": 545,
-    "naam": "FC Metz",
-    "logo": "https://crests.football-data.org/545.png",
-    "land": "France",
-    "competitie": "FL1",
-    "competitieNaam": "Ligue 1"
-  },
-  {
-    "id": 543,
-    "naam": "FC Nantes",
-    "logo": "https://crests.football-data.org/543.png",
     "land": "France",
     "competitie": "FL1",
     "competitieNaam": "Ligue 1"
@@ -763,6 +755,14 @@
     "id": 533,
     "naam": "Le Havre AC",
     "logo": "https://crests.football-data.org/533.png",
+    "land": "France",
+    "competitie": "FL1",
+    "competitieNaam": "Ligue 1"
+  },
+  {
+    "id": 535,
+    "naam": "Le Mans FC",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/5/57/Le_Mans_FC_logo.svg",
     "land": "France",
     "competitie": "FL1",
     "competitieNaam": "Ligue 1"
