@@ -80,14 +80,6 @@
     "aantalMatches": 0
   },
   {
-    "slug": "afc-o23-1",
-    "naam": "AFC O23-1",
-    "soort": "Senioren zaterdag",
-    "pouleId": "810719",
-    "heeftStand": true,
-    "aantalMatches": 0
-  },
-  {
     "slug": "afc",
     "naam": "AFC",
     "soort": "Senioren zondag",
