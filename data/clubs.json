@@ -240,14 +240,6 @@
     "competitieNaam": "Championship"
   },
   {
-    "id": 328,
-    "naam": "Burnley FC",
-    "logo": "https://crests.football-data.org/328.png",
-    "land": "England",
-    "competitie": "PL",
-    "competitieNaam": "Premier League"
-  },
-  {
     "id": 1766,
     "naam": "CA Mineiro",
     "logo": "https://crests.football-data.org/1766.png",
@@ -1456,28 +1448,12 @@
     "competitieNaam": "Championship"
   },
   {
-    "id": 563,
-    "naam": "West Ham United FC",
-    "logo": "https://crests.football-data.org/563.png",
-    "land": "England",
-    "competitie": "PL",
-    "competitieNaam": "Premier League"
-  },
-  {
     "id": 672,
     "naam": "Willem II Tilburg",
     "logo": "https://crests.football-data.org/672.png",
     "land": "Netherlands",
     "competitie": "DED",
     "competitieNaam": "Eredivisie"
-  },
-  {
-    "id": 76,
-    "naam": "Wolverhampton Wanderers FC",
-    "logo": "https://crests.football-data.org/76.png",
-    "land": "England",
-    "competitie": "PL",
-    "competitieNaam": "Premier League"
   },
   {
     "id": 404,
