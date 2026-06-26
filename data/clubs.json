@@ -192,6 +192,14 @@
     "competitieNaam": "Serie A"
   },
   {
+    "id": 60,
+    "naam": "Bolton Wanderers FC",
+    "logo": "https://crests.football-data.org/60.png",
+    "land": "England",
+    "competitie": "ELC",
+    "competitieNaam": "Championship"
+  },
+  {
     "id": 4,
     "naam": "Borussia Dortmund",
     "logo": "https://crests.football-data.org/4.png",
@@ -235,6 +243,14 @@
     "id": 387,
     "naam": "Bristol City FC",
     "logo": "https://crests.football-data.org/387.png",
+    "land": "England",
+    "competitie": "ELC",
+    "competitieNaam": "Championship"
+  },
+  {
+    "id": 328,
+    "naam": "Burnley FC",
+    "logo": "https://crests.football-data.org/328.png",
     "land": "England",
     "competitie": "ELC",
     "competitieNaam": "Championship"
@@ -320,6 +336,14 @@
     "competitieNaam": "Serie A"
   },
   {
+    "id": 715,
+    "naam": "Cardiff City FC",
+    "logo": "https://crests.football-data.org/715.png",
+    "land": "Wales",
+    "competitie": "ELC",
+    "competitieNaam": "Championship"
+  },
+  {
     "id": 6618,
     "naam": "Casa Pia AC",
     "logo": "https://crests.football-data.org/6618.png",
@@ -396,8 +420,8 @@
     "naam": "Coventry City FC",
     "logo": "https://crests.football-data.org/1076.png",
     "land": "England",
-    "competitie": "ELC",
-    "competitieNaam": "Championship"
+    "competitie": "PL",
+    "competitieNaam": "Premier League"
   },
   {
     "id": 1771,
@@ -724,16 +748,16 @@
     "naam": "Hull City AFC",
     "logo": "https://crests.football-data.org/322.png",
     "land": "England",
-    "competitie": "ELC",
-    "competitieNaam": "Championship"
+    "competitie": "PL",
+    "competitieNaam": "Premier League"
   },
   {
     "id": 349,
     "naam": "Ipswich Town FC",
     "logo": "https://crests.football-data.org/349.png",
     "land": "England",
-    "competitie": "ELC",
-    "competitieNaam": "Championship"
+    "competitie": "PL",
+    "competitieNaam": "Premier League"
   },
   {
     "id": 109,
@@ -768,14 +792,6 @@
     "competitieNaam": "Premier League"
   },
   {
-    "id": 338,
-    "naam": "Leicester City FC",
-    "logo": "https://crests.football-data.org/338.png",
-    "land": "England",
-    "competitie": "ELC",
-    "competitieNaam": "Championship"
-  },
-  {
     "id": 88,
     "naam": "Levante UD",
     "logo": "https://crests.football-data.org/88.png",
@@ -790,6 +806,14 @@
     "land": "France",
     "competitie": "FL1",
     "competitieNaam": "Ligue 1"
+  },
+  {
+    "id": 1126,
+    "naam": "Lincoln City FC",
+    "logo": "https://crests.football-data.org/1126.png",
+    "land": "England",
+    "competitie": "ELC",
+    "competitieNaam": "Championship"
   },
   {
     "id": 64,
@@ -902,14 +926,6 @@
     "land": "France",
     "competitie": "FL1",
     "competitieNaam": "Ligue 1"
-  },
-  {
-    "id": 1082,
-    "naam": "Oxford United FC",
-    "logo": "https://crests.football-data.org/1082.png",
-    "land": "England",
-    "competitie": "ELC",
-    "competitieNaam": "Championship"
   },
   {
     "id": 654,
@@ -1224,14 +1240,6 @@
     "competitieNaam": "Championship"
   },
   {
-    "id": 345,
-    "naam": "Sheffield Wednesday FC",
-    "logo": "https://crests.football-data.org/345.png",
-    "land": "England",
-    "competitie": "ELC",
-    "competitieNaam": "Championship"
-  },
-  {
     "id": 340,
     "naam": "Southampton FC",
     "logo": "https://crests.football-data.org/340.png",
@@ -1448,12 +1456,28 @@
     "competitieNaam": "Championship"
   },
   {
+    "id": 563,
+    "naam": "West Ham United FC",
+    "logo": "https://crests.football-data.org/563.png",
+    "land": "England",
+    "competitie": "ELC",
+    "competitieNaam": "Championship"
+  },
+  {
     "id": 672,
     "naam": "Willem II Tilburg",
     "logo": "https://crests.football-data.org/672.png",
     "land": "Netherlands",
     "competitie": "DED",
     "competitieNaam": "Eredivisie"
+  },
+  {
+    "id": 76,
+    "naam": "Wolverhampton Wanderers FC",
+    "logo": "https://crests.football-data.org/76.png",
+    "land": "England",
+    "competitie": "ELC",
+    "competitieNaam": "Championship"
   },
   {
     "id": 404,
