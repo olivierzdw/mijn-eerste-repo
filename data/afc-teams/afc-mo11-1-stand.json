@@ -1,7 +1,7 @@
 [
   {
     "positie": 1,
-    "club": "SDZ JO11-9",
+    "club": "SDZ O11-9",
     "logo": "",
     "gespeeld": 4,
     "gewonnen": 4,
@@ -14,7 +14,7 @@
   },
   {
     "positie": 2,
-    "club": "SDW JO11-7",
+    "club": "SDW O11-7",
     "logo": "",
     "gespeeld": 4,
     "gewonnen": 2,
@@ -53,7 +53,7 @@
   },
   {
     "positie": 5,
-    "club": "TOS-Actief JO11-4",
+    "club": "TOS-Actief O11-4",
     "logo": "",
     "gespeeld": 4,
     "gewonnen": 1,
