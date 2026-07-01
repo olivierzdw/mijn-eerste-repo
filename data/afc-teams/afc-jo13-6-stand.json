@@ -1,7 +1,7 @@
 [
   {
     "positie": 1,
-    "club": "AFC JO13-6",
+    "club": "AFC O13-6",
     "logo": "images/afc.png",
     "gespeeld": 11,
     "gewonnen": 9,
@@ -14,7 +14,7 @@
   },
   {
     "positie": 2,
-    "club": "Zuidoost United JO13-3",
+    "club": "Zuidoost United O13-3",
     "logo": "",
     "gespeeld": 11,
     "gewonnen": 8,
@@ -40,7 +40,7 @@
   },
   {
     "positie": 4,
-    "club": "SDW JO13-2",
+    "club": "SDW O13-2",
     "logo": "",
     "gespeeld": 11,
     "gewonnen": 6,
@@ -53,7 +53,7 @@
   },
   {
     "positie": 5,
-    "club": "ASV Blauw-Wit JO13-2",
+    "club": "ASV Blauw-Wit O13-2",
     "logo": "images/blauw-wit.png",
     "gespeeld": 11,
     "gewonnen": 6,
@@ -79,7 +79,7 @@
   },
   {
     "positie": 7,
-    "club": "DCG Rksv JO13-3",
+    "club": "DCG Rksv O13-3",
     "logo": "",
     "gespeeld": 11,
     "gewonnen": 5,
@@ -105,7 +105,7 @@
   },
   {
     "positie": 9,
-    "club": "VVA/Spartaan JO13-2",
+    "club": "VVA/Spartaan O13-2",
     "logo": "",
     "gespeeld": 11,
     "gewonnen": 3,
@@ -118,7 +118,7 @@
   },
   {
     "positie": 10,
-    "club": "RODA '23 Rksv JO13-7",
+    "club": "RODA '23 Rksv O13-7",
     "logo": "",
     "gespeeld": 10,
     "gewonnen": 2,
@@ -131,7 +131,7 @@
   },
   {
     "positie": 11,
-    "club": "SCPB'22 JO13-6",
+    "club": "SCPB'22 O13-6",
     "logo": "",
     "gespeeld": 11,
     "gewonnen": 2,
@@ -144,7 +144,7 @@
   },
   {
     "positie": 12,
-    "club": "Sporting Martinus JO13-5",
+    "club": "Sporting Martinus O13-5",
     "logo": "",
     "gespeeld": 11,
     "gewonnen": 1,
