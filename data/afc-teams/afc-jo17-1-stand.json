@@ -14,7 +14,7 @@
   },
   {
     "positie": 2,
-    "club": "PVCV JO17-1",
+    "club": "PVCV O17-1",
     "logo": "",
     "gespeeld": 16,
     "gewonnen": 11,
@@ -27,7 +27,7 @@
   },
   {
     "positie": 3,
-    "club": "Buitenveldert sc. JO17-1",
+    "club": "Buitenveldert sc. O17-1",
     "logo": "",
     "gespeeld": 15,
     "gewonnen": 9,
@@ -40,7 +40,7 @@
   },
   {
     "positie": 4,
-    "club": "AFC JO17-1",
+    "club": "AFC O17-1",
     "logo": "images/afc.png",
     "gespeeld": 16,
     "gewonnen": 9,
@@ -53,7 +53,7 @@
   },
   {
     "positie": 5,
-    "club": "Hollandia JO17-1",
+    "club": "Hollandia O17-1",
     "logo": "",
     "gespeeld": 16,
     "gewonnen": 9,
@@ -66,7 +66,7 @@
   },
   {
     "positie": 6,
-    "club": "AFC 34 JO17-1",
+    "club": "AFC 34 O17-1",
     "logo": "images/afc.png",
     "gespeeld": 16,
     "gewonnen": 7,
@@ -79,7 +79,7 @@
   },
   {
     "positie": 7,
-    "club": "Zeeburgia avv JO17-1",
+    "club": "Zeeburgia avv O17-1",
     "logo": "",
     "gespeeld": 16,
     "gewonnen": 7,
@@ -92,7 +92,7 @@
   },
   {
     "positie": 8,
-    "club": "SDZ JO17-1",
+    "club": "SDZ O17-1",
     "logo": "",
     "gespeeld": 16,
     "gewonnen": 2,
@@ -105,7 +105,7 @@
   },
   {
     "positie": 9,
-    "club": "DEM (RKVV) JO17-1",
+    "club": "DEM (RKVV) O17-1",
     "logo": "",
     "gespeeld": 16,
     "gewonnen": 1,
