@@ -1,7 +1,7 @@
 [
   {
     "positie": 1,
-    "club": "Fortuna Wormerveer sv JO13-1",
+    "club": "Fortuna Wormerveer sv O13-1",
     "logo": "",
     "gespeeld": 11,
     "gewonnen": 9,
@@ -14,7 +14,7 @@
   },
   {
     "positie": 2,
-    "club": "Kolping Boys JO13-1JM",
+    "club": "Kolping Boys O13-1JM",
     "logo": "",
     "gespeeld": 11,
     "gewonnen": 8,
@@ -27,7 +27,7 @@
   },
   {
     "positie": 3,
-    "club": "Waterwijk asc JO13-2",
+    "club": "Waterwijk asc O13-2",
     "logo": "",
     "gespeeld": 11,
     "gewonnen": 8,
@@ -40,7 +40,7 @@
   },
   {
     "positie": 4,
-    "club": "AFC JO13-2",
+    "club": "AFC O13-2",
     "logo": "images/afc.png",
     "gespeeld": 11,
     "gewonnen": 8,
@@ -53,7 +53,7 @@
   },
   {
     "positie": 5,
-    "club": "Buitenveldert sc. JO13-1",
+    "club": "Buitenveldert sc. O13-1",
     "logo": "",
     "gespeeld": 11,
     "gewonnen": 7,
@@ -79,7 +79,7 @@
   },
   {
     "positie": 7,
-    "club": "AS'80 JO13-1",
+    "club": "AS'80 O13-1",
     "logo": "",
     "gespeeld": 11,
     "gewonnen": 6,
@@ -92,7 +92,7 @@
   },
   {
     "positie": 8,
-    "club": "LSVV JO13-1",
+    "club": "LSVV O13-1",
     "logo": "",
     "gespeeld": 11,
     "gewonnen": 3,
@@ -105,7 +105,7 @@
   },
   {
     "positie": 9,
-    "club": "Sporting Krommenie JO13-1",
+    "club": "Sporting Krommenie O13-1",
     "logo": "",
     "gespeeld": 11,
     "gewonnen": 3,
@@ -118,7 +118,7 @@
   },
   {
     "positie": 10,
-    "club": "BFC JO13-2",
+    "club": "BFC O13-2",
     "logo": "",
     "gespeeld": 11,
     "gewonnen": 2,
@@ -131,7 +131,7 @@
   },
   {
     "positie": 11,
-    "club": "AFC IJburg JO13-1",
+    "club": "AFC IJburg O13-1",
     "logo": "images/afc.png",
     "gespeeld": 11,
     "gewonnen": 2,
@@ -144,7 +144,7 @@
   },
   {
     "positie": 12,
-    "club": "Buitenboys sc. JO13-3",
+    "club": "Buitenboys sc. O13-3",
     "logo": "",
     "gespeeld": 11,
     "gewonnen": 0,

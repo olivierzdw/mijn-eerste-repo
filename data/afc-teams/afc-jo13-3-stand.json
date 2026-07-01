@@ -1,7 +1,7 @@
 [
   {
     "positie": 1,
-    "club": "Volendam (rkav) JO13-1",
+    "club": "Volendam (rkav) O13-1",
     "logo": "",
     "gespeeld": 11,
     "gewonnen": 10,
@@ -14,7 +14,7 @@
   },
   {
     "positie": 2,
-    "club": "Abcoude fc JO13-1JM",
+    "club": "Abcoude fc O13-1JM",
     "logo": "",
     "gespeeld": 11,
     "gewonnen": 9,
@@ -27,7 +27,7 @@
   },
   {
     "positie": 3,
-    "club": "DTA Fortius asv JO13-2",
+    "club": "DTA Fortius asv O13-2",
     "logo": "images/fortius.png",
     "gespeeld": 11,
     "gewonnen": 8,
@@ -40,7 +40,7 @@
   },
   {
     "positie": 4,
-    "club": "Dijk De asv JO13-1",
+    "club": "Dijk De asv O13-1",
     "logo": "",
     "gespeeld": 11,
     "gewonnen": 7,
@@ -53,7 +53,7 @@
   },
   {
     "positie": 5,
-    "club": "Ouderkerk sv. JO13-1",
+    "club": "Ouderkerk sv. O13-1",
     "logo": "",
     "gespeeld": 11,
     "gewonnen": 7,
@@ -66,7 +66,7 @@
   },
   {
     "positie": 6,
-    "club": "Diemen sv. JO13-1",
+    "club": "Diemen sv. O13-1",
     "logo": "",
     "gespeeld": 11,
     "gewonnen": 5,
@@ -79,7 +79,7 @@
   },
   {
     "positie": 7,
-    "club": "Zeeburgia avv JO13-4",
+    "club": "Zeeburgia avv O13-4",
     "logo": "",
     "gespeeld": 10,
     "gewonnen": 5,
@@ -92,7 +92,7 @@
   },
   {
     "positie": 8,
-    "club": "AFC JO13-3",
+    "club": "AFC O13-3",
     "logo": "images/afc.png",
     "gespeeld": 10,
     "gewonnen": 3,
@@ -105,7 +105,7 @@
   },
   {
     "positie": 9,
-    "club": "Sporting Martinus JO13-1",
+    "club": "Sporting Martinus O13-1",
     "logo": "",
     "gespeeld": 11,
     "gewonnen": 3,
@@ -118,7 +118,7 @@
   },
   {
     "positie": 10,
-    "club": "WV-HEDW JO13-2",
+    "club": "WV-HEDW O13-2",
     "logo": "",
     "gespeeld": 11,
     "gewonnen": 2,
@@ -131,7 +131,7 @@
   },
   {
     "positie": 11,
-    "club": "SDZ JO13-3",
+    "club": "SDZ O13-3",
     "logo": "",
     "gespeeld": 11,
     "gewonnen": 2,
@@ -144,7 +144,7 @@
   },
   {
     "positie": 12,
-    "club": "Kadoelen JO13-1JM",
+    "club": "Kadoelen O13-1JM",
     "logo": "",
     "gespeeld": 11,
     "gewonnen": 0,

@@ -1,7 +1,7 @@
 [
   {
     "positie": 1,
-    "club": "Fortuna Wormerveer sv JO13-2",
+    "club": "Fortuna Wormerveer sv O13-2",
     "logo": "",
     "gespeeld": 11,
     "gewonnen": 9,
@@ -14,7 +14,7 @@
   },
   {
     "positie": 2,
-    "club": "KFC JO13-3",
+    "club": "KFC O13-3",
     "logo": "",
     "gespeeld": 11,
     "gewonnen": 9,
@@ -27,7 +27,7 @@
   },
   {
     "positie": 3,
-    "club": "ASC De Volewijckers JO13-1",
+    "club": "ASC De Volewijckers O13-1",
     "logo": "",
     "gespeeld": 11,
     "gewonnen": 7,
@@ -53,7 +53,7 @@
   },
   {
     "positie": 5,
-    "club": "Sloterdijk avv. JO13-1",
+    "club": "Sloterdijk avv. O13-1",
     "logo": "images/sloterdijk.png",
     "gespeeld": 11,
     "gewonnen": 6,
@@ -92,7 +92,7 @@
   },
   {
     "positie": 8,
-    "club": "Purmersteijn JO13-3",
+    "club": "Purmersteijn O13-3",
     "logo": "",
     "gespeeld": 10,
     "gewonnen": 4,
@@ -105,7 +105,7 @@
   },
   {
     "positie": 9,
-    "club": "Purmerend JO13-2",
+    "club": "Purmerend O13-2",
     "logo": "",
     "gespeeld": 11,
     "gewonnen": 3,
@@ -118,7 +118,7 @@
   },
   {
     "positie": 10,
-    "club": "ZSGOWMS JO13-1",
+    "club": "ZSGOWMS O13-1",
     "logo": "",
     "gespeeld": 11,
     "gewonnen": 2,
@@ -131,7 +131,7 @@
   },
   {
     "positie": 11,
-    "club": "AGB JO13-2",
+    "club": "AGB O13-2",
     "logo": "",
     "gespeeld": 11,
     "gewonnen": 2,

@@ -1,7 +1,7 @@
 [
   {
     "positie": 1,
-    "club": "Voorschoten`97 JO17-1",
+    "club": "Voorschoten`97 O17-1",
     "logo": "",
     "gespeeld": 12,
     "gewonnen": 9,
@@ -14,7 +14,7 @@
   },
   {
     "positie": 2,
-    "club": "FC Weesp JO17-1",
+    "club": "FC Weesp O17-1",
     "logo": "",
     "gespeeld": 12,
     "gewonnen": 6,
@@ -27,7 +27,7 @@
   },
   {
     "positie": 3,
-    "club": "AFC JO17-2",
+    "club": "AFC O17-2",
     "logo": "images/afc.png",
     "gespeeld": 12,
     "gewonnen": 7,
@@ -40,7 +40,7 @@
   },
   {
     "positie": 4,
-    "club": "Zeeburgia avv JO17-2",
+    "club": "Zeeburgia avv O17-2",
     "logo": "",
     "gespeeld": 12,
     "gewonnen": 6,
@@ -53,7 +53,7 @@
   },
   {
     "positie": 5,
-    "club": "Hoofddorp s.v. JO17-2",
+    "club": "Hoofddorp s.v. O17-2",
     "logo": "",
     "gespeeld": 12,
     "gewonnen": 6,
@@ -66,7 +66,7 @@
   },
   {
     "positie": 6,
-    "club": "FC Amsterdam JO17-1",
+    "club": "FC Amsterdam O17-1",
     "logo": "",
     "gespeeld": 12,
     "gewonnen": 6,
@@ -79,7 +79,7 @@
   },
   {
     "positie": 7,
-    "club": "RKAVV JO17-1",
+    "club": "RKAVV O17-1",
     "logo": "",
     "gespeeld": 12,
     "gewonnen": 6,
@@ -92,7 +92,7 @@
   },
   {
     "positie": 8,
-    "club": "Almere FC JO17-1",
+    "club": "Almere FC O17-1",
     "logo": "",
     "gespeeld": 12,
     "gewonnen": 4,
@@ -105,7 +105,7 @@
   },
   {
     "positie": 9,
-    "club": "BSC '68 JO17-1",
+    "club": "BSC '68 O17-1",
     "logo": "",
     "gespeeld": 12,
     "gewonnen": 3,
@@ -144,7 +144,7 @@
   },
   {
     "positie": 12,
-    "club": "Foreholte JO17-1",
+    "club": "Foreholte O17-1",
     "logo": "",
     "gespeeld": 12,
     "gewonnen": 2,
