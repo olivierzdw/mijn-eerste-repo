@@ -1,7 +1,7 @@
 [
   {
     "positie": 1,
-    "club": "Hercules Zaandam sc JO11-2",
+    "club": "Hercules Zaandam sc O11-2",
     "logo": "",
     "gespeeld": 5,
     "gewonnen": 4,
@@ -14,7 +14,7 @@
   },
   {
     "positie": 2,
-    "club": "SDW JO11-2",
+    "club": "SDW O11-2",
     "logo": "",
     "gespeeld": 5,
     "gewonnen": 4,
@@ -27,7 +27,7 @@
   },
   {
     "positie": 3,
-    "club": "OSV JO11-1",
+    "club": "OSV O11-1",
     "logo": "",
     "gespeeld": 4,
     "gewonnen": 3,
@@ -40,7 +40,7 @@
   },
   {
     "positie": 4,
-    "club": "ZSGOWMS JO11-1",
+    "club": "ZSGOWMS O11-1",
     "logo": "",
     "gespeeld": 5,
     "gewonnen": 2,
@@ -66,7 +66,7 @@
   },
   {
     "positie": 6,
-    "club": "AFC JO11-6",
+    "club": "AFC O11-6",
     "logo": "images/afc.png",
     "gespeeld": 5,
     "gewonnen": 0,

@@ -1,7 +1,7 @@
 [
   {
     "positie": 1,
-    "club": "AFC JO15-1",
+    "club": "AFC O15-1",
     "logo": "images/afc.png",
     "gespeeld": 10,
     "gewonnen": 7,
@@ -14,7 +14,7 @@
   },
   {
     "positie": 2,
-    "club": "Dijk De asv JO15-1",
+    "club": "Dijk De asv O15-1",
     "logo": "",
     "gespeeld": 10,
     "gewonnen": 6,
@@ -27,7 +27,7 @@
   },
   {
     "positie": 3,
-    "club": "Buitenveldert sc. JO15-1",
+    "club": "Buitenveldert sc. O15-1",
     "logo": "",
     "gespeeld": 10,
     "gewonnen": 5,
@@ -40,7 +40,7 @@
   },
   {
     "positie": 4,
-    "club": "Kon. HFC JO15-1 (Zon)",
+    "club": "Kon. HFC O15-1 (Zon)",
     "logo": "",
     "gespeeld": 10,
     "gewonnen": 3,
@@ -53,7 +53,7 @@
   },
   {
     "positie": 5,
-    "club": "SDW JO15-1",
+    "club": "SDW O15-1",
     "logo": "",
     "gespeeld": 10,
     "gewonnen": 2,
@@ -66,7 +66,7 @@
   },
   {
     "positie": 6,
-    "club": "SCPB'22 JO15-1",
+    "club": "SCPB'22 O15-1",
     "logo": "",
     "gespeeld": 10,
     "gewonnen": 0,

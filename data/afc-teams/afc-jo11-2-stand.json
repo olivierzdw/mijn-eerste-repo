@@ -1,7 +1,7 @@
 [
   {
     "positie": 1,
-    "club": "AFC IJburg JO11-1",
+    "club": "AFC IJburg O11-1",
     "logo": "images/afc.png",
     "gespeeld": 5,
     "gewonnen": 4,
@@ -14,7 +14,7 @@
   },
   {
     "positie": 2,
-    "club": "WV-HEDW JO11-2",
+    "club": "WV-HEDW O11-2",
     "logo": "",
     "gespeeld": 5,
     "gewonnen": 3,
@@ -27,7 +27,7 @@
   },
   {
     "positie": 3,
-    "club": "AFC JO11-2",
+    "club": "AFC O11-2",
     "logo": "images/afc.png",
     "gespeeld": 5,
     "gewonnen": 3,
@@ -53,7 +53,7 @@
   },
   {
     "positie": 5,
-    "club": "Sporting Martinus JO11-1",
+    "club": "Sporting Martinus O11-1",
     "logo": "",
     "gespeeld": 5,
     "gewonnen": 2,
@@ -66,7 +66,7 @@
   },
   {
     "positie": 6,
-    "club": "Swift JO11-3",
+    "club": "Swift O11-3",
     "logo": "",
     "gespeeld": 5,
     "gewonnen": 0,

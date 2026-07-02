@@ -14,7 +14,7 @@
   },
   {
     "positie": 2,
-    "club": "Sloterdijk avv. JO11-1",
+    "club": "Sloterdijk avv. O11-1",
     "logo": "images/sloterdijk.png",
     "gespeeld": 5,
     "gewonnen": 3,
@@ -40,7 +40,7 @@
   },
   {
     "positie": 4,
-    "club": "SDW JO11-1",
+    "club": "SDW O11-1",
     "logo": "",
     "gespeeld": 5,
     "gewonnen": 2,
@@ -53,7 +53,7 @@
   },
   {
     "positie": 5,
-    "club": "AFC JO11-4",
+    "club": "AFC O11-4",
     "logo": "images/afc.png",
     "gespeeld": 5,
     "gewonnen": 1,
@@ -66,7 +66,7 @@
   },
   {
     "positie": 6,
-    "club": "DTA Fortius asv JO11-2",
+    "club": "DTA Fortius asv O11-2",
     "logo": "images/fortius.png",
     "gespeeld": 5,
     "gewonnen": 1,

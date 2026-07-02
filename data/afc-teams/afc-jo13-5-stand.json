@@ -1,7 +1,7 @@
 [
   {
     "positie": 1,
-    "club": "Almere FC JO13-2",
+    "club": "Almere FC O13-2",
     "logo": "",
     "gespeeld": 11,
     "gewonnen": 10,
@@ -27,7 +27,7 @@
   },
   {
     "positie": 3,
-    "club": "TABA afc JO13-1",
+    "club": "TABA afc O13-1",
     "logo": "images/afc.png",
     "gespeeld": 11,
     "gewonnen": 7,
@@ -40,7 +40,7 @@
   },
   {
     "positie": 4,
-    "club": "CTO '70 vv JO13-2",
+    "club": "CTO '70 vv O13-2",
     "logo": "",
     "gespeeld": 11,
     "gewonnen": 6,
@@ -53,7 +53,7 @@
   },
   {
     "positie": 5,
-    "club": "AS'80 JO13-8",
+    "club": "AS'80 O13-8",
     "logo": "",
     "gespeeld": 11,
     "gewonnen": 6,
@@ -66,7 +66,7 @@
   },
   {
     "positie": 6,
-    "club": "WV-HEDW JO13-4",
+    "club": "WV-HEDW O13-4",
     "logo": "",
     "gespeeld": 11,
     "gewonnen": 5,
@@ -79,7 +79,7 @@
   },
   {
     "positie": 7,
-    "club": "AFC JO13-5",
+    "club": "AFC O13-5",
     "logo": "images/afc.png",
     "gespeeld": 11,
     "gewonnen": 5,
@@ -92,7 +92,7 @@
   },
   {
     "positie": 8,
-    "club": "Dijk De asv JO13-4",
+    "club": "Dijk De asv O13-4",
     "logo": "",
     "gespeeld": 11,
     "gewonnen": 4,
@@ -118,7 +118,7 @@
   },
   {
     "positie": 10,
-    "club": "Ouderkerk sv. JO13-3",
+    "club": "Ouderkerk sv. O13-3",
     "logo": "",
     "gespeeld": 11,
     "gewonnen": 3,
@@ -144,7 +144,7 @@
   },
   {
     "positie": 12,
-    "club": "Geinburgia sv. JO13-1",
+    "club": "Geinburgia sv. O13-1",
     "logo": "",
     "gespeeld": 11,
     "gewonnen": 1,

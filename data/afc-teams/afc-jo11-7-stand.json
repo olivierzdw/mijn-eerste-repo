@@ -1,7 +1,7 @@
 [
   {
     "positie": 1,
-    "club": "AFC JO11-7",
+    "club": "AFC O11-7",
     "logo": "images/afc.png",
     "gespeeld": 5,
     "gewonnen": 5,
@@ -14,7 +14,7 @@
   },
   {
     "positie": 2,
-    "club": "DRC JO11-2",
+    "club": "DRC O11-2",
     "logo": "",
     "gespeeld": 5,
     "gewonnen": 3,
@@ -27,7 +27,7 @@
   },
   {
     "positie": 3,
-    "club": "Dijk De asv JO11-5",
+    "club": "Dijk De asv O11-5",
     "logo": "",
     "gespeeld": 4,
     "gewonnen": 2,
@@ -40,7 +40,7 @@
   },
   {
     "positie": 4,
-    "club": "AS'80 JO11-11",
+    "club": "AS'80 O11-11",
     "logo": "",
     "gespeeld": 5,
     "gewonnen": 2,
@@ -53,7 +53,7 @@
   },
   {
     "positie": 5,
-    "club": "WV-HEDW JO11-6",
+    "club": "WV-HEDW O11-6",
     "logo": "",
     "gespeeld": 4,
     "gewonnen": 1,
@@ -66,7 +66,7 @@
   },
   {
     "positie": 6,
-    "club": "AFC IJburg JO11-4",
+    "club": "AFC IJburg O11-4",
     "logo": "images/afc.png",
     "gespeeld": 5,
     "gewonnen": 0,
