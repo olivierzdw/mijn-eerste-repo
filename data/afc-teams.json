@@ -696,6 +696,14 @@
     "aantalMatches": 0
   },
   {
+    "slug": "afc-vr1",
+    "naam": "AFC VR1",
+    "soort": "Vrouwen",
+    "pouleId": "787977",
+    "heeftStand": true,
+    "aantalMatches": 0
+  },
+  {
     "slug": "afc-vr2",
     "naam": "AFC VR2",
     "soort": "Vrouwen",
