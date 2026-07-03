@@ -12239,6 +12239,4938 @@
       "uitLogo": "https://crests.football-data.org/78.png"
     }
   ],
+  "5": [
+    {
+      "id": 565776,
+      "datum": "vr 28 augustus 20:30",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "VfB Stuttgart",
+      "uitLogo": "https://crests.football-data.org/10.png"
+    },
+    {
+      "id": 565789,
+      "datum": "za 5 september 15:30",
+      "thuis": "FC Schalke 04",
+      "thuisLogo": "https://crests.football-data.org/6.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png"
+    },
+    {
+      "id": 565800,
+      "datum": "za 12 september 15:30",
+      "thuis": "SV 07 Elversberg",
+      "thuisLogo": "https://crests.football-data.org/719.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png"
+    },
+    {
+      "id": 565804,
+      "datum": "za 19 september 15:30",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "1. FC Union Berlin",
+      "uitLogo": "https://crests.football-data.org/28.png"
+    },
+    {
+      "id": 565819,
+      "datum": "za 10 oktober 15:30",
+      "thuis": "FC Augsburg",
+      "thuisLogo": "https://crests.football-data.org/16.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png"
+    },
+    {
+      "id": 565825,
+      "datum": "za 17 oktober 15:30",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "RB Leipzig",
+      "uitLogo": "https://crests.football-data.org/721.png"
+    },
+    {
+      "id": 565836,
+      "datum": "za 24 oktober 15:30",
+      "thuis": "SC Freiburg",
+      "thuisLogo": "https://crests.football-data.org/17.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png"
+    },
+    {
+      "id": 565845,
+      "datum": "za 31 oktober 15:30",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "Borussia Dortmund",
+      "uitLogo": "https://crests.football-data.org/4.png"
+    },
+    {
+      "id": 565851,
+      "datum": "za 7 november 15:30",
+      "thuis": "1. FSV Mainz 05",
+      "thuisLogo": "https://crests.football-data.org/15.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png"
+    },
+    {
+      "id": 565859,
+      "datum": "za 21 november 15:30",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "1. FC Köln",
+      "uitLogo": "https://crests.football-data.org/1.png"
+    },
+    {
+      "id": 565874,
+      "datum": "za 28 november 15:30",
+      "thuis": "Hamburger SV",
+      "thuisLogo": "https://crests.football-data.org/7.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png"
+    },
+    {
+      "id": 565882,
+      "datum": "za 5 december 15:30",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "SC Paderborn 07",
+      "uitLogo": "https://crests.football-data.org/29.png"
+    },
+    {
+      "id": 565891,
+      "datum": "za 12 december 15:30",
+      "thuis": "TSG 1899 Hoffenheim",
+      "thuisLogo": "https://crests.football-data.org/2.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png"
+    },
+    {
+      "id": 565894,
+      "datum": "za 19 december 15:30",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "SV Werder Bremen",
+      "uitLogo": "https://crests.football-data.org/12.png"
+    },
+    {
+      "id": 565907,
+      "datum": "za 9 januari 13:00",
+      "thuis": "Borussia Mönchengladbach",
+      "thuisLogo": "https://crests.football-data.org/18.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png"
+    },
+    {
+      "id": 565916,
+      "datum": "wo 13 januari 13:00",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "Bayer 04 Leverkusen",
+      "uitLogo": "https://crests.football-data.org/3.png"
+    },
+    {
+      "id": 565921,
+      "datum": "za 16 januari 13:00",
+      "thuis": "Eintracht Frankfurt",
+      "thuisLogo": "https://crests.football-data.org/19.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png"
+    },
+    {
+      "id": 565934,
+      "datum": "za 23 januari 13:00",
+      "thuis": "VfB Stuttgart",
+      "thuisLogo": "https://crests.football-data.org/10.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png"
+    },
+    {
+      "id": 565946,
+      "datum": "za 30 januari 13:00",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "FC Schalke 04",
+      "uitLogo": "https://crests.football-data.org/6.png"
+    },
+    {
+      "id": 565954,
+      "datum": "za 6 februari 13:00",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "SV 07 Elversberg",
+      "uitLogo": "https://crests.football-data.org/719.png"
+    },
+    {
+      "id": 565958,
+      "datum": "za 13 februari 13:00",
+      "thuis": "1. FC Union Berlin",
+      "thuisLogo": "https://crests.football-data.org/28.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png"
+    },
+    {
+      "id": 565972,
+      "datum": "za 20 februari 13:00",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "FC Augsburg",
+      "uitLogo": "https://crests.football-data.org/16.png"
+    },
+    {
+      "id": 565981,
+      "datum": "za 27 februari 13:00",
+      "thuis": "RB Leipzig",
+      "thuisLogo": "https://crests.football-data.org/721.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png"
+    },
+    {
+      "id": 565986,
+      "datum": "wo 3 maart 13:00",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "SC Freiburg",
+      "uitLogo": "https://crests.football-data.org/17.png"
+    },
+    {
+      "id": 565992,
+      "datum": "za 6 maart 13:00",
+      "thuis": "Borussia Dortmund",
+      "thuisLogo": "https://crests.football-data.org/4.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png"
+    },
+    {
+      "id": 566008,
+      "datum": "za 13 maart 13:00",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "1. FSV Mainz 05",
+      "uitLogo": "https://crests.football-data.org/15.png"
+    },
+    {
+      "id": 566016,
+      "datum": "za 20 maart 13:00",
+      "thuis": "1. FC Köln",
+      "thuisLogo": "https://crests.football-data.org/1.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png"
+    },
+    {
+      "id": 566021,
+      "datum": "za 3 april 14:00",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "Hamburger SV",
+      "uitLogo": "https://crests.football-data.org/7.png"
+    },
+    {
+      "id": 566029,
+      "datum": "za 10 april 14:00",
+      "thuis": "SC Paderborn 07",
+      "thuisLogo": "https://crests.football-data.org/29.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png"
+    },
+    {
+      "id": 566040,
+      "datum": "za 17 april 14:00",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "TSG 1899 Hoffenheim",
+      "uitLogo": "https://crests.football-data.org/2.png"
+    },
+    {
+      "id": 566046,
+      "datum": "za 24 april 14:00",
+      "thuis": "SV Werder Bremen",
+      "thuisLogo": "https://crests.football-data.org/12.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png"
+    },
+    {
+      "id": 566063,
+      "datum": "za 8 mei 14:00",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "Borussia Mönchengladbach",
+      "uitLogo": "https://crests.football-data.org/18.png"
+    },
+    {
+      "id": 566069,
+      "datum": "za 15 mei 14:00",
+      "thuis": "Bayer 04 Leverkusen",
+      "thuisLogo": "https://crests.football-data.org/3.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png"
+    },
+    {
+      "id": 566078,
+      "datum": "za 22 mei 14:00",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "Eintracht Frankfurt",
+      "uitLogo": "https://crests.football-data.org/19.png"
+    }
+  ],
+  "10": [
+    {
+      "id": 565776,
+      "datum": "vr 28 augustus 20:30",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "VfB Stuttgart",
+      "uitLogo": "https://crests.football-data.org/10.png"
+    },
+    {
+      "id": 565791,
+      "datum": "za 5 september 15:30",
+      "thuis": "VfB Stuttgart",
+      "thuisLogo": "https://crests.football-data.org/10.png",
+      "uit": "1. FC Köln",
+      "uitLogo": "https://crests.football-data.org/1.png"
+    },
+    {
+      "id": 565794,
+      "datum": "za 12 september 15:30",
+      "thuis": "TSG 1899 Hoffenheim",
+      "thuisLogo": "https://crests.football-data.org/2.png",
+      "uit": "VfB Stuttgart",
+      "uitLogo": "https://crests.football-data.org/10.png"
+    },
+    {
+      "id": 565806,
+      "datum": "za 19 september 15:30",
+      "thuis": "VfB Stuttgart",
+      "thuisLogo": "https://crests.football-data.org/10.png",
+      "uit": "Borussia Dortmund",
+      "uitLogo": "https://crests.football-data.org/4.png"
+    },
+    {
+      "id": 565813,
+      "datum": "za 10 oktober 15:30",
+      "thuis": "SC Paderborn 07",
+      "thuisLogo": "https://crests.football-data.org/29.png",
+      "uit": "VfB Stuttgart",
+      "uitLogo": "https://crests.football-data.org/10.png"
+    },
+    {
+      "id": 565822,
+      "datum": "za 17 oktober 15:30",
+      "thuis": "Hamburger SV",
+      "thuisLogo": "https://crests.football-data.org/7.png",
+      "uit": "VfB Stuttgart",
+      "uitLogo": "https://crests.football-data.org/10.png"
+    },
+    {
+      "id": 565833,
+      "datum": "za 24 oktober 15:30",
+      "thuis": "VfB Stuttgart",
+      "thuisLogo": "https://crests.football-data.org/10.png",
+      "uit": "Borussia Mönchengladbach",
+      "uitLogo": "https://crests.football-data.org/18.png"
+    },
+    {
+      "id": 565847,
+      "datum": "za 31 oktober 15:30",
+      "thuis": "Bayer 04 Leverkusen",
+      "thuisLogo": "https://crests.football-data.org/3.png",
+      "uit": "VfB Stuttgart",
+      "uitLogo": "https://crests.football-data.org/10.png"
+    },
+    {
+      "id": 565849,
+      "datum": "za 7 november 15:30",
+      "thuis": "VfB Stuttgart",
+      "thuisLogo": "https://crests.football-data.org/10.png",
+      "uit": "SV Werder Bremen",
+      "uitLogo": "https://crests.football-data.org/12.png"
+    },
+    {
+      "id": 565861,
+      "datum": "za 21 november 15:30",
+      "thuis": "FC Schalke 04",
+      "thuisLogo": "https://crests.football-data.org/6.png",
+      "uit": "VfB Stuttgart",
+      "uitLogo": "https://crests.football-data.org/10.png"
+    },
+    {
+      "id": 565870,
+      "datum": "za 28 november 15:30",
+      "thuis": "VfB Stuttgart",
+      "thuisLogo": "https://crests.football-data.org/10.png",
+      "uit": "Eintracht Frankfurt",
+      "uitLogo": "https://crests.football-data.org/19.png"
+    },
+    {
+      "id": 565880,
+      "datum": "za 5 december 15:30",
+      "thuis": "SV 07 Elversberg",
+      "thuisLogo": "https://crests.football-data.org/719.png",
+      "uit": "VfB Stuttgart",
+      "uitLogo": "https://crests.football-data.org/10.png"
+    },
+    {
+      "id": 565886,
+      "datum": "za 12 december 15:30",
+      "thuis": "VfB Stuttgart",
+      "thuisLogo": "https://crests.football-data.org/10.png",
+      "uit": "1. FC Union Berlin",
+      "uitLogo": "https://crests.football-data.org/28.png"
+    },
+    {
+      "id": 565897,
+      "datum": "za 19 december 15:30",
+      "thuis": "SC Freiburg",
+      "thuisLogo": "https://crests.football-data.org/17.png",
+      "uit": "VfB Stuttgart",
+      "uitLogo": "https://crests.football-data.org/10.png"
+    },
+    {
+      "id": 565902,
+      "datum": "za 9 januari 13:00",
+      "thuis": "VfB Stuttgart",
+      "thuisLogo": "https://crests.football-data.org/10.png",
+      "uit": "FC Augsburg",
+      "uitLogo": "https://crests.football-data.org/16.png"
+    },
+    {
+      "id": 565914,
+      "datum": "wo 13 januari 13:00",
+      "thuis": "RB Leipzig",
+      "thuisLogo": "https://crests.football-data.org/721.png",
+      "uit": "VfB Stuttgart",
+      "uitLogo": "https://crests.football-data.org/10.png"
+    },
+    {
+      "id": 565925,
+      "datum": "za 16 januari 13:00",
+      "thuis": "VfB Stuttgart",
+      "thuisLogo": "https://crests.football-data.org/10.png",
+      "uit": "1. FSV Mainz 05",
+      "uitLogo": "https://crests.football-data.org/15.png"
+    },
+    {
+      "id": 565934,
+      "datum": "za 23 januari 13:00",
+      "thuis": "VfB Stuttgart",
+      "thuisLogo": "https://crests.football-data.org/10.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png"
+    },
+    {
+      "id": 565942,
+      "datum": "za 30 januari 13:00",
+      "thuis": "1. FC Köln",
+      "thuisLogo": "https://crests.football-data.org/1.png",
+      "uit": "VfB Stuttgart",
+      "uitLogo": "https://crests.football-data.org/10.png"
+    },
+    {
+      "id": 565953,
+      "datum": "za 6 februari 13:00",
+      "thuis": "VfB Stuttgart",
+      "thuisLogo": "https://crests.football-data.org/10.png",
+      "uit": "TSG 1899 Hoffenheim",
+      "uitLogo": "https://crests.football-data.org/2.png"
+    },
+    {
+      "id": 565960,
+      "datum": "za 13 februari 13:00",
+      "thuis": "Borussia Dortmund",
+      "thuisLogo": "https://crests.football-data.org/4.png",
+      "uit": "VfB Stuttgart",
+      "uitLogo": "https://crests.football-data.org/10.png"
+    },
+    {
+      "id": 565966,
+      "datum": "za 20 februari 13:00",
+      "thuis": "VfB Stuttgart",
+      "thuisLogo": "https://crests.football-data.org/10.png",
+      "uit": "SC Paderborn 07",
+      "uitLogo": "https://crests.football-data.org/29.png"
+    },
+    {
+      "id": 565974,
+      "datum": "za 27 februari 13:00",
+      "thuis": "VfB Stuttgart",
+      "thuisLogo": "https://crests.football-data.org/10.png",
+      "uit": "Hamburger SV",
+      "uitLogo": "https://crests.football-data.org/7.png"
+    },
+    {
+      "id": 565990,
+      "datum": "wo 3 maart 13:00",
+      "thuis": "Borussia Mönchengladbach",
+      "thuisLogo": "https://crests.football-data.org/18.png",
+      "uit": "VfB Stuttgart",
+      "uitLogo": "https://crests.football-data.org/10.png"
+    },
+    {
+      "id": 565996,
+      "datum": "za 6 maart 13:00",
+      "thuis": "VfB Stuttgart",
+      "thuisLogo": "https://crests.football-data.org/10.png",
+      "uit": "Bayer 04 Leverkusen",
+      "uitLogo": "https://crests.football-data.org/3.png"
+    },
+    {
+      "id": 566006,
+      "datum": "za 13 maart 13:00",
+      "thuis": "SV Werder Bremen",
+      "thuisLogo": "https://crests.football-data.org/12.png",
+      "uit": "VfB Stuttgart",
+      "uitLogo": "https://crests.football-data.org/10.png"
+    },
+    {
+      "id": 566011,
+      "datum": "za 20 maart 13:00",
+      "thuis": "VfB Stuttgart",
+      "thuisLogo": "https://crests.football-data.org/10.png",
+      "uit": "FC Schalke 04",
+      "uitLogo": "https://crests.football-data.org/6.png"
+    },
+    {
+      "id": 566024,
+      "datum": "za 3 april 14:00",
+      "thuis": "Eintracht Frankfurt",
+      "thuisLogo": "https://crests.football-data.org/19.png",
+      "uit": "VfB Stuttgart",
+      "uitLogo": "https://crests.football-data.org/10.png"
+    },
+    {
+      "id": 566028,
+      "datum": "za 10 april 14:00",
+      "thuis": "VfB Stuttgart",
+      "thuisLogo": "https://crests.football-data.org/10.png",
+      "uit": "SV 07 Elversberg",
+      "uitLogo": "https://crests.football-data.org/719.png"
+    },
+    {
+      "id": 566039,
+      "datum": "za 17 april 14:00",
+      "thuis": "1. FC Union Berlin",
+      "thuisLogo": "https://crests.football-data.org/28.png",
+      "uit": "VfB Stuttgart",
+      "uitLogo": "https://crests.football-data.org/10.png"
+    },
+    {
+      "id": 566052,
+      "datum": "za 24 april 14:00",
+      "thuis": "VfB Stuttgart",
+      "thuisLogo": "https://crests.football-data.org/10.png",
+      "uit": "SC Freiburg",
+      "uitLogo": "https://crests.football-data.org/17.png"
+    },
+    {
+      "id": 566059,
+      "datum": "za 8 mei 14:00",
+      "thuis": "FC Augsburg",
+      "thuisLogo": "https://crests.football-data.org/16.png",
+      "uit": "VfB Stuttgart",
+      "uitLogo": "https://crests.football-data.org/10.png"
+    },
+    {
+      "id": 566066,
+      "datum": "za 15 mei 14:00",
+      "thuis": "VfB Stuttgart",
+      "thuisLogo": "https://crests.football-data.org/10.png",
+      "uit": "RB Leipzig",
+      "uitLogo": "https://crests.football-data.org/721.png"
+    },
+    {
+      "id": 566075,
+      "datum": "za 22 mei 14:00",
+      "thuis": "1. FSV Mainz 05",
+      "thuisLogo": "https://crests.football-data.org/15.png",
+      "uit": "VfB Stuttgart",
+      "uitLogo": "https://crests.football-data.org/10.png"
+    }
+  ],
+  "721": [
+    {
+      "id": 565777,
+      "datum": "za 29 augustus 15:30",
+      "thuis": "RB Leipzig",
+      "thuisLogo": "https://crests.football-data.org/721.png",
+      "uit": "Borussia Mönchengladbach",
+      "uitLogo": "https://crests.football-data.org/18.png"
+    },
+    {
+      "id": 565785,
+      "datum": "za 5 september 15:30",
+      "thuis": "SV Werder Bremen",
+      "thuisLogo": "https://crests.football-data.org/12.png",
+      "uit": "RB Leipzig",
+      "uitLogo": "https://crests.football-data.org/721.png"
+    },
+    {
+      "id": 565799,
+      "datum": "za 12 september 15:30",
+      "thuis": "RB Leipzig",
+      "thuisLogo": "https://crests.football-data.org/721.png",
+      "uit": "Hamburger SV",
+      "uitLogo": "https://crests.football-data.org/7.png"
+    },
+    {
+      "id": 565807,
+      "datum": "za 19 september 15:30",
+      "thuis": "Bayer 04 Leverkusen",
+      "thuisLogo": "https://crests.football-data.org/3.png",
+      "uit": "RB Leipzig",
+      "uitLogo": "https://crests.football-data.org/721.png"
+    },
+    {
+      "id": 565815,
+      "datum": "za 10 oktober 15:30",
+      "thuis": "RB Leipzig",
+      "thuisLogo": "https://crests.football-data.org/721.png",
+      "uit": "Eintracht Frankfurt",
+      "uitLogo": "https://crests.football-data.org/19.png"
+    },
+    {
+      "id": 565825,
+      "datum": "za 17 oktober 15:30",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "RB Leipzig",
+      "uitLogo": "https://crests.football-data.org/721.png"
+    },
+    {
+      "id": 565832,
+      "datum": "za 24 oktober 15:30",
+      "thuis": "RB Leipzig",
+      "thuisLogo": "https://crests.football-data.org/721.png",
+      "uit": "SV 07 Elversberg",
+      "uitLogo": "https://crests.football-data.org/719.png"
+    },
+    {
+      "id": 565840,
+      "datum": "za 31 oktober 15:30",
+      "thuis": "FC Schalke 04",
+      "thuisLogo": "https://crests.football-data.org/6.png",
+      "uit": "RB Leipzig",
+      "uitLogo": "https://crests.football-data.org/721.png"
+    },
+    {
+      "id": 565848,
+      "datum": "za 7 november 15:30",
+      "thuis": "RB Leipzig",
+      "thuisLogo": "https://crests.football-data.org/721.png",
+      "uit": "FC Augsburg",
+      "uitLogo": "https://crests.football-data.org/16.png"
+    },
+    {
+      "id": 565858,
+      "datum": "za 21 november 15:30",
+      "thuis": "1. FC Union Berlin",
+      "thuisLogo": "https://crests.football-data.org/28.png",
+      "uit": "RB Leipzig",
+      "uitLogo": "https://crests.football-data.org/721.png"
+    },
+    {
+      "id": 565873,
+      "datum": "za 28 november 15:30",
+      "thuis": "SC Freiburg",
+      "thuisLogo": "https://crests.football-data.org/17.png",
+      "uit": "RB Leipzig",
+      "uitLogo": "https://crests.football-data.org/721.png"
+    },
+    {
+      "id": 565879,
+      "datum": "za 5 december 15:30",
+      "thuis": "RB Leipzig",
+      "thuisLogo": "https://crests.football-data.org/721.png",
+      "uit": "1. FSV Mainz 05",
+      "uitLogo": "https://crests.football-data.org/15.png"
+    },
+    {
+      "id": 565890,
+      "datum": "za 12 december 15:30",
+      "thuis": "1. FC Köln",
+      "thuisLogo": "https://crests.football-data.org/1.png",
+      "uit": "RB Leipzig",
+      "uitLogo": "https://crests.football-data.org/721.png"
+    },
+    {
+      "id": 565898,
+      "datum": "za 19 december 15:30",
+      "thuis": "RB Leipzig",
+      "thuisLogo": "https://crests.football-data.org/721.png",
+      "uit": "Borussia Dortmund",
+      "uitLogo": "https://crests.football-data.org/4.png"
+    },
+    {
+      "id": 565910,
+      "datum": "za 9 januari 13:00",
+      "thuis": "SC Paderborn 07",
+      "thuisLogo": "https://crests.football-data.org/29.png",
+      "uit": "RB Leipzig",
+      "uitLogo": "https://crests.football-data.org/721.png"
+    },
+    {
+      "id": 565914,
+      "datum": "wo 13 januari 13:00",
+      "thuis": "RB Leipzig",
+      "thuisLogo": "https://crests.football-data.org/721.png",
+      "uit": "VfB Stuttgart",
+      "uitLogo": "https://crests.football-data.org/10.png"
+    },
+    {
+      "id": 565923,
+      "datum": "za 16 januari 13:00",
+      "thuis": "TSG 1899 Hoffenheim",
+      "thuisLogo": "https://crests.football-data.org/2.png",
+      "uit": "RB Leipzig",
+      "uitLogo": "https://crests.football-data.org/721.png"
+    },
+    {
+      "id": 565935,
+      "datum": "za 23 januari 13:00",
+      "thuis": "Borussia Mönchengladbach",
+      "thuisLogo": "https://crests.football-data.org/18.png",
+      "uit": "RB Leipzig",
+      "uitLogo": "https://crests.football-data.org/721.png"
+    },
+    {
+      "id": 565941,
+      "datum": "za 30 januari 13:00",
+      "thuis": "RB Leipzig",
+      "thuisLogo": "https://crests.football-data.org/721.png",
+      "uit": "SV Werder Bremen",
+      "uitLogo": "https://crests.football-data.org/12.png"
+    },
+    {
+      "id": 565950,
+      "datum": "za 6 februari 13:00",
+      "thuis": "Hamburger SV",
+      "thuisLogo": "https://crests.football-data.org/7.png",
+      "uit": "RB Leipzig",
+      "uitLogo": "https://crests.football-data.org/721.png"
+    },
+    {
+      "id": 565964,
+      "datum": "za 13 februari 13:00",
+      "thuis": "RB Leipzig",
+      "thuisLogo": "https://crests.football-data.org/721.png",
+      "uit": "Bayer 04 Leverkusen",
+      "uitLogo": "https://crests.football-data.org/3.png"
+    },
+    {
+      "id": 565971,
+      "datum": "za 20 februari 13:00",
+      "thuis": "Eintracht Frankfurt",
+      "thuisLogo": "https://crests.football-data.org/19.png",
+      "uit": "RB Leipzig",
+      "uitLogo": "https://crests.football-data.org/721.png"
+    },
+    {
+      "id": 565981,
+      "datum": "za 27 februari 13:00",
+      "thuis": "RB Leipzig",
+      "thuisLogo": "https://crests.football-data.org/721.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png"
+    },
+    {
+      "id": 565989,
+      "datum": "wo 3 maart 13:00",
+      "thuis": "SV 07 Elversberg",
+      "thuisLogo": "https://crests.football-data.org/719.png",
+      "uit": "RB Leipzig",
+      "uitLogo": "https://crests.football-data.org/721.png"
+    },
+    {
+      "id": 565997,
+      "datum": "za 6 maart 13:00",
+      "thuis": "RB Leipzig",
+      "thuisLogo": "https://crests.football-data.org/721.png",
+      "uit": "FC Schalke 04",
+      "uitLogo": "https://crests.football-data.org/6.png"
+    },
+    {
+      "id": 566004,
+      "datum": "za 13 maart 13:00",
+      "thuis": "FC Augsburg",
+      "thuisLogo": "https://crests.football-data.org/16.png",
+      "uit": "RB Leipzig",
+      "uitLogo": "https://crests.football-data.org/721.png"
+    },
+    {
+      "id": 566012,
+      "datum": "za 20 maart 13:00",
+      "thuis": "RB Leipzig",
+      "thuisLogo": "https://crests.football-data.org/721.png",
+      "uit": "1. FC Union Berlin",
+      "uitLogo": "https://crests.football-data.org/28.png"
+    },
+    {
+      "id": 566019,
+      "datum": "za 3 april 14:00",
+      "thuis": "RB Leipzig",
+      "thuisLogo": "https://crests.football-data.org/721.png",
+      "uit": "SC Freiburg",
+      "uitLogo": "https://crests.football-data.org/17.png"
+    },
+    {
+      "id": 566031,
+      "datum": "za 10 april 14:00",
+      "thuis": "1. FSV Mainz 05",
+      "thuisLogo": "https://crests.football-data.org/15.png",
+      "uit": "RB Leipzig",
+      "uitLogo": "https://crests.football-data.org/721.png"
+    },
+    {
+      "id": 566045,
+      "datum": "za 17 april 14:00",
+      "thuis": "RB Leipzig",
+      "thuisLogo": "https://crests.football-data.org/721.png",
+      "uit": "1. FC Köln",
+      "uitLogo": "https://crests.football-data.org/1.png"
+    },
+    {
+      "id": 566049,
+      "datum": "za 24 april 14:00",
+      "thuis": "Borussia Dortmund",
+      "thuisLogo": "https://crests.football-data.org/4.png",
+      "uit": "RB Leipzig",
+      "uitLogo": "https://crests.football-data.org/721.png"
+    },
+    {
+      "id": 566056,
+      "datum": "za 8 mei 14:00",
+      "thuis": "RB Leipzig",
+      "thuisLogo": "https://crests.football-data.org/721.png",
+      "uit": "SC Paderborn 07",
+      "uitLogo": "https://crests.football-data.org/29.png"
+    },
+    {
+      "id": 566066,
+      "datum": "za 15 mei 14:00",
+      "thuis": "VfB Stuttgart",
+      "thuisLogo": "https://crests.football-data.org/10.png",
+      "uit": "RB Leipzig",
+      "uitLogo": "https://crests.football-data.org/721.png"
+    },
+    {
+      "id": 566073,
+      "datum": "za 22 mei 14:00",
+      "thuis": "RB Leipzig",
+      "thuisLogo": "https://crests.football-data.org/721.png",
+      "uit": "TSG 1899 Hoffenheim",
+      "uitLogo": "https://crests.football-data.org/2.png"
+    }
+  ],
+  "18": [
+    {
+      "id": 565777,
+      "datum": "za 29 augustus 15:30",
+      "thuis": "RB Leipzig",
+      "thuisLogo": "https://crests.football-data.org/721.png",
+      "uit": "Borussia Mönchengladbach",
+      "uitLogo": "https://crests.football-data.org/18.png"
+    },
+    {
+      "id": 565792,
+      "datum": "za 5 september 15:30",
+      "thuis": "Borussia Mönchengladbach",
+      "thuisLogo": "https://crests.football-data.org/18.png",
+      "uit": "SV 07 Elversberg",
+      "uitLogo": "https://crests.football-data.org/719.png"
+    },
+    {
+      "id": 565802,
+      "datum": "za 12 september 15:30",
+      "thuis": "SC Freiburg",
+      "thuisLogo": "https://crests.football-data.org/17.png",
+      "uit": "Borussia Mönchengladbach",
+      "uitLogo": "https://crests.football-data.org/18.png"
+    },
+    {
+      "id": 565809,
+      "datum": "za 19 september 15:30",
+      "thuis": "Borussia Mönchengladbach",
+      "thuisLogo": "https://crests.football-data.org/18.png",
+      "uit": "1. FSV Mainz 05",
+      "uitLogo": "https://crests.football-data.org/15.png"
+    },
+    {
+      "id": 565814,
+      "datum": "za 10 oktober 15:30",
+      "thuis": "1. FC Köln",
+      "thuisLogo": "https://crests.football-data.org/1.png",
+      "uit": "Borussia Mönchengladbach",
+      "uitLogo": "https://crests.football-data.org/18.png"
+    },
+    {
+      "id": 565826,
+      "datum": "za 17 oktober 15:30",
+      "thuis": "Borussia Mönchengladbach",
+      "thuisLogo": "https://crests.football-data.org/18.png",
+      "uit": "TSG 1899 Hoffenheim",
+      "uitLogo": "https://crests.football-data.org/2.png"
+    },
+    {
+      "id": 565833,
+      "datum": "za 24 oktober 15:30",
+      "thuis": "VfB Stuttgart",
+      "thuisLogo": "https://crests.football-data.org/10.png",
+      "uit": "Borussia Mönchengladbach",
+      "uitLogo": "https://crests.football-data.org/18.png"
+    },
+    {
+      "id": 565839,
+      "datum": "za 31 oktober 15:30",
+      "thuis": "Borussia Mönchengladbach",
+      "thuisLogo": "https://crests.football-data.org/18.png",
+      "uit": "SC Paderborn 07",
+      "uitLogo": "https://crests.football-data.org/29.png"
+    },
+    {
+      "id": 565852,
+      "datum": "za 7 november 15:30",
+      "thuis": "Hamburger SV",
+      "thuisLogo": "https://crests.football-data.org/7.png",
+      "uit": "Borussia Mönchengladbach",
+      "uitLogo": "https://crests.football-data.org/18.png"
+    },
+    {
+      "id": 565862,
+      "datum": "za 21 november 15:30",
+      "thuis": "Borussia Mönchengladbach",
+      "thuisLogo": "https://crests.football-data.org/18.png",
+      "uit": "Borussia Dortmund",
+      "uitLogo": "https://crests.football-data.org/4.png"
+    },
+    {
+      "id": 565869,
+      "datum": "za 28 november 15:30",
+      "thuis": "SV Werder Bremen",
+      "thuisLogo": "https://crests.football-data.org/12.png",
+      "uit": "Borussia Mönchengladbach",
+      "uitLogo": "https://crests.football-data.org/18.png"
+    },
+    {
+      "id": 565877,
+      "datum": "za 5 december 15:30",
+      "thuis": "Bayer 04 Leverkusen",
+      "thuisLogo": "https://crests.football-data.org/3.png",
+      "uit": "Borussia Mönchengladbach",
+      "uitLogo": "https://crests.football-data.org/18.png"
+    },
+    {
+      "id": 565892,
+      "datum": "za 12 december 15:30",
+      "thuis": "Borussia Mönchengladbach",
+      "thuisLogo": "https://crests.football-data.org/18.png",
+      "uit": "Eintracht Frankfurt",
+      "uitLogo": "https://crests.football-data.org/19.png"
+    },
+    {
+      "id": 565893,
+      "datum": "za 19 december 15:30",
+      "thuis": "FC Schalke 04",
+      "thuisLogo": "https://crests.football-data.org/6.png",
+      "uit": "Borussia Mönchengladbach",
+      "uitLogo": "https://crests.football-data.org/18.png"
+    },
+    {
+      "id": 565907,
+      "datum": "za 9 januari 13:00",
+      "thuis": "Borussia Mönchengladbach",
+      "thuisLogo": "https://crests.football-data.org/18.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png"
+    },
+    {
+      "id": 565917,
+      "datum": "wo 13 januari 13:00",
+      "thuis": "FC Augsburg",
+      "thuisLogo": "https://crests.football-data.org/16.png",
+      "uit": "Borussia Mönchengladbach",
+      "uitLogo": "https://crests.football-data.org/18.png"
+    },
+    {
+      "id": 565927,
+      "datum": "za 16 januari 13:00",
+      "thuis": "Borussia Mönchengladbach",
+      "thuisLogo": "https://crests.football-data.org/18.png",
+      "uit": "1. FC Union Berlin",
+      "uitLogo": "https://crests.football-data.org/28.png"
+    },
+    {
+      "id": 565935,
+      "datum": "za 23 januari 13:00",
+      "thuis": "Borussia Mönchengladbach",
+      "thuisLogo": "https://crests.football-data.org/18.png",
+      "uit": "RB Leipzig",
+      "uitLogo": "https://crests.football-data.org/721.png"
+    },
+    {
+      "id": 565938,
+      "datum": "za 30 januari 13:00",
+      "thuis": "SV 07 Elversberg",
+      "thuisLogo": "https://crests.football-data.org/719.png",
+      "uit": "Borussia Mönchengladbach",
+      "uitLogo": "https://crests.football-data.org/18.png"
+    },
+    {
+      "id": 565948,
+      "datum": "za 6 februari 13:00",
+      "thuis": "Borussia Mönchengladbach",
+      "thuisLogo": "https://crests.football-data.org/18.png",
+      "uit": "SC Freiburg",
+      "uitLogo": "https://crests.football-data.org/17.png"
+    },
+    {
+      "id": 565957,
+      "datum": "za 13 februari 13:00",
+      "thuis": "1. FSV Mainz 05",
+      "thuisLogo": "https://crests.football-data.org/15.png",
+      "uit": "Borussia Mönchengladbach",
+      "uitLogo": "https://crests.football-data.org/18.png"
+    },
+    {
+      "id": 565967,
+      "datum": "za 20 februari 13:00",
+      "thuis": "Borussia Mönchengladbach",
+      "thuisLogo": "https://crests.football-data.org/18.png",
+      "uit": "1. FC Köln",
+      "uitLogo": "https://crests.football-data.org/1.png"
+    },
+    {
+      "id": 565979,
+      "datum": "za 27 februari 13:00",
+      "thuis": "TSG 1899 Hoffenheim",
+      "thuisLogo": "https://crests.football-data.org/2.png",
+      "uit": "Borussia Mönchengladbach",
+      "uitLogo": "https://crests.football-data.org/18.png"
+    },
+    {
+      "id": 565990,
+      "datum": "wo 3 maart 13:00",
+      "thuis": "Borussia Mönchengladbach",
+      "thuisLogo": "https://crests.football-data.org/18.png",
+      "uit": "VfB Stuttgart",
+      "uitLogo": "https://crests.football-data.org/10.png"
+    },
+    {
+      "id": 565998,
+      "datum": "za 6 maart 13:00",
+      "thuis": "SC Paderborn 07",
+      "thuisLogo": "https://crests.football-data.org/29.png",
+      "uit": "Borussia Mönchengladbach",
+      "uitLogo": "https://crests.football-data.org/18.png"
+    },
+    {
+      "id": 566005,
+      "datum": "za 13 maart 13:00",
+      "thuis": "Borussia Mönchengladbach",
+      "thuisLogo": "https://crests.football-data.org/18.png",
+      "uit": "Hamburger SV",
+      "uitLogo": "https://crests.football-data.org/7.png"
+    },
+    {
+      "id": 566018,
+      "datum": "za 20 maart 13:00",
+      "thuis": "Borussia Dortmund",
+      "thuisLogo": "https://crests.football-data.org/4.png",
+      "uit": "Borussia Mönchengladbach",
+      "uitLogo": "https://crests.football-data.org/18.png"
+    },
+    {
+      "id": 566023,
+      "datum": "za 3 april 14:00",
+      "thuis": "Borussia Mönchengladbach",
+      "thuisLogo": "https://crests.football-data.org/18.png",
+      "uit": "SV Werder Bremen",
+      "uitLogo": "https://crests.football-data.org/12.png"
+    },
+    {
+      "id": 566035,
+      "datum": "za 10 april 14:00",
+      "thuis": "Borussia Mönchengladbach",
+      "thuisLogo": "https://crests.football-data.org/18.png",
+      "uit": "Bayer 04 Leverkusen",
+      "uitLogo": "https://crests.football-data.org/3.png"
+    },
+    {
+      "id": 566038,
+      "datum": "za 17 april 14:00",
+      "thuis": "Eintracht Frankfurt",
+      "thuisLogo": "https://crests.football-data.org/19.png",
+      "uit": "Borussia Mönchengladbach",
+      "uitLogo": "https://crests.football-data.org/18.png"
+    },
+    {
+      "id": 566053,
+      "datum": "za 24 april 14:00",
+      "thuis": "Borussia Mönchengladbach",
+      "thuisLogo": "https://crests.football-data.org/18.png",
+      "uit": "FC Schalke 04",
+      "uitLogo": "https://crests.football-data.org/6.png"
+    },
+    {
+      "id": 566063,
+      "datum": "za 8 mei 14:00",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "Borussia Mönchengladbach",
+      "uitLogo": "https://crests.football-data.org/18.png"
+    },
+    {
+      "id": 566071,
+      "datum": "za 15 mei 14:00",
+      "thuis": "Borussia Mönchengladbach",
+      "thuisLogo": "https://crests.football-data.org/18.png",
+      "uit": "FC Augsburg",
+      "uitLogo": "https://crests.football-data.org/16.png"
+    },
+    {
+      "id": 566074,
+      "datum": "za 22 mei 14:00",
+      "thuis": "1. FC Union Berlin",
+      "thuisLogo": "https://crests.football-data.org/28.png",
+      "uit": "Borussia Mönchengladbach",
+      "uitLogo": "https://crests.football-data.org/18.png"
+    }
+  ],
+  "15": [
+    {
+      "id": 565778,
+      "datum": "za 29 augustus 15:30",
+      "thuis": "1. FSV Mainz 05",
+      "thuisLogo": "https://crests.football-data.org/15.png",
+      "uit": "SC Paderborn 07",
+      "uitLogo": "https://crests.football-data.org/29.png"
+    },
+    {
+      "id": 565788,
+      "datum": "za 5 september 15:30",
+      "thuis": "Hamburger SV",
+      "thuisLogo": "https://crests.football-data.org/7.png",
+      "uit": "1. FSV Mainz 05",
+      "uitLogo": "https://crests.football-data.org/15.png"
+    },
+    {
+      "id": 565801,
+      "datum": "za 12 september 15:30",
+      "thuis": "1. FSV Mainz 05",
+      "thuisLogo": "https://crests.football-data.org/15.png",
+      "uit": "Eintracht Frankfurt",
+      "uitLogo": "https://crests.football-data.org/19.png"
+    },
+    {
+      "id": 565809,
+      "datum": "za 19 september 15:30",
+      "thuis": "Borussia Mönchengladbach",
+      "thuisLogo": "https://crests.football-data.org/18.png",
+      "uit": "1. FSV Mainz 05",
+      "uitLogo": "https://crests.football-data.org/15.png"
+    },
+    {
+      "id": 565812,
+      "datum": "za 10 oktober 15:30",
+      "thuis": "1. FSV Mainz 05",
+      "thuisLogo": "https://crests.football-data.org/15.png",
+      "uit": "Bayer 04 Leverkusen",
+      "uitLogo": "https://crests.football-data.org/3.png"
+    },
+    {
+      "id": 565829,
+      "datum": "za 17 oktober 15:30",
+      "thuis": "FC Schalke 04",
+      "thuisLogo": "https://crests.football-data.org/6.png",
+      "uit": "1. FSV Mainz 05",
+      "uitLogo": "https://crests.football-data.org/15.png"
+    },
+    {
+      "id": 565830,
+      "datum": "za 24 oktober 15:30",
+      "thuis": "1. FSV Mainz 05",
+      "thuisLogo": "https://crests.football-data.org/15.png",
+      "uit": "SV Werder Bremen",
+      "uitLogo": "https://crests.football-data.org/12.png"
+    },
+    {
+      "id": 565846,
+      "datum": "za 31 oktober 15:30",
+      "thuis": "SV 07 Elversberg",
+      "thuisLogo": "https://crests.football-data.org/719.png",
+      "uit": "1. FSV Mainz 05",
+      "uitLogo": "https://crests.football-data.org/15.png"
+    },
+    {
+      "id": 565851,
+      "datum": "za 7 november 15:30",
+      "thuis": "1. FSV Mainz 05",
+      "thuisLogo": "https://crests.football-data.org/15.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png"
+    },
+    {
+      "id": 565864,
+      "datum": "za 21 november 15:30",
+      "thuis": "FC Augsburg",
+      "thuisLogo": "https://crests.football-data.org/16.png",
+      "uit": "1. FSV Mainz 05",
+      "uitLogo": "https://crests.football-data.org/15.png"
+    },
+    {
+      "id": 565867,
+      "datum": "za 28 november 15:30",
+      "thuis": "1. FSV Mainz 05",
+      "thuisLogo": "https://crests.football-data.org/15.png",
+      "uit": "1. FC Union Berlin",
+      "uitLogo": "https://crests.football-data.org/28.png"
+    },
+    {
+      "id": 565879,
+      "datum": "za 5 december 15:30",
+      "thuis": "RB Leipzig",
+      "thuisLogo": "https://crests.football-data.org/721.png",
+      "uit": "1. FSV Mainz 05",
+      "uitLogo": "https://crests.football-data.org/15.png"
+    },
+    {
+      "id": 565889,
+      "datum": "za 12 december 15:30",
+      "thuis": "1. FSV Mainz 05",
+      "thuisLogo": "https://crests.football-data.org/15.png",
+      "uit": "SC Freiburg",
+      "uitLogo": "https://crests.football-data.org/17.png"
+    },
+    {
+      "id": 565899,
+      "datum": "za 19 december 15:30",
+      "thuis": "1. FSV Mainz 05",
+      "thuisLogo": "https://crests.football-data.org/15.png",
+      "uit": "1. FC Köln",
+      "uitLogo": "https://crests.football-data.org/1.png"
+    },
+    {
+      "id": 565908,
+      "datum": "za 9 januari 13:00",
+      "thuis": "Borussia Dortmund",
+      "thuisLogo": "https://crests.football-data.org/4.png",
+      "uit": "1. FSV Mainz 05",
+      "uitLogo": "https://crests.football-data.org/15.png"
+    },
+    {
+      "id": 565911,
+      "datum": "wo 13 januari 13:00",
+      "thuis": "1. FSV Mainz 05",
+      "thuisLogo": "https://crests.football-data.org/15.png",
+      "uit": "TSG 1899 Hoffenheim",
+      "uitLogo": "https://crests.football-data.org/2.png"
+    },
+    {
+      "id": 565925,
+      "datum": "za 16 januari 13:00",
+      "thuis": "VfB Stuttgart",
+      "thuisLogo": "https://crests.football-data.org/10.png",
+      "uit": "1. FSV Mainz 05",
+      "uitLogo": "https://crests.football-data.org/15.png"
+    },
+    {
+      "id": 565931,
+      "datum": "za 23 januari 13:00",
+      "thuis": "SC Paderborn 07",
+      "thuisLogo": "https://crests.football-data.org/29.png",
+      "uit": "1. FSV Mainz 05",
+      "uitLogo": "https://crests.football-data.org/15.png"
+    },
+    {
+      "id": 565940,
+      "datum": "za 30 januari 13:00",
+      "thuis": "1. FSV Mainz 05",
+      "thuisLogo": "https://crests.football-data.org/15.png",
+      "uit": "Hamburger SV",
+      "uitLogo": "https://crests.football-data.org/7.png"
+    },
+    {
+      "id": 565947,
+      "datum": "za 6 februari 13:00",
+      "thuis": "Eintracht Frankfurt",
+      "thuisLogo": "https://crests.football-data.org/19.png",
+      "uit": "1. FSV Mainz 05",
+      "uitLogo": "https://crests.football-data.org/15.png"
+    },
+    {
+      "id": 565957,
+      "datum": "za 13 februari 13:00",
+      "thuis": "1. FSV Mainz 05",
+      "thuisLogo": "https://crests.football-data.org/15.png",
+      "uit": "Borussia Mönchengladbach",
+      "uitLogo": "https://crests.football-data.org/18.png"
+    },
+    {
+      "id": 565970,
+      "datum": "za 20 februari 13:00",
+      "thuis": "Bayer 04 Leverkusen",
+      "thuisLogo": "https://crests.football-data.org/3.png",
+      "uit": "1. FSV Mainz 05",
+      "uitLogo": "https://crests.football-data.org/15.png"
+    },
+    {
+      "id": 565978,
+      "datum": "za 27 februari 13:00",
+      "thuis": "1. FSV Mainz 05",
+      "thuisLogo": "https://crests.football-data.org/15.png",
+      "uit": "FC Schalke 04",
+      "uitLogo": "https://crests.football-data.org/6.png"
+    },
+    {
+      "id": 565987,
+      "datum": "wo 3 maart 13:00",
+      "thuis": "SV Werder Bremen",
+      "thuisLogo": "https://crests.football-data.org/12.png",
+      "uit": "1. FSV Mainz 05",
+      "uitLogo": "https://crests.football-data.org/15.png"
+    },
+    {
+      "id": 565994,
+      "datum": "za 6 maart 13:00",
+      "thuis": "1. FSV Mainz 05",
+      "thuisLogo": "https://crests.football-data.org/15.png",
+      "uit": "SV 07 Elversberg",
+      "uitLogo": "https://crests.football-data.org/719.png"
+    },
+    {
+      "id": 566008,
+      "datum": "za 13 maart 13:00",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "1. FSV Mainz 05",
+      "uitLogo": "https://crests.football-data.org/15.png"
+    },
+    {
+      "id": 566010,
+      "datum": "za 20 maart 13:00",
+      "thuis": "1. FSV Mainz 05",
+      "thuisLogo": "https://crests.football-data.org/15.png",
+      "uit": "FC Augsburg",
+      "uitLogo": "https://crests.football-data.org/16.png"
+    },
+    {
+      "id": 566025,
+      "datum": "za 3 april 14:00",
+      "thuis": "1. FC Union Berlin",
+      "thuisLogo": "https://crests.football-data.org/28.png",
+      "uit": "1. FSV Mainz 05",
+      "uitLogo": "https://crests.football-data.org/15.png"
+    },
+    {
+      "id": 566031,
+      "datum": "za 10 april 14:00",
+      "thuis": "1. FSV Mainz 05",
+      "thuisLogo": "https://crests.football-data.org/15.png",
+      "uit": "RB Leipzig",
+      "uitLogo": "https://crests.football-data.org/721.png"
+    },
+    {
+      "id": 566044,
+      "datum": "za 17 april 14:00",
+      "thuis": "SC Freiburg",
+      "thuisLogo": "https://crests.football-data.org/17.png",
+      "uit": "1. FSV Mainz 05",
+      "uitLogo": "https://crests.football-data.org/15.png"
+    },
+    {
+      "id": 566047,
+      "datum": "za 24 april 14:00",
+      "thuis": "1. FC Köln",
+      "thuisLogo": "https://crests.football-data.org/1.png",
+      "uit": "1. FSV Mainz 05",
+      "uitLogo": "https://crests.football-data.org/15.png"
+    },
+    {
+      "id": 566058,
+      "datum": "za 8 mei 14:00",
+      "thuis": "1. FSV Mainz 05",
+      "thuisLogo": "https://crests.football-data.org/15.png",
+      "uit": "Borussia Dortmund",
+      "uitLogo": "https://crests.football-data.org/4.png"
+    },
+    {
+      "id": 566072,
+      "datum": "za 15 mei 14:00",
+      "thuis": "TSG 1899 Hoffenheim",
+      "thuisLogo": "https://crests.football-data.org/2.png",
+      "uit": "1. FSV Mainz 05",
+      "uitLogo": "https://crests.football-data.org/15.png"
+    },
+    {
+      "id": 566075,
+      "datum": "za 22 mei 14:00",
+      "thuis": "1. FSV Mainz 05",
+      "thuisLogo": "https://crests.football-data.org/15.png",
+      "uit": "VfB Stuttgart",
+      "uitLogo": "https://crests.football-data.org/10.png"
+    }
+  ],
+  "29": [
+    {
+      "id": 565778,
+      "datum": "za 29 augustus 15:30",
+      "thuis": "1. FSV Mainz 05",
+      "thuisLogo": "https://crests.football-data.org/15.png",
+      "uit": "SC Paderborn 07",
+      "uitLogo": "https://crests.football-data.org/29.png"
+    },
+    {
+      "id": 565793,
+      "datum": "za 5 september 15:30",
+      "thuis": "SC Paderborn 07",
+      "thuisLogo": "https://crests.football-data.org/29.png",
+      "uit": "SC Freiburg",
+      "uitLogo": "https://crests.football-data.org/17.png"
+    },
+    {
+      "id": 565795,
+      "datum": "za 12 september 15:30",
+      "thuis": "Borussia Dortmund",
+      "thuisLogo": "https://crests.football-data.org/4.png",
+      "uit": "SC Paderborn 07",
+      "uitLogo": "https://crests.football-data.org/29.png"
+    },
+    {
+      "id": 565803,
+      "datum": "za 19 september 15:30",
+      "thuis": "SC Paderborn 07",
+      "thuisLogo": "https://crests.football-data.org/29.png",
+      "uit": "TSG 1899 Hoffenheim",
+      "uitLogo": "https://crests.football-data.org/2.png"
+    },
+    {
+      "id": 565813,
+      "datum": "za 10 oktober 15:30",
+      "thuis": "SC Paderborn 07",
+      "thuisLogo": "https://crests.football-data.org/29.png",
+      "uit": "VfB Stuttgart",
+      "uitLogo": "https://crests.football-data.org/10.png"
+    },
+    {
+      "id": 565823,
+      "datum": "za 17 oktober 15:30",
+      "thuis": "SV Werder Bremen",
+      "thuisLogo": "https://crests.football-data.org/12.png",
+      "uit": "SC Paderborn 07",
+      "uitLogo": "https://crests.football-data.org/29.png"
+    },
+    {
+      "id": 565834,
+      "datum": "za 24 oktober 15:30",
+      "thuis": "SC Paderborn 07",
+      "thuisLogo": "https://crests.football-data.org/29.png",
+      "uit": "Hamburger SV",
+      "uitLogo": "https://crests.football-data.org/7.png"
+    },
+    {
+      "id": 565839,
+      "datum": "za 31 oktober 15:30",
+      "thuis": "Borussia Mönchengladbach",
+      "thuisLogo": "https://crests.football-data.org/18.png",
+      "uit": "SC Paderborn 07",
+      "uitLogo": "https://crests.football-data.org/29.png"
+    },
+    {
+      "id": 565853,
+      "datum": "za 7 november 15:30",
+      "thuis": "SC Paderborn 07",
+      "thuisLogo": "https://crests.football-data.org/29.png",
+      "uit": "Eintracht Frankfurt",
+      "uitLogo": "https://crests.football-data.org/19.png"
+    },
+    {
+      "id": 565857,
+      "datum": "za 21 november 15:30",
+      "thuis": "Bayer 04 Leverkusen",
+      "thuisLogo": "https://crests.football-data.org/3.png",
+      "uit": "SC Paderborn 07",
+      "uitLogo": "https://crests.football-data.org/29.png"
+    },
+    {
+      "id": 565868,
+      "datum": "za 28 november 15:30",
+      "thuis": "SC Paderborn 07",
+      "thuisLogo": "https://crests.football-data.org/29.png",
+      "uit": "FC Schalke 04",
+      "uitLogo": "https://crests.football-data.org/6.png"
+    },
+    {
+      "id": 565882,
+      "datum": "za 5 december 15:30",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "SC Paderborn 07",
+      "uitLogo": "https://crests.football-data.org/29.png"
+    },
+    {
+      "id": 565884,
+      "datum": "za 12 december 15:30",
+      "thuis": "SC Paderborn 07",
+      "thuisLogo": "https://crests.football-data.org/29.png",
+      "uit": "SV 07 Elversberg",
+      "uitLogo": "https://crests.football-data.org/719.png"
+    },
+    {
+      "id": 565901,
+      "datum": "za 19 december 15:30",
+      "thuis": "FC Augsburg",
+      "thuisLogo": "https://crests.football-data.org/16.png",
+      "uit": "SC Paderborn 07",
+      "uitLogo": "https://crests.football-data.org/29.png"
+    },
+    {
+      "id": 565910,
+      "datum": "za 9 januari 13:00",
+      "thuis": "SC Paderborn 07",
+      "thuisLogo": "https://crests.football-data.org/29.png",
+      "uit": "RB Leipzig",
+      "uitLogo": "https://crests.football-data.org/721.png"
+    },
+    {
+      "id": 565915,
+      "datum": "wo 13 januari 13:00",
+      "thuis": "1. FC Union Berlin",
+      "thuisLogo": "https://crests.football-data.org/28.png",
+      "uit": "SC Paderborn 07",
+      "uitLogo": "https://crests.football-data.org/29.png"
+    },
+    {
+      "id": 565922,
+      "datum": "za 16 januari 13:00",
+      "thuis": "SC Paderborn 07",
+      "thuisLogo": "https://crests.football-data.org/29.png",
+      "uit": "1. FC Köln",
+      "uitLogo": "https://crests.football-data.org/1.png"
+    },
+    {
+      "id": 565931,
+      "datum": "za 23 januari 13:00",
+      "thuis": "SC Paderborn 07",
+      "thuisLogo": "https://crests.football-data.org/29.png",
+      "uit": "1. FSV Mainz 05",
+      "uitLogo": "https://crests.football-data.org/15.png"
+    },
+    {
+      "id": 565944,
+      "datum": "za 30 januari 13:00",
+      "thuis": "SC Freiburg",
+      "thuisLogo": "https://crests.football-data.org/17.png",
+      "uit": "SC Paderborn 07",
+      "uitLogo": "https://crests.football-data.org/29.png"
+    },
+    {
+      "id": 565955,
+      "datum": "za 6 februari 13:00",
+      "thuis": "SC Paderborn 07",
+      "thuisLogo": "https://crests.football-data.org/29.png",
+      "uit": "Borussia Dortmund",
+      "uitLogo": "https://crests.football-data.org/4.png"
+    },
+    {
+      "id": 565961,
+      "datum": "za 13 februari 13:00",
+      "thuis": "TSG 1899 Hoffenheim",
+      "thuisLogo": "https://crests.football-data.org/2.png",
+      "uit": "SC Paderborn 07",
+      "uitLogo": "https://crests.football-data.org/29.png"
+    },
+    {
+      "id": 565966,
+      "datum": "za 20 februari 13:00",
+      "thuis": "VfB Stuttgart",
+      "thuisLogo": "https://crests.football-data.org/10.png",
+      "uit": "SC Paderborn 07",
+      "uitLogo": "https://crests.football-data.org/29.png"
+    },
+    {
+      "id": 565980,
+      "datum": "za 27 februari 13:00",
+      "thuis": "SC Paderborn 07",
+      "thuisLogo": "https://crests.football-data.org/29.png",
+      "uit": "SV Werder Bremen",
+      "uitLogo": "https://crests.football-data.org/12.png"
+    },
+    {
+      "id": 565991,
+      "datum": "wo 3 maart 13:00",
+      "thuis": "Hamburger SV",
+      "thuisLogo": "https://crests.football-data.org/7.png",
+      "uit": "SC Paderborn 07",
+      "uitLogo": "https://crests.football-data.org/29.png"
+    },
+    {
+      "id": 565998,
+      "datum": "za 6 maart 13:00",
+      "thuis": "SC Paderborn 07",
+      "thuisLogo": "https://crests.football-data.org/29.png",
+      "uit": "Borussia Mönchengladbach",
+      "uitLogo": "https://crests.football-data.org/18.png"
+    },
+    {
+      "id": 566003,
+      "datum": "za 13 maart 13:00",
+      "thuis": "Eintracht Frankfurt",
+      "thuisLogo": "https://crests.football-data.org/19.png",
+      "uit": "SC Paderborn 07",
+      "uitLogo": "https://crests.football-data.org/29.png"
+    },
+    {
+      "id": 566015,
+      "datum": "za 20 maart 13:00",
+      "thuis": "SC Paderborn 07",
+      "thuisLogo": "https://crests.football-data.org/29.png",
+      "uit": "Bayer 04 Leverkusen",
+      "uitLogo": "https://crests.football-data.org/3.png"
+    },
+    {
+      "id": 566027,
+      "datum": "za 3 april 14:00",
+      "thuis": "FC Schalke 04",
+      "thuisLogo": "https://crests.football-data.org/6.png",
+      "uit": "SC Paderborn 07",
+      "uitLogo": "https://crests.football-data.org/29.png"
+    },
+    {
+      "id": 566029,
+      "datum": "za 10 april 14:00",
+      "thuis": "SC Paderborn 07",
+      "thuisLogo": "https://crests.football-data.org/29.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png"
+    },
+    {
+      "id": 566042,
+      "datum": "za 17 april 14:00",
+      "thuis": "SV 07 Elversberg",
+      "thuisLogo": "https://crests.football-data.org/719.png",
+      "uit": "SC Paderborn 07",
+      "uitLogo": "https://crests.football-data.org/29.png"
+    },
+    {
+      "id": 566051,
+      "datum": "za 24 april 14:00",
+      "thuis": "SC Paderborn 07",
+      "thuisLogo": "https://crests.football-data.org/29.png",
+      "uit": "FC Augsburg",
+      "uitLogo": "https://crests.football-data.org/16.png"
+    },
+    {
+      "id": 566056,
+      "datum": "za 8 mei 14:00",
+      "thuis": "RB Leipzig",
+      "thuisLogo": "https://crests.football-data.org/721.png",
+      "uit": "SC Paderborn 07",
+      "uitLogo": "https://crests.football-data.org/29.png"
+    },
+    {
+      "id": 566065,
+      "datum": "za 15 mei 14:00",
+      "thuis": "SC Paderborn 07",
+      "thuisLogo": "https://crests.football-data.org/29.png",
+      "uit": "1. FC Union Berlin",
+      "uitLogo": "https://crests.football-data.org/28.png"
+    },
+    {
+      "id": 566081,
+      "datum": "za 22 mei 14:00",
+      "thuis": "1. FC Köln",
+      "thuisLogo": "https://crests.football-data.org/1.png",
+      "uit": "SC Paderborn 07",
+      "uitLogo": "https://crests.football-data.org/29.png"
+    }
+  ],
+  "28": [
+    {
+      "id": 565779,
+      "datum": "za 29 augustus 15:30",
+      "thuis": "1. FC Union Berlin",
+      "thuisLogo": "https://crests.football-data.org/28.png",
+      "uit": "Eintracht Frankfurt",
+      "uitLogo": "https://crests.football-data.org/19.png"
+    },
+    {
+      "id": 565790,
+      "datum": "za 5 september 15:30",
+      "thuis": "Bayer 04 Leverkusen",
+      "thuisLogo": "https://crests.football-data.org/3.png",
+      "uit": "1. FC Union Berlin",
+      "uitLogo": "https://crests.football-data.org/28.png"
+    },
+    {
+      "id": 565797,
+      "datum": "za 12 september 15:30",
+      "thuis": "1. FC Union Berlin",
+      "thuisLogo": "https://crests.football-data.org/28.png",
+      "uit": "FC Schalke 04",
+      "uitLogo": "https://crests.football-data.org/6.png"
+    },
+    {
+      "id": 565804,
+      "datum": "za 19 september 15:30",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "1. FC Union Berlin",
+      "uitLogo": "https://crests.football-data.org/28.png"
+    },
+    {
+      "id": 565817,
+      "datum": "za 10 oktober 15:30",
+      "thuis": "1. FC Union Berlin",
+      "thuisLogo": "https://crests.football-data.org/28.png",
+      "uit": "SV 07 Elversberg",
+      "uitLogo": "https://crests.football-data.org/719.png"
+    },
+    {
+      "id": 565821,
+      "datum": "za 17 oktober 15:30",
+      "thuis": "1. FC Union Berlin",
+      "thuisLogo": "https://crests.football-data.org/28.png",
+      "uit": "Borussia Dortmund",
+      "uitLogo": "https://crests.football-data.org/4.png"
+    },
+    {
+      "id": 565838,
+      "datum": "za 24 oktober 15:30",
+      "thuis": "FC Augsburg",
+      "thuisLogo": "https://crests.football-data.org/16.png",
+      "uit": "1. FC Union Berlin",
+      "uitLogo": "https://crests.football-data.org/28.png"
+    },
+    {
+      "id": 565841,
+      "datum": "za 31 oktober 15:30",
+      "thuis": "1. FC Union Berlin",
+      "thuisLogo": "https://crests.football-data.org/28.png",
+      "uit": "1. FC Köln",
+      "uitLogo": "https://crests.football-data.org/1.png"
+    },
+    {
+      "id": 565854,
+      "datum": "za 7 november 15:30",
+      "thuis": "SC Freiburg",
+      "thuisLogo": "https://crests.football-data.org/17.png",
+      "uit": "1. FC Union Berlin",
+      "uitLogo": "https://crests.football-data.org/28.png"
+    },
+    {
+      "id": 565858,
+      "datum": "za 21 november 15:30",
+      "thuis": "1. FC Union Berlin",
+      "thuisLogo": "https://crests.football-data.org/28.png",
+      "uit": "RB Leipzig",
+      "uitLogo": "https://crests.football-data.org/721.png"
+    },
+    {
+      "id": 565867,
+      "datum": "za 28 november 15:30",
+      "thuis": "1. FSV Mainz 05",
+      "thuisLogo": "https://crests.football-data.org/15.png",
+      "uit": "1. FC Union Berlin",
+      "uitLogo": "https://crests.football-data.org/28.png"
+    },
+    {
+      "id": 565875,
+      "datum": "za 5 december 15:30",
+      "thuis": "1. FC Union Berlin",
+      "thuisLogo": "https://crests.football-data.org/28.png",
+      "uit": "Hamburger SV",
+      "uitLogo": "https://crests.football-data.org/7.png"
+    },
+    {
+      "id": 565886,
+      "datum": "za 12 december 15:30",
+      "thuis": "VfB Stuttgart",
+      "thuisLogo": "https://crests.football-data.org/10.png",
+      "uit": "1. FC Union Berlin",
+      "uitLogo": "https://crests.football-data.org/28.png"
+    },
+    {
+      "id": 565900,
+      "datum": "za 19 december 15:30",
+      "thuis": "1. FC Union Berlin",
+      "thuisLogo": "https://crests.football-data.org/28.png",
+      "uit": "TSG 1899 Hoffenheim",
+      "uitLogo": "https://crests.football-data.org/2.png"
+    },
+    {
+      "id": 565909,
+      "datum": "za 9 januari 13:00",
+      "thuis": "SV Werder Bremen",
+      "thuisLogo": "https://crests.football-data.org/12.png",
+      "uit": "1. FC Union Berlin",
+      "uitLogo": "https://crests.football-data.org/28.png"
+    },
+    {
+      "id": 565915,
+      "datum": "wo 13 januari 13:00",
+      "thuis": "1. FC Union Berlin",
+      "thuisLogo": "https://crests.football-data.org/28.png",
+      "uit": "SC Paderborn 07",
+      "uitLogo": "https://crests.football-data.org/29.png"
+    },
+    {
+      "id": 565927,
+      "datum": "za 16 januari 13:00",
+      "thuis": "Borussia Mönchengladbach",
+      "thuisLogo": "https://crests.football-data.org/18.png",
+      "uit": "1. FC Union Berlin",
+      "uitLogo": "https://crests.football-data.org/28.png"
+    },
+    {
+      "id": 565936,
+      "datum": "za 23 januari 13:00",
+      "thuis": "Eintracht Frankfurt",
+      "thuisLogo": "https://crests.football-data.org/19.png",
+      "uit": "1. FC Union Berlin",
+      "uitLogo": "https://crests.football-data.org/28.png"
+    },
+    {
+      "id": 565943,
+      "datum": "za 30 januari 13:00",
+      "thuis": "1. FC Union Berlin",
+      "thuisLogo": "https://crests.football-data.org/28.png",
+      "uit": "Bayer 04 Leverkusen",
+      "uitLogo": "https://crests.football-data.org/3.png"
+    },
+    {
+      "id": 565949,
+      "datum": "za 6 februari 13:00",
+      "thuis": "FC Schalke 04",
+      "thuisLogo": "https://crests.football-data.org/6.png",
+      "uit": "1. FC Union Berlin",
+      "uitLogo": "https://crests.football-data.org/28.png"
+    },
+    {
+      "id": 565958,
+      "datum": "za 13 februari 13:00",
+      "thuis": "1. FC Union Berlin",
+      "thuisLogo": "https://crests.football-data.org/28.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png"
+    },
+    {
+      "id": 565973,
+      "datum": "za 20 februari 13:00",
+      "thuis": "SV 07 Elversberg",
+      "thuisLogo": "https://crests.football-data.org/719.png",
+      "uit": "1. FC Union Berlin",
+      "uitLogo": "https://crests.football-data.org/28.png"
+    },
+    {
+      "id": 565982,
+      "datum": "za 27 februari 13:00",
+      "thuis": "Borussia Dortmund",
+      "thuisLogo": "https://crests.football-data.org/4.png",
+      "uit": "1. FC Union Berlin",
+      "uitLogo": "https://crests.football-data.org/28.png"
+    },
+    {
+      "id": 565988,
+      "datum": "wo 3 maart 13:00",
+      "thuis": "1. FC Union Berlin",
+      "thuisLogo": "https://crests.football-data.org/28.png",
+      "uit": "FC Augsburg",
+      "uitLogo": "https://crests.football-data.org/16.png"
+    },
+    {
+      "id": 565999,
+      "datum": "za 6 maart 13:00",
+      "thuis": "1. FC Köln",
+      "thuisLogo": "https://crests.football-data.org/1.png",
+      "uit": "1. FC Union Berlin",
+      "uitLogo": "https://crests.football-data.org/28.png"
+    },
+    {
+      "id": 566001,
+      "datum": "za 13 maart 13:00",
+      "thuis": "1. FC Union Berlin",
+      "thuisLogo": "https://crests.football-data.org/28.png",
+      "uit": "SC Freiburg",
+      "uitLogo": "https://crests.football-data.org/17.png"
+    },
+    {
+      "id": 566012,
+      "datum": "za 20 maart 13:00",
+      "thuis": "RB Leipzig",
+      "thuisLogo": "https://crests.football-data.org/721.png",
+      "uit": "1. FC Union Berlin",
+      "uitLogo": "https://crests.football-data.org/28.png"
+    },
+    {
+      "id": 566025,
+      "datum": "za 3 april 14:00",
+      "thuis": "1. FC Union Berlin",
+      "thuisLogo": "https://crests.football-data.org/28.png",
+      "uit": "1. FSV Mainz 05",
+      "uitLogo": "https://crests.football-data.org/15.png"
+    },
+    {
+      "id": 566034,
+      "datum": "za 10 april 14:00",
+      "thuis": "Hamburger SV",
+      "thuisLogo": "https://crests.football-data.org/7.png",
+      "uit": "1. FC Union Berlin",
+      "uitLogo": "https://crests.football-data.org/28.png"
+    },
+    {
+      "id": 566039,
+      "datum": "za 17 april 14:00",
+      "thuis": "1. FC Union Berlin",
+      "thuisLogo": "https://crests.football-data.org/28.png",
+      "uit": "VfB Stuttgart",
+      "uitLogo": "https://crests.football-data.org/10.png"
+    },
+    {
+      "id": 566050,
+      "datum": "za 24 april 14:00",
+      "thuis": "TSG 1899 Hoffenheim",
+      "thuisLogo": "https://crests.football-data.org/2.png",
+      "uit": "1. FC Union Berlin",
+      "uitLogo": "https://crests.football-data.org/28.png"
+    },
+    {
+      "id": 566060,
+      "datum": "za 8 mei 14:00",
+      "thuis": "1. FC Union Berlin",
+      "thuisLogo": "https://crests.football-data.org/28.png",
+      "uit": "SV Werder Bremen",
+      "uitLogo": "https://crests.football-data.org/12.png"
+    },
+    {
+      "id": 566065,
+      "datum": "za 15 mei 14:00",
+      "thuis": "SC Paderborn 07",
+      "thuisLogo": "https://crests.football-data.org/29.png",
+      "uit": "1. FC Union Berlin",
+      "uitLogo": "https://crests.football-data.org/28.png"
+    },
+    {
+      "id": 566074,
+      "datum": "za 22 mei 14:00",
+      "thuis": "1. FC Union Berlin",
+      "thuisLogo": "https://crests.football-data.org/28.png",
+      "uit": "Borussia Mönchengladbach",
+      "uitLogo": "https://crests.football-data.org/18.png"
+    }
+  ],
+  "19": [
+    {
+      "id": 565779,
+      "datum": "za 29 augustus 15:30",
+      "thuis": "1. FC Union Berlin",
+      "thuisLogo": "https://crests.football-data.org/28.png",
+      "uit": "Eintracht Frankfurt",
+      "uitLogo": "https://crests.football-data.org/19.png"
+    },
+    {
+      "id": 565786,
+      "datum": "za 5 september 15:30",
+      "thuis": "Eintracht Frankfurt",
+      "thuisLogo": "https://crests.football-data.org/19.png",
+      "uit": "FC Augsburg",
+      "uitLogo": "https://crests.football-data.org/16.png"
+    },
+    {
+      "id": 565801,
+      "datum": "za 12 september 15:30",
+      "thuis": "1. FSV Mainz 05",
+      "thuisLogo": "https://crests.football-data.org/15.png",
+      "uit": "Eintracht Frankfurt",
+      "uitLogo": "https://crests.football-data.org/19.png"
+    },
+    {
+      "id": 565811,
+      "datum": "za 19 september 15:30",
+      "thuis": "Eintracht Frankfurt",
+      "thuisLogo": "https://crests.football-data.org/19.png",
+      "uit": "SC Freiburg",
+      "uitLogo": "https://crests.football-data.org/17.png"
+    },
+    {
+      "id": 565815,
+      "datum": "za 10 oktober 15:30",
+      "thuis": "RB Leipzig",
+      "thuisLogo": "https://crests.football-data.org/721.png",
+      "uit": "Eintracht Frankfurt",
+      "uitLogo": "https://crests.football-data.org/19.png"
+    },
+    {
+      "id": 565828,
+      "datum": "za 17 oktober 15:30",
+      "thuis": "Eintracht Frankfurt",
+      "thuisLogo": "https://crests.football-data.org/19.png",
+      "uit": "1. FC Köln",
+      "uitLogo": "https://crests.football-data.org/1.png"
+    },
+    {
+      "id": 565837,
+      "datum": "za 24 oktober 15:30",
+      "thuis": "Borussia Dortmund",
+      "thuisLogo": "https://crests.football-data.org/4.png",
+      "uit": "Eintracht Frankfurt",
+      "uitLogo": "https://crests.football-data.org/19.png"
+    },
+    {
+      "id": 565844,
+      "datum": "za 31 oktober 15:30",
+      "thuis": "Eintracht Frankfurt",
+      "thuisLogo": "https://crests.football-data.org/19.png",
+      "uit": "Hamburger SV",
+      "uitLogo": "https://crests.football-data.org/7.png"
+    },
+    {
+      "id": 565853,
+      "datum": "za 7 november 15:30",
+      "thuis": "SC Paderborn 07",
+      "thuisLogo": "https://crests.football-data.org/29.png",
+      "uit": "Eintracht Frankfurt",
+      "uitLogo": "https://crests.football-data.org/19.png"
+    },
+    {
+      "id": 565865,
+      "datum": "za 21 november 15:30",
+      "thuis": "Eintracht Frankfurt",
+      "thuisLogo": "https://crests.football-data.org/19.png",
+      "uit": "TSG 1899 Hoffenheim",
+      "uitLogo": "https://crests.football-data.org/2.png"
+    },
+    {
+      "id": 565870,
+      "datum": "za 28 november 15:30",
+      "thuis": "VfB Stuttgart",
+      "thuisLogo": "https://crests.football-data.org/10.png",
+      "uit": "Eintracht Frankfurt",
+      "uitLogo": "https://crests.football-data.org/19.png"
+    },
+    {
+      "id": 565878,
+      "datum": "za 5 december 15:30",
+      "thuis": "Eintracht Frankfurt",
+      "thuisLogo": "https://crests.football-data.org/19.png",
+      "uit": "SV Werder Bremen",
+      "uitLogo": "https://crests.football-data.org/12.png"
+    },
+    {
+      "id": 565892,
+      "datum": "za 12 december 15:30",
+      "thuis": "Borussia Mönchengladbach",
+      "thuisLogo": "https://crests.football-data.org/18.png",
+      "uit": "Eintracht Frankfurt",
+      "uitLogo": "https://crests.football-data.org/19.png"
+    },
+    {
+      "id": 565896,
+      "datum": "za 19 december 15:30",
+      "thuis": "Bayer 04 Leverkusen",
+      "thuisLogo": "https://crests.football-data.org/3.png",
+      "uit": "Eintracht Frankfurt",
+      "uitLogo": "https://crests.football-data.org/19.png"
+    },
+    {
+      "id": 565905,
+      "datum": "za 9 januari 13:00",
+      "thuis": "Eintracht Frankfurt",
+      "thuisLogo": "https://crests.football-data.org/19.png",
+      "uit": "FC Schalke 04",
+      "uitLogo": "https://crests.football-data.org/6.png"
+    },
+    {
+      "id": 565918,
+      "datum": "wo 13 januari 13:00",
+      "thuis": "SV 07 Elversberg",
+      "thuisLogo": "https://crests.football-data.org/719.png",
+      "uit": "Eintracht Frankfurt",
+      "uitLogo": "https://crests.football-data.org/19.png"
+    },
+    {
+      "id": 565921,
+      "datum": "za 16 januari 13:00",
+      "thuis": "Eintracht Frankfurt",
+      "thuisLogo": "https://crests.football-data.org/19.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png"
+    },
+    {
+      "id": 565936,
+      "datum": "za 23 januari 13:00",
+      "thuis": "Eintracht Frankfurt",
+      "thuisLogo": "https://crests.football-data.org/19.png",
+      "uit": "1. FC Union Berlin",
+      "uitLogo": "https://crests.football-data.org/28.png"
+    },
+    {
+      "id": 565939,
+      "datum": "za 30 januari 13:00",
+      "thuis": "FC Augsburg",
+      "thuisLogo": "https://crests.football-data.org/16.png",
+      "uit": "Eintracht Frankfurt",
+      "uitLogo": "https://crests.football-data.org/19.png"
+    },
+    {
+      "id": 565947,
+      "datum": "za 6 februari 13:00",
+      "thuis": "Eintracht Frankfurt",
+      "thuisLogo": "https://crests.football-data.org/19.png",
+      "uit": "1. FSV Mainz 05",
+      "uitLogo": "https://crests.football-data.org/15.png"
+    },
+    {
+      "id": 565962,
+      "datum": "za 13 februari 13:00",
+      "thuis": "SC Freiburg",
+      "thuisLogo": "https://crests.football-data.org/17.png",
+      "uit": "Eintracht Frankfurt",
+      "uitLogo": "https://crests.football-data.org/19.png"
+    },
+    {
+      "id": 565971,
+      "datum": "za 20 februari 13:00",
+      "thuis": "Eintracht Frankfurt",
+      "thuisLogo": "https://crests.football-data.org/19.png",
+      "uit": "RB Leipzig",
+      "uitLogo": "https://crests.football-data.org/721.png"
+    },
+    {
+      "id": 565975,
+      "datum": "za 27 februari 13:00",
+      "thuis": "1. FC Köln",
+      "thuisLogo": "https://crests.football-data.org/1.png",
+      "uit": "Eintracht Frankfurt",
+      "uitLogo": "https://crests.football-data.org/19.png"
+    },
+    {
+      "id": 565983,
+      "datum": "wo 3 maart 13:00",
+      "thuis": "Eintracht Frankfurt",
+      "thuisLogo": "https://crests.football-data.org/19.png",
+      "uit": "Borussia Dortmund",
+      "uitLogo": "https://crests.football-data.org/4.png"
+    },
+    {
+      "id": 565995,
+      "datum": "za 6 maart 13:00",
+      "thuis": "Hamburger SV",
+      "thuisLogo": "https://crests.football-data.org/7.png",
+      "uit": "Eintracht Frankfurt",
+      "uitLogo": "https://crests.football-data.org/19.png"
+    },
+    {
+      "id": 566003,
+      "datum": "za 13 maart 13:00",
+      "thuis": "Eintracht Frankfurt",
+      "thuisLogo": "https://crests.football-data.org/19.png",
+      "uit": "SC Paderborn 07",
+      "uitLogo": "https://crests.football-data.org/29.png"
+    },
+    {
+      "id": 566017,
+      "datum": "za 20 maart 13:00",
+      "thuis": "TSG 1899 Hoffenheim",
+      "thuisLogo": "https://crests.football-data.org/2.png",
+      "uit": "Eintracht Frankfurt",
+      "uitLogo": "https://crests.football-data.org/19.png"
+    },
+    {
+      "id": 566024,
+      "datum": "za 3 april 14:00",
+      "thuis": "Eintracht Frankfurt",
+      "thuisLogo": "https://crests.football-data.org/19.png",
+      "uit": "VfB Stuttgart",
+      "uitLogo": "https://crests.football-data.org/10.png"
+    },
+    {
+      "id": 566032,
+      "datum": "za 10 april 14:00",
+      "thuis": "SV Werder Bremen",
+      "thuisLogo": "https://crests.football-data.org/12.png",
+      "uit": "Eintracht Frankfurt",
+      "uitLogo": "https://crests.football-data.org/19.png"
+    },
+    {
+      "id": 566038,
+      "datum": "za 17 april 14:00",
+      "thuis": "Eintracht Frankfurt",
+      "thuisLogo": "https://crests.football-data.org/19.png",
+      "uit": "Borussia Mönchengladbach",
+      "uitLogo": "https://crests.football-data.org/18.png"
+    },
+    {
+      "id": 566054,
+      "datum": "za 24 april 14:00",
+      "thuis": "Eintracht Frankfurt",
+      "thuisLogo": "https://crests.football-data.org/19.png",
+      "uit": "Bayer 04 Leverkusen",
+      "uitLogo": "https://crests.football-data.org/3.png"
+    },
+    {
+      "id": 566055,
+      "datum": "za 8 mei 14:00",
+      "thuis": "FC Schalke 04",
+      "thuisLogo": "https://crests.football-data.org/6.png",
+      "uit": "Eintracht Frankfurt",
+      "uitLogo": "https://crests.football-data.org/19.png"
+    },
+    {
+      "id": 566064,
+      "datum": "za 15 mei 14:00",
+      "thuis": "Eintracht Frankfurt",
+      "thuisLogo": "https://crests.football-data.org/19.png",
+      "uit": "SV 07 Elversberg",
+      "uitLogo": "https://crests.football-data.org/719.png"
+    },
+    {
+      "id": 566078,
+      "datum": "za 22 mei 14:00",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "Eintracht Frankfurt",
+      "uitLogo": "https://crests.football-data.org/19.png"
+    }
+  ],
+  "719": [
+    {
+      "id": 565780,
+      "datum": "za 29 augustus 15:30",
+      "thuis": "SV 07 Elversberg",
+      "thuisLogo": "https://crests.football-data.org/719.png",
+      "uit": "Bayer 04 Leverkusen",
+      "uitLogo": "https://crests.football-data.org/3.png"
+    },
+    {
+      "id": 565792,
+      "datum": "za 5 september 15:30",
+      "thuis": "Borussia Mönchengladbach",
+      "thuisLogo": "https://crests.football-data.org/18.png",
+      "uit": "SV 07 Elversberg",
+      "uitLogo": "https://crests.football-data.org/719.png"
+    },
+    {
+      "id": 565800,
+      "datum": "za 12 september 15:30",
+      "thuis": "SV 07 Elversberg",
+      "thuisLogo": "https://crests.football-data.org/719.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png"
+    },
+    {
+      "id": 565805,
+      "datum": "za 19 september 15:30",
+      "thuis": "FC Schalke 04",
+      "thuisLogo": "https://crests.football-data.org/6.png",
+      "uit": "SV 07 Elversberg",
+      "uitLogo": "https://crests.football-data.org/719.png"
+    },
+    {
+      "id": 565817,
+      "datum": "za 10 oktober 15:30",
+      "thuis": "1. FC Union Berlin",
+      "thuisLogo": "https://crests.football-data.org/28.png",
+      "uit": "SV 07 Elversberg",
+      "uitLogo": "https://crests.football-data.org/719.png"
+    },
+    {
+      "id": 565824,
+      "datum": "za 17 oktober 15:30",
+      "thuis": "SV 07 Elversberg",
+      "thuisLogo": "https://crests.football-data.org/719.png",
+      "uit": "FC Augsburg",
+      "uitLogo": "https://crests.football-data.org/16.png"
+    },
+    {
+      "id": 565832,
+      "datum": "za 24 oktober 15:30",
+      "thuis": "RB Leipzig",
+      "thuisLogo": "https://crests.football-data.org/721.png",
+      "uit": "SV 07 Elversberg",
+      "uitLogo": "https://crests.football-data.org/719.png"
+    },
+    {
+      "id": 565846,
+      "datum": "za 31 oktober 15:30",
+      "thuis": "SV 07 Elversberg",
+      "thuisLogo": "https://crests.football-data.org/719.png",
+      "uit": "1. FSV Mainz 05",
+      "uitLogo": "https://crests.football-data.org/15.png"
+    },
+    {
+      "id": 565850,
+      "datum": "za 7 november 15:30",
+      "thuis": "Borussia Dortmund",
+      "thuisLogo": "https://crests.football-data.org/4.png",
+      "uit": "SV 07 Elversberg",
+      "uitLogo": "https://crests.football-data.org/719.png"
+    },
+    {
+      "id": 565860,
+      "datum": "za 21 november 15:30",
+      "thuis": "SV 07 Elversberg",
+      "thuisLogo": "https://crests.football-data.org/719.png",
+      "uit": "SC Freiburg",
+      "uitLogo": "https://crests.football-data.org/17.png"
+    },
+    {
+      "id": 565866,
+      "datum": "za 28 november 15:30",
+      "thuis": "1. FC Köln",
+      "thuisLogo": "https://crests.football-data.org/1.png",
+      "uit": "SV 07 Elversberg",
+      "uitLogo": "https://crests.football-data.org/719.png"
+    },
+    {
+      "id": 565880,
+      "datum": "za 5 december 15:30",
+      "thuis": "SV 07 Elversberg",
+      "thuisLogo": "https://crests.football-data.org/719.png",
+      "uit": "VfB Stuttgart",
+      "uitLogo": "https://crests.football-data.org/10.png"
+    },
+    {
+      "id": 565884,
+      "datum": "za 12 december 15:30",
+      "thuis": "SC Paderborn 07",
+      "thuisLogo": "https://crests.football-data.org/29.png",
+      "uit": "SV 07 Elversberg",
+      "uitLogo": "https://crests.football-data.org/719.png"
+    },
+    {
+      "id": 565895,
+      "datum": "za 19 december 15:30",
+      "thuis": "SV 07 Elversberg",
+      "thuisLogo": "https://crests.football-data.org/719.png",
+      "uit": "Hamburger SV",
+      "uitLogo": "https://crests.football-data.org/7.png"
+    },
+    {
+      "id": 565906,
+      "datum": "za 9 januari 13:00",
+      "thuis": "TSG 1899 Hoffenheim",
+      "thuisLogo": "https://crests.football-data.org/2.png",
+      "uit": "SV 07 Elversberg",
+      "uitLogo": "https://crests.football-data.org/719.png"
+    },
+    {
+      "id": 565918,
+      "datum": "wo 13 januari 13:00",
+      "thuis": "SV 07 Elversberg",
+      "thuisLogo": "https://crests.football-data.org/719.png",
+      "uit": "Eintracht Frankfurt",
+      "uitLogo": "https://crests.football-data.org/19.png"
+    },
+    {
+      "id": 565920,
+      "datum": "za 16 januari 13:00",
+      "thuis": "SV Werder Bremen",
+      "thuisLogo": "https://crests.football-data.org/12.png",
+      "uit": "SV 07 Elversberg",
+      "uitLogo": "https://crests.football-data.org/719.png"
+    },
+    {
+      "id": 565937,
+      "datum": "za 23 januari 13:00",
+      "thuis": "Bayer 04 Leverkusen",
+      "thuisLogo": "https://crests.football-data.org/3.png",
+      "uit": "SV 07 Elversberg",
+      "uitLogo": "https://crests.football-data.org/719.png"
+    },
+    {
+      "id": 565938,
+      "datum": "za 30 januari 13:00",
+      "thuis": "SV 07 Elversberg",
+      "thuisLogo": "https://crests.football-data.org/719.png",
+      "uit": "Borussia Mönchengladbach",
+      "uitLogo": "https://crests.football-data.org/18.png"
+    },
+    {
+      "id": 565954,
+      "datum": "za 6 februari 13:00",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "SV 07 Elversberg",
+      "uitLogo": "https://crests.football-data.org/719.png"
+    },
+    {
+      "id": 565959,
+      "datum": "za 13 februari 13:00",
+      "thuis": "SV 07 Elversberg",
+      "thuisLogo": "https://crests.football-data.org/719.png",
+      "uit": "FC Schalke 04",
+      "uitLogo": "https://crests.football-data.org/6.png"
+    },
+    {
+      "id": 565973,
+      "datum": "za 20 februari 13:00",
+      "thuis": "SV 07 Elversberg",
+      "thuisLogo": "https://crests.football-data.org/719.png",
+      "uit": "1. FC Union Berlin",
+      "uitLogo": "https://crests.football-data.org/28.png"
+    },
+    {
+      "id": 565977,
+      "datum": "za 27 februari 13:00",
+      "thuis": "FC Augsburg",
+      "thuisLogo": "https://crests.football-data.org/16.png",
+      "uit": "SV 07 Elversberg",
+      "uitLogo": "https://crests.football-data.org/719.png"
+    },
+    {
+      "id": 565989,
+      "datum": "wo 3 maart 13:00",
+      "thuis": "SV 07 Elversberg",
+      "thuisLogo": "https://crests.football-data.org/719.png",
+      "uit": "RB Leipzig",
+      "uitLogo": "https://crests.football-data.org/721.png"
+    },
+    {
+      "id": 565994,
+      "datum": "za 6 maart 13:00",
+      "thuis": "1. FSV Mainz 05",
+      "thuisLogo": "https://crests.football-data.org/15.png",
+      "uit": "SV 07 Elversberg",
+      "uitLogo": "https://crests.football-data.org/719.png"
+    },
+    {
+      "id": 566002,
+      "datum": "za 13 maart 13:00",
+      "thuis": "SV 07 Elversberg",
+      "thuisLogo": "https://crests.football-data.org/719.png",
+      "uit": "Borussia Dortmund",
+      "uitLogo": "https://crests.football-data.org/4.png"
+    },
+    {
+      "id": 566013,
+      "datum": "za 20 maart 13:00",
+      "thuis": "SC Freiburg",
+      "thuisLogo": "https://crests.football-data.org/17.png",
+      "uit": "SV 07 Elversberg",
+      "uitLogo": "https://crests.football-data.org/719.png"
+    },
+    {
+      "id": 566020,
+      "datum": "za 3 april 14:00",
+      "thuis": "SV 07 Elversberg",
+      "thuisLogo": "https://crests.football-data.org/719.png",
+      "uit": "1. FC Köln",
+      "uitLogo": "https://crests.football-data.org/1.png"
+    },
+    {
+      "id": 566028,
+      "datum": "za 10 april 14:00",
+      "thuis": "VfB Stuttgart",
+      "thuisLogo": "https://crests.football-data.org/10.png",
+      "uit": "SV 07 Elversberg",
+      "uitLogo": "https://crests.football-data.org/719.png"
+    },
+    {
+      "id": 566042,
+      "datum": "za 17 april 14:00",
+      "thuis": "SV 07 Elversberg",
+      "thuisLogo": "https://crests.football-data.org/719.png",
+      "uit": "SC Paderborn 07",
+      "uitLogo": "https://crests.football-data.org/29.png"
+    },
+    {
+      "id": 566048,
+      "datum": "za 24 april 14:00",
+      "thuis": "Hamburger SV",
+      "thuisLogo": "https://crests.football-data.org/7.png",
+      "uit": "SV 07 Elversberg",
+      "uitLogo": "https://crests.football-data.org/719.png"
+    },
+    {
+      "id": 566061,
+      "datum": "za 8 mei 14:00",
+      "thuis": "SV 07 Elversberg",
+      "thuisLogo": "https://crests.football-data.org/719.png",
+      "uit": "TSG 1899 Hoffenheim",
+      "uitLogo": "https://crests.football-data.org/2.png"
+    },
+    {
+      "id": 566064,
+      "datum": "za 15 mei 14:00",
+      "thuis": "Eintracht Frankfurt",
+      "thuisLogo": "https://crests.football-data.org/19.png",
+      "uit": "SV 07 Elversberg",
+      "uitLogo": "https://crests.football-data.org/719.png"
+    },
+    {
+      "id": 566077,
+      "datum": "za 22 mei 14:00",
+      "thuis": "SV 07 Elversberg",
+      "thuisLogo": "https://crests.football-data.org/719.png",
+      "uit": "SV Werder Bremen",
+      "uitLogo": "https://crests.football-data.org/12.png"
+    }
+  ],
+  "3": [
+    {
+      "id": 565780,
+      "datum": "za 29 augustus 15:30",
+      "thuis": "SV 07 Elversberg",
+      "thuisLogo": "https://crests.football-data.org/719.png",
+      "uit": "Bayer 04 Leverkusen",
+      "uitLogo": "https://crests.football-data.org/3.png"
+    },
+    {
+      "id": 565790,
+      "datum": "za 5 september 15:30",
+      "thuis": "Bayer 04 Leverkusen",
+      "thuisLogo": "https://crests.football-data.org/3.png",
+      "uit": "1. FC Union Berlin",
+      "uitLogo": "https://crests.football-data.org/28.png"
+    },
+    {
+      "id": 565796,
+      "datum": "za 12 september 15:30",
+      "thuis": "FC Augsburg",
+      "thuisLogo": "https://crests.football-data.org/16.png",
+      "uit": "Bayer 04 Leverkusen",
+      "uitLogo": "https://crests.football-data.org/3.png"
+    },
+    {
+      "id": 565807,
+      "datum": "za 19 september 15:30",
+      "thuis": "Bayer 04 Leverkusen",
+      "thuisLogo": "https://crests.football-data.org/3.png",
+      "uit": "RB Leipzig",
+      "uitLogo": "https://crests.football-data.org/721.png"
+    },
+    {
+      "id": 565812,
+      "datum": "za 10 oktober 15:30",
+      "thuis": "1. FSV Mainz 05",
+      "thuisLogo": "https://crests.football-data.org/15.png",
+      "uit": "Bayer 04 Leverkusen",
+      "uitLogo": "https://crests.football-data.org/3.png"
+    },
+    {
+      "id": 565827,
+      "datum": "za 17 oktober 15:30",
+      "thuis": "Bayer 04 Leverkusen",
+      "thuisLogo": "https://crests.football-data.org/3.png",
+      "uit": "SC Freiburg",
+      "uitLogo": "https://crests.football-data.org/17.png"
+    },
+    {
+      "id": 565835,
+      "datum": "za 24 oktober 15:30",
+      "thuis": "TSG 1899 Hoffenheim",
+      "thuisLogo": "https://crests.football-data.org/2.png",
+      "uit": "Bayer 04 Leverkusen",
+      "uitLogo": "https://crests.football-data.org/3.png"
+    },
+    {
+      "id": 565847,
+      "datum": "za 31 oktober 15:30",
+      "thuis": "Bayer 04 Leverkusen",
+      "thuisLogo": "https://crests.football-data.org/3.png",
+      "uit": "VfB Stuttgart",
+      "uitLogo": "https://crests.football-data.org/10.png"
+    },
+    {
+      "id": 565855,
+      "datum": "za 7 november 15:30",
+      "thuis": "1. FC Köln",
+      "thuisLogo": "https://crests.football-data.org/1.png",
+      "uit": "Bayer 04 Leverkusen",
+      "uitLogo": "https://crests.football-data.org/3.png"
+    },
+    {
+      "id": 565857,
+      "datum": "za 21 november 15:30",
+      "thuis": "Bayer 04 Leverkusen",
+      "thuisLogo": "https://crests.football-data.org/3.png",
+      "uit": "SC Paderborn 07",
+      "uitLogo": "https://crests.football-data.org/29.png"
+    },
+    {
+      "id": 565872,
+      "datum": "za 28 november 15:30",
+      "thuis": "Borussia Dortmund",
+      "thuisLogo": "https://crests.football-data.org/4.png",
+      "uit": "Bayer 04 Leverkusen",
+      "uitLogo": "https://crests.football-data.org/3.png"
+    },
+    {
+      "id": 565877,
+      "datum": "za 5 december 15:30",
+      "thuis": "Bayer 04 Leverkusen",
+      "thuisLogo": "https://crests.football-data.org/3.png",
+      "uit": "Borussia Mönchengladbach",
+      "uitLogo": "https://crests.football-data.org/18.png"
+    },
+    {
+      "id": 565885,
+      "datum": "za 12 december 15:30",
+      "thuis": "SV Werder Bremen",
+      "thuisLogo": "https://crests.football-data.org/12.png",
+      "uit": "Bayer 04 Leverkusen",
+      "uitLogo": "https://crests.football-data.org/3.png"
+    },
+    {
+      "id": 565896,
+      "datum": "za 19 december 15:30",
+      "thuis": "Bayer 04 Leverkusen",
+      "thuisLogo": "https://crests.football-data.org/3.png",
+      "uit": "Eintracht Frankfurt",
+      "uitLogo": "https://crests.football-data.org/19.png"
+    },
+    {
+      "id": 565903,
+      "datum": "za 9 januari 13:00",
+      "thuis": "Hamburger SV",
+      "thuisLogo": "https://crests.football-data.org/7.png",
+      "uit": "Bayer 04 Leverkusen",
+      "uitLogo": "https://crests.football-data.org/3.png"
+    },
+    {
+      "id": 565916,
+      "datum": "wo 13 januari 13:00",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "Bayer 04 Leverkusen",
+      "uitLogo": "https://crests.football-data.org/3.png"
+    },
+    {
+      "id": 565924,
+      "datum": "za 16 januari 13:00",
+      "thuis": "Bayer 04 Leverkusen",
+      "thuisLogo": "https://crests.football-data.org/3.png",
+      "uit": "FC Schalke 04",
+      "uitLogo": "https://crests.football-data.org/6.png"
+    },
+    {
+      "id": 565937,
+      "datum": "za 23 januari 13:00",
+      "thuis": "Bayer 04 Leverkusen",
+      "thuisLogo": "https://crests.football-data.org/3.png",
+      "uit": "SV 07 Elversberg",
+      "uitLogo": "https://crests.football-data.org/719.png"
+    },
+    {
+      "id": 565943,
+      "datum": "za 30 januari 13:00",
+      "thuis": "1. FC Union Berlin",
+      "thuisLogo": "https://crests.football-data.org/28.png",
+      "uit": "Bayer 04 Leverkusen",
+      "uitLogo": "https://crests.football-data.org/3.png"
+    },
+    {
+      "id": 565951,
+      "datum": "za 6 februari 13:00",
+      "thuis": "Bayer 04 Leverkusen",
+      "thuisLogo": "https://crests.football-data.org/3.png",
+      "uit": "FC Augsburg",
+      "uitLogo": "https://crests.football-data.org/16.png"
+    },
+    {
+      "id": 565964,
+      "datum": "za 13 februari 13:00",
+      "thuis": "RB Leipzig",
+      "thuisLogo": "https://crests.football-data.org/721.png",
+      "uit": "Bayer 04 Leverkusen",
+      "uitLogo": "https://crests.football-data.org/3.png"
+    },
+    {
+      "id": 565970,
+      "datum": "za 20 februari 13:00",
+      "thuis": "Bayer 04 Leverkusen",
+      "thuisLogo": "https://crests.football-data.org/3.png",
+      "uit": "1. FSV Mainz 05",
+      "uitLogo": "https://crests.football-data.org/15.png"
+    },
+    {
+      "id": 565976,
+      "datum": "za 27 februari 13:00",
+      "thuis": "SC Freiburg",
+      "thuisLogo": "https://crests.football-data.org/17.png",
+      "uit": "Bayer 04 Leverkusen",
+      "uitLogo": "https://crests.football-data.org/3.png"
+    },
+    {
+      "id": 565985,
+      "datum": "wo 3 maart 13:00",
+      "thuis": "Bayer 04 Leverkusen",
+      "thuisLogo": "https://crests.football-data.org/3.png",
+      "uit": "TSG 1899 Hoffenheim",
+      "uitLogo": "https://crests.football-data.org/2.png"
+    },
+    {
+      "id": 565996,
+      "datum": "za 6 maart 13:00",
+      "thuis": "VfB Stuttgart",
+      "thuisLogo": "https://crests.football-data.org/10.png",
+      "uit": "Bayer 04 Leverkusen",
+      "uitLogo": "https://crests.football-data.org/3.png"
+    },
+    {
+      "id": 566009,
+      "datum": "za 13 maart 13:00",
+      "thuis": "Bayer 04 Leverkusen",
+      "thuisLogo": "https://crests.football-data.org/3.png",
+      "uit": "1. FC Köln",
+      "uitLogo": "https://crests.football-data.org/1.png"
+    },
+    {
+      "id": 566015,
+      "datum": "za 20 maart 13:00",
+      "thuis": "SC Paderborn 07",
+      "thuisLogo": "https://crests.football-data.org/29.png",
+      "uit": "Bayer 04 Leverkusen",
+      "uitLogo": "https://crests.football-data.org/3.png"
+    },
+    {
+      "id": 566026,
+      "datum": "za 3 april 14:00",
+      "thuis": "Bayer 04 Leverkusen",
+      "thuisLogo": "https://crests.football-data.org/3.png",
+      "uit": "Borussia Dortmund",
+      "uitLogo": "https://crests.football-data.org/4.png"
+    },
+    {
+      "id": 566035,
+      "datum": "za 10 april 14:00",
+      "thuis": "Borussia Mönchengladbach",
+      "thuisLogo": "https://crests.football-data.org/18.png",
+      "uit": "Bayer 04 Leverkusen",
+      "uitLogo": "https://crests.football-data.org/3.png"
+    },
+    {
+      "id": 566037,
+      "datum": "za 17 april 14:00",
+      "thuis": "Bayer 04 Leverkusen",
+      "thuisLogo": "https://crests.football-data.org/3.png",
+      "uit": "SV Werder Bremen",
+      "uitLogo": "https://crests.football-data.org/12.png"
+    },
+    {
+      "id": 566054,
+      "datum": "za 24 april 14:00",
+      "thuis": "Eintracht Frankfurt",
+      "thuisLogo": "https://crests.football-data.org/19.png",
+      "uit": "Bayer 04 Leverkusen",
+      "uitLogo": "https://crests.football-data.org/3.png"
+    },
+    {
+      "id": 566062,
+      "datum": "za 8 mei 14:00",
+      "thuis": "Bayer 04 Leverkusen",
+      "thuisLogo": "https://crests.football-data.org/3.png",
+      "uit": "Hamburger SV",
+      "uitLogo": "https://crests.football-data.org/7.png"
+    },
+    {
+      "id": 566069,
+      "datum": "za 15 mei 14:00",
+      "thuis": "Bayer 04 Leverkusen",
+      "thuisLogo": "https://crests.football-data.org/3.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png"
+    },
+    {
+      "id": 566076,
+      "datum": "za 22 mei 14:00",
+      "thuis": "FC Schalke 04",
+      "thuisLogo": "https://crests.football-data.org/6.png",
+      "uit": "Bayer 04 Leverkusen",
+      "uitLogo": "https://crests.football-data.org/3.png"
+    }
+  ],
+  "4": [
+    {
+      "id": 565781,
+      "datum": "za 29 augustus 15:30",
+      "thuis": "Borussia Dortmund",
+      "thuisLogo": "https://crests.football-data.org/4.png",
+      "uit": "Hamburger SV",
+      "uitLogo": "https://crests.football-data.org/7.png"
+    },
+    {
+      "id": 565787,
+      "datum": "za 5 september 15:30",
+      "thuis": "TSG 1899 Hoffenheim",
+      "thuisLogo": "https://crests.football-data.org/2.png",
+      "uit": "Borussia Dortmund",
+      "uitLogo": "https://crests.football-data.org/4.png"
+    },
+    {
+      "id": 565795,
+      "datum": "za 12 september 15:30",
+      "thuis": "Borussia Dortmund",
+      "thuisLogo": "https://crests.football-data.org/4.png",
+      "uit": "SC Paderborn 07",
+      "uitLogo": "https://crests.football-data.org/29.png"
+    },
+    {
+      "id": 565806,
+      "datum": "za 19 september 15:30",
+      "thuis": "VfB Stuttgart",
+      "thuisLogo": "https://crests.football-data.org/10.png",
+      "uit": "Borussia Dortmund",
+      "uitLogo": "https://crests.football-data.org/4.png"
+    },
+    {
+      "id": 565820,
+      "datum": "za 10 oktober 15:30",
+      "thuis": "Borussia Dortmund",
+      "thuisLogo": "https://crests.football-data.org/4.png",
+      "uit": "SV Werder Bremen",
+      "uitLogo": "https://crests.football-data.org/12.png"
+    },
+    {
+      "id": 565821,
+      "datum": "za 17 oktober 15:30",
+      "thuis": "1. FC Union Berlin",
+      "thuisLogo": "https://crests.football-data.org/28.png",
+      "uit": "Borussia Dortmund",
+      "uitLogo": "https://crests.football-data.org/4.png"
+    },
+    {
+      "id": 565837,
+      "datum": "za 24 oktober 15:30",
+      "thuis": "Borussia Dortmund",
+      "thuisLogo": "https://crests.football-data.org/4.png",
+      "uit": "Eintracht Frankfurt",
+      "uitLogo": "https://crests.football-data.org/19.png"
+    },
+    {
+      "id": 565845,
+      "datum": "za 31 oktober 15:30",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "Borussia Dortmund",
+      "uitLogo": "https://crests.football-data.org/4.png"
+    },
+    {
+      "id": 565850,
+      "datum": "za 7 november 15:30",
+      "thuis": "Borussia Dortmund",
+      "thuisLogo": "https://crests.football-data.org/4.png",
+      "uit": "SV 07 Elversberg",
+      "uitLogo": "https://crests.football-data.org/719.png"
+    },
+    {
+      "id": 565862,
+      "datum": "za 21 november 15:30",
+      "thuis": "Borussia Mönchengladbach",
+      "thuisLogo": "https://crests.football-data.org/18.png",
+      "uit": "Borussia Dortmund",
+      "uitLogo": "https://crests.football-data.org/4.png"
+    },
+    {
+      "id": 565872,
+      "datum": "za 28 november 15:30",
+      "thuis": "Borussia Dortmund",
+      "thuisLogo": "https://crests.football-data.org/4.png",
+      "uit": "Bayer 04 Leverkusen",
+      "uitLogo": "https://crests.football-data.org/3.png"
+    },
+    {
+      "id": 565876,
+      "datum": "za 5 december 15:30",
+      "thuis": "FC Schalke 04",
+      "thuisLogo": "https://crests.football-data.org/6.png",
+      "uit": "Borussia Dortmund",
+      "uitLogo": "https://crests.football-data.org/4.png"
+    },
+    {
+      "id": 565887,
+      "datum": "za 12 december 15:30",
+      "thuis": "Borussia Dortmund",
+      "thuisLogo": "https://crests.football-data.org/4.png",
+      "uit": "FC Augsburg",
+      "uitLogo": "https://crests.football-data.org/16.png"
+    },
+    {
+      "id": 565898,
+      "datum": "za 19 december 15:30",
+      "thuis": "RB Leipzig",
+      "thuisLogo": "https://crests.football-data.org/721.png",
+      "uit": "Borussia Dortmund",
+      "uitLogo": "https://crests.football-data.org/4.png"
+    },
+    {
+      "id": 565908,
+      "datum": "za 9 januari 13:00",
+      "thuis": "Borussia Dortmund",
+      "thuisLogo": "https://crests.football-data.org/4.png",
+      "uit": "1. FSV Mainz 05",
+      "uitLogo": "https://crests.football-data.org/15.png"
+    },
+    {
+      "id": 565919,
+      "datum": "wo 13 januari 13:00",
+      "thuis": "1. FC Köln",
+      "thuisLogo": "https://crests.football-data.org/1.png",
+      "uit": "Borussia Dortmund",
+      "uitLogo": "https://crests.football-data.org/4.png"
+    },
+    {
+      "id": 565928,
+      "datum": "za 16 januari 13:00",
+      "thuis": "Borussia Dortmund",
+      "thuisLogo": "https://crests.football-data.org/4.png",
+      "uit": "SC Freiburg",
+      "uitLogo": "https://crests.football-data.org/17.png"
+    },
+    {
+      "id": 565930,
+      "datum": "za 23 januari 13:00",
+      "thuis": "Hamburger SV",
+      "thuisLogo": "https://crests.football-data.org/7.png",
+      "uit": "Borussia Dortmund",
+      "uitLogo": "https://crests.football-data.org/4.png"
+    },
+    {
+      "id": 565945,
+      "datum": "za 30 januari 13:00",
+      "thuis": "Borussia Dortmund",
+      "thuisLogo": "https://crests.football-data.org/4.png",
+      "uit": "TSG 1899 Hoffenheim",
+      "uitLogo": "https://crests.football-data.org/2.png"
+    },
+    {
+      "id": 565955,
+      "datum": "za 6 februari 13:00",
+      "thuis": "SC Paderborn 07",
+      "thuisLogo": "https://crests.football-data.org/29.png",
+      "uit": "Borussia Dortmund",
+      "uitLogo": "https://crests.football-data.org/4.png"
+    },
+    {
+      "id": 565960,
+      "datum": "za 13 februari 13:00",
+      "thuis": "Borussia Dortmund",
+      "thuisLogo": "https://crests.football-data.org/4.png",
+      "uit": "VfB Stuttgart",
+      "uitLogo": "https://crests.football-data.org/10.png"
+    },
+    {
+      "id": 565968,
+      "datum": "za 20 februari 13:00",
+      "thuis": "SV Werder Bremen",
+      "thuisLogo": "https://crests.football-data.org/12.png",
+      "uit": "Borussia Dortmund",
+      "uitLogo": "https://crests.football-data.org/4.png"
+    },
+    {
+      "id": 565982,
+      "datum": "za 27 februari 13:00",
+      "thuis": "Borussia Dortmund",
+      "thuisLogo": "https://crests.football-data.org/4.png",
+      "uit": "1. FC Union Berlin",
+      "uitLogo": "https://crests.football-data.org/28.png"
+    },
+    {
+      "id": 565983,
+      "datum": "wo 3 maart 13:00",
+      "thuis": "Eintracht Frankfurt",
+      "thuisLogo": "https://crests.football-data.org/19.png",
+      "uit": "Borussia Dortmund",
+      "uitLogo": "https://crests.football-data.org/4.png"
+    },
+    {
+      "id": 565992,
+      "datum": "za 6 maart 13:00",
+      "thuis": "Borussia Dortmund",
+      "thuisLogo": "https://crests.football-data.org/4.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png"
+    },
+    {
+      "id": 566002,
+      "datum": "za 13 maart 13:00",
+      "thuis": "SV 07 Elversberg",
+      "thuisLogo": "https://crests.football-data.org/719.png",
+      "uit": "Borussia Dortmund",
+      "uitLogo": "https://crests.football-data.org/4.png"
+    },
+    {
+      "id": 566018,
+      "datum": "za 20 maart 13:00",
+      "thuis": "Borussia Dortmund",
+      "thuisLogo": "https://crests.football-data.org/4.png",
+      "uit": "Borussia Mönchengladbach",
+      "uitLogo": "https://crests.football-data.org/18.png"
+    },
+    {
+      "id": 566026,
+      "datum": "za 3 april 14:00",
+      "thuis": "Bayer 04 Leverkusen",
+      "thuisLogo": "https://crests.football-data.org/3.png",
+      "uit": "Borussia Dortmund",
+      "uitLogo": "https://crests.football-data.org/4.png"
+    },
+    {
+      "id": 566033,
+      "datum": "za 10 april 14:00",
+      "thuis": "Borussia Dortmund",
+      "thuisLogo": "https://crests.football-data.org/4.png",
+      "uit": "FC Schalke 04",
+      "uitLogo": "https://crests.football-data.org/6.png"
+    },
+    {
+      "id": 566043,
+      "datum": "za 17 april 14:00",
+      "thuis": "FC Augsburg",
+      "thuisLogo": "https://crests.football-data.org/16.png",
+      "uit": "Borussia Dortmund",
+      "uitLogo": "https://crests.football-data.org/4.png"
+    },
+    {
+      "id": 566049,
+      "datum": "za 24 april 14:00",
+      "thuis": "Borussia Dortmund",
+      "thuisLogo": "https://crests.football-data.org/4.png",
+      "uit": "RB Leipzig",
+      "uitLogo": "https://crests.football-data.org/721.png"
+    },
+    {
+      "id": 566058,
+      "datum": "za 8 mei 14:00",
+      "thuis": "1. FSV Mainz 05",
+      "thuisLogo": "https://crests.football-data.org/15.png",
+      "uit": "Borussia Dortmund",
+      "uitLogo": "https://crests.football-data.org/4.png"
+    },
+    {
+      "id": 566067,
+      "datum": "za 15 mei 14:00",
+      "thuis": "Borussia Dortmund",
+      "thuisLogo": "https://crests.football-data.org/4.png",
+      "uit": "1. FC Köln",
+      "uitLogo": "https://crests.football-data.org/1.png"
+    },
+    {
+      "id": 566080,
+      "datum": "za 22 mei 14:00",
+      "thuis": "SC Freiburg",
+      "thuisLogo": "https://crests.football-data.org/17.png",
+      "uit": "Borussia Dortmund",
+      "uitLogo": "https://crests.football-data.org/4.png"
+    }
+  ],
+  "7": [
+    {
+      "id": 565781,
+      "datum": "za 29 augustus 15:30",
+      "thuis": "Borussia Dortmund",
+      "thuisLogo": "https://crests.football-data.org/4.png",
+      "uit": "Hamburger SV",
+      "uitLogo": "https://crests.football-data.org/7.png"
+    },
+    {
+      "id": 565788,
+      "datum": "za 5 september 15:30",
+      "thuis": "Hamburger SV",
+      "thuisLogo": "https://crests.football-data.org/7.png",
+      "uit": "1. FSV Mainz 05",
+      "uitLogo": "https://crests.football-data.org/15.png"
+    },
+    {
+      "id": 565799,
+      "datum": "za 12 september 15:30",
+      "thuis": "RB Leipzig",
+      "thuisLogo": "https://crests.football-data.org/721.png",
+      "uit": "Hamburger SV",
+      "uitLogo": "https://crests.football-data.org/7.png"
+    },
+    {
+      "id": 565808,
+      "datum": "za 19 september 15:30",
+      "thuis": "Hamburger SV",
+      "thuisLogo": "https://crests.football-data.org/7.png",
+      "uit": "1. FC Köln",
+      "uitLogo": "https://crests.football-data.org/1.png"
+    },
+    {
+      "id": 565818,
+      "datum": "za 10 oktober 15:30",
+      "thuis": "TSG 1899 Hoffenheim",
+      "thuisLogo": "https://crests.football-data.org/2.png",
+      "uit": "Hamburger SV",
+      "uitLogo": "https://crests.football-data.org/7.png"
+    },
+    {
+      "id": 565822,
+      "datum": "za 17 oktober 15:30",
+      "thuis": "Hamburger SV",
+      "thuisLogo": "https://crests.football-data.org/7.png",
+      "uit": "VfB Stuttgart",
+      "uitLogo": "https://crests.football-data.org/10.png"
+    },
+    {
+      "id": 565834,
+      "datum": "za 24 oktober 15:30",
+      "thuis": "SC Paderborn 07",
+      "thuisLogo": "https://crests.football-data.org/29.png",
+      "uit": "Hamburger SV",
+      "uitLogo": "https://crests.football-data.org/7.png"
+    },
+    {
+      "id": 565844,
+      "datum": "za 31 oktober 15:30",
+      "thuis": "Eintracht Frankfurt",
+      "thuisLogo": "https://crests.football-data.org/19.png",
+      "uit": "Hamburger SV",
+      "uitLogo": "https://crests.football-data.org/7.png"
+    },
+    {
+      "id": 565852,
+      "datum": "za 7 november 15:30",
+      "thuis": "Hamburger SV",
+      "thuisLogo": "https://crests.football-data.org/7.png",
+      "uit": "Borussia Mönchengladbach",
+      "uitLogo": "https://crests.football-data.org/18.png"
+    },
+    {
+      "id": 565863,
+      "datum": "za 21 november 15:30",
+      "thuis": "SV Werder Bremen",
+      "thuisLogo": "https://crests.football-data.org/12.png",
+      "uit": "Hamburger SV",
+      "uitLogo": "https://crests.football-data.org/7.png"
+    },
+    {
+      "id": 565874,
+      "datum": "za 28 november 15:30",
+      "thuis": "Hamburger SV",
+      "thuisLogo": "https://crests.football-data.org/7.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png"
+    },
+    {
+      "id": 565875,
+      "datum": "za 5 december 15:30",
+      "thuis": "1. FC Union Berlin",
+      "thuisLogo": "https://crests.football-data.org/28.png",
+      "uit": "Hamburger SV",
+      "uitLogo": "https://crests.football-data.org/7.png"
+    },
+    {
+      "id": 565888,
+      "datum": "za 12 december 15:30",
+      "thuis": "Hamburger SV",
+      "thuisLogo": "https://crests.football-data.org/7.png",
+      "uit": "FC Schalke 04",
+      "uitLogo": "https://crests.football-data.org/6.png"
+    },
+    {
+      "id": 565895,
+      "datum": "za 19 december 15:30",
+      "thuis": "SV 07 Elversberg",
+      "thuisLogo": "https://crests.football-data.org/719.png",
+      "uit": "Hamburger SV",
+      "uitLogo": "https://crests.football-data.org/7.png"
+    },
+    {
+      "id": 565903,
+      "datum": "za 9 januari 13:00",
+      "thuis": "Hamburger SV",
+      "thuisLogo": "https://crests.football-data.org/7.png",
+      "uit": "Bayer 04 Leverkusen",
+      "uitLogo": "https://crests.football-data.org/3.png"
+    },
+    {
+      "id": 565912,
+      "datum": "wo 13 januari 13:00",
+      "thuis": "SC Freiburg",
+      "thuisLogo": "https://crests.football-data.org/17.png",
+      "uit": "Hamburger SV",
+      "uitLogo": "https://crests.football-data.org/7.png"
+    },
+    {
+      "id": 565926,
+      "datum": "za 16 januari 13:00",
+      "thuis": "Hamburger SV",
+      "thuisLogo": "https://crests.football-data.org/7.png",
+      "uit": "FC Augsburg",
+      "uitLogo": "https://crests.football-data.org/16.png"
+    },
+    {
+      "id": 565930,
+      "datum": "za 23 januari 13:00",
+      "thuis": "Hamburger SV",
+      "thuisLogo": "https://crests.football-data.org/7.png",
+      "uit": "Borussia Dortmund",
+      "uitLogo": "https://crests.football-data.org/4.png"
+    },
+    {
+      "id": 565940,
+      "datum": "za 30 januari 13:00",
+      "thuis": "1. FSV Mainz 05",
+      "thuisLogo": "https://crests.football-data.org/15.png",
+      "uit": "Hamburger SV",
+      "uitLogo": "https://crests.football-data.org/7.png"
+    },
+    {
+      "id": 565950,
+      "datum": "za 6 februari 13:00",
+      "thuis": "Hamburger SV",
+      "thuisLogo": "https://crests.football-data.org/7.png",
+      "uit": "RB Leipzig",
+      "uitLogo": "https://crests.football-data.org/721.png"
+    },
+    {
+      "id": 565956,
+      "datum": "za 13 februari 13:00",
+      "thuis": "1. FC Köln",
+      "thuisLogo": "https://crests.football-data.org/1.png",
+      "uit": "Hamburger SV",
+      "uitLogo": "https://crests.football-data.org/7.png"
+    },
+    {
+      "id": 565969,
+      "datum": "za 20 februari 13:00",
+      "thuis": "Hamburger SV",
+      "thuisLogo": "https://crests.football-data.org/7.png",
+      "uit": "TSG 1899 Hoffenheim",
+      "uitLogo": "https://crests.football-data.org/2.png"
+    },
+    {
+      "id": 565974,
+      "datum": "za 27 februari 13:00",
+      "thuis": "VfB Stuttgart",
+      "thuisLogo": "https://crests.football-data.org/10.png",
+      "uit": "Hamburger SV",
+      "uitLogo": "https://crests.football-data.org/7.png"
+    },
+    {
+      "id": 565991,
+      "datum": "wo 3 maart 13:00",
+      "thuis": "Hamburger SV",
+      "thuisLogo": "https://crests.football-data.org/7.png",
+      "uit": "SC Paderborn 07",
+      "uitLogo": "https://crests.football-data.org/29.png"
+    },
+    {
+      "id": 565995,
+      "datum": "za 6 maart 13:00",
+      "thuis": "Hamburger SV",
+      "thuisLogo": "https://crests.football-data.org/7.png",
+      "uit": "Eintracht Frankfurt",
+      "uitLogo": "https://crests.football-data.org/19.png"
+    },
+    {
+      "id": 566005,
+      "datum": "za 13 maart 13:00",
+      "thuis": "Borussia Mönchengladbach",
+      "thuisLogo": "https://crests.football-data.org/18.png",
+      "uit": "Hamburger SV",
+      "uitLogo": "https://crests.football-data.org/7.png"
+    },
+    {
+      "id": 566014,
+      "datum": "za 20 maart 13:00",
+      "thuis": "Hamburger SV",
+      "thuisLogo": "https://crests.football-data.org/7.png",
+      "uit": "SV Werder Bremen",
+      "uitLogo": "https://crests.football-data.org/12.png"
+    },
+    {
+      "id": 566021,
+      "datum": "za 3 april 14:00",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "Hamburger SV",
+      "uitLogo": "https://crests.football-data.org/7.png"
+    },
+    {
+      "id": 566034,
+      "datum": "za 10 april 14:00",
+      "thuis": "Hamburger SV",
+      "thuisLogo": "https://crests.football-data.org/7.png",
+      "uit": "1. FC Union Berlin",
+      "uitLogo": "https://crests.football-data.org/28.png"
+    },
+    {
+      "id": 566041,
+      "datum": "za 17 april 14:00",
+      "thuis": "FC Schalke 04",
+      "thuisLogo": "https://crests.football-data.org/6.png",
+      "uit": "Hamburger SV",
+      "uitLogo": "https://crests.football-data.org/7.png"
+    },
+    {
+      "id": 566048,
+      "datum": "za 24 april 14:00",
+      "thuis": "Hamburger SV",
+      "thuisLogo": "https://crests.football-data.org/7.png",
+      "uit": "SV 07 Elversberg",
+      "uitLogo": "https://crests.football-data.org/719.png"
+    },
+    {
+      "id": 566062,
+      "datum": "za 8 mei 14:00",
+      "thuis": "Bayer 04 Leverkusen",
+      "thuisLogo": "https://crests.football-data.org/3.png",
+      "uit": "Hamburger SV",
+      "uitLogo": "https://crests.football-data.org/7.png"
+    },
+    {
+      "id": 566068,
+      "datum": "za 15 mei 14:00",
+      "thuis": "Hamburger SV",
+      "thuisLogo": "https://crests.football-data.org/7.png",
+      "uit": "SC Freiburg",
+      "uitLogo": "https://crests.football-data.org/17.png"
+    },
+    {
+      "id": 566079,
+      "datum": "za 22 mei 14:00",
+      "thuis": "FC Augsburg",
+      "thuisLogo": "https://crests.football-data.org/16.png",
+      "uit": "Hamburger SV",
+      "uitLogo": "https://crests.football-data.org/7.png"
+    }
+  ],
+  "16": [
+    {
+      "id": 565782,
+      "datum": "za 29 augustus 15:30",
+      "thuis": "FC Augsburg",
+      "thuisLogo": "https://crests.football-data.org/16.png",
+      "uit": "FC Schalke 04",
+      "uitLogo": "https://crests.football-data.org/6.png"
+    },
+    {
+      "id": 565786,
+      "datum": "za 5 september 15:30",
+      "thuis": "Eintracht Frankfurt",
+      "thuisLogo": "https://crests.football-data.org/19.png",
+      "uit": "FC Augsburg",
+      "uitLogo": "https://crests.football-data.org/16.png"
+    },
+    {
+      "id": 565796,
+      "datum": "za 12 september 15:30",
+      "thuis": "FC Augsburg",
+      "thuisLogo": "https://crests.football-data.org/16.png",
+      "uit": "Bayer 04 Leverkusen",
+      "uitLogo": "https://crests.football-data.org/3.png"
+    },
+    {
+      "id": 565810,
+      "datum": "za 19 september 15:30",
+      "thuis": "SV Werder Bremen",
+      "thuisLogo": "https://crests.football-data.org/12.png",
+      "uit": "FC Augsburg",
+      "uitLogo": "https://crests.football-data.org/16.png"
+    },
+    {
+      "id": 565819,
+      "datum": "za 10 oktober 15:30",
+      "thuis": "FC Augsburg",
+      "thuisLogo": "https://crests.football-data.org/16.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png"
+    },
+    {
+      "id": 565824,
+      "datum": "za 17 oktober 15:30",
+      "thuis": "SV 07 Elversberg",
+      "thuisLogo": "https://crests.football-data.org/719.png",
+      "uit": "FC Augsburg",
+      "uitLogo": "https://crests.football-data.org/16.png"
+    },
+    {
+      "id": 565838,
+      "datum": "za 24 oktober 15:30",
+      "thuis": "FC Augsburg",
+      "thuisLogo": "https://crests.football-data.org/16.png",
+      "uit": "1. FC Union Berlin",
+      "uitLogo": "https://crests.football-data.org/28.png"
+    },
+    {
+      "id": 565842,
+      "datum": "za 31 oktober 15:30",
+      "thuis": "FC Augsburg",
+      "thuisLogo": "https://crests.football-data.org/16.png",
+      "uit": "SC Freiburg",
+      "uitLogo": "https://crests.football-data.org/17.png"
+    },
+    {
+      "id": 565848,
+      "datum": "za 7 november 15:30",
+      "thuis": "RB Leipzig",
+      "thuisLogo": "https://crests.football-data.org/721.png",
+      "uit": "FC Augsburg",
+      "uitLogo": "https://crests.football-data.org/16.png"
+    },
+    {
+      "id": 565864,
+      "datum": "za 21 november 15:30",
+      "thuis": "FC Augsburg",
+      "thuisLogo": "https://crests.football-data.org/16.png",
+      "uit": "1. FSV Mainz 05",
+      "uitLogo": "https://crests.football-data.org/15.png"
+    },
+    {
+      "id": 565871,
+      "datum": "za 28 november 15:30",
+      "thuis": "TSG 1899 Hoffenheim",
+      "thuisLogo": "https://crests.football-data.org/2.png",
+      "uit": "FC Augsburg",
+      "uitLogo": "https://crests.football-data.org/16.png"
+    },
+    {
+      "id": 565883,
+      "datum": "za 5 december 15:30",
+      "thuis": "FC Augsburg",
+      "thuisLogo": "https://crests.football-data.org/16.png",
+      "uit": "1. FC Köln",
+      "uitLogo": "https://crests.football-data.org/1.png"
+    },
+    {
+      "id": 565887,
+      "datum": "za 12 december 15:30",
+      "thuis": "Borussia Dortmund",
+      "thuisLogo": "https://crests.football-data.org/4.png",
+      "uit": "FC Augsburg",
+      "uitLogo": "https://crests.football-data.org/16.png"
+    },
+    {
+      "id": 565901,
+      "datum": "za 19 december 15:30",
+      "thuis": "FC Augsburg",
+      "thuisLogo": "https://crests.football-data.org/16.png",
+      "uit": "SC Paderborn 07",
+      "uitLogo": "https://crests.football-data.org/29.png"
+    },
+    {
+      "id": 565902,
+      "datum": "za 9 januari 13:00",
+      "thuis": "VfB Stuttgart",
+      "thuisLogo": "https://crests.football-data.org/10.png",
+      "uit": "FC Augsburg",
+      "uitLogo": "https://crests.football-data.org/16.png"
+    },
+    {
+      "id": 565917,
+      "datum": "wo 13 januari 13:00",
+      "thuis": "FC Augsburg",
+      "thuisLogo": "https://crests.football-data.org/16.png",
+      "uit": "Borussia Mönchengladbach",
+      "uitLogo": "https://crests.football-data.org/18.png"
+    },
+    {
+      "id": 565926,
+      "datum": "za 16 januari 13:00",
+      "thuis": "Hamburger SV",
+      "thuisLogo": "https://crests.football-data.org/7.png",
+      "uit": "FC Augsburg",
+      "uitLogo": "https://crests.football-data.org/16.png"
+    },
+    {
+      "id": 565932,
+      "datum": "za 23 januari 13:00",
+      "thuis": "FC Schalke 04",
+      "thuisLogo": "https://crests.football-data.org/6.png",
+      "uit": "FC Augsburg",
+      "uitLogo": "https://crests.football-data.org/16.png"
+    },
+    {
+      "id": 565939,
+      "datum": "za 30 januari 13:00",
+      "thuis": "FC Augsburg",
+      "thuisLogo": "https://crests.football-data.org/16.png",
+      "uit": "Eintracht Frankfurt",
+      "uitLogo": "https://crests.football-data.org/19.png"
+    },
+    {
+      "id": 565951,
+      "datum": "za 6 februari 13:00",
+      "thuis": "Bayer 04 Leverkusen",
+      "thuisLogo": "https://crests.football-data.org/3.png",
+      "uit": "FC Augsburg",
+      "uitLogo": "https://crests.football-data.org/16.png"
+    },
+    {
+      "id": 565963,
+      "datum": "za 13 februari 13:00",
+      "thuis": "FC Augsburg",
+      "thuisLogo": "https://crests.football-data.org/16.png",
+      "uit": "SV Werder Bremen",
+      "uitLogo": "https://crests.football-data.org/12.png"
+    },
+    {
+      "id": 565972,
+      "datum": "za 20 februari 13:00",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "FC Augsburg",
+      "uitLogo": "https://crests.football-data.org/16.png"
+    },
+    {
+      "id": 565977,
+      "datum": "za 27 februari 13:00",
+      "thuis": "FC Augsburg",
+      "thuisLogo": "https://crests.football-data.org/16.png",
+      "uit": "SV 07 Elversberg",
+      "uitLogo": "https://crests.football-data.org/719.png"
+    },
+    {
+      "id": 565988,
+      "datum": "wo 3 maart 13:00",
+      "thuis": "1. FC Union Berlin",
+      "thuisLogo": "https://crests.football-data.org/28.png",
+      "uit": "FC Augsburg",
+      "uitLogo": "https://crests.football-data.org/16.png"
+    },
+    {
+      "id": 565993,
+      "datum": "za 6 maart 13:00",
+      "thuis": "SC Freiburg",
+      "thuisLogo": "https://crests.football-data.org/17.png",
+      "uit": "FC Augsburg",
+      "uitLogo": "https://crests.football-data.org/16.png"
+    },
+    {
+      "id": 566004,
+      "datum": "za 13 maart 13:00",
+      "thuis": "FC Augsburg",
+      "thuisLogo": "https://crests.football-data.org/16.png",
+      "uit": "RB Leipzig",
+      "uitLogo": "https://crests.football-data.org/721.png"
+    },
+    {
+      "id": 566010,
+      "datum": "za 20 maart 13:00",
+      "thuis": "1. FSV Mainz 05",
+      "thuisLogo": "https://crests.football-data.org/15.png",
+      "uit": "FC Augsburg",
+      "uitLogo": "https://crests.football-data.org/16.png"
+    },
+    {
+      "id": 566022,
+      "datum": "za 3 april 14:00",
+      "thuis": "FC Augsburg",
+      "thuisLogo": "https://crests.football-data.org/16.png",
+      "uit": "TSG 1899 Hoffenheim",
+      "uitLogo": "https://crests.football-data.org/2.png"
+    },
+    {
+      "id": 566036,
+      "datum": "za 10 april 14:00",
+      "thuis": "1. FC Köln",
+      "thuisLogo": "https://crests.football-data.org/1.png",
+      "uit": "FC Augsburg",
+      "uitLogo": "https://crests.football-data.org/16.png"
+    },
+    {
+      "id": 566043,
+      "datum": "za 17 april 14:00",
+      "thuis": "FC Augsburg",
+      "thuisLogo": "https://crests.football-data.org/16.png",
+      "uit": "Borussia Dortmund",
+      "uitLogo": "https://crests.football-data.org/4.png"
+    },
+    {
+      "id": 566051,
+      "datum": "za 24 april 14:00",
+      "thuis": "SC Paderborn 07",
+      "thuisLogo": "https://crests.football-data.org/29.png",
+      "uit": "FC Augsburg",
+      "uitLogo": "https://crests.football-data.org/16.png"
+    },
+    {
+      "id": 566059,
+      "datum": "za 8 mei 14:00",
+      "thuis": "FC Augsburg",
+      "thuisLogo": "https://crests.football-data.org/16.png",
+      "uit": "VfB Stuttgart",
+      "uitLogo": "https://crests.football-data.org/10.png"
+    },
+    {
+      "id": 566071,
+      "datum": "za 15 mei 14:00",
+      "thuis": "Borussia Mönchengladbach",
+      "thuisLogo": "https://crests.football-data.org/18.png",
+      "uit": "FC Augsburg",
+      "uitLogo": "https://crests.football-data.org/16.png"
+    },
+    {
+      "id": 566079,
+      "datum": "za 22 mei 14:00",
+      "thuis": "FC Augsburg",
+      "thuisLogo": "https://crests.football-data.org/16.png",
+      "uit": "Hamburger SV",
+      "uitLogo": "https://crests.football-data.org/7.png"
+    }
+  ],
+  "6": [
+    {
+      "id": 565782,
+      "datum": "za 29 augustus 15:30",
+      "thuis": "FC Augsburg",
+      "thuisLogo": "https://crests.football-data.org/16.png",
+      "uit": "FC Schalke 04",
+      "uitLogo": "https://crests.football-data.org/6.png"
+    },
+    {
+      "id": 565789,
+      "datum": "za 5 september 15:30",
+      "thuis": "FC Schalke 04",
+      "thuisLogo": "https://crests.football-data.org/6.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png"
+    },
+    {
+      "id": 565797,
+      "datum": "za 12 september 15:30",
+      "thuis": "1. FC Union Berlin",
+      "thuisLogo": "https://crests.football-data.org/28.png",
+      "uit": "FC Schalke 04",
+      "uitLogo": "https://crests.football-data.org/6.png"
+    },
+    {
+      "id": 565805,
+      "datum": "za 19 september 15:30",
+      "thuis": "FC Schalke 04",
+      "thuisLogo": "https://crests.football-data.org/6.png",
+      "uit": "SV 07 Elversberg",
+      "uitLogo": "https://crests.football-data.org/719.png"
+    },
+    {
+      "id": 565816,
+      "datum": "za 10 oktober 15:30",
+      "thuis": "SC Freiburg",
+      "thuisLogo": "https://crests.football-data.org/17.png",
+      "uit": "FC Schalke 04",
+      "uitLogo": "https://crests.football-data.org/6.png"
+    },
+    {
+      "id": 565829,
+      "datum": "za 17 oktober 15:30",
+      "thuis": "FC Schalke 04",
+      "thuisLogo": "https://crests.football-data.org/6.png",
+      "uit": "1. FSV Mainz 05",
+      "uitLogo": "https://crests.football-data.org/15.png"
+    },
+    {
+      "id": 565831,
+      "datum": "za 24 oktober 15:30",
+      "thuis": "1. FC Köln",
+      "thuisLogo": "https://crests.football-data.org/1.png",
+      "uit": "FC Schalke 04",
+      "uitLogo": "https://crests.football-data.org/6.png"
+    },
+    {
+      "id": 565840,
+      "datum": "za 31 oktober 15:30",
+      "thuis": "FC Schalke 04",
+      "thuisLogo": "https://crests.football-data.org/6.png",
+      "uit": "RB Leipzig",
+      "uitLogo": "https://crests.football-data.org/721.png"
+    },
+    {
+      "id": 565856,
+      "datum": "za 7 november 15:30",
+      "thuis": "TSG 1899 Hoffenheim",
+      "thuisLogo": "https://crests.football-data.org/2.png",
+      "uit": "FC Schalke 04",
+      "uitLogo": "https://crests.football-data.org/6.png"
+    },
+    {
+      "id": 565861,
+      "datum": "za 21 november 15:30",
+      "thuis": "FC Schalke 04",
+      "thuisLogo": "https://crests.football-data.org/6.png",
+      "uit": "VfB Stuttgart",
+      "uitLogo": "https://crests.football-data.org/10.png"
+    },
+    {
+      "id": 565868,
+      "datum": "za 28 november 15:30",
+      "thuis": "SC Paderborn 07",
+      "thuisLogo": "https://crests.football-data.org/29.png",
+      "uit": "FC Schalke 04",
+      "uitLogo": "https://crests.football-data.org/6.png"
+    },
+    {
+      "id": 565876,
+      "datum": "za 5 december 15:30",
+      "thuis": "FC Schalke 04",
+      "thuisLogo": "https://crests.football-data.org/6.png",
+      "uit": "Borussia Dortmund",
+      "uitLogo": "https://crests.football-data.org/4.png"
+    },
+    {
+      "id": 565888,
+      "datum": "za 12 december 15:30",
+      "thuis": "Hamburger SV",
+      "thuisLogo": "https://crests.football-data.org/7.png",
+      "uit": "FC Schalke 04",
+      "uitLogo": "https://crests.football-data.org/6.png"
+    },
+    {
+      "id": 565893,
+      "datum": "za 19 december 15:30",
+      "thuis": "FC Schalke 04",
+      "thuisLogo": "https://crests.football-data.org/6.png",
+      "uit": "Borussia Mönchengladbach",
+      "uitLogo": "https://crests.football-data.org/18.png"
+    },
+    {
+      "id": 565905,
+      "datum": "za 9 januari 13:00",
+      "thuis": "Eintracht Frankfurt",
+      "thuisLogo": "https://crests.football-data.org/19.png",
+      "uit": "FC Schalke 04",
+      "uitLogo": "https://crests.football-data.org/6.png"
+    },
+    {
+      "id": 565913,
+      "datum": "wo 13 januari 13:00",
+      "thuis": "FC Schalke 04",
+      "thuisLogo": "https://crests.football-data.org/6.png",
+      "uit": "SV Werder Bremen",
+      "uitLogo": "https://crests.football-data.org/12.png"
+    },
+    {
+      "id": 565924,
+      "datum": "za 16 januari 13:00",
+      "thuis": "Bayer 04 Leverkusen",
+      "thuisLogo": "https://crests.football-data.org/3.png",
+      "uit": "FC Schalke 04",
+      "uitLogo": "https://crests.football-data.org/6.png"
+    },
+    {
+      "id": 565932,
+      "datum": "za 23 januari 13:00",
+      "thuis": "FC Schalke 04",
+      "thuisLogo": "https://crests.football-data.org/6.png",
+      "uit": "FC Augsburg",
+      "uitLogo": "https://crests.football-data.org/16.png"
+    },
+    {
+      "id": 565946,
+      "datum": "za 30 januari 13:00",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "FC Schalke 04",
+      "uitLogo": "https://crests.football-data.org/6.png"
+    },
+    {
+      "id": 565949,
+      "datum": "za 6 februari 13:00",
+      "thuis": "FC Schalke 04",
+      "thuisLogo": "https://crests.football-data.org/6.png",
+      "uit": "1. FC Union Berlin",
+      "uitLogo": "https://crests.football-data.org/28.png"
+    },
+    {
+      "id": 565959,
+      "datum": "za 13 februari 13:00",
+      "thuis": "SV 07 Elversberg",
+      "thuisLogo": "https://crests.football-data.org/719.png",
+      "uit": "FC Schalke 04",
+      "uitLogo": "https://crests.football-data.org/6.png"
+    },
+    {
+      "id": 565965,
+      "datum": "za 20 februari 13:00",
+      "thuis": "FC Schalke 04",
+      "thuisLogo": "https://crests.football-data.org/6.png",
+      "uit": "SC Freiburg",
+      "uitLogo": "https://crests.football-data.org/17.png"
+    },
+    {
+      "id": 565978,
+      "datum": "za 27 februari 13:00",
+      "thuis": "1. FSV Mainz 05",
+      "thuisLogo": "https://crests.football-data.org/15.png",
+      "uit": "FC Schalke 04",
+      "uitLogo": "https://crests.football-data.org/6.png"
+    },
+    {
+      "id": 565984,
+      "datum": "wo 3 maart 13:00",
+      "thuis": "FC Schalke 04",
+      "thuisLogo": "https://crests.football-data.org/6.png",
+      "uit": "1. FC Köln",
+      "uitLogo": "https://crests.football-data.org/1.png"
+    },
+    {
+      "id": 565997,
+      "datum": "za 6 maart 13:00",
+      "thuis": "RB Leipzig",
+      "thuisLogo": "https://crests.football-data.org/721.png",
+      "uit": "FC Schalke 04",
+      "uitLogo": "https://crests.football-data.org/6.png"
+    },
+    {
+      "id": 566007,
+      "datum": "za 13 maart 13:00",
+      "thuis": "FC Schalke 04",
+      "thuisLogo": "https://crests.football-data.org/6.png",
+      "uit": "TSG 1899 Hoffenheim",
+      "uitLogo": "https://crests.football-data.org/2.png"
+    },
+    {
+      "id": 566011,
+      "datum": "za 20 maart 13:00",
+      "thuis": "VfB Stuttgart",
+      "thuisLogo": "https://crests.football-data.org/10.png",
+      "uit": "FC Schalke 04",
+      "uitLogo": "https://crests.football-data.org/6.png"
+    },
+    {
+      "id": 566027,
+      "datum": "za 3 april 14:00",
+      "thuis": "FC Schalke 04",
+      "thuisLogo": "https://crests.football-data.org/6.png",
+      "uit": "SC Paderborn 07",
+      "uitLogo": "https://crests.football-data.org/29.png"
+    },
+    {
+      "id": 566033,
+      "datum": "za 10 april 14:00",
+      "thuis": "Borussia Dortmund",
+      "thuisLogo": "https://crests.football-data.org/4.png",
+      "uit": "FC Schalke 04",
+      "uitLogo": "https://crests.football-data.org/6.png"
+    },
+    {
+      "id": 566041,
+      "datum": "za 17 april 14:00",
+      "thuis": "FC Schalke 04",
+      "thuisLogo": "https://crests.football-data.org/6.png",
+      "uit": "Hamburger SV",
+      "uitLogo": "https://crests.football-data.org/7.png"
+    },
+    {
+      "id": 566053,
+      "datum": "za 24 april 14:00",
+      "thuis": "Borussia Mönchengladbach",
+      "thuisLogo": "https://crests.football-data.org/18.png",
+      "uit": "FC Schalke 04",
+      "uitLogo": "https://crests.football-data.org/6.png"
+    },
+    {
+      "id": 566055,
+      "datum": "za 8 mei 14:00",
+      "thuis": "FC Schalke 04",
+      "thuisLogo": "https://crests.football-data.org/6.png",
+      "uit": "Eintracht Frankfurt",
+      "uitLogo": "https://crests.football-data.org/19.png"
+    },
+    {
+      "id": 566070,
+      "datum": "za 15 mei 14:00",
+      "thuis": "SV Werder Bremen",
+      "thuisLogo": "https://crests.football-data.org/12.png",
+      "uit": "FC Schalke 04",
+      "uitLogo": "https://crests.football-data.org/6.png"
+    },
+    {
+      "id": 566076,
+      "datum": "za 22 mei 14:00",
+      "thuis": "FC Schalke 04",
+      "thuisLogo": "https://crests.football-data.org/6.png",
+      "uit": "Bayer 04 Leverkusen",
+      "uitLogo": "https://crests.football-data.org/3.png"
+    }
+  ],
+  "1": [
+    {
+      "id": 565783,
+      "datum": "za 29 augustus 15:30",
+      "thuis": "1. FC Köln",
+      "thuisLogo": "https://crests.football-data.org/1.png",
+      "uit": "TSG 1899 Hoffenheim",
+      "uitLogo": "https://crests.football-data.org/2.png"
+    },
+    {
+      "id": 565791,
+      "datum": "za 5 september 15:30",
+      "thuis": "VfB Stuttgart",
+      "thuisLogo": "https://crests.football-data.org/10.png",
+      "uit": "1. FC Köln",
+      "uitLogo": "https://crests.football-data.org/1.png"
+    },
+    {
+      "id": 565798,
+      "datum": "za 12 september 15:30",
+      "thuis": "1. FC Köln",
+      "thuisLogo": "https://crests.football-data.org/1.png",
+      "uit": "SV Werder Bremen",
+      "uitLogo": "https://crests.football-data.org/12.png"
+    },
+    {
+      "id": 565808,
+      "datum": "za 19 september 15:30",
+      "thuis": "Hamburger SV",
+      "thuisLogo": "https://crests.football-data.org/7.png",
+      "uit": "1. FC Köln",
+      "uitLogo": "https://crests.football-data.org/1.png"
+    },
+    {
+      "id": 565814,
+      "datum": "za 10 oktober 15:30",
+      "thuis": "1. FC Köln",
+      "thuisLogo": "https://crests.football-data.org/1.png",
+      "uit": "Borussia Mönchengladbach",
+      "uitLogo": "https://crests.football-data.org/18.png"
+    },
+    {
+      "id": 565828,
+      "datum": "za 17 oktober 15:30",
+      "thuis": "Eintracht Frankfurt",
+      "thuisLogo": "https://crests.football-data.org/19.png",
+      "uit": "1. FC Köln",
+      "uitLogo": "https://crests.football-data.org/1.png"
+    },
+    {
+      "id": 565831,
+      "datum": "za 24 oktober 15:30",
+      "thuis": "1. FC Köln",
+      "thuisLogo": "https://crests.football-data.org/1.png",
+      "uit": "FC Schalke 04",
+      "uitLogo": "https://crests.football-data.org/6.png"
+    },
+    {
+      "id": 565841,
+      "datum": "za 31 oktober 15:30",
+      "thuis": "1. FC Union Berlin",
+      "thuisLogo": "https://crests.football-data.org/28.png",
+      "uit": "1. FC Köln",
+      "uitLogo": "https://crests.football-data.org/1.png"
+    },
+    {
+      "id": 565855,
+      "datum": "za 7 november 15:30",
+      "thuis": "1. FC Köln",
+      "thuisLogo": "https://crests.football-data.org/1.png",
+      "uit": "Bayer 04 Leverkusen",
+      "uitLogo": "https://crests.football-data.org/3.png"
+    },
+    {
+      "id": 565859,
+      "datum": "za 21 november 15:30",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "1. FC Köln",
+      "uitLogo": "https://crests.football-data.org/1.png"
+    },
+    {
+      "id": 565866,
+      "datum": "za 28 november 15:30",
+      "thuis": "1. FC Köln",
+      "thuisLogo": "https://crests.football-data.org/1.png",
+      "uit": "SV 07 Elversberg",
+      "uitLogo": "https://crests.football-data.org/719.png"
+    },
+    {
+      "id": 565883,
+      "datum": "za 5 december 15:30",
+      "thuis": "FC Augsburg",
+      "thuisLogo": "https://crests.football-data.org/16.png",
+      "uit": "1. FC Köln",
+      "uitLogo": "https://crests.football-data.org/1.png"
+    },
+    {
+      "id": 565890,
+      "datum": "za 12 december 15:30",
+      "thuis": "1. FC Köln",
+      "thuisLogo": "https://crests.football-data.org/1.png",
+      "uit": "RB Leipzig",
+      "uitLogo": "https://crests.football-data.org/721.png"
+    },
+    {
+      "id": 565899,
+      "datum": "za 19 december 15:30",
+      "thuis": "1. FSV Mainz 05",
+      "thuisLogo": "https://crests.football-data.org/15.png",
+      "uit": "1. FC Köln",
+      "uitLogo": "https://crests.football-data.org/1.png"
+    },
+    {
+      "id": 565904,
+      "datum": "za 9 januari 13:00",
+      "thuis": "1. FC Köln",
+      "thuisLogo": "https://crests.football-data.org/1.png",
+      "uit": "SC Freiburg",
+      "uitLogo": "https://crests.football-data.org/17.png"
+    },
+    {
+      "id": 565919,
+      "datum": "wo 13 januari 13:00",
+      "thuis": "1. FC Köln",
+      "thuisLogo": "https://crests.football-data.org/1.png",
+      "uit": "Borussia Dortmund",
+      "uitLogo": "https://crests.football-data.org/4.png"
+    },
+    {
+      "id": 565922,
+      "datum": "za 16 januari 13:00",
+      "thuis": "SC Paderborn 07",
+      "thuisLogo": "https://crests.football-data.org/29.png",
+      "uit": "1. FC Köln",
+      "uitLogo": "https://crests.football-data.org/1.png"
+    },
+    {
+      "id": 565933,
+      "datum": "za 23 januari 13:00",
+      "thuis": "TSG 1899 Hoffenheim",
+      "thuisLogo": "https://crests.football-data.org/2.png",
+      "uit": "1. FC Köln",
+      "uitLogo": "https://crests.football-data.org/1.png"
+    },
+    {
+      "id": 565942,
+      "datum": "za 30 januari 13:00",
+      "thuis": "1. FC Köln",
+      "thuisLogo": "https://crests.football-data.org/1.png",
+      "uit": "VfB Stuttgart",
+      "uitLogo": "https://crests.football-data.org/10.png"
+    },
+    {
+      "id": 565952,
+      "datum": "za 6 februari 13:00",
+      "thuis": "SV Werder Bremen",
+      "thuisLogo": "https://crests.football-data.org/12.png",
+      "uit": "1. FC Köln",
+      "uitLogo": "https://crests.football-data.org/1.png"
+    },
+    {
+      "id": 565956,
+      "datum": "za 13 februari 13:00",
+      "thuis": "1. FC Köln",
+      "thuisLogo": "https://crests.football-data.org/1.png",
+      "uit": "Hamburger SV",
+      "uitLogo": "https://crests.football-data.org/7.png"
+    },
+    {
+      "id": 565967,
+      "datum": "za 20 februari 13:00",
+      "thuis": "Borussia Mönchengladbach",
+      "thuisLogo": "https://crests.football-data.org/18.png",
+      "uit": "1. FC Köln",
+      "uitLogo": "https://crests.football-data.org/1.png"
+    },
+    {
+      "id": 565975,
+      "datum": "za 27 februari 13:00",
+      "thuis": "1. FC Köln",
+      "thuisLogo": "https://crests.football-data.org/1.png",
+      "uit": "Eintracht Frankfurt",
+      "uitLogo": "https://crests.football-data.org/19.png"
+    },
+    {
+      "id": 565984,
+      "datum": "wo 3 maart 13:00",
+      "thuis": "FC Schalke 04",
+      "thuisLogo": "https://crests.football-data.org/6.png",
+      "uit": "1. FC Köln",
+      "uitLogo": "https://crests.football-data.org/1.png"
+    },
+    {
+      "id": 565999,
+      "datum": "za 6 maart 13:00",
+      "thuis": "1. FC Köln",
+      "thuisLogo": "https://crests.football-data.org/1.png",
+      "uit": "1. FC Union Berlin",
+      "uitLogo": "https://crests.football-data.org/28.png"
+    },
+    {
+      "id": 566009,
+      "datum": "za 13 maart 13:00",
+      "thuis": "Bayer 04 Leverkusen",
+      "thuisLogo": "https://crests.football-data.org/3.png",
+      "uit": "1. FC Köln",
+      "uitLogo": "https://crests.football-data.org/1.png"
+    },
+    {
+      "id": 566016,
+      "datum": "za 20 maart 13:00",
+      "thuis": "1. FC Köln",
+      "thuisLogo": "https://crests.football-data.org/1.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png"
+    },
+    {
+      "id": 566020,
+      "datum": "za 3 april 14:00",
+      "thuis": "SV 07 Elversberg",
+      "thuisLogo": "https://crests.football-data.org/719.png",
+      "uit": "1. FC Köln",
+      "uitLogo": "https://crests.football-data.org/1.png"
+    },
+    {
+      "id": 566036,
+      "datum": "za 10 april 14:00",
+      "thuis": "1. FC Köln",
+      "thuisLogo": "https://crests.football-data.org/1.png",
+      "uit": "FC Augsburg",
+      "uitLogo": "https://crests.football-data.org/16.png"
+    },
+    {
+      "id": 566045,
+      "datum": "za 17 april 14:00",
+      "thuis": "RB Leipzig",
+      "thuisLogo": "https://crests.football-data.org/721.png",
+      "uit": "1. FC Köln",
+      "uitLogo": "https://crests.football-data.org/1.png"
+    },
+    {
+      "id": 566047,
+      "datum": "za 24 april 14:00",
+      "thuis": "1. FC Köln",
+      "thuisLogo": "https://crests.football-data.org/1.png",
+      "uit": "1. FSV Mainz 05",
+      "uitLogo": "https://crests.football-data.org/15.png"
+    },
+    {
+      "id": 566057,
+      "datum": "za 8 mei 14:00",
+      "thuis": "SC Freiburg",
+      "thuisLogo": "https://crests.football-data.org/17.png",
+      "uit": "1. FC Köln",
+      "uitLogo": "https://crests.football-data.org/1.png"
+    },
+    {
+      "id": 566067,
+      "datum": "za 15 mei 14:00",
+      "thuis": "Borussia Dortmund",
+      "thuisLogo": "https://crests.football-data.org/4.png",
+      "uit": "1. FC Köln",
+      "uitLogo": "https://crests.football-data.org/1.png"
+    },
+    {
+      "id": 566081,
+      "datum": "za 22 mei 14:00",
+      "thuis": "1. FC Köln",
+      "thuisLogo": "https://crests.football-data.org/1.png",
+      "uit": "SC Paderborn 07",
+      "uitLogo": "https://crests.football-data.org/29.png"
+    }
+  ],
+  "2": [
+    {
+      "id": 565783,
+      "datum": "za 29 augustus 15:30",
+      "thuis": "1. FC Köln",
+      "thuisLogo": "https://crests.football-data.org/1.png",
+      "uit": "TSG 1899 Hoffenheim",
+      "uitLogo": "https://crests.football-data.org/2.png"
+    },
+    {
+      "id": 565787,
+      "datum": "za 5 september 15:30",
+      "thuis": "TSG 1899 Hoffenheim",
+      "thuisLogo": "https://crests.football-data.org/2.png",
+      "uit": "Borussia Dortmund",
+      "uitLogo": "https://crests.football-data.org/4.png"
+    },
+    {
+      "id": 565794,
+      "datum": "za 12 september 15:30",
+      "thuis": "TSG 1899 Hoffenheim",
+      "thuisLogo": "https://crests.football-data.org/2.png",
+      "uit": "VfB Stuttgart",
+      "uitLogo": "https://crests.football-data.org/10.png"
+    },
+    {
+      "id": 565803,
+      "datum": "za 19 september 15:30",
+      "thuis": "SC Paderborn 07",
+      "thuisLogo": "https://crests.football-data.org/29.png",
+      "uit": "TSG 1899 Hoffenheim",
+      "uitLogo": "https://crests.football-data.org/2.png"
+    },
+    {
+      "id": 565818,
+      "datum": "za 10 oktober 15:30",
+      "thuis": "TSG 1899 Hoffenheim",
+      "thuisLogo": "https://crests.football-data.org/2.png",
+      "uit": "Hamburger SV",
+      "uitLogo": "https://crests.football-data.org/7.png"
+    },
+    {
+      "id": 565826,
+      "datum": "za 17 oktober 15:30",
+      "thuis": "Borussia Mönchengladbach",
+      "thuisLogo": "https://crests.football-data.org/18.png",
+      "uit": "TSG 1899 Hoffenheim",
+      "uitLogo": "https://crests.football-data.org/2.png"
+    },
+    {
+      "id": 565835,
+      "datum": "za 24 oktober 15:30",
+      "thuis": "TSG 1899 Hoffenheim",
+      "thuisLogo": "https://crests.football-data.org/2.png",
+      "uit": "Bayer 04 Leverkusen",
+      "uitLogo": "https://crests.football-data.org/3.png"
+    },
+    {
+      "id": 565843,
+      "datum": "za 31 oktober 15:30",
+      "thuis": "SV Werder Bremen",
+      "thuisLogo": "https://crests.football-data.org/12.png",
+      "uit": "TSG 1899 Hoffenheim",
+      "uitLogo": "https://crests.football-data.org/2.png"
+    },
+    {
+      "id": 565856,
+      "datum": "za 7 november 15:30",
+      "thuis": "TSG 1899 Hoffenheim",
+      "thuisLogo": "https://crests.football-data.org/2.png",
+      "uit": "FC Schalke 04",
+      "uitLogo": "https://crests.football-data.org/6.png"
+    },
+    {
+      "id": 565865,
+      "datum": "za 21 november 15:30",
+      "thuis": "Eintracht Frankfurt",
+      "thuisLogo": "https://crests.football-data.org/19.png",
+      "uit": "TSG 1899 Hoffenheim",
+      "uitLogo": "https://crests.football-data.org/2.png"
+    },
+    {
+      "id": 565871,
+      "datum": "za 28 november 15:30",
+      "thuis": "TSG 1899 Hoffenheim",
+      "thuisLogo": "https://crests.football-data.org/2.png",
+      "uit": "FC Augsburg",
+      "uitLogo": "https://crests.football-data.org/16.png"
+    },
+    {
+      "id": 565881,
+      "datum": "za 5 december 15:30",
+      "thuis": "SC Freiburg",
+      "thuisLogo": "https://crests.football-data.org/17.png",
+      "uit": "TSG 1899 Hoffenheim",
+      "uitLogo": "https://crests.football-data.org/2.png"
+    },
+    {
+      "id": 565891,
+      "datum": "za 12 december 15:30",
+      "thuis": "TSG 1899 Hoffenheim",
+      "thuisLogo": "https://crests.football-data.org/2.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png"
+    },
+    {
+      "id": 565900,
+      "datum": "za 19 december 15:30",
+      "thuis": "1. FC Union Berlin",
+      "thuisLogo": "https://crests.football-data.org/28.png",
+      "uit": "TSG 1899 Hoffenheim",
+      "uitLogo": "https://crests.football-data.org/2.png"
+    },
+    {
+      "id": 565906,
+      "datum": "za 9 januari 13:00",
+      "thuis": "TSG 1899 Hoffenheim",
+      "thuisLogo": "https://crests.football-data.org/2.png",
+      "uit": "SV 07 Elversberg",
+      "uitLogo": "https://crests.football-data.org/719.png"
+    },
+    {
+      "id": 565911,
+      "datum": "wo 13 januari 13:00",
+      "thuis": "1. FSV Mainz 05",
+      "thuisLogo": "https://crests.football-data.org/15.png",
+      "uit": "TSG 1899 Hoffenheim",
+      "uitLogo": "https://crests.football-data.org/2.png"
+    },
+    {
+      "id": 565923,
+      "datum": "za 16 januari 13:00",
+      "thuis": "TSG 1899 Hoffenheim",
+      "thuisLogo": "https://crests.football-data.org/2.png",
+      "uit": "RB Leipzig",
+      "uitLogo": "https://crests.football-data.org/721.png"
+    },
+    {
+      "id": 565933,
+      "datum": "za 23 januari 13:00",
+      "thuis": "TSG 1899 Hoffenheim",
+      "thuisLogo": "https://crests.football-data.org/2.png",
+      "uit": "1. FC Köln",
+      "uitLogo": "https://crests.football-data.org/1.png"
+    },
+    {
+      "id": 565945,
+      "datum": "za 30 januari 13:00",
+      "thuis": "Borussia Dortmund",
+      "thuisLogo": "https://crests.football-data.org/4.png",
+      "uit": "TSG 1899 Hoffenheim",
+      "uitLogo": "https://crests.football-data.org/2.png"
+    },
+    {
+      "id": 565953,
+      "datum": "za 6 februari 13:00",
+      "thuis": "VfB Stuttgart",
+      "thuisLogo": "https://crests.football-data.org/10.png",
+      "uit": "TSG 1899 Hoffenheim",
+      "uitLogo": "https://crests.football-data.org/2.png"
+    },
+    {
+      "id": 565961,
+      "datum": "za 13 februari 13:00",
+      "thuis": "TSG 1899 Hoffenheim",
+      "thuisLogo": "https://crests.football-data.org/2.png",
+      "uit": "SC Paderborn 07",
+      "uitLogo": "https://crests.football-data.org/29.png"
+    },
+    {
+      "id": 565969,
+      "datum": "za 20 februari 13:00",
+      "thuis": "Hamburger SV",
+      "thuisLogo": "https://crests.football-data.org/7.png",
+      "uit": "TSG 1899 Hoffenheim",
+      "uitLogo": "https://crests.football-data.org/2.png"
+    },
+    {
+      "id": 565979,
+      "datum": "za 27 februari 13:00",
+      "thuis": "TSG 1899 Hoffenheim",
+      "thuisLogo": "https://crests.football-data.org/2.png",
+      "uit": "Borussia Mönchengladbach",
+      "uitLogo": "https://crests.football-data.org/18.png"
+    },
+    {
+      "id": 565985,
+      "datum": "wo 3 maart 13:00",
+      "thuis": "Bayer 04 Leverkusen",
+      "thuisLogo": "https://crests.football-data.org/3.png",
+      "uit": "TSG 1899 Hoffenheim",
+      "uitLogo": "https://crests.football-data.org/2.png"
+    },
+    {
+      "id": 566000,
+      "datum": "za 6 maart 13:00",
+      "thuis": "TSG 1899 Hoffenheim",
+      "thuisLogo": "https://crests.football-data.org/2.png",
+      "uit": "SV Werder Bremen",
+      "uitLogo": "https://crests.football-data.org/12.png"
+    },
+    {
+      "id": 566007,
+      "datum": "za 13 maart 13:00",
+      "thuis": "FC Schalke 04",
+      "thuisLogo": "https://crests.football-data.org/6.png",
+      "uit": "TSG 1899 Hoffenheim",
+      "uitLogo": "https://crests.football-data.org/2.png"
+    },
+    {
+      "id": 566017,
+      "datum": "za 20 maart 13:00",
+      "thuis": "TSG 1899 Hoffenheim",
+      "thuisLogo": "https://crests.football-data.org/2.png",
+      "uit": "Eintracht Frankfurt",
+      "uitLogo": "https://crests.football-data.org/19.png"
+    },
+    {
+      "id": 566022,
+      "datum": "za 3 april 14:00",
+      "thuis": "FC Augsburg",
+      "thuisLogo": "https://crests.football-data.org/16.png",
+      "uit": "TSG 1899 Hoffenheim",
+      "uitLogo": "https://crests.football-data.org/2.png"
+    },
+    {
+      "id": 566030,
+      "datum": "za 10 april 14:00",
+      "thuis": "TSG 1899 Hoffenheim",
+      "thuisLogo": "https://crests.football-data.org/2.png",
+      "uit": "SC Freiburg",
+      "uitLogo": "https://crests.football-data.org/17.png"
+    },
+    {
+      "id": 566040,
+      "datum": "za 17 april 14:00",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "TSG 1899 Hoffenheim",
+      "uitLogo": "https://crests.football-data.org/2.png"
+    },
+    {
+      "id": 566050,
+      "datum": "za 24 april 14:00",
+      "thuis": "TSG 1899 Hoffenheim",
+      "thuisLogo": "https://crests.football-data.org/2.png",
+      "uit": "1. FC Union Berlin",
+      "uitLogo": "https://crests.football-data.org/28.png"
+    },
+    {
+      "id": 566061,
+      "datum": "za 8 mei 14:00",
+      "thuis": "SV 07 Elversberg",
+      "thuisLogo": "https://crests.football-data.org/719.png",
+      "uit": "TSG 1899 Hoffenheim",
+      "uitLogo": "https://crests.football-data.org/2.png"
+    },
+    {
+      "id": 566072,
+      "datum": "za 15 mei 14:00",
+      "thuis": "TSG 1899 Hoffenheim",
+      "thuisLogo": "https://crests.football-data.org/2.png",
+      "uit": "1. FSV Mainz 05",
+      "uitLogo": "https://crests.football-data.org/15.png"
+    },
+    {
+      "id": 566073,
+      "datum": "za 22 mei 14:00",
+      "thuis": "RB Leipzig",
+      "thuisLogo": "https://crests.football-data.org/721.png",
+      "uit": "TSG 1899 Hoffenheim",
+      "uitLogo": "https://crests.football-data.org/2.png"
+    }
+  ],
+  "17": [
+    {
+      "id": 565784,
+      "datum": "za 29 augustus 15:30",
+      "thuis": "SC Freiburg",
+      "thuisLogo": "https://crests.football-data.org/17.png",
+      "uit": "SV Werder Bremen",
+      "uitLogo": "https://crests.football-data.org/12.png"
+    },
+    {
+      "id": 565793,
+      "datum": "za 5 september 15:30",
+      "thuis": "SC Paderborn 07",
+      "thuisLogo": "https://crests.football-data.org/29.png",
+      "uit": "SC Freiburg",
+      "uitLogo": "https://crests.football-data.org/17.png"
+    },
+    {
+      "id": 565802,
+      "datum": "za 12 september 15:30",
+      "thuis": "SC Freiburg",
+      "thuisLogo": "https://crests.football-data.org/17.png",
+      "uit": "Borussia Mönchengladbach",
+      "uitLogo": "https://crests.football-data.org/18.png"
+    },
+    {
+      "id": 565811,
+      "datum": "za 19 september 15:30",
+      "thuis": "Eintracht Frankfurt",
+      "thuisLogo": "https://crests.football-data.org/19.png",
+      "uit": "SC Freiburg",
+      "uitLogo": "https://crests.football-data.org/17.png"
+    },
+    {
+      "id": 565816,
+      "datum": "za 10 oktober 15:30",
+      "thuis": "SC Freiburg",
+      "thuisLogo": "https://crests.football-data.org/17.png",
+      "uit": "FC Schalke 04",
+      "uitLogo": "https://crests.football-data.org/6.png"
+    },
+    {
+      "id": 565827,
+      "datum": "za 17 oktober 15:30",
+      "thuis": "Bayer 04 Leverkusen",
+      "thuisLogo": "https://crests.football-data.org/3.png",
+      "uit": "SC Freiburg",
+      "uitLogo": "https://crests.football-data.org/17.png"
+    },
+    {
+      "id": 565836,
+      "datum": "za 24 oktober 15:30",
+      "thuis": "SC Freiburg",
+      "thuisLogo": "https://crests.football-data.org/17.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png"
+    },
+    {
+      "id": 565842,
+      "datum": "za 31 oktober 15:30",
+      "thuis": "FC Augsburg",
+      "thuisLogo": "https://crests.football-data.org/16.png",
+      "uit": "SC Freiburg",
+      "uitLogo": "https://crests.football-data.org/17.png"
+    },
+    {
+      "id": 565854,
+      "datum": "za 7 november 15:30",
+      "thuis": "SC Freiburg",
+      "thuisLogo": "https://crests.football-data.org/17.png",
+      "uit": "1. FC Union Berlin",
+      "uitLogo": "https://crests.football-data.org/28.png"
+    },
+    {
+      "id": 565860,
+      "datum": "za 21 november 15:30",
+      "thuis": "SV 07 Elversberg",
+      "thuisLogo": "https://crests.football-data.org/719.png",
+      "uit": "SC Freiburg",
+      "uitLogo": "https://crests.football-data.org/17.png"
+    },
+    {
+      "id": 565873,
+      "datum": "za 28 november 15:30",
+      "thuis": "SC Freiburg",
+      "thuisLogo": "https://crests.football-data.org/17.png",
+      "uit": "RB Leipzig",
+      "uitLogo": "https://crests.football-data.org/721.png"
+    },
+    {
+      "id": 565881,
+      "datum": "za 5 december 15:30",
+      "thuis": "SC Freiburg",
+      "thuisLogo": "https://crests.football-data.org/17.png",
+      "uit": "TSG 1899 Hoffenheim",
+      "uitLogo": "https://crests.football-data.org/2.png"
+    },
+    {
+      "id": 565889,
+      "datum": "za 12 december 15:30",
+      "thuis": "1. FSV Mainz 05",
+      "thuisLogo": "https://crests.football-data.org/15.png",
+      "uit": "SC Freiburg",
+      "uitLogo": "https://crests.football-data.org/17.png"
+    },
+    {
+      "id": 565897,
+      "datum": "za 19 december 15:30",
+      "thuis": "SC Freiburg",
+      "thuisLogo": "https://crests.football-data.org/17.png",
+      "uit": "VfB Stuttgart",
+      "uitLogo": "https://crests.football-data.org/10.png"
+    },
+    {
+      "id": 565904,
+      "datum": "za 9 januari 13:00",
+      "thuis": "1. FC Köln",
+      "thuisLogo": "https://crests.football-data.org/1.png",
+      "uit": "SC Freiburg",
+      "uitLogo": "https://crests.football-data.org/17.png"
+    },
+    {
+      "id": 565912,
+      "datum": "wo 13 januari 13:00",
+      "thuis": "SC Freiburg",
+      "thuisLogo": "https://crests.football-data.org/17.png",
+      "uit": "Hamburger SV",
+      "uitLogo": "https://crests.football-data.org/7.png"
+    },
+    {
+      "id": 565928,
+      "datum": "za 16 januari 13:00",
+      "thuis": "Borussia Dortmund",
+      "thuisLogo": "https://crests.football-data.org/4.png",
+      "uit": "SC Freiburg",
+      "uitLogo": "https://crests.football-data.org/17.png"
+    },
+    {
+      "id": 565929,
+      "datum": "za 23 januari 13:00",
+      "thuis": "SV Werder Bremen",
+      "thuisLogo": "https://crests.football-data.org/12.png",
+      "uit": "SC Freiburg",
+      "uitLogo": "https://crests.football-data.org/17.png"
+    },
+    {
+      "id": 565944,
+      "datum": "za 30 januari 13:00",
+      "thuis": "SC Freiburg",
+      "thuisLogo": "https://crests.football-data.org/17.png",
+      "uit": "SC Paderborn 07",
+      "uitLogo": "https://crests.football-data.org/29.png"
+    },
+    {
+      "id": 565948,
+      "datum": "za 6 februari 13:00",
+      "thuis": "Borussia Mönchengladbach",
+      "thuisLogo": "https://crests.football-data.org/18.png",
+      "uit": "SC Freiburg",
+      "uitLogo": "https://crests.football-data.org/17.png"
+    },
+    {
+      "id": 565962,
+      "datum": "za 13 februari 13:00",
+      "thuis": "SC Freiburg",
+      "thuisLogo": "https://crests.football-data.org/17.png",
+      "uit": "Eintracht Frankfurt",
+      "uitLogo": "https://crests.football-data.org/19.png"
+    },
+    {
+      "id": 565965,
+      "datum": "za 20 februari 13:00",
+      "thuis": "FC Schalke 04",
+      "thuisLogo": "https://crests.football-data.org/6.png",
+      "uit": "SC Freiburg",
+      "uitLogo": "https://crests.football-data.org/17.png"
+    },
+    {
+      "id": 565976,
+      "datum": "za 27 februari 13:00",
+      "thuis": "SC Freiburg",
+      "thuisLogo": "https://crests.football-data.org/17.png",
+      "uit": "Bayer 04 Leverkusen",
+      "uitLogo": "https://crests.football-data.org/3.png"
+    },
+    {
+      "id": 565986,
+      "datum": "wo 3 maart 13:00",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "SC Freiburg",
+      "uitLogo": "https://crests.football-data.org/17.png"
+    },
+    {
+      "id": 565993,
+      "datum": "za 6 maart 13:00",
+      "thuis": "SC Freiburg",
+      "thuisLogo": "https://crests.football-data.org/17.png",
+      "uit": "FC Augsburg",
+      "uitLogo": "https://crests.football-data.org/16.png"
+    },
+    {
+      "id": 566001,
+      "datum": "za 13 maart 13:00",
+      "thuis": "1. FC Union Berlin",
+      "thuisLogo": "https://crests.football-data.org/28.png",
+      "uit": "SC Freiburg",
+      "uitLogo": "https://crests.football-data.org/17.png"
+    },
+    {
+      "id": 566013,
+      "datum": "za 20 maart 13:00",
+      "thuis": "SC Freiburg",
+      "thuisLogo": "https://crests.football-data.org/17.png",
+      "uit": "SV 07 Elversberg",
+      "uitLogo": "https://crests.football-data.org/719.png"
+    },
+    {
+      "id": 566019,
+      "datum": "za 3 april 14:00",
+      "thuis": "RB Leipzig",
+      "thuisLogo": "https://crests.football-data.org/721.png",
+      "uit": "SC Freiburg",
+      "uitLogo": "https://crests.football-data.org/17.png"
+    },
+    {
+      "id": 566030,
+      "datum": "za 10 april 14:00",
+      "thuis": "TSG 1899 Hoffenheim",
+      "thuisLogo": "https://crests.football-data.org/2.png",
+      "uit": "SC Freiburg",
+      "uitLogo": "https://crests.football-data.org/17.png"
+    },
+    {
+      "id": 566044,
+      "datum": "za 17 april 14:00",
+      "thuis": "SC Freiburg",
+      "thuisLogo": "https://crests.football-data.org/17.png",
+      "uit": "1. FSV Mainz 05",
+      "uitLogo": "https://crests.football-data.org/15.png"
+    },
+    {
+      "id": 566052,
+      "datum": "za 24 april 14:00",
+      "thuis": "VfB Stuttgart",
+      "thuisLogo": "https://crests.football-data.org/10.png",
+      "uit": "SC Freiburg",
+      "uitLogo": "https://crests.football-data.org/17.png"
+    },
+    {
+      "id": 566057,
+      "datum": "za 8 mei 14:00",
+      "thuis": "SC Freiburg",
+      "thuisLogo": "https://crests.football-data.org/17.png",
+      "uit": "1. FC Köln",
+      "uitLogo": "https://crests.football-data.org/1.png"
+    },
+    {
+      "id": 566068,
+      "datum": "za 15 mei 14:00",
+      "thuis": "Hamburger SV",
+      "thuisLogo": "https://crests.football-data.org/7.png",
+      "uit": "SC Freiburg",
+      "uitLogo": "https://crests.football-data.org/17.png"
+    },
+    {
+      "id": 566080,
+      "datum": "za 22 mei 14:00",
+      "thuis": "SC Freiburg",
+      "thuisLogo": "https://crests.football-data.org/17.png",
+      "uit": "Borussia Dortmund",
+      "uitLogo": "https://crests.football-data.org/4.png"
+    }
+  ],
+  "12": [
+    {
+      "id": 565784,
+      "datum": "za 29 augustus 15:30",
+      "thuis": "SC Freiburg",
+      "thuisLogo": "https://crests.football-data.org/17.png",
+      "uit": "SV Werder Bremen",
+      "uitLogo": "https://crests.football-data.org/12.png"
+    },
+    {
+      "id": 565785,
+      "datum": "za 5 september 15:30",
+      "thuis": "SV Werder Bremen",
+      "thuisLogo": "https://crests.football-data.org/12.png",
+      "uit": "RB Leipzig",
+      "uitLogo": "https://crests.football-data.org/721.png"
+    },
+    {
+      "id": 565798,
+      "datum": "za 12 september 15:30",
+      "thuis": "1. FC Köln",
+      "thuisLogo": "https://crests.football-data.org/1.png",
+      "uit": "SV Werder Bremen",
+      "uitLogo": "https://crests.football-data.org/12.png"
+    },
+    {
+      "id": 565810,
+      "datum": "za 19 september 15:30",
+      "thuis": "SV Werder Bremen",
+      "thuisLogo": "https://crests.football-data.org/12.png",
+      "uit": "FC Augsburg",
+      "uitLogo": "https://crests.football-data.org/16.png"
+    },
+    {
+      "id": 565820,
+      "datum": "za 10 oktober 15:30",
+      "thuis": "Borussia Dortmund",
+      "thuisLogo": "https://crests.football-data.org/4.png",
+      "uit": "SV Werder Bremen",
+      "uitLogo": "https://crests.football-data.org/12.png"
+    },
+    {
+      "id": 565823,
+      "datum": "za 17 oktober 15:30",
+      "thuis": "SV Werder Bremen",
+      "thuisLogo": "https://crests.football-data.org/12.png",
+      "uit": "SC Paderborn 07",
+      "uitLogo": "https://crests.football-data.org/29.png"
+    },
+    {
+      "id": 565830,
+      "datum": "za 24 oktober 15:30",
+      "thuis": "1. FSV Mainz 05",
+      "thuisLogo": "https://crests.football-data.org/15.png",
+      "uit": "SV Werder Bremen",
+      "uitLogo": "https://crests.football-data.org/12.png"
+    },
+    {
+      "id": 565843,
+      "datum": "za 31 oktober 15:30",
+      "thuis": "SV Werder Bremen",
+      "thuisLogo": "https://crests.football-data.org/12.png",
+      "uit": "TSG 1899 Hoffenheim",
+      "uitLogo": "https://crests.football-data.org/2.png"
+    },
+    {
+      "id": 565849,
+      "datum": "za 7 november 15:30",
+      "thuis": "VfB Stuttgart",
+      "thuisLogo": "https://crests.football-data.org/10.png",
+      "uit": "SV Werder Bremen",
+      "uitLogo": "https://crests.football-data.org/12.png"
+    },
+    {
+      "id": 565863,
+      "datum": "za 21 november 15:30",
+      "thuis": "SV Werder Bremen",
+      "thuisLogo": "https://crests.football-data.org/12.png",
+      "uit": "Hamburger SV",
+      "uitLogo": "https://crests.football-data.org/7.png"
+    },
+    {
+      "id": 565869,
+      "datum": "za 28 november 15:30",
+      "thuis": "SV Werder Bremen",
+      "thuisLogo": "https://crests.football-data.org/12.png",
+      "uit": "Borussia Mönchengladbach",
+      "uitLogo": "https://crests.football-data.org/18.png"
+    },
+    {
+      "id": 565878,
+      "datum": "za 5 december 15:30",
+      "thuis": "Eintracht Frankfurt",
+      "thuisLogo": "https://crests.football-data.org/19.png",
+      "uit": "SV Werder Bremen",
+      "uitLogo": "https://crests.football-data.org/12.png"
+    },
+    {
+      "id": 565885,
+      "datum": "za 12 december 15:30",
+      "thuis": "SV Werder Bremen",
+      "thuisLogo": "https://crests.football-data.org/12.png",
+      "uit": "Bayer 04 Leverkusen",
+      "uitLogo": "https://crests.football-data.org/3.png"
+    },
+    {
+      "id": 565894,
+      "datum": "za 19 december 15:30",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "SV Werder Bremen",
+      "uitLogo": "https://crests.football-data.org/12.png"
+    },
+    {
+      "id": 565909,
+      "datum": "za 9 januari 13:00",
+      "thuis": "SV Werder Bremen",
+      "thuisLogo": "https://crests.football-data.org/12.png",
+      "uit": "1. FC Union Berlin",
+      "uitLogo": "https://crests.football-data.org/28.png"
+    },
+    {
+      "id": 565913,
+      "datum": "wo 13 januari 13:00",
+      "thuis": "FC Schalke 04",
+      "thuisLogo": "https://crests.football-data.org/6.png",
+      "uit": "SV Werder Bremen",
+      "uitLogo": "https://crests.football-data.org/12.png"
+    },
+    {
+      "id": 565920,
+      "datum": "za 16 januari 13:00",
+      "thuis": "SV Werder Bremen",
+      "thuisLogo": "https://crests.football-data.org/12.png",
+      "uit": "SV 07 Elversberg",
+      "uitLogo": "https://crests.football-data.org/719.png"
+    },
+    {
+      "id": 565929,
+      "datum": "za 23 januari 13:00",
+      "thuis": "SV Werder Bremen",
+      "thuisLogo": "https://crests.football-data.org/12.png",
+      "uit": "SC Freiburg",
+      "uitLogo": "https://crests.football-data.org/17.png"
+    },
+    {
+      "id": 565941,
+      "datum": "za 30 januari 13:00",
+      "thuis": "RB Leipzig",
+      "thuisLogo": "https://crests.football-data.org/721.png",
+      "uit": "SV Werder Bremen",
+      "uitLogo": "https://crests.football-data.org/12.png"
+    },
+    {
+      "id": 565952,
+      "datum": "za 6 februari 13:00",
+      "thuis": "SV Werder Bremen",
+      "thuisLogo": "https://crests.football-data.org/12.png",
+      "uit": "1. FC Köln",
+      "uitLogo": "https://crests.football-data.org/1.png"
+    },
+    {
+      "id": 565963,
+      "datum": "za 13 februari 13:00",
+      "thuis": "FC Augsburg",
+      "thuisLogo": "https://crests.football-data.org/16.png",
+      "uit": "SV Werder Bremen",
+      "uitLogo": "https://crests.football-data.org/12.png"
+    },
+    {
+      "id": 565968,
+      "datum": "za 20 februari 13:00",
+      "thuis": "SV Werder Bremen",
+      "thuisLogo": "https://crests.football-data.org/12.png",
+      "uit": "Borussia Dortmund",
+      "uitLogo": "https://crests.football-data.org/4.png"
+    },
+    {
+      "id": 565980,
+      "datum": "za 27 februari 13:00",
+      "thuis": "SC Paderborn 07",
+      "thuisLogo": "https://crests.football-data.org/29.png",
+      "uit": "SV Werder Bremen",
+      "uitLogo": "https://crests.football-data.org/12.png"
+    },
+    {
+      "id": 565987,
+      "datum": "wo 3 maart 13:00",
+      "thuis": "SV Werder Bremen",
+      "thuisLogo": "https://crests.football-data.org/12.png",
+      "uit": "1. FSV Mainz 05",
+      "uitLogo": "https://crests.football-data.org/15.png"
+    },
+    {
+      "id": 566000,
+      "datum": "za 6 maart 13:00",
+      "thuis": "TSG 1899 Hoffenheim",
+      "thuisLogo": "https://crests.football-data.org/2.png",
+      "uit": "SV Werder Bremen",
+      "uitLogo": "https://crests.football-data.org/12.png"
+    },
+    {
+      "id": 566006,
+      "datum": "za 13 maart 13:00",
+      "thuis": "SV Werder Bremen",
+      "thuisLogo": "https://crests.football-data.org/12.png",
+      "uit": "VfB Stuttgart",
+      "uitLogo": "https://crests.football-data.org/10.png"
+    },
+    {
+      "id": 566014,
+      "datum": "za 20 maart 13:00",
+      "thuis": "Hamburger SV",
+      "thuisLogo": "https://crests.football-data.org/7.png",
+      "uit": "SV Werder Bremen",
+      "uitLogo": "https://crests.football-data.org/12.png"
+    },
+    {
+      "id": 566023,
+      "datum": "za 3 april 14:00",
+      "thuis": "Borussia Mönchengladbach",
+      "thuisLogo": "https://crests.football-data.org/18.png",
+      "uit": "SV Werder Bremen",
+      "uitLogo": "https://crests.football-data.org/12.png"
+    },
+    {
+      "id": 566032,
+      "datum": "za 10 april 14:00",
+      "thuis": "SV Werder Bremen",
+      "thuisLogo": "https://crests.football-data.org/12.png",
+      "uit": "Eintracht Frankfurt",
+      "uitLogo": "https://crests.football-data.org/19.png"
+    },
+    {
+      "id": 566037,
+      "datum": "za 17 april 14:00",
+      "thuis": "Bayer 04 Leverkusen",
+      "thuisLogo": "https://crests.football-data.org/3.png",
+      "uit": "SV Werder Bremen",
+      "uitLogo": "https://crests.football-data.org/12.png"
+    },
+    {
+      "id": 566046,
+      "datum": "za 24 april 14:00",
+      "thuis": "SV Werder Bremen",
+      "thuisLogo": "https://crests.football-data.org/12.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png"
+    },
+    {
+      "id": 566060,
+      "datum": "za 8 mei 14:00",
+      "thuis": "1. FC Union Berlin",
+      "thuisLogo": "https://crests.football-data.org/28.png",
+      "uit": "SV Werder Bremen",
+      "uitLogo": "https://crests.football-data.org/12.png"
+    },
+    {
+      "id": 566070,
+      "datum": "za 15 mei 14:00",
+      "thuis": "SV Werder Bremen",
+      "thuisLogo": "https://crests.football-data.org/12.png",
+      "uit": "FC Schalke 04",
+      "uitLogo": "https://crests.football-data.org/6.png"
+    },
+    {
+      "id": 566077,
+      "datum": "za 22 mei 14:00",
+      "thuis": "SV 07 Elversberg",
+      "thuisLogo": "https://crests.football-data.org/719.png",
+      "uit": "SV Werder Bremen",
+      "uitLogo": "https://crests.football-data.org/12.png"
+    }
+  ],
   "115": [
     {
       "id": 558629,
@@ -28887,10 +33819,334 @@
       "uitLogo": "https://crests.football-data.org/1782.png"
     }
   ],
+  "1765": [
+    {
+      "id": 554925,
+      "datum": "za 18 juli 01:00",
+      "thuis": "Fluminense FC",
+      "thuisLogo": "https://crests.football-data.org/1765.png",
+      "uit": "RB Bragantino",
+      "uitLogo": "https://crests.football-data.org/4286.png"
+    },
+    {
+      "id": 554935,
+      "datum": "zo 26 juli 23:30",
+      "thuis": "Grêmio FBPA",
+      "thuisLogo": "https://crests.football-data.org/1767.png",
+      "uit": "Fluminense FC",
+      "uitLogo": "https://crests.football-data.org/1765.png"
+    },
+    {
+      "id": 554945,
+      "datum": "do 30 juli 02:30",
+      "thuis": "Fluminense FC",
+      "thuisLogo": "https://crests.football-data.org/1765.png",
+      "uit": "EC Bahia",
+      "uitLogo": "https://crests.football-data.org/1777.png"
+    },
+    {
+      "id": 554951,
+      "datum": "zo 9 augustus 02:00",
+      "thuis": "Botafogo FR",
+      "thuisLogo": "https://crests.football-data.org/1770.png",
+      "uit": "Fluminense FC",
+      "uitLogo": "https://crests.football-data.org/1765.png"
+    },
+    {
+      "id": 554964,
+      "datum": "za 15 augustus 21:30",
+      "thuis": "Fluminense FC",
+      "thuisLogo": "https://crests.football-data.org/1765.png",
+      "uit": "SE Palmeiras",
+      "uitLogo": "https://crests.football-data.org/1769.png"
+    },
+    {
+      "id": 554975,
+      "datum": "za 22 augustus 21:00",
+      "thuis": "Fluminense FC",
+      "thuisLogo": "https://crests.football-data.org/1765.png",
+      "uit": "Clube do Remo",
+      "uitLogo": "https://crests.football-data.org/4287.png"
+    },
+    {
+      "id": 554980,
+      "datum": "za 29 augustus 02:00",
+      "thuis": "CA Paranaense",
+      "thuisLogo": "https://crests.football-data.org/1768.png",
+      "uit": "Fluminense FC",
+      "uitLogo": "https://crests.football-data.org/1765.png"
+    },
+    {
+      "id": 554995,
+      "datum": "za 5 september 02:00",
+      "thuis": "Fluminense FC",
+      "thuisLogo": "https://crests.football-data.org/1765.png",
+      "uit": "CR Vasco da Gama",
+      "uitLogo": "https://crests.football-data.org/1780.png"
+    },
+    {
+      "id": 555000,
+      "datum": "za 12 september 02:00",
+      "thuis": "CA Mineiro",
+      "thuisLogo": "https://crests.football-data.org/1766.png",
+      "uit": "Fluminense FC",
+      "uitLogo": "https://crests.football-data.org/1765.png"
+    },
+    {
+      "id": 555012,
+      "datum": "za 19 september 02:00",
+      "thuis": "SC Corinthians Paulista",
+      "thuisLogo": "https://crests.football-data.org/1779.png",
+      "uit": "Fluminense FC",
+      "uitLogo": "https://crests.football-data.org/1765.png"
+    },
+    {
+      "id": 555024,
+      "datum": "wo 7 oktober 02:00",
+      "thuis": "Fluminense FC",
+      "thuisLogo": "https://crests.football-data.org/1765.png",
+      "uit": "Coritiba FBC",
+      "uitLogo": "https://crests.football-data.org/4241.png"
+    },
+    {
+      "id": 555035,
+      "datum": "za 10 oktober 02:00",
+      "thuis": "CR Flamengo",
+      "thuisLogo": "https://crests.football-data.org/1783.png",
+      "uit": "Fluminense FC",
+      "uitLogo": "https://crests.football-data.org/1765.png"
+    },
+    {
+      "id": 555045,
+      "datum": "za 17 oktober 02:00",
+      "thuis": "Fluminense FC",
+      "thuisLogo": "https://crests.football-data.org/1765.png",
+      "uit": "Santos FC",
+      "uitLogo": "https://crests.football-data.org/6685.png"
+    },
+    {
+      "id": 555050,
+      "datum": "za 24 oktober 02:00",
+      "thuis": "Chapecoense AF",
+      "thuisLogo": "https://crests.football-data.org/1772_large.png",
+      "uit": "Fluminense FC",
+      "uitLogo": "https://crests.football-data.org/1765.png"
+    },
+    {
+      "id": 555065,
+      "datum": "wo 28 oktober 01:00",
+      "thuis": "Fluminense FC",
+      "thuisLogo": "https://crests.football-data.org/1765.png",
+      "uit": "SC Internacional",
+      "uitLogo": "https://crests.football-data.org/6684.png"
+    },
+    {
+      "id": 555079,
+      "datum": "wo 4 november 01:00",
+      "thuis": "EC Vitória",
+      "thuisLogo": "https://crests.football-data.org/1782.png",
+      "uit": "Fluminense FC",
+      "uitLogo": "https://crests.football-data.org/1765.png"
+    },
+    {
+      "id": 555087,
+      "datum": "wo 18 november 01:00",
+      "thuis": "São Paulo FC",
+      "thuisLogo": "https://crests.football-data.org/1776.png",
+      "uit": "Fluminense FC",
+      "uitLogo": "https://crests.football-data.org/1765.png"
+    },
+    {
+      "id": 555096,
+      "datum": "za 21 november 01:00",
+      "thuis": "Fluminense FC",
+      "thuisLogo": "https://crests.football-data.org/1765.png",
+      "uit": "Mirassol FC",
+      "uitLogo": "https://crests.football-data.org/4364.png"
+    },
+    {
+      "id": 555105,
+      "datum": "za 28 november 01:00",
+      "thuis": "Fluminense FC",
+      "thuisLogo": "https://crests.football-data.org/1765.png",
+      "uit": "Cruzeiro EC",
+      "uitLogo": "https://crests.football-data.org/1771.png"
+    },
+    {
+      "id": 555112,
+      "datum": "wo 2 december 01:00",
+      "thuis": "RB Bragantino",
+      "thuisLogo": "https://crests.football-data.org/4286.png",
+      "uit": "Fluminense FC",
+      "uitLogo": "https://crests.football-data.org/1765.png"
+    }
+  ],
+  "4286": [
+    {
+      "id": 554925,
+      "datum": "za 18 juli 01:00",
+      "thuis": "Fluminense FC",
+      "thuisLogo": "https://crests.football-data.org/1765.png",
+      "uit": "RB Bragantino",
+      "uitLogo": "https://crests.football-data.org/4286.png"
+    },
+    {
+      "id": 554932,
+      "datum": "zo 26 juli 23:30",
+      "thuis": "RB Bragantino",
+      "thuisLogo": "https://crests.football-data.org/4286.png",
+      "uit": "Coritiba FBC",
+      "uitLogo": "https://crests.football-data.org/4241.png"
+    },
+    {
+      "id": 554940,
+      "datum": "wo 29 juli 22:00",
+      "thuis": "CA Mineiro",
+      "thuisLogo": "https://crests.football-data.org/1766.png",
+      "uit": "RB Bragantino",
+      "uitLogo": "https://crests.football-data.org/4286.png"
+    },
+    {
+      "id": 554952,
+      "datum": "zo 9 augustus 23:30",
+      "thuis": "RB Bragantino",
+      "thuisLogo": "https://crests.football-data.org/4286.png",
+      "uit": "SC Corinthians Paulista",
+      "uitLogo": "https://crests.football-data.org/1779.png"
+    },
+    {
+      "id": 554960,
+      "datum": "za 15 augustus 23:30",
+      "thuis": "CA Paranaense",
+      "thuisLogo": "https://crests.football-data.org/1768.png",
+      "uit": "RB Bragantino",
+      "uitLogo": "https://crests.football-data.org/4286.png"
+    },
+    {
+      "id": 554971,
+      "datum": "zo 23 augustus 21:00",
+      "thuis": "RB Bragantino",
+      "thuisLogo": "https://crests.football-data.org/4286.png",
+      "uit": "Grêmio FBPA",
+      "uitLogo": "https://crests.football-data.org/1767.png"
+    },
+    {
+      "id": 554988,
+      "datum": "za 29 augustus 02:00",
+      "thuis": "São Paulo FC",
+      "thuisLogo": "https://crests.football-data.org/1776.png",
+      "uit": "RB Bragantino",
+      "uitLogo": "https://crests.football-data.org/4286.png"
+    },
+    {
+      "id": 554991,
+      "datum": "za 5 september 02:00",
+      "thuis": "RB Bragantino",
+      "thuisLogo": "https://crests.football-data.org/4286.png",
+      "uit": "EC Bahia",
+      "uitLogo": "https://crests.football-data.org/1777.png"
+    },
+    {
+      "id": 555002,
+      "datum": "za 12 september 02:00",
+      "thuis": "Botafogo FR",
+      "thuisLogo": "https://crests.football-data.org/1770.png",
+      "uit": "RB Bragantino",
+      "uitLogo": "https://crests.football-data.org/4286.png"
+    },
+    {
+      "id": 555013,
+      "datum": "za 19 september 02:00",
+      "thuis": "CR Flamengo",
+      "thuisLogo": "https://crests.football-data.org/1783.png",
+      "uit": "RB Bragantino",
+      "uitLogo": "https://crests.football-data.org/4286.png"
+    },
+    {
+      "id": 555022,
+      "datum": "wo 7 oktober 02:00",
+      "thuis": "RB Bragantino",
+      "thuisLogo": "https://crests.football-data.org/4286.png",
+      "uit": "Mirassol FC",
+      "uitLogo": "https://crests.football-data.org/4364.png"
+    },
+    {
+      "id": 555032,
+      "datum": "za 10 oktober 02:00",
+      "thuis": "RB Bragantino",
+      "thuisLogo": "https://crests.football-data.org/4286.png",
+      "uit": "Cruzeiro EC",
+      "uitLogo": "https://crests.football-data.org/1771.png"
+    },
+    {
+      "id": 555048,
+      "datum": "za 17 oktober 02:00",
+      "thuis": "Clube do Remo",
+      "thuisLogo": "https://crests.football-data.org/4287.png",
+      "uit": "RB Bragantino",
+      "uitLogo": "https://crests.football-data.org/4286.png"
+    },
+    {
+      "id": 555056,
+      "datum": "za 24 oktober 02:00",
+      "thuis": "SE Palmeiras",
+      "thuisLogo": "https://crests.football-data.org/1769.png",
+      "uit": "RB Bragantino",
+      "uitLogo": "https://crests.football-data.org/4286.png"
+    },
+    {
+      "id": 555062,
+      "datum": "wo 28 oktober 01:00",
+      "thuis": "RB Bragantino",
+      "thuisLogo": "https://crests.football-data.org/4286.png",
+      "uit": "Chapecoense AF",
+      "uitLogo": "https://crests.football-data.org/1772_large.png"
+    },
+    {
+      "id": 555072,
+      "datum": "wo 4 november 01:00",
+      "thuis": "RB Bragantino",
+      "thuisLogo": "https://crests.football-data.org/4286.png",
+      "uit": "Santos FC",
+      "uitLogo": "https://crests.football-data.org/6685.png"
+    },
+    {
+      "id": 555089,
+      "datum": "wo 18 november 01:00",
+      "thuis": "EC Vitória",
+      "thuisLogo": "https://crests.football-data.org/1782.png",
+      "uit": "RB Bragantino",
+      "uitLogo": "https://crests.football-data.org/4286.png"
+    },
+    {
+      "id": 555094,
+      "datum": "za 21 november 01:00",
+      "thuis": "RB Bragantino",
+      "thuisLogo": "https://crests.football-data.org/4286.png",
+      "uit": "CR Vasco da Gama",
+      "uitLogo": "https://crests.football-data.org/1780.png"
+    },
+    {
+      "id": 555106,
+      "datum": "za 28 november 01:00",
+      "thuis": "SC Internacional",
+      "thuisLogo": "https://crests.football-data.org/6684.png",
+      "uit": "RB Bragantino",
+      "uitLogo": "https://crests.football-data.org/4286.png"
+    },
+    {
+      "id": 555112,
+      "datum": "wo 2 december 01:00",
+      "thuis": "RB Bragantino",
+      "thuisLogo": "https://crests.football-data.org/4286.png",
+      "uit": "Fluminense FC",
+      "uitLogo": "https://crests.football-data.org/1765.png"
+    }
+  ],
   "4364": [
     {
       "id": 554927,
-      "datum": "vr 17 juli 02:30",
+      "datum": "za 18 juli 01:00",
       "thuis": "Mirassol FC",
       "thuisLogo": "https://crests.football-data.org/4364.png",
       "uit": "Grêmio FBPA",
@@ -29052,7 +34308,7 @@
   "1767": [
     {
       "id": 554927,
-      "datum": "vr 17 juli 02:30",
+      "datum": "za 18 juli 01:00",
       "thuis": "Mirassol FC",
       "thuisLogo": "https://crests.football-data.org/4364.png",
       "uit": "Grêmio FBPA",
@@ -29549,330 +34805,6 @@
       "thuisLogo": "https://crests.football-data.org/1783.png",
       "uit": "Chapecoense AF",
       "uitLogo": "https://crests.football-data.org/1772_large.png"
-    }
-  ],
-  "1765": [
-    {
-      "id": 554925,
-      "datum": "za 18 juli 02:30",
-      "thuis": "Fluminense FC",
-      "thuisLogo": "https://crests.football-data.org/1765.png",
-      "uit": "RB Bragantino",
-      "uitLogo": "https://crests.football-data.org/4286.png"
-    },
-    {
-      "id": 554935,
-      "datum": "zo 26 juli 23:30",
-      "thuis": "Grêmio FBPA",
-      "thuisLogo": "https://crests.football-data.org/1767.png",
-      "uit": "Fluminense FC",
-      "uitLogo": "https://crests.football-data.org/1765.png"
-    },
-    {
-      "id": 554945,
-      "datum": "do 30 juli 02:30",
-      "thuis": "Fluminense FC",
-      "thuisLogo": "https://crests.football-data.org/1765.png",
-      "uit": "EC Bahia",
-      "uitLogo": "https://crests.football-data.org/1777.png"
-    },
-    {
-      "id": 554951,
-      "datum": "zo 9 augustus 02:00",
-      "thuis": "Botafogo FR",
-      "thuisLogo": "https://crests.football-data.org/1770.png",
-      "uit": "Fluminense FC",
-      "uitLogo": "https://crests.football-data.org/1765.png"
-    },
-    {
-      "id": 554964,
-      "datum": "za 15 augustus 21:30",
-      "thuis": "Fluminense FC",
-      "thuisLogo": "https://crests.football-data.org/1765.png",
-      "uit": "SE Palmeiras",
-      "uitLogo": "https://crests.football-data.org/1769.png"
-    },
-    {
-      "id": 554975,
-      "datum": "za 22 augustus 21:00",
-      "thuis": "Fluminense FC",
-      "thuisLogo": "https://crests.football-data.org/1765.png",
-      "uit": "Clube do Remo",
-      "uitLogo": "https://crests.football-data.org/4287.png"
-    },
-    {
-      "id": 554980,
-      "datum": "za 29 augustus 02:00",
-      "thuis": "CA Paranaense",
-      "thuisLogo": "https://crests.football-data.org/1768.png",
-      "uit": "Fluminense FC",
-      "uitLogo": "https://crests.football-data.org/1765.png"
-    },
-    {
-      "id": 554995,
-      "datum": "za 5 september 02:00",
-      "thuis": "Fluminense FC",
-      "thuisLogo": "https://crests.football-data.org/1765.png",
-      "uit": "CR Vasco da Gama",
-      "uitLogo": "https://crests.football-data.org/1780.png"
-    },
-    {
-      "id": 555000,
-      "datum": "za 12 september 02:00",
-      "thuis": "CA Mineiro",
-      "thuisLogo": "https://crests.football-data.org/1766.png",
-      "uit": "Fluminense FC",
-      "uitLogo": "https://crests.football-data.org/1765.png"
-    },
-    {
-      "id": 555012,
-      "datum": "za 19 september 02:00",
-      "thuis": "SC Corinthians Paulista",
-      "thuisLogo": "https://crests.football-data.org/1779.png",
-      "uit": "Fluminense FC",
-      "uitLogo": "https://crests.football-data.org/1765.png"
-    },
-    {
-      "id": 555024,
-      "datum": "wo 7 oktober 02:00",
-      "thuis": "Fluminense FC",
-      "thuisLogo": "https://crests.football-data.org/1765.png",
-      "uit": "Coritiba FBC",
-      "uitLogo": "https://crests.football-data.org/4241.png"
-    },
-    {
-      "id": 555035,
-      "datum": "za 10 oktober 02:00",
-      "thuis": "CR Flamengo",
-      "thuisLogo": "https://crests.football-data.org/1783.png",
-      "uit": "Fluminense FC",
-      "uitLogo": "https://crests.football-data.org/1765.png"
-    },
-    {
-      "id": 555045,
-      "datum": "za 17 oktober 02:00",
-      "thuis": "Fluminense FC",
-      "thuisLogo": "https://crests.football-data.org/1765.png",
-      "uit": "Santos FC",
-      "uitLogo": "https://crests.football-data.org/6685.png"
-    },
-    {
-      "id": 555050,
-      "datum": "za 24 oktober 02:00",
-      "thuis": "Chapecoense AF",
-      "thuisLogo": "https://crests.football-data.org/1772_large.png",
-      "uit": "Fluminense FC",
-      "uitLogo": "https://crests.football-data.org/1765.png"
-    },
-    {
-      "id": 555065,
-      "datum": "wo 28 oktober 01:00",
-      "thuis": "Fluminense FC",
-      "thuisLogo": "https://crests.football-data.org/1765.png",
-      "uit": "SC Internacional",
-      "uitLogo": "https://crests.football-data.org/6684.png"
-    },
-    {
-      "id": 555079,
-      "datum": "wo 4 november 01:00",
-      "thuis": "EC Vitória",
-      "thuisLogo": "https://crests.football-data.org/1782.png",
-      "uit": "Fluminense FC",
-      "uitLogo": "https://crests.football-data.org/1765.png"
-    },
-    {
-      "id": 555087,
-      "datum": "wo 18 november 01:00",
-      "thuis": "São Paulo FC",
-      "thuisLogo": "https://crests.football-data.org/1776.png",
-      "uit": "Fluminense FC",
-      "uitLogo": "https://crests.football-data.org/1765.png"
-    },
-    {
-      "id": 555096,
-      "datum": "za 21 november 01:00",
-      "thuis": "Fluminense FC",
-      "thuisLogo": "https://crests.football-data.org/1765.png",
-      "uit": "Mirassol FC",
-      "uitLogo": "https://crests.football-data.org/4364.png"
-    },
-    {
-      "id": 555105,
-      "datum": "za 28 november 01:00",
-      "thuis": "Fluminense FC",
-      "thuisLogo": "https://crests.football-data.org/1765.png",
-      "uit": "Cruzeiro EC",
-      "uitLogo": "https://crests.football-data.org/1771.png"
-    },
-    {
-      "id": 555112,
-      "datum": "wo 2 december 01:00",
-      "thuis": "RB Bragantino",
-      "thuisLogo": "https://crests.football-data.org/4286.png",
-      "uit": "Fluminense FC",
-      "uitLogo": "https://crests.football-data.org/1765.png"
-    }
-  ],
-  "4286": [
-    {
-      "id": 554925,
-      "datum": "za 18 juli 02:30",
-      "thuis": "Fluminense FC",
-      "thuisLogo": "https://crests.football-data.org/1765.png",
-      "uit": "RB Bragantino",
-      "uitLogo": "https://crests.football-data.org/4286.png"
-    },
-    {
-      "id": 554932,
-      "datum": "zo 26 juli 23:30",
-      "thuis": "RB Bragantino",
-      "thuisLogo": "https://crests.football-data.org/4286.png",
-      "uit": "Coritiba FBC",
-      "uitLogo": "https://crests.football-data.org/4241.png"
-    },
-    {
-      "id": 554940,
-      "datum": "wo 29 juli 22:00",
-      "thuis": "CA Mineiro",
-      "thuisLogo": "https://crests.football-data.org/1766.png",
-      "uit": "RB Bragantino",
-      "uitLogo": "https://crests.football-data.org/4286.png"
-    },
-    {
-      "id": 554952,
-      "datum": "zo 9 augustus 23:30",
-      "thuis": "RB Bragantino",
-      "thuisLogo": "https://crests.football-data.org/4286.png",
-      "uit": "SC Corinthians Paulista",
-      "uitLogo": "https://crests.football-data.org/1779.png"
-    },
-    {
-      "id": 554960,
-      "datum": "za 15 augustus 23:30",
-      "thuis": "CA Paranaense",
-      "thuisLogo": "https://crests.football-data.org/1768.png",
-      "uit": "RB Bragantino",
-      "uitLogo": "https://crests.football-data.org/4286.png"
-    },
-    {
-      "id": 554971,
-      "datum": "zo 23 augustus 21:00",
-      "thuis": "RB Bragantino",
-      "thuisLogo": "https://crests.football-data.org/4286.png",
-      "uit": "Grêmio FBPA",
-      "uitLogo": "https://crests.football-data.org/1767.png"
-    },
-    {
-      "id": 554988,
-      "datum": "za 29 augustus 02:00",
-      "thuis": "São Paulo FC",
-      "thuisLogo": "https://crests.football-data.org/1776.png",
-      "uit": "RB Bragantino",
-      "uitLogo": "https://crests.football-data.org/4286.png"
-    },
-    {
-      "id": 554991,
-      "datum": "za 5 september 02:00",
-      "thuis": "RB Bragantino",
-      "thuisLogo": "https://crests.football-data.org/4286.png",
-      "uit": "EC Bahia",
-      "uitLogo": "https://crests.football-data.org/1777.png"
-    },
-    {
-      "id": 555002,
-      "datum": "za 12 september 02:00",
-      "thuis": "Botafogo FR",
-      "thuisLogo": "https://crests.football-data.org/1770.png",
-      "uit": "RB Bragantino",
-      "uitLogo": "https://crests.football-data.org/4286.png"
-    },
-    {
-      "id": 555013,
-      "datum": "za 19 september 02:00",
-      "thuis": "CR Flamengo",
-      "thuisLogo": "https://crests.football-data.org/1783.png",
-      "uit": "RB Bragantino",
-      "uitLogo": "https://crests.football-data.org/4286.png"
-    },
-    {
-      "id": 555022,
-      "datum": "wo 7 oktober 02:00",
-      "thuis": "RB Bragantino",
-      "thuisLogo": "https://crests.football-data.org/4286.png",
-      "uit": "Mirassol FC",
-      "uitLogo": "https://crests.football-data.org/4364.png"
-    },
-    {
-      "id": 555032,
-      "datum": "za 10 oktober 02:00",
-      "thuis": "RB Bragantino",
-      "thuisLogo": "https://crests.football-data.org/4286.png",
-      "uit": "Cruzeiro EC",
-      "uitLogo": "https://crests.football-data.org/1771.png"
-    },
-    {
-      "id": 555048,
-      "datum": "za 17 oktober 02:00",
-      "thuis": "Clube do Remo",
-      "thuisLogo": "https://crests.football-data.org/4287.png",
-      "uit": "RB Bragantino",
-      "uitLogo": "https://crests.football-data.org/4286.png"
-    },
-    {
-      "id": 555056,
-      "datum": "za 24 oktober 02:00",
-      "thuis": "SE Palmeiras",
-      "thuisLogo": "https://crests.football-data.org/1769.png",
-      "uit": "RB Bragantino",
-      "uitLogo": "https://crests.football-data.org/4286.png"
-    },
-    {
-      "id": 555062,
-      "datum": "wo 28 oktober 01:00",
-      "thuis": "RB Bragantino",
-      "thuisLogo": "https://crests.football-data.org/4286.png",
-      "uit": "Chapecoense AF",
-      "uitLogo": "https://crests.football-data.org/1772_large.png"
-    },
-    {
-      "id": 555072,
-      "datum": "wo 4 november 01:00",
-      "thuis": "RB Bragantino",
-      "thuisLogo": "https://crests.football-data.org/4286.png",
-      "uit": "Santos FC",
-      "uitLogo": "https://crests.football-data.org/6685.png"
-    },
-    {
-      "id": 555089,
-      "datum": "wo 18 november 01:00",
-      "thuis": "EC Vitória",
-      "thuisLogo": "https://crests.football-data.org/1782.png",
-      "uit": "RB Bragantino",
-      "uitLogo": "https://crests.football-data.org/4286.png"
-    },
-    {
-      "id": 555094,
-      "datum": "za 21 november 01:00",
-      "thuis": "RB Bragantino",
-      "thuisLogo": "https://crests.football-data.org/4286.png",
-      "uit": "CR Vasco da Gama",
-      "uitLogo": "https://crests.football-data.org/1780.png"
-    },
-    {
-      "id": 555106,
-      "datum": "za 28 november 01:00",
-      "thuis": "SC Internacional",
-      "thuisLogo": "https://crests.football-data.org/6684.png",
-      "uit": "RB Bragantino",
-      "uitLogo": "https://crests.football-data.org/4286.png"
-    },
-    {
-      "id": 555112,
-      "datum": "wo 2 december 01:00",
-      "thuis": "RB Bragantino",
-      "thuisLogo": "https://crests.football-data.org/4286.png",
-      "uit": "Fluminense FC",
-      "uitLogo": "https://crests.football-data.org/1765.png"
     }
   ],
   "1766": [

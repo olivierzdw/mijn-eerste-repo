@@ -1,13 +1,5 @@
 [
   {
-    "id": 44,
-    "naam": "1. FC Heidenheim 1846",
-    "logo": "https://crests.football-data.org/44.png",
-    "land": "Germany",
-    "competitie": "BL1",
-    "competitieNaam": "Bundesliga"
-  },
-  {
     "id": 1,
     "naam": "1. FC Köln",
     "logo": "https://crests.football-data.org/1.png",
@@ -592,9 +584,9 @@
     "competitieNaam": "Primeira Liga"
   },
   {
-    "id": 20,
-    "naam": "FC St. Pauli 1910",
-    "logo": "https://crests.football-data.org/20.png",
+    "id": 6,
+    "naam": "FC Schalke 04",
+    "logo": "https://crests.football-data.org/6.png",
     "land": "Germany",
     "competitie": "BL1",
     "competitieNaam": "Bundesliga"
@@ -1176,6 +1168,14 @@
     "competitieNaam": "Brasileirão"
   },
   {
+    "id": 29,
+    "naam": "SC Paderborn 07",
+    "logo": "https://crests.football-data.org/29.png",
+    "land": "Germany",
+    "competitie": "BL1",
+    "competitieNaam": "Bundesliga"
+  },
+  {
     "id": 1769,
     "naam": "SE Palmeiras",
     "logo": "https://crests.football-data.org/1769.png",
@@ -1206,6 +1206,14 @@
     "land": "Italy",
     "competitie": "SA",
     "competitieNaam": "Serie A"
+  },
+  {
+    "id": 719,
+    "naam": "SV 07 Elversberg",
+    "logo": "https://crests.football-data.org/719.png",
+    "land": "Germany",
+    "competitie": "BL1",
+    "competitieNaam": "Bundesliga"
   },
   {
     "id": 12,
@@ -1411,14 +1419,6 @@
     "id": 10,
     "naam": "VfB Stuttgart",
     "logo": "https://crests.football-data.org/10.png",
-    "land": "Germany",
-    "competitie": "BL1",
-    "competitieNaam": "Bundesliga"
-  },
-  {
-    "id": 11,
-    "naam": "VfL Wolfsburg",
-    "logo": "https://crests.football-data.org/11.png",
     "land": "Germany",
     "competitie": "BL1",
     "competitieNaam": "Bundesliga"
