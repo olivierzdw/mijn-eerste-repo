@@ -1,7 +1,7 @@
 [
   {
     "positie": 1,
-    "club": "DCG Rksv JO12-1",
+    "club": "DCG Rksv O12-1",
     "logo": "",
     "gespeeld": 5,
     "gewonnen": 5,
@@ -14,7 +14,7 @@
   },
   {
     "positie": 2,
-    "club": "SDW JO12-2",
+    "club": "SDW O12-2",
     "logo": "",
     "gespeeld": 5,
     "gewonnen": 3,
@@ -27,7 +27,7 @@
   },
   {
     "positie": 3,
-    "club": "VVA/Spartaan JO12-2",
+    "club": "VVA/Spartaan O12-2",
     "logo": "",
     "gespeeld": 5,
     "gewonnen": 3,
@@ -40,7 +40,7 @@
   },
   {
     "positie": 4,
-    "club": "SDZ JO12-1",
+    "club": "SDZ O12-1",
     "logo": "",
     "gespeeld": 5,
     "gewonnen": 2,
@@ -53,7 +53,7 @@
   },
   {
     "positie": 5,
-    "club": "RODA '23 Rksv JO12-2",
+    "club": "RODA '23 Rksv O12-2",
     "logo": "",
     "gespeeld": 5,
     "gewonnen": 2,
@@ -66,7 +66,7 @@
   },
   {
     "positie": 6,
-    "club": "AFC JO12-4",
+    "club": "AFC O12-4",
     "logo": "images/afc.png",
     "gespeeld": 5,
     "gewonnen": 0,
