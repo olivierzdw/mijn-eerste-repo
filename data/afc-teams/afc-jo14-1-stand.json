@@ -1,7 +1,7 @@
 [
   {
     "positie": 1,
-    "club": "PVCV JO14-1",
+    "club": "PVCV O14-1",
     "logo": "",
     "gespeeld": 14,
     "gewonnen": 12,
@@ -14,7 +14,7 @@
   },
   {
     "positie": 2,
-    "club": "Koninklijke HFC JO14-1",
+    "club": "Koninklijke HFC O14-1",
     "logo": "",
     "gespeeld": 14,
     "gewonnen": 9,
@@ -27,7 +27,7 @@
   },
   {
     "positie": 3,
-    "club": "KFC JO14-1",
+    "club": "KFC O14-1",
     "logo": "",
     "gespeeld": 14,
     "gewonnen": 8,
@@ -40,7 +40,7 @@
   },
   {
     "positie": 4,
-    "club": "Hollandia JO14-1",
+    "club": "Hollandia O14-1",
     "logo": "",
     "gespeeld": 14,
     "gewonnen": 5,
@@ -53,7 +53,7 @@
   },
   {
     "positie": 5,
-    "club": "De Meern JO14-1",
+    "club": "De Meern O14-1",
     "logo": "",
     "gespeeld": 14,
     "gewonnen": 6,
@@ -66,7 +66,7 @@
   },
   {
     "positie": 6,
-    "club": "AFC JO14-1",
+    "club": "AFC O14-1",
     "logo": "images/afc.png",
     "gespeeld": 14,
     "gewonnen": 5,
@@ -79,7 +79,7 @@
   },
   {
     "positie": 7,
-    "club": "AFC 34 JO14-1",
+    "club": "AFC 34 O14-1",
     "logo": "images/afc.png",
     "gespeeld": 14,
     "gewonnen": 5,
@@ -92,7 +92,7 @@
   },
   {
     "positie": 8,
-    "club": "WV-HEDW JO14-1",
+    "club": "WV-HEDW O14-1",
     "logo": "",
     "gespeeld": 14,
     "gewonnen": 1,

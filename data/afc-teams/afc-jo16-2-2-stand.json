@@ -1,7 +1,7 @@
 [
   {
     "positie": 1,
-    "club": "DWS afc JO16-1",
+    "club": "DWS afc O16-1",
     "logo": "images/afc.png",
     "gespeeld": 11,
     "gewonnen": 8,
@@ -14,7 +14,7 @@
   },
   {
     "positie": 2,
-    "club": "ODIN 59 JO16-1",
+    "club": "ODIN 59 O16-1",
     "logo": "",
     "gespeeld": 11,
     "gewonnen": 8,
@@ -27,7 +27,7 @@
   },
   {
     "positie": 3,
-    "club": "Swift JO16-1",
+    "club": "Swift O16-1",
     "logo": "",
     "gespeeld": 11,
     "gewonnen": 6,
@@ -40,7 +40,7 @@
   },
   {
     "positie": 4,
-    "club": "KFC JO16-1",
+    "club": "KFC O16-1",
     "logo": "",
     "gespeeld": 11,
     "gewonnen": 5,
@@ -53,7 +53,7 @@
   },
   {
     "positie": 5,
-    "club": "Sporting Martinus JO16-1",
+    "club": "Sporting Martinus O16-1",
     "logo": "",
     "gespeeld": 11,
     "gewonnen": 5,
@@ -66,7 +66,7 @@
   },
   {
     "positie": 6,
-    "club": "FC Uitgeest JO16-1",
+    "club": "FC Uitgeest O16-1",
     "logo": "",
     "gespeeld": 11,
     "gewonnen": 5,
@@ -79,7 +79,7 @@
   },
   {
     "positie": 7,
-    "club": "Zouaven (de) JO16-1",
+    "club": "Zouaven (de) O16-1",
     "logo": "",
     "gespeeld": 11,
     "gewonnen": 4,
@@ -92,7 +92,7 @@
   },
   {
     "positie": 8,
-    "club": "DCG Rksv JO16-1",
+    "club": "DCG Rksv O16-1",
     "logo": "",
     "gespeeld": 11,
     "gewonnen": 4,
@@ -105,7 +105,7 @@
   },
   {
     "positie": 9,
-    "club": "ADO '20 JO16-1",
+    "club": "ADO '20 O16-1",
     "logo": "",
     "gespeeld": 11,
     "gewonnen": 4,
@@ -118,7 +118,7 @@
   },
   {
     "positie": 10,
-    "club": "Always Forward JO16-1",
+    "club": "Always Forward O16-1",
     "logo": "",
     "gespeeld": 11,
     "gewonnen": 4,
@@ -131,7 +131,7 @@
   },
   {
     "positie": 11,
-    "club": "AFC JO16-2",
+    "club": "AFC O16-2",
     "logo": "images/afc.png",
     "gespeeld": 11,
     "gewonnen": 2,
@@ -144,7 +144,7 @@
   },
   {
     "positie": 12,
-    "club": "Schagen United JO16-1",
+    "club": "Schagen United O16-1",
     "logo": "",
     "gespeeld": 11,
     "gewonnen": 1,

@@ -1,7 +1,7 @@
 [
   {
     "positie": 1,
-    "club": "AFC JO12-6",
+    "club": "AFC O12-6",
     "logo": "images/afc.png",
     "gespeeld": 5,
     "gewonnen": 4,
@@ -14,7 +14,7 @@
   },
   {
     "positie": 2,
-    "club": "Vlug en Vaardig cvv. JO12-1",
+    "club": "Vlug en Vaardig cvv. O12-1",
     "logo": "",
     "gespeeld": 5,
     "gewonnen": 4,
@@ -27,7 +27,7 @@
   },
   {
     "positie": 3,
-    "club": "VVA/Spartaan JO12-3",
+    "club": "VVA/Spartaan O12-3",
     "logo": "",
     "gespeeld": 5,
     "gewonnen": 2,
@@ -40,7 +40,7 @@
   },
   {
     "positie": 4,
-    "club": "SDZ JO12-6",
+    "club": "SDZ O12-6",
     "logo": "",
     "gespeeld": 5,
     "gewonnen": 1,
@@ -53,7 +53,7 @@
   },
   {
     "positie": 5,
-    "club": "AGB JO12-2",
+    "club": "AGB O12-2",
     "logo": "",
     "gespeeld": 5,
     "gewonnen": 1,
@@ -66,7 +66,7 @@
   },
   {
     "positie": 6,
-    "club": "ZSGOWMS JO12-2",
+    "club": "ZSGOWMS O12-2",
     "logo": "",
     "gespeeld": 5,
     "gewonnen": 1,
