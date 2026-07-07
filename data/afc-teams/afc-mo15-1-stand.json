@@ -1,7 +1,7 @@
 [
   {
     "positie": 1,
-    "club": "FC Weesp JO14-2",
+    "club": "FC Weesp O14-2",
     "logo": "",
     "gespeeld": 10,
     "gewonnen": 8,
@@ -14,7 +14,7 @@
   },
   {
     "positie": 2,
-    "club": "AS'80 JO14-3",
+    "club": "AS'80 O14-3",
     "logo": "",
     "gespeeld": 10,
     "gewonnen": 8,
@@ -27,7 +27,7 @@
   },
   {
     "positie": 3,
-    "club": "Sporting Almere JO14-1",
+    "club": "Sporting Almere O14-1",
     "logo": "",
     "gespeeld": 10,
     "gewonnen": 6,
@@ -66,7 +66,7 @@
   },
   {
     "positie": 6,
-    "club": "Muiden sc. JO14-1",
+    "club": "Muiden sc. O14-1",
     "logo": "",
     "gespeeld": 10,
     "gewonnen": 4,
@@ -79,7 +79,7 @@
   },
   {
     "positie": 7,
-    "club": "Almere FC JO14-4",
+    "club": "Almere FC O14-4",
     "logo": "",
     "gespeeld": 10,
     "gewonnen": 4,
@@ -92,7 +92,7 @@
   },
   {
     "positie": 8,
-    "club": "DRC JO14-1",
+    "club": "DRC O14-1",
     "logo": "",
     "gespeeld": 10,
     "gewonnen": 4,
@@ -105,7 +105,7 @@
   },
   {
     "positie": 9,
-    "club": "Volendam (rkav) JO14-4",
+    "club": "Volendam (rkav) O14-4",
     "logo": "",
     "gespeeld": 10,
     "gewonnen": 2,
@@ -118,7 +118,7 @@
   },
   {
     "positie": 10,
-    "club": "AMVJ JO14-2",
+    "club": "AMVJ O14-2",
     "logo": "",
     "gespeeld": 10,
     "gewonnen": 1,
@@ -131,7 +131,7 @@
   },
   {
     "positie": 11,
-    "club": "Abcoude fc JO14-3",
+    "club": "Abcoude fc O14-3",
     "logo": "",
     "gespeeld": 10,
     "gewonnen": 1,
