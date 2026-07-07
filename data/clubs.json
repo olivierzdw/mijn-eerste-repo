@@ -104,6 +104,14 @@
     "competitieNaam": "Eredivisie"
   },
   {
+    "id": 5527,
+    "naam": "Académico de Viseu FC",
+    "logo": "https://crests.football-data.org/5527.png",
+    "land": "Portugal",
+    "competitie": "PPL",
+    "competitieNaam": "Primeira Liga"
+  },
+  {
     "id": 532,
     "naam": "Angers SCO",
     "logo": "https://crests.football-data.org/532.png",
@@ -264,6 +272,30 @@
     "competitieNaam": "Brasileirão"
   },
   {
+    "id": 5529,
+    "naam": "CD Nacional",
+    "logo": "https://crests.football-data.org/5529.png",
+    "land": "Portugal",
+    "competitie": "PPL",
+    "competitieNaam": "Primeira Liga"
+  },
+  {
+    "id": 5530,
+    "naam": "CD Santa Clara",
+    "logo": "https://crests.football-data.org/5530.png",
+    "land": "Portugal",
+    "competitie": "PPL",
+    "competitieNaam": "Primeira Liga"
+  },
+  {
+    "id": 9136,
+    "naam": "CF Estrela da Amadora",
+    "logo": "https://crests.football-data.org/9136.png",
+    "land": "Portugal",
+    "competitie": "PPL",
+    "competitieNaam": "Primeira Liga"
+  },
+  {
     "id": 1783,
     "naam": "CR Flamengo",
     "logo": "https://crests.football-data.org/1783.png",
@@ -280,6 +312,14 @@
     "competitieNaam": "Brasileirão"
   },
   {
+    "id": 5575,
+    "naam": "CS Marítimo",
+    "logo": "https://crests.football-data.org/5575.png",
+    "land": "Portugal",
+    "competitie": "PPL",
+    "competitieNaam": "Primeira Liga"
+  },
+  {
     "id": 104,
     "naam": "Cagliari Calcio",
     "logo": "https://crests.football-data.org/104.png",
@@ -294,6 +334,14 @@
     "land": "Wales",
     "competitie": "ELC",
     "competitieNaam": "Championship"
+  },
+  {
+    "id": 6618,
+    "naam": "Casa Pia AC",
+    "logo": "https://crests.football-data.org/6618.png",
+    "land": "Portugal",
+    "competitie": "PPL",
+    "competitieNaam": "Primeira Liga"
   },
   {
     "id": 1772,
@@ -448,6 +496,22 @@
     "competitieNaam": "Premier League"
   },
   {
+    "id": 7822,
+    "naam": "FC Alverca",
+    "logo": "https://crests.football-data.org/7822.png",
+    "land": "Portugal",
+    "competitie": "PPL",
+    "competitieNaam": "Primeira Liga"
+  },
+  {
+    "id": 712,
+    "naam": "FC Arouca",
+    "logo": "https://crests.football-data.org/712.png",
+    "land": "Portugal",
+    "competitie": "PPL",
+    "competitieNaam": "Primeira Liga"
+  },
+  {
     "id": 16,
     "naam": "FC Augsburg",
     "logo": "https://crests.football-data.org/16.png",
@@ -470,6 +534,14 @@
     "land": "Germany",
     "competitie": "BL1",
     "competitieNaam": "Bundesliga"
+  },
+  {
+    "id": 5531,
+    "naam": "FC Famalicão",
+    "logo": "https://crests.football-data.org/5531.png",
+    "land": "Portugal",
+    "competitie": "PPL",
+    "competitieNaam": "Primeira Liga"
   },
   {
     "id": 677,
@@ -502,6 +574,14 @@
     "land": "France",
     "competitie": "FL1",
     "competitieNaam": "Ligue 1"
+  },
+  {
+    "id": 503,
+    "naam": "FC Porto",
+    "logo": "https://crests.football-data.org/503.png",
+    "land": "Portugal",
+    "competitie": "PPL",
+    "competitieNaam": "Primeira Liga"
   },
   {
     "id": 6,
@@ -584,6 +664,14 @@
     "competitieNaam": "Premier League"
   },
   {
+    "id": 582,
+    "naam": "GD Estoril Praia",
+    "logo": "https://crests.football-data.org/582.png",
+    "land": "Portugal",
+    "competitie": "PPL",
+    "competitieNaam": "Primeira Liga"
+  },
+  {
     "id": 610,
     "naam": "Galatasaray SK",
     "logo": "https://crests.football-data.org/610.png",
@@ -606,6 +694,14 @@
     "land": "Spain",
     "competitie": "PD",
     "competitieNaam": "La Liga"
+  },
+  {
+    "id": 5533,
+    "naam": "Gil Vicente FC",
+    "logo": "https://crests.football-data.org/5533.png",
+    "land": "Portugal",
+    "competitie": "PPL",
+    "competitieNaam": "Primeira Liga"
   },
   {
     "id": 718,
@@ -750,6 +846,14 @@
     "land": "Brazil",
     "competitie": "BSA",
     "competitieNaam": "Brasileirão"
+  },
+  {
+    "id": 583,
+    "naam": "Moreirense FC",
+    "logo": "https://crests.football-data.org/583.png",
+    "land": "Portugal",
+    "competitie": "PPL",
+    "competitieNaam": "Primeira Liga"
   },
   {
     "id": 84,
@@ -1000,6 +1104,14 @@
     "competitieNaam": "La Liga"
   },
   {
+    "id": 496,
+    "naam": "Rio Ave FC",
+    "logo": "https://crests.football-data.org/496.png",
+    "land": "Portugal",
+    "competitie": "PPL",
+    "competitieNaam": "Primeira Liga"
+  },
+  {
     "id": 3929,
     "naam": "Royale Union Saint-Gilloise",
     "logo": "https://crests.football-data.org/3929.png",
@@ -1156,16 +1268,24 @@
     "naam": "Sport Lisboa e Benfica",
     "logo": "https://crests.football-data.org/1903.png",
     "land": "Portugal",
-    "competitie": "CL",
-    "competitieNaam": "Champions League"
+    "competitie": "PPL",
+    "competitieNaam": "Primeira Liga"
+  },
+  {
+    "id": 5613,
+    "naam": "Sporting Clube de Braga",
+    "logo": "https://crests.football-data.org/5613.png",
+    "land": "Portugal",
+    "competitie": "PPL",
+    "competitieNaam": "Primeira Liga"
   },
   {
     "id": 498,
     "naam": "Sporting Clube de Portugal",
     "logo": "https://crests.football-data.org/498.png",
     "land": "Portugal",
-    "competitie": "CL",
-    "competitieNaam": "Champions League"
+    "competitie": "PPL",
+    "competitieNaam": "Primeira Liga"
   },
   {
     "id": 512,
@@ -1310,6 +1430,14 @@
     "land": "Spain",
     "competitie": "PD",
     "competitieNaam": "La Liga"
+  },
+  {
+    "id": 5543,
+    "naam": "Vitória SC",
+    "logo": "https://crests.football-data.org/5543.png",
+    "land": "Portugal",
+    "competitie": "PPL",
+    "competitieNaam": "Primeira Liga"
   },
   {
     "id": 346,
