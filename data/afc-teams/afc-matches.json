@@ -1,1 +1,135 @@
-[]
+[
+  {
+    "datum": "za 15 augustus 15:15",
+    "thuis": "AFC",
+    "thuisLogo": "images/afc.png",
+    "uit": "Kloetinge",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 22 augustus 14:30",
+    "thuis": "GVVV",
+    "thuisLogo": "",
+    "uit": "AFC",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 29 augustus 15:15",
+    "thuis": "AFC",
+    "thuisLogo": "images/afc.png",
+    "uit": "ROHDA Raalte",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 5 september 14:30",
+    "thuis": "Rijnsburgse Boys",
+    "thuisLogo": "",
+    "uit": "AFC",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 12 september 15:15",
+    "thuis": "AFC",
+    "thuisLogo": "images/afc.png",
+    "uit": "HHC Hardenberg",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 19 september 14:30",
+    "thuis": "Kon. HFC",
+    "thuisLogo": "",
+    "uit": "AFC",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 26 september 15:15",
+    "thuis": "AFC",
+    "thuisLogo": "images/afc.png",
+    "uit": "Katwijk",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 3 oktober 15:00",
+    "thuis": "Spakenburg",
+    "thuisLogo": "",
+    "uit": "AFC",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 10 oktober 15:15",
+    "thuis": "AFC",
+    "thuisLogo": "images/afc.png",
+    "uit": "Hoek",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 17 oktober 15:00",
+    "thuis": "Barendrecht",
+    "thuisLogo": "",
+    "uit": "AFC",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 24 oktober 15:15",
+    "thuis": "AFC",
+    "thuisLogo": "images/afc.png",
+    "uit": "Jong Almere City FC",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 7 november 15:00",
+    "thuis": "Jong Sparta Rotterdam",
+    "thuisLogo": "",
+    "uit": "AFC",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 14 november 15:15",
+    "thuis": "AFC",
+    "thuisLogo": "images/afc.png",
+    "uit": "De Treffers",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 21 november 14:30",
+    "thuis": "RKAV Volendam",
+    "thuisLogo": "",
+    "uit": "AFC",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 28 november 15:00",
+    "thuis": "Kozakken Boys",
+    "thuisLogo": "",
+    "uit": "AFC",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 5 december 15:15",
+    "thuis": "AFC",
+    "thuisLogo": "images/afc.png",
+    "uit": "Quick Boys",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 12 december 15:00",
+    "thuis": "IJsselmeervogels",
+    "thuisLogo": "",
+    "uit": "AFC",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 9 januari 15:00",
+    "thuis": "Kloetinge",
+    "thuisLogo": "",
+    "uit": "AFC",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 16 januari 15:15",
+    "thuis": "AFC",
+    "thuisLogo": "images/afc.png",
+    "uit": "GVVV",
+    "uitLogo": ""
+  }
+]
