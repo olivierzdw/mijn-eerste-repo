@@ -1,7 +1,7 @@
 [
   {
     "positie": 1,
-    "club": "DCG Rksv JO12-7",
+    "club": "DCG Rksv O12-7",
     "logo": "",
     "gespeeld": 5,
     "gewonnen": 5,
@@ -40,7 +40,7 @@
   },
   {
     "positie": 4,
-    "club": "vv Zwanenburg JO12-3",
+    "club": "vv Zwanenburg O12-3",
     "logo": "",
     "gespeeld": 5,
     "gewonnen": 2,
@@ -53,7 +53,7 @@
   },
   {
     "positie": 5,
-    "club": "SDW JO12-5",
+    "club": "SDW O12-5",
     "logo": "",
     "gespeeld": 5,
     "gewonnen": 1,
@@ -66,7 +66,7 @@
   },
   {
     "positie": 6,
-    "club": "RAP sv. JO12-3",
+    "club": "RAP sv. O12-3",
     "logo": "",
     "gespeeld": 5,
     "gewonnen": 0,
