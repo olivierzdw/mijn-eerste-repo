@@ -1,7 +1,7 @@
 [
   {
     "positie": 1,
-    "club": "SDW JO16-3",
+    "club": "SDW O16-3",
     "logo": "",
     "gespeeld": 10,
     "gewonnen": 7,
@@ -14,7 +14,7 @@
   },
   {
     "positie": 2,
-    "club": "AFC JO16-3",
+    "club": "AFC O16-3",
     "logo": "images/afc.png",
     "gespeeld": 10,
     "gewonnen": 6,
@@ -27,7 +27,7 @@
   },
   {
     "positie": 3,
-    "club": "RODA '23 Rksv JO16-2",
+    "club": "RODA '23 Rksv O16-2",
     "logo": "",
     "gespeeld": 10,
     "gewonnen": 5,
@@ -40,7 +40,7 @@
   },
   {
     "positie": 4,
-    "club": "Waterwijk asc JO16-2",
+    "club": "Waterwijk asc O16-2",
     "logo": "",
     "gespeeld": 10,
     "gewonnen": 5,
@@ -53,7 +53,7 @@
   },
   {
     "positie": 5,
-    "club": "Sporting Martinus JO16-2",
+    "club": "Sporting Martinus O16-2",
     "logo": "",
     "gespeeld": 10,
     "gewonnen": 2,
@@ -66,7 +66,7 @@
   },
   {
     "positie": 6,
-    "club": "SCPB'22 JO16-3",
+    "club": "SCPB'22 O16-3",
     "logo": "",
     "gespeeld": 10,
     "gewonnen": 1,
