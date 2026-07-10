@@ -41377,12 +41377,52 @@
       "uitLogo": "https://crests.football-data.org/76.png"
     },
     {
+      "id": 561789,
+      "datum": "za 29 augustus 13:30",
+      "thuis": "Wolverhampton Wanderers FC",
+      "thuisLogo": "https://crests.football-data.org/76.png",
+      "uit": "Stoke City FC",
+      "uitLogo": "https://crests.football-data.org/70.png"
+    },
+    {
       "id": 561799,
       "datum": "di 1 september 20:45",
       "thuis": "West Ham United FC",
       "thuisLogo": "https://crests.football-data.org/563.png",
       "uit": "Wolverhampton Wanderers FC",
       "uitLogo": "https://crests.football-data.org/76.png"
+    },
+    {
+      "id": 561819,
+      "datum": "zo 6 september 13:00",
+      "thuis": "Birmingham City FC",
+      "thuisLogo": "https://crests.football-data.org/332.png",
+      "uit": "Wolverhampton Wanderers FC",
+      "uitLogo": "https://crests.football-data.org/76.png"
+    },
+    {
+      "id": 561826,
+      "datum": "wo 9 september 20:45",
+      "thuis": "Wolverhampton Wanderers FC",
+      "thuisLogo": "https://crests.football-data.org/76.png",
+      "uit": "Portsmouth FC",
+      "uitLogo": "https://crests.football-data.org/325.png"
+    },
+    {
+      "id": 561844,
+      "datum": "zo 13 september 13:00",
+      "thuis": "Sheffield United FC",
+      "thuisLogo": "https://crests.football-data.org/356.png",
+      "uit": "Wolverhampton Wanderers FC",
+      "uitLogo": "https://crests.football-data.org/76.png"
+    },
+    {
+      "id": 561851,
+      "datum": "zo 20 september 13:00",
+      "thuis": "Wolverhampton Wanderers FC",
+      "thuisLogo": "https://crests.football-data.org/76.png",
+      "uit": "West Bromwich Albion FC",
+      "uitLogo": "https://crests.football-data.org/74.png"
     },
     {
       "id": 561868,
@@ -41719,6 +41759,14 @@
       "datum": "di 1 september 20:45",
       "thuis": "Lincoln City FC",
       "thuisLogo": "https://crests.football-data.org/1126.png",
+      "uit": "Blackburn Rovers FC",
+      "uitLogo": "https://crests.football-data.org/59.png"
+    },
+    {
+      "id": 561813,
+      "datum": "za 5 september 13:30",
+      "thuis": "Preston North End FC",
+      "thuisLogo": "https://crests.football-data.org/1081.png",
       "uit": "Blackburn Rovers FC",
       "uitLogo": "https://crests.football-data.org/59.png"
     },
@@ -42093,6 +42141,22 @@
       "uitLogo": "https://crests.football-data.org/60.png"
     },
     {
+      "id": 561827,
+      "datum": "di 8 september 21:00",
+      "thuis": "Bolton Wanderers FC",
+      "thuisLogo": "https://crests.football-data.org/60.png",
+      "uit": "West Ham United FC",
+      "uitLogo": "https://crests.football-data.org/563.png"
+    },
+    {
+      "id": 561837,
+      "datum": "za 12 september 13:30",
+      "thuis": "Bolton Wanderers FC",
+      "thuisLogo": "https://crests.football-data.org/60.png",
+      "uit": "Cardiff City FC",
+      "uitLogo": "https://crests.football-data.org/715.png"
+    },
+    {
       "id": 561850,
       "datum": "za 19 september 16:00",
       "thuis": "Norwich City FC",
@@ -42439,6 +42503,14 @@
       "uitLogo": "https://crests.football-data.org/387.png"
     },
     {
+      "id": 561813,
+      "datum": "za 5 september 13:30",
+      "thuis": "Preston North End FC",
+      "thuisLogo": "https://crests.football-data.org/1081.png",
+      "uit": "Blackburn Rovers FC",
+      "uitLogo": "https://crests.football-data.org/59.png"
+    },
+    {
       "id": 561823,
       "datum": "di 8 september 20:45",
       "thuis": "Watford FC",
@@ -42777,12 +42849,28 @@
       "uitLogo": "https://crests.football-data.org/74.png"
     },
     {
+      "id": 561784,
+      "datum": "za 22 augustus 13:30",
+      "thuis": "Millwall FC",
+      "thuisLogo": "https://crests.football-data.org/384.png",
+      "uit": "Norwich City FC",
+      "uitLogo": "https://crests.football-data.org/68.png"
+    },
+    {
       "id": 561785,
       "datum": "za 29 augustus 16:00",
       "thuis": "Norwich City FC",
       "thuisLogo": "https://crests.football-data.org/68.png",
       "uit": "Burnley FC",
       "uitLogo": "https://crests.football-data.org/328.png"
+    },
+    {
+      "id": 561797,
+      "datum": "di 1 september 21:00",
+      "thuis": "Stoke City FC",
+      "thuisLogo": "https://crests.football-data.org/70.png",
+      "uit": "Norwich City FC",
+      "uitLogo": "https://crests.football-data.org/68.png"
     },
     {
       "id": 561810,
@@ -43131,6 +43219,22 @@
       "uitLogo": "https://crests.football-data.org/74.png"
     },
     {
+      "id": 561776,
+      "datum": "zo 23 augustus 13:00",
+      "thuis": "West Bromwich Albion FC",
+      "thuisLogo": "https://crests.football-data.org/74.png",
+      "uit": "Burnley FC",
+      "uitLogo": "https://crests.football-data.org/328.png"
+    },
+    {
+      "id": 561794,
+      "datum": "za 29 augustus 13:30",
+      "thuis": "Middlesbrough FC",
+      "thuisLogo": "https://crests.football-data.org/343.png",
+      "uit": "West Bromwich Albion FC",
+      "uitLogo": "https://crests.football-data.org/74.png"
+    },
+    {
       "id": 561808,
       "datum": "wo 2 september 20:45",
       "thuis": "West Bromwich Albion FC",
@@ -43151,6 +43255,22 @@
       "datum": "wo 9 september 20:45",
       "thuis": "Derby County FC",
       "thuisLogo": "https://crests.football-data.org/342.png",
+      "uit": "West Bromwich Albion FC",
+      "uitLogo": "https://crests.football-data.org/74.png"
+    },
+    {
+      "id": 561839,
+      "datum": "za 12 september 13:30",
+      "thuis": "West Bromwich Albion FC",
+      "thuisLogo": "https://crests.football-data.org/74.png",
+      "uit": "Queens Park Rangers FC",
+      "uitLogo": "https://crests.football-data.org/69.png"
+    },
+    {
+      "id": 561851,
+      "datum": "zo 20 september 13:00",
+      "thuis": "Wolverhampton Wanderers FC",
+      "thuisLogo": "https://crests.football-data.org/76.png",
       "uit": "West Bromwich Albion FC",
       "uitLogo": "https://crests.football-data.org/74.png"
     },
@@ -43469,6 +43589,14 @@
       "uitLogo": "https://crests.football-data.org/384.png"
     },
     {
+      "id": 561773,
+      "datum": "za 22 augustus 13:30",
+      "thuis": "Birmingham City FC",
+      "thuisLogo": "https://crests.football-data.org/332.png",
+      "uit": "Bristol City FC",
+      "uitLogo": "https://crests.football-data.org/387.png"
+    },
+    {
       "id": 561787,
       "datum": "za 29 augustus 16:00",
       "thuis": "Bristol City FC",
@@ -43507,6 +43635,14 @@
       "thuisLogo": "https://crests.football-data.org/340.png",
       "uit": "Bristol City FC",
       "uitLogo": "https://crests.football-data.org/387.png"
+    },
+    {
+      "id": 561845,
+      "datum": "vr 18 september 21:00",
+      "thuis": "Bristol City FC",
+      "thuisLogo": "https://crests.football-data.org/387.png",
+      "uit": "Watford FC",
+      "uitLogo": "https://crests.football-data.org/346.png"
     },
     {
       "id": 561863,
@@ -43823,6 +43959,14 @@
       "uitLogo": "https://crests.football-data.org/384.png"
     },
     {
+      "id": 561784,
+      "datum": "za 22 augustus 13:30",
+      "thuis": "Millwall FC",
+      "thuisLogo": "https://crests.football-data.org/384.png",
+      "uit": "Norwich City FC",
+      "uitLogo": "https://crests.football-data.org/68.png"
+    },
+    {
       "id": 561788,
       "datum": "za 29 augustus 16:00",
       "thuis": "Southampton FC",
@@ -43861,6 +44005,14 @@
       "thuisLogo": "https://crests.football-data.org/59.png",
       "uit": "Millwall FC",
       "uitLogo": "https://crests.football-data.org/384.png"
+    },
+    {
+      "id": 561849,
+      "datum": "za 19 september 13:30",
+      "thuis": "Millwall FC",
+      "thuisLogo": "https://crests.football-data.org/384.png",
+      "uit": "West Ham United FC",
+      "uitLogo": "https://crests.football-data.org/563.png"
     },
     {
       "id": 561867,
@@ -44181,6 +44333,22 @@
       "datum": "za 22 augustus 16:00",
       "thuis": "Blackburn Rovers FC",
       "thuisLogo": "https://crests.football-data.org/59.png",
+      "uit": "Middlesbrough FC",
+      "uitLogo": "https://crests.football-data.org/343.png"
+    },
+    {
+      "id": 561794,
+      "datum": "za 29 augustus 13:30",
+      "thuis": "Middlesbrough FC",
+      "thuisLogo": "https://crests.football-data.org/343.png",
+      "uit": "West Bromwich Albion FC",
+      "uitLogo": "https://crests.football-data.org/74.png"
+    },
+    {
+      "id": 561805,
+      "datum": "wo 2 september 21:00",
+      "thuis": "Burnley FC",
+      "thuisLogo": "https://crests.football-data.org/328.png",
       "uit": "Middlesbrough FC",
       "uitLogo": "https://crests.football-data.org/343.png"
     },
@@ -44531,6 +44699,14 @@
       "uitLogo": "https://crests.football-data.org/1126.png"
     },
     {
+      "id": 561781,
+      "datum": "za 22 augustus 13:30",
+      "thuis": "Lincoln City FC",
+      "thuisLogo": "https://crests.football-data.org/1126.png",
+      "uit": "Portsmouth FC",
+      "uitLogo": "https://crests.football-data.org/325.png"
+    },
+    {
       "id": 561786,
       "datum": "za 29 augustus 16:00",
       "thuis": "Bolton Wanderers FC",
@@ -44545,6 +44721,14 @@
       "thuisLogo": "https://crests.football-data.org/1126.png",
       "uit": "Blackburn Rovers FC",
       "uitLogo": "https://crests.football-data.org/59.png"
+    },
+    {
+      "id": 561820,
+      "datum": "za 5 september 13:30",
+      "thuis": "Lincoln City FC",
+      "thuisLogo": "https://crests.football-data.org/1126.png",
+      "uit": "Southampton FC",
+      "uitLogo": "https://crests.football-data.org/340.png"
     },
     {
       "id": 561828,
@@ -44893,6 +45077,30 @@
       "uitLogo": "https://crests.football-data.org/70.png"
     },
     {
+      "id": 561789,
+      "datum": "za 29 augustus 13:30",
+      "thuis": "Wolverhampton Wanderers FC",
+      "thuisLogo": "https://crests.football-data.org/76.png",
+      "uit": "Stoke City FC",
+      "uitLogo": "https://crests.football-data.org/70.png"
+    },
+    {
+      "id": 561797,
+      "datum": "di 1 september 21:00",
+      "thuis": "Stoke City FC",
+      "thuisLogo": "https://crests.football-data.org/70.png",
+      "uit": "Norwich City FC",
+      "uitLogo": "https://crests.football-data.org/68.png"
+    },
+    {
+      "id": 561815,
+      "datum": "za 5 september 13:30",
+      "thuis": "Stoke City FC",
+      "thuisLogo": "https://crests.football-data.org/70.png",
+      "uit": "Charlton Athletic FC",
+      "uitLogo": "https://crests.football-data.org/348.png"
+    },
+    {
       "id": 561824,
       "datum": "di 8 september 20:45",
       "thuis": "Cardiff City FC",
@@ -44907,6 +45115,14 @@
       "thuisLogo": "https://crests.football-data.org/346.png",
       "uit": "Stoke City FC",
       "uitLogo": "https://crests.football-data.org/70.png"
+    },
+    {
+      "id": 561847,
+      "datum": "za 19 september 13:30",
+      "thuis": "Stoke City FC",
+      "thuisLogo": "https://crests.football-data.org/70.png",
+      "uit": "Sheffield United FC",
+      "uitLogo": "https://crests.football-data.org/356.png"
     },
     {
       "id": 561866,
@@ -45231,12 +45447,28 @@
       "uitLogo": "https://crests.football-data.org/356.png"
     },
     {
+      "id": 561791,
+      "datum": "za 29 augustus 13:30",
+      "thuis": "Derby County FC",
+      "thuisLogo": "https://crests.football-data.org/342.png",
+      "uit": "Swansea City AFC",
+      "uitLogo": "https://crests.football-data.org/72.png"
+    },
+    {
       "id": 561804,
       "datum": "di 1 september 20:45",
       "thuis": "Swansea City AFC",
       "thuisLogo": "https://crests.football-data.org/72.png",
       "uit": "Watford FC",
       "uitLogo": "https://crests.football-data.org/346.png"
+    },
+    {
+      "id": 561811,
+      "datum": "za 5 september 21:00",
+      "thuis": "Swansea City AFC",
+      "thuisLogo": "https://crests.football-data.org/72.png",
+      "uit": "Wrexham AFC",
+      "uitLogo": "https://crests.football-data.org/404.png"
     },
     {
       "id": 561822,
@@ -45601,12 +45833,36 @@
       "uitLogo": "https://crests.football-data.org/348.png"
     },
     {
+      "id": 561815,
+      "datum": "za 5 september 13:30",
+      "thuis": "Stoke City FC",
+      "thuisLogo": "https://crests.football-data.org/70.png",
+      "uit": "Charlton Athletic FC",
+      "uitLogo": "https://crests.football-data.org/348.png"
+    },
+    {
+      "id": 561831,
+      "datum": "wo 9 september 21:00",
+      "thuis": "Charlton Athletic FC",
+      "thuisLogo": "https://crests.football-data.org/348.png",
+      "uit": "Queens Park Rangers FC",
+      "uitLogo": "https://crests.football-data.org/69.png"
+    },
+    {
       "id": 561838,
       "datum": "za 12 september 16:00",
       "thuis": "Charlton Athletic FC",
       "thuisLogo": "https://crests.football-data.org/348.png",
       "uit": "Portsmouth FC",
       "uitLogo": "https://crests.football-data.org/325.png"
+    },
+    {
+      "id": 561852,
+      "datum": "za 19 september 13:30",
+      "thuis": "Cardiff City FC",
+      "thuisLogo": "https://crests.football-data.org/715.png",
+      "uit": "Charlton Athletic FC",
+      "uitLogo": "https://crests.football-data.org/348.png"
     },
     {
       "id": 561863,
@@ -45931,6 +46187,14 @@
       "uitLogo": "https://crests.football-data.org/715.png"
     },
     {
+      "id": 561791,
+      "datum": "za 29 augustus 13:30",
+      "thuis": "Derby County FC",
+      "thuisLogo": "https://crests.football-data.org/342.png",
+      "uit": "Swansea City AFC",
+      "uitLogo": "https://crests.football-data.org/72.png"
+    },
+    {
       "id": 561802,
       "datum": "di 1 september 20:45",
       "thuis": "Portsmouth FC",
@@ -45953,6 +46217,14 @@
       "thuisLogo": "https://crests.football-data.org/342.png",
       "uit": "West Bromwich Albion FC",
       "uitLogo": "https://crests.football-data.org/74.png"
+    },
+    {
+      "id": 561835,
+      "datum": "za 12 september 13:30",
+      "thuis": "Derby County FC",
+      "thuisLogo": "https://crests.football-data.org/342.png",
+      "uit": "Birmingham City FC",
+      "uitLogo": "https://crests.football-data.org/332.png"
     },
     {
       "id": 561848,
@@ -46277,6 +46549,14 @@
       "uitLogo": "https://crests.football-data.org/69.png"
     },
     {
+      "id": 561781,
+      "datum": "za 22 augustus 13:30",
+      "thuis": "Lincoln City FC",
+      "thuisLogo": "https://crests.football-data.org/1126.png",
+      "uit": "Portsmouth FC",
+      "uitLogo": "https://crests.football-data.org/325.png"
+    },
+    {
       "id": 561787,
       "datum": "za 29 augustus 16:00",
       "thuis": "Bristol City FC",
@@ -46299,6 +46579,14 @@
       "thuisLogo": "https://crests.football-data.org/325.png",
       "uit": "Cardiff City FC",
       "uitLogo": "https://crests.football-data.org/715.png"
+    },
+    {
+      "id": 561826,
+      "datum": "wo 9 september 20:45",
+      "thuis": "Wolverhampton Wanderers FC",
+      "thuisLogo": "https://crests.football-data.org/76.png",
+      "uit": "Portsmouth FC",
+      "uitLogo": "https://crests.football-data.org/325.png"
     },
     {
       "id": 561838,
@@ -46663,6 +46951,22 @@
       "uitLogo": "https://crests.football-data.org/343.png"
     },
     {
+      "id": 561831,
+      "datum": "wo 9 september 21:00",
+      "thuis": "Charlton Athletic FC",
+      "thuisLogo": "https://crests.football-data.org/348.png",
+      "uit": "Queens Park Rangers FC",
+      "uitLogo": "https://crests.football-data.org/69.png"
+    },
+    {
+      "id": 561839,
+      "datum": "za 12 september 13:30",
+      "thuis": "West Bromwich Albion FC",
+      "thuisLogo": "https://crests.football-data.org/74.png",
+      "uit": "Queens Park Rangers FC",
+      "uitLogo": "https://crests.football-data.org/69.png"
+    },
+    {
       "id": 561853,
       "datum": "za 19 september 16:00",
       "thuis": "Queens Park Rangers FC",
@@ -47025,6 +47329,22 @@
       "uitLogo": "https://crests.football-data.org/356.png"
     },
     {
+      "id": 561844,
+      "datum": "zo 13 september 13:00",
+      "thuis": "Sheffield United FC",
+      "thuisLogo": "https://crests.football-data.org/356.png",
+      "uit": "Wolverhampton Wanderers FC",
+      "uitLogo": "https://crests.football-data.org/76.png"
+    },
+    {
+      "id": 561847,
+      "datum": "za 19 september 13:30",
+      "thuis": "Stoke City FC",
+      "thuisLogo": "https://crests.football-data.org/70.png",
+      "uit": "Sheffield United FC",
+      "uitLogo": "https://crests.football-data.org/356.png"
+    },
+    {
       "id": 561858,
       "datum": "za 10 oktober 16:00",
       "thuis": "Sheffield United FC",
@@ -47339,6 +47659,22 @@
       "uitLogo": "https://crests.football-data.org/332.png"
     },
     {
+      "id": 561773,
+      "datum": "za 22 augustus 13:30",
+      "thuis": "Birmingham City FC",
+      "thuisLogo": "https://crests.football-data.org/332.png",
+      "uit": "Bristol City FC",
+      "uitLogo": "https://crests.football-data.org/387.png"
+    },
+    {
+      "id": 561796,
+      "datum": "vr 28 augustus 21:00",
+      "thuis": "Wrexham AFC",
+      "thuisLogo": "https://crests.football-data.org/404.png",
+      "uit": "Birmingham City FC",
+      "uitLogo": "https://crests.football-data.org/332.png"
+    },
+    {
       "id": 561803,
       "datum": "di 1 september 20:45",
       "thuis": "Birmingham City FC",
@@ -47347,10 +47683,26 @@
       "uitLogo": "https://crests.football-data.org/340.png"
     },
     {
+      "id": 561819,
+      "datum": "zo 6 september 13:00",
+      "thuis": "Birmingham City FC",
+      "thuisLogo": "https://crests.football-data.org/332.png",
+      "uit": "Wolverhampton Wanderers FC",
+      "uitLogo": "https://crests.football-data.org/76.png"
+    },
+    {
       "id": 561832,
       "datum": "wo 9 september 20:45",
       "thuis": "Norwich City FC",
       "thuisLogo": "https://crests.football-data.org/68.png",
+      "uit": "Birmingham City FC",
+      "uitLogo": "https://crests.football-data.org/332.png"
+    },
+    {
+      "id": 561835,
+      "datum": "za 12 september 13:30",
+      "thuis": "Derby County FC",
+      "thuisLogo": "https://crests.football-data.org/342.png",
       "uit": "Birmingham City FC",
       "uitLogo": "https://crests.football-data.org/332.png"
     },
@@ -47725,6 +48077,14 @@
       "uitLogo": "https://crests.football-data.org/70.png"
     },
     {
+      "id": 561845,
+      "datum": "vr 18 september 21:00",
+      "thuis": "Bristol City FC",
+      "thuisLogo": "https://crests.football-data.org/387.png",
+      "uit": "Watford FC",
+      "uitLogo": "https://crests.football-data.org/346.png"
+    },
+    {
       "id": 561861,
       "datum": "za 10 oktober 16:00",
       "thuis": "Watford FC",
@@ -48059,6 +48419,14 @@
       "datum": "di 1 september 20:45",
       "thuis": "Birmingham City FC",
       "thuisLogo": "https://crests.football-data.org/332.png",
+      "uit": "Southampton FC",
+      "uitLogo": "https://crests.football-data.org/340.png"
+    },
+    {
+      "id": 561820,
+      "datum": "za 5 september 13:30",
+      "thuis": "Lincoln City FC",
+      "thuisLogo": "https://crests.football-data.org/1126.png",
       "uit": "Southampton FC",
       "uitLogo": "https://crests.football-data.org/340.png"
     },
@@ -48401,6 +48769,14 @@
       "uitLogo": "https://crests.football-data.org/563.png"
     },
     {
+      "id": 561776,
+      "datum": "zo 23 augustus 13:00",
+      "thuis": "West Bromwich Albion FC",
+      "thuisLogo": "https://crests.football-data.org/74.png",
+      "uit": "Burnley FC",
+      "uitLogo": "https://crests.football-data.org/328.png"
+    },
+    {
       "id": 561785,
       "datum": "za 29 augustus 16:00",
       "thuis": "Norwich City FC",
@@ -48409,12 +48785,28 @@
       "uitLogo": "https://crests.football-data.org/328.png"
     },
     {
+      "id": 561805,
+      "datum": "wo 2 september 21:00",
+      "thuis": "Burnley FC",
+      "thuisLogo": "https://crests.football-data.org/328.png",
+      "uit": "Middlesbrough FC",
+      "uitLogo": "https://crests.football-data.org/343.png"
+    },
+    {
       "id": 561817,
       "datum": "za 5 september 16:00",
       "thuis": "Burnley FC",
       "thuisLogo": "https://crests.football-data.org/328.png",
       "uit": "Bristol City FC",
       "uitLogo": "https://crests.football-data.org/387.png"
+    },
+    {
+      "id": 561830,
+      "datum": "di 8 september 20:45",
+      "thuis": "Wrexham AFC",
+      "thuisLogo": "https://crests.football-data.org/404.png",
+      "uit": "Burnley FC",
+      "uitLogo": "https://crests.football-data.org/328.png"
     },
     {
       "id": 561841,
@@ -48779,6 +49171,30 @@
       "uitLogo": "https://crests.football-data.org/342.png"
     },
     {
+      "id": 561827,
+      "datum": "di 8 september 21:00",
+      "thuis": "Bolton Wanderers FC",
+      "thuisLogo": "https://crests.football-data.org/60.png",
+      "uit": "West Ham United FC",
+      "uitLogo": "https://crests.football-data.org/563.png"
+    },
+    {
+      "id": 561842,
+      "datum": "vr 11 september 21:00",
+      "thuis": "West Ham United FC",
+      "thuisLogo": "https://crests.football-data.org/563.png",
+      "uit": "Wrexham AFC",
+      "uitLogo": "https://crests.football-data.org/404.png"
+    },
+    {
+      "id": 561849,
+      "datum": "za 19 september 13:30",
+      "thuis": "Millwall FC",
+      "thuisLogo": "https://crests.football-data.org/384.png",
+      "uit": "West Ham United FC",
+      "uitLogo": "https://crests.football-data.org/563.png"
+    },
+    {
       "id": 561862,
       "datum": "za 10 oktober 16:00",
       "thuis": "West Ham United FC",
@@ -49133,6 +49549,22 @@
       "uitLogo": "https://crests.football-data.org/70.png"
     },
     {
+      "id": 561837,
+      "datum": "za 12 september 13:30",
+      "thuis": "Bolton Wanderers FC",
+      "thuisLogo": "https://crests.football-data.org/60.png",
+      "uit": "Cardiff City FC",
+      "uitLogo": "https://crests.football-data.org/715.png"
+    },
+    {
+      "id": 561852,
+      "datum": "za 19 september 13:30",
+      "thuis": "Cardiff City FC",
+      "thuisLogo": "https://crests.football-data.org/715.png",
+      "uit": "Charlton Athletic FC",
+      "uitLogo": "https://crests.football-data.org/348.png"
+    },
+    {
       "id": 561865,
       "datum": "za 10 oktober 16:00",
       "thuis": "Blackburn Rovers FC",
@@ -49455,10 +49887,42 @@
       "uitLogo": "https://crests.football-data.org/346.png"
     },
     {
+      "id": 561796,
+      "datum": "vr 28 augustus 21:00",
+      "thuis": "Wrexham AFC",
+      "thuisLogo": "https://crests.football-data.org/404.png",
+      "uit": "Birmingham City FC",
+      "uitLogo": "https://crests.football-data.org/332.png"
+    },
+    {
       "id": 561806,
       "datum": "wo 2 september 20:45",
       "thuis": "Millwall FC",
       "thuisLogo": "https://crests.football-data.org/384.png",
+      "uit": "Wrexham AFC",
+      "uitLogo": "https://crests.football-data.org/404.png"
+    },
+    {
+      "id": 561811,
+      "datum": "za 5 september 21:00",
+      "thuis": "Swansea City AFC",
+      "thuisLogo": "https://crests.football-data.org/72.png",
+      "uit": "Wrexham AFC",
+      "uitLogo": "https://crests.football-data.org/404.png"
+    },
+    {
+      "id": 561830,
+      "datum": "di 8 september 20:45",
+      "thuis": "Wrexham AFC",
+      "thuisLogo": "https://crests.football-data.org/404.png",
+      "uit": "Burnley FC",
+      "uitLogo": "https://crests.football-data.org/328.png"
+    },
+    {
+      "id": 561842,
+      "datum": "vr 11 september 21:00",
+      "thuis": "West Ham United FC",
+      "thuisLogo": "https://crests.football-data.org/563.png",
       "uit": "Wrexham AFC",
       "uitLogo": "https://crests.football-data.org/404.png"
     },
