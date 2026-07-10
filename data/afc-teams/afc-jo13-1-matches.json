@@ -1,1 +1,100 @@
-[]
+[
+  {
+    "datum": "za 29 augustus 10:30",
+    "thuis": "Alphense Boys O13-1",
+    "thuisLogo": "",
+    "uit": "AFC O13-1",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 5 september 10:15",
+    "thuis": "AFC O13-1",
+    "thuisLogo": "images/afc.png",
+    "uit": "BFC O13-1",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 12 september 08:30",
+    "thuis": "SDZ O13-1",
+    "thuisLogo": "",
+    "uit": "AFC O13-1",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 19 september 12:30",
+    "thuis": "AFC 34 O13-1",
+    "thuisLogo": "images/afc.png",
+    "uit": "AFC O13-1",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 26 september 10:15",
+    "thuis": "AFC O13-1",
+    "thuisLogo": "images/afc.png",
+    "uit": "WV-HEDW O13-1",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 3 oktober 10:15",
+    "thuis": "AFC O13-1",
+    "thuisLogo": "images/afc.png",
+    "uit": "Zeeburgia avv O13-1",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 10 oktober 08:30",
+    "thuis": "Hoofddorp s.v. O13-1",
+    "thuisLogo": "",
+    "uit": "AFC O13-1",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 24 oktober 10:00",
+    "thuis": "WV-HEDW O13-1",
+    "thuisLogo": "",
+    "uit": "AFC O13-1",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 31 oktober 10:15",
+    "thuis": "AFC O13-1",
+    "thuisLogo": "images/afc.png",
+    "uit": "AFC 34 O13-1",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 7 november 10:15",
+    "thuis": "AFC O13-1",
+    "thuisLogo": "images/afc.png",
+    "uit": "Hoofddorp s.v. O13-1",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 14 november 10:15",
+    "thuis": "Zeeburgia avv O13-1",
+    "thuisLogo": "",
+    "uit": "AFC O13-1",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 21 november 10:15",
+    "thuis": "AFC O13-1",
+    "thuisLogo": "images/afc.png",
+    "uit": "SDZ O13-1",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 5 december 10:15",
+    "thuis": "AFC O13-1",
+    "thuisLogo": "images/afc.png",
+    "uit": "Alphense Boys O13-1",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 12 december 10:15",
+    "thuis": "BFC O13-1",
+    "thuisLogo": "",
+    "uit": "AFC O13-1",
+    "uitLogo": "images/afc.png"
+  }
+]

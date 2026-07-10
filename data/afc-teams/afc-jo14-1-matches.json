@@ -1,1 +1,100 @@
-[]
+[
+  {
+    "datum": "za 29 augustus 10:00",
+    "thuis": "WV-HEDW O14-1",
+    "thuisLogo": "",
+    "uit": "AFC O14-1",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 5 september 10:15",
+    "thuis": "AFC O14-1",
+    "thuisLogo": "images/afc.png",
+    "uit": "BFC O14-1",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 12 september 11:00",
+    "thuis": "FC Groningen O14-1",
+    "thuisLogo": "",
+    "uit": "AFC O14-1",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 19 september 10:30",
+    "thuis": "Alphense Boys O14-1",
+    "thuisLogo": "",
+    "uit": "AFC O14-1",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 26 september 10:15",
+    "thuis": "AFC O14-1",
+    "thuisLogo": "images/afc.png",
+    "uit": "Zeeburgia avv O14-1",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 3 oktober 12:30",
+    "thuis": "Waterwijk asc O14-1",
+    "thuisLogo": "",
+    "uit": "AFC O14-1",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 10 oktober 10:15",
+    "thuis": "AFC O14-1",
+    "thuisLogo": "images/afc.png",
+    "uit": "Almere City O14-1",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 24 oktober 12:00",
+    "thuis": "Zeeburgia avv O14-1",
+    "thuisLogo": "",
+    "uit": "AFC O14-1",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 31 oktober 10:15",
+    "thuis": "AFC O14-1",
+    "thuisLogo": "images/afc.png",
+    "uit": "Alphense Boys O14-1",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 7 november 09:45",
+    "thuis": "Almere City O14-1",
+    "thuisLogo": "",
+    "uit": "AFC O14-1",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 14 november 10:15",
+    "thuis": "AFC O14-1",
+    "thuisLogo": "images/afc.png",
+    "uit": "Waterwijk asc O14-1",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 21 november 10:15",
+    "thuis": "AFC O14-1",
+    "thuisLogo": "images/afc.png",
+    "uit": "FC Groningen O14-1",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 5 december 10:15",
+    "thuis": "AFC O14-1",
+    "thuisLogo": "images/afc.png",
+    "uit": "WV-HEDW O14-1",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 12 december 10:15",
+    "thuis": "BFC O14-1",
+    "thuisLogo": "",
+    "uit": "AFC O14-1",
+    "uitLogo": "images/afc.png"
+  }
+]

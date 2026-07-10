@@ -1,1 +1,86 @@
-[]
+[
+  {
+    "datum": "za 29 augustus 14:50",
+    "thuis": "Swift O16-1",
+    "thuisLogo": "",
+    "uit": "AFC O16-1",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 5 september 12:30",
+    "thuis": "AFC O16-1",
+    "thuisLogo": "images/afc.png",
+    "uit": "KSV O16-1",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 12 september 12:15",
+    "thuis": "AFC O16-1",
+    "thuisLogo": "images/afc.png",
+    "uit": "KFC O16-1",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 19 september 13:30",
+    "thuis": "Hollandia O16-1",
+    "thuisLogo": "",
+    "uit": "AFC O16-1",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 3 oktober 15:00",
+    "thuis": "Waterwijk asc O16-1",
+    "thuisLogo": "",
+    "uit": "AFC O16-1",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 10 oktober 12:30",
+    "thuis": "AFC O16-1",
+    "thuisLogo": "images/afc.png",
+    "uit": "AFC 34 O16-1",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 31 oktober 12:15",
+    "thuis": "AFC O16-1",
+    "thuisLogo": "images/afc.png",
+    "uit": "Hollandia O16-1",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 7 november 10:15",
+    "thuis": "AFC 34 O16-1",
+    "thuisLogo": "images/afc.png",
+    "uit": "AFC O16-1",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 14 november 12:30",
+    "thuis": "AFC O16-1",
+    "thuisLogo": "images/afc.png",
+    "uit": "Waterwijk asc O16-1",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 21 november 14:00",
+    "thuis": "KFC O16-1",
+    "thuisLogo": "",
+    "uit": "AFC O16-1",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 5 december 12:15",
+    "thuis": "AFC O16-1",
+    "thuisLogo": "images/afc.png",
+    "uit": "Swift O16-1",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 12 december 13:00",
+    "thuis": "KSV O16-1",
+    "thuisLogo": "",
+    "uit": "AFC O16-1",
+    "uitLogo": "images/afc.png"
+  }
+]

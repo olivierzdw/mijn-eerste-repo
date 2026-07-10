@@ -1,1 +1,65 @@
-[]
+[
+  {
+    "datum": "zo 20 september 14:30",
+    "thuis": "NSVV FC Kunde VR1",
+    "thuisLogo": "",
+    "uit": "AFC VR1",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "zo 4 oktober 10:30",
+    "thuis": "Varsseveld VR1",
+    "thuisLogo": "",
+    "uit": "AFC VR1",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "zo 11 oktober 13:30",
+    "thuis": "AFC VR1",
+    "thuisLogo": "images/afc.png",
+    "uit": "WSV 1930 VR1",
+    "uitLogo": ""
+  },
+  {
+    "datum": "zo 1 november 12:00",
+    "thuis": "Prinses Irene VR1",
+    "thuisLogo": "",
+    "uit": "AFC VR1",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "zo 8 november 13:30",
+    "thuis": "AFC VR1",
+    "thuisLogo": "images/afc.png",
+    "uit": "OJC Rosmalen VR1",
+    "uitLogo": ""
+  },
+  {
+    "datum": "zo 15 november 14:00",
+    "thuis": "Victoria Boys VR1",
+    "thuisLogo": "",
+    "uit": "AFC VR1",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "zo 22 november 13:30",
+    "thuis": "AFC VR1",
+    "thuisLogo": "images/afc.png",
+    "uit": "Alverna VR1",
+    "uitLogo": ""
+  },
+  {
+    "datum": "zo 29 november 11:30",
+    "thuis": "HVCH VR1",
+    "thuisLogo": "",
+    "uit": "AFC VR1",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "zo 6 december 13:30",
+    "thuis": "AFC VR1",
+    "thuisLogo": "images/afc.png",
+    "uit": "VVS 46 VR1",
+    "uitLogo": ""
+  }
+]

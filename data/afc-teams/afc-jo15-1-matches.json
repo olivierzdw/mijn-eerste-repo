@@ -1,1 +1,100 @@
-[]
+[
+  {
+    "datum": "za 29 augustus 15:10",
+    "thuis": "Koninklijke HFC O15-1",
+    "thuisLogo": "",
+    "uit": "AFC O15-1",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 5 september 10:15",
+    "thuis": "AFC O15-1",
+    "thuisLogo": "images/afc.png",
+    "uit": "De Meern O15-1",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 12 september 10:00",
+    "thuis": "AFC O15-1",
+    "thuisLogo": "images/afc.png",
+    "uit": "Hollandia O15-1",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 19 september 14:15",
+    "thuis": "BFC O15-1",
+    "thuisLogo": "",
+    "uit": "AFC O15-1",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 26 september 12:15",
+    "thuis": "AFC O15-1",
+    "thuisLogo": "images/afc.png",
+    "uit": "KFC O15-1",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 3 oktober 10:15",
+    "thuis": "Waterwijk asc O15-1",
+    "thuisLogo": "",
+    "uit": "AFC O15-1",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 10 oktober 10:15",
+    "thuis": "AFC O15-1",
+    "thuisLogo": "images/afc.png",
+    "uit": "DTA Fortius asv O15-1",
+    "uitLogo": "images/fortius.png"
+  },
+  {
+    "datum": "za 24 oktober 13:00",
+    "thuis": "KFC O15-1",
+    "thuisLogo": "",
+    "uit": "AFC O15-1",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 31 oktober 12:15",
+    "thuis": "AFC O15-1",
+    "thuisLogo": "images/afc.png",
+    "uit": "BFC O15-1",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 7 november 12:30",
+    "thuis": "DTA Fortius asv O15-1",
+    "thuisLogo": "images/fortius.png",
+    "uit": "AFC O15-1",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 14 november 10:15",
+    "thuis": "AFC O15-1",
+    "thuisLogo": "images/afc.png",
+    "uit": "Waterwijk asc O15-1",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 21 november 11:30",
+    "thuis": "Hollandia O15-1",
+    "thuisLogo": "",
+    "uit": "AFC O15-1",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 5 december 12:30",
+    "thuis": "AFC O15-1",
+    "thuisLogo": "images/afc.png",
+    "uit": "Koninklijke HFC O15-1",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 12 december 10:00",
+    "thuis": "De Meern O15-1",
+    "thuisLogo": "",
+    "uit": "AFC O15-1",
+    "uitLogo": "images/afc.png"
+  }
+]

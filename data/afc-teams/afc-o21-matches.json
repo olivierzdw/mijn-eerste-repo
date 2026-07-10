@@ -1,1 +1,100 @@
-[]
+[
+  {
+    "datum": "za 29 augustus 12:15",
+    "thuis": "AFC O21",
+    "thuisLogo": "images/afc.png",
+    "uit": "FC Volendam O21",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 5 september 14:30",
+    "thuis": "NAC Breda O21",
+    "thuisLogo": "",
+    "uit": "AFC O21",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 12 september 12:15",
+    "thuis": "AFC O21",
+    "thuisLogo": "images/afc.png",
+    "uit": "Excelsior Rotterdam O21",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 19 september 12:15",
+    "thuis": "AFC O21",
+    "thuisLogo": "images/afc.png",
+    "uit": "Vitesse O21",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 26 september 12:30",
+    "thuis": "FC Dordrecht O21",
+    "thuisLogo": "",
+    "uit": "AFC O21",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 3 oktober 15:00",
+    "thuis": "ADO Den Haag O21",
+    "thuisLogo": "",
+    "uit": "AFC O21",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 10 oktober 12:15",
+    "thuis": "AFC O21",
+    "thuisLogo": "images/afc.png",
+    "uit": "Fortuna Sittard O21",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 24 oktober 12:15",
+    "thuis": "AFC O21",
+    "thuisLogo": "images/afc.png",
+    "uit": "FC Dordrecht O21",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 31 oktober 14:45",
+    "thuis": "Vitesse O21",
+    "thuisLogo": "",
+    "uit": "AFC O21",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 7 november 13:00",
+    "thuis": "Fortuna Sittard O21",
+    "thuisLogo": "",
+    "uit": "AFC O21",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 14 november 12:15",
+    "thuis": "AFC O21",
+    "thuisLogo": "images/afc.png",
+    "uit": "ADO Den Haag O21",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 21 november 15:00",
+    "thuis": "Excelsior Rotterdam O21",
+    "thuisLogo": "",
+    "uit": "AFC O21",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 5 december 15:00",
+    "thuis": "FC Volendam O21",
+    "thuisLogo": "",
+    "uit": "AFC O21",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 12 december 14:45",
+    "thuis": "AFC O21",
+    "thuisLogo": "images/afc.png",
+    "uit": "NAC Breda O21",
+    "uitLogo": ""
+  }
+]
