@@ -3,7 +3,7 @@
     "slug": "afc-1",
     "naam": "AFC 1",
     "soort": "Senioren zaterdag",
-    "pouleId": "788531",
+    "pouleId": "826189",
     "heeftStand": true,
     "aantalMatches": 0
   },
@@ -11,15 +11,15 @@
     "slug": "afc-10",
     "naam": "AFC 10",
     "soort": "Senioren zaterdag",
-    "pouleId": "791784",
-    "heeftStand": true,
+    "pouleId": null,
+    "heeftStand": false,
     "aantalMatches": 0
   },
   {
     "slug": "afc-2",
     "naam": "AFC 2",
     "soort": "Senioren zaterdag",
-    "pouleId": "788496",
+    "pouleId": "826379",
     "heeftStand": true,
     "aantalMatches": 0
   },
@@ -27,7 +27,7 @@
     "slug": "afc-3-2",
     "naam": "AFC 3",
     "soort": "Senioren zaterdag",
-    "pouleId": "788495",
+    "pouleId": "826382",
     "heeftStand": true,
     "aantalMatches": 0
   },
@@ -35,87 +35,71 @@
     "slug": "afc-4",
     "naam": "AFC 4",
     "soort": "Senioren zaterdag",
-    "pouleId": "790960",
-    "heeftStand": true,
+    "pouleId": null,
+    "heeftStand": false,
     "aantalMatches": 0
   },
   {
     "slug": "afc-5-2",
     "naam": "AFC 5",
     "soort": "Senioren zaterdag",
-    "pouleId": "791488",
-    "heeftStand": true,
+    "pouleId": null,
+    "heeftStand": false,
     "aantalMatches": 0
   },
   {
     "slug": "afc-6-2",
     "naam": "AFC 6",
     "soort": "Senioren zaterdag",
-    "pouleId": "791487",
-    "heeftStand": true,
+    "pouleId": null,
+    "heeftStand": false,
     "aantalMatches": 0
   },
   {
     "slug": "afc-7-2",
     "naam": "AFC 7",
     "soort": "Senioren zaterdag",
-    "pouleId": "791596",
-    "heeftStand": true,
+    "pouleId": null,
+    "heeftStand": false,
     "aantalMatches": 0
   },
   {
     "slug": "afc-8",
     "naam": "AFC 8",
     "soort": "Senioren zaterdag",
-    "pouleId": "791594",
-    "heeftStand": true,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-9-2",
-    "naam": "AFC 9",
-    "soort": "Senioren zaterdag",
-    "pouleId": "791788",
-    "heeftStand": true,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-o23-1",
-    "naam": "AFC O23-1",
-    "soort": "Senioren zaterdag",
-    "pouleId": "810719",
-    "heeftStand": true,
+    "pouleId": null,
+    "heeftStand": false,
     "aantalMatches": 0
   },
   {
     "slug": "afc",
     "naam": "AFC",
     "soort": "Senioren zondag",
-    "pouleId": "787986",
-    "heeftStand": true,
+    "pouleId": null,
+    "heeftStand": false,
     "aantalMatches": 20
   },
   {
     "slug": "afc-2-2",
     "naam": "AFC 2",
     "soort": "Senioren zondag",
-    "pouleId": "790848",
-    "heeftStand": true,
+    "pouleId": null,
+    "heeftStand": false,
     "aantalMatches": 0
   },
   {
     "slug": "afc-3",
     "naam": "AFC 3",
     "soort": "Senioren zondag",
-    "pouleId": "790962",
-    "heeftStand": true,
+    "pouleId": null,
+    "heeftStand": false,
     "aantalMatches": 0
   },
   {
     "slug": "afc-4-2",
     "naam": "AFC 4",
     "soort": "Senioren zondag",
-    "pouleId": "791482",
+    "pouleId": "826384",
     "heeftStand": true,
     "aantalMatches": 0
   },
@@ -123,680 +107,64 @@
     "slug": "afc-5",
     "naam": "AFC 5",
     "soort": "Senioren zondag",
-    "pouleId": "790958",
-    "heeftStand": true,
+    "pouleId": null,
+    "heeftStand": false,
     "aantalMatches": 0
   },
   {
     "slug": "afc-6",
     "naam": "AFC 6",
     "soort": "Senioren zondag",
-    "pouleId": "790959",
-    "heeftStand": true,
+    "pouleId": null,
+    "heeftStand": false,
     "aantalMatches": 0
   },
   {
     "slug": "afc-7",
     "naam": "AFC 7",
     "soort": "Senioren zondag",
-    "pouleId": "790890",
-    "heeftStand": true,
+    "pouleId": null,
+    "heeftStand": false,
     "aantalMatches": 0
   },
   {
     "slug": "afc-8-2",
     "naam": "AFC 8",
     "soort": "Senioren zondag",
-    "pouleId": "790885",
-    "heeftStand": true,
+    "pouleId": null,
+    "heeftStand": false,
     "aantalMatches": 0
   },
   {
     "slug": "afc-9",
     "naam": "AFC 9",
     "soort": "Senioren zondag",
-    "pouleId": "790892",
-    "heeftStand": true,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo10-1",
-    "naam": "AFC JO10-1",
-    "soort": "Jeugd zaterdag",
     "pouleId": null,
     "heeftStand": false,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo10-2",
-    "naam": "AFC JO10-2",
-    "soort": "Jeugd zaterdag",
-    "pouleId": null,
-    "heeftStand": false,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo10-3",
-    "naam": "AFC JO10-3",
-    "soort": "Jeugd zaterdag",
-    "pouleId": null,
-    "heeftStand": false,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo10-4",
-    "naam": "AFC JO10-4",
-    "soort": "Jeugd zaterdag",
-    "pouleId": null,
-    "heeftStand": false,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo10-5",
-    "naam": "AFC JO10-5",
-    "soort": "Jeugd zaterdag",
-    "pouleId": null,
-    "heeftStand": false,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo10-6",
-    "naam": "AFC JO10-6",
-    "soort": "Jeugd zaterdag",
-    "pouleId": null,
-    "heeftStand": false,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo10-7",
-    "naam": "AFC JO10-7",
-    "soort": "Jeugd zaterdag",
-    "pouleId": null,
-    "heeftStand": false,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo10-8",
-    "naam": "AFC JO10-8",
-    "soort": "Jeugd zaterdag",
-    "pouleId": null,
-    "heeftStand": false,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo11-1",
-    "naam": "AFC JO11-1",
-    "soort": "Jeugd zaterdag",
-    "pouleId": "818911",
-    "heeftStand": true,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo11-2",
-    "naam": "AFC JO11-2",
-    "soort": "Jeugd zaterdag",
-    "pouleId": "818935",
-    "heeftStand": true,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo11-3",
-    "naam": "AFC JO11-3",
-    "soort": "Jeugd zaterdag",
-    "pouleId": "818936",
-    "heeftStand": true,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo11-4",
-    "naam": "AFC JO11-4",
-    "soort": "Jeugd zaterdag",
-    "pouleId": "819379",
-    "heeftStand": true,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo11-5",
-    "naam": "AFC JO11-5",
-    "soort": "Jeugd zaterdag",
-    "pouleId": "819389",
-    "heeftStand": true,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo11-6",
-    "naam": "AFC JO11-6",
-    "soort": "Jeugd zaterdag",
-    "pouleId": "819561",
-    "heeftStand": true,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo11-7",
-    "naam": "AFC JO11-7",
-    "soort": "Jeugd zaterdag",
-    "pouleId": "819606",
-    "heeftStand": true,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo12-1",
-    "naam": "AFC JO12-1",
-    "soort": "Jeugd zaterdag",
-    "pouleId": "820176",
-    "heeftStand": true,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo12-2",
-    "naam": "AFC JO12-2",
-    "soort": "Jeugd zaterdag",
-    "pouleId": "820184",
-    "heeftStand": true,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo12-3",
-    "naam": "AFC JO12-3",
-    "soort": "Jeugd zaterdag",
-    "pouleId": "820414",
-    "heeftStand": true,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo12-4",
-    "naam": "AFC JO12-4",
-    "soort": "Jeugd zaterdag",
-    "pouleId": "820428",
-    "heeftStand": true,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo12-5",
-    "naam": "AFC JO12-5",
-    "soort": "Jeugd zaterdag",
-    "pouleId": "820476",
-    "heeftStand": true,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo12-6",
-    "naam": "AFC JO12-6",
-    "soort": "Jeugd zaterdag",
-    "pouleId": "820550",
-    "heeftStand": true,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo13-1",
-    "naam": "AFC JO13-1",
-    "soort": "Jeugd zaterdag",
-    "pouleId": "808926",
-    "heeftStand": true,
-    "aantalMatches": 14
-  },
-  {
-    "slug": "afc-jo13-2",
-    "naam": "AFC JO13-2",
-    "soort": "Jeugd zaterdag",
-    "pouleId": "811399",
-    "heeftStand": true,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo13-3",
-    "naam": "AFC JO13-3",
-    "soort": "Jeugd zaterdag",
-    "pouleId": "809174",
-    "heeftStand": true,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo13-4",
-    "naam": "AFC JO13-4",
-    "soort": "Jeugd zaterdag",
-    "pouleId": "810265",
-    "heeftStand": true,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo13-5",
-    "naam": "AFC JO13-5",
-    "soort": "Jeugd zaterdag",
-    "pouleId": "810280",
-    "heeftStand": true,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo13-6",
-    "naam": "AFC JO13-6",
-    "soort": "Jeugd zaterdag",
-    "pouleId": "810283",
-    "heeftStand": true,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo14-1",
-    "naam": "AFC JO14-1",
-    "soort": "Jeugd zaterdag",
-    "pouleId": "808934",
-    "heeftStand": true,
-    "aantalMatches": 14
-  },
-  {
-    "slug": "afc-jo14-2-2",
-    "naam": "AFC JO14-2",
-    "soort": "Jeugd zaterdag",
-    "pouleId": "809171",
-    "heeftStand": true,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo15-1",
-    "naam": "AFC JO15-1",
-    "soort": "Jeugd zaterdag",
-    "pouleId": "808943",
-    "heeftStand": true,
-    "aantalMatches": 14
-  },
-  {
-    "slug": "afc-jo15-2",
-    "naam": "AFC JO15-2",
-    "soort": "Jeugd zaterdag",
-    "pouleId": "802246",
-    "heeftStand": true,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo16-1-2",
-    "naam": "AFC JO16-1",
-    "soort": "Jeugd zaterdag",
-    "pouleId": "808951",
-    "heeftStand": true,
-    "aantalMatches": 12
-  },
-  {
-    "slug": "afc-jo16-2-2",
-    "naam": "AFC JO16-2",
-    "soort": "Jeugd zaterdag",
-    "pouleId": "809543",
-    "heeftStand": true,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo17-1",
-    "naam": "AFC JO17-1",
-    "soort": "Jeugd zaterdag",
-    "pouleId": "808956",
-    "heeftStand": true,
-    "aantalMatches": 14
-  },
-  {
-    "slug": "afc-jo17-2-2",
-    "naam": "AFC JO17-2",
-    "soort": "Jeugd zaterdag",
-    "pouleId": "810291",
-    "heeftStand": true,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo19-1-2",
-    "naam": "AFC JO19-1",
-    "soort": "Jeugd zaterdag",
-    "pouleId": "811195",
-    "heeftStand": true,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo19-2",
-    "naam": "AFC JO19-2",
-    "soort": "Jeugd zaterdag",
-    "pouleId": "809340",
-    "heeftStand": true,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo8-1",
-    "naam": "AFC JO8-1",
-    "soort": "Jeugd zaterdag",
-    "pouleId": null,
-    "heeftStand": false,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo8-2",
-    "naam": "AFC JO8-2",
-    "soort": "Jeugd zaterdag",
-    "pouleId": null,
-    "heeftStand": false,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo8-3",
-    "naam": "AFC JO8-3",
-    "soort": "Jeugd zaterdag",
-    "pouleId": null,
-    "heeftStand": false,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo8-4",
-    "naam": "AFC JO8-4",
-    "soort": "Jeugd zaterdag",
-    "pouleId": null,
-    "heeftStand": false,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo8-5",
-    "naam": "AFC JO8-5",
-    "soort": "Jeugd zaterdag",
-    "pouleId": null,
-    "heeftStand": false,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo8-6",
-    "naam": "AFC JO8-6",
-    "soort": "Jeugd zaterdag",
-    "pouleId": null,
-    "heeftStand": false,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo8-7",
-    "naam": "AFC JO8-7",
-    "soort": "Jeugd zaterdag",
-    "pouleId": null,
-    "heeftStand": false,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo8-8",
-    "naam": "AFC JO8-8",
-    "soort": "Jeugd zaterdag",
-    "pouleId": null,
-    "heeftStand": false,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo8-9",
-    "naam": "AFC JO8-9",
-    "soort": "Jeugd zaterdag",
-    "pouleId": null,
-    "heeftStand": false,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo9-1",
-    "naam": "AFC JO9-1",
-    "soort": "Jeugd zaterdag",
-    "pouleId": null,
-    "heeftStand": false,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo9-2",
-    "naam": "AFC JO9-2",
-    "soort": "Jeugd zaterdag",
-    "pouleId": null,
-    "heeftStand": false,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo9-3",
-    "naam": "AFC JO9-3",
-    "soort": "Jeugd zaterdag",
-    "pouleId": null,
-    "heeftStand": false,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo9-4",
-    "naam": "AFC JO9-4",
-    "soort": "Jeugd zaterdag",
-    "pouleId": null,
-    "heeftStand": false,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo9-5",
-    "naam": "AFC JO9-5",
-    "soort": "Jeugd zaterdag",
-    "pouleId": null,
-    "heeftStand": false,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo9-6",
-    "naam": "AFC JO9-6",
-    "soort": "Jeugd zaterdag",
-    "pouleId": null,
-    "heeftStand": false,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo9-7",
-    "naam": "AFC JO9-7",
-    "soort": "Jeugd zaterdag",
-    "pouleId": null,
-    "heeftStand": false,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo9-8",
-    "naam": "AFC JO9-8",
-    "soort": "Jeugd zaterdag",
-    "pouleId": null,
-    "heeftStand": false,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo9-9",
-    "naam": "AFC JO9-9",
-    "soort": "Jeugd zaterdag",
-    "pouleId": null,
-    "heeftStand": false,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-o21",
-    "naam": "AFC O21",
-    "soort": "Jeugd zaterdag",
-    "pouleId": "809211",
-    "heeftStand": true,
-    "aantalMatches": 14
-  },
-  {
-    "slug": "afc-jo14-1-2",
-    "naam": "AFC JO14-1",
-    "soort": "Jeugd zondag",
-    "pouleId": "811220",
-    "heeftStand": true,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo14-2",
-    "naam": "AFC JO14-2",
-    "soort": "Jeugd zondag",
-    "pouleId": "811222",
-    "heeftStand": true,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo14-3",
-    "naam": "AFC JO14-3",
-    "soort": "Jeugd zondag",
-    "pouleId": "811222",
-    "heeftStand": true,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo15-1-2",
-    "naam": "AFC JO15-1",
-    "soort": "Jeugd zondag",
-    "pouleId": "811214",
-    "heeftStand": true,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo15-2-2",
-    "naam": "AFC JO15-2",
-    "soort": "Jeugd zondag",
-    "pouleId": "811215",
-    "heeftStand": true,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo15-3",
-    "naam": "AFC JO15-3",
-    "soort": "Jeugd zondag",
-    "pouleId": "811216",
-    "heeftStand": true,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo16-1",
-    "naam": "AFC JO16-1",
-    "soort": "Jeugd zondag",
-    "pouleId": "811206",
-    "heeftStand": true,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo16-2",
-    "naam": "AFC JO16-2",
-    "soort": "Jeugd zondag",
-    "pouleId": "811208",
-    "heeftStand": true,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo16-3",
-    "naam": "AFC JO16-3",
-    "soort": "Jeugd zondag",
-    "pouleId": "811212",
-    "heeftStand": true,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo17-1-2",
-    "naam": "AFC JO17-1",
-    "soort": "Jeugd zondag",
-    "pouleId": "811202",
-    "heeftStand": true,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-jo17-2",
-    "naam": "AFC JO17-2",
-    "soort": "Jeugd zondag",
-    "pouleId": "811203",
-    "heeftStand": true,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-vr1",
-    "naam": "AFC VR1",
-    "soort": "Vrouwen",
-    "pouleId": "787977",
-    "heeftStand": true,
-    "aantalMatches": 9
-  },
-  {
-    "slug": "afc-vr2",
-    "naam": "AFC VR2",
-    "soort": "Vrouwen",
-    "pouleId": "787930",
-    "heeftStand": true,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-mo10-1",
-    "naam": "AFC MO10-1",
-    "soort": "Meisjes",
-    "pouleId": null,
-    "heeftStand": false,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-mo11-1",
-    "naam": "AFC MO11-1",
-    "soort": "Meisjes",
-    "pouleId": "819704",
-    "heeftStand": true,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-mo12-1",
-    "naam": "AFC MO12-1",
-    "soort": "Meisjes",
-    "pouleId": "820611",
-    "heeftStand": true,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-mo13-1",
-    "naam": "AFC MO13-1",
-    "soort": "Meisjes",
-    "pouleId": "810474",
-    "heeftStand": true,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-mo14-1",
-    "naam": "AFC MO14-1",
-    "soort": "Meisjes",
-    "pouleId": "810269",
-    "heeftStand": true,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-mo15-1",
-    "naam": "AFC MO15-1",
-    "soort": "Meisjes",
-    "pouleId": "811154",
-    "heeftStand": true,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-mo15-2",
-    "naam": "AFC MO15-2",
-    "soort": "Meisjes",
-    "pouleId": "811006",
-    "heeftStand": true,
-    "aantalMatches": 0
-  },
-  {
-    "slug": "afc-mo17-1",
-    "naam": "AFC MO17-1",
-    "soort": "Meisjes",
-    "pouleId": "805140",
-    "heeftStand": true,
     "aantalMatches": 0
   },
   {
     "slug": "afc-351",
     "naam": "AFC 35+1",
     "soort": "Veteranen",
-    "pouleId": "788757",
-    "heeftStand": true,
+    "pouleId": null,
+    "heeftStand": false,
     "aantalMatches": 0
   },
   {
     "slug": "afc-451",
     "naam": "AFC 45+1",
     "soort": "Veteranen",
-    "pouleId": "789233",
-    "heeftStand": true,
+    "pouleId": null,
+    "heeftStand": false,
     "aantalMatches": 0
   },
   {
     "slug": "afc-452",
     "naam": "AFC 45+2",
     "soort": "Veteranen",
-    "pouleId": "789231",
-    "heeftStand": true,
+    "pouleId": null,
+    "heeftStand": false,
     "aantalMatches": 0
   }
 ]
