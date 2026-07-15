@@ -144,6 +144,14 @@
     "aantalMatches": 0
   },
   {
+    "slug": "afc-mo10-1",
+    "naam": "AFC MO10-1",
+    "soort": "Meisjes",
+    "pouleId": null,
+    "heeftStand": false,
+    "aantalMatches": 0
+  },
+  {
     "slug": "afc-mo11-1",
     "naam": "AFC MO11-1",
     "soort": "Meisjes",
