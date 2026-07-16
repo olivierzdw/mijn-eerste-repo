@@ -72,14 +72,6 @@
     "aantalMatches": 0
   },
   {
-    "slug": "afc-o23-1",
-    "naam": "AFC O23-1",
-    "soort": "Senioren zaterdag",
-    "pouleId": null,
-    "heeftStand": false,
-    "aantalMatches": 0
-  },
-  {
     "slug": "afc",
     "naam": "AFC",
     "soort": "Senioren zondag",
@@ -147,6 +139,14 @@
     "slug": "afc-9",
     "naam": "AFC 9",
     "soort": "Senioren zondag",
+    "pouleId": null,
+    "heeftStand": false,
+    "aantalMatches": 0
+  },
+  {
+    "slug": "afc-mo11-2",
+    "naam": "AFC MO11-2",
+    "soort": "Meisjes",
     "pouleId": null,
     "heeftStand": false,
     "aantalMatches": 0
