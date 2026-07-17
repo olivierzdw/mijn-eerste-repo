@@ -1386,6 +1386,17 @@
       "uitLogo": "https://crests.football-data.org/1782.png",
       "thuisScore": 3,
       "uitScore": 1
+    },
+    {
+      "id": 554929,
+      "datum": "vr 17 juli",
+      "datumIso": "2026-07-16",
+      "thuis": "EC Vitória",
+      "thuisLogo": "https://crests.football-data.org/1782.png",
+      "uit": "CR Vasco da Gama",
+      "uitLogo": "https://crests.football-data.org/1780.png",
+      "thuisScore": 1,
+      "uitScore": 0
     }
   ],
   "4287": [
@@ -2374,6 +2385,17 @@
       "uit": "EC Vitória",
       "uitLogo": "https://crests.football-data.org/1782.png",
       "thuisScore": 3,
+      "uitScore": 1
+    },
+    {
+      "id": 554921,
+      "datum": "vr 17 juli",
+      "datumIso": "2026-07-16",
+      "thuis": "Botafogo FR",
+      "thuisLogo": "https://crests.football-data.org/1770.png",
+      "uit": "Santos FC",
+      "uitLogo": "https://crests.football-data.org/6685.png",
+      "thuisScore": 2,
       "uitScore": 1
     }
   ],
@@ -3542,6 +3564,17 @@
       "uitLogo": "https://crests.football-data.org/1766.png",
       "thuisScore": 0,
       "uitScore": 1
+    },
+    {
+      "id": 554929,
+      "datum": "vr 17 juli",
+      "datumIso": "2026-07-16",
+      "thuis": "EC Vitória",
+      "thuisLogo": "https://crests.football-data.org/1782.png",
+      "uit": "CR Vasco da Gama",
+      "uitLogo": "https://crests.football-data.org/1780.png",
+      "thuisScore": 1,
+      "uitScore": 0
     }
   ],
   "1770": [
@@ -3729,6 +3762,17 @@
       "thuisLogo": "https://crests.football-data.org/1777.png",
       "uit": "Botafogo FR",
       "uitLogo": "https://crests.football-data.org/1770.png",
+      "thuisScore": 2,
+      "uitScore": 1
+    },
+    {
+      "id": 554921,
+      "datum": "vr 17 juli",
+      "datumIso": "2026-07-16",
+      "thuis": "Botafogo FR",
+      "thuisLogo": "https://crests.football-data.org/1770.png",
+      "uit": "Santos FC",
+      "uitLogo": "https://crests.football-data.org/6685.png",
       "thuisScore": 2,
       "uitScore": 1
     }
