@@ -797,6 +797,17 @@
       "uitLogo": "https://crests.football-data.org/6684.png",
       "thuisScore": 3,
       "uitScore": 1
+    },
+    {
+      "id": 554925,
+      "datum": "za 18 juli",
+      "datumIso": "2026-07-17",
+      "thuis": "Fluminense FC",
+      "thuisLogo": "https://crests.football-data.org/1765.png",
+      "uit": "RB Bragantino",
+      "uitLogo": "https://crests.football-data.org/4286.png",
+      "thuisScore": 1,
+      "uitScore": 1
     }
   ],
   "6684": [
@@ -1797,6 +1808,17 @@
       "uitLogo": "https://crests.football-data.org/1765.png",
       "thuisScore": 1,
       "uitScore": 1
+    },
+    {
+      "id": 554925,
+      "datum": "za 18 juli",
+      "datumIso": "2026-07-17",
+      "thuis": "Fluminense FC",
+      "thuisLogo": "https://crests.football-data.org/1765.png",
+      "uit": "RB Bragantino",
+      "uitLogo": "https://crests.football-data.org/4286.png",
+      "thuisScore": 1,
+      "uitScore": 1
     }
   ],
   "1767": [
@@ -1997,6 +2019,17 @@
       "uitLogo": "https://crests.football-data.org/1779.png",
       "thuisScore": 1,
       "uitScore": 3
+    },
+    {
+      "id": 554927,
+      "datum": "za 18 juli",
+      "datumIso": "2026-07-17",
+      "thuis": "Mirassol FC",
+      "thuisLogo": "https://crests.football-data.org/4364.png",
+      "uit": "Grêmio FBPA",
+      "uitLogo": "https://crests.football-data.org/1767.png",
+      "thuisScore": 2,
+      "uitScore": 1
     }
   ],
   "1772": [
@@ -2185,6 +2218,17 @@
       "uit": "Chapecoense AF",
       "uitLogo": "https://crests.football-data.org/1772_large.png",
       "thuisScore": 1,
+      "uitScore": 0
+    },
+    {
+      "id": 554770,
+      "datum": "za 18 juli",
+      "datumIso": "2026-07-17",
+      "thuis": "EC Bahia",
+      "thuisLogo": "https://crests.football-data.org/1777.png",
+      "uit": "Chapecoense AF",
+      "uitLogo": "https://crests.football-data.org/1772_large.png",
+      "thuisScore": 2,
       "uitScore": 0
     }
   ],
@@ -2786,6 +2830,17 @@
       "uitLogo": "https://crests.football-data.org/1770.png",
       "thuisScore": 2,
       "uitScore": 1
+    },
+    {
+      "id": 554770,
+      "datum": "za 18 juli",
+      "datumIso": "2026-07-17",
+      "thuis": "EC Bahia",
+      "thuisLogo": "https://crests.football-data.org/1777.png",
+      "uit": "Chapecoense AF",
+      "uitLogo": "https://crests.football-data.org/1772_large.png",
+      "thuisScore": 2,
+      "uitScore": 0
     }
   ],
   "1776": [
@@ -3364,6 +3419,17 @@
       "uitLogo": "https://crests.football-data.org/4364.png",
       "thuisScore": 1,
       "uitScore": 0
+    },
+    {
+      "id": 554927,
+      "datum": "za 18 juli",
+      "datumIso": "2026-07-17",
+      "thuis": "Mirassol FC",
+      "thuisLogo": "https://crests.football-data.org/4364.png",
+      "uit": "Grêmio FBPA",
+      "uitLogo": "https://crests.football-data.org/1767.png",
+      "thuisScore": 2,
+      "uitScore": 1
     }
   ],
   "1780": [

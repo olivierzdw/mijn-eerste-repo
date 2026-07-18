@@ -1760,17 +1760,30 @@
       "positie": 3,
       "club": "Fluminense FC",
       "logo": "https://crests.football-data.org/1765.png",
-      "gespeeld": 18,
-      "punten": 31,
+      "gespeeld": 19,
+      "punten": 32,
       "gewonnen": 9,
-      "gelijk": 4,
+      "gelijk": 5,
       "verloren": 5,
       "doelsaldo": 5,
-      "voor": 28,
-      "tegen": 23
+      "voor": 29,
+      "tegen": 24
     },
     {
       "positie": 4,
+      "club": "RB Bragantino",
+      "logo": "https://crests.football-data.org/4286.png",
+      "gespeeld": 19,
+      "punten": 30,
+      "gewonnen": 9,
+      "gelijk": 3,
+      "verloren": 7,
+      "doelsaldo": 6,
+      "voor": 26,
+      "tegen": 20
+    },
+    {
+      "positie": 5,
       "club": "CA Paranaense",
       "logo": "https://crests.football-data.org/1768.png",
       "gespeeld": 18,
@@ -1783,29 +1796,16 @@
       "tegen": 18
     },
     {
-      "positie": 5,
-      "club": "RB Bragantino",
-      "logo": "https://crests.football-data.org/4286.png",
-      "gespeeld": 18,
-      "punten": 29,
-      "gewonnen": 9,
-      "gelijk": 2,
-      "verloren": 7,
-      "doelsaldo": 6,
-      "voor": 25,
-      "tegen": 19
-    },
-    {
       "positie": 6,
       "club": "EC Bahia",
       "logo": "https://crests.football-data.org/1777.png",
-      "gespeeld": 17,
-      "punten": 26,
-      "gewonnen": 7,
+      "gespeeld": 18,
+      "punten": 29,
+      "gewonnen": 8,
       "gelijk": 5,
       "verloren": 5,
-      "doelsaldo": 2,
-      "voor": 25,
+      "doelsaldo": 4,
+      "voor": 27,
       "tegen": 23
     },
     {
@@ -1914,19 +1914,6 @@
     },
     {
       "positie": 15,
-      "club": "Grêmio FBPA",
-      "logo": "https://crests.football-data.org/1767.png",
-      "gespeeld": 18,
-      "punten": 21,
-      "gewonnen": 5,
-      "gelijk": 6,
-      "verloren": 7,
-      "doelsaldo": -3,
-      "voor": 20,
-      "tegen": 23
-    },
-    {
-      "positie": 16,
       "club": "Santos FC",
       "logo": "https://crests.football-data.org/6685.png",
       "gespeeld": 19,
@@ -1937,6 +1924,19 @@
       "doelsaldo": -4,
       "voor": 27,
       "tegen": 31
+    },
+    {
+      "positie": 16,
+      "club": "Grêmio FBPA",
+      "logo": "https://crests.football-data.org/1767.png",
+      "gespeeld": 19,
+      "punten": 21,
+      "gewonnen": 5,
+      "gelijk": 6,
+      "verloren": 8,
+      "doelsaldo": -4,
+      "voor": 21,
+      "tegen": 25
     },
     {
       "positie": 17,
@@ -1953,6 +1953,19 @@
     },
     {
       "positie": 18,
+      "club": "Mirassol FC",
+      "logo": "https://crests.football-data.org/4364.png",
+      "gespeeld": 18,
+      "punten": 19,
+      "gewonnen": 5,
+      "gelijk": 4,
+      "verloren": 9,
+      "doelsaldo": -5,
+      "voor": 20,
+      "tegen": 25
+    },
+    {
+      "positie": 19,
       "club": "Clube do Remo",
       "logo": "https://crests.football-data.org/4287.png",
       "gespeeld": 18,
@@ -1965,30 +1978,17 @@
       "tegen": 29
     },
     {
-      "positie": 19,
-      "club": "Mirassol FC",
-      "logo": "https://crests.football-data.org/4364.png",
-      "gespeeld": 17,
-      "punten": 16,
-      "gewonnen": 4,
-      "gelijk": 4,
-      "verloren": 9,
-      "doelsaldo": -6,
-      "voor": 18,
-      "tegen": 24
-    },
-    {
       "positie": 20,
       "club": "Chapecoense AF",
       "logo": "https://crests.football-data.org/1772_large.png",
-      "gespeeld": 17,
+      "gespeeld": 18,
       "punten": 9,
       "gewonnen": 1,
       "gelijk": 6,
-      "verloren": 10,
-      "doelsaldo": -16,
+      "verloren": 11,
+      "doelsaldo": -18,
       "voor": 17,
-      "tegen": 33
+      "tegen": 35
     }
   ],
   "ELC": [
