@@ -160,6 +160,14 @@
     "aantalMatches": 14
   },
   {
+    "slug": "afc-mo11-2",
+    "naam": "AFC MO11-2",
+    "soort": "Meisjes",
+    "pouleId": null,
+    "heeftStand": false,
+    "aantalMatches": 0
+  },
+  {
     "slug": "afc-351",
     "naam": "AFC 35+1",
     "soort": "Veteranen",
