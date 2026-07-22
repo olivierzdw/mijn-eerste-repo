@@ -197,6 +197,17 @@
       "uitLogo": "https://crests.football-data.org/1766.png",
       "thuisScore": 0,
       "uitScore": 1
+    },
+    {
+      "id": 554920,
+      "datum": "wo 22 juli",
+      "datumIso": "2026-07-21",
+      "thuis": "CA Mineiro",
+      "thuisLogo": "https://crests.football-data.org/1766.png",
+      "uit": "EC Bahia",
+      "uitLogo": "https://crests.football-data.org/1777.png",
+      "thuisScore": 1,
+      "uitScore": 1
     }
   ],
   "1769": [
@@ -2841,6 +2852,17 @@
       "uitLogo": "https://crests.football-data.org/1772_large.png",
       "thuisScore": 2,
       "uitScore": 0
+    },
+    {
+      "id": 554920,
+      "datum": "wo 22 juli",
+      "datumIso": "2026-07-21",
+      "thuis": "CA Mineiro",
+      "thuisLogo": "https://crests.football-data.org/1766.png",
+      "uit": "EC Bahia",
+      "uitLogo": "https://crests.football-data.org/1777.png",
+      "thuisScore": 1,
+      "uitScore": 1
     }
   ],
   "1776": [
