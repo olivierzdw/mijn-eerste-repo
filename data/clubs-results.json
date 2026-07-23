@@ -408,6 +408,17 @@
       "uitLogo": "https://crests.football-data.org/1772_large.png",
       "thuisScore": 1,
       "uitScore": 0
+    },
+    {
+      "id": 554924,
+      "datum": "do 23 juli",
+      "datumIso": "2026-07-22",
+      "thuis": "Coritiba FBC",
+      "thuisLogo": "https://crests.football-data.org/4241.png",
+      "uit": "SE Palmeiras",
+      "uitLogo": "https://crests.football-data.org/1769.png",
+      "thuisScore": 1,
+      "uitScore": 3
     }
   ],
   "4241": [
@@ -608,6 +619,17 @@
       "uitLogo": "https://crests.football-data.org/4241.png",
       "thuisScore": 3,
       "uitScore": 0
+    },
+    {
+      "id": 554924,
+      "datum": "do 23 juli",
+      "datumIso": "2026-07-22",
+      "thuis": "Coritiba FBC",
+      "thuisLogo": "https://crests.football-data.org/4241.png",
+      "uit": "SE Palmeiras",
+      "uitLogo": "https://crests.football-data.org/1769.png",
+      "thuisScore": 1,
+      "uitScore": 3
     }
   ],
   "4286": [
@@ -1019,6 +1041,17 @@
       "uitLogo": "https://crests.football-data.org/6684.png",
       "thuisScore": 3,
       "uitScore": 1
+    },
+    {
+      "id": 554926,
+      "datum": "do 23 juli",
+      "datumIso": "2026-07-23",
+      "thuis": "SC Internacional",
+      "thuisLogo": "https://crests.football-data.org/6684.png",
+      "uit": "Cruzeiro EC",
+      "uitLogo": "https://crests.football-data.org/1771.png",
+      "thuisScore": 1,
+      "uitScore": 2
     }
   ],
   "1768": [
@@ -1219,6 +1252,17 @@
       "uitLogo": "https://crests.football-data.org/4364.png",
       "thuisScore": 1,
       "uitScore": 0
+    },
+    {
+      "id": 554928,
+      "datum": "do 23 juli",
+      "datumIso": "2026-07-23",
+      "thuis": "São Paulo FC",
+      "thuisLogo": "https://crests.football-data.org/1776.png",
+      "uit": "CA Paranaense",
+      "uitLogo": "https://crests.football-data.org/1768.png",
+      "thuisScore": 1,
+      "uitScore": 2
     }
   ],
   "1782": [
@@ -2241,6 +2285,17 @@
       "uitLogo": "https://crests.football-data.org/1772_large.png",
       "thuisScore": 2,
       "uitScore": 0
+    },
+    {
+      "id": 554922,
+      "datum": "do 23 juli",
+      "datumIso": "2026-07-23",
+      "thuis": "Chapecoense AF",
+      "thuisLogo": "https://crests.football-data.org/1772_large.png",
+      "uit": "CR Flamengo",
+      "uitLogo": "https://crests.football-data.org/1783.png",
+      "thuisScore": 0,
+      "uitScore": 4
     }
   ],
   "6685": [
@@ -3063,6 +3118,17 @@
       "uitLogo": "https://crests.football-data.org/1776.png",
       "thuisScore": 1,
       "uitScore": 0
+    },
+    {
+      "id": 554928,
+      "datum": "do 23 juli",
+      "datumIso": "2026-07-23",
+      "thuis": "São Paulo FC",
+      "thuisLogo": "https://crests.football-data.org/1776.png",
+      "uit": "CA Paranaense",
+      "uitLogo": "https://crests.football-data.org/1768.png",
+      "thuisScore": 1,
+      "uitScore": 2
     }
   ],
   "1783": [
@@ -3252,6 +3318,17 @@
       "uitLogo": "https://crests.football-data.org/4241.png",
       "thuisScore": 3,
       "uitScore": 0
+    },
+    {
+      "id": 554922,
+      "datum": "do 23 juli",
+      "datumIso": "2026-07-23",
+      "thuis": "Chapecoense AF",
+      "thuisLogo": "https://crests.football-data.org/1772_large.png",
+      "uit": "CR Flamengo",
+      "uitLogo": "https://crests.football-data.org/1783.png",
+      "thuisScore": 0,
+      "uitScore": 4
     }
   ],
   "4364": [
@@ -4063,6 +4140,17 @@
       "uitLogo": "https://crests.football-data.org/1765.png",
       "thuisScore": 1,
       "uitScore": 1
+    },
+    {
+      "id": 554926,
+      "datum": "do 23 juli",
+      "datumIso": "2026-07-23",
+      "thuis": "SC Internacional",
+      "thuisLogo": "https://crests.football-data.org/6684.png",
+      "uit": "Cruzeiro EC",
+      "uitLogo": "https://crests.football-data.org/1771.png",
+      "thuisScore": 1,
+      "uitScore": 2
     }
   ],
   "77": [
