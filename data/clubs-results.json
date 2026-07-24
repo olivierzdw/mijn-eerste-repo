@@ -1463,6 +1463,17 @@
       "uitLogo": "https://crests.football-data.org/1780.png",
       "thuisScore": 1,
       "uitScore": 0
+    },
+    {
+      "id": 554771,
+      "datum": "vr 24 juli",
+      "datumIso": "2026-07-23",
+      "thuis": "Botafogo FR",
+      "thuisLogo": "https://crests.football-data.org/1770.png",
+      "uit": "EC Vitória",
+      "uitLogo": "https://crests.football-data.org/1782.png",
+      "thuisScore": 0,
+      "uitScore": 0
     }
   ],
   "4287": [
@@ -1662,6 +1673,17 @@
       "uit": "São Paulo FC",
       "uitLogo": "https://crests.football-data.org/1776.png",
       "thuisScore": 1,
+      "uitScore": 0
+    },
+    {
+      "id": 554923,
+      "datum": "vr 24 juli",
+      "datumIso": "2026-07-23",
+      "thuis": "SC Corinthians Paulista",
+      "thuisLogo": "https://crests.football-data.org/1779.png",
+      "uit": "Clube do Remo",
+      "uitLogo": "https://crests.football-data.org/4287.png",
+      "thuisScore": 3,
       "uitScore": 0
     }
   ],
@@ -2707,6 +2729,17 @@
       "uitLogo": "https://crests.football-data.org/1779.png",
       "thuisScore": 1,
       "uitScore": 3
+    },
+    {
+      "id": 554923,
+      "datum": "vr 24 juli",
+      "datumIso": "2026-07-23",
+      "thuis": "SC Corinthians Paulista",
+      "thuisLogo": "https://crests.football-data.org/1779.png",
+      "uit": "Clube do Remo",
+      "uitLogo": "https://crests.football-data.org/4287.png",
+      "thuisScore": 3,
+      "uitScore": 0
     }
   ],
   "1777": [
@@ -3940,6 +3973,17 @@
       "uitLogo": "https://crests.football-data.org/6685.png",
       "thuisScore": 2,
       "uitScore": 1
+    },
+    {
+      "id": 554771,
+      "datum": "vr 24 juli",
+      "datumIso": "2026-07-23",
+      "thuis": "Botafogo FR",
+      "thuisLogo": "https://crests.football-data.org/1770.png",
+      "uit": "EC Vitória",
+      "uitLogo": "https://crests.football-data.org/1782.png",
+      "thuisScore": 0,
+      "uitScore": 0
     }
   ],
   "1771": [

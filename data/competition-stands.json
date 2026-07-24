@@ -1810,6 +1810,19 @@
     },
     {
       "positie": 7,
+      "club": "SC Corinthians Paulista",
+      "logo": "https://crests.football-data.org/1779.png",
+      "gespeeld": 19,
+      "punten": 27,
+      "gewonnen": 7,
+      "gelijk": 6,
+      "verloren": 6,
+      "doelsaldo": 2,
+      "voor": 21,
+      "tegen": 19
+    },
+    {
+      "positie": 8,
       "club": "Cruzeiro EC",
       "logo": "https://crests.football-data.org/1771.png",
       "gespeeld": 19,
@@ -1822,7 +1835,20 @@
       "tegen": 29
     },
     {
-      "positie": 8,
+      "positie": 9,
+      "club": "Botafogo FR",
+      "logo": "https://crests.football-data.org/1770.png",
+      "gespeeld": 19,
+      "punten": 26,
+      "gewonnen": 7,
+      "gelijk": 5,
+      "verloren": 7,
+      "doelsaldo": 1,
+      "voor": 33,
+      "tegen": 32
+    },
+    {
+      "positie": 10,
       "club": "Coritiba FBC",
       "logo": "https://crests.football-data.org/4241.png",
       "gespeeld": 19,
@@ -1835,7 +1861,20 @@
       "tegen": 27
     },
     {
-      "positie": 9,
+      "positie": 11,
+      "club": "EC Vitória",
+      "logo": "https://crests.football-data.org/1782.png",
+      "gespeeld": 19,
+      "punten": 26,
+      "gewonnen": 7,
+      "gelijk": 5,
+      "verloren": 7,
+      "doelsaldo": -3,
+      "voor": 22,
+      "tegen": 25
+    },
+    {
+      "positie": 12,
       "club": "São Paulo FC",
       "logo": "https://crests.football-data.org/1776.png",
       "gespeeld": 19,
@@ -1848,20 +1887,7 @@
       "tegen": 22
     },
     {
-      "positie": 10,
-      "club": "Botafogo FR",
-      "logo": "https://crests.football-data.org/1770.png",
-      "gespeeld": 18,
-      "punten": 25,
-      "gewonnen": 7,
-      "gelijk": 4,
-      "verloren": 7,
-      "doelsaldo": 1,
-      "voor": 33,
-      "tegen": 32
-    },
-    {
-      "positie": 11,
+      "positie": 13,
       "club": "CA Mineiro",
       "logo": "https://crests.football-data.org/1766.png",
       "gespeeld": 19,
@@ -1872,32 +1898,6 @@
       "doelsaldo": -1,
       "voor": 23,
       "tegen": 24
-    },
-    {
-      "positie": 12,
-      "club": "EC Vitória",
-      "logo": "https://crests.football-data.org/1782.png",
-      "gespeeld": 18,
-      "punten": 25,
-      "gewonnen": 7,
-      "gelijk": 4,
-      "verloren": 7,
-      "doelsaldo": -3,
-      "voor": 22,
-      "tegen": 25
-    },
-    {
-      "positie": 13,
-      "club": "SC Corinthians Paulista",
-      "logo": "https://crests.football-data.org/1779.png",
-      "gespeeld": 18,
-      "punten": 24,
-      "gewonnen": 6,
-      "gelijk": 6,
-      "verloren": 6,
-      "doelsaldo": -1,
-      "voor": 18,
-      "tegen": 19
     },
     {
       "positie": 14,
@@ -1968,14 +1968,14 @@
       "positie": 19,
       "club": "Clube do Remo",
       "logo": "https://crests.football-data.org/4287.png",
-      "gespeeld": 18,
+      "gespeeld": 19,
       "punten": 18,
       "gewonnen": 4,
       "gelijk": 6,
-      "verloren": 8,
-      "doelsaldo": -8,
+      "verloren": 9,
+      "doelsaldo": -11,
       "voor": 21,
-      "tegen": 29
+      "tegen": 32
     },
     {
       "positie": 20,
