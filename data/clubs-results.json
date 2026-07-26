@@ -1052,6 +1052,17 @@
       "uitLogo": "https://crests.football-data.org/1771.png",
       "thuisScore": 1,
       "uitScore": 2
+    },
+    {
+      "id": 554930,
+      "datum": "za 25 juli",
+      "datumIso": "2026-07-25",
+      "thuis": "CA Paranaense",
+      "thuisLogo": "https://crests.football-data.org/1768.png",
+      "uit": "SC Internacional",
+      "uitLogo": "https://crests.football-data.org/6684.png",
+      "thuisScore": 2,
+      "uitScore": 0
     }
   ],
   "1768": [
@@ -1263,6 +1274,17 @@
       "uitLogo": "https://crests.football-data.org/1768.png",
       "thuisScore": 1,
       "uitScore": 2
+    },
+    {
+      "id": 554930,
+      "datum": "za 25 juli",
+      "datumIso": "2026-07-25",
+      "thuis": "CA Paranaense",
+      "thuisLogo": "https://crests.football-data.org/1768.png",
+      "uit": "SC Internacional",
+      "uitLogo": "https://crests.football-data.org/6684.png",
+      "thuisScore": 2,
+      "uitScore": 0
     }
   ],
   "1782": [
@@ -2318,6 +2340,17 @@
       "uitLogo": "https://crests.football-data.org/1783.png",
       "thuisScore": 0,
       "uitScore": 4
+    },
+    {
+      "id": 554938,
+      "datum": "za 25 juli",
+      "datumIso": "2026-07-25",
+      "thuis": "Santos FC",
+      "thuisLogo": "https://crests.football-data.org/6685.png",
+      "uit": "Chapecoense AF",
+      "uitLogo": "https://crests.football-data.org/1772_large.png",
+      "thuisScore": 2,
+      "uitScore": 2
     }
   ],
   "6685": [
@@ -2529,6 +2562,17 @@
       "uitLogo": "https://crests.football-data.org/6685.png",
       "thuisScore": 2,
       "uitScore": 1
+    },
+    {
+      "id": 554938,
+      "datum": "za 25 juli",
+      "datumIso": "2026-07-25",
+      "thuis": "Santos FC",
+      "thuisLogo": "https://crests.football-data.org/6685.png",
+      "uit": "Chapecoense AF",
+      "uitLogo": "https://crests.football-data.org/1772_large.png",
+      "thuisScore": 2,
+      "uitScore": 2
     }
   ],
   "1779": [
@@ -3562,6 +3606,17 @@
       "uitLogo": "https://crests.football-data.org/1767.png",
       "thuisScore": 2,
       "uitScore": 1
+    },
+    {
+      "id": 554939,
+      "datum": "zo 26 juli",
+      "datumIso": "2026-07-25",
+      "thuis": "CR Vasco da Gama",
+      "thuisLogo": "https://crests.football-data.org/1780.png",
+      "uit": "Mirassol FC",
+      "uitLogo": "https://crests.football-data.org/4364.png",
+      "thuisScore": 1,
+      "uitScore": 1
     }
   ],
   "1780": [
@@ -3773,6 +3828,17 @@
       "uitLogo": "https://crests.football-data.org/1780.png",
       "thuisScore": 1,
       "uitScore": 0
+    },
+    {
+      "id": 554939,
+      "datum": "zo 26 juli",
+      "datumIso": "2026-07-25",
+      "thuis": "CR Vasco da Gama",
+      "thuisLogo": "https://crests.football-data.org/1780.png",
+      "uit": "Mirassol FC",
+      "uitLogo": "https://crests.football-data.org/4364.png",
+      "thuisScore": 1,
+      "uitScore": 1
     }
   ],
   "1770": [
