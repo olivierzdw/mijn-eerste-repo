@@ -1,5 +1,26 @@
 [
   {
+    "datum": "za 29 augustus 17:00",
+    "thuis": "AFC VR1",
+    "thuisLogo": "images/afc.png",
+    "uit": "DVVA csv. VR1",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 5 september 17:00",
+    "thuis": "Wartburgia asv VR2",
+    "thuisLogo": "",
+    "uit": "AFC VR1",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "zo 13 september 13:30",
+    "thuis": "AFC VR1",
+    "thuisLogo": "images/afc.png",
+    "uit": "vv Zwanenburg VR1",
+    "uitLogo": ""
+  },
+  {
     "datum": "zo 20 september 14:30",
     "thuis": "NSVV FC Kunde VR1",
     "thuisLogo": "",
