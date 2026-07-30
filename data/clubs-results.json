@@ -441,6 +441,17 @@
       "uitLogo": "https://crests.football-data.org/1766.png",
       "thuisScore": 1,
       "uitScore": 2
+    },
+    {
+      "id": 554949,
+      "datum": "do 30 juli",
+      "datumIso": "2026-07-30",
+      "thuis": "EC Vitória",
+      "thuisLogo": "https://crests.football-data.org/1782.png",
+      "uit": "SE Palmeiras",
+      "uitLogo": "https://crests.football-data.org/1769.png",
+      "thuisScore": 0,
+      "uitScore": 4
     }
   ],
   "4241": [
@@ -1107,6 +1118,17 @@
       "uitLogo": "https://crests.football-data.org/6684.png",
       "thuisScore": 2,
       "uitScore": 0
+    },
+    {
+      "id": 554946,
+      "datum": "do 30 juli",
+      "datumIso": "2026-07-29",
+      "thuis": "SC Internacional",
+      "thuisLogo": "https://crests.football-data.org/6684.png",
+      "uit": "CR Flamengo",
+      "uitLogo": "https://crests.football-data.org/1783.png",
+      "thuisScore": 1,
+      "uitScore": 1
     }
   ],
   "1768": [
@@ -1551,6 +1573,17 @@
       "uitLogo": "https://crests.football-data.org/1782.png",
       "thuisScore": 2,
       "uitScore": 0
+    },
+    {
+      "id": 554949,
+      "datum": "do 30 juli",
+      "datumIso": "2026-07-30",
+      "thuis": "EC Vitória",
+      "thuisLogo": "https://crests.football-data.org/1782.png",
+      "uit": "SE Palmeiras",
+      "uitLogo": "https://crests.football-data.org/1769.png",
+      "thuisScore": 0,
+      "uitScore": 4
     }
   ],
   "4287": [
@@ -1773,6 +1806,17 @@
       "uitLogo": "https://crests.football-data.org/1782.png",
       "thuisScore": 2,
       "uitScore": 0
+    },
+    {
+      "id": 554947,
+      "datum": "do 30 juli",
+      "datumIso": "2026-07-29",
+      "thuis": "Mirassol FC",
+      "thuisLogo": "https://crests.football-data.org/4364.png",
+      "uit": "Clube do Remo",
+      "uitLogo": "https://crests.football-data.org/4287.png",
+      "thuisScore": 2,
+      "uitScore": 1
     }
   ],
   "1765": [
@@ -1995,6 +2039,17 @@
       "uitLogo": "https://crests.football-data.org/1765.png",
       "thuisScore": 1,
       "uitScore": 1
+    },
+    {
+      "id": 554945,
+      "datum": "do 30 juli",
+      "datumIso": "2026-07-30",
+      "thuis": "Fluminense FC",
+      "thuisLogo": "https://crests.football-data.org/1765.png",
+      "uit": "EC Bahia",
+      "uitLogo": "https://crests.football-data.org/1777.png",
+      "thuisScore": 0,
+      "uitScore": 0
     }
   ],
   "1767": [
@@ -3105,6 +3160,17 @@
       "uitLogo": "https://crests.football-data.org/1779.png",
       "thuisScore": 1,
       "uitScore": 1
+    },
+    {
+      "id": 554945,
+      "datum": "do 30 juli",
+      "datumIso": "2026-07-30",
+      "thuis": "Fluminense FC",
+      "thuisLogo": "https://crests.football-data.org/1765.png",
+      "uit": "EC Bahia",
+      "uitLogo": "https://crests.football-data.org/1777.png",
+      "thuisScore": 0,
+      "uitScore": 0
     }
   ],
   "1776": [
@@ -3538,6 +3604,17 @@
       "uitLogo": "https://crests.football-data.org/1776.png",
       "thuisScore": 1,
       "uitScore": 1
+    },
+    {
+      "id": 554946,
+      "datum": "do 30 juli",
+      "datumIso": "2026-07-29",
+      "thuis": "SC Internacional",
+      "thuisLogo": "https://crests.football-data.org/6684.png",
+      "uit": "CR Flamengo",
+      "uitLogo": "https://crests.football-data.org/1783.png",
+      "thuisScore": 1,
+      "uitScore": 1
     }
   ],
   "4364": [
@@ -3748,6 +3825,17 @@
       "uit": "Mirassol FC",
       "uitLogo": "https://crests.football-data.org/4364.png",
       "thuisScore": 1,
+      "uitScore": 1
+    },
+    {
+      "id": 554947,
+      "datum": "do 30 juli",
+      "datumIso": "2026-07-29",
+      "thuis": "Mirassol FC",
+      "thuisLogo": "https://crests.football-data.org/4364.png",
+      "uit": "Clube do Remo",
+      "uitLogo": "https://crests.football-data.org/4287.png",
+      "thuisScore": 2,
       "uitScore": 1
     }
   ],
