@@ -1,1 +1,23 @@
-[]
+[
+  {
+    "datum": "za 29 augustus 15:00",
+    "thuis": "AFC 4",
+    "thuisLogo": "images/afc.png",
+    "uit": "Swift 3",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 5 september 12:00",
+    "thuis": "Amstelveen/Heemraad 2",
+    "thuisLogo": "",
+    "uit": "AFC 4",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 12 september 12:00",
+    "thuis": "ASV Arsenal 2",
+    "thuisLogo": "",
+    "uit": "AFC 4",
+    "uitLogo": "images/afc.png"
+  }
+]

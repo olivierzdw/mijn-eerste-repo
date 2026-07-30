@@ -1,1 +1,23 @@
-[]
+[
+  {
+    "datum": "za 29 augustus 11:45",
+    "thuis": "BOL 2",
+    "thuisLogo": "",
+    "uit": "AFC 2",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 5 september 15:00",
+    "thuis": "AFC 2",
+    "thuisLogo": "images/afc.png",
+    "uit": "vv Zwanenburg 2",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 12 september 15:00",
+    "thuis": "AFC 2",
+    "thuisLogo": "images/afc.png",
+    "uit": "BSM sv 2",
+    "uitLogo": ""
+  }
+]
