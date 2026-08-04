@@ -77,7 +77,7 @@
     "soort": "Senioren zondag",
     "pouleId": "825465",
     "heeftStand": true,
-    "aantalMatches": 22
+    "aantalMatches": 23
   },
   {
     "slug": "afc-2-2",
@@ -142,14 +142,6 @@
     "pouleId": null,
     "heeftStand": false,
     "aantalMatches": 0
-  },
-  {
-    "slug": "afc-o21",
-    "naam": "AFC O21",
-    "soort": "Jeugd zaterdag",
-    "pouleId": "825498",
-    "heeftStand": true,
-    "aantalMatches": 15
   },
   {
     "slug": "afc-351",
