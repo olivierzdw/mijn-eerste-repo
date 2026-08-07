@@ -13,7 +13,7 @@
     "soort": "Senioren zaterdag",
     "pouleId": null,
     "heeftStand": false,
-    "aantalMatches": 0
+    "aantalMatches": 2
   },
   {
     "slug": "afc-2",
@@ -29,7 +29,7 @@
     "soort": "Senioren zaterdag",
     "pouleId": "826382",
     "heeftStand": true,
-    "aantalMatches": 3
+    "aantalMatches": 5
   },
   {
     "slug": "afc-4",
@@ -37,7 +37,7 @@
     "soort": "Senioren zaterdag",
     "pouleId": null,
     "heeftStand": false,
-    "aantalMatches": 0
+    "aantalMatches": 4
   },
   {
     "slug": "afc-5-2",
@@ -45,7 +45,7 @@
     "soort": "Senioren zaterdag",
     "pouleId": null,
     "heeftStand": false,
-    "aantalMatches": 0
+    "aantalMatches": 5
   },
   {
     "slug": "afc-6-2",
@@ -53,7 +53,7 @@
     "soort": "Senioren zaterdag",
     "pouleId": null,
     "heeftStand": false,
-    "aantalMatches": 0
+    "aantalMatches": 5
   },
   {
     "slug": "afc-7-2",
@@ -61,7 +61,7 @@
     "soort": "Senioren zaterdag",
     "pouleId": null,
     "heeftStand": false,
-    "aantalMatches": 0
+    "aantalMatches": 2
   },
   {
     "slug": "afc-8",
@@ -69,7 +69,7 @@
     "soort": "Senioren zaterdag",
     "pouleId": null,
     "heeftStand": false,
-    "aantalMatches": 0
+    "aantalMatches": 5
   },
   {
     "slug": "afc",
@@ -93,7 +93,7 @@
     "soort": "Senioren zondag",
     "pouleId": null,
     "heeftStand": false,
-    "aantalMatches": 0
+    "aantalMatches": 4
   },
   {
     "slug": "afc-4-2",
@@ -101,7 +101,7 @@
     "soort": "Senioren zondag",
     "pouleId": "826384",
     "heeftStand": true,
-    "aantalMatches": 3
+    "aantalMatches": 5
   },
   {
     "slug": "afc-5",
@@ -109,7 +109,7 @@
     "soort": "Senioren zondag",
     "pouleId": null,
     "heeftStand": false,
-    "aantalMatches": 0
+    "aantalMatches": 4
   },
   {
     "slug": "afc-6",
@@ -117,7 +117,7 @@
     "soort": "Senioren zondag",
     "pouleId": null,
     "heeftStand": false,
-    "aantalMatches": 0
+    "aantalMatches": 4
   },
   {
     "slug": "afc-7",
@@ -125,7 +125,7 @@
     "soort": "Senioren zondag",
     "pouleId": null,
     "heeftStand": false,
-    "aantalMatches": 0
+    "aantalMatches": 3
   },
   {
     "slug": "afc-8-2",
@@ -133,7 +133,7 @@
     "soort": "Senioren zondag",
     "pouleId": null,
     "heeftStand": false,
-    "aantalMatches": 0
+    "aantalMatches": 4
   },
   {
     "slug": "afc-9",
@@ -141,7 +141,7 @@
     "soort": "Senioren zondag",
     "pouleId": null,
     "heeftStand": false,
-    "aantalMatches": 0
+    "aantalMatches": 2
   },
   {
     "slug": "afc-o21",
@@ -157,7 +157,7 @@
     "soort": "Veteranen",
     "pouleId": null,
     "heeftStand": false,
-    "aantalMatches": 0
+    "aantalMatches": 2
   },
   {
     "slug": "afc-451",
@@ -165,7 +165,7 @@
     "soort": "Veteranen",
     "pouleId": null,
     "heeftStand": false,
-    "aantalMatches": 0
+    "aantalMatches": 5
   },
   {
     "slug": "afc-452",
@@ -173,6 +173,6 @@
     "soort": "Veteranen",
     "pouleId": null,
     "heeftStand": false,
-    "aantalMatches": 0
+    "aantalMatches": 5
   }
 ]

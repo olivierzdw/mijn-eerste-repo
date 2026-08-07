@@ -19,5 +19,19 @@
     "thuisLogo": "images/afc.png",
     "uit": "ZCFC 2",
     "uitLogo": ""
+  },
+  {
+    "datum": "za 19 september 15:00",
+    "thuis": "AFC 3",
+    "thuisLogo": "images/afc.png",
+    "uit": "Haarlem-Kennemerland f.c. 2",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 26 september 12:00",
+    "thuis": "ASV Arsenal 3",
+    "thuisLogo": "",
+    "uit": "AFC 3",
+    "uitLogo": "images/afc.png"
   }
 ]

@@ -1,1 +1,37 @@
-[]
+[
+  {
+    "datum": "za 29 augustus 15:00",
+    "thuis": "AFC 6",
+    "thuisLogo": "images/afc.png",
+    "uit": "Zeeburgia avv 4",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 5 september 12:00",
+    "thuis": "TOG 2",
+    "thuisLogo": "",
+    "uit": "AFC 6",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 12 september 15:00",
+    "thuis": "AFC 6",
+    "thuisLogo": "images/afc.png",
+    "uit": "WV-HEDW 4",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 19 september 12:30",
+    "thuis": "WV-HEDW 7",
+    "thuisLogo": "",
+    "uit": "AFC 6",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 26 september 15:00",
+    "thuis": "AFC 6",
+    "thuisLogo": "images/afc.png",
+    "uit": "Foresters 5",
+    "uitLogo": ""
+  }
+]

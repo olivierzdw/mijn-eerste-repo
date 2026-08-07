@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "datum": "zo 30 augustus 16:00",
+    "thuis": "AFC 3",
+    "thuisLogo": "images/afc.png",
+    "uit": "VVW 3",
+    "uitLogo": ""
+  },
+  {
+    "datum": "zo 6 september 13:00",
+    "thuis": "Sporting Andijk 2",
+    "thuisLogo": "",
+    "uit": "AFC 3",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "zo 13 september 16:00",
+    "thuis": "AFC 3",
+    "thuisLogo": "images/afc.png",
+    "uit": "Con Zelo 2",
+    "uitLogo": ""
+  },
+  {
+    "datum": "zo 20 september 15:00",
+    "thuis": "SDZ 5",
+    "thuisLogo": "",
+    "uit": "AFC 3",
+    "uitLogo": "images/afc.png"
+  }
+]
