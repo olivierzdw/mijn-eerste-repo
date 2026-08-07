@@ -5,7 +5,7 @@
     "soort": "Senioren zaterdag",
     "pouleId": "826189",
     "heeftStand": true,
-    "aantalMatches": 3
+    "aantalMatches": 5
   },
   {
     "slug": "afc-10",
@@ -21,7 +21,7 @@
     "soort": "Senioren zaterdag",
     "pouleId": "826379",
     "heeftStand": true,
-    "aantalMatches": 3
+    "aantalMatches": 5
   },
   {
     "slug": "afc-3-2",
@@ -85,7 +85,7 @@
     "soort": "Senioren zondag",
     "pouleId": null,
     "heeftStand": false,
-    "aantalMatches": 0
+    "aantalMatches": 3
   },
   {
     "slug": "afc-3",
