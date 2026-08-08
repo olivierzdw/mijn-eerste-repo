@@ -21,9 +21,9 @@
     "gewonnen": 1,
     "gelijk": 0,
     "verloren": 0,
-    "doelsaldo": 2,
+    "doelsaldo": 1,
     "voor": 2,
-    "tegen": 0
+    "tegen": 1
   },
   {
     "positie": 3,
@@ -216,8 +216,8 @@
     "gewonnen": 0,
     "gelijk": 0,
     "verloren": 1,
-    "doelsaldo": -2,
-    "voor": 0,
+    "doelsaldo": -1,
+    "voor": 1,
     "tegen": 2
   },
   {
