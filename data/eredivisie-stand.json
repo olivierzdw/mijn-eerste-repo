@@ -39,7 +39,20 @@
     "tegen": 0
   },
   {
-    "positie": 4,
+    "positie": 3,
+    "club": "Groningen",
+    "logo": "https://crests.football-data.org/677.png",
+    "gespeeld": 1,
+    "punten": 3,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 0,
+    "doelsaldo": 2,
+    "voor": 2,
+    "tegen": 0
+  },
+  {
+    "positie": 5,
     "club": "Telstar 1963",
     "logo": "https://crests.football-data.org/1912.png",
     "gespeeld": 1,
@@ -52,20 +65,7 @@
     "tegen": 1
   },
   {
-    "positie": 5,
-    "club": "Groningen",
-    "logo": "https://crests.football-data.org/677.png",
-    "gespeeld": 1,
-    "punten": 3,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 0,
-    "doelsaldo": 1,
-    "voor": 1,
-    "tegen": 0
-  },
-  {
-    "positie": 5,
+    "positie": 6,
     "club": "Feyenoord Rotterdam",
     "logo": "https://crests.football-data.org/675.png",
     "gespeeld": 1,
@@ -170,19 +170,6 @@
   },
   {
     "positie": 14,
-    "club": "FC Utrecht",
-    "logo": "https://crests.football-data.org/676.png",
-    "gespeeld": 1,
-    "punten": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 1,
-    "doelsaldo": -1,
-    "voor": 0,
-    "tegen": 1
-  },
-  {
-    "positie": 14,
     "club": "Sparta",
     "logo": "https://crests.football-data.org/6806.png",
     "gespeeld": 1,
@@ -195,9 +182,22 @@
     "tegen": 1
   },
   {
-    "positie": 16,
+    "positie": 15,
     "club": "ADO Den Haag",
     "logo": "https://crests.football-data.org/680.png",
+    "gespeeld": 1,
+    "punten": 0,
+    "gewonnen": 0,
+    "gelijk": 0,
+    "verloren": 1,
+    "doelsaldo": -2,
+    "voor": 0,
+    "tegen": 2
+  },
+  {
+    "positie": 15,
+    "club": "FC Utrecht",
+    "logo": "https://crests.football-data.org/676.png",
     "gespeeld": 1,
     "punten": 0,
     "gewonnen": 0,
