@@ -1,1 +1,23 @@
-[]
+[
+  {
+    "datum": "zo 30 augustus 12:00",
+    "thuis": "AFC 2",
+    "thuisLogo": "images/afc.png",
+    "uit": "VVA/Spartaan 2",
+    "uitLogo": ""
+  },
+  {
+    "datum": "zo 6 september 12:00",
+    "thuis": "Atletico Club Amsterdam 3",
+    "thuisLogo": "",
+    "uit": "AFC 2",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "zo 13 september 15:00",
+    "thuis": "SDZ 5",
+    "thuisLogo": "",
+    "uit": "AFC 2",
+    "uitLogo": "images/afc.png"
+  }
+]

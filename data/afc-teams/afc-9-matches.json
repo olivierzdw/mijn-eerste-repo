@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "datum": "za 19 september 15:00",
+    "thuis": "AFC 9",
+    "thuisLogo": "images/afc.png",
+    "uit": "Buitenveldert sc. 5",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 26 september 14:30",
+    "thuis": "DVVA csv. 8",
+    "thuisLogo": "",
+    "uit": "AFC 9",
+    "uitLogo": "images/afc.png"
+  }
+]

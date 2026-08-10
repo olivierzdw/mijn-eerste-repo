@@ -1,1 +1,37 @@
-[]
+[
+  {
+    "datum": "za 29 augustus 14:45",
+    "thuis": "AFC 45+1",
+    "thuisLogo": "images/afc.png",
+    "uit": "RKSV TOB 35+2",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 5 september 15:00",
+    "thuis": "VVA/Spartaan 35+1",
+    "thuisLogo": "",
+    "uit": "AFC 45+1",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 12 september 14:30",
+    "thuis": "AGB 45+2",
+    "thuisLogo": "",
+    "uit": "AFC 45+1",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 19 september 16:45",
+    "thuis": "AFC 45+1",
+    "thuisLogo": "images/afc.png",
+    "uit": "Dijk De asv 45+2",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 26 september 14:45",
+    "thuis": "TABA afc 45+1",
+    "thuisLogo": "images/afc.png",
+    "uit": "AFC 45+1",
+    "uitLogo": "images/afc.png"
+  }
+]

@@ -1,1 +1,51 @@
-[]
+[
+  {
+    "datum": "za 15 augustus 15:15",
+    "thuis": "AFC",
+    "thuisLogo": "images/afc.png",
+    "uit": "Kloetinge",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 22 augustus 14:30",
+    "thuis": "GVVV",
+    "thuisLogo": "",
+    "uit": "AFC",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 29 augustus 15:15",
+    "thuis": "AFC",
+    "thuisLogo": "images/afc.png",
+    "uit": "ROHDA Raalte",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 5 september 14:30",
+    "thuis": "Rijnsburgse Boys",
+    "thuisLogo": "",
+    "uit": "AFC",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 12 september 15:15",
+    "thuis": "AFC",
+    "thuisLogo": "images/afc.png",
+    "uit": "HHC Hardenberg",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 19 september 14:30",
+    "thuis": "Kon. HFC",
+    "thuisLogo": "",
+    "uit": "AFC",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 26 september 15:15",
+    "thuis": "AFC",
+    "thuisLogo": "images/afc.png",
+    "uit": "Katwijk",
+    "uitLogo": ""
+  }
+]

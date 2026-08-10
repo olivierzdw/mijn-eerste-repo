@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "datum": "za 19 september 15:00",
+    "thuis": "AFC 35+1",
+    "thuisLogo": "images/afc.png",
+    "uit": "SDZ 35+1",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 26 september 15:00",
+    "thuis": "ASC De Volewijckers 35+1",
+    "thuisLogo": "",
+    "uit": "AFC 35+1",
+    "uitLogo": "images/afc.png"
+  }
+]
