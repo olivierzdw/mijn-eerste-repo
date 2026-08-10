@@ -77,7 +77,7 @@
     "soort": "Senioren zondag",
     "pouleId": "825465",
     "heeftStand": true,
-    "aantalMatches": 7
+    "aantalMatches": 0
   },
   {
     "slug": "afc-2-2",
@@ -142,30 +142,6 @@
     "pouleId": null,
     "heeftStand": false,
     "aantalMatches": 2
-  },
-  {
-    "slug": "afc-mo10-1",
-    "naam": "AFC MO10-1",
-    "soort": "Meisjes",
-    "pouleId": null,
-    "heeftStand": false,
-    "aantalMatches": 4
-  },
-  {
-    "slug": "afc-mo11-1",
-    "naam": "AFC MO11-1",
-    "soort": "Meisjes",
-    "pouleId": null,
-    "heeftStand": false,
-    "aantalMatches": 4
-  },
-  {
-    "slug": "afc-mo12-1",
-    "naam": "AFC MO12-1",
-    "soort": "Meisjes",
-    "pouleId": null,
-    "heeftStand": false,
-    "aantalMatches": 4
   },
   {
     "slug": "afc-351",
