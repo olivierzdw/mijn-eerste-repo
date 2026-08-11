@@ -859,6 +859,32 @@
       "uitScore": 2
     }
   ],
+  "5530": [
+    {
+      "id": 567257,
+      "datum": "ma 10 augustus",
+      "datumIso": "2026-08-10",
+      "thuis": "CD Santa Clara",
+      "thuisLogo": "https://crests.football-data.org/5530.png",
+      "uit": "CD Nacional",
+      "uitLogo": "https://crests.football-data.org/5529.png",
+      "thuisScore": 2,
+      "uitScore": 2
+    }
+  ],
+  "5529": [
+    {
+      "id": 567257,
+      "datum": "ma 10 augustus",
+      "datumIso": "2026-08-10",
+      "thuis": "CD Santa Clara",
+      "thuisLogo": "https://crests.football-data.org/5530.png",
+      "uit": "CD Nacional",
+      "uitLogo": "https://crests.football-data.org/5529.png",
+      "thuisScore": 2,
+      "uitScore": 2
+    }
+  ],
   "1766": [
     {
       "id": 554740,
