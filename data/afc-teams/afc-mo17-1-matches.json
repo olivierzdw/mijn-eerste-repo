@@ -1,1 +1,37 @@
-[]
+[
+  {
+    "datum": "za 29 augustus 12:15",
+    "thuis": "AFC MO17-1",
+    "thuisLogo": "images/afc.png",
+    "uit": "Swift MO17-1",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 5 september 12:30",
+    "thuis": "Almere FC MO17-1",
+    "thuisLogo": "",
+    "uit": "AFC MO17-1",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 12 september 14:45",
+    "thuis": "AFC MO17-1",
+    "thuisLogo": "images/afc.png",
+    "uit": "Atletico Club Amsterdam MO17-1",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 19 september 12:30",
+    "thuis": "AFC MO17-1",
+    "thuisLogo": "images/afc.png",
+    "uit": "Zuidoost United MO17-1",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 26 september 12:15",
+    "thuis": "RODA '23 Rksv MO17-1",
+    "thuisLogo": "",
+    "uit": "AFC MO17-1",
+    "uitLogo": "images/afc.png"
+  }
+]

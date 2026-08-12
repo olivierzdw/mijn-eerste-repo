@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "datum": "za 5 september 11:30",
+    "thuis": "AFC MO13-1",
+    "thuisLogo": "images/afc.png",
+    "uit": "ZSGOWMS MO13-1",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 12 september 13:00",
+    "thuis": "DCG Rksv MO13-2",
+    "thuisLogo": "",
+    "uit": "AFC MO13-1",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 19 september 08:30",
+    "thuis": "DSS MO13-1",
+    "thuisLogo": "",
+    "uit": "AFC MO13-1",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 26 september 08:30",
+    "thuis": "AFC MO13-1",
+    "thuisLogo": "images/afc.png",
+    "uit": "Atletico Club Amsterdam MO13-1",
+    "uitLogo": ""
+  }
+]
