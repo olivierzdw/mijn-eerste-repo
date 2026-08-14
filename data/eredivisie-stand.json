@@ -53,19 +53,6 @@
   },
   {
     "positie": 5,
-    "club": "Groningen",
-    "logo": "https://crests.football-data.org/677.png",
-    "gespeeld": 1,
-    "punten": 3,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 0,
-    "doelsaldo": 1,
-    "voor": 2,
-    "tegen": 1
-  },
-  {
-    "positie": 5,
     "club": "Sparta",
     "logo": "https://crests.football-data.org/6806.png",
     "gespeeld": 2,
@@ -73,6 +60,19 @@
     "gewonnen": 1,
     "gelijk": 0,
     "verloren": 1,
+    "doelsaldo": 1,
+    "voor": 3,
+    "tegen": 2
+  },
+  {
+    "positie": 6,
+    "club": "Groningen",
+    "logo": "https://crests.football-data.org/677.png",
+    "gespeeld": 1,
+    "punten": 3,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 0,
     "doelsaldo": 1,
     "voor": 2,
     "tegen": 1
@@ -113,8 +113,8 @@
     "gelijk": 0,
     "verloren": 1,
     "doelsaldo": -1,
-    "voor": 2,
-    "tegen": 3
+    "voor": 3,
+    "tegen": 4
   },
   {
     "positie": 10,
