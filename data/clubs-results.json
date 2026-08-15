@@ -49,6 +49,17 @@
       "uitLogo": "https://crests.football-data.org/1912.png",
       "thuisScore": 1,
       "uitScore": 2
+    },
+    {
+      "id": 558223,
+      "datum": "vr 14 augustus",
+      "datumIso": "2026-08-14",
+      "thuis": "Telstar 1963",
+      "thuisLogo": "https://crests.football-data.org/1912.png",
+      "uit": "Sparta Rotterdam",
+      "uitLogo": "https://crests.football-data.org/6806.png",
+      "thuisScore": 1,
+      "uitScore": 3
     }
   ],
   "718": [
@@ -228,6 +239,17 @@
       "uitLogo": "https://crests.football-data.org/675.png",
       "thuisScore": 0,
       "uitScore": 1
+    },
+    {
+      "id": 558223,
+      "datum": "vr 14 augustus",
+      "datumIso": "2026-08-14",
+      "thuis": "Telstar 1963",
+      "thuisLogo": "https://crests.football-data.org/1912.png",
+      "uit": "Sparta Rotterdam",
+      "uitLogo": "https://crests.football-data.org/6806.png",
+      "thuisScore": 1,
+      "uitScore": 3
     }
   ],
   "675": [
@@ -472,6 +494,17 @@
       "uitLogo": "https://crests.football-data.org/712.png",
       "thuisScore": 0,
       "uitScore": 1
+    },
+    {
+      "id": 567268,
+      "datum": "vr 14 augustus",
+      "datumIso": "2026-08-14",
+      "thuis": "Sporting Clube de Portugal",
+      "thuisLogo": "https://crests.football-data.org/498.png",
+      "uit": "Vitória SC",
+      "uitLogo": "https://crests.football-data.org/5543.png",
+      "thuisScore": 3,
+      "uitScore": 2
     }
   ],
   "712": [
@@ -510,6 +543,17 @@
       "uit": "Sporting Clube de Portugal",
       "uitLogo": "https://crests.football-data.org/498.png",
       "thuisScore": 2,
+      "uitScore": 2
+    },
+    {
+      "id": 567268,
+      "datum": "vr 14 augustus",
+      "datumIso": "2026-08-14",
+      "thuis": "Sporting Clube de Portugal",
+      "thuisLogo": "https://crests.football-data.org/498.png",
+      "uit": "Vitória SC",
+      "uitLogo": "https://crests.football-data.org/5543.png",
+      "thuisScore": 3,
       "uitScore": 2
     },
     {
@@ -5653,6 +5697,32 @@
       "uitLogo": "https://crests.football-data.org/4364.png",
       "thuisScore": 3,
       "uitScore": 1
+    }
+  ],
+  "76": [
+    {
+      "id": 561761,
+      "datum": "vr 14 augustus",
+      "datumIso": "2026-08-14",
+      "thuis": "Wolverhampton Wanderers FC",
+      "thuisLogo": "https://crests.football-data.org/76.png",
+      "uit": "Blackburn Rovers FC",
+      "uitLogo": "https://crests.football-data.org/59.png",
+      "thuisScore": 2,
+      "uitScore": 2
+    }
+  ],
+  "59": [
+    {
+      "id": 561761,
+      "datum": "vr 14 augustus",
+      "datumIso": "2026-08-14",
+      "thuis": "Wolverhampton Wanderers FC",
+      "thuisLogo": "https://crests.football-data.org/76.png",
+      "uit": "Blackburn Rovers FC",
+      "uitLogo": "https://crests.football-data.org/59.png",
+      "thuisScore": 2,
+      "uitScore": 2
     }
   ],
   "77": [
