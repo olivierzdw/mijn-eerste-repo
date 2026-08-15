@@ -27,6 +27,19 @@
   },
   {
     "positie": 3,
+    "club": "De Treffers",
+    "logo": "",
+    "gespeeld": 1,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 5,
+    "tegen": 1,
+    "doelsaldo": 4,
+    "punten": 3
+  },
+  {
+    "positie": 4,
     "club": "Jong Almere City FC",
     "logo": "",
     "gespeeld": 1,
@@ -39,7 +52,7 @@
     "punten": 3
   },
   {
-    "positie": 4,
+    "positie": 5,
     "club": "HHC Hardenberg",
     "logo": "",
     "gespeeld": 1,
@@ -52,7 +65,7 @@
     "punten": 3
   },
   {
-    "positie": 5,
+    "positie": 6,
     "club": "Hoek",
     "logo": "",
     "gespeeld": 1,
@@ -65,7 +78,7 @@
     "punten": 3
   },
   {
-    "positie": 6,
+    "positie": 7,
     "club": "Kloetinge",
     "logo": "",
     "gespeeld": 1,
@@ -78,7 +91,7 @@
     "punten": 3
   },
   {
-    "positie": 7,
+    "positie": 8,
     "club": "IJsselmeervogels",
     "logo": "",
     "gespeeld": 1,
@@ -91,7 +104,7 @@
     "punten": 3
   },
   {
-    "positie": 8,
+    "positie": 9,
     "club": "Spakenburg",
     "logo": "",
     "gespeeld": 1,
@@ -104,33 +117,7 @@
     "punten": 3
   },
   {
-    "positie": 9,
-    "club": "GVVV",
-    "logo": "",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
     "positie": 10,
-    "club": "De Treffers",
-    "logo": "",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
-    "positie": 11,
     "club": "Kozakken Boys",
     "logo": "",
     "gespeeld": 1,
@@ -143,7 +130,7 @@
     "punten": 0
   },
   {
-    "positie": 12,
+    "positie": 11,
     "club": "Katwijk",
     "logo": "",
     "gespeeld": 1,
@@ -156,7 +143,7 @@
     "punten": 0
   },
   {
-    "positie": 13,
+    "positie": 12,
     "club": "AFC",
     "logo": "images/afc.png",
     "gespeeld": 1,
@@ -169,7 +156,7 @@
     "punten": 0
   },
   {
-    "positie": 14,
+    "positie": 13,
     "club": "Barendrecht",
     "logo": "",
     "gespeeld": 1,
@@ -182,7 +169,7 @@
     "punten": 0
   },
   {
-    "positie": 15,
+    "positie": 14,
     "club": "Kon. HFC",
     "logo": "",
     "gespeeld": 1,
@@ -192,6 +179,19 @@
     "voor": 1,
     "tegen": 3,
     "doelsaldo": -2,
+    "punten": 0
+  },
+  {
+    "positie": 15,
+    "club": "GVVV",
+    "logo": "",
+    "gespeeld": 1,
+    "gewonnen": 0,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 1,
+    "tegen": 5,
+    "doelsaldo": -4,
     "punten": 0
   },
   {
