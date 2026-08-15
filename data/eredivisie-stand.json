@@ -14,19 +14,6 @@
   },
   {
     "positie": 2,
-    "club": "NEC",
-    "logo": "https://crests.football-data.org/1915.png",
-    "gespeeld": 2,
-    "punten": 3,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 1,
-    "doelsaldo": 3,
-    "voor": 5,
-    "tegen": 2
-  },
-  {
-    "positie": 3,
     "club": "Go Ahead Eagles",
     "logo": "https://crests.football-data.org/718.png",
     "gespeeld": 1,
@@ -37,6 +24,19 @@
     "doelsaldo": 3,
     "voor": 4,
     "tegen": 1
+  },
+  {
+    "positie": 3,
+    "club": "NEC",
+    "logo": "https://crests.football-data.org/1915.png",
+    "gespeeld": 2,
+    "punten": 3,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 1,
+    "doelsaldo": 2,
+    "voor": 5,
+    "tegen": 3
   },
   {
     "positie": 4,
@@ -229,8 +229,8 @@
     "gewonnen": 0,
     "gelijk": 0,
     "verloren": 2,
-    "doelsaldo": -7,
-    "voor": 1,
+    "doelsaldo": -6,
+    "voor": 2,
     "tegen": 8
   }
 ]
