@@ -14,6 +14,19 @@
   },
   {
     "positie": 2,
+    "club": "NEC",
+    "logo": "https://crests.football-data.org/1915.png",
+    "gespeeld": 2,
+    "punten": 3,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 1,
+    "doelsaldo": 3,
+    "voor": 5,
+    "tegen": 2
+  },
+  {
+    "positie": 3,
     "club": "Go Ahead Eagles",
     "logo": "https://crests.football-data.org/718.png",
     "gespeeld": 1,
@@ -26,7 +39,7 @@
     "tegen": 1
   },
   {
-    "positie": 3,
+    "positie": 4,
     "club": "Ajax",
     "logo": "https://crests.football-data.org/678.png",
     "gespeeld": 1,
@@ -39,7 +52,7 @@
     "tegen": 0
   },
   {
-    "positie": 3,
+    "positie": 4,
     "club": "AZ",
     "logo": "https://crests.football-data.org/682.png",
     "gespeeld": 1,
@@ -52,20 +65,7 @@
     "tegen": 0
   },
   {
-    "positie": 5,
-    "club": "NEC",
-    "logo": "https://crests.football-data.org/1915.png",
-    "gespeeld": 2,
-    "punten": 3,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 1,
-    "doelsaldo": 1,
-    "voor": 3,
-    "tegen": 2
-  },
-  {
-    "positie": 5,
+    "positie": 6,
     "club": "Sparta",
     "logo": "https://crests.football-data.org/6806.png",
     "gespeeld": 2,
@@ -229,8 +229,8 @@
     "gewonnen": 0,
     "gelijk": 0,
     "verloren": 2,
-    "doelsaldo": -5,
+    "doelsaldo": -7,
     "voor": 1,
-    "tegen": 6
+    "tegen": 8
   }
 ]
