@@ -21,12 +21,12 @@
     "gewonnen": 1,
     "gelijk": 1,
     "verloren": 0,
-    "doelsaldo": 2,
+    "doelsaldo": 1,
     "voor": 4,
-    "tegen": 2
+    "tegen": 3
   },
   {
-    "positie": 3,
+    "positie": 2,
     "club": "PSV",
     "logo": "https://crests.football-data.org/674.png",
     "gespeeld": 2,
@@ -209,6 +209,19 @@
   },
   {
     "positie": 17,
+    "club": "SC Cambuur-Leeuwarden",
+    "logo": "https://crests.football-data.org/1909.png",
+    "gespeeld": 2,
+    "punten": 0,
+    "gewonnen": 0,
+    "gelijk": 0,
+    "verloren": 2,
+    "doelsaldo": -5,
+    "voor": 1,
+    "tegen": 6
+  },
+  {
+    "positie": 18,
     "club": "Willem II Tilburg",
     "logo": "https://crests.football-data.org/672.png",
     "gespeeld": 2,
@@ -219,18 +232,5 @@
     "doelsaldo": -6,
     "voor": 2,
     "tegen": 8
-  },
-  {
-    "positie": 18,
-    "club": "SC Cambuur-Leeuwarden",
-    "logo": "https://crests.football-data.org/1909.png",
-    "gespeeld": 2,
-    "punten": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 2,
-    "doelsaldo": -6,
-    "voor": 0,
-    "tegen": 6
   }
 ]
