@@ -8,5 +8,15 @@
     "uitLogo": "https://crests.football-data.org/678.png",
     "thuisScore": 0,
     "uitScore": 2
+  },
+  {
+    "id": 558231,
+    "datum": "zo 16 augustus",
+    "thuis": "Ajax",
+    "thuisLogo": "https://crests.football-data.org/678.png",
+    "uit": "Heerenveen",
+    "uitLogo": "https://crests.football-data.org/673.png",
+    "thuisScore": 2,
+    "uitScore": 2
   }
 ]
