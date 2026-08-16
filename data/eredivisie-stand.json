@@ -34,9 +34,9 @@
     "gewonnen": 2,
     "gelijk": 0,
     "verloren": 0,
-    "doelsaldo": 4,
+    "doelsaldo": 3,
     "voor": 4,
-    "tegen": 0
+    "tegen": 1
   },
   {
     "positie": 4,
@@ -144,6 +144,19 @@
   },
   {
     "positie": 12,
+    "club": "Heerenveen",
+    "logo": "https://crests.football-data.org/673.png",
+    "gespeeld": 2,
+    "punten": 3,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 1,
+    "doelsaldo": 0,
+    "voor": 2,
+    "tegen": 2
+  },
+  {
+    "positie": 13,
     "club": "Telstar 1963",
     "logo": "https://crests.football-data.org/1912.png",
     "gespeeld": 2,
@@ -154,19 +167,6 @@
     "doelsaldo": -1,
     "voor": 3,
     "tegen": 4
-  },
-  {
-    "positie": 13,
-    "club": "Heerenveen",
-    "logo": "https://crests.football-data.org/673.png",
-    "gespeeld": 2,
-    "punten": 3,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 1,
-    "doelsaldo": -1,
-    "voor": 1,
-    "tegen": 2
   },
   {
     "positie": 14,
