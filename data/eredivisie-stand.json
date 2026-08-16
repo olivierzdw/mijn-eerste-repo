@@ -14,6 +14,19 @@
   },
   {
     "positie": 2,
+    "club": "Groningen",
+    "logo": "https://crests.football-data.org/677.png",
+    "gespeeld": 2,
+    "punten": 6,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 0,
+    "doelsaldo": 3,
+    "voor": 4,
+    "tegen": 1
+  },
+  {
+    "positie": 3,
     "club": "Fortuna Sittard",
     "logo": "https://crests.football-data.org/1920.png",
     "gespeeld": 2,
@@ -26,7 +39,7 @@
     "tegen": 3
   },
   {
-    "positie": 3,
+    "positie": 4,
     "club": "PSV",
     "logo": "https://crests.football-data.org/674.png",
     "gespeeld": 2,
@@ -37,19 +50,6 @@
     "doelsaldo": 1,
     "voor": 4,
     "tegen": 3
-  },
-  {
-    "positie": 4,
-    "club": "Groningen",
-    "logo": "https://crests.football-data.org/677.png",
-    "gespeeld": 2,
-    "punten": 4,
-    "gewonnen": 1,
-    "gelijk": 1,
-    "verloren": 0,
-    "doelsaldo": 1,
-    "voor": 2,
-    "tegen": 1
   },
   {
     "positie": 5,
@@ -157,19 +157,6 @@
   },
   {
     "positie": 13,
-    "club": "ADO Den Haag",
-    "logo": "https://crests.football-data.org/680.png",
-    "gespeeld": 2,
-    "punten": 1,
-    "gewonnen": 0,
-    "gelijk": 1,
-    "verloren": 1,
-    "doelsaldo": -2,
-    "voor": 0,
-    "tegen": 2
-  },
-  {
-    "positie": 14,
     "club": "FC Twente '65",
     "logo": "https://crests.football-data.org/666.png",
     "gespeeld": 1,
@@ -182,7 +169,7 @@
     "tegen": 1
   },
   {
-    "positie": 15,
+    "positie": 14,
     "club": "PEC Zwolle",
     "logo": "https://crests.football-data.org/684.png",
     "gespeeld": 1,
@@ -195,7 +182,7 @@
     "tegen": 2
   },
   {
-    "positie": 16,
+    "positie": 15,
     "club": "FC Utrecht",
     "logo": "https://crests.football-data.org/676.png",
     "gespeeld": 2,
@@ -206,6 +193,19 @@
     "doelsaldo": -4,
     "voor": 2,
     "tegen": 6
+  },
+  {
+    "positie": 16,
+    "club": "ADO Den Haag",
+    "logo": "https://crests.football-data.org/680.png",
+    "gespeeld": 2,
+    "punten": 0,
+    "gewonnen": 0,
+    "gelijk": 0,
+    "verloren": 2,
+    "doelsaldo": -4,
+    "voor": 0,
+    "tegen": 4
   },
   {
     "positie": 17,
