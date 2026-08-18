@@ -144,6 +144,14 @@
     "aantalMatches": 2
   },
   {
+    "slug": "afc-mo15-1",
+    "naam": "AFC MO15-1",
+    "soort": "Meisjes",
+    "pouleId": "839226",
+    "heeftStand": true,
+    "aantalMatches": 4
+  },
+  {
     "slug": "afc-mo15-2",
     "naam": "AFC MO15-2",
     "soort": "Meisjes",
