@@ -144,6 +144,14 @@
     "aantalMatches": 2
   },
   {
+    "slug": "afc-mo11-2",
+    "naam": "AFC MO11-2",
+    "soort": "Meisjes",
+    "pouleId": "830047",
+    "heeftStand": true,
+    "aantalMatches": 4
+  },
+  {
     "slug": "afc-mo17-1",
     "naam": "AFC MO17-1",
     "soort": "Meisjes",
