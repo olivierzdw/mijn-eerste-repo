@@ -290,6 +290,19 @@
     },
     {
       "positie": 3,
+      "club": "Club Atlético de Madrid",
+      "logo": "https://crests.football-data.org/78.png",
+      "gespeeld": 1,
+      "punten": 3,
+      "gewonnen": 1,
+      "gelijk": 0,
+      "verloren": 0,
+      "doelsaldo": 2,
+      "voor": 2,
+      "tegen": 0
+    },
+    {
+      "positie": 4,
       "club": "Sevilla FC",
       "logo": "https://crests.football-data.org/559.png",
       "gespeeld": 1,
@@ -302,7 +315,7 @@
       "tegen": 1
     },
     {
-      "positie": 4,
+      "positie": 5,
       "club": "Real Racing Club de Santander",
       "logo": "https://crests.football-data.org/5335.png",
       "gespeeld": 1,
@@ -315,7 +328,7 @@
       "tegen": 2
     },
     {
-      "positie": 4,
+      "positie": 5,
       "club": "Villarreal CF",
       "logo": "https://crests.football-data.org/94.png",
       "gespeeld": 1,
@@ -328,7 +341,7 @@
       "tegen": 2
     },
     {
-      "positie": 6,
+      "positie": 7,
       "club": "RC Deportivo La Coruña",
       "logo": "https://crests.football-data.org/560.png",
       "gespeeld": 1,
@@ -341,7 +354,7 @@
       "tegen": 1
     },
     {
-      "positie": 6,
+      "positie": 7,
       "club": "Elche CF",
       "logo": "https://crests.football-data.org/285.png",
       "gespeeld": 1,
@@ -354,7 +367,7 @@
       "tegen": 1
     },
     {
-      "positie": 8,
+      "positie": 9,
       "club": "Athletic Club",
       "logo": "https://crests.football-data.org/77.png",
       "gespeeld": 0,
@@ -367,20 +380,7 @@
       "tegen": 0
     },
     {
-      "positie": 8,
-      "club": "Club Atlético de Madrid",
-      "logo": "https://crests.football-data.org/78.png",
-      "gespeeld": 0,
-      "punten": 0,
-      "gewonnen": 0,
-      "gelijk": 0,
-      "verloren": 0,
-      "doelsaldo": 0,
-      "voor": 0,
-      "tegen": 0
-    },
-    {
-      "positie": 8,
+      "positie": 9,
       "club": "CA Osasuna",
       "logo": "https://crests.football-data.org/79.png",
       "gespeeld": 0,
@@ -393,7 +393,7 @@
       "tegen": 0
     },
     {
-      "positie": 8,
+      "positie": 9,
       "club": "FC Barcelona",
       "logo": "https://crests.football-data.org/81.png",
       "gespeeld": 0,
@@ -406,20 +406,7 @@
       "tegen": 0
     },
     {
-      "positie": 8,
-      "club": "Málaga CF",
-      "logo": "https://crests.football-data.org/84.png",
-      "gespeeld": 0,
-      "punten": 0,
-      "gewonnen": 0,
-      "gelijk": 0,
-      "verloren": 0,
-      "doelsaldo": 0,
-      "voor": 0,
-      "tegen": 0
-    },
-    {
-      "positie": 8,
+      "positie": 9,
       "club": "RC Celta de Vigo",
       "logo": "https://crests.football-data.org/558.png",
       "gespeeld": 0,
@@ -432,7 +419,7 @@
       "tegen": 0
     },
     {
-      "positie": 8,
+      "positie": 9,
       "club": "Real Betis Balompié",
       "logo": "https://crests.football-data.org/90.png",
       "gespeeld": 0,
@@ -445,7 +432,7 @@
       "tegen": 0
     },
     {
-      "positie": 8,
+      "positie": 9,
       "club": "Real Madrid CF",
       "logo": "https://crests.football-data.org/86.png",
       "gespeeld": 0,
@@ -458,7 +445,7 @@
       "tegen": 0
     },
     {
-      "positie": 8,
+      "positie": 9,
       "club": "Real Sociedad de Fútbol",
       "logo": "https://crests.football-data.org/92.png",
       "gespeeld": 0,
@@ -471,7 +458,7 @@
       "tegen": 0
     },
     {
-      "positie": 8,
+      "positie": 9,
       "club": "Valencia CF",
       "logo": "https://crests.football-data.org/95.png",
       "gespeeld": 0,
@@ -484,7 +471,7 @@
       "tegen": 0
     },
     {
-      "positie": 18,
+      "positie": 17,
       "club": "Rayo Vallecano de Madrid",
       "logo": "https://crests.football-data.org/87.png",
       "gespeeld": 1,
@@ -494,6 +481,19 @@
       "verloren": 1,
       "doelsaldo": -1,
       "voor": 1,
+      "tegen": 2
+    },
+    {
+      "positie": 18,
+      "club": "Málaga CF",
+      "logo": "https://crests.football-data.org/84.png",
+      "gespeeld": 1,
+      "punten": 0,
+      "gewonnen": 0,
+      "gelijk": 0,
+      "verloren": 1,
+      "doelsaldo": -2,
+      "voor": 0,
       "tegen": 2
     },
     {
