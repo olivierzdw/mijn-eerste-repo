@@ -266,17 +266,17 @@
       "positie": 1,
       "club": "Deportivo Alavés",
       "logo": "https://crests.football-data.org/263.png",
-      "gespeeld": 1,
-      "punten": 3,
+      "gespeeld": 2,
+      "punten": 4,
       "gewonnen": 1,
-      "gelijk": 0,
+      "gelijk": 1,
       "verloren": 0,
       "doelsaldo": 3,
-      "voor": 3,
-      "tegen": 0
+      "voor": 4,
+      "tegen": 1
     },
     {
-      "positie": 1,
+      "positie": 2,
       "club": "RCD Espanyol de Barcelona",
       "logo": "https://crests.football-data.org/80.png",
       "gespeeld": 1,
@@ -368,6 +368,19 @@
     },
     {
       "positie": 9,
+      "club": "Rayo Vallecano de Madrid",
+      "logo": "https://crests.football-data.org/87.png",
+      "gespeeld": 2,
+      "punten": 1,
+      "gewonnen": 0,
+      "gelijk": 1,
+      "verloren": 1,
+      "doelsaldo": -1,
+      "voor": 2,
+      "tegen": 3
+    },
+    {
+      "positie": 10,
       "club": "Athletic Club",
       "logo": "https://crests.football-data.org/77.png",
       "gespeeld": 0,
@@ -380,7 +393,7 @@
       "tegen": 0
     },
     {
-      "positie": 9,
+      "positie": 10,
       "club": "CA Osasuna",
       "logo": "https://crests.football-data.org/79.png",
       "gespeeld": 0,
@@ -393,7 +406,7 @@
       "tegen": 0
     },
     {
-      "positie": 9,
+      "positie": 10,
       "club": "FC Barcelona",
       "logo": "https://crests.football-data.org/81.png",
       "gespeeld": 0,
@@ -406,7 +419,7 @@
       "tegen": 0
     },
     {
-      "positie": 9,
+      "positie": 10,
       "club": "RC Celta de Vigo",
       "logo": "https://crests.football-data.org/558.png",
       "gespeeld": 0,
@@ -419,7 +432,7 @@
       "tegen": 0
     },
     {
-      "positie": 9,
+      "positie": 10,
       "club": "Real Betis Balompié",
       "logo": "https://crests.football-data.org/90.png",
       "gespeeld": 0,
@@ -432,7 +445,7 @@
       "tegen": 0
     },
     {
-      "positie": 9,
+      "positie": 10,
       "club": "Real Madrid CF",
       "logo": "https://crests.football-data.org/86.png",
       "gespeeld": 0,
@@ -445,7 +458,7 @@
       "tegen": 0
     },
     {
-      "positie": 9,
+      "positie": 10,
       "club": "Real Sociedad de Fútbol",
       "logo": "https://crests.football-data.org/92.png",
       "gespeeld": 0,
@@ -458,7 +471,7 @@
       "tegen": 0
     },
     {
-      "positie": 9,
+      "positie": 10,
       "club": "Valencia CF",
       "logo": "https://crests.football-data.org/95.png",
       "gespeeld": 0,
@@ -469,19 +482,6 @@
       "doelsaldo": 0,
       "voor": 0,
       "tegen": 0
-    },
-    {
-      "positie": 17,
-      "club": "Rayo Vallecano de Madrid",
-      "logo": "https://crests.football-data.org/87.png",
-      "gespeeld": 1,
-      "punten": 0,
-      "gewonnen": 0,
-      "gelijk": 0,
-      "verloren": 1,
-      "doelsaldo": -1,
-      "voor": 1,
-      "tegen": 2
     },
     {
       "positie": 18,

@@ -10,6 +10,17 @@
       "uitLogo": "https://crests.football-data.org/82.png",
       "thuisScore": 3,
       "uitScore": 0
+    },
+    {
+      "id": 564638,
+      "datum": "do 20 augustus",
+      "datumIso": "2026-08-20",
+      "thuis": "Rayo Vallecano de Madrid",
+      "thuisLogo": "https://crests.football-data.org/87.png",
+      "uit": "Deportivo Alavés",
+      "uitLogo": "https://crests.football-data.org/263.png",
+      "thuisScore": 1,
+      "uitScore": 1
     }
   ],
   "82": [
@@ -48,6 +59,17 @@
       "uit": "Rayo Vallecano de Madrid",
       "uitLogo": "https://crests.football-data.org/87.png",
       "thuisScore": 2,
+      "uitScore": 1
+    },
+    {
+      "id": 564638,
+      "datum": "do 20 augustus",
+      "datumIso": "2026-08-20",
+      "thuis": "Rayo Vallecano de Madrid",
+      "thuisLogo": "https://crests.football-data.org/87.png",
+      "uit": "Deportivo Alavés",
+      "uitLogo": "https://crests.football-data.org/263.png",
+      "thuisScore": 1,
       "uitScore": 1
     }
   ],
