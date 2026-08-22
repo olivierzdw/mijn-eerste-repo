@@ -8,8 +8,8 @@
     "gewonnen": 3,
     "gelijk": 0,
     "verloren": 0,
-    "doelsaldo": 6,
-    "voor": 7,
+    "doelsaldo": 7,
+    "voor": 8,
     "tegen": 1
   },
   {
@@ -53,19 +53,6 @@
   },
   {
     "positie": 5,
-    "club": "Fortuna Sittard",
-    "logo": "https://crests.football-data.org/1920.png",
-    "gespeeld": 3,
-    "punten": 4,
-    "gewonnen": 1,
-    "gelijk": 1,
-    "verloren": 1,
-    "doelsaldo": 1,
-    "voor": 5,
-    "tegen": 4
-  },
-  {
-    "positie": 6,
     "club": "PSV",
     "logo": "https://crests.football-data.org/674.png",
     "gespeeld": 2,
@@ -78,7 +65,7 @@
     "tegen": 3
   },
   {
-    "positie": 7,
+    "positie": 6,
     "club": "Feyenoord Rotterdam",
     "logo": "https://crests.football-data.org/675.png",
     "gespeeld": 2,
@@ -91,7 +78,7 @@
     "tegen": 2
   },
   {
-    "positie": 7,
+    "positie": 6,
     "club": "Heerenveen",
     "logo": "https://crests.football-data.org/673.png",
     "gespeeld": 2,
@@ -104,7 +91,33 @@
     "tegen": 2
   },
   {
+    "positie": 6,
+    "club": "Sparta",
+    "logo": "https://crests.football-data.org/6806.png",
+    "gespeeld": 3,
+    "punten": 4,
+    "gewonnen": 1,
+    "gelijk": 1,
+    "verloren": 1,
+    "doelsaldo": 1,
+    "voor": 3,
+    "tegen": 2
+  },
+  {
     "positie": 9,
+    "club": "Fortuna Sittard",
+    "logo": "https://crests.football-data.org/1920.png",
+    "gespeeld": 3,
+    "punten": 4,
+    "gewonnen": 1,
+    "gelijk": 1,
+    "verloren": 1,
+    "doelsaldo": 0,
+    "voor": 5,
+    "tegen": 5
+  },
+  {
+    "positie": 10,
     "club": "SBV Excelsior",
     "logo": "https://crests.football-data.org/670.png",
     "gespeeld": 2,
@@ -117,7 +130,7 @@
     "tegen": 2
   },
   {
-    "positie": 10,
+    "positie": 11,
     "club": "NEC",
     "logo": "https://crests.football-data.org/1915.png",
     "gespeeld": 2,
@@ -130,22 +143,9 @@
     "tegen": 3
   },
   {
-    "positie": 11,
+    "positie": 12,
     "club": "FC Twente '65",
     "logo": "https://crests.football-data.org/666.png",
-    "gespeeld": 2,
-    "punten": 3,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 1,
-    "doelsaldo": 1,
-    "voor": 3,
-    "tegen": 2
-  },
-  {
-    "positie": 11,
-    "club": "Sparta",
-    "logo": "https://crests.football-data.org/6806.png",
     "gespeeld": 2,
     "punten": 3,
     "gewonnen": 1,
@@ -172,10 +172,10 @@
     "positie": 14,
     "club": "FC Utrecht",
     "logo": "https://crests.football-data.org/676.png",
-    "gespeeld": 2,
-    "punten": 0,
+    "gespeeld": 3,
+    "punten": 1,
     "gewonnen": 0,
-    "gelijk": 0,
+    "gelijk": 1,
     "verloren": 2,
     "doelsaldo": -4,
     "voor": 2,
