@@ -27,19 +27,6 @@
   },
   {
     "positie": 3,
-    "club": "Heerenveen",
-    "logo": "https://crests.football-data.org/673.png",
-    "gespeeld": 3,
-    "punten": 5,
-    "gewonnen": 1,
-    "gelijk": 2,
-    "verloren": 0,
-    "doelsaldo": 1,
-    "voor": 3,
-    "tegen": 2
-  },
-  {
-    "positie": 4,
     "club": "Go Ahead Eagles",
     "logo": "https://crests.football-data.org/718.png",
     "gespeeld": 2,
@@ -52,7 +39,7 @@
     "tegen": 3
   },
   {
-    "positie": 5,
+    "positie": 4,
     "club": "Ajax",
     "logo": "https://crests.football-data.org/678.png",
     "gespeeld": 2,
@@ -65,7 +52,7 @@
     "tegen": 2
   },
   {
-    "positie": 6,
+    "positie": 5,
     "club": "Sparta",
     "logo": "https://crests.football-data.org/6806.png",
     "gespeeld": 3,
@@ -78,7 +65,7 @@
     "tegen": 5
   },
   {
-    "positie": 7,
+    "positie": 6,
     "club": "PSV",
     "logo": "https://crests.football-data.org/674.png",
     "gespeeld": 2,
@@ -91,7 +78,7 @@
     "tegen": 3
   },
   {
-    "positie": 8,
+    "positie": 7,
     "club": "Feyenoord Rotterdam",
     "logo": "https://crests.football-data.org/675.png",
     "gespeeld": 2,
@@ -104,7 +91,7 @@
     "tegen": 2
   },
   {
-    "positie": 9,
+    "positie": 8,
     "club": "Fortuna Sittard",
     "logo": "https://crests.football-data.org/1920.png",
     "gespeeld": 3,
@@ -115,6 +102,19 @@
     "doelsaldo": 0,
     "voor": 5,
     "tegen": 5
+  },
+  {
+    "positie": 9,
+    "club": "Heerenveen",
+    "logo": "https://crests.football-data.org/673.png",
+    "gespeeld": 3,
+    "punten": 4,
+    "gewonnen": 1,
+    "gelijk": 1,
+    "verloren": 1,
+    "doelsaldo": -1,
+    "voor": 3,
+    "tegen": 4
   },
   {
     "positie": 10,
@@ -170,6 +170,19 @@
   },
   {
     "positie": 14,
+    "club": "PEC Zwolle",
+    "logo": "https://crests.football-data.org/684.png",
+    "gespeeld": 3,
+    "punten": 3,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 2,
+    "doelsaldo": -2,
+    "voor": 3,
+    "tegen": 5
+  },
+  {
+    "positie": 15,
     "club": "FC Utrecht",
     "logo": "https://crests.football-data.org/676.png",
     "gespeeld": 3,
@@ -180,19 +193,6 @@
     "doelsaldo": -4,
     "voor": 5,
     "tegen": 9
-  },
-  {
-    "positie": 15,
-    "club": "PEC Zwolle",
-    "logo": "https://crests.football-data.org/684.png",
-    "gespeeld": 3,
-    "punten": 1,
-    "gewonnen": 0,
-    "gelijk": 1,
-    "verloren": 2,
-    "doelsaldo": -4,
-    "voor": 1,
-    "tegen": 5
   },
   {
     "positie": 16,
