@@ -4,12 +4,12 @@
     "club": "AZ",
     "logo": "https://crests.football-data.org/682.png",
     "gespeeld": 3,
-    "punten": 7,
-    "gewonnen": 2,
-    "gelijk": 1,
+    "punten": 9,
+    "gewonnen": 3,
+    "gelijk": 0,
     "verloren": 0,
-    "doelsaldo": 5,
-    "voor": 6,
+    "doelsaldo": 6,
+    "voor": 7,
     "tegen": 1
   },
   {
@@ -27,19 +27,6 @@
   },
   {
     "positie": 3,
-    "club": "Fortuna Sittard",
-    "logo": "https://crests.football-data.org/1920.png",
-    "gespeeld": 3,
-    "punten": 5,
-    "gewonnen": 1,
-    "gelijk": 2,
-    "verloren": 0,
-    "doelsaldo": 2,
-    "voor": 5,
-    "tegen": 3
-  },
-  {
-    "positie": 4,
     "club": "Go Ahead Eagles",
     "logo": "https://crests.football-data.org/718.png",
     "gespeeld": 2,
@@ -52,7 +39,7 @@
     "tegen": 3
   },
   {
-    "positie": 5,
+    "positie": 4,
     "club": "Ajax",
     "logo": "https://crests.football-data.org/678.png",
     "gespeeld": 2,
@@ -63,6 +50,19 @@
     "doelsaldo": 2,
     "voor": 4,
     "tegen": 2
+  },
+  {
+    "positie": 5,
+    "club": "Fortuna Sittard",
+    "logo": "https://crests.football-data.org/1920.png",
+    "gespeeld": 3,
+    "punten": 4,
+    "gewonnen": 1,
+    "gelijk": 1,
+    "verloren": 1,
+    "doelsaldo": 1,
+    "voor": 5,
+    "tegen": 4
   },
   {
     "positie": 6,
