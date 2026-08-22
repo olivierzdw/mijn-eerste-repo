@@ -53,6 +53,19 @@
   },
   {
     "positie": 5,
+    "club": "Hoek",
+    "logo": "",
+    "gespeeld": 2,
+    "gewonnen": 1,
+    "gelijk": 1,
+    "verloren": 0,
+    "voor": 4,
+    "tegen": 2,
+    "doelsaldo": 2,
+    "punten": 4
+  },
+  {
+    "positie": 6,
     "club": "De Treffers",
     "logo": "",
     "gespeeld": 1,
@@ -62,19 +75,6 @@
     "voor": 5,
     "tegen": 1,
     "doelsaldo": 4,
-    "punten": 3
-  },
-  {
-    "positie": 6,
-    "club": "Hoek",
-    "logo": "",
-    "gespeeld": 1,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 3,
-    "tegen": 1,
-    "doelsaldo": 2,
     "punten": 3
   },
   {
@@ -172,14 +172,14 @@
     "positie": 14,
     "club": "Katwijk",
     "logo": "",
-    "gespeeld": 1,
+    "gespeeld": 2,
     "gewonnen": 0,
-    "gelijk": 0,
+    "gelijk": 1,
     "verloren": 1,
-    "voor": 0,
-    "tegen": 1,
+    "voor": 1,
+    "tegen": 2,
     "doelsaldo": -1,
-    "punten": 0
+    "punten": 1
   },
   {
     "positie": 15,
