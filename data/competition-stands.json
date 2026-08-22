@@ -2,6 +2,19 @@
   "PL": [
     {
       "positie": 1,
+      "club": "Arsenal FC",
+      "logo": "https://crests.football-data.org/57.png",
+      "gespeeld": 1,
+      "punten": 3,
+      "gewonnen": 1,
+      "gelijk": 0,
+      "verloren": 0,
+      "doelsaldo": 3,
+      "voor": 3,
+      "tegen": 0
+    },
+    {
+      "positie": 2,
       "club": "AFC Bournemouth",
       "logo": "https://crests.football-data.org/bournemouth.png",
       "gespeeld": 0,
@@ -14,20 +27,7 @@
       "tegen": 0
     },
     {
-      "positie": 1,
-      "club": "Arsenal FC",
-      "logo": "https://crests.football-data.org/57.png",
-      "gespeeld": 0,
-      "punten": 0,
-      "gewonnen": 0,
-      "gelijk": 0,
-      "verloren": 0,
-      "doelsaldo": 0,
-      "voor": 0,
-      "tegen": 0
-    },
-    {
-      "positie": 1,
+      "positie": 2,
       "club": "Aston Villa FC",
       "logo": "https://crests.football-data.org/58.png",
       "gespeeld": 0,
@@ -40,7 +40,7 @@
       "tegen": 0
     },
     {
-      "positie": 1,
+      "positie": 2,
       "club": "Brentford FC",
       "logo": "https://crests.football-data.org/402.png",
       "gespeeld": 0,
@@ -53,7 +53,7 @@
       "tegen": 0
     },
     {
-      "positie": 1,
+      "positie": 2,
       "club": "Brighton & Hove Albion FC",
       "logo": "https://crests.football-data.org/397.png",
       "gespeeld": 0,
@@ -66,7 +66,7 @@
       "tegen": 0
     },
     {
-      "positie": 1,
+      "positie": 2,
       "club": "Chelsea FC",
       "logo": "https://crests.football-data.org/61.png",
       "gespeeld": 0,
@@ -79,20 +79,7 @@
       "tegen": 0
     },
     {
-      "positie": 1,
-      "club": "Coventry City FC",
-      "logo": "https://crests.football-data.org/1076.png",
-      "gespeeld": 0,
-      "punten": 0,
-      "gewonnen": 0,
-      "gelijk": 0,
-      "verloren": 0,
-      "doelsaldo": 0,
-      "voor": 0,
-      "tegen": 0
-    },
-    {
-      "positie": 1,
+      "positie": 2,
       "club": "Crystal Palace FC",
       "logo": "https://crests.football-data.org/354.png",
       "gespeeld": 0,
@@ -105,7 +92,7 @@
       "tegen": 0
     },
     {
-      "positie": 1,
+      "positie": 2,
       "club": "Everton FC",
       "logo": "https://crests.football-data.org/62.png",
       "gespeeld": 0,
@@ -118,7 +105,7 @@
       "tegen": 0
     },
     {
-      "positie": 1,
+      "positie": 2,
       "club": "Fulham FC",
       "logo": "https://crests.football-data.org/63.png",
       "gespeeld": 0,
@@ -131,7 +118,7 @@
       "tegen": 0
     },
     {
-      "positie": 1,
+      "positie": 2,
       "club": "Hull City AFC",
       "logo": "https://crests.football-data.org/322.png",
       "gespeeld": 0,
@@ -144,7 +131,7 @@
       "tegen": 0
     },
     {
-      "positie": 1,
+      "positie": 2,
       "club": "Ipswich Town FC",
       "logo": "https://crests.football-data.org/349.png",
       "gespeeld": 0,
@@ -157,7 +144,7 @@
       "tegen": 0
     },
     {
-      "positie": 1,
+      "positie": 2,
       "club": "Leeds United FC",
       "logo": "https://crests.football-data.org/341.png",
       "gespeeld": 0,
@@ -170,7 +157,7 @@
       "tegen": 0
     },
     {
-      "positie": 1,
+      "positie": 2,
       "club": "Liverpool FC",
       "logo": "https://crests.football-data.org/64.png",
       "gespeeld": 0,
@@ -183,7 +170,7 @@
       "tegen": 0
     },
     {
-      "positie": 1,
+      "positie": 2,
       "club": "Manchester City FC",
       "logo": "https://crests.football-data.org/65.png",
       "gespeeld": 0,
@@ -196,7 +183,7 @@
       "tegen": 0
     },
     {
-      "positie": 1,
+      "positie": 2,
       "club": "Manchester United FC",
       "logo": "https://crests.football-data.org/66.png",
       "gespeeld": 0,
@@ -209,7 +196,7 @@
       "tegen": 0
     },
     {
-      "positie": 1,
+      "positie": 2,
       "club": "Newcastle United FC",
       "logo": "https://crests.football-data.org/67.png",
       "gespeeld": 0,
@@ -222,7 +209,7 @@
       "tegen": 0
     },
     {
-      "positie": 1,
+      "positie": 2,
       "club": "Nottingham Forest FC",
       "logo": "https://crests.football-data.org/351.png",
       "gespeeld": 0,
@@ -235,7 +222,7 @@
       "tegen": 0
     },
     {
-      "positie": 1,
+      "positie": 2,
       "club": "Sunderland AFC",
       "logo": "https://crests.football-data.org/71.png",
       "gespeeld": 0,
@@ -248,7 +235,7 @@
       "tegen": 0
     },
     {
-      "positie": 1,
+      "positie": 2,
       "club": "Tottenham Hotspur FC",
       "logo": "https://crests.football-data.org/73.png",
       "gespeeld": 0,
@@ -259,6 +246,19 @@
       "doelsaldo": 0,
       "voor": 0,
       "tegen": 0
+    },
+    {
+      "positie": 20,
+      "club": "Coventry City FC",
+      "logo": "https://crests.football-data.org/1076.png",
+      "gespeeld": 1,
+      "punten": 0,
+      "gewonnen": 0,
+      "gelijk": 0,
+      "verloren": 1,
+      "doelsaldo": -3,
+      "voor": 0,
+      "tegen": 3
     }
   ],
   "PD": [
@@ -316,6 +316,19 @@
     },
     {
       "positie": 5,
+      "club": "Real Betis Balompié",
+      "logo": "https://crests.football-data.org/90.png",
+      "gespeeld": 1,
+      "punten": 3,
+      "gewonnen": 1,
+      "gelijk": 0,
+      "verloren": 0,
+      "doelsaldo": 1,
+      "voor": 1,
+      "tegen": 0
+    },
+    {
+      "positie": 6,
       "club": "Real Racing Club de Santander",
       "logo": "https://crests.football-data.org/5335.png",
       "gespeeld": 1,
@@ -328,7 +341,7 @@
       "tegen": 2
     },
     {
-      "positie": 5,
+      "positie": 6,
       "club": "Villarreal CF",
       "logo": "https://crests.football-data.org/94.png",
       "gespeeld": 1,
@@ -341,7 +354,7 @@
       "tegen": 2
     },
     {
-      "positie": 7,
+      "positie": 8,
       "club": "RC Deportivo La Coruña",
       "logo": "https://crests.football-data.org/560.png",
       "gespeeld": 1,
@@ -354,7 +367,7 @@
       "tegen": 1
     },
     {
-      "positie": 7,
+      "positie": 8,
       "club": "Elche CF",
       "logo": "https://crests.football-data.org/285.png",
       "gespeeld": 1,
@@ -367,7 +380,7 @@
       "tegen": 1
     },
     {
-      "positie": 9,
+      "positie": 10,
       "club": "Rayo Vallecano de Madrid",
       "logo": "https://crests.football-data.org/87.png",
       "gespeeld": 2,
@@ -380,7 +393,7 @@
       "tegen": 3
     },
     {
-      "positie": 10,
+      "positie": 11,
       "club": "Athletic Club",
       "logo": "https://crests.football-data.org/77.png",
       "gespeeld": 0,
@@ -393,7 +406,7 @@
       "tegen": 0
     },
     {
-      "positie": 10,
+      "positie": 11,
       "club": "CA Osasuna",
       "logo": "https://crests.football-data.org/79.png",
       "gespeeld": 0,
@@ -406,7 +419,7 @@
       "tegen": 0
     },
     {
-      "positie": 10,
+      "positie": 11,
       "club": "FC Barcelona",
       "logo": "https://crests.football-data.org/81.png",
       "gespeeld": 0,
@@ -419,7 +432,7 @@
       "tegen": 0
     },
     {
-      "positie": 10,
+      "positie": 11,
       "club": "RC Celta de Vigo",
       "logo": "https://crests.football-data.org/558.png",
       "gespeeld": 0,
@@ -432,20 +445,7 @@
       "tegen": 0
     },
     {
-      "positie": 10,
-      "club": "Real Betis Balompié",
-      "logo": "https://crests.football-data.org/90.png",
-      "gespeeld": 0,
-      "punten": 0,
-      "gewonnen": 0,
-      "gelijk": 0,
-      "verloren": 0,
-      "doelsaldo": 0,
-      "voor": 0,
-      "tegen": 0
-    },
-    {
-      "positie": 10,
+      "positie": 11,
       "club": "Real Madrid CF",
       "logo": "https://crests.football-data.org/86.png",
       "gespeeld": 0,
@@ -458,20 +458,7 @@
       "tegen": 0
     },
     {
-      "positie": 10,
-      "club": "Real Sociedad de Fútbol",
-      "logo": "https://crests.football-data.org/92.png",
-      "gespeeld": 0,
-      "punten": 0,
-      "gewonnen": 0,
-      "gelijk": 0,
-      "verloren": 0,
-      "doelsaldo": 0,
-      "voor": 0,
-      "tegen": 0
-    },
-    {
-      "positie": 10,
+      "positie": 11,
       "club": "Valencia CF",
       "logo": "https://crests.football-data.org/95.png",
       "gespeeld": 0,
@@ -482,6 +469,19 @@
       "doelsaldo": 0,
       "voor": 0,
       "tegen": 0
+    },
+    {
+      "positie": 17,
+      "club": "Real Sociedad de Fútbol",
+      "logo": "https://crests.football-data.org/92.png",
+      "gespeeld": 1,
+      "punten": 0,
+      "gewonnen": 0,
+      "gelijk": 0,
+      "verloren": 1,
+      "doelsaldo": -1,
+      "voor": 0,
+      "tegen": 1
     },
     {
       "positie": 18,
