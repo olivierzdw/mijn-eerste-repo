@@ -14,6 +14,19 @@
   },
   {
     "positie": 2,
+    "club": "Go Ahead Eagles",
+    "logo": "https://crests.football-data.org/718.png",
+    "gespeeld": 3,
+    "punten": 7,
+    "gewonnen": 2,
+    "gelijk": 1,
+    "verloren": 0,
+    "doelsaldo": 5,
+    "voor": 8,
+    "tegen": 3
+  },
+  {
+    "positie": 3,
     "club": "Groningen",
     "logo": "https://crests.football-data.org/677.png",
     "gespeeld": 2,
@@ -24,19 +37,6 @@
     "doelsaldo": 4,
     "voor": 6,
     "tegen": 2
-  },
-  {
-    "positie": 3,
-    "club": "Go Ahead Eagles",
-    "logo": "https://crests.football-data.org/718.png",
-    "gespeeld": 3,
-    "punten": 5,
-    "gewonnen": 1,
-    "gelijk": 2,
-    "verloren": 0,
-    "doelsaldo": 3,
-    "voor": 6,
-    "tegen": 3
   },
   {
     "positie": 4,
@@ -196,19 +196,6 @@
   },
   {
     "positie": 16,
-    "club": "ADO Den Haag",
-    "logo": "https://crests.football-data.org/680.png",
-    "gespeeld": 3,
-    "punten": 1,
-    "gewonnen": 0,
-    "gelijk": 1,
-    "verloren": 2,
-    "doelsaldo": -5,
-    "voor": 1,
-    "tegen": 6
-  },
-  {
-    "positie": 17,
     "club": "Willem II Tilburg",
     "logo": "https://crests.football-data.org/672.png",
     "gespeeld": 2,
@@ -221,7 +208,7 @@
     "tegen": 8
   },
   {
-    "positie": 18,
+    "positie": 17,
     "club": "SC Cambuur-Leeuwarden",
     "logo": "https://crests.football-data.org/1909.png",
     "gespeeld": 2,
@@ -232,5 +219,18 @@
     "doelsaldo": -6,
     "voor": 1,
     "tegen": 7
+  },
+  {
+    "positie": 18,
+    "club": "ADO Den Haag",
+    "logo": "https://crests.football-data.org/680.png",
+    "gespeeld": 3,
+    "punten": 0,
+    "gewonnen": 0,
+    "gelijk": 0,
+    "verloren": 3,
+    "doelsaldo": -7,
+    "voor": 1,
+    "tegen": 8
   }
 ]
