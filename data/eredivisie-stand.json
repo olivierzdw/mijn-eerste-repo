@@ -26,7 +26,7 @@
     "tegen": 4
   },
   {
-    "positie": 3,
+    "positie": 2,
     "club": "PSV",
     "logo": "https://crests.football-data.org/674.png",
     "gespeeld": 3,
@@ -34,8 +34,8 @@
     "gewonnen": 2,
     "gelijk": 1,
     "verloren": 0,
-    "doelsaldo": 3,
-    "voor": 7,
+    "doelsaldo": 5,
+    "voor": 9,
     "tegen": 4
   },
   {
@@ -47,9 +47,9 @@
     "gewonnen": 2,
     "gelijk": 0,
     "verloren": 1,
-    "doelsaldo": 2,
+    "doelsaldo": 0,
     "voor": 7,
-    "tegen": 5
+    "tegen": 7
   },
   {
     "positie": 5,
