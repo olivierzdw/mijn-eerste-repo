@@ -22,24 +22,37 @@
     "gelijk": 1,
     "verloren": 0,
     "doelsaldo": 5,
-    "voor": 8,
-    "tegen": 3
+    "voor": 9,
+    "tegen": 4
   },
   {
     "positie": 3,
     "club": "Groningen",
     "logo": "https://crests.football-data.org/677.png",
-    "gespeeld": 2,
-    "punten": 6,
+    "gespeeld": 3,
+    "punten": 7,
     "gewonnen": 2,
-    "gelijk": 0,
+    "gelijk": 1,
     "verloren": 0,
     "doelsaldo": 4,
-    "voor": 6,
-    "tegen": 2
+    "voor": 7,
+    "tegen": 3
   },
   {
     "positie": 4,
+    "club": "PSV",
+    "logo": "https://crests.football-data.org/674.png",
+    "gespeeld": 3,
+    "punten": 5,
+    "gewonnen": 1,
+    "gelijk": 2,
+    "verloren": 0,
+    "doelsaldo": 1,
+    "voor": 5,
+    "tegen": 4
+  },
+  {
+    "positie": 5,
     "club": "Ajax",
     "logo": "https://crests.football-data.org/678.png",
     "gespeeld": 2,
@@ -52,7 +65,7 @@
     "tegen": 2
   },
   {
-    "positie": 5,
+    "positie": 6,
     "club": "Sparta",
     "logo": "https://crests.football-data.org/6806.png",
     "gespeeld": 3,
@@ -63,19 +76,6 @@
     "doelsaldo": 1,
     "voor": 6,
     "tegen": 5
-  },
-  {
-    "positie": 6,
-    "club": "PSV",
-    "logo": "https://crests.football-data.org/674.png",
-    "gespeeld": 2,
-    "punten": 4,
-    "gewonnen": 1,
-    "gelijk": 1,
-    "verloren": 0,
-    "doelsaldo": 1,
-    "voor": 4,
-    "tegen": 3
   },
   {
     "positie": 7,
@@ -230,7 +230,7 @@
     "gelijk": 0,
     "verloren": 3,
     "doelsaldo": -7,
-    "voor": 1,
-    "tegen": 8
+    "voor": 2,
+    "tegen": 9
   }
 ]
