@@ -27,29 +27,29 @@
   },
   {
     "positie": 3,
-    "club": "Groningen",
-    "logo": "https://crests.football-data.org/677.png",
+    "club": "PSV",
+    "logo": "https://crests.football-data.org/674.png",
     "gespeeld": 3,
     "punten": 7,
     "gewonnen": 2,
     "gelijk": 1,
     "verloren": 0,
-    "doelsaldo": 4,
+    "doelsaldo": 3,
     "voor": 7,
-    "tegen": 3
+    "tegen": 4
   },
   {
     "positie": 4,
-    "club": "PSV",
-    "logo": "https://crests.football-data.org/674.png",
+    "club": "Groningen",
+    "logo": "https://crests.football-data.org/677.png",
     "gespeeld": 3,
-    "punten": 5,
-    "gewonnen": 1,
-    "gelijk": 2,
-    "verloren": 0,
-    "doelsaldo": 1,
-    "voor": 5,
-    "tegen": 4
+    "punten": 6,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 1,
+    "doelsaldo": 2,
+    "voor": 7,
+    "tegen": 5
   },
   {
     "positie": 5,
