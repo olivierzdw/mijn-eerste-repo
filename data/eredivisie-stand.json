@@ -53,6 +53,19 @@
   },
   {
     "positie": 5,
+    "club": "Feyenoord Rotterdam",
+    "logo": "https://crests.football-data.org/675.png",
+    "gespeeld": 3,
+    "punten": 5,
+    "gewonnen": 1,
+    "gelijk": 2,
+    "verloren": 0,
+    "doelsaldo": 1,
+    "voor": 3,
+    "tegen": 2
+  },
+  {
+    "positie": 6,
     "club": "Ajax",
     "logo": "https://crests.football-data.org/678.png",
     "gespeeld": 2,
@@ -65,7 +78,7 @@
     "tegen": 2
   },
   {
-    "positie": 6,
+    "positie": 7,
     "club": "Sparta",
     "logo": "https://crests.football-data.org/6806.png",
     "gespeeld": 3,
@@ -76,19 +89,6 @@
     "doelsaldo": 1,
     "voor": 6,
     "tegen": 5
-  },
-  {
-    "positie": 7,
-    "club": "Feyenoord Rotterdam",
-    "logo": "https://crests.football-data.org/675.png",
-    "gespeeld": 2,
-    "punten": 4,
-    "gewonnen": 1,
-    "gelijk": 1,
-    "verloren": 0,
-    "doelsaldo": 1,
-    "voor": 3,
-    "tegen": 2
   },
   {
     "positie": 8,
@@ -196,6 +196,19 @@
   },
   {
     "positie": 16,
+    "club": "SC Cambuur-Leeuwarden",
+    "logo": "https://crests.football-data.org/1909.png",
+    "gespeeld": 3,
+    "punten": 1,
+    "gewonnen": 0,
+    "gelijk": 1,
+    "verloren": 2,
+    "doelsaldo": -6,
+    "voor": 1,
+    "tegen": 7
+  },
+  {
+    "positie": 17,
     "club": "Willem II Tilburg",
     "logo": "https://crests.football-data.org/672.png",
     "gespeeld": 2,
@@ -206,19 +219,6 @@
     "doelsaldo": -6,
     "voor": 2,
     "tegen": 8
-  },
-  {
-    "positie": 17,
-    "club": "SC Cambuur-Leeuwarden",
-    "logo": "https://crests.football-data.org/1909.png",
-    "gespeeld": 2,
-    "punten": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 2,
-    "doelsaldo": -6,
-    "voor": 1,
-    "tegen": 7
   },
   {
     "positie": 18,
