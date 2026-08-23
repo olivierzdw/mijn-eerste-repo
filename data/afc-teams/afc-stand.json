@@ -14,6 +14,19 @@
   },
   {
     "positie": 2,
+    "club": "De Treffers",
+    "logo": "",
+    "gespeeld": 2,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 8,
+    "tegen": 1,
+    "doelsaldo": 7,
+    "punten": 6
+  },
+  {
+    "positie": 3,
     "club": "Quick Boys",
     "logo": "",
     "gespeeld": 2,
@@ -26,7 +39,7 @@
     "punten": 6
   },
   {
-    "positie": 3,
+    "positie": 4,
     "club": "HHC Hardenberg",
     "logo": "",
     "gespeeld": 2,
@@ -39,7 +52,7 @@
     "punten": 6
   },
   {
-    "positie": 4,
+    "positie": 5,
     "club": "Kloetinge",
     "logo": "",
     "gespeeld": 2,
@@ -52,7 +65,7 @@
     "punten": 4
   },
   {
-    "positie": 5,
+    "positie": 6,
     "club": "Hoek",
     "logo": "",
     "gespeeld": 2,
@@ -63,19 +76,6 @@
     "tegen": 2,
     "doelsaldo": 2,
     "punten": 4
-  },
-  {
-    "positie": 6,
-    "club": "De Treffers",
-    "logo": "",
-    "gespeeld": 1,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 5,
-    "tegen": 1,
-    "doelsaldo": 4,
-    "punten": 3
   },
   {
     "positie": 7,
@@ -183,19 +183,6 @@
   },
   {
     "positie": 15,
-    "club": "ROHDA Raalte",
-    "logo": "",
-    "gespeeld": 1,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 1,
-    "voor": 1,
-    "tegen": 6,
-    "doelsaldo": -5,
-    "punten": 0
-  },
-  {
-    "positie": 16,
     "club": "Kon. HFC",
     "logo": "",
     "gespeeld": 2,
@@ -208,7 +195,7 @@
     "punten": 0
   },
   {
-    "positie": 17,
+    "positie": 16,
     "club": "GVVV",
     "logo": "",
     "gespeeld": 2,
@@ -221,7 +208,7 @@
     "punten": 0
   },
   {
-    "positie": 18,
+    "positie": 17,
     "club": "Rijnsburgse Boys",
     "logo": "",
     "gespeeld": 2,
@@ -231,6 +218,19 @@
     "voor": 3,
     "tegen": 10,
     "doelsaldo": -7,
+    "punten": 0
+  },
+  {
+    "positie": 18,
+    "club": "ROHDA Raalte",
+    "logo": "",
+    "gespeeld": 2,
+    "gewonnen": 0,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 1,
+    "tegen": 9,
+    "doelsaldo": -8,
     "punten": 0
   }
 ]
