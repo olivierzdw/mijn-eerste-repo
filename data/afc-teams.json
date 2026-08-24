@@ -152,6 +152,14 @@
     "aantalMatches": 5
   },
   {
+    "slug": "afc-vr1",
+    "naam": "AFC VR1",
+    "soort": "Vrouwen",
+    "pouleId": "826375",
+    "heeftStand": true,
+    "aantalMatches": 4
+  },
+  {
     "slug": "afc-mo15-1",
     "naam": "AFC MO15-1",
     "soort": "Meisjes",
