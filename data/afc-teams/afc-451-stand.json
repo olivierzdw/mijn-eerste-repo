@@ -92,7 +92,7 @@
   },
   {
     "positie": 8,
-    "club": "GeuzenMiddenmeer 45+1",
+    "club": "CTO '70 vv 45+3",
     "logo": "",
     "gespeeld": 0,
     "gewonnen": 0,
@@ -105,7 +105,7 @@
   },
   {
     "positie": 9,
-    "club": "RAP sv. 45+1",
+    "club": "GeuzenMiddenmeer 45+1",
     "logo": "",
     "gespeeld": 0,
     "gewonnen": 0,
@@ -118,7 +118,7 @@
   },
   {
     "positie": 10,
-    "club": "Sporting Martinus 45+1",
+    "club": "RAP sv. 45+1",
     "logo": "",
     "gespeeld": 0,
     "gewonnen": 0,
@@ -131,6 +131,19 @@
   },
   {
     "positie": 11,
+    "club": "Sporting Martinus 45+1",
+    "logo": "",
+    "gespeeld": 0,
+    "gewonnen": 0,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 0,
+    "tegen": 0,
+    "doelsaldo": 0,
+    "punten": 0
+  },
+  {
+    "positie": 12,
     "club": "TABA afc 45+1",
     "logo": "images/afc.png",
     "gespeeld": 0,
@@ -143,7 +156,7 @@
     "punten": 0
   },
   {
-    "positie": 12,
+    "positie": 13,
     "club": "RKSV TOB 45+1",
     "logo": "",
     "gespeeld": 0,
@@ -156,7 +169,7 @@
     "punten": 0
   },
   {
-    "positie": 13,
+    "positie": 14,
     "club": "Wartburgia asv 45+2",
     "logo": "",
     "gespeeld": 0,
