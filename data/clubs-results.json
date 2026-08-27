@@ -1605,6 +1605,17 @@
       "uitLogo": "https://crests.football-data.org/92.png",
       "thuisScore": 1,
       "uitScore": 0
+    },
+    {
+      "id": 564631,
+      "datum": "wo 26 augustus",
+      "datumIso": "2026-08-26",
+      "thuis": "Real Madrid CF",
+      "thuisLogo": "https://crests.football-data.org/86.png",
+      "uit": "Real Sociedad de Fútbol",
+      "uitLogo": "https://crests.football-data.org/92.png",
+      "thuisScore": 4,
+      "uitScore": 1
     }
   ],
   "77": [
@@ -1756,6 +1767,17 @@
       "uitLogo": "https://crests.football-data.org/86.png",
       "thuisScore": 1,
       "uitScore": 2
+    },
+    {
+      "id": 564631,
+      "datum": "wo 26 augustus",
+      "datumIso": "2026-08-26",
+      "thuis": "Real Madrid CF",
+      "thuisLogo": "https://crests.football-data.org/86.png",
+      "uit": "Real Sociedad de Fútbol",
+      "uitLogo": "https://crests.football-data.org/92.png",
+      "thuisScore": 4,
+      "uitScore": 1
     },
     {
       "id": 551927,
