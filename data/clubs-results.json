@@ -1631,6 +1631,17 @@
       "uitScore": 3
     },
     {
+      "id": 564630,
+      "datum": "do 27 augustus",
+      "datumIso": "2026-08-27",
+      "thuis": "FC Barcelona",
+      "thuisLogo": "https://crests.football-data.org/81.png",
+      "uit": "Athletic Club",
+      "uitLogo": "https://crests.football-data.org/77.png",
+      "thuisScore": 2,
+      "uitScore": 0
+    },
+    {
       "id": 551981,
       "datum": "di 16 september",
       "datumIso": "2025-09-16",
@@ -1754,6 +1765,17 @@
       "uitLogo": "https://crests.football-data.org/558.png",
       "thuisScore": 0,
       "uitScore": 0
+    },
+    {
+      "id": 564636,
+      "datum": "do 27 augustus",
+      "datumIso": "2026-08-27",
+      "thuis": "RC Celta de Vigo",
+      "thuisLogo": "https://crests.football-data.org/558.png",
+      "uit": "CA Osasuna",
+      "uitLogo": "https://crests.football-data.org/79.png",
+      "thuisScore": 1,
+      "uitScore": 2
     }
   ],
   "86": [
@@ -1947,6 +1969,17 @@
       "uitScore": 5
     },
     {
+      "id": 564630,
+      "datum": "do 27 augustus",
+      "datumIso": "2026-08-27",
+      "thuis": "FC Barcelona",
+      "thuisLogo": "https://crests.football-data.org/81.png",
+      "uit": "Athletic Club",
+      "uitLogo": "https://crests.football-data.org/77.png",
+      "thuisScore": 2,
+      "uitScore": 0
+    },
+    {
       "id": 551958,
       "datum": "do 18 september",
       "datumIso": "2025-09-18",
@@ -2090,6 +2123,17 @@
       "uitLogo": "https://crests.football-data.org/88.png",
       "thuisScore": 0,
       "uitScore": 0
+    },
+    {
+      "id": 564636,
+      "datum": "do 27 augustus",
+      "datumIso": "2026-08-27",
+      "thuis": "RC Celta de Vigo",
+      "thuisLogo": "https://crests.football-data.org/558.png",
+      "uit": "CA Osasuna",
+      "uitLogo": "https://crests.football-data.org/79.png",
+      "thuisScore": 1,
+      "uitScore": 2
     }
   ],
   "115": [
