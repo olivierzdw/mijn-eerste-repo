@@ -92,19 +92,6 @@
   },
   {
     "positie": 8,
-    "club": "SMVC Fair Play 2",
-    "logo": "",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
-    "positie": 9,
     "club": "Swift 5",
     "logo": "",
     "gespeeld": 0,
@@ -117,7 +104,7 @@
     "punten": 0
   },
   {
-    "positie": 10,
+    "positie": 9,
     "club": "TABA afc 2",
     "logo": "images/afc.png",
     "gespeeld": 0,
@@ -130,7 +117,7 @@
     "punten": 0
   },
   {
-    "positie": 11,
+    "positie": 10,
     "club": "TOS-Actief 2",
     "logo": "",
     "gespeeld": 0,
