@@ -1,6 +1,45 @@
 [
   {
     "positie": 1,
+    "club": "Zuidoost United MO17-1",
+    "logo": "",
+    "gespeeld": 1,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 5,
+    "tegen": 0,
+    "doelsaldo": 5,
+    "punten": 3
+  },
+  {
+    "positie": 2,
+    "club": "RODA '23 Rksv MO17-1",
+    "logo": "",
+    "gespeeld": 1,
+    "gewonnen": 0,
+    "gelijk": 1,
+    "verloren": 0,
+    "voor": 1,
+    "tegen": 1,
+    "doelsaldo": 0,
+    "punten": 1
+  },
+  {
+    "positie": 3,
+    "club": "SDO MO17-1",
+    "logo": "",
+    "gespeeld": 1,
+    "gewonnen": 0,
+    "gelijk": 1,
+    "verloren": 0,
+    "voor": 1,
+    "tegen": 1,
+    "doelsaldo": 0,
+    "punten": 1
+  },
+  {
+    "positie": 4,
     "club": "Atletico Club Amsterdam MO17-1",
     "logo": "",
     "gespeeld": 0,
@@ -13,7 +52,7 @@
     "punten": 0
   },
   {
-    "positie": 2,
+    "positie": 5,
     "club": "AFC MO17-1",
     "logo": "images/afc.png",
     "gespeeld": 0,
@@ -26,47 +65,8 @@
     "punten": 0
   },
   {
-    "positie": 3,
-    "club": "Almere FC MO17-1",
-    "logo": "",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
-    "positie": 4,
-    "club": "Always Forward MO17-1",
-    "logo": "",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
-    "positie": 5,
-    "club": "RODA '23 Rksv MO17-1",
-    "logo": "",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
     "positie": 6,
-    "club": "SDO MO17-1",
+    "club": "Almere FC MO17-1",
     "logo": "",
     "gespeeld": 0,
     "gewonnen": 0,
@@ -92,15 +92,15 @@
   },
   {
     "positie": 8,
-    "club": "Zuidoost United MO17-1",
+    "club": "Always Forward MO17-1",
     "logo": "",
-    "gespeeld": 0,
+    "gespeeld": 1,
     "gewonnen": 0,
     "gelijk": 0,
-    "verloren": 0,
+    "verloren": 1,
     "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
+    "tegen": 5,
+    "doelsaldo": -5,
     "punten": 0
   }
 ]
