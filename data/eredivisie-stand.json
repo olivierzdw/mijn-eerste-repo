@@ -3,30 +3,30 @@
     "positie": 1,
     "club": "AZ",
     "logo": "https://crests.football-data.org/682.png",
-    "gespeeld": 3,
-    "punten": 9,
+    "gespeeld": 4,
+    "punten": 10,
     "gewonnen": 3,
-    "gelijk": 0,
+    "gelijk": 1,
     "verloren": 0,
     "doelsaldo": 7,
-    "voor": 8,
-    "tegen": 1
+    "voor": 9,
+    "tegen": 2
   },
   {
     "positie": 2,
     "club": "Go Ahead Eagles",
     "logo": "https://crests.football-data.org/718.png",
-    "gespeeld": 3,
-    "punten": 7,
+    "gespeeld": 4,
+    "punten": 8,
     "gewonnen": 2,
-    "gelijk": 1,
+    "gelijk": 2,
     "verloren": 0,
     "doelsaldo": 5,
-    "voor": 9,
-    "tegen": 4
+    "voor": 10,
+    "tegen": 5
   },
   {
-    "positie": 2,
+    "positie": 3,
     "club": "PSV",
     "logo": "https://crests.football-data.org/674.png",
     "gespeeld": 3,
@@ -66,6 +66,19 @@
   },
   {
     "positie": 6,
+    "club": "SBV Excelsior",
+    "logo": "https://crests.football-data.org/670.png",
+    "gespeeld": 3,
+    "punten": 6,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 1,
+    "doelsaldo": 4,
+    "voor": 7,
+    "tegen": 3
+  },
+  {
+    "positie": 7,
     "club": "Groningen",
     "logo": "https://crests.football-data.org/677.png",
     "gespeeld": 4,
@@ -78,7 +91,7 @@
     "tegen": 10
   },
   {
-    "positie": 7,
+    "positie": 8,
     "club": "Ajax",
     "logo": "https://crests.football-data.org/678.png",
     "gespeeld": 2,
@@ -91,20 +104,20 @@
     "tegen": 2
   },
   {
-    "positie": 8,
+    "positie": 9,
     "club": "Sparta",
     "logo": "https://crests.football-data.org/6806.png",
-    "gespeeld": 3,
+    "gespeeld": 4,
     "punten": 4,
     "gewonnen": 1,
     "gelijk": 1,
-    "verloren": 1,
-    "doelsaldo": 1,
-    "voor": 6,
-    "tegen": 5
+    "verloren": 2,
+    "doelsaldo": 0,
+    "voor": 7,
+    "tegen": 7
   },
   {
-    "positie": 9,
+    "positie": 10,
     "club": "Heerenveen",
     "logo": "https://crests.football-data.org/673.png",
     "gespeeld": 3,
@@ -115,19 +128,6 @@
     "doelsaldo": -1,
     "voor": 3,
     "tegen": 4
-  },
-  {
-    "positie": 10,
-    "club": "SBV Excelsior",
-    "logo": "https://crests.football-data.org/670.png",
-    "gespeeld": 2,
-    "punten": 3,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 1,
-    "doelsaldo": 3,
-    "voor": 5,
-    "tegen": 2
   },
   {
     "positie": 11,
