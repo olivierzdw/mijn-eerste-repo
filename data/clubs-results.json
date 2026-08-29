@@ -292,6 +292,17 @@
       "uitLogo": "https://crests.football-data.org/354.png",
       "thuisScore": 2,
       "uitScore": 0
+    },
+    {
+      "id": 560555,
+      "datum": "vr 28 augustus",
+      "datumIso": "2026-08-28",
+      "thuis": "Crystal Palace FC",
+      "thuisLogo": "https://crests.football-data.org/354.png",
+      "uit": "Manchester City FC",
+      "uitLogo": "https://crests.football-data.org/65.png",
+      "thuisScore": 1,
+      "uitScore": 4
     }
   ],
   "402": [
@@ -441,6 +452,17 @@
       "uitLogo": "https://crests.football-data.org/bournemouth.png",
       "thuisScore": 2,
       "uitScore": 1
+    },
+    {
+      "id": 560555,
+      "datum": "vr 28 augustus",
+      "datumIso": "2026-08-28",
+      "thuis": "Crystal Palace FC",
+      "thuisLogo": "https://crests.football-data.org/354.png",
+      "uit": "Manchester City FC",
+      "uitLogo": "https://crests.football-data.org/65.png",
+      "thuisScore": 1,
+      "uitScore": 4
     },
     {
       "id": 551965,
@@ -1040,6 +1062,17 @@
       "uitLogo": "https://crests.football-data.org/263.png",
       "thuisScore": 1,
       "uitScore": 1
+    },
+    {
+      "id": 564648,
+      "datum": "vr 28 augustus",
+      "datumIso": "2026-08-28",
+      "thuis": "Deportivo Alavés",
+      "thuisLogo": "https://crests.football-data.org/263.png",
+      "uit": "Villarreal CF",
+      "uitLogo": "https://crests.football-data.org/94.png",
+      "thuisScore": 1,
+      "uitScore": 0
     }
   ],
   "82": [
@@ -1136,6 +1169,17 @@
       "uitLogo": "https://crests.football-data.org/5335.png",
       "thuisScore": 1,
       "uitScore": 0
+    },
+    {
+      "id": 564654,
+      "datum": "vr 28 augustus",
+      "datumIso": "2026-08-28",
+      "thuis": "Real Racing Club de Santander",
+      "thuisLogo": "https://crests.football-data.org/5335.png",
+      "uit": "Elche CF",
+      "uitLogo": "https://crests.football-data.org/285.png",
+      "thuisScore": 3,
+      "uitScore": 2
     }
   ],
   "94": [
@@ -1160,6 +1204,17 @@
       "uitLogo": "https://crests.football-data.org/94.png",
       "thuisScore": 2,
       "uitScore": 2
+    },
+    {
+      "id": 564648,
+      "datum": "vr 28 augustus",
+      "datumIso": "2026-08-28",
+      "thuis": "Deportivo Alavés",
+      "thuisLogo": "https://crests.football-data.org/263.png",
+      "uit": "Villarreal CF",
+      "uitLogo": "https://crests.football-data.org/94.png",
+      "thuisScore": 1,
+      "uitScore": 0
     },
     {
       "id": 552012,
@@ -1344,6 +1399,17 @@
       "uitLogo": "https://crests.football-data.org/81.png",
       "thuisScore": 0,
       "uitScore": 5
+    },
+    {
+      "id": 564654,
+      "datum": "vr 28 augustus",
+      "datumIso": "2026-08-28",
+      "thuis": "Real Racing Club de Santander",
+      "thuisLogo": "https://crests.football-data.org/5335.png",
+      "uit": "Elche CF",
+      "uitLogo": "https://crests.football-data.org/285.png",
+      "thuisScore": 3,
+      "uitScore": 2
     }
   ],
   "78": [
@@ -2136,6 +2202,186 @@
       "uitScore": 2
     }
   ],
+  "5": [
+    {
+      "id": 565776,
+      "datum": "vr 28 augustus",
+      "datumIso": "2026-08-28",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "VfB Stuttgart",
+      "uitLogo": "https://crests.football-data.org/10.png",
+      "thuisScore": 5,
+      "uitScore": 1
+    },
+    {
+      "id": 551908,
+      "datum": "wo 17 september",
+      "datumIso": "2025-09-17",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "Chelsea FC",
+      "uitLogo": "https://crests.football-data.org/61.png",
+      "thuisScore": 3,
+      "uitScore": 1
+    },
+    {
+      "id": 551915,
+      "datum": "di 30 september",
+      "datumIso": "2025-09-30",
+      "thuis": "Paphos FC",
+      "thuisLogo": "https://crests.football-data.org/11034.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png",
+      "thuisScore": 1,
+      "uitScore": 5
+    },
+    {
+      "id": 551910,
+      "datum": "wo 22 oktober",
+      "datumIso": "2025-10-22",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "Club Brugge KV",
+      "uitLogo": "https://crests.football-data.org/851.png",
+      "thuisScore": 4,
+      "uitScore": 0
+    },
+    {
+      "id": 551909,
+      "datum": "di 4 november",
+      "datumIso": "2025-11-04",
+      "thuis": "Paris Saint-Germain FC",
+      "thuisLogo": "https://crests.football-data.org/524.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png",
+      "thuisScore": 1,
+      "uitScore": 2
+    },
+    {
+      "id": 551911,
+      "datum": "wo 26 november",
+      "datumIso": "2025-11-26",
+      "thuis": "Arsenal FC",
+      "thuisLogo": "https://crests.football-data.org/57.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png",
+      "thuisScore": 3,
+      "uitScore": 1
+    },
+    {
+      "id": 551912,
+      "datum": "di 9 december",
+      "datumIso": "2025-12-09",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "Sporting Clube de Portugal",
+      "uitLogo": "https://crests.football-data.org/498.png",
+      "thuisScore": 3,
+      "uitScore": 1
+    },
+    {
+      "id": 551914,
+      "datum": "wo 21 januari",
+      "datumIso": "2026-01-21",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "Royale Union Saint-Gilloise",
+      "uitLogo": "https://crests.football-data.org/3929.png",
+      "thuisScore": 2,
+      "uitScore": 0
+    },
+    {
+      "id": 551913,
+      "datum": "wo 28 januari",
+      "datumIso": "2026-01-28",
+      "thuis": "PSV",
+      "thuisLogo": "https://crests.football-data.org/674.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png",
+      "thuisScore": 1,
+      "uitScore": 2
+    },
+    {
+      "id": 552071,
+      "datum": "di 10 maart",
+      "datumIso": "2026-03-10",
+      "thuis": "Atalanta BC",
+      "thuisLogo": "https://crests.football-data.org/102.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png",
+      "thuisScore": 1,
+      "uitScore": 6
+    },
+    {
+      "id": 552079,
+      "datum": "wo 18 maart",
+      "datumIso": "2026-03-18",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "Atalanta BC",
+      "uitLogo": "https://crests.football-data.org/102.png",
+      "thuisScore": 4,
+      "uitScore": 1
+    },
+    {
+      "id": 556719,
+      "datum": "di 7 april",
+      "datumIso": "2026-04-07",
+      "thuis": "Real Madrid CF",
+      "thuisLogo": "https://crests.football-data.org/86.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png",
+      "thuisScore": 1,
+      "uitScore": 2
+    },
+    {
+      "id": 556723,
+      "datum": "wo 15 april",
+      "datumIso": "2026-04-15",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "Real Madrid CF",
+      "uitLogo": "https://crests.football-data.org/86.png",
+      "thuisScore": 4,
+      "uitScore": 3
+    },
+    {
+      "id": 552092,
+      "datum": "di 28 april",
+      "datumIso": "2026-04-28",
+      "thuis": "Paris Saint-Germain FC",
+      "thuisLogo": "https://crests.football-data.org/524.png",
+      "uit": "FC Bayern München",
+      "uitLogo": "https://crests.football-data.org/5.png",
+      "thuisScore": 5,
+      "uitScore": 4
+    },
+    {
+      "id": 552094,
+      "datum": "wo 6 mei",
+      "datumIso": "2026-05-06",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "Paris Saint-Germain FC",
+      "uitLogo": "https://crests.football-data.org/524.png",
+      "thuisScore": 1,
+      "uitScore": 1
+    }
+  ],
+  "10": [
+    {
+      "id": 565776,
+      "datum": "vr 28 augustus",
+      "datumIso": "2026-08-28",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "VfB Stuttgart",
+      "uitLogo": "https://crests.football-data.org/10.png",
+      "thuisScore": 5,
+      "uitScore": 1
+    }
+  ],
   "115": [
     {
       "id": 558629,
@@ -2585,6 +2831,17 @@
       "uitLogo": "https://crests.football-data.org/5890.png",
       "thuisScore": 0,
       "uitScore": 2
+    },
+    {
+      "id": 558625,
+      "datum": "vr 28 augustus",
+      "datumIso": "2026-08-28",
+      "thuis": "AC Milan",
+      "thuisLogo": "https://crests.football-data.org/98.png",
+      "uit": "Venezia FC",
+      "uitLogo": "https://crests.football-data.org/454.png",
+      "thuisScore": 2,
+      "uitScore": 0
     }
   ],
   "5890": [
@@ -2782,6 +3039,17 @@
       "uitLogo": "https://crests.football-data.org/98.png",
       "thuisScore": 1,
       "uitScore": 2
+    },
+    {
+      "id": 558625,
+      "datum": "vr 28 augustus",
+      "datumIso": "2026-08-28",
+      "thuis": "AC Milan",
+      "thuisLogo": "https://crests.football-data.org/98.png",
+      "uit": "Venezia FC",
+      "uitLogo": "https://crests.football-data.org/454.png",
+      "thuisScore": 2,
+      "uitScore": 0
     }
   ],
   "103": [
@@ -3104,6 +3372,17 @@
       "uitLogo": "https://crests.football-data.org/521.png",
       "thuisScore": 0,
       "uitScore": 2
+    },
+    {
+      "id": 559702,
+      "datum": "vr 28 augustus",
+      "datumIso": "2026-08-28",
+      "thuis": "Lille OSC",
+      "thuisLogo": "https://crests.football-data.org/521.png",
+      "uit": "Paris Saint-Germain FC",
+      "uitLogo": "https://crests.football-data.org/524.png",
+      "thuisScore": 2,
+      "uitScore": 2
     }
   ],
   "533": [
@@ -3262,6 +3541,17 @@
       "datumIso": "2026-08-23",
       "thuis": "Stade Rennais FC 1901",
       "thuisLogo": "https://crests.football-data.org/529.png",
+      "uit": "Paris Saint-Germain FC",
+      "uitLogo": "https://crests.football-data.org/524.png",
+      "thuisScore": 2,
+      "uitScore": 2
+    },
+    {
+      "id": 559702,
+      "datum": "vr 28 augustus",
+      "datumIso": "2026-08-28",
+      "thuis": "Lille OSC",
+      "thuisLogo": "https://crests.football-data.org/521.png",
       "uit": "Paris Saint-Germain FC",
       "uitLogo": "https://crests.football-data.org/524.png",
       "thuisScore": 2,
@@ -3777,6 +4067,17 @@
       "uitLogo": "https://crests.football-data.org/682.png",
       "thuisScore": 0,
       "uitScore": 2
+    },
+    {
+      "id": 558241,
+      "datum": "vr 28 augustus",
+      "datumIso": "2026-08-28",
+      "thuis": "FC Groningen",
+      "thuisLogo": "https://crests.football-data.org/677.png",
+      "uit": "Fortuna Sittard",
+      "uitLogo": "https://crests.football-data.org/1920.png",
+      "thuisScore": 2,
+      "uitScore": 3
     }
   ],
   "682": [
@@ -3952,6 +4253,17 @@
       "uitLogo": "https://crests.football-data.org/677.png",
       "thuisScore": 5,
       "uitScore": 1
+    },
+    {
+      "id": 558241,
+      "datum": "vr 28 augustus",
+      "datumIso": "2026-08-28",
+      "thuis": "FC Groningen",
+      "thuisLogo": "https://crests.football-data.org/677.png",
+      "uit": "Fortuna Sittard",
+      "uitLogo": "https://crests.football-data.org/1920.png",
+      "thuisScore": 2,
+      "uitScore": 3
     }
   ],
   "676": [
@@ -4464,6 +4776,17 @@
       "uitScore": 1
     },
     {
+      "id": 567291,
+      "datum": "vr 28 augustus",
+      "datumIso": "2026-08-28",
+      "thuis": "Rio Ave FC",
+      "thuisLogo": "https://crests.football-data.org/496.png",
+      "uit": "Sporting Clube de Portugal",
+      "uitLogo": "https://crests.football-data.org/498.png",
+      "thuisScore": 0,
+      "uitScore": 4
+    },
+    {
       "id": 552027,
       "datum": "do 18 september",
       "datumIso": "2025-09-18",
@@ -4760,6 +5083,17 @@
       "uitLogo": "https://crests.football-data.org/496.png",
       "thuisScore": 0,
       "uitScore": 2
+    },
+    {
+      "id": 567291,
+      "datum": "vr 28 augustus",
+      "datumIso": "2026-08-28",
+      "thuis": "Rio Ave FC",
+      "thuisLogo": "https://crests.football-data.org/496.png",
+      "uit": "Sporting Clube de Portugal",
+      "uitLogo": "https://crests.football-data.org/498.png",
+      "thuisScore": 0,
+      "uitScore": 4
     }
   ],
   "1903": [
@@ -10641,6 +10975,17 @@
       "uitLogo": "https://crests.football-data.org/387.png",
       "thuisScore": 2,
       "uitScore": 2
+    },
+    {
+      "id": 561796,
+      "datum": "vr 28 augustus",
+      "datumIso": "2026-08-28",
+      "thuis": "Wrexham AFC",
+      "thuisLogo": "https://crests.football-data.org/404.png",
+      "uit": "Birmingham City FC",
+      "uitLogo": "https://crests.football-data.org/332.png",
+      "thuisScore": 1,
+      "uitScore": 2
     }
   ],
   "346": [
@@ -10785,6 +11130,17 @@
       "uitLogo": "https://crests.football-data.org/346.png",
       "thuisScore": 1,
       "uitScore": 1
+    },
+    {
+      "id": 561796,
+      "datum": "vr 28 augustus",
+      "datumIso": "2026-08-28",
+      "thuis": "Wrexham AFC",
+      "thuisLogo": "https://crests.football-data.org/404.png",
+      "uit": "Birmingham City FC",
+      "uitLogo": "https://crests.football-data.org/332.png",
+      "thuisScore": 1,
+      "uitScore": 2
     }
   ],
   "3929": [
@@ -11524,162 +11880,6 @@
       "uit": "SK Slavia Praha",
       "uitLogo": "https://crests.football-data.org/930.png",
       "thuisScore": 4,
-      "uitScore": 1
-    }
-  ],
-  "5": [
-    {
-      "id": 551908,
-      "datum": "wo 17 september",
-      "datumIso": "2025-09-17",
-      "thuis": "FC Bayern München",
-      "thuisLogo": "https://crests.football-data.org/5.png",
-      "uit": "Chelsea FC",
-      "uitLogo": "https://crests.football-data.org/61.png",
-      "thuisScore": 3,
-      "uitScore": 1
-    },
-    {
-      "id": 551915,
-      "datum": "di 30 september",
-      "datumIso": "2025-09-30",
-      "thuis": "Paphos FC",
-      "thuisLogo": "https://crests.football-data.org/11034.png",
-      "uit": "FC Bayern München",
-      "uitLogo": "https://crests.football-data.org/5.png",
-      "thuisScore": 1,
-      "uitScore": 5
-    },
-    {
-      "id": 551910,
-      "datum": "wo 22 oktober",
-      "datumIso": "2025-10-22",
-      "thuis": "FC Bayern München",
-      "thuisLogo": "https://crests.football-data.org/5.png",
-      "uit": "Club Brugge KV",
-      "uitLogo": "https://crests.football-data.org/851.png",
-      "thuisScore": 4,
-      "uitScore": 0
-    },
-    {
-      "id": 551909,
-      "datum": "di 4 november",
-      "datumIso": "2025-11-04",
-      "thuis": "Paris Saint-Germain FC",
-      "thuisLogo": "https://crests.football-data.org/524.png",
-      "uit": "FC Bayern München",
-      "uitLogo": "https://crests.football-data.org/5.png",
-      "thuisScore": 1,
-      "uitScore": 2
-    },
-    {
-      "id": 551911,
-      "datum": "wo 26 november",
-      "datumIso": "2025-11-26",
-      "thuis": "Arsenal FC",
-      "thuisLogo": "https://crests.football-data.org/57.png",
-      "uit": "FC Bayern München",
-      "uitLogo": "https://crests.football-data.org/5.png",
-      "thuisScore": 3,
-      "uitScore": 1
-    },
-    {
-      "id": 551912,
-      "datum": "di 9 december",
-      "datumIso": "2025-12-09",
-      "thuis": "FC Bayern München",
-      "thuisLogo": "https://crests.football-data.org/5.png",
-      "uit": "Sporting Clube de Portugal",
-      "uitLogo": "https://crests.football-data.org/498.png",
-      "thuisScore": 3,
-      "uitScore": 1
-    },
-    {
-      "id": 551914,
-      "datum": "wo 21 januari",
-      "datumIso": "2026-01-21",
-      "thuis": "FC Bayern München",
-      "thuisLogo": "https://crests.football-data.org/5.png",
-      "uit": "Royale Union Saint-Gilloise",
-      "uitLogo": "https://crests.football-data.org/3929.png",
-      "thuisScore": 2,
-      "uitScore": 0
-    },
-    {
-      "id": 551913,
-      "datum": "wo 28 januari",
-      "datumIso": "2026-01-28",
-      "thuis": "PSV",
-      "thuisLogo": "https://crests.football-data.org/674.png",
-      "uit": "FC Bayern München",
-      "uitLogo": "https://crests.football-data.org/5.png",
-      "thuisScore": 1,
-      "uitScore": 2
-    },
-    {
-      "id": 552071,
-      "datum": "di 10 maart",
-      "datumIso": "2026-03-10",
-      "thuis": "Atalanta BC",
-      "thuisLogo": "https://crests.football-data.org/102.png",
-      "uit": "FC Bayern München",
-      "uitLogo": "https://crests.football-data.org/5.png",
-      "thuisScore": 1,
-      "uitScore": 6
-    },
-    {
-      "id": 552079,
-      "datum": "wo 18 maart",
-      "datumIso": "2026-03-18",
-      "thuis": "FC Bayern München",
-      "thuisLogo": "https://crests.football-data.org/5.png",
-      "uit": "Atalanta BC",
-      "uitLogo": "https://crests.football-data.org/102.png",
-      "thuisScore": 4,
-      "uitScore": 1
-    },
-    {
-      "id": 556719,
-      "datum": "di 7 april",
-      "datumIso": "2026-04-07",
-      "thuis": "Real Madrid CF",
-      "thuisLogo": "https://crests.football-data.org/86.png",
-      "uit": "FC Bayern München",
-      "uitLogo": "https://crests.football-data.org/5.png",
-      "thuisScore": 1,
-      "uitScore": 2
-    },
-    {
-      "id": 556723,
-      "datum": "wo 15 april",
-      "datumIso": "2026-04-15",
-      "thuis": "FC Bayern München",
-      "thuisLogo": "https://crests.football-data.org/5.png",
-      "uit": "Real Madrid CF",
-      "uitLogo": "https://crests.football-data.org/86.png",
-      "thuisScore": 4,
-      "uitScore": 3
-    },
-    {
-      "id": 552092,
-      "datum": "di 28 april",
-      "datumIso": "2026-04-28",
-      "thuis": "Paris Saint-Germain FC",
-      "thuisLogo": "https://crests.football-data.org/524.png",
-      "uit": "FC Bayern München",
-      "uitLogo": "https://crests.football-data.org/5.png",
-      "thuisScore": 5,
-      "uitScore": 4
-    },
-    {
-      "id": 552094,
-      "datum": "wo 6 mei",
-      "datumIso": "2026-05-06",
-      "thuis": "FC Bayern München",
-      "thuisLogo": "https://crests.football-data.org/5.png",
-      "uit": "Paris Saint-Germain FC",
-      "uitLogo": "https://crests.football-data.org/524.png",
-      "thuisScore": 1,
       "uitScore": 1
     }
   ],
