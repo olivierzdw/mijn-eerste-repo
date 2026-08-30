@@ -40,6 +40,19 @@
   },
   {
     "positie": 4,
+    "club": "Ajax",
+    "logo": "https://crests.football-data.org/678.png",
+    "gespeeld": 3,
+    "punten": 7,
+    "gewonnen": 2,
+    "gelijk": 1,
+    "verloren": 0,
+    "doelsaldo": 6,
+    "voor": 8,
+    "tegen": 2
+  },
+  {
+    "positie": 5,
     "club": "Go Ahead Eagles",
     "logo": "https://crests.football-data.org/718.png",
     "gespeeld": 4,
@@ -52,7 +65,7 @@
     "tegen": 9
   },
   {
-    "positie": 5,
+    "positie": 6,
     "club": "Fortuna Sittard",
     "logo": "https://crests.football-data.org/1920.png",
     "gespeeld": 4,
@@ -65,7 +78,7 @@
     "tegen": 7
   },
   {
-    "positie": 6,
+    "positie": 7,
     "club": "NEC",
     "logo": "https://crests.football-data.org/1915.png",
     "gespeeld": 3,
@@ -78,7 +91,7 @@
     "tegen": 4
   },
   {
-    "positie": 7,
+    "positie": 8,
     "club": "SBV Excelsior",
     "logo": "https://crests.football-data.org/670.png",
     "gespeeld": 3,
@@ -91,7 +104,7 @@
     "tegen": 3
   },
   {
-    "positie": 8,
+    "positie": 9,
     "club": "Groningen",
     "logo": "https://crests.football-data.org/677.png",
     "gespeeld": 4,
@@ -102,19 +115,6 @@
     "doelsaldo": -1,
     "voor": 9,
     "tegen": 10
-  },
-  {
-    "positie": 9,
-    "club": "Ajax",
-    "logo": "https://crests.football-data.org/678.png",
-    "gespeeld": 3,
-    "punten": 5,
-    "gewonnen": 1,
-    "gelijk": 2,
-    "verloren": 0,
-    "doelsaldo": 2,
-    "voor": 4,
-    "tegen": 2
   },
   {
     "positie": 10,
@@ -131,6 +131,19 @@
   },
   {
     "positie": 11,
+    "club": "FC Twente '65",
+    "logo": "https://crests.football-data.org/666.png",
+    "gespeeld": 3,
+    "punten": 4,
+    "gewonnen": 1,
+    "gelijk": 1,
+    "verloren": 1,
+    "doelsaldo": 1,
+    "voor": 3,
+    "tegen": 2
+  },
+  {
+    "positie": 12,
     "club": "Sparta",
     "logo": "https://crests.football-data.org/6806.png",
     "gespeeld": 4,
@@ -143,33 +156,7 @@
     "tegen": 7
   },
   {
-    "positie": 12,
-    "club": "Telstar 1963",
-    "logo": "https://crests.football-data.org/1912.png",
-    "gespeeld": 3,
-    "punten": 4,
-    "gewonnen": 1,
-    "gelijk": 1,
-    "verloren": 1,
-    "doelsaldo": -1,
-    "voor": 3,
-    "tegen": 4
-  },
-  {
     "positie": 13,
-    "club": "FC Twente '65",
-    "logo": "https://crests.football-data.org/666.png",
-    "gespeeld": 2,
-    "punten": 3,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 1,
-    "doelsaldo": 1,
-    "voor": 3,
-    "tegen": 2
-  },
-  {
-    "positie": 14,
     "club": "PEC Zwolle",
     "logo": "https://crests.football-data.org/684.png",
     "gespeeld": 4,
@@ -179,6 +166,19 @@
     "verloren": 3,
     "doelsaldo": -4,
     "voor": 4,
+    "tegen": 8
+  },
+  {
+    "positie": 14,
+    "club": "Telstar 1963",
+    "logo": "https://crests.football-data.org/1912.png",
+    "gespeeld": 3,
+    "punten": 3,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 2,
+    "doelsaldo": -5,
+    "voor": 3,
     "tegen": 8
   },
   {
@@ -224,10 +224,10 @@
     "positie": 18,
     "club": "SC Cambuur-Leeuwarden",
     "logo": "https://crests.football-data.org/1909.png",
-    "gespeeld": 3,
-    "punten": 0,
+    "gespeeld": 4,
+    "punten": 1,
     "gewonnen": 0,
-    "gelijk": 0,
+    "gelijk": 1,
     "verloren": 3,
     "doelsaldo": -9,
     "voor": 3,

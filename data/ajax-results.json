@@ -18,5 +18,15 @@
     "uitLogo": "https://crests.football-data.org/673.png",
     "thuisScore": 2,
     "uitScore": 2
+  },
+  {
+    "id": 558248,
+    "datum": "zo 30 augustus",
+    "thuis": "Telstar 1963",
+    "thuisLogo": "https://crests.football-data.org/1912.png",
+    "uit": "Ajax",
+    "uitLogo": "https://crests.football-data.org/678.png",
+    "thuisScore": 0,
+    "uitScore": 4
   }
 ]
