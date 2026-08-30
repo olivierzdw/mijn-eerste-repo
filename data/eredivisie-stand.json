@@ -16,14 +16,14 @@
     "positie": 2,
     "club": "PSV",
     "logo": "https://crests.football-data.org/674.png",
-    "gespeeld": 3,
-    "punten": 7,
+    "gespeeld": 4,
+    "punten": 8,
     "gewonnen": 2,
-    "gelijk": 1,
+    "gelijk": 2,
     "verloren": 0,
     "doelsaldo": 5,
-    "voor": 9,
-    "tegen": 4
+    "voor": 10,
+    "tegen": 5
   },
   {
     "positie": 3,
@@ -185,14 +185,14 @@
     "positie": 15,
     "club": "FC Utrecht",
     "logo": "https://crests.football-data.org/676.png",
-    "gespeeld": 3,
-    "punten": 1,
+    "gespeeld": 4,
+    "punten": 2,
     "gewonnen": 0,
-    "gelijk": 1,
+    "gelijk": 2,
     "verloren": 2,
     "doelsaldo": -4,
-    "voor": 5,
-    "tegen": 9
+    "voor": 6,
+    "tegen": 10
   },
   {
     "positie": 16,
