@@ -560,14 +560,6 @@
     "competitieNaam": "Serie A"
   },
   {
-    "id": 1876,
-    "naam": "FC København",
-    "logo": "https://crests.football-data.org/1876.png",
-    "land": "Denmark",
-    "competitie": "CL",
-    "competitieNaam": "Champions League"
-  },
-  {
     "id": 525,
     "naam": "FC Lorient",
     "logo": "https://crests.football-data.org/525.png",
@@ -616,10 +608,18 @@
     "competitieNaam": "Champions League"
   },
   {
-    "id": 10601,
-    "naam": "FK Kairat",
-    "logo": "https://crests.football-data.org/10601.png",
-    "land": "Kazakhstan",
+    "id": 1887,
+    "naam": "FK Shakhtar Donetsk",
+    "logo": "https://crests.football-data.org/1887.png",
+    "land": "Ukraine",
+    "competitie": "CL",
+    "competitieNaam": "Champions League"
+  },
+  {
+    "id": 613,
+    "naam": "Fenerbahçe SK",
+    "logo": "https://crests.football-data.org/613.png",
+    "land": "Turkey",
     "competitie": "CL",
     "competitieNaam": "Champions League"
   },
@@ -750,6 +750,14 @@
     "land": "Italy",
     "competitie": "SA",
     "competitieNaam": "Serie A"
+  },
+  {
+    "id": 2016,
+    "naam": "LASK Linz",
+    "logo": "https://crests.football-data.org/2016.png",
+    "land": "Austria",
+    "competitie": "CL",
+    "competitieNaam": "Champions League"
   },
   {
     "id": 533,
@@ -920,9 +928,9 @@
     "competitieNaam": "Ligue 1"
   },
   {
-    "id": 654,
-    "naam": "PAE Olympiakos SFP",
-    "logo": "https://crests.football-data.org/654.png",
+    "id": 1899,
+    "naam": "PAE AEK",
+    "logo": "https://crests.football-data.org/1899.png",
     "land": "Greece",
     "competitie": "CL",
     "competitieNaam": "Champions League"
@@ -942,14 +950,6 @@
     "land": "Netherlands",
     "competitie": "DED",
     "competitieNaam": "Eredivisie"
-  },
-  {
-    "id": 11034,
-    "naam": "Paphos FC",
-    "logo": "https://crests.football-data.org/11034.png",
-    "land": "Cyprus",
-    "competitie": "CL",
-    "competitieNaam": "Champions League"
   },
   {
     "id": 1045,
@@ -990,14 +990,6 @@
     "land": "England",
     "competitie": "ELC",
     "competitieNaam": "Championship"
-  },
-  {
-    "id": 611,
-    "naam": "Qarabağ Ağdam FK",
-    "logo": "https://crests.football-data.org/611.png",
-    "land": "Azerbaijan",
-    "competitie": "CL",
-    "competitieNaam": "Champions League"
   },
   {
     "id": 69,
@@ -1112,14 +1104,6 @@
     "competitieNaam": "Primeira Liga"
   },
   {
-    "id": 3929,
-    "naam": "Royale Union Saint-Gilloise",
-    "logo": "https://crests.football-data.org/3929.png",
-    "land": "Belgium",
-    "competitie": "CL",
-    "competitieNaam": "Champions League"
-  },
-  {
     "id": 670,
     "naam": "SBV Excelsior",
     "logo": "https://crests.football-data.org/670.png",
@@ -1222,6 +1206,14 @@
     "land": "Germany",
     "competitie": "BL1",
     "competitieNaam": "Bundesliga"
+  },
+  {
+    "id": 10233,
+    "naam": "Sabah FK",
+    "logo": "https://crests.football-data.org/10233.png",
+    "land": "Azerbaijan",
+    "competitie": "CL",
+    "competitieNaam": "Champions League"
   },
   {
     "id": 6685,
@@ -1424,6 +1416,14 @@
     "competitieNaam": "Bundesliga"
   },
   {
+    "id": 5720,
+    "naam": "Viking FK",
+    "logo": "https://crests.football-data.org/5720.png",
+    "land": "Norway",
+    "competitie": "CL",
+    "competitieNaam": "Champions League"
+  },
+  {
     "id": 94,
     "naam": "Villarreal CF",
     "logo": "https://crests.football-data.org/94.png",
@@ -1486,5 +1486,13 @@
     "land": "Wales",
     "competitie": "ELC",
     "competitieNaam": "Championship"
+  },
+  {
+    "id": 7509,
+    "naam": "ŠK Slovan Bratislava",
+    "logo": "https://crests.football-data.org/7509.png",
+    "land": "Slovakia",
+    "competitie": "CL",
+    "competitieNaam": "Champions League"
   }
 ]
