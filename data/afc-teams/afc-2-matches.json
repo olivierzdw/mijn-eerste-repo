@@ -1,12 +1,5 @@
 [
   {
-    "datum": "di 1 september 20:45",
-    "thuis": "BOL 2",
-    "thuisLogo": "",
-    "uit": "AFC 2",
-    "uitLogo": "images/afc.png"
-  },
-  {
     "datum": "za 5 september 14:15",
     "thuis": "AFC 2",
     "thuisLogo": "images/afc.png",
@@ -33,5 +26,12 @@
     "thuisLogo": "images/afc.png",
     "uit": "Swift 4",
     "uitLogo": ""
+  },
+  {
+    "datum": "za 3 oktober 10:30",
+    "thuis": "Almere FC 2",
+    "thuisLogo": "",
+    "uit": "AFC 2",
+    "uitLogo": "images/afc.png"
   }
 ]
