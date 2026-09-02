@@ -53,7 +53,7 @@
   },
   {
     "positie": 5,
-    "club": "Velsen Rkvv O11-4",
+    "club": "SDZ MO11-1",
     "logo": "",
     "gespeeld": 0,
     "gewonnen": 0,
@@ -66,7 +66,7 @@
   },
   {
     "positie": 6,
-    "club": "VVA/Spartaan O11-4",
+    "club": "Velsen Rkvv O11-4",
     "logo": "",
     "gespeeld": 0,
     "gewonnen": 0,
@@ -79,6 +79,19 @@
   },
   {
     "positie": 7,
+    "club": "VVA/Spartaan O11-4",
+    "logo": "",
+    "gespeeld": 0,
+    "gewonnen": 0,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 0,
+    "tegen": 0,
+    "doelsaldo": 0,
+    "punten": 0
+  },
+  {
+    "positie": 8,
     "club": "vv Zwanenburg O11-4",
     "logo": "",
     "gespeeld": 0,
