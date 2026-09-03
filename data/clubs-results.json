@@ -8202,6 +8202,17 @@
       "uitLogo": "https://crests.football-data.org/1770.png",
       "thuisScore": 3,
       "uitScore": 0
+    },
+    {
+      "id": 554775,
+      "datum": "do 3 september",
+      "datumIso": "2026-09-02",
+      "thuis": "CR Flamengo",
+      "thuisLogo": "https://crests.football-data.org/1783.png",
+      "uit": "Mirassol FC",
+      "uitLogo": "https://crests.football-data.org/4364.png",
+      "thuisScore": 2,
+      "uitScore": 0
     }
   ],
   "4364": [
@@ -8468,6 +8479,17 @@
       "uitLogo": "https://crests.football-data.org/1769.png",
       "thuisScore": 1,
       "uitScore": 1
+    },
+    {
+      "id": 554775,
+      "datum": "do 3 september",
+      "datumIso": "2026-09-02",
+      "thuis": "CR Flamengo",
+      "thuisLogo": "https://crests.football-data.org/1783.png",
+      "uit": "Mirassol FC",
+      "uitLogo": "https://crests.football-data.org/4364.png",
+      "thuisScore": 2,
+      "uitScore": 0
     }
   ],
   "1780": [
@@ -9542,6 +9564,17 @@
       "uitLogo": "https://crests.football-data.org/74.png",
       "thuisScore": 3,
       "uitScore": 1
+    },
+    {
+      "id": 561808,
+      "datum": "wo 2 september",
+      "datumIso": "2026-09-02",
+      "thuis": "West Bromwich Albion FC",
+      "thuisLogo": "https://crests.football-data.org/74.png",
+      "uit": "Charlton Athletic FC",
+      "uitLogo": "https://crests.football-data.org/348.png",
+      "thuisScore": 1,
+      "uitScore": 1
     }
   ],
   "387": [
@@ -9623,6 +9656,17 @@
       "uitLogo": "https://crests.football-data.org/384.png",
       "thuisScore": 5,
       "uitScore": 1
+    },
+    {
+      "id": 561806,
+      "datum": "wo 2 september",
+      "datumIso": "2026-09-02",
+      "thuis": "Millwall FC",
+      "thuisLogo": "https://crests.football-data.org/384.png",
+      "uit": "Wrexham AFC",
+      "uitLogo": "https://crests.football-data.org/404.png",
+      "thuisScore": 0,
+      "uitScore": 3
     }
   ],
   "343": [
@@ -9657,6 +9701,17 @@
       "uit": "West Bromwich Albion FC",
       "uitLogo": "https://crests.football-data.org/74.png",
       "thuisScore": 3,
+      "uitScore": 1
+    },
+    {
+      "id": 561805,
+      "datum": "wo 2 september",
+      "datumIso": "2026-09-02",
+      "thuis": "Burnley FC",
+      "thuisLogo": "https://crests.football-data.org/328.png",
+      "uit": "Middlesbrough FC",
+      "uitLogo": "https://crests.football-data.org/343.png",
+      "thuisScore": 1,
       "uitScore": 1
     }
   ],
@@ -9831,6 +9886,17 @@
       "uitLogo": "https://crests.football-data.org/1081.png",
       "thuisScore": 1,
       "uitScore": 0
+    },
+    {
+      "id": 561808,
+      "datum": "wo 2 september",
+      "datumIso": "2026-09-02",
+      "thuis": "West Bromwich Albion FC",
+      "thuisLogo": "https://crests.football-data.org/74.png",
+      "uit": "Charlton Athletic FC",
+      "uitLogo": "https://crests.football-data.org/348.png",
+      "thuisScore": 1,
+      "uitScore": 1
     }
   ],
   "342": [
@@ -9958,6 +10024,17 @@
       "uitLogo": "https://crests.football-data.org/69.png",
       "thuisScore": 1,
       "uitScore": 2
+    },
+    {
+      "id": 561807,
+      "datum": "wo 2 september",
+      "datumIso": "2026-09-02",
+      "thuis": "Queens Park Rangers FC",
+      "thuisLogo": "https://crests.football-data.org/69.png",
+      "uit": "Cardiff City FC",
+      "uitLogo": "https://crests.football-data.org/715.png",
+      "thuisScore": 2,
+      "uitScore": 1
     }
   ],
   "356": [
@@ -10177,6 +10254,17 @@
       "uitLogo": "https://crests.football-data.org/328.png",
       "thuisScore": 4,
       "uitScore": 1
+    },
+    {
+      "id": 561805,
+      "datum": "wo 2 september",
+      "datumIso": "2026-09-02",
+      "thuis": "Burnley FC",
+      "thuisLogo": "https://crests.football-data.org/328.png",
+      "uit": "Middlesbrough FC",
+      "uitLogo": "https://crests.football-data.org/343.png",
+      "thuisScore": 1,
+      "uitScore": 1
     }
   ],
   "563": [
@@ -10258,6 +10346,17 @@
       "uitLogo": "https://crests.football-data.org/356.png",
       "thuisScore": 2,
       "uitScore": 2
+    },
+    {
+      "id": 561807,
+      "datum": "wo 2 september",
+      "datumIso": "2026-09-02",
+      "thuis": "Queens Park Rangers FC",
+      "thuisLogo": "https://crests.football-data.org/69.png",
+      "uit": "Cardiff City FC",
+      "uitLogo": "https://crests.football-data.org/715.png",
+      "thuisScore": 2,
+      "uitScore": 1
     }
   ],
   "404": [
@@ -10293,6 +10392,17 @@
       "uitLogo": "https://crests.football-data.org/332.png",
       "thuisScore": 1,
       "uitScore": 2
+    },
+    {
+      "id": 561806,
+      "datum": "wo 2 september",
+      "datumIso": "2026-09-02",
+      "thuis": "Millwall FC",
+      "thuisLogo": "https://crests.football-data.org/384.png",
+      "uit": "Wrexham AFC",
+      "uitLogo": "https://crests.football-data.org/404.png",
+      "thuisScore": 0,
+      "uitScore": 3
     }
   ]
 }
