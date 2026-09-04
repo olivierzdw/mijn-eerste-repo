@@ -131,6 +131,19 @@
   },
   {
     "positie": 11,
+    "club": "Sparta",
+    "logo": "https://crests.football-data.org/6806.png",
+    "gespeeld": 5,
+    "punten": 5,
+    "gewonnen": 1,
+    "gelijk": 2,
+    "verloren": 2,
+    "doelsaldo": 0,
+    "voor": 8,
+    "tegen": 8
+  },
+  {
+    "positie": 12,
     "club": "Heerenveen",
     "logo": "https://crests.football-data.org/673.png",
     "gespeeld": 4,
@@ -143,30 +156,17 @@
     "tegen": 6
   },
   {
-    "positie": 12,
-    "club": "Sparta",
-    "logo": "https://crests.football-data.org/6806.png",
-    "gespeeld": 4,
-    "punten": 4,
-    "gewonnen": 1,
-    "gelijk": 1,
-    "verloren": 2,
-    "doelsaldo": 0,
-    "voor": 7,
-    "tegen": 7
-  },
-  {
     "positie": 13,
     "club": "PEC Zwolle",
     "logo": "https://crests.football-data.org/684.png",
-    "gespeeld": 4,
-    "punten": 3,
+    "gespeeld": 5,
+    "punten": 4,
     "gewonnen": 1,
-    "gelijk": 0,
+    "gelijk": 1,
     "verloren": 3,
     "doelsaldo": -4,
-    "voor": 4,
-    "tegen": 8
+    "voor": 5,
+    "tegen": 9
   },
   {
     "positie": 14,
