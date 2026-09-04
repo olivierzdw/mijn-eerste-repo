@@ -394,6 +394,19 @@
     },
     {
       "positie": 11,
+      "club": "Real Sociedad de Fútbol",
+      "logo": "https://crests.football-data.org/92.png",
+      "gespeeld": 4,
+      "punten": 4,
+      "gewonnen": 1,
+      "gelijk": 1,
+      "verloren": 2,
+      "doelsaldo": -3,
+      "voor": 3,
+      "tegen": 6
+    },
+    {
+      "positie": 12,
       "club": "RCD Espanyol de Barcelona",
       "logo": "https://crests.football-data.org/80.png",
       "gespeeld": 3,
@@ -406,7 +419,7 @@
       "tegen": 4
     },
     {
-      "positie": 12,
+      "positie": 13,
       "club": "Athletic Club",
       "logo": "https://crests.football-data.org/77.png",
       "gespeeld": 3,
@@ -417,19 +430,6 @@
       "doelsaldo": -2,
       "voor": 3,
       "tegen": 5
-    },
-    {
-      "positie": 13,
-      "club": "Real Sociedad de Fútbol",
-      "logo": "https://crests.football-data.org/92.png",
-      "gespeeld": 3,
-      "punten": 3,
-      "gewonnen": 1,
-      "gelijk": 0,
-      "verloren": 2,
-      "doelsaldo": -3,
-      "voor": 3,
-      "tegen": 6
     },
     {
       "positie": 14,
@@ -461,17 +461,17 @@
       "positie": 16,
       "club": "RC Celta de Vigo",
       "logo": "https://crests.football-data.org/558.png",
-      "gespeeld": 3,
-      "punten": 1,
+      "gespeeld": 4,
+      "punten": 2,
       "gewonnen": 0,
-      "gelijk": 1,
+      "gelijk": 2,
       "verloren": 2,
       "doelsaldo": -3,
       "voor": 1,
       "tegen": 4
     },
     {
-      "positie": 16,
+      "positie": 17,
       "club": "Valencia CF",
       "logo": "https://crests.football-data.org/95.png",
       "gespeeld": 3,
@@ -1024,6 +1024,19 @@
   "FL1": [
     {
       "positie": 1,
+      "club": "Lille OSC",
+      "logo": "https://crests.football-data.org/521.png",
+      "gespeeld": 3,
+      "punten": 7,
+      "gewonnen": 2,
+      "gelijk": 1,
+      "verloren": 0,
+      "doelsaldo": 3,
+      "voor": 5,
+      "tegen": 2
+    },
+    {
+      "positie": 2,
       "club": "AS Monaco FC",
       "logo": "https://crests.football-data.org/548.png",
       "gespeeld": 2,
@@ -1036,7 +1049,7 @@
       "tegen": 0
     },
     {
-      "positie": 2,
+      "positie": 3,
       "club": "Paris FC",
       "logo": "https://crests.football-data.org/1045.png",
       "gespeeld": 2,
@@ -1047,19 +1060,6 @@
       "doelsaldo": 3,
       "voor": 3,
       "tegen": 0
-    },
-    {
-      "positie": 3,
-      "club": "Lille OSC",
-      "logo": "https://crests.football-data.org/521.png",
-      "gespeeld": 2,
-      "punten": 4,
-      "gewonnen": 1,
-      "gelijk": 1,
-      "verloren": 0,
-      "doelsaldo": 2,
-      "voor": 4,
-      "tegen": 2
     },
     {
       "positie": 4,
@@ -1221,14 +1221,14 @@
       "positie": 16,
       "club": "Toulouse FC",
       "logo": "https://crests.football-data.org/511.png",
-      "gespeeld": 2,
+      "gespeeld": 3,
       "punten": 1,
       "gewonnen": 0,
       "gelijk": 1,
-      "verloren": 1,
-      "doelsaldo": -2,
+      "verloren": 2,
+      "doelsaldo": -3,
       "voor": 2,
-      "tegen": 4
+      "tegen": 5
     },
     {
       "positie": 17,

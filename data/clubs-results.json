@@ -2155,6 +2155,17 @@
       "uitLogo": "https://crests.football-data.org/511.png",
       "thuisScore": 2,
       "uitScore": 2
+    },
+    {
+      "id": 559696,
+      "datum": "do 3 september",
+      "datumIso": "2026-09-03",
+      "thuis": "Toulouse FC",
+      "thuisLogo": "https://crests.football-data.org/511.png",
+      "uit": "Lille OSC",
+      "uitLogo": "https://crests.football-data.org/521.png",
+      "thuisScore": 0,
+      "uitScore": 1
     }
   ],
   "523": [
@@ -2227,6 +2238,17 @@
       "uitLogo": "https://crests.football-data.org/524.png",
       "thuisScore": 2,
       "uitScore": 2
+    },
+    {
+      "id": 559696,
+      "datum": "do 3 september",
+      "datumIso": "2026-09-03",
+      "thuis": "Toulouse FC",
+      "thuisLogo": "https://crests.football-data.org/511.png",
+      "uit": "Lille OSC",
+      "uitLogo": "https://crests.football-data.org/521.png",
+      "thuisScore": 0,
+      "uitScore": 1
     }
   ],
   "533": [
