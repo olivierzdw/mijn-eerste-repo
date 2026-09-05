@@ -14,6 +14,19 @@
   },
   {
     "positie": 2,
+    "club": "Feyenoord Rotterdam",
+    "logo": "https://crests.football-data.org/675.png",
+    "gespeeld": 5,
+    "punten": 11,
+    "gewonnen": 3,
+    "gelijk": 2,
+    "verloren": 0,
+    "doelsaldo": 6,
+    "voor": 13,
+    "tegen": 7
+  },
+  {
+    "positie": 3,
     "club": "PSV",
     "logo": "https://crests.football-data.org/674.png",
     "gespeeld": 4,
@@ -26,20 +39,20 @@
     "tegen": 5
   },
   {
-    "positie": 3,
-    "club": "Feyenoord Rotterdam",
-    "logo": "https://crests.football-data.org/675.png",
+    "positie": 4,
+    "club": "Go Ahead Eagles",
+    "logo": "https://crests.football-data.org/718.png",
     "gespeeld": 5,
-    "punten": 9,
-    "gewonnen": 2,
-    "gelijk": 3,
-    "verloren": 0,
-    "doelsaldo": 4,
-    "voor": 10,
-    "tegen": 6
+    "punten": 10,
+    "gewonnen": 3,
+    "gelijk": 1,
+    "verloren": 1,
+    "doelsaldo": 3,
+    "voor": 12,
+    "tegen": 9
   },
   {
-    "positie": 4,
+    "positie": 5,
     "club": "Ajax",
     "logo": "https://crests.football-data.org/678.png",
     "gespeeld": 3,
@@ -52,33 +65,7 @@
     "tegen": 2
   },
   {
-    "positie": 5,
-    "club": "NEC",
-    "logo": "https://crests.football-data.org/1915.png",
-    "gespeeld": 4,
-    "punten": 7,
-    "gewonnen": 2,
-    "gelijk": 1,
-    "verloren": 1,
-    "doelsaldo": 4,
-    "voor": 8,
-    "tegen": 4
-  },
-  {
     "positie": 6,
-    "club": "Go Ahead Eagles",
-    "logo": "https://crests.football-data.org/718.png",
-    "gespeeld": 4,
-    "punten": 7,
-    "gewonnen": 2,
-    "gelijk": 1,
-    "verloren": 1,
-    "doelsaldo": 2,
-    "voor": 11,
-    "tegen": 9
-  },
-  {
-    "positie": 7,
     "club": "Fortuna Sittard",
     "logo": "https://crests.football-data.org/1920.png",
     "gespeeld": 4,
@@ -91,7 +78,7 @@
     "tegen": 7
   },
   {
-    "positie": 8,
+    "positie": 7,
     "club": "FC Twente '65",
     "logo": "https://crests.football-data.org/666.png",
     "gespeeld": 3,
@@ -104,7 +91,7 @@
     "tegen": 3
   },
   {
-    "positie": 8,
+    "positie": 7,
     "club": "SBV Excelsior",
     "logo": "https://crests.football-data.org/670.png",
     "gespeeld": 3,
@@ -115,6 +102,19 @@
     "doelsaldo": 4,
     "voor": 7,
     "tegen": 3
+  },
+  {
+    "positie": 9,
+    "club": "NEC",
+    "logo": "https://crests.football-data.org/1915.png",
+    "gespeeld": 4,
+    "punten": 6,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 2,
+    "doelsaldo": 2,
+    "voor": 9,
+    "tegen": 7
   },
   {
     "positie": 10,
@@ -211,14 +211,14 @@
     "positie": 17,
     "club": "FC Utrecht",
     "logo": "https://crests.football-data.org/676.png",
-    "gespeeld": 4,
+    "gespeeld": 5,
     "punten": 1,
     "gewonnen": 0,
     "gelijk": 1,
-    "verloren": 3,
-    "doelsaldo": -9,
+    "verloren": 4,
+    "doelsaldo": -10,
     "voor": 6,
-    "tegen": 15
+    "tegen": 16
   },
   {
     "positie": 18,
