@@ -1,12 +1,5 @@
 [
   {
-    "datum": "za 5 september 16:30",
-    "thuis": "Wartburgia asv VR2",
-    "thuisLogo": "",
-    "uit": "AFC VR1",
-    "uitLogo": "images/afc.png"
-  },
-  {
     "datum": "zo 13 september 13:30",
     "thuis": "AFC VR1",
     "thuisLogo": "images/afc.png",
@@ -16,6 +9,13 @@
   {
     "datum": "zo 20 september 14:30",
     "thuis": "NSVV FC Kunde VR1",
+    "thuisLogo": "",
+    "uit": "AFC VR1",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "zo 4 oktober 10:30",
+    "thuis": "Varsseveld VR1",
     "thuisLogo": "",
     "uit": "AFC VR1",
     "uitLogo": "images/afc.png"
