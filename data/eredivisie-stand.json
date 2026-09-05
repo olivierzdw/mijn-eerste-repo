@@ -29,10 +29,10 @@
     "positie": 3,
     "club": "Feyenoord Rotterdam",
     "logo": "https://crests.football-data.org/675.png",
-    "gespeeld": 4,
-    "punten": 8,
+    "gespeeld": 5,
+    "punten": 9,
     "gewonnen": 2,
-    "gelijk": 2,
+    "gelijk": 3,
     "verloren": 0,
     "doelsaldo": 4,
     "voor": 10,
@@ -53,6 +53,19 @@
   },
   {
     "positie": 5,
+    "club": "NEC",
+    "logo": "https://crests.football-data.org/1915.png",
+    "gespeeld": 4,
+    "punten": 7,
+    "gewonnen": 2,
+    "gelijk": 1,
+    "verloren": 1,
+    "doelsaldo": 4,
+    "voor": 8,
+    "tegen": 4
+  },
+  {
+    "positie": 6,
     "club": "Go Ahead Eagles",
     "logo": "https://crests.football-data.org/718.png",
     "gespeeld": 4,
@@ -65,7 +78,7 @@
     "tegen": 9
   },
   {
-    "positie": 6,
+    "positie": 7,
     "club": "Fortuna Sittard",
     "logo": "https://crests.football-data.org/1920.png",
     "gespeeld": 4,
@@ -76,19 +89,6 @@
     "doelsaldo": 1,
     "voor": 8,
     "tegen": 7
-  },
-  {
-    "positie": 7,
-    "club": "NEC",
-    "logo": "https://crests.football-data.org/1915.png",
-    "gespeeld": 3,
-    "punten": 6,
-    "gewonnen": 2,
-    "gelijk": 0,
-    "verloren": 1,
-    "doelsaldo": 4,
-    "voor": 8,
-    "tegen": 4
   },
   {
     "positie": 8,
