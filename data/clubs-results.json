@@ -117,6 +117,17 @@
       "uitLogo": "https://crests.football-data.org/349.png",
       "thuisScore": 5,
       "uitScore": 2
+    },
+    {
+      "id": 560566,
+      "datum": "vr 4 september",
+      "datumIso": "2026-09-04",
+      "thuis": "Ipswich Town FC",
+      "thuisLogo": "https://crests.football-data.org/349.png",
+      "uit": "Liverpool FC",
+      "uitLogo": "https://crests.football-data.org/64.png",
+      "thuisScore": 0,
+      "uitScore": 2
     }
   ],
   "71": [
@@ -428,6 +439,17 @@
       "uit": "Nottingham Forest FC",
       "uitLogo": "https://crests.football-data.org/351.png",
       "thuisScore": 2,
+      "uitScore": 2
+    },
+    {
+      "id": 560566,
+      "datum": "vr 4 september",
+      "datumIso": "2026-09-04",
+      "thuis": "Ipswich Town FC",
+      "thuisLogo": "https://crests.football-data.org/349.png",
+      "uit": "Liverpool FC",
+      "uitLogo": "https://crests.football-data.org/64.png",
+      "thuisScore": 0,
       "uitScore": 2
     }
   ],
@@ -932,6 +954,17 @@
       "uitLogo": "https://crests.football-data.org/90.png",
       "thuisScore": 5,
       "uitScore": 2
+    },
+    {
+      "id": 564667,
+      "datum": "vr 4 september",
+      "datumIso": "2026-09-04",
+      "thuis": "Real Betis Balompié",
+      "thuisLogo": "https://crests.football-data.org/90.png",
+      "uit": "Real Madrid CF",
+      "uitLogo": "https://crests.football-data.org/86.png",
+      "thuisScore": 1,
+      "uitScore": 0
     }
   ],
   "92": [
@@ -967,6 +1000,17 @@
       "uitLogo": "https://crests.football-data.org/80.png",
       "thuisScore": 2,
       "uitScore": 1
+    },
+    {
+      "id": 564682,
+      "datum": "do 3 september",
+      "datumIso": "2026-09-03",
+      "thuis": "Real Sociedad de Fútbol",
+      "thuisLogo": "https://crests.football-data.org/92.png",
+      "uit": "RC Celta de Vigo",
+      "uitLogo": "https://crests.football-data.org/558.png",
+      "thuisScore": 0,
+      "uitScore": 0
     }
   ],
   "77": [
@@ -1072,6 +1116,17 @@
       "uitLogo": "https://crests.football-data.org/77.png",
       "thuisScore": 0,
       "uitScore": 2
+    },
+    {
+      "id": 564682,
+      "datum": "do 3 september",
+      "datumIso": "2026-09-03",
+      "thuis": "Real Sociedad de Fútbol",
+      "thuisLogo": "https://crests.football-data.org/92.png",
+      "uit": "RC Celta de Vigo",
+      "uitLogo": "https://crests.football-data.org/558.png",
+      "thuisScore": 0,
+      "uitScore": 0
     }
   ],
   "86": [
@@ -1106,6 +1161,17 @@
       "uit": "Málaga CF",
       "uitLogo": "https://crests.football-data.org/84.png",
       "thuisScore": 4,
+      "uitScore": 0
+    },
+    {
+      "id": 564667,
+      "datum": "vr 4 september",
+      "datumIso": "2026-09-04",
+      "thuis": "Real Betis Balompié",
+      "thuisLogo": "https://crests.football-data.org/90.png",
+      "uit": "Real Madrid CF",
+      "uitLogo": "https://crests.football-data.org/86.png",
+      "thuisScore": 1,
       "uitScore": 0
     }
   ],
@@ -1202,6 +1268,17 @@
       "uit": "VfB Stuttgart",
       "uitLogo": "https://crests.football-data.org/10.png",
       "thuisScore": 5,
+      "uitScore": 1
+    },
+    {
+      "id": 565791,
+      "datum": "vr 4 september",
+      "datumIso": "2026-09-04",
+      "thuis": "VfB Stuttgart",
+      "thuisLogo": "https://crests.football-data.org/10.png",
+      "uit": "1. FC Köln",
+      "uitLogo": "https://crests.football-data.org/1.png",
+      "thuisScore": 4,
       "uitScore": 1
     }
   ],
@@ -1320,6 +1397,17 @@
       "uitLogo": "https://crests.football-data.org/2.png",
       "thuisScore": 3,
       "uitScore": 2
+    },
+    {
+      "id": 565791,
+      "datum": "vr 4 september",
+      "datumIso": "2026-09-04",
+      "thuis": "VfB Stuttgart",
+      "thuisLogo": "https://crests.football-data.org/10.png",
+      "uit": "1. FC Köln",
+      "uitLogo": "https://crests.football-data.org/1.png",
+      "thuisScore": 4,
+      "uitScore": 1
     }
   ],
   "2": [
@@ -1459,6 +1547,17 @@
       "uitLogo": "https://crests.football-data.org/7397.png",
       "thuisScore": 1,
       "uitScore": 2
+    },
+    {
+      "id": 558609,
+      "datum": "vr 4 september",
+      "datumIso": "2026-09-04",
+      "thuis": "Genoa CFC",
+      "thuisLogo": "https://crests.football-data.org/107.png",
+      "uit": "Como 1907",
+      "uitLogo": "https://crests.football-data.org/7397.png",
+      "thuisScore": 1,
+      "uitScore": 4
     }
   ],
   "108": [
@@ -1531,6 +1630,17 @@
       "uitLogo": "https://crests.football-data.org/107.png",
       "thuisScore": 1,
       "uitScore": 0
+    },
+    {
+      "id": 558609,
+      "datum": "vr 4 september",
+      "datumIso": "2026-09-04",
+      "thuis": "Genoa CFC",
+      "thuisLogo": "https://crests.football-data.org/107.png",
+      "uit": "Como 1907",
+      "uitLogo": "https://crests.football-data.org/7397.png",
+      "thuisScore": 1,
+      "uitScore": 4
     }
   ],
   "113": [
@@ -1987,6 +2097,17 @@
       "uitLogo": "https://crests.football-data.org/532.png",
       "thuisScore": 1,
       "uitScore": 3
+    },
+    {
+      "id": 559699,
+      "datum": "vr 4 september",
+      "datumIso": "2026-09-04",
+      "thuis": "Olympique Lyonnais",
+      "thuisLogo": "https://crests.football-data.org/523.png",
+      "uit": "AJ Auxerre",
+      "uitLogo": "https://crests.football-data.org/519.png",
+      "thuisScore": 3,
+      "uitScore": 1
     }
   ],
   "535": [
@@ -2190,6 +2311,17 @@
       "uitLogo": "https://crests.football-data.org/533.png",
       "thuisScore": 1,
       "uitScore": 1
+    },
+    {
+      "id": 559699,
+      "datum": "vr 4 september",
+      "datumIso": "2026-09-04",
+      "thuis": "Olympique Lyonnais",
+      "thuisLogo": "https://crests.football-data.org/523.png",
+      "uit": "AJ Auxerre",
+      "uitLogo": "https://crests.football-data.org/519.png",
+      "thuisScore": 3,
+      "uitScore": 1
     }
   ],
   "532": [
@@ -2297,6 +2429,17 @@
       "uitLogo": "https://crests.football-data.org/516.png",
       "thuisScore": 2,
       "uitScore": 0
+    },
+    {
+      "id": 559697,
+      "datum": "vr 4 september",
+      "datumIso": "2026-09-04",
+      "thuis": "Paris Saint-Germain FC",
+      "thuisLogo": "https://crests.football-data.org/524.png",
+      "uit": "AS Monaco FC",
+      "uitLogo": "https://crests.football-data.org/548.png",
+      "thuisScore": 1,
+      "uitScore": 2
     }
   ],
   "529": [
@@ -2344,6 +2487,17 @@
       "uit": "Paris Saint-Germain FC",
       "uitLogo": "https://crests.football-data.org/524.png",
       "thuisScore": 2,
+      "uitScore": 2
+    },
+    {
+      "id": 559697,
+      "datum": "vr 4 september",
+      "datumIso": "2026-09-04",
+      "thuis": "Paris Saint-Germain FC",
+      "thuisLogo": "https://crests.football-data.org/524.png",
+      "uit": "AS Monaco FC",
+      "uitLogo": "https://crests.football-data.org/548.png",
+      "thuisScore": 1,
       "uitScore": 2
     }
   ],
@@ -2807,6 +2961,17 @@
       "uitLogo": "https://crests.football-data.org/6806.png",
       "thuisScore": 2,
       "uitScore": 1
+    },
+    {
+      "id": 558250,
+      "datum": "vr 4 september",
+      "datumIso": "2026-09-04",
+      "thuis": "Sparta Rotterdam",
+      "thuisLogo": "https://crests.football-data.org/6806.png",
+      "uit": "PEC Zwolle",
+      "uitLogo": "https://crests.football-data.org/684.png",
+      "thuisScore": 2,
+      "uitScore": 2
     }
   ],
   "675": [
@@ -2991,6 +3156,17 @@
       "uitLogo": "https://crests.football-data.org/1915.png",
       "thuisScore": 1,
       "uitScore": 3
+    },
+    {
+      "id": 558250,
+      "datum": "vr 4 september",
+      "datumIso": "2026-09-04",
+      "thuis": "Sparta Rotterdam",
+      "thuisLogo": "https://crests.football-data.org/6806.png",
+      "uit": "PEC Zwolle",
+      "uitLogo": "https://crests.football-data.org/684.png",
+      "thuisScore": 2,
+      "uitScore": 2
     }
   ],
   "678": [
@@ -3510,6 +3686,17 @@
       "uitLogo": "https://crests.football-data.org/503.png",
       "thuisScore": 0,
       "uitScore": 3
+    },
+    {
+      "id": 567299,
+      "datum": "vr 4 september",
+      "datumIso": "2026-09-04",
+      "thuis": "FC Porto",
+      "thuisLogo": "https://crests.football-data.org/503.png",
+      "uit": "Moreirense FC",
+      "uitLogo": "https://crests.football-data.org/583.png",
+      "thuisScore": 2,
+      "uitScore": 1
     }
   ],
   "7822": [
@@ -3590,6 +3777,17 @@
       "uit": "Moreirense FC",
       "uitLogo": "https://crests.football-data.org/583.png",
       "thuisScore": 0,
+      "uitScore": 1
+    },
+    {
+      "id": 567299,
+      "datum": "vr 4 september",
+      "datumIso": "2026-09-04",
+      "thuis": "FC Porto",
+      "thuisLogo": "https://crests.football-data.org/503.png",
+      "uit": "Moreirense FC",
+      "uitLogo": "https://crests.football-data.org/583.png",
+      "thuisScore": 2,
       "uitScore": 1
     }
   ],
