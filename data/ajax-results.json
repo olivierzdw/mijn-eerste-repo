@@ -28,5 +28,15 @@
     "uitLogo": "https://crests.football-data.org/678.png",
     "thuisScore": 0,
     "uitScore": 4
+  },
+  {
+    "id": 558253,
+    "datum": "za 5 september",
+    "thuis": "Ajax",
+    "thuisLogo": "https://crests.football-data.org/678.png",
+    "uit": "PSV",
+    "uitLogo": "https://crests.football-data.org/674.png",
+    "thuisScore": 1,
+    "uitScore": 3
   }
 ]

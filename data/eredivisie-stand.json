@@ -8,8 +8,8 @@
     "gewonnen": 4,
     "gelijk": 1,
     "verloren": 0,
-    "doelsaldo": 11,
-    "voor": 17,
+    "doelsaldo": 12,
+    "voor": 18,
     "tegen": 6
   },
   {
@@ -60,8 +60,8 @@
     "gewonnen": 3,
     "gelijk": 0,
     "verloren": 1,
-    "doelsaldo": 5,
-    "voor": 8,
+    "doelsaldo": 7,
+    "voor": 10,
     "tegen": 3
   },
   {
@@ -73,9 +73,9 @@
     "gewonnen": 2,
     "gelijk": 1,
     "verloren": 1,
-    "doelsaldo": 5,
+    "doelsaldo": 4,
     "voor": 9,
-    "tegen": 4
+    "tegen": 5
   },
   {
     "positie": 7,
@@ -195,7 +195,7 @@
     "tegen": 11
   },
   {
-    "positie": 15,
+    "positie": 16,
     "club": "Willem II Tilburg",
     "logo": "https://crests.football-data.org/672.png",
     "gespeeld": 4,
@@ -203,9 +203,9 @@
     "gewonnen": 0,
     "gelijk": 1,
     "verloren": 3,
-    "doelsaldo": -7,
+    "doelsaldo": -9,
     "voor": 4,
-    "tegen": 11
+    "tegen": 13
   },
   {
     "positie": 17,
