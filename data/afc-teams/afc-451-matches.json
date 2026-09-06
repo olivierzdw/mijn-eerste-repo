@@ -1,12 +1,5 @@
 [
   {
-    "datum": "zo 5 september 15:00",
-    "thuis": "VVA/Spartaan 35+1",
-    "thuisLogo": "",
-    "uit": "AFC 45+1",
-    "uitLogo": "images/afc.png"
-  },
-  {
     "datum": "za 12 september 14:30",
     "thuis": "AGB 45+2",
     "thuisLogo": "",
@@ -26,5 +19,12 @@
     "thuisLogo": "",
     "uit": "AFC 45+1",
     "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 10 oktober 12:30",
+    "thuis": "AFC 45+1",
+    "thuisLogo": "images/afc.png",
+    "uit": "GeuzenMiddenmeer 45+1",
+    "uitLogo": ""
   }
 ]
