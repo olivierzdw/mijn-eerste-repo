@@ -72,20 +72,12 @@
     "aantalMatches": 5
   },
   {
-    "slug": "afc-o23-1",
-    "naam": "AFC O23-1",
-    "soort": "Senioren zaterdag",
-    "pouleId": "829597",
-    "heeftStand": true,
-    "aantalMatches": 5
-  },
-  {
     "slug": "afc",
     "naam": "AFC",
     "soort": "Senioren zondag",
     "pouleId": "825465",
     "heeftStand": true,
-    "aantalMatches": 4
+    "aantalMatches": 5
   },
   {
     "slug": "afc-2-2",
@@ -125,7 +117,7 @@
     "soort": "Senioren zondag",
     "pouleId": "827984",
     "heeftStand": true,
-    "aantalMatches": 6
+    "aantalMatches": 7
   },
   {
     "slug": "afc-7",
@@ -133,7 +125,7 @@
     "soort": "Senioren zondag",
     "pouleId": "827988",
     "heeftStand": true,
-    "aantalMatches": 4
+    "aantalMatches": 3
   },
   {
     "slug": "afc-8-2",
@@ -141,7 +133,7 @@
     "soort": "Senioren zondag",
     "pouleId": "827968",
     "heeftStand": true,
-    "aantalMatches": 5
+    "aantalMatches": 6
   },
   {
     "slug": "afc-9",

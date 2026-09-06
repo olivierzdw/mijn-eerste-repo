@@ -1,12 +1,5 @@
 [
   {
-    "datum": "zo 6 september 11:30",
-    "thuis": "KGB 2",
-    "thuisLogo": "",
-    "uit": "AFC 5",
-    "uitLogo": "images/afc.png"
-  },
-  {
     "datum": "zo 13 september 11:30",
     "thuis": "Kwiek 78 2",
     "thuisLogo": "",
@@ -32,6 +25,13 @@
     "thuis": "AFC 5",
     "thuisLogo": "images/afc.png",
     "uit": "TABA afc 3",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "zo 11 oktober 12:00",
+    "thuis": "Abcoude fc 3",
+    "thuisLogo": "",
+    "uit": "AFC 5",
     "uitLogo": "images/afc.png"
   }
 ]
