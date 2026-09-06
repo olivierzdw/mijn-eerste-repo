@@ -47,9 +47,9 @@
     "gewonnen": 3,
     "gelijk": 1,
     "verloren": 1,
-    "doelsaldo": 3,
+    "doelsaldo": 2,
     "voor": 11,
-    "tegen": 8
+    "tegen": 9
   },
   {
     "positie": 5,
@@ -183,6 +183,19 @@
   },
   {
     "positie": 15,
+    "club": "ADO Den Haag",
+    "logo": "https://crests.football-data.org/680.png",
+    "gespeeld": 5,
+    "punten": 1,
+    "gewonnen": 0,
+    "gelijk": 1,
+    "verloren": 4,
+    "doelsaldo": -8,
+    "voor": 6,
+    "tegen": 14
+  },
+  {
+    "positie": 16,
     "club": "FC Utrecht",
     "logo": "https://crests.football-data.org/676.png",
     "gespeeld": 4,
@@ -193,19 +206,6 @@
     "doelsaldo": -9,
     "voor": 6,
     "tegen": 15
-  },
-  {
-    "positie": 16,
-    "club": "ADO Den Haag",
-    "logo": "https://crests.football-data.org/680.png",
-    "gespeeld": 5,
-    "punten": 1,
-    "gewonnen": 0,
-    "gelijk": 1,
-    "verloren": 4,
-    "doelsaldo": -9,
-    "voor": 5,
-    "tegen": 14
   },
   {
     "positie": 17,
