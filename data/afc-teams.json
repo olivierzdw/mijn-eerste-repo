@@ -77,7 +77,7 @@
     "soort": "Senioren zondag",
     "pouleId": "825465",
     "heeftStand": true,
-    "aantalMatches": 6
+    "aantalMatches": 7
   },
   {
     "slug": "afc-2-2",
@@ -140,14 +140,6 @@
     "naam": "AFC 9",
     "soort": "Senioren zondag",
     "pouleId": "827344",
-    "heeftStand": true,
-    "aantalMatches": 4
-  },
-  {
-    "slug": "afc-vr1",
-    "naam": "AFC VR1",
-    "soort": "Vrouwen",
-    "pouleId": "826375",
     "heeftStand": true,
     "aantalMatches": 4
   },
