@@ -27,19 +27,6 @@
   },
   {
     "positie": 3,
-    "club": "AFC 8",
-    "logo": "images/afc.png",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
-    "positie": 4,
     "club": "ASV Arsenal 4",
     "logo": "",
     "gespeeld": 0,
@@ -52,7 +39,7 @@
     "punten": 0
   },
   {
-    "positie": 5,
+    "positie": 4,
     "club": "DWS afc 3",
     "logo": "images/afc.png",
     "gespeeld": 0,
@@ -65,7 +52,7 @@
     "punten": 0
   },
   {
-    "positie": 6,
+    "positie": 5,
     "club": "KDO sv 2",
     "logo": "",
     "gespeeld": 0,
@@ -78,7 +65,7 @@
     "punten": 0
   },
   {
-    "positie": 7,
+    "positie": 6,
     "club": "KFC 4",
     "logo": "",
     "gespeeld": 0,
@@ -91,7 +78,7 @@
     "punten": 0
   },
   {
-    "positie": 8,
+    "positie": 7,
     "club": "SV Rood-Wit Zaanstad 3",
     "logo": "",
     "gespeeld": 0,
@@ -104,7 +91,7 @@
     "punten": 0
   },
   {
-    "positie": 9,
+    "positie": 8,
     "club": "SDZ 6",
     "logo": "",
     "gespeeld": 0,
@@ -117,7 +104,7 @@
     "punten": 0
   },
   {
-    "positie": 10,
+    "positie": 9,
     "club": "Sporting Martinus 3",
     "logo": "",
     "gespeeld": 0,
@@ -130,7 +117,7 @@
     "punten": 0
   },
   {
-    "positie": 11,
+    "positie": 10,
     "club": "Swift 7",
     "logo": "",
     "gespeeld": 0,
@@ -143,7 +130,7 @@
     "punten": 0
   },
   {
-    "positie": 12,
+    "positie": 11,
     "club": "VVA/Spartaan, 3",
     "logo": "",
     "gespeeld": 0,
