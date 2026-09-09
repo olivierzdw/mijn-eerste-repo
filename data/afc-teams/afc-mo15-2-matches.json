@@ -1,12 +1,5 @@
 [
   {
-    "datum": "za 5 september 15:15",
-    "thuis": "SDW MO15-3",
-    "thuisLogo": "",
-    "uit": "AFC MO15-2",
-    "uitLogo": "images/afc.png"
-  },
-  {
     "datum": "za 12 september 10:00",
     "thuis": "AFC MO15-2",
     "thuisLogo": "images/afc.png",
@@ -23,6 +16,13 @@
   {
     "datum": "za 26 september 11:00",
     "thuis": "Spaarnwoude MO15-2 (9-tal)",
+    "thuisLogo": "",
+    "uit": "AFC MO15-2",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 3 oktober 11:30",
+    "thuis": "IVV MO15-1",
     "thuisLogo": "",
     "uit": "AFC MO15-2",
     "uitLogo": "images/afc.png"
