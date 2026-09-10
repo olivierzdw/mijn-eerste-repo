@@ -1,12 +1,5 @@
 [
   {
-    "datum": "za 5 september 16:30",
-    "thuis": "AFC MO11-1",
-    "thuisLogo": "images/afc.png",
-    "uit": "Altius O11-4",
-    "uitLogo": ""
-  },
-  {
     "datum": "za 12 september 08:30",
     "thuis": "AFC MO11-1",
     "thuisLogo": "images/afc.png",
@@ -23,6 +16,13 @@
   {
     "datum": "za 26 september 11:30",
     "thuis": "Velsen Rkvv O11-4",
+    "thuisLogo": "",
+    "uit": "AFC MO11-1",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 3 oktober 11:00",
+    "thuis": "VVA/Spartaan O11-4",
     "thuisLogo": "",
     "uit": "AFC MO11-1",
     "uitLogo": "images/afc.png"
