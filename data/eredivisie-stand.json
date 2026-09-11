@@ -3,13 +3,13 @@
     "positie": 1,
     "club": "AZ",
     "logo": "https://crests.football-data.org/682.png",
-    "gespeeld": 5,
-    "punten": 15,
-    "gewonnen": 5,
+    "gespeeld": 6,
+    "punten": 18,
+    "gewonnen": 6,
     "gelijk": 0,
     "verloren": 0,
-    "doelsaldo": 11,
-    "voor": 16,
+    "doelsaldo": 12,
+    "voor": 17,
     "tegen": 5
   },
   {
@@ -211,14 +211,14 @@
     "positie": 17,
     "club": "Willem II Tilburg",
     "logo": "https://crests.football-data.org/672.png",
-    "gespeeld": 4,
+    "gespeeld": 5,
     "punten": 1,
     "gewonnen": 0,
     "gelijk": 1,
-    "verloren": 3,
-    "doelsaldo": -9,
+    "verloren": 4,
+    "doelsaldo": -10,
     "voor": 4,
-    "tegen": 13
+    "tegen": 14
   },
   {
     "positie": 18,
