@@ -14,6 +14,19 @@
   },
   {
     "positie": 2,
+    "club": "AS'80 O14-2",
+    "logo": "",
+    "gespeeld": 1,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 6,
+    "tegen": 3,
+    "doelsaldo": 3,
+    "punten": 3
+  },
+  {
+    "positie": 3,
     "club": "Meer De sv. O14-1",
     "logo": "",
     "gespeeld": 1,
@@ -26,33 +39,7 @@
     "punten": 3
   },
   {
-    "positie": 3,
-    "club": "AS'80 O14-2",
-    "logo": "",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
     "positie": 4,
-    "club": "Ouderkerk sv. O14-2",
-    "logo": "",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
-    "positie": 5,
     "club": "AFC MO15-1",
     "logo": "images/afc.png",
     "gespeeld": 1,
@@ -62,6 +49,19 @@
     "voor": 1,
     "tegen": 3,
     "doelsaldo": -2,
+    "punten": 0
+  },
+  {
+    "positie": 5,
+    "club": "Ouderkerk sv. O14-2",
+    "logo": "",
+    "gespeeld": 1,
+    "gewonnen": 0,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 3,
+    "tegen": 6,
+    "doelsaldo": -3,
     "punten": 0
   },
   {
