@@ -1561,16 +1561,16 @@
     },
     {
       "positie": 6,
-      "club": "Sporting Clube de Braga",
-      "logo": "https://crests.football-data.org/5613.png",
-      "gespeeld": 3,
-      "punten": 7,
+      "club": "CF Estrela da Amadora",
+      "logo": "https://crests.football-data.org/9136.png",
+      "gespeeld": 5,
+      "punten": 9,
       "gewonnen": 2,
-      "gelijk": 1,
+      "gelijk": 3,
       "verloren": 0,
       "doelsaldo": 2,
-      "voor": 5,
-      "tegen": 3
+      "voor": 11,
+      "tegen": 9
     },
     {
       "positie": 7,
@@ -1587,6 +1587,19 @@
     },
     {
       "positie": 8,
+      "club": "Sporting Clube de Braga",
+      "logo": "https://crests.football-data.org/5613.png",
+      "gespeeld": 4,
+      "punten": 7,
+      "gewonnen": 2,
+      "gelijk": 1,
+      "verloren": 1,
+      "doelsaldo": 1,
+      "voor": 6,
+      "tegen": 5
+    },
+    {
+      "positie": 9,
       "club": "CS Marítimo",
       "logo": "https://crests.football-data.org/5575.png",
       "gespeeld": 5,
@@ -1596,19 +1609,6 @@
       "verloren": 2,
       "doelsaldo": -2,
       "voor": 6,
-      "tegen": 8
-    },
-    {
-      "positie": 9,
-      "club": "CF Estrela da Amadora",
-      "logo": "https://crests.football-data.org/9136.png",
-      "gespeeld": 4,
-      "punten": 6,
-      "gewonnen": 1,
-      "gelijk": 3,
-      "verloren": 0,
-      "doelsaldo": 1,
-      "voor": 9,
       "tegen": 8
     },
     {

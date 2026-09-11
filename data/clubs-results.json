@@ -148,6 +148,17 @@
       "uitLogo": "https://crests.football-data.org/66.png",
       "thuisScore": 2,
       "uitScore": 2
+    },
+    {
+      "id": 575338,
+      "datum": "do 10 september",
+      "datumIso": "2026-09-10",
+      "thuis": "Manchester United FC",
+      "thuisLogo": "https://crests.football-data.org/66.png",
+      "uit": "Sabah FK",
+      "uitLogo": "https://crests.football-data.org/10233.png",
+      "thuisScore": 4,
+      "uitScore": 0
     }
   ],
   "349": [
@@ -1762,6 +1773,17 @@
       "uitLogo": "https://crests.football-data.org/5.png",
       "thuisScore": 0,
       "uitScore": 0
+    },
+    {
+      "id": 575337,
+      "datum": "do 10 september",
+      "datumIso": "2026-09-10",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "FK Bodø/Glimt",
+      "uitLogo": "https://crests.football-data.org/5721.png",
+      "thuisScore": 5,
+      "uitScore": 0
     }
   ],
   "10": [
@@ -1820,6 +1842,17 @@
       "uit": "RB Leipzig",
       "uitLogo": "https://crests.football-data.org/721.png",
       "thuisScore": 3,
+      "uitScore": 1
+    },
+    {
+      "id": 575339,
+      "datum": "do 10 september",
+      "datumIso": "2026-09-10",
+      "thuis": "Como 1907",
+      "thuisLogo": "https://crests.football-data.org/7397.png",
+      "uit": "RB Leipzig",
+      "uitLogo": "https://crests.football-data.org/721.png",
+      "thuisScore": 4,
       "uitScore": 1
     }
   ],
@@ -2262,6 +2295,17 @@
       "uitLogo": "https://crests.football-data.org/7397.png",
       "thuisScore": 1,
       "uitScore": 4
+    },
+    {
+      "id": 575339,
+      "datum": "do 10 september",
+      "datumIso": "2026-09-10",
+      "thuis": "Como 1907",
+      "thuisLogo": "https://crests.football-data.org/7397.png",
+      "uit": "RB Leipzig",
+      "uitLogo": "https://crests.football-data.org/721.png",
+      "thuisScore": 4,
+      "uitScore": 1
     }
   ],
   "108": [
@@ -2879,6 +2923,17 @@
       "uitLogo": "https://crests.football-data.org/102.png",
       "thuisScore": 2,
       "uitScore": 1
+    },
+    {
+      "id": 575335,
+      "datum": "do 10 september",
+      "datumIso": "2026-09-10",
+      "thuis": "Fenerbahçe SK",
+      "thuisLogo": "https://crests.football-data.org/613.png",
+      "uit": "AS Roma",
+      "uitLogo": "https://crests.football-data.org/100.png",
+      "thuisScore": 1,
+      "uitScore": 1
     }
   ],
   "99": [
@@ -3019,6 +3074,17 @@
       "uitLogo": "https://crests.football-data.org/525.png",
       "thuisScore": 0,
       "uitScore": 1
+    },
+    {
+      "id": 575340,
+      "datum": "do 10 september",
+      "datumIso": "2026-09-10",
+      "thuis": "SK Slavia Praha",
+      "thuisLogo": "https://crests.football-data.org/930.png",
+      "uit": "Racing Club de Lens",
+      "uitLogo": "https://crests.football-data.org/546.png",
+      "thuisScore": 2,
+      "uitScore": 3
     }
   ],
   "519": [
@@ -3954,6 +4020,17 @@
       "uitLogo": "https://crests.football-data.org/674.png",
       "thuisScore": 1,
       "uitScore": 3
+    },
+    {
+      "id": 575336,
+      "datum": "do 10 september",
+      "datumIso": "2026-09-10",
+      "thuis": "PSV",
+      "thuisLogo": "https://crests.football-data.org/674.png",
+      "uit": "FK Shakhtar Donetsk",
+      "uitLogo": "https://crests.football-data.org/1887.png",
+      "thuisScore": 1,
+      "uitScore": 1
     }
   ],
   "1920": [
@@ -4969,6 +5046,17 @@
       "uitLogo": "https://crests.football-data.org/5531.png",
       "thuisScore": 2,
       "uitScore": 2
+    },
+    {
+      "id": 567276,
+      "datum": "do 10 september",
+      "datumIso": "2026-09-10",
+      "thuis": "CF Estrela da Amadora",
+      "thuisLogo": "https://crests.football-data.org/9136.png",
+      "uit": "Sporting Clube de Braga",
+      "uitLogo": "https://crests.football-data.org/5613.png",
+      "thuisScore": 2,
+      "uitScore": 1
     }
   ],
   "498": [
@@ -5254,6 +5342,17 @@
       "uitLogo": "https://crests.football-data.org/5613.png",
       "thuisScore": 1,
       "uitScore": 2
+    },
+    {
+      "id": 567276,
+      "datum": "do 10 september",
+      "datumIso": "2026-09-10",
+      "thuis": "CF Estrela da Amadora",
+      "thuisLogo": "https://crests.football-data.org/9136.png",
+      "uit": "Sporting Clube de Braga",
+      "uitLogo": "https://crests.football-data.org/5613.png",
+      "thuisScore": 2,
+      "uitScore": 1
     }
   ],
   "5533": [
@@ -12901,6 +13000,71 @@
       "uitLogo": "https://crests.football-data.org/610.png",
       "thuisScore": 3,
       "uitScore": 1
+    }
+  ],
+  "613": [
+    {
+      "id": 575335,
+      "datum": "do 10 september",
+      "datumIso": "2026-09-10",
+      "thuis": "Fenerbahçe SK",
+      "thuisLogo": "https://crests.football-data.org/613.png",
+      "uit": "AS Roma",
+      "uitLogo": "https://crests.football-data.org/100.png",
+      "thuisScore": 1,
+      "uitScore": 1
+    }
+  ],
+  "1887": [
+    {
+      "id": 575336,
+      "datum": "do 10 september",
+      "datumIso": "2026-09-10",
+      "thuis": "PSV",
+      "thuisLogo": "https://crests.football-data.org/674.png",
+      "uit": "FK Shakhtar Donetsk",
+      "uitLogo": "https://crests.football-data.org/1887.png",
+      "thuisScore": 1,
+      "uitScore": 1
+    }
+  ],
+  "5721": [
+    {
+      "id": 575337,
+      "datum": "do 10 september",
+      "datumIso": "2026-09-10",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "FK Bodø/Glimt",
+      "uitLogo": "https://crests.football-data.org/5721.png",
+      "thuisScore": 5,
+      "uitScore": 0
+    }
+  ],
+  "10233": [
+    {
+      "id": 575338,
+      "datum": "do 10 september",
+      "datumIso": "2026-09-10",
+      "thuis": "Manchester United FC",
+      "thuisLogo": "https://crests.football-data.org/66.png",
+      "uit": "Sabah FK",
+      "uitLogo": "https://crests.football-data.org/10233.png",
+      "thuisScore": 4,
+      "uitScore": 0
+    }
+  ],
+  "930": [
+    {
+      "id": 575340,
+      "datum": "do 10 september",
+      "datumIso": "2026-09-10",
+      "thuis": "SK Slavia Praha",
+      "thuisLogo": "https://crests.football-data.org/930.png",
+      "uit": "Racing Club de Lens",
+      "uitLogo": "https://crests.football-data.org/546.png",
+      "thuisScore": 2,
+      "uitScore": 3
     }
   ]
 }
