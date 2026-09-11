@@ -14,19 +14,6 @@
   },
   {
     "positie": 2,
-    "club": "AFC MO11-2",
-    "logo": "images/afc.png",
-    "gespeeld": 1,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 4,
-    "tegen": 1,
-    "doelsaldo": 3,
-    "punten": 3
-  },
-  {
-    "positie": 3,
     "club": "Swift MO11-1",
     "logo": "",
     "gespeeld": 1,
@@ -39,7 +26,33 @@
     "punten": 3
   },
   {
+    "positie": 3,
+    "club": "AFC MO11-2",
+    "logo": "images/afc.png",
+    "gespeeld": 1,
+    "gewonnen": 0,
+    "gelijk": 1,
+    "verloren": 0,
+    "voor": 4,
+    "tegen": 4,
+    "doelsaldo": 0,
+    "punten": 1
+  },
+  {
     "positie": 4,
+    "club": "SDW MO11-2",
+    "logo": "",
+    "gespeeld": 1,
+    "gewonnen": 0,
+    "gelijk": 1,
+    "verloren": 0,
+    "voor": 4,
+    "tegen": 4,
+    "doelsaldo": 0,
+    "punten": 1
+  },
+  {
+    "positie": 5,
     "club": "WV-HEDW MO11-2",
     "logo": "",
     "gespeeld": 1,
@@ -49,19 +62,6 @@
     "voor": 2,
     "tegen": 4,
     "doelsaldo": -2,
-    "punten": 0
-  },
-  {
-    "positie": 5,
-    "club": "SDW MO11-2",
-    "logo": "",
-    "gespeeld": 1,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 1,
-    "voor": 1,
-    "tegen": 4,
-    "doelsaldo": -3,
     "punten": 0
   },
   {
