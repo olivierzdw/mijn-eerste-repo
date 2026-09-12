@@ -1,6 +1,19 @@
 [
   {
     "positie": 1,
+    "club": "Swift MO11-1",
+    "logo": "",
+    "gespeeld": 2,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 13,
+    "tegen": 3,
+    "doelsaldo": 10,
+    "punten": 6
+  },
+  {
+    "positie": 2,
     "club": "Buitenveldert sc. MO11-1",
     "logo": "",
     "gespeeld": 1,
@@ -10,19 +23,6 @@
     "voor": 12,
     "tegen": 1,
     "doelsaldo": 11,
-    "punten": 3
-  },
-  {
-    "positie": 2,
-    "club": "Swift MO11-1",
-    "logo": "",
-    "gespeeld": 1,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 4,
-    "tegen": 2,
-    "doelsaldo": 2,
     "punten": 3
   },
   {
@@ -68,13 +68,13 @@
     "positie": 6,
     "club": "Sporting Martinus MO11-1",
     "logo": "",
-    "gespeeld": 1,
+    "gespeeld": 2,
     "gewonnen": 0,
     "gelijk": 0,
-    "verloren": 1,
-    "voor": 1,
-    "tegen": 12,
-    "doelsaldo": -11,
+    "verloren": 2,
+    "voor": 2,
+    "tegen": 21,
+    "doelsaldo": -19,
     "punten": 0
   }
 ]

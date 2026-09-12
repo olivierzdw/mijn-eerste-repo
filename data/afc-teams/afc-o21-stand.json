@@ -16,27 +16,27 @@
     "positie": 2,
     "club": "FC Volendam O21",
     "logo": "",
-    "gespeeld": 2,
+    "gespeeld": 3,
     "gewonnen": 2,
-    "gelijk": 0,
+    "gelijk": 1,
     "verloren": 0,
-    "voor": 6,
-    "tegen": 1,
+    "voor": 10,
+    "tegen": 5,
     "doelsaldo": 5,
-    "punten": 6
+    "punten": 7
   },
   {
     "positie": 3,
     "club": "FC Dordrecht O21",
     "logo": "",
-    "gespeeld": 2,
+    "gespeeld": 3,
     "gewonnen": 2,
-    "gelijk": 0,
+    "gelijk": 1,
     "verloren": 0,
-    "voor": 5,
-    "tegen": 0,
+    "voor": 9,
+    "tegen": 4,
     "doelsaldo": 5,
-    "punten": 6
+    "punten": 7
   },
   {
     "positie": 4,
