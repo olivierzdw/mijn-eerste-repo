@@ -14,20 +14,20 @@
   },
   {
     "positie": 2,
-    "club": "RCZ MO15-1 (9-tal)",
+    "club": "Spaarnwoude MO15-2 (9-tal)",
     "logo": "",
-    "gespeeld": 1,
-    "gewonnen": 0,
+    "gespeeld": 2,
+    "gewonnen": 1,
     "gelijk": 1,
     "verloren": 0,
-    "voor": 3,
-    "tegen": 3,
-    "doelsaldo": 0,
-    "punten": 1
+    "voor": 6,
+    "tegen": 5,
+    "doelsaldo": 1,
+    "punten": 4
   },
   {
     "positie": 3,
-    "club": "Spaarnwoude MO15-2 (9-tal)",
+    "club": "RCZ MO15-1 (9-tal)",
     "logo": "",
     "gespeeld": 1,
     "gewonnen": 0,
@@ -68,13 +68,13 @@
     "positie": 6,
     "club": "SDW MO15-3",
     "logo": "",
-    "gespeeld": 1,
+    "gespeeld": 2,
     "gewonnen": 0,
     "gelijk": 0,
-    "verloren": 1,
-    "voor": 3,
-    "tegen": 6,
-    "doelsaldo": -3,
+    "verloren": 2,
+    "voor": 5,
+    "tegen": 9,
+    "doelsaldo": -4,
     "punten": 0
   }
 ]

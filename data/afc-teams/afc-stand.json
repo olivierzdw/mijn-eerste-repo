@@ -40,6 +40,19 @@
   },
   {
     "positie": 4,
+    "club": "De Treffers",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 2,
+    "gelijk": 3,
+    "verloren": 0,
+    "voor": 12,
+    "tegen": 5,
+    "doelsaldo": 7,
+    "punten": 9
+  },
+  {
+    "positie": 5,
     "club": "Spakenburg",
     "logo": "",
     "gespeeld": 5,
@@ -50,19 +63,6 @@
     "tegen": 5,
     "doelsaldo": 3,
     "punten": 9
-  },
-  {
-    "positie": 5,
-    "club": "De Treffers",
-    "logo": "",
-    "gespeeld": 4,
-    "gewonnen": 2,
-    "gelijk": 2,
-    "verloren": 0,
-    "voor": 11,
-    "tegen": 4,
-    "doelsaldo": 7,
-    "punten": 8
   },
   {
     "positie": 6,
@@ -157,6 +157,19 @@
   },
   {
     "positie": 13,
+    "club": "Kon. HFC",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 1,
+    "gelijk": 2,
+    "verloren": 2,
+    "voor": 7,
+    "tegen": 9,
+    "doelsaldo": -2,
+    "punten": 5
+  },
+  {
+    "positie": 14,
     "club": "Kloetinge",
     "logo": "",
     "gespeeld": 5,
@@ -167,19 +180,6 @@
     "tegen": 11,
     "doelsaldo": -4,
     "punten": 5
-  },
-  {
-    "positie": 14,
-    "club": "Kon. HFC",
-    "logo": "",
-    "gespeeld": 4,
-    "gewonnen": 1,
-    "gelijk": 1,
-    "verloren": 2,
-    "voor": 6,
-    "tegen": 8,
-    "doelsaldo": -2,
-    "punten": 4
   },
   {
     "positie": 15,
