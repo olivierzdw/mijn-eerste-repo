@@ -27,6 +27,32 @@
   },
   {
     "positie": 3,
+    "club": "Kozakken Boys",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 3,
+    "gelijk": 1,
+    "verloren": 1,
+    "voor": 15,
+    "tegen": 9,
+    "doelsaldo": 6,
+    "punten": 10
+  },
+  {
+    "positie": 4,
+    "club": "Spakenburg",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 3,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 8,
+    "tegen": 5,
+    "doelsaldo": 3,
+    "punten": 9
+  },
+  {
+    "positie": 5,
     "club": "De Treffers",
     "logo": "",
     "gespeeld": 4,
@@ -39,7 +65,20 @@
     "punten": 8
   },
   {
-    "positie": 4,
+    "positie": 6,
+    "club": "RKAV Volendam",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 2,
+    "gelijk": 2,
+    "verloren": 1,
+    "voor": 6,
+    "tegen": 9,
+    "doelsaldo": -3,
+    "punten": 8
+  },
+  {
+    "positie": 7,
     "club": "Jong Sparta Rotterdam",
     "logo": "",
     "gespeeld": 4,
@@ -52,7 +91,7 @@
     "punten": 7
   },
   {
-    "positie": 5,
+    "positie": 8,
     "club": "Katwijk",
     "logo": "",
     "gespeeld": 4,
@@ -65,7 +104,7 @@
     "punten": 7
   },
   {
-    "positie": 6,
+    "positie": 9,
     "club": "IJsselmeervogels",
     "logo": "",
     "gespeeld": 4,
@@ -76,45 +115,6 @@
     "tegen": 3,
     "doelsaldo": 2,
     "punten": 7
-  },
-  {
-    "positie": 7,
-    "club": "Kozakken Boys",
-    "logo": "",
-    "gespeeld": 4,
-    "gewonnen": 2,
-    "gelijk": 1,
-    "verloren": 1,
-    "voor": 9,
-    "tegen": 8,
-    "doelsaldo": 1,
-    "punten": 7
-  },
-  {
-    "positie": 8,
-    "club": "RKAV Volendam",
-    "logo": "",
-    "gespeeld": 4,
-    "gewonnen": 2,
-    "gelijk": 1,
-    "verloren": 1,
-    "voor": 5,
-    "tegen": 8,
-    "doelsaldo": -3,
-    "punten": 7
-  },
-  {
-    "positie": 9,
-    "club": "Spakenburg",
-    "logo": "",
-    "gespeeld": 4,
-    "gewonnen": 2,
-    "gelijk": 0,
-    "verloren": 2,
-    "voor": 5,
-    "tegen": 5,
-    "doelsaldo": 0,
-    "punten": 6
   },
   {
     "positie": 10,
@@ -144,6 +144,19 @@
   },
   {
     "positie": 12,
+    "club": "Kloetinge",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 1,
+    "gelijk": 2,
+    "verloren": 2,
+    "voor": 7,
+    "tegen": 11,
+    "doelsaldo": -4,
+    "punten": 5
+  },
+  {
+    "positie": 13,
     "club": "Hoek",
     "logo": "",
     "gespeeld": 4,
@@ -156,7 +169,7 @@
     "punten": 4
   },
   {
-    "positie": 13,
+    "positie": 14,
     "club": "Kon. HFC",
     "logo": "",
     "gespeeld": 4,
@@ -169,42 +182,29 @@
     "punten": 4
   },
   {
-    "positie": 14,
+    "positie": 15,
     "club": "Rijnsburgse Boys",
     "logo": "",
-    "gespeeld": 4,
+    "gespeeld": 5,
     "gewonnen": 1,
     "gelijk": 1,
-    "verloren": 2,
-    "voor": 7,
-    "tegen": 11,
-    "doelsaldo": -4,
-    "punten": 4
-  },
-  {
-    "positie": 15,
-    "club": "Kloetinge",
-    "logo": "",
-    "gespeeld": 4,
-    "gewonnen": 1,
-    "gelijk": 1,
-    "verloren": 2,
-    "voor": 6,
-    "tegen": 10,
-    "doelsaldo": -4,
+    "verloren": 3,
+    "voor": 8,
+    "tegen": 17,
+    "doelsaldo": -9,
     "punten": 4
   },
   {
     "positie": 16,
     "club": "Jong Almere City FC",
     "logo": "",
-    "gespeeld": 4,
+    "gespeeld": 5,
     "gewonnen": 1,
     "gelijk": 0,
-    "verloren": 3,
+    "verloren": 4,
     "voor": 8,
-    "tegen": 7,
-    "doelsaldo": 1,
+    "tegen": 10,
+    "doelsaldo": -2,
     "punten": 3
   },
   {
