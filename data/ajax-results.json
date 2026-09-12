@@ -38,5 +38,15 @@
     "uitLogo": "https://crests.football-data.org/674.png",
     "thuisScore": 1,
     "uitScore": 3
+  },
+  {
+    "id": 558896,
+    "datum": "za 12 september",
+    "thuis": "Fortuna Sittard",
+    "thuisLogo": "https://crests.football-data.org/1920.png",
+    "uit": "Ajax",
+    "uitLogo": "https://crests.football-data.org/678.png",
+    "thuisScore": 1,
+    "uitScore": 5
   }
 ]
