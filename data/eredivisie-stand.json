@@ -14,6 +14,19 @@
   },
   {
     "positie": 2,
+    "club": "Feyenoord Rotterdam",
+    "logo": "https://crests.football-data.org/675.png",
+    "gespeeld": 6,
+    "punten": 14,
+    "gewonnen": 4,
+    "gelijk": 2,
+    "verloren": 0,
+    "doelsaldo": 13,
+    "voor": 20,
+    "tegen": 7
+  },
+  {
+    "positie": 3,
     "club": "PSV",
     "logo": "https://crests.football-data.org/674.png",
     "gespeeld": 5,
@@ -26,7 +39,7 @@
     "tegen": 6
   },
   {
-    "positie": 3,
+    "positie": 4,
     "club": "FC Twente '65",
     "logo": "https://crests.football-data.org/666.png",
     "gespeeld": 6,
@@ -37,19 +50,6 @@
     "doelsaldo": 7,
     "voor": 12,
     "tegen": 5
-  },
-  {
-    "positie": 4,
-    "club": "Feyenoord Rotterdam",
-    "logo": "https://crests.football-data.org/675.png",
-    "gespeeld": 5,
-    "punten": 11,
-    "gewonnen": 3,
-    "gelijk": 2,
-    "verloren": 0,
-    "doelsaldo": 6,
-    "voor": 13,
-    "tegen": 7
   },
   {
     "positie": 5,
@@ -183,19 +183,6 @@
   },
   {
     "positie": 15,
-    "club": "PEC Zwolle",
-    "logo": "https://crests.football-data.org/684.png",
-    "gespeeld": 5,
-    "punten": 4,
-    "gewonnen": 1,
-    "gelijk": 1,
-    "verloren": 3,
-    "doelsaldo": -4,
-    "voor": 6,
-    "tegen": 10
-  },
-  {
-    "positie": 16,
     "club": "SC Cambuur-Leeuwarden",
     "logo": "https://crests.football-data.org/1909.png",
     "gespeeld": 6,
@@ -206,6 +193,19 @@
     "doelsaldo": -9,
     "voor": 9,
     "tegen": 18
+  },
+  {
+    "positie": 16,
+    "club": "PEC Zwolle",
+    "logo": "https://crests.football-data.org/684.png",
+    "gespeeld": 6,
+    "punten": 4,
+    "gewonnen": 1,
+    "gelijk": 1,
+    "verloren": 4,
+    "doelsaldo": -11,
+    "voor": 6,
+    "tegen": 17
   },
   {
     "positie": 17,
