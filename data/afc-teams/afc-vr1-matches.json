@@ -1,6 +1,6 @@
 [
   {
-    "datum": "zo 13 september 13:30",
+    "datum": "ma 13 september 13:30",
     "thuis": "AFC VR1",
     "thuisLogo": "images/afc.png",
     "uit": "vv Zwanenburg VR1",
@@ -33,5 +33,12 @@
     "thuisLogo": "",
     "uit": "AFC VR1",
     "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "zo 8 november 13:30",
+    "thuis": "AFC VR1",
+    "thuisLogo": "images/afc.png",
+    "uit": "OJC Rosmalen VR1",
+    "uitLogo": ""
   }
 ]

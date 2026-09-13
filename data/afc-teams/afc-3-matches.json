@@ -1,12 +1,5 @@
 [
   {
-    "datum": "zo 13 september 14:00",
-    "thuis": "AFC 3",
-    "thuisLogo": "images/afc.png",
-    "uit": "Con Zelo 2",
-    "uitLogo": ""
-  },
-  {
     "datum": "zo 20 september 14:00",
     "thuis": "SDZ 5",
     "thuisLogo": "",
@@ -47,5 +40,12 @@
     "thuisLogo": "",
     "uit": "AFC 3",
     "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "zo 8 november 16:00",
+    "thuis": "AFC 3",
+    "thuisLogo": "images/afc.png",
+    "uit": "Swift 6",
+    "uitLogo": ""
   }
 ]
