@@ -14,7 +14,7 @@
   },
   {
     "positie": 2,
-    "club": "CTO '70 vv 45+2",
+    "club": "ASV Arsenal 45+1",
     "logo": "",
     "gespeeld": 0,
     "gewonnen": 0,
@@ -27,7 +27,7 @@
   },
   {
     "positie": 3,
-    "club": "Diemen sv. 45+1",
+    "club": "CTO '70 vv 45+2",
     "logo": "",
     "gespeeld": 0,
     "gewonnen": 0,
@@ -40,7 +40,7 @@
   },
   {
     "positie": 4,
-    "club": "DRC 45+1",
+    "club": "Diemen sv. 45+1",
     "logo": "",
     "gespeeld": 0,
     "gewonnen": 0,
@@ -53,6 +53,19 @@
   },
   {
     "positie": 5,
+    "club": "DRC 45+1",
+    "logo": "",
+    "gespeeld": 0,
+    "gewonnen": 0,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 0,
+    "tegen": 0,
+    "doelsaldo": 0,
+    "punten": 0
+  },
+  {
+    "positie": 6,
     "club": "DTA Fortius asv 45+1",
     "logo": "images/fortius.png",
     "gespeeld": 0,
@@ -65,7 +78,7 @@
     "punten": 0
   },
   {
-    "positie": 6,
+    "positie": 7,
     "club": "Geinburgia sv. 45+1",
     "logo": "",
     "gespeeld": 0,
@@ -78,7 +91,7 @@
     "punten": 0
   },
   {
-    "positie": 7,
+    "positie": 8,
     "club": "GeuzenMiddenmeer 45+2",
     "logo": "",
     "gespeeld": 0,
@@ -91,7 +104,7 @@
     "punten": 0
   },
   {
-    "positie": 8,
+    "positie": 9,
     "club": "Muiderberg sc. 45+1",
     "logo": "",
     "gespeeld": 0,
@@ -104,7 +117,7 @@
     "punten": 0
   },
   {
-    "positie": 9,
+    "positie": 10,
     "club": "TABA afc 45+2",
     "logo": "images/afc.png",
     "gespeeld": 0,
@@ -117,7 +130,7 @@
     "punten": 0
   },
   {
-    "positie": 10,
+    "positie": 11,
     "club": "VVGA 45+1",
     "logo": "",
     "gespeeld": 0,
@@ -130,7 +143,7 @@
     "punten": 0
   },
   {
-    "positie": 11,
+    "positie": 12,
     "club": "Wartburgia asv 45+1",
     "logo": "",
     "gespeeld": 0,
@@ -143,7 +156,7 @@
     "punten": 0
   },
   {
-    "positie": 12,
+    "positie": 13,
     "club": "ST Weesp FC/Muiden SC 45+1",
     "logo": "",
     "gespeeld": 0,
@@ -156,7 +169,7 @@
     "punten": 0
   },
   {
-    "positie": 13,
+    "positie": 14,
     "club": "Zuidoost United 45+1",
     "logo": "",
     "gespeeld": 0,

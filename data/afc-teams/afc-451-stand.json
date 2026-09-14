@@ -131,7 +131,7 @@
   },
   {
     "positie": 11,
-    "club": "Sporting Martinus 45+1",
+    "club": "Real Sranang sv. 45+1",
     "logo": "",
     "gespeeld": 0,
     "gewonnen": 0,
@@ -144,6 +144,19 @@
   },
   {
     "positie": 12,
+    "club": "Sporting Martinus 45+1",
+    "logo": "",
+    "gespeeld": 0,
+    "gewonnen": 0,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 0,
+    "tegen": 0,
+    "doelsaldo": 0,
+    "punten": 0
+  },
+  {
+    "positie": 13,
     "club": "TABA afc 45+1",
     "logo": "images/afc.png",
     "gespeeld": 0,
@@ -156,7 +169,7 @@
     "punten": 0
   },
   {
-    "positie": 13,
+    "positie": 14,
     "club": "Wartburgia asv 45+2",
     "logo": "",
     "gespeeld": 0,
