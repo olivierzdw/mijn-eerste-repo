@@ -35,7 +35,7 @@
     "uitLogo": "images/afc.png"
   },
   {
-    "datum": "za 31 oktober 13:00",
+    "datum": "za 31 oktober 14:30",
     "thuis": "AFC 5",
     "thuisLogo": "images/afc.png",
     "uit": "TABA afc 3",
@@ -47,12 +47,5 @@
     "thuisLogo": "",
     "uit": "AFC 5",
     "uitLogo": "images/afc.png"
-  },
-  {
-    "datum": "za 14 november 13:00",
-    "thuis": "AFC 5",
-    "thuisLogo": "images/afc.png",
-    "uit": "Kadoelen sv. 2",
-    "uitLogo": ""
   }
 ]
