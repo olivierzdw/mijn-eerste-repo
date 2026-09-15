@@ -48,5 +48,15 @@
     "uitLogo": "https://crests.football-data.org/678.png",
     "thuisScore": 1,
     "uitScore": 5
+  },
+  {
+    "id": 558240,
+    "datum": "di 15 september",
+    "thuis": "Ajax",
+    "thuisLogo": "https://crests.football-data.org/678.png",
+    "uit": "Willem II Tilburg",
+    "uitLogo": "https://crests.football-data.org/672.png",
+    "thuisScore": 5,
+    "uitScore": 1
   }
 ]
