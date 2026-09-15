@@ -40,6 +40,19 @@
   },
   {
     "positie": 4,
+    "club": "Ajax",
+    "logo": "https://crests.football-data.org/678.png",
+    "gespeeld": 6,
+    "punten": 13,
+    "gewonnen": 4,
+    "gelijk": 1,
+    "verloren": 1,
+    "doelsaldo": 10,
+    "voor": 16,
+    "tegen": 6
+  },
+  {
+    "positie": 5,
     "club": "FC Twente '65",
     "logo": "https://crests.football-data.org/666.png",
     "gespeeld": 6,
@@ -50,19 +63,6 @@
     "doelsaldo": 7,
     "voor": 12,
     "tegen": 5
-  },
-  {
-    "positie": 5,
-    "club": "Ajax",
-    "logo": "https://crests.football-data.org/678.png",
-    "gespeeld": 5,
-    "punten": 10,
-    "gewonnen": 3,
-    "gelijk": 1,
-    "verloren": 1,
-    "doelsaldo": 8,
-    "voor": 14,
-    "tegen": 6
   },
   {
     "positie": 6,
@@ -211,14 +211,14 @@
     "positie": 17,
     "club": "Willem II Tilburg",
     "logo": "https://crests.football-data.org/672.png",
-    "gespeeld": 5,
+    "gespeeld": 6,
     "punten": 2,
     "gewonnen": 0,
     "gelijk": 2,
-    "verloren": 3,
-    "doelsaldo": -9,
+    "verloren": 4,
+    "doelsaldo": -11,
     "voor": 5,
-    "tegen": 14
+    "tegen": 16
   },
   {
     "positie": 18,
