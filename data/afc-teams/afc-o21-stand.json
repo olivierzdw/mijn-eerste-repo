@@ -68,30 +68,17 @@
     "positie": 6,
     "club": "Vitesse O21",
     "logo": "",
-    "gespeeld": 2,
-    "gewonnen": 0,
+    "gespeeld": 3,
+    "gewonnen": 1,
     "gelijk": 0,
     "verloren": 2,
-    "voor": 0,
-    "tegen": 6,
-    "doelsaldo": -6,
-    "punten": 0
+    "voor": 3,
+    "tegen": 7,
+    "doelsaldo": -4,
+    "punten": 3
   },
   {
     "positie": 7,
-    "club": "NAC Breda O21",
-    "logo": "",
-    "gespeeld": 2,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 2,
-    "voor": 0,
-    "tegen": 9,
-    "doelsaldo": -9,
-    "punten": 0
-  },
-  {
-    "positie": 8,
     "club": "Fortuna Sittard O21",
     "logo": "",
     "gespeeld": 3,
@@ -101,6 +88,19 @@
     "voor": 0,
     "tegen": 10,
     "doelsaldo": -10,
+    "punten": 0
+  },
+  {
+    "positie": 8,
+    "club": "NAC Breda O21",
+    "logo": "",
+    "gespeeld": 3,
+    "gewonnen": 0,
+    "gelijk": 0,
+    "verloren": 3,
+    "voor": 1,
+    "tegen": 12,
+    "doelsaldo": -11,
     "punten": 0
   }
 ]
