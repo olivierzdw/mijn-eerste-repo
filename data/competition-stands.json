@@ -279,14 +279,14 @@
       "positie": 2,
       "club": "Real Madrid CF",
       "logo": "https://crests.football-data.org/86.png",
-      "gespeeld": 5,
-      "punten": 12,
-      "gewonnen": 4,
+      "gespeeld": 6,
+      "punten": 15,
+      "gewonnen": 5,
       "gelijk": 0,
       "verloren": 1,
-      "doelsaldo": 10,
-      "voor": 14,
-      "tegen": 4
+      "doelsaldo": 11,
+      "voor": 17,
+      "tegen": 6
     },
     {
       "positie": 3,
@@ -305,14 +305,14 @@
       "positie": 4,
       "club": "Deportivo Alavés",
       "logo": "https://crests.football-data.org/263.png",
-      "gespeeld": 5,
+      "gespeeld": 6,
       "punten": 10,
       "gewonnen": 3,
       "gelijk": 1,
-      "verloren": 1,
-      "doelsaldo": 6,
+      "verloren": 2,
+      "doelsaldo": 5,
       "voor": 11,
-      "tegen": 5
+      "tegen": 6
     },
     {
       "positie": 5,
@@ -357,14 +357,14 @@
       "positie": 8,
       "club": "RCD Espanyol de Barcelona",
       "logo": "https://crests.football-data.org/80.png",
-      "gespeeld": 5,
+      "gespeeld": 6,
       "punten": 7,
       "gewonnen": 2,
       "gelijk": 1,
-      "verloren": 2,
-      "doelsaldo": 3,
-      "voor": 8,
-      "tegen": 5
+      "verloren": 3,
+      "doelsaldo": 2,
+      "voor": 9,
+      "tegen": 7
     },
     {
       "positie": 9,
@@ -407,6 +407,19 @@
     },
     {
       "positie": 12,
+      "club": "Rayo Vallecano de Madrid",
+      "logo": "https://crests.football-data.org/87.png",
+      "gespeeld": 6,
+      "punten": 7,
+      "gewonnen": 2,
+      "gelijk": 1,
+      "verloren": 3,
+      "doelsaldo": -5,
+      "voor": 10,
+      "tegen": 15
+    },
+    {
+      "positie": 13,
       "club": "Real Sociedad de Fútbol",
       "logo": "https://crests.football-data.org/92.png",
       "gespeeld": 6,
@@ -419,7 +432,7 @@
       "tegen": 11
     },
     {
-      "positie": 13,
+      "positie": 14,
       "club": "Levante UD",
       "logo": "https://crests.football-data.org/88.png",
       "gespeeld": 5,
@@ -432,7 +445,7 @@
       "tegen": 9
     },
     {
-      "positie": 14,
+      "positie": 15,
       "club": "Getafe CF",
       "logo": "https://crests.football-data.org/82.png",
       "gespeeld": 5,
@@ -445,7 +458,7 @@
       "tegen": 6
     },
     {
-      "positie": 15,
+      "positie": 16,
       "club": "RC Celta de Vigo",
       "logo": "https://crests.football-data.org/558.png",
       "gespeeld": 6,
@@ -458,20 +471,20 @@
       "tegen": 6
     },
     {
-      "positie": 16,
-      "club": "Rayo Vallecano de Madrid",
-      "logo": "https://crests.football-data.org/87.png",
-      "gespeeld": 5,
+      "positie": 17,
+      "club": "Valencia CF",
+      "logo": "https://crests.football-data.org/95.png",
+      "gespeeld": 6,
       "punten": 4,
       "gewonnen": 1,
       "gelijk": 1,
-      "verloren": 3,
-      "doelsaldo": -6,
-      "voor": 8,
-      "tegen": 14
+      "verloren": 4,
+      "doelsaldo": -8,
+      "voor": 2,
+      "tegen": 10
     },
     {
-      "positie": 17,
+      "positie": 18,
       "club": "Málaga CF",
       "logo": "https://crests.football-data.org/84.png",
       "gespeeld": 5,
@@ -484,7 +497,7 @@
       "tegen": 8
     },
     {
-      "positie": 18,
+      "positie": 19,
       "club": "Villarreal CF",
       "logo": "https://crests.football-data.org/94.png",
       "gespeeld": 5,
@@ -497,30 +510,17 @@
       "tegen": 10
     },
     {
-      "positie": 19,
+      "positie": 20,
       "club": "Elche CF",
       "logo": "https://crests.football-data.org/285.png",
-      "gespeeld": 5,
+      "gespeeld": 6,
       "punten": 2,
       "gewonnen": 0,
       "gelijk": 2,
-      "verloren": 3,
-      "doelsaldo": -7,
-      "voor": 6,
-      "tegen": 13
-    },
-    {
-      "positie": 20,
-      "club": "Valencia CF",
-      "logo": "https://crests.football-data.org/95.png",
-      "gespeeld": 5,
-      "punten": 1,
-      "gewonnen": 0,
-      "gelijk": 1,
       "verloren": 4,
-      "doelsaldo": -9,
-      "voor": 1,
-      "tegen": 10
+      "doelsaldo": -8,
+      "voor": 8,
+      "tegen": 16
     }
   ],
   "BL1": [
@@ -1299,6 +1299,19 @@
     },
     {
       "positie": 4,
+      "club": "AFC Ajax",
+      "logo": "https://crests.football-data.org/678.png",
+      "gespeeld": 6,
+      "punten": 13,
+      "gewonnen": 4,
+      "gelijk": 1,
+      "verloren": 1,
+      "doelsaldo": 12,
+      "voor": 19,
+      "tegen": 7
+    },
+    {
+      "positie": 5,
       "club": "FC Twente '65",
       "logo": "https://crests.football-data.org/666.png",
       "gespeeld": 6,
@@ -1309,19 +1322,6 @@
       "doelsaldo": 7,
       "voor": 12,
       "tegen": 5
-    },
-    {
-      "positie": 5,
-      "club": "AFC Ajax",
-      "logo": "https://crests.football-data.org/678.png",
-      "gespeeld": 5,
-      "punten": 10,
-      "gewonnen": 3,
-      "gelijk": 1,
-      "verloren": 1,
-      "doelsaldo": 8,
-      "voor": 14,
-      "tegen": 6
     },
     {
       "positie": 6,
@@ -1470,14 +1470,14 @@
       "positie": 17,
       "club": "Willem II Tilburg",
       "logo": "https://crests.football-data.org/672.png",
-      "gespeeld": 5,
+      "gespeeld": 6,
       "punten": 2,
       "gewonnen": 0,
       "gelijk": 2,
-      "verloren": 3,
-      "doelsaldo": -9,
-      "voor": 5,
-      "tegen": 14
+      "verloren": 4,
+      "doelsaldo": -13,
+      "voor": 6,
+      "tegen": 19
     },
     {
       "positie": 18,
