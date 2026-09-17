@@ -1154,6 +1154,17 @@
       "uitLogo": "https://crests.football-data.org/95.png",
       "thuisScore": 1,
       "uitScore": 0
+    },
+    {
+      "id": 564679,
+      "datum": "wo 16 september",
+      "datumIso": "2026-09-16",
+      "thuis": "RC Deportivo La Coruña",
+      "thuisLogo": "https://crests.football-data.org/560.png",
+      "uit": "Sevilla FC",
+      "uitLogo": "https://crests.football-data.org/559.png",
+      "thuisScore": 0,
+      "uitScore": 1
     }
   ],
   "87": [
@@ -1279,6 +1290,17 @@
       "uitLogo": "https://crests.football-data.org/263.png",
       "thuisScore": 2,
       "uitScore": 1
+    },
+    {
+      "id": 564687,
+      "datum": "wo 16 september",
+      "datumIso": "2026-09-16",
+      "thuis": "FC Barcelona",
+      "thuisLogo": "https://crests.football-data.org/81.png",
+      "uit": "Real Racing Club de Santander",
+      "uitLogo": "https://crests.football-data.org/5335.png",
+      "thuisScore": 7,
+      "uitScore": 2
     }
   ],
   "94": [
@@ -1529,6 +1551,17 @@
       "uitLogo": "https://crests.football-data.org/560.png",
       "thuisScore": 1,
       "uitScore": 1
+    },
+    {
+      "id": 564679,
+      "datum": "wo 16 september",
+      "datumIso": "2026-09-16",
+      "thuis": "RC Deportivo La Coruña",
+      "thuisLogo": "https://crests.football-data.org/560.png",
+      "uit": "Sevilla FC",
+      "uitLogo": "https://crests.football-data.org/559.png",
+      "thuisScore": 0,
+      "uitScore": 1
     }
   ],
   "285": [
@@ -1654,6 +1687,17 @@
       "uitLogo": "https://crests.football-data.org/78.png",
       "thuisScore": 0,
       "uitScore": 3
+    },
+    {
+      "id": 564684,
+      "datum": "wo 16 september",
+      "datumIso": "2026-09-16",
+      "thuis": "Club Atlético de Madrid",
+      "thuisLogo": "https://crests.football-data.org/78.png",
+      "uit": "CA Osasuna",
+      "uitLogo": "https://crests.football-data.org/79.png",
+      "thuisScore": 4,
+      "uitScore": 0
     },
     {
       "id": 575331,
@@ -2189,6 +2233,17 @@
       "uitScore": 4
     },
     {
+      "id": 564687,
+      "datum": "wo 16 september",
+      "datumIso": "2026-09-16",
+      "thuis": "FC Barcelona",
+      "thuisLogo": "https://crests.football-data.org/81.png",
+      "uit": "Real Racing Club de Santander",
+      "uitLogo": "https://crests.football-data.org/5335.png",
+      "thuisScore": 7,
+      "uitScore": 2
+    },
+    {
       "id": 575329,
       "datum": "wo 9 september",
       "datumIso": "2026-09-09",
@@ -2255,6 +2310,17 @@
       "uitLogo": "https://crests.football-data.org/80.png",
       "thuisScore": 0,
       "uitScore": 2
+    },
+    {
+      "id": 564684,
+      "datum": "wo 16 september",
+      "datumIso": "2026-09-16",
+      "thuis": "Club Atlético de Madrid",
+      "thuisLogo": "https://crests.football-data.org/78.png",
+      "uit": "CA Osasuna",
+      "uitLogo": "https://crests.football-data.org/79.png",
+      "thuisScore": 4,
+      "uitScore": 0
     }
   ],
   "5": [
@@ -10181,6 +10247,17 @@
       "uitLogo": "https://crests.football-data.org/1780.png",
       "thuisScore": 1,
       "uitScore": 2
+    },
+    {
+      "id": 554941,
+      "datum": "do 17 september",
+      "datumIso": "2026-09-16",
+      "thuis": "Botafogo FR",
+      "thuisLogo": "https://crests.football-data.org/1770.png",
+      "uit": "Grêmio FBPA",
+      "uitLogo": "https://crests.football-data.org/1767.png",
+      "thuisScore": 3,
+      "uitScore": 2
     }
   ],
   "1772": [
@@ -12817,6 +12894,17 @@
       "uitLogo": "https://crests.football-data.org/4286.png",
       "thuisScore": 1,
       "uitScore": 1
+    },
+    {
+      "id": 554941,
+      "datum": "do 17 september",
+      "datumIso": "2026-09-16",
+      "thuis": "Botafogo FR",
+      "thuisLogo": "https://crests.football-data.org/1770.png",
+      "uit": "Grêmio FBPA",
+      "uitLogo": "https://crests.football-data.org/1767.png",
+      "thuisScore": 3,
+      "uitScore": 2
     }
   ],
   "1771": [
