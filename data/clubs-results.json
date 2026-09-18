@@ -1097,6 +1097,17 @@
       "uitLogo": "https://crests.football-data.org/560.png",
       "thuisScore": 1,
       "uitScore": 1
+    },
+    {
+      "id": 564686,
+      "datum": "do 17 september",
+      "datumIso": "2026-09-17",
+      "thuis": "Real Betis Balompié",
+      "thuisLogo": "https://crests.football-data.org/90.png",
+      "uit": "Getafe CF",
+      "uitLogo": "https://crests.football-data.org/82.png",
+      "thuisScore": 1,
+      "uitScore": 0
     }
   ],
   "559": [
@@ -1358,6 +1369,17 @@
       "uitLogo": "https://crests.football-data.org/90.png",
       "thuisScore": 1,
       "uitScore": 2
+    },
+    {
+      "id": 564683,
+      "datum": "do 17 september",
+      "datumIso": "2026-09-17",
+      "thuis": "Málaga CF",
+      "thuisLogo": "https://crests.football-data.org/84.png",
+      "uit": "Villarreal CF",
+      "uitLogo": "https://crests.football-data.org/94.png",
+      "thuisScore": 1,
+      "uitScore": 3
     },
     {
       "id": 575327,
@@ -1766,6 +1788,17 @@
       "uitLogo": "https://crests.football-data.org/84.png",
       "thuisScore": 1,
       "uitScore": 1
+    },
+    {
+      "id": 564683,
+      "datum": "do 17 september",
+      "datumIso": "2026-09-17",
+      "thuis": "Málaga CF",
+      "thuisLogo": "https://crests.football-data.org/84.png",
+      "uit": "Villarreal CF",
+      "uitLogo": "https://crests.football-data.org/94.png",
+      "thuisScore": 1,
+      "uitScore": 3
     }
   ],
   "90": [
@@ -1823,6 +1856,17 @@
       "uitLogo": "https://crests.football-data.org/90.png",
       "thuisScore": 1,
       "uitScore": 2
+    },
+    {
+      "id": 564686,
+      "datum": "do 17 september",
+      "datumIso": "2026-09-17",
+      "thuis": "Real Betis Balompié",
+      "thuisLogo": "https://crests.football-data.org/90.png",
+      "uit": "Getafe CF",
+      "uitLogo": "https://crests.football-data.org/82.png",
+      "thuisScore": 1,
+      "uitScore": 0
     },
     {
       "id": 575328,

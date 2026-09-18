@@ -290,6 +290,19 @@
     },
     {
       "positie": 3,
+      "club": "Real Betis Balompié",
+      "logo": "https://crests.football-data.org/90.png",
+      "gespeeld": 6,
+      "punten": 15,
+      "gewonnen": 5,
+      "gelijk": 0,
+      "verloren": 1,
+      "doelsaldo": 2,
+      "voor": 8,
+      "tegen": 6
+    },
+    {
+      "positie": 4,
       "club": "Club Atlético de Madrid",
       "logo": "https://crests.football-data.org/78.png",
       "gespeeld": 6,
@@ -302,7 +315,7 @@
       "tegen": 6
     },
     {
-      "positie": 4,
+      "positie": 5,
       "club": "Sevilla FC",
       "logo": "https://crests.football-data.org/559.png",
       "gespeeld": 6,
@@ -312,19 +325,6 @@
       "verloren": 1,
       "doelsaldo": 3,
       "voor": 9,
-      "tegen": 6
-    },
-    {
-      "positie": 5,
-      "club": "Real Betis Balompié",
-      "logo": "https://crests.football-data.org/90.png",
-      "gespeeld": 5,
-      "punten": 12,
-      "gewonnen": 4,
-      "gelijk": 0,
-      "verloren": 1,
-      "doelsaldo": 1,
-      "voor": 7,
       "tegen": 6
     },
     {
@@ -433,6 +433,19 @@
     },
     {
       "positie": 14,
+      "club": "Villarreal CF",
+      "logo": "https://crests.football-data.org/94.png",
+      "gespeeld": 6,
+      "punten": 5,
+      "gewonnen": 1,
+      "gelijk": 2,
+      "verloren": 3,
+      "doelsaldo": -1,
+      "voor": 10,
+      "tegen": 11
+    },
+    {
+      "positie": 15,
       "club": "Levante UD",
       "logo": "https://crests.football-data.org/88.png",
       "gespeeld": 5,
@@ -445,20 +458,20 @@
       "tegen": 9
     },
     {
-      "positie": 15,
+      "positie": 16,
       "club": "Getafe CF",
       "logo": "https://crests.football-data.org/82.png",
-      "gespeeld": 5,
+      "gespeeld": 6,
       "punten": 5,
       "gewonnen": 1,
       "gelijk": 2,
-      "verloren": 2,
-      "doelsaldo": -3,
+      "verloren": 3,
+      "doelsaldo": -4,
       "voor": 3,
-      "tegen": 6
+      "tegen": 7
     },
     {
-      "positie": 16,
+      "positie": 17,
       "club": "RC Celta de Vigo",
       "logo": "https://crests.football-data.org/558.png",
       "gespeeld": 6,
@@ -471,7 +484,7 @@
       "tegen": 6
     },
     {
-      "positie": 17,
+      "positie": 18,
       "club": "Valencia CF",
       "logo": "https://crests.football-data.org/95.png",
       "gespeeld": 6,
@@ -484,30 +497,17 @@
       "tegen": 10
     },
     {
-      "positie": 18,
+      "positie": 19,
       "club": "Málaga CF",
       "logo": "https://crests.football-data.org/84.png",
-      "gespeeld": 5,
+      "gespeeld": 6,
       "punten": 3,
       "gewonnen": 0,
       "gelijk": 3,
-      "verloren": 2,
-      "doelsaldo": -6,
-      "voor": 2,
-      "tegen": 8
-    },
-    {
-      "positie": 19,
-      "club": "Villarreal CF",
-      "logo": "https://crests.football-data.org/94.png",
-      "gespeeld": 5,
-      "punten": 2,
-      "gewonnen": 0,
-      "gelijk": 2,
       "verloren": 3,
-      "doelsaldo": -3,
-      "voor": 7,
-      "tegen": 10
+      "doelsaldo": -8,
+      "voor": 3,
+      "tegen": 11
     },
     {
       "positie": 20,
