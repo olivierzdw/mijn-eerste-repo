@@ -66,6 +66,19 @@
   },
   {
     "positie": 6,
+    "club": "Groningen",
+    "logo": "https://crests.football-data.org/677.png",
+    "gespeeld": 7,
+    "punten": 11,
+    "gewonnen": 3,
+    "gelijk": 2,
+    "verloren": 2,
+    "doelsaldo": 2,
+    "voor": 15,
+    "tegen": 13
+  },
+  {
+    "positie": 7,
     "club": "SBV Excelsior",
     "logo": "https://crests.football-data.org/670.png",
     "gespeeld": 6,
@@ -78,7 +91,7 @@
     "tegen": 7
   },
   {
-    "positie": 7,
+    "positie": 8,
     "club": "Fortuna Sittard",
     "logo": "https://crests.football-data.org/1920.png",
     "gespeeld": 6,
@@ -91,7 +104,7 @@
     "tegen": 14
   },
   {
-    "positie": 8,
+    "positie": 9,
     "club": "Go Ahead Eagles",
     "logo": "https://crests.football-data.org/718.png",
     "gespeeld": 6,
@@ -101,19 +114,6 @@
     "verloren": 1,
     "doelsaldo": 2,
     "voor": 15,
-    "tegen": 13
-  },
-  {
-    "positie": 9,
-    "club": "Groningen",
-    "logo": "https://crests.football-data.org/677.png",
-    "gespeeld": 6,
-    "punten": 8,
-    "gewonnen": 2,
-    "gelijk": 2,
-    "verloren": 2,
-    "doelsaldo": -1,
-    "voor": 12,
     "tegen": 13
   },
   {
@@ -198,14 +198,14 @@
     "positie": 16,
     "club": "PEC Zwolle",
     "logo": "https://crests.football-data.org/684.png",
-    "gespeeld": 6,
+    "gespeeld": 7,
     "punten": 4,
     "gewonnen": 1,
     "gelijk": 1,
-    "verloren": 4,
-    "doelsaldo": -11,
+    "verloren": 5,
+    "doelsaldo": -14,
     "voor": 6,
-    "tegen": 17
+    "tegen": 20
   },
   {
     "positie": 17,
