@@ -58,5 +58,15 @@
     "uitLogo": "https://crests.football-data.org/672.png",
     "thuisScore": 5,
     "uitScore": 1
+  },
+  {
+    "id": 558887,
+    "datum": "za 19 september",
+    "thuis": "Ajax",
+    "thuisLogo": "https://crests.football-data.org/678.png",
+    "uit": "SBV Excelsior",
+    "uitLogo": "https://crests.football-data.org/670.png",
+    "thuisScore": 2,
+    "uitScore": 2
   }
 ]
