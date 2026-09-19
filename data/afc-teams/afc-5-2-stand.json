@@ -40,6 +40,19 @@
   },
   {
     "positie": 4,
+    "club": "Sporting Martinus 3",
+    "logo": "",
+    "gespeeld": 1,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 6,
+    "tegen": 5,
+    "doelsaldo": 1,
+    "punten": 3
+  },
+  {
+    "positie": 5,
     "club": "Buitenveldert sc. 2",
     "logo": "",
     "gespeeld": 1,
@@ -52,7 +65,7 @@
     "punten": 1
   },
   {
-    "positie": 5,
+    "positie": 6,
     "club": "Ouderkerk sv. 3",
     "logo": "",
     "gespeeld": 1,
@@ -65,7 +78,7 @@
     "punten": 1
   },
   {
-    "positie": 6,
+    "positie": 7,
     "club": "FC Amsterdam 4",
     "logo": "",
     "gespeeld": 0,
@@ -78,7 +91,7 @@
     "punten": 0
   },
   {
-    "positie": 7,
+    "positie": 8,
     "club": "ASV Arsenal 6",
     "logo": "",
     "gespeeld": 0,
@@ -91,7 +104,7 @@
     "punten": 0
   },
   {
-    "positie": 8,
+    "positie": 9,
     "club": "GeuzenMiddenmeer 3",
     "logo": "",
     "gespeeld": 0,
@@ -104,21 +117,8 @@
     "punten": 0
   },
   {
-    "positie": 9,
-    "club": "Meer De sv. 6",
-    "logo": "",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
     "positie": 10,
-    "club": "Sporting Martinus 3",
+    "club": "Swift 6",
     "logo": "",
     "gespeeld": 0,
     "gewonnen": 0,
@@ -131,15 +131,15 @@
   },
   {
     "positie": 11,
-    "club": "Swift 6",
+    "club": "Meer De sv. 6",
     "logo": "",
-    "gespeeld": 0,
+    "gespeeld": 1,
     "gewonnen": 0,
     "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
+    "verloren": 1,
+    "voor": 5,
+    "tegen": 6,
+    "doelsaldo": -1,
     "punten": 0
   },
   {
