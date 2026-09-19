@@ -1,16 +1,16 @@
 [
   {
     "positie": 1,
-    "club": "AFC 7",
-    "logo": "images/afc.png",
-    "gespeeld": 0,
-    "gewonnen": 0,
+    "club": "TOS-Actief 3",
+    "logo": "",
+    "gespeeld": 1,
+    "gewonnen": 1,
     "gelijk": 0,
     "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
+    "voor": 2,
+    "tegen": 1,
+    "doelsaldo": 1,
+    "punten": 3
   },
   {
     "positie": 2,
@@ -105,19 +105,6 @@
   },
   {
     "positie": 9,
-    "club": "TOS-Actief 3",
-    "logo": "",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
-    "positie": 10,
     "club": "Wartburgia asv 5",
     "logo": "",
     "gespeeld": 0,
@@ -130,7 +117,7 @@
     "punten": 0
   },
   {
-    "positie": 11,
+    "positie": 10,
     "club": "WV-HEDW 8",
     "logo": "",
     "gespeeld": 0,
@@ -143,7 +130,7 @@
     "punten": 0
   },
   {
-    "positie": 12,
+    "positie": 11,
     "club": "Zeeburgia avv 2",
     "logo": "",
     "gespeeld": 0,
@@ -153,6 +140,19 @@
     "voor": 0,
     "tegen": 0,
     "doelsaldo": 0,
+    "punten": 0
+  },
+  {
+    "positie": 12,
+    "club": "AFC 7",
+    "logo": "images/afc.png",
+    "gespeeld": 1,
+    "gewonnen": 0,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 1,
+    "tegen": 2,
+    "doelsaldo": -1,
     "punten": 0
   }
 ]

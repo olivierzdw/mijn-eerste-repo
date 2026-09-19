@@ -1,19 +1,32 @@
 [
   {
     "positie": 1,
-    "club": "AFC 5",
-    "logo": "images/afc.png",
-    "gespeeld": 0,
-    "gewonnen": 0,
+    "club": "WV-HEDW 6",
+    "logo": "",
+    "gespeeld": 1,
+    "gewonnen": 1,
     "gelijk": 0,
     "verloren": 0,
-    "voor": 0,
+    "voor": 3,
     "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
+    "doelsaldo": 3,
+    "punten": 3
   },
   {
     "positie": 2,
+    "club": "JOS Watergraafsmeer 3",
+    "logo": "",
+    "gespeeld": 1,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 3,
+    "tegen": 1,
+    "doelsaldo": 2,
+    "punten": 3
+  },
+  {
+    "positie": 3,
     "club": "FC Amsterdam 4",
     "logo": "",
     "gespeeld": 0,
@@ -26,7 +39,7 @@
     "punten": 0
   },
   {
-    "positie": 3,
+    "positie": 4,
     "club": "ASV Arsenal 6",
     "logo": "",
     "gespeeld": 0,
@@ -39,7 +52,7 @@
     "punten": 0
   },
   {
-    "positie": 4,
+    "positie": 5,
     "club": "Buitenveldert sc. 2",
     "logo": "",
     "gespeeld": 0,
@@ -52,21 +65,8 @@
     "punten": 0
   },
   {
-    "positie": 5,
-    "club": "GeuzenMiddenmeer 3",
-    "logo": "",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
     "positie": 6,
-    "club": "JOS Watergraafsmeer 3",
+    "club": "GeuzenMiddenmeer 3",
     "logo": "",
     "gespeeld": 0,
     "gewonnen": 0,
@@ -157,28 +157,28 @@
   },
   {
     "positie": 13,
-    "club": "Wartburgia asv 4",
-    "logo": "",
-    "gespeeld": 0,
+    "club": "AFC 5",
+    "logo": "images/afc.png",
+    "gespeeld": 1,
     "gewonnen": 0,
     "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
+    "verloren": 1,
+    "voor": 1,
+    "tegen": 3,
+    "doelsaldo": -2,
     "punten": 0
   },
   {
     "positie": 14,
-    "club": "WV-HEDW 6",
+    "club": "Wartburgia asv 4",
     "logo": "",
-    "gespeeld": 0,
+    "gespeeld": 1,
     "gewonnen": 0,
     "gelijk": 0,
-    "verloren": 0,
+    "verloren": 1,
     "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
+    "tegen": 3,
+    "doelsaldo": -3,
     "punten": 0
   }
 ]

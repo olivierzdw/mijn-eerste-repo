@@ -1,6 +1,19 @@
 [
   {
     "positie": 1,
+    "club": "VVA/Spartaan 3",
+    "logo": "",
+    "gespeeld": 1,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 7,
+    "tegen": 0,
+    "doelsaldo": 7,
+    "punten": 3
+  },
+  {
+    "positie": 2,
     "club": "AFC 10",
     "logo": "images/afc.png",
     "gespeeld": 0,
@@ -13,7 +26,7 @@
     "punten": 0
   },
   {
-    "positie": 2,
+    "positie": 3,
     "club": "Argon 7",
     "logo": "",
     "gespeeld": 0,
@@ -26,7 +39,7 @@
     "punten": 0
   },
   {
-    "positie": 3,
+    "positie": 4,
     "club": "ASV Arsenal 9",
     "logo": "",
     "gespeeld": 0,
@@ -39,7 +52,7 @@
     "punten": 0
   },
   {
-    "positie": 4,
+    "positie": 5,
     "club": "Buitenveldert sc. 9",
     "logo": "",
     "gespeeld": 0,
@@ -52,7 +65,7 @@
     "punten": 0
   },
   {
-    "positie": 5,
+    "positie": 6,
     "club": "DEVO'58 2",
     "logo": "",
     "gespeeld": 0,
@@ -65,7 +78,7 @@
     "punten": 0
   },
   {
-    "positie": 6,
+    "positie": 7,
     "club": "RAP sv. 6",
     "logo": "",
     "gespeeld": 0,
@@ -78,7 +91,7 @@
     "punten": 0
   },
   {
-    "positie": 7,
+    "positie": 8,
     "club": "SDZ 2",
     "logo": "",
     "gespeeld": 0,
@@ -91,7 +104,7 @@
     "punten": 0
   },
   {
-    "positie": 8,
+    "positie": 9,
     "club": "Sloterdijk avv. 3",
     "logo": "images/sloterdijk.png",
     "gespeeld": 0,
@@ -104,7 +117,7 @@
     "punten": 0
   },
   {
-    "positie": 9,
+    "positie": 10,
     "club": "Swift 9",
     "logo": "",
     "gespeeld": 0,
@@ -117,21 +130,8 @@
     "punten": 0
   },
   {
-    "positie": 10,
-    "club": "Volendam (rkav) 6",
-    "logo": "",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
     "positie": 11,
-    "club": "VVA/Spartaan 3",
+    "club": "Volendam (rkav) 6",
     "logo": "",
     "gespeeld": 0,
     "gewonnen": 0,
@@ -146,13 +146,13 @@
     "positie": 12,
     "club": "WV-HEDW 12",
     "logo": "",
-    "gespeeld": 0,
+    "gespeeld": 1,
     "gewonnen": 0,
     "gelijk": 0,
-    "verloren": 0,
+    "verloren": 1,
     "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
+    "tegen": 7,
+    "doelsaldo": -7,
     "punten": 0
   }
 ]

@@ -40,5 +40,19 @@
     "thuisLogo": "images/afc.png",
     "uit": "OJC Rosmalen VR1",
     "uitLogo": ""
+  },
+  {
+    "datum": "zo 15 november 14:00",
+    "thuis": "Victoria Boys VR1",
+    "thuisLogo": "",
+    "uit": "AFC VR1",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "zo 22 november 13:30",
+    "thuis": "AFC VR1",
+    "thuisLogo": "images/afc.png",
+    "uit": "Alverna VR1",
+    "uitLogo": ""
   }
 ]

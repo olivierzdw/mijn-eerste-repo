@@ -1,6 +1,32 @@
 [
   {
     "positie": 1,
+    "club": "HBOK 2",
+    "logo": "",
+    "gespeeld": 1,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 6,
+    "tegen": 2,
+    "doelsaldo": 4,
+    "punten": 3
+  },
+  {
+    "positie": 2,
+    "club": "ASV Arsenal 3",
+    "logo": "",
+    "gespeeld": 1,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 3,
+    "tegen": 1,
+    "doelsaldo": 2,
+    "punten": 3
+  },
+  {
+    "positie": 3,
     "club": "AFC 3",
     "logo": "images/afc.png",
     "gespeeld": 0,
@@ -13,20 +39,7 @@
     "punten": 0
   },
   {
-    "positie": 2,
-    "club": "ASV Arsenal 3",
-    "logo": "",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
-    "positie": 3,
+    "positie": 4,
     "club": "DCG Rksv 2",
     "logo": "",
     "gespeeld": 0,
@@ -39,7 +52,7 @@
     "punten": 0
   },
   {
-    "positie": 4,
+    "positie": 5,
     "club": "Foresters 3",
     "logo": "",
     "gespeeld": 0,
@@ -52,7 +65,7 @@
     "punten": 0
   },
   {
-    "positie": 5,
+    "positie": 6,
     "club": "Haarlem-Kennemerland f.c. 2",
     "logo": "",
     "gespeeld": 0,
@@ -65,33 +78,7 @@
     "punten": 0
   },
   {
-    "positie": 6,
-    "club": "HBOK 2",
-    "logo": "",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
     "positie": 7,
-    "club": "IJmuiden vv. 2",
-    "logo": "",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
-    "positie": 8,
     "club": "Meer De sv. 2",
     "logo": "",
     "gespeeld": 0,
@@ -104,7 +91,7 @@
     "punten": 0
   },
   {
-    "positie": 9,
+    "positie": 8,
     "club": "Swift 5",
     "logo": "",
     "gespeeld": 0,
@@ -117,20 +104,7 @@
     "punten": 0
   },
   {
-    "positie": 10,
-    "club": "Wartburgia asv 3",
-    "logo": "",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
-    "positie": 11,
+    "positie": 9,
     "club": "Zandvoort s.v. 2",
     "logo": "",
     "gespeeld": 0,
@@ -143,7 +117,7 @@
     "punten": 0
   },
   {
-    "positie": 12,
+    "positie": 10,
     "club": "vv Zwanenburg 2",
     "logo": "",
     "gespeeld": 0,
@@ -153,6 +127,32 @@
     "voor": 0,
     "tegen": 0,
     "doelsaldo": 0,
+    "punten": 0
+  },
+  {
+    "positie": 11,
+    "club": "IJmuiden vv. 2",
+    "logo": "",
+    "gespeeld": 1,
+    "gewonnen": 0,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 1,
+    "tegen": 3,
+    "doelsaldo": -2,
+    "punten": 0
+  },
+  {
+    "positie": 12,
+    "club": "Wartburgia asv 3",
+    "logo": "",
+    "gespeeld": 1,
+    "gewonnen": 0,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 2,
+    "tegen": 6,
+    "doelsaldo": -4,
     "punten": 0
   }
 ]
