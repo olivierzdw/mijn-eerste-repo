@@ -1,12 +1,5 @@
 [
   {
-    "datum": "za 19 september 13:30",
-    "thuis": "AFC 10",
-    "thuisLogo": "images/afc.png",
-    "uit": "RAP sv. 6",
-    "uitLogo": ""
-  },
-  {
     "datum": "za 26 september 12:30",
     "thuis": "WV-HEDW 12",
     "thuisLogo": "",
@@ -54,5 +47,12 @@
     "thuisLogo": "",
     "uit": "AFC 10",
     "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 28 november 14:45",
+    "thuis": "AFC 10",
+    "thuisLogo": "images/afc.png",
+    "uit": "SDZ 2",
+    "uitLogo": ""
   }
 ]

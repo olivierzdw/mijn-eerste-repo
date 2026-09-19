@@ -1,6 +1,32 @@
 [
   {
     "positie": 1,
+    "club": "CTO '70 vv 45+3",
+    "logo": "",
+    "gespeeld": 1,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 6,
+    "tegen": 2,
+    "doelsaldo": 4,
+    "punten": 3
+  },
+  {
+    "positie": 2,
+    "club": "GeuzenMiddenmeer 45+1",
+    "logo": "",
+    "gespeeld": 1,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 4,
+    "tegen": 2,
+    "doelsaldo": 2,
+    "punten": 3
+  },
+  {
+    "positie": 3,
     "club": "AFC 45+1",
     "logo": "images/afc.png",
     "gespeeld": 0,
@@ -13,7 +39,7 @@
     "punten": 0
   },
   {
-    "positie": 2,
+    "positie": 4,
     "club": "AGB 45+3",
     "logo": "",
     "gespeeld": 0,
@@ -26,7 +52,7 @@
     "punten": 0
   },
   {
-    "positie": 3,
+    "positie": 5,
     "club": "AFC Ajax 45+1",
     "logo": "images/afc.png",
     "gespeeld": 0,
@@ -39,7 +65,7 @@
     "punten": 0
   },
   {
-    "positie": 4,
+    "positie": 6,
     "club": "Amstelveen/Heemraad 45+1",
     "logo": "",
     "gespeeld": 0,
@@ -52,20 +78,7 @@
     "punten": 0
   },
   {
-    "positie": 5,
-    "club": "AMVJ 45+1",
-    "logo": "",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
-    "positie": 6,
+    "positie": 7,
     "club": "ASV Arsenal 45+2",
     "logo": "",
     "gespeeld": 0,
@@ -78,46 +91,7 @@
     "punten": 0
   },
   {
-    "positie": 7,
-    "club": "Buitenveldert sc. 45+1",
-    "logo": "",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
     "positie": 8,
-    "club": "CTO '70 vv 45+3",
-    "logo": "",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
-    "positie": 9,
-    "club": "GeuzenMiddenmeer 45+1",
-    "logo": "",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
-    "positie": 10,
     "club": "RAP sv. 45+1",
     "logo": "",
     "gespeeld": 0,
@@ -130,7 +104,7 @@
     "punten": 0
   },
   {
-    "positie": 11,
+    "positie": 9,
     "club": "Real Sranang sv. 45+1",
     "logo": "",
     "gespeeld": 0,
@@ -143,7 +117,7 @@
     "punten": 0
   },
   {
-    "positie": 12,
+    "positie": 10,
     "club": "Sporting Martinus 45+1",
     "logo": "",
     "gespeeld": 0,
@@ -156,7 +130,7 @@
     "punten": 0
   },
   {
-    "positie": 13,
+    "positie": 11,
     "club": "TABA afc 45+1",
     "logo": "images/afc.png",
     "gespeeld": 0,
@@ -169,7 +143,7 @@
     "punten": 0
   },
   {
-    "positie": 14,
+    "positie": 12,
     "club": "Wartburgia asv 45+2",
     "logo": "",
     "gespeeld": 0,
@@ -179,6 +153,32 @@
     "voor": 0,
     "tegen": 0,
     "doelsaldo": 0,
+    "punten": 0
+  },
+  {
+    "positie": 13,
+    "club": "Buitenveldert sc. 45+1",
+    "logo": "",
+    "gespeeld": 1,
+    "gewonnen": 0,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 2,
+    "tegen": 4,
+    "doelsaldo": -2,
+    "punten": 0
+  },
+  {
+    "positie": 14,
+    "club": "AMVJ 45+1",
+    "logo": "",
+    "gespeeld": 1,
+    "gewonnen": 0,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 2,
+    "tegen": 6,
+    "doelsaldo": -4,
     "punten": 0
   }
 ]

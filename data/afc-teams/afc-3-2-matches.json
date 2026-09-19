@@ -1,12 +1,5 @@
 [
   {
-    "datum": "za 19 september 14:00",
-    "thuis": "AFC 3",
-    "thuisLogo": "images/afc.png",
-    "uit": "Haarlem-Kennemerland f.c. 2",
-    "uitLogo": ""
-  },
-  {
     "datum": "za 26 september 11:15",
     "thuis": "ASV Arsenal 3",
     "thuisLogo": "",
@@ -51,6 +44,13 @@
   {
     "datum": "za 21 november 12:15",
     "thuis": "vv Zwanenburg 2",
+    "thuisLogo": "",
+    "uit": "AFC 3",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 28 november 16:00",
+    "thuis": "Swift 5",
     "thuisLogo": "",
     "uit": "AFC 3",
     "uitLogo": "images/afc.png"

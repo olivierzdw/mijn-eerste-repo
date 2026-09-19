@@ -27,6 +27,45 @@
   },
   {
     "positie": 3,
+    "club": "TABA afc 3",
+    "logo": "images/afc.png",
+    "gespeeld": 1,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 2,
+    "tegen": 0,
+    "doelsaldo": 2,
+    "punten": 3
+  },
+  {
+    "positie": 4,
+    "club": "Buitenveldert sc. 2",
+    "logo": "",
+    "gespeeld": 1,
+    "gewonnen": 0,
+    "gelijk": 1,
+    "verloren": 0,
+    "voor": 3,
+    "tegen": 3,
+    "doelsaldo": 0,
+    "punten": 1
+  },
+  {
+    "positie": 5,
+    "club": "Ouderkerk sv. 3",
+    "logo": "",
+    "gespeeld": 1,
+    "gewonnen": 0,
+    "gelijk": 1,
+    "verloren": 0,
+    "voor": 3,
+    "tegen": 3,
+    "doelsaldo": 0,
+    "punten": 1
+  },
+  {
+    "positie": 6,
     "club": "FC Amsterdam 4",
     "logo": "",
     "gespeeld": 0,
@@ -39,7 +78,7 @@
     "punten": 0
   },
   {
-    "positie": 4,
+    "positie": 7,
     "club": "ASV Arsenal 6",
     "logo": "",
     "gespeeld": 0,
@@ -52,20 +91,7 @@
     "punten": 0
   },
   {
-    "positie": 5,
-    "club": "Buitenveldert sc. 2",
-    "logo": "",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
-    "positie": 6,
+    "positie": 8,
     "club": "GeuzenMiddenmeer 3",
     "logo": "",
     "gespeeld": 0,
@@ -78,34 +104,8 @@
     "punten": 0
   },
   {
-    "positie": 7,
-    "club": "Kadoelen sv. 2",
-    "logo": "",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
-    "positie": 8,
-    "club": "Meer De sv. 6",
-    "logo": "",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
     "positie": 9,
-    "club": "Ouderkerk sv. 3",
+    "club": "Meer De sv. 6",
     "logo": "",
     "gespeeld": 0,
     "gewonnen": 0,
@@ -144,19 +144,6 @@
   },
   {
     "positie": 12,
-    "club": "TABA afc 3",
-    "logo": "images/afc.png",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
-    "positie": 13,
     "club": "AFC 5",
     "logo": "images/afc.png",
     "gespeeld": 1,
@@ -165,6 +152,19 @@
     "verloren": 1,
     "voor": 1,
     "tegen": 3,
+    "doelsaldo": -2,
+    "punten": 0
+  },
+  {
+    "positie": 13,
+    "club": "Kadoelen sv. 2",
+    "logo": "",
+    "gespeeld": 1,
+    "gewonnen": 0,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 0,
+    "tegen": 2,
     "doelsaldo": -2,
     "punten": 0
   },

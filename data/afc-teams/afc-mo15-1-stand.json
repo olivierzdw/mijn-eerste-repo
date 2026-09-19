@@ -1,6 +1,19 @@
 [
   {
     "positie": 1,
+    "club": "AS'80 O14-2",
+    "logo": "",
+    "gespeeld": 3,
+    "gewonnen": 3,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 10,
+    "tegen": 3,
+    "doelsaldo": 7,
+    "punten": 9
+  },
+  {
+    "positie": 2,
     "club": "Meer De sv. O14-1",
     "logo": "",
     "gespeeld": 2,
@@ -13,46 +26,20 @@
     "punten": 6
   },
   {
-    "positie": 2,
-    "club": "AS'80 O14-2",
-    "logo": "",
-    "gespeeld": 2,
-    "gewonnen": 2,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 8,
-    "tegen": 3,
-    "doelsaldo": 5,
-    "punten": 6
-  },
-  {
     "positie": 3,
     "club": "CTO '70 vv O14-1",
     "logo": "",
-    "gespeeld": 2,
-    "gewonnen": 1,
+    "gespeeld": 3,
+    "gewonnen": 2,
     "gelijk": 0,
     "verloren": 1,
-    "voor": 15,
-    "tegen": 3,
-    "doelsaldo": 12,
-    "punten": 3
+    "voor": 21,
+    "tegen": 7,
+    "doelsaldo": 14,
+    "punten": 6
   },
   {
     "positie": 4,
-    "club": "AFC MO15-1",
-    "logo": "images/afc.png",
-    "gespeeld": 2,
-    "gewonnen": 0,
-    "gelijk": 1,
-    "verloren": 1,
-    "voor": 3,
-    "tegen": 5,
-    "doelsaldo": -2,
-    "punten": 1
-  },
-  {
-    "positie": 5,
     "club": "Dijk De asv O14-2",
     "logo": "",
     "gespeeld": 2,
@@ -65,16 +52,29 @@
     "punten": 1
   },
   {
+    "positie": 5,
+    "club": "AFC MO15-1",
+    "logo": "images/afc.png",
+    "gespeeld": 3,
+    "gewonnen": 0,
+    "gelijk": 1,
+    "verloren": 2,
+    "voor": 3,
+    "tegen": 7,
+    "doelsaldo": -4,
+    "punten": 1
+  },
+  {
     "positie": 6,
     "club": "Ouderkerk sv. O14-2",
     "logo": "",
-    "gespeeld": 2,
+    "gespeeld": 3,
     "gewonnen": 0,
     "gelijk": 0,
-    "verloren": 2,
-    "voor": 3,
-    "tegen": 12,
-    "doelsaldo": -9,
+    "verloren": 3,
+    "voor": 7,
+    "tegen": 18,
+    "doelsaldo": -11,
     "punten": 0
   }
 ]

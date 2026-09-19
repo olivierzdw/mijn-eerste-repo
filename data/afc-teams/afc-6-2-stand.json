@@ -1,6 +1,32 @@
 [
   {
     "positie": 1,
+    "club": "Monnickendam 3",
+    "logo": "",
+    "gespeeld": 1,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 5,
+    "tegen": 0,
+    "doelsaldo": 5,
+    "punten": 3
+  },
+  {
+    "positie": 2,
+    "club": "Kadoelen sv. 3",
+    "logo": "",
+    "gespeeld": 1,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 3,
+    "tegen": 1,
+    "doelsaldo": 2,
+    "punten": 3
+  },
+  {
+    "positie": 3,
     "club": "AFC 6",
     "logo": "images/afc.png",
     "gespeeld": 0,
@@ -13,34 +39,8 @@
     "punten": 0
   },
   {
-    "positie": 2,
-    "club": "Foresters 5",
-    "logo": "",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
-    "positie": 3,
-    "club": "Jong Hercules 3",
-    "logo": "",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
     "positie": 4,
-    "club": "Kadoelen sv. 3",
+    "club": "Jong Hercules 3",
     "logo": "",
     "gespeeld": 0,
     "gewonnen": 0,
@@ -79,32 +79,6 @@
   },
   {
     "positie": 7,
-    "club": "Meer De sv. 5",
-    "logo": "",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
-    "positie": 8,
-    "club": "Monnickendam 3",
-    "logo": "",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
-    "positie": 9,
     "club": "Purmerland 3",
     "logo": "",
     "gespeeld": 0,
@@ -117,7 +91,7 @@
     "punten": 0
   },
   {
-    "positie": 10,
+    "positie": 8,
     "club": "Sloterdijk avv. 2",
     "logo": "images/sloterdijk.png",
     "gespeeld": 0,
@@ -130,7 +104,7 @@
     "punten": 0
   },
   {
-    "positie": 11,
+    "positie": 9,
     "club": "WV-HEDW 7",
     "logo": "",
     "gespeeld": 0,
@@ -143,7 +117,7 @@
     "punten": 0
   },
   {
-    "positie": 12,
+    "positie": 10,
     "club": "Zouaven (de) 2",
     "logo": "",
     "gespeeld": 0,
@@ -153,6 +127,32 @@
     "voor": 0,
     "tegen": 0,
     "doelsaldo": 0,
+    "punten": 0
+  },
+  {
+    "positie": 11,
+    "club": "Meer De sv. 5",
+    "logo": "",
+    "gespeeld": 1,
+    "gewonnen": 0,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 1,
+    "tegen": 3,
+    "doelsaldo": -2,
+    "punten": 0
+  },
+  {
+    "positie": 12,
+    "club": "Foresters 5",
+    "logo": "",
+    "gespeeld": 1,
+    "gewonnen": 0,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 0,
+    "tegen": 5,
+    "doelsaldo": -5,
     "punten": 0
   }
 ]

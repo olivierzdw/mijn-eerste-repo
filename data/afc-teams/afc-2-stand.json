@@ -27,6 +27,32 @@
   },
   {
     "positie": 3,
+    "club": "Buitenboys sc. 2",
+    "logo": "",
+    "gespeeld": 1,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 5,
+    "tegen": 2,
+    "doelsaldo": 3,
+    "punten": 3
+  },
+  {
+    "positie": 4,
+    "club": "Almere FC 2",
+    "logo": "",
+    "gespeeld": 1,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 2,
+    "tegen": 1,
+    "doelsaldo": 1,
+    "punten": 3
+  },
+  {
+    "positie": 5,
     "club": "AFC 2",
     "logo": "images/afc.png",
     "gespeeld": 0,
@@ -39,20 +65,7 @@
     "punten": 0
   },
   {
-    "positie": 4,
-    "club": "Almere FC 2",
-    "logo": "",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
-    "positie": 5,
+    "positie": 6,
     "club": "ASV Arsenal 2",
     "logo": "",
     "gespeeld": 0,
@@ -65,46 +78,7 @@
     "punten": 0
   },
   {
-    "positie": 6,
-    "club": "Buitenboys sc. 2",
-    "logo": "",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
     "positie": 7,
-    "club": "CTO '70 vv 2",
-    "logo": "",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
-    "positie": 8,
-    "club": "DTA Fortius asv 2",
-    "logo": "images/fortius.png",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
-    "positie": 9,
     "club": "DVVA csv. 3",
     "logo": "",
     "gespeeld": 0,
@@ -117,7 +91,7 @@
     "punten": 0
   },
   {
-    "positie": 10,
+    "positie": 8,
     "club": "Zuidoost United 2",
     "logo": "",
     "gespeeld": 0,
@@ -127,6 +101,32 @@
     "voor": 0,
     "tegen": 0,
     "doelsaldo": 0,
+    "punten": 0
+  },
+  {
+    "positie": 9,
+    "club": "CTO '70 vv 2",
+    "logo": "",
+    "gespeeld": 1,
+    "gewonnen": 0,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 1,
+    "tegen": 2,
+    "doelsaldo": -1,
+    "punten": 0
+  },
+  {
+    "positie": 10,
+    "club": "DTA Fortius asv 2",
+    "logo": "images/fortius.png",
+    "gespeeld": 1,
+    "gewonnen": 0,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 2,
+    "tegen": 5,
+    "doelsaldo": -3,
     "punten": 0
   },
   {

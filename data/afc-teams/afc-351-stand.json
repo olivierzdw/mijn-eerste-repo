@@ -1,6 +1,19 @@
 [
   {
     "positie": 1,
+    "club": "ZSGOWMS 35+1",
+    "logo": "",
+    "gespeeld": 1,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 2,
+    "tegen": 1,
+    "doelsaldo": 1,
+    "punten": 3
+  },
+  {
+    "positie": 2,
     "club": "AFC 35+1",
     "logo": "images/afc.png",
     "gespeeld": 0,
@@ -13,7 +26,7 @@
     "punten": 0
   },
   {
-    "positie": 2,
+    "positie": 3,
     "club": "AGB 35+1",
     "logo": "",
     "gespeeld": 0,
@@ -26,7 +39,7 @@
     "punten": 0
   },
   {
-    "positie": 3,
+    "positie": 4,
     "club": "AFC Ajax 35+1",
     "logo": "images/afc.png",
     "gespeeld": 0,
@@ -39,7 +52,7 @@
     "punten": 0
   },
   {
-    "positie": 4,
+    "positie": 5,
     "club": "Geinburgia sv. 35+1",
     "logo": "",
     "gespeeld": 0,
@@ -52,7 +65,7 @@
     "punten": 0
   },
   {
-    "positie": 5,
+    "positie": 6,
     "club": "Meteoor De sv. 35+1",
     "logo": "",
     "gespeeld": 0,
@@ -65,7 +78,7 @@
     "punten": 0
   },
   {
-    "positie": 6,
+    "positie": 7,
     "club": "Real Sranang sv. 35+1",
     "logo": "",
     "gespeeld": 0,
@@ -78,7 +91,7 @@
     "punten": 0
   },
   {
-    "positie": 7,
+    "positie": 8,
     "club": "ASC De Volewijckers 35+1",
     "logo": "",
     "gespeeld": 0,
@@ -91,7 +104,7 @@
     "punten": 0
   },
   {
-    "positie": 8,
+    "positie": 9,
     "club": "VVA/Spartaan 35+1",
     "logo": "",
     "gespeeld": 0,
@@ -104,21 +117,8 @@
     "punten": 0
   },
   {
-    "positie": 9,
-    "club": "VVZ '49 35+1",
-    "logo": "",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
     "positie": 10,
-    "club": "ZSGOWMS 35+1",
+    "club": "Zuidoost United 35+1",
     "logo": "",
     "gespeeld": 0,
     "gewonnen": 0,
@@ -131,15 +131,15 @@
   },
   {
     "positie": 11,
-    "club": "Zuidoost United 35+1",
+    "club": "VVZ '49 35+1",
     "logo": "",
-    "gespeeld": 0,
+    "gespeeld": 1,
     "gewonnen": 0,
     "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
+    "verloren": 1,
+    "voor": 1,
+    "tegen": 2,
+    "doelsaldo": -1,
     "punten": 0
   }
 ]

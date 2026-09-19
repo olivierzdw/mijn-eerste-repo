@@ -1,6 +1,6 @@
 [
   {
-    "datum": "za 19 september 13:30",
+    "datum": "zo 19 september 13:30",
     "thuis": "DVVA csv. 3",
     "thuisLogo": "",
     "uit": "AFC 2",
@@ -54,5 +54,12 @@
     "thuisLogo": "images/afc.png",
     "uit": "SDO 2",
     "uitLogo": ""
+  },
+  {
+    "datum": "za 28 november 12:15",
+    "thuis": "AFC 2",
+    "thuisLogo": "images/afc.png",
+    "uit": "DTA Fortius asv 2",
+    "uitLogo": "images/fortius.png"
   }
 ]
