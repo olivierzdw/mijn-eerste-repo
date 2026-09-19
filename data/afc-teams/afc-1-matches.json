@@ -47,5 +47,19 @@
     "thuisLogo": "images/afc.png",
     "uit": "FC Weesp 1",
     "uitLogo": ""
+  },
+  {
+    "datum": "za 14 november 15:00",
+    "thuis": "Almere FC 1",
+    "thuisLogo": "",
+    "uit": "AFC 1",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 21 november 15:00",
+    "thuis": "AFC 1",
+    "thuisLogo": "images/afc.png",
+    "uit": "AMVJ 1",
+    "uitLogo": ""
   }
 ]
