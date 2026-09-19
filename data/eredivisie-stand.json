@@ -185,14 +185,14 @@
     "positie": 15,
     "club": "SC Cambuur-Leeuwarden",
     "logo": "https://crests.football-data.org/1909.png",
-    "gespeeld": 6,
-    "punten": 4,
+    "gespeeld": 7,
+    "punten": 5,
     "gewonnen": 1,
-    "gelijk": 1,
+    "gelijk": 2,
     "verloren": 4,
     "doelsaldo": -9,
-    "voor": 9,
-    "tegen": 18
+    "voor": 10,
+    "tegen": 19
   },
   {
     "positie": 16,
@@ -209,6 +209,19 @@
   },
   {
     "positie": 17,
+    "club": "ADO Den Haag",
+    "logo": "https://crests.football-data.org/680.png",
+    "gespeeld": 7,
+    "punten": 2,
+    "gewonnen": 0,
+    "gelijk": 2,
+    "verloren": 5,
+    "doelsaldo": -10,
+    "voor": 7,
+    "tegen": 17
+  },
+  {
+    "positie": 18,
     "club": "Willem II Tilburg",
     "logo": "https://crests.football-data.org/672.png",
     "gespeeld": 6,
@@ -219,18 +232,5 @@
     "doelsaldo": -13,
     "voor": 6,
     "tegen": 19
-  },
-  {
-    "positie": 18,
-    "club": "ADO Den Haag",
-    "logo": "https://crests.football-data.org/680.png",
-    "gespeeld": 6,
-    "punten": 1,
-    "gewonnen": 0,
-    "gelijk": 1,
-    "verloren": 5,
-    "doelsaldo": -10,
-    "voor": 6,
-    "tegen": 16
   }
 ]
