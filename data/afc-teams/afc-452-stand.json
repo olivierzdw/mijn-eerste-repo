@@ -1,6 +1,19 @@
 [
   {
     "positie": 1,
+    "club": "DRC 45+1",
+    "logo": "",
+    "gespeeld": 1,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 10,
+    "tegen": 1,
+    "doelsaldo": 9,
+    "punten": 3
+  },
+  {
+    "positie": 2,
     "club": "AFC 45+2",
     "logo": "images/afc.png",
     "gespeeld": 1,
@@ -13,7 +26,7 @@
     "punten": 3
   },
   {
-    "positie": 2,
+    "positie": 3,
     "club": "ASV Arsenal 45+1",
     "logo": "",
     "gespeeld": 1,
@@ -26,7 +39,7 @@
     "punten": 3
   },
   {
-    "positie": 3,
+    "positie": 4,
     "club": "Diemen sv. 45+1",
     "logo": "",
     "gespeeld": 1,
@@ -39,7 +52,20 @@
     "punten": 3
   },
   {
-    "positie": 4,
+    "positie": 5,
+    "club": "DTA Fortius asv 45+1",
+    "logo": "images/fortius.png",
+    "gespeeld": 1,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 8,
+    "tegen": 2,
+    "doelsaldo": 6,
+    "punten": 3
+  },
+  {
+    "positie": 6,
     "club": "Geinburgia sv. 45+1",
     "logo": "",
     "gespeeld": 1,
@@ -52,85 +78,20 @@
     "punten": 3
   },
   {
-    "positie": 5,
-    "club": "CTO '70 vv 45+2",
-    "logo": "",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
-    "positie": 6,
-    "club": "DRC 45+1",
-    "logo": "",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
     "positie": 7,
-    "club": "DTA Fortius asv 45+1",
-    "logo": "images/fortius.png",
-    "gespeeld": 0,
-    "gewonnen": 0,
+    "club": "ST Weesp FC/Muiden SC 45+1",
+    "logo": "",
+    "gespeeld": 1,
+    "gewonnen": 1,
     "gelijk": 0,
     "verloren": 0,
-    "voor": 0,
+    "voor": 4,
     "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
+    "doelsaldo": 4,
+    "punten": 3
   },
   {
     "positie": 8,
-    "club": "VVGA 45+1",
-    "logo": "",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
-    "positie": 9,
-    "club": "ST Weesp FC/Muiden SC 45+1",
-    "logo": "",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
-    "positie": 10,
-    "club": "Zuidoost United 45+1",
-    "logo": "",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
-    "positie": 11,
     "club": "TABA afc 45+2",
     "logo": "images/afc.png",
     "gespeeld": 1,
@@ -143,7 +104,33 @@
     "punten": 0
   },
   {
-    "positie": 12,
+    "positie": 9,
+    "club": "CTO '70 vv 45+2",
+    "logo": "",
+    "gespeeld": 1,
+    "gewonnen": 0,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 0,
+    "tegen": 4,
+    "doelsaldo": -4,
+    "punten": 0
+  },
+  {
+    "positie": 10,
+    "club": "Zuidoost United 45+1",
+    "logo": "",
+    "gespeeld": 1,
+    "gewonnen": 0,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 2,
+    "tegen": 8,
+    "doelsaldo": -6,
+    "punten": 0
+  },
+  {
+    "positie": 11,
     "club": "GeuzenMiddenmeer 45+2",
     "logo": "",
     "gespeeld": 1,
@@ -156,7 +143,7 @@
     "punten": 0
   },
   {
-    "positie": 13,
+    "positie": 12,
     "club": "Muiderberg sc. 45+1",
     "logo": "",
     "gespeeld": 1,
@@ -169,7 +156,7 @@
     "punten": 0
   },
   {
-    "positie": 14,
+    "positie": 13,
     "club": "Wartburgia asv 45+1",
     "logo": "",
     "gespeeld": 1,
@@ -179,6 +166,19 @@
     "voor": 0,
     "tegen": 8,
     "doelsaldo": -8,
+    "punten": 0
+  },
+  {
+    "positie": 14,
+    "club": "VVGA 45+1",
+    "logo": "",
+    "gespeeld": 1,
+    "gewonnen": 0,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 1,
+    "tegen": 10,
+    "doelsaldo": -9,
     "punten": 0
   }
 ]
