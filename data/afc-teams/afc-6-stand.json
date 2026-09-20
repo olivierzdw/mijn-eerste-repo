@@ -1,29 +1,29 @@
 [
   {
     "positie": 1,
-    "club": "AFC 6",
-    "logo": "images/afc.png",
-    "gespeeld": 0,
-    "gewonnen": 0,
+    "club": "SDOB 2",
+    "logo": "",
+    "gespeeld": 1,
+    "gewonnen": 1,
     "gelijk": 0,
     "verloren": 0,
-    "voor": 0,
+    "voor": 7,
     "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
+    "doelsaldo": 7,
+    "punten": 3
   },
   {
     "positie": 2,
-    "club": "Hercules Zaandam sc 3",
+    "club": "SCPB'22 3",
     "logo": "",
-    "gespeeld": 0,
-    "gewonnen": 0,
+    "gespeeld": 1,
+    "gewonnen": 1,
     "gelijk": 0,
     "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
+    "voor": 4,
+    "tegen": 1,
+    "doelsaldo": 3,
+    "punten": 3
   },
   {
     "positie": 3,
@@ -79,32 +79,6 @@
   },
   {
     "positie": 7,
-    "club": "SCPB'22 3",
-    "logo": "",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
-    "positie": 8,
-    "club": "SDOB 2",
-    "logo": "",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
-    "positie": 9,
     "club": "SDZ 7",
     "logo": "",
     "gespeeld": 0,
@@ -117,7 +91,7 @@
     "punten": 0
   },
   {
-    "positie": 10,
+    "positie": 8,
     "club": "Sloterdijk avv. 3",
     "logo": "images/sloterdijk.png",
     "gespeeld": 0,
@@ -130,7 +104,7 @@
     "punten": 0
   },
   {
-    "positie": 11,
+    "positie": 9,
     "club": "VVA/Spartaan, 4",
     "logo": "",
     "gespeeld": 0,
@@ -143,7 +117,7 @@
     "punten": 0
   },
   {
-    "positie": 12,
+    "positie": 10,
     "club": "WV-HEDW 4",
     "logo": "",
     "gespeeld": 0,
@@ -153,6 +127,32 @@
     "voor": 0,
     "tegen": 0,
     "doelsaldo": 0,
+    "punten": 0
+  },
+  {
+    "positie": 11,
+    "club": "Hercules Zaandam sc 3",
+    "logo": "",
+    "gespeeld": 1,
+    "gewonnen": 0,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 1,
+    "tegen": 4,
+    "doelsaldo": -3,
+    "punten": 0
+  },
+  {
+    "positie": 12,
+    "club": "AFC 6",
+    "logo": "images/afc.png",
+    "gespeeld": 1,
+    "gewonnen": 0,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 0,
+    "tegen": 7,
+    "doelsaldo": -7,
     "punten": 0
   }
 ]

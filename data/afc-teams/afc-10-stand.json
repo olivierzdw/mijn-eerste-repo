@@ -40,7 +40,7 @@
   },
   {
     "positie": 4,
-    "club": "RAP sv. 6",
+    "club": "Buitenveldert sc. 9",
     "logo": "",
     "gespeeld": 1,
     "gewonnen": 1,
@@ -53,6 +53,19 @@
   },
   {
     "positie": 5,
+    "club": "RAP sv. 6",
+    "logo": "",
+    "gespeeld": 1,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 5,
+    "tegen": 2,
+    "doelsaldo": 3,
+    "punten": 3
+  },
+  {
+    "positie": 6,
     "club": "Volendam (rkav) 6",
     "logo": "",
     "gespeeld": 1,
@@ -65,33 +78,7 @@
     "punten": 3
   },
   {
-    "positie": 6,
-    "club": "Buitenveldert sc. 9",
-    "logo": "",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
     "positie": 7,
-    "club": "Sloterdijk avv. 3",
-    "logo": "images/sloterdijk.png",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
-    "positie": 8,
     "club": "Argon 7",
     "logo": "",
     "gespeeld": 1,
@@ -104,7 +91,7 @@
     "punten": 0
   },
   {
-    "positie": 9,
+    "positie": 8,
     "club": "SDZ 2",
     "logo": "",
     "gespeeld": 1,
@@ -117,9 +104,22 @@
     "punten": 0
   },
   {
-    "positie": 10,
+    "positie": 9,
     "club": "AFC 10",
     "logo": "images/afc.png",
+    "gespeeld": 1,
+    "gewonnen": 0,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 2,
+    "tegen": 5,
+    "doelsaldo": -3,
+    "punten": 0
+  },
+  {
+    "positie": 10,
+    "club": "Sloterdijk avv. 3",
+    "logo": "images/sloterdijk.png",
     "gespeeld": 1,
     "gewonnen": 0,
     "gelijk": 0,
