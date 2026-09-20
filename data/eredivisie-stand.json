@@ -1,19 +1,6 @@
 [
   {
     "positie": 1,
-    "club": "PSV",
-    "logo": "https://crests.football-data.org/674.png",
-    "gespeeld": 7,
-    "punten": 19,
-    "gewonnen": 6,
-    "gelijk": 1,
-    "verloren": 0,
-    "doelsaldo": 16,
-    "voor": 24,
-    "tegen": 8
-  },
-  {
-    "positie": 2,
     "club": "AZ",
     "logo": "https://crests.football-data.org/682.png",
     "gespeeld": 7,
@@ -26,7 +13,7 @@
     "tegen": 6
   },
   {
-    "positie": 3,
+    "positie": 2,
     "club": "Feyenoord Rotterdam",
     "logo": "https://crests.football-data.org/675.png",
     "gespeeld": 7,
@@ -39,7 +26,33 @@
     "tegen": 7
   },
   {
+    "positie": 3,
+    "club": "PSV",
+    "logo": "https://crests.football-data.org/674.png",
+    "gespeeld": 7,
+    "punten": 16,
+    "gewonnen": 5,
+    "gelijk": 1,
+    "verloren": 1,
+    "doelsaldo": 14,
+    "voor": 24,
+    "tegen": 10
+  },
+  {
     "positie": 4,
+    "club": "FC Twente '65",
+    "logo": "https://crests.football-data.org/666.png",
+    "gespeeld": 7,
+    "punten": 16,
+    "gewonnen": 5,
+    "gelijk": 1,
+    "verloren": 1,
+    "doelsaldo": 8,
+    "voor": 15,
+    "tegen": 7
+  },
+  {
+    "positie": 5,
     "club": "Ajax",
     "logo": "https://crests.football-data.org/678.png",
     "gespeeld": 7,
@@ -50,19 +63,6 @@
     "doelsaldo": 12,
     "voor": 21,
     "tegen": 9
-  },
-  {
-    "positie": 5,
-    "club": "FC Twente '65",
-    "logo": "https://crests.football-data.org/666.png",
-    "gespeeld": 7,
-    "punten": 13,
-    "gewonnen": 4,
-    "gelijk": 1,
-    "verloren": 2,
-    "doelsaldo": 6,
-    "voor": 13,
-    "tegen": 7
   },
   {
     "positie": 6,
@@ -107,14 +107,14 @@
     "positie": 9,
     "club": "Go Ahead Eagles",
     "logo": "https://crests.football-data.org/718.png",
-    "gespeeld": 6,
-    "punten": 9,
+    "gespeeld": 7,
+    "punten": 10,
     "gewonnen": 2,
-    "gelijk": 3,
+    "gelijk": 4,
     "verloren": 1,
     "doelsaldo": 2,
-    "voor": 15,
-    "tegen": 13
+    "voor": 16,
+    "tegen": 14
   },
   {
     "positie": 10,
@@ -133,14 +133,14 @@
     "positie": 11,
     "club": "NEC",
     "logo": "https://crests.football-data.org/1915.png",
-    "gespeeld": 6,
-    "punten": 7,
+    "gespeeld": 7,
+    "punten": 8,
     "gewonnen": 2,
-    "gelijk": 1,
+    "gelijk": 2,
     "verloren": 3,
     "doelsaldo": -1,
-    "voor": 11,
-    "tegen": 12
+    "voor": 12,
+    "tegen": 13
   },
   {
     "positie": 12,
