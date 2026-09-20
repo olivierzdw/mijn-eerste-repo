@@ -54,5 +54,12 @@
     "thuisLogo": "images/afc.png",
     "uit": "DTA Fortius asv 2",
     "uitLogo": "images/fortius.png"
+  },
+  {
+    "datum": "za 5 december 12:00",
+    "thuis": "CTO '70 vv 2",
+    "thuisLogo": "",
+    "uit": "AFC 2",
+    "uitLogo": "images/afc.png"
   }
 ]

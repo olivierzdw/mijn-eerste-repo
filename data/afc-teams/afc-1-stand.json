@@ -14,7 +14,7 @@
   },
   {
     "positie": 2,
-    "club": "AMVJ 1",
+    "club": "AH'78 1",
     "logo": "",
     "gespeeld": 1,
     "gewonnen": 1,
@@ -27,6 +27,19 @@
   },
   {
     "positie": 3,
+    "club": "AMVJ 1",
+    "logo": "",
+    "gespeeld": 1,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 3,
+    "tegen": 1,
+    "doelsaldo": 2,
+    "punten": 3
+  },
+  {
+    "positie": 4,
     "club": "GeuzenMiddenmeer 1",
     "logo": "",
     "gespeeld": 1,
@@ -39,7 +52,7 @@
     "punten": 3
   },
   {
-    "positie": 4,
+    "positie": 5,
     "club": "Almere FC 1",
     "logo": "",
     "gespeeld": 1,
@@ -52,7 +65,7 @@
     "punten": 1
   },
   {
-    "positie": 5,
+    "positie": 6,
     "club": "Altius 1",
     "logo": "",
     "gespeeld": 1,
@@ -65,7 +78,7 @@
     "punten": 1
   },
   {
-    "positie": 6,
+    "positie": 7,
     "club": "Eemnes 1",
     "logo": "",
     "gespeeld": 1,
@@ -78,7 +91,7 @@
     "punten": 1
   },
   {
-    "positie": 7,
+    "positie": 8,
     "club": "FC Failliet/Finesse 1",
     "logo": "",
     "gespeeld": 1,
@@ -91,33 +104,7 @@
     "punten": 1
   },
   {
-    "positie": 8,
-    "club": "AH'78 1",
-    "logo": "",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
     "positie": 9,
-    "club": "Nederhorst vv 1",
-    "logo": "",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
-    "positie": 10,
     "club": "Ouderkerk sv. 1",
     "logo": "",
     "gespeeld": 0,
@@ -130,7 +117,7 @@
     "punten": 0
   },
   {
-    "positie": 11,
+    "positie": 10,
     "club": "FC Weesp 1",
     "logo": "",
     "gespeeld": 1,
@@ -143,8 +130,21 @@
     "punten": 0
   },
   {
-    "positie": 12,
+    "positie": 11,
     "club": "Laren 99 sv 1",
+    "logo": "",
+    "gespeeld": 1,
+    "gewonnen": 0,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 1,
+    "tegen": 3,
+    "doelsaldo": -2,
+    "punten": 0
+  },
+  {
+    "positie": 12,
+    "club": "Nederhorst vv 1",
     "logo": "",
     "gespeeld": 1,
     "gewonnen": 0,
