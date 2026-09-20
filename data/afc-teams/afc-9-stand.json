@@ -27,6 +27,19 @@
   },
   {
     "positie": 3,
+    "club": "TABA afc 4",
+    "logo": "images/afc.png",
+    "gespeeld": 1,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 3,
+    "tegen": 1,
+    "doelsaldo": 2,
+    "punten": 3
+  },
+  {
+    "positie": 4,
     "club": "Zeeburgia avv 3",
     "logo": "",
     "gespeeld": 1,
@@ -39,7 +52,7 @@
     "punten": 3
   },
   {
-    "positie": 4,
+    "positie": 5,
     "club": "FC Amsterdam 6",
     "logo": "",
     "gespeeld": 0,
@@ -52,7 +65,7 @@
     "punten": 0
   },
   {
-    "positie": 5,
+    "positie": 6,
     "club": "JOS Watergraafsmeer 5",
     "logo": "",
     "gespeeld": 0,
@@ -65,33 +78,7 @@
     "punten": 0
   },
   {
-    "positie": 6,
-    "club": "RAP sv. 3",
-    "logo": "",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
     "positie": 7,
-    "club": "TABA afc 4",
-    "logo": "images/afc.png",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
-    "positie": 8,
     "club": "TOG 2",
     "logo": "",
     "gespeeld": 0,
@@ -104,7 +91,7 @@
     "punten": 0
   },
   {
-    "positie": 9,
+    "positie": 8,
     "club": "Wartburgia asv 8",
     "logo": "",
     "gespeeld": 0,
@@ -117,7 +104,7 @@
     "punten": 0
   },
   {
-    "positie": 10,
+    "positie": 9,
     "club": "Meer De sv. 8",
     "logo": "",
     "gespeeld": 1,
@@ -127,6 +114,19 @@
     "voor": 2,
     "tegen": 3,
     "doelsaldo": -1,
+    "punten": 0
+  },
+  {
+    "positie": 10,
+    "club": "RAP sv. 3",
+    "logo": "",
+    "gespeeld": 1,
+    "gewonnen": 0,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 1,
+    "tegen": 3,
+    "doelsaldo": -2,
     "punten": 0
   },
   {

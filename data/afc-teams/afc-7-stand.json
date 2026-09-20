@@ -27,6 +27,19 @@
   },
   {
     "positie": 3,
+    "club": "WV-HEDW 6",
+    "logo": "",
+    "gespeeld": 1,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 5,
+    "tegen": 0,
+    "doelsaldo": 5,
+    "punten": 3
+  },
+  {
+    "positie": 4,
     "club": "Hoofddorp s.v. 4",
     "logo": "",
     "gespeeld": 1,
@@ -39,7 +52,7 @@
     "punten": 3
   },
   {
-    "positie": 4,
+    "positie": 5,
     "club": "Buitenveldert sc. 3",
     "logo": "",
     "gespeeld": 1,
@@ -52,7 +65,7 @@
     "punten": 3
   },
   {
-    "positie": 5,
+    "positie": 6,
     "club": "Sloterdijk avv. 4",
     "logo": "images/sloterdijk.png",
     "gespeeld": 1,
@@ -65,7 +78,7 @@
     "punten": 1
   },
   {
-    "positie": 6,
+    "positie": 7,
     "club": "TABA afc 5",
     "logo": "images/afc.png",
     "gespeeld": 1,
@@ -76,19 +89,6 @@
     "tegen": 3,
     "doelsaldo": 0,
     "punten": 1
-  },
-  {
-    "positie": 7,
-    "club": "ASV Arsenal 6",
-    "logo": "",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
   },
   {
     "positie": 8,
@@ -118,19 +118,6 @@
   },
   {
     "positie": 10,
-    "club": "WV-HEDW 6",
-    "logo": "",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
-    "positie": 11,
     "club": "SCPB'22 4",
     "logo": "",
     "gespeeld": 1,
@@ -143,7 +130,7 @@
     "punten": 0
   },
   {
-    "positie": 12,
+    "positie": 11,
     "club": "Meer De sv. 6",
     "logo": "",
     "gespeeld": 1,
@@ -156,7 +143,7 @@
     "punten": 0
   },
   {
-    "positie": 13,
+    "positie": 12,
     "club": "AFC 7",
     "logo": "images/afc.png",
     "gespeeld": 1,
@@ -169,7 +156,7 @@
     "punten": 0
   },
   {
-    "positie": 14,
+    "positie": 13,
     "club": "Zeeburgia avv 5",
     "logo": "",
     "gespeeld": 1,
@@ -178,6 +165,19 @@
     "verloren": 1,
     "voor": 1,
     "tegen": 6,
+    "doelsaldo": -5,
+    "punten": 0
+  },
+  {
+    "positie": 14,
+    "club": "ASV Arsenal 6",
+    "logo": "",
+    "gespeeld": 1,
+    "gewonnen": 0,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 0,
+    "tegen": 5,
     "doelsaldo": -5,
     "punten": 0
   }

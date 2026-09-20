@@ -1,6 +1,32 @@
 [
   {
     "positie": 1,
+    "club": "SV Rood-Wit Zaanstad 3",
+    "logo": "",
+    "gespeeld": 1,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 6,
+    "tegen": 1,
+    "doelsaldo": 5,
+    "punten": 3
+  },
+  {
+    "positie": 2,
+    "club": "Swift 7",
+    "logo": "",
+    "gespeeld": 1,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 6,
+    "tegen": 2,
+    "doelsaldo": 4,
+    "punten": 3
+  },
+  {
+    "positie": 3,
     "club": "Sporting Martinus 3",
     "logo": "",
     "gespeeld": 1,
@@ -13,7 +39,7 @@
     "punten": 3
   },
   {
-    "positie": 2,
+    "positie": 4,
     "club": "KFC 4",
     "logo": "",
     "gespeeld": 1,
@@ -26,7 +52,7 @@
     "punten": 3
   },
   {
-    "positie": 3,
+    "positie": 5,
     "club": "AFC 4",
     "logo": "images/afc.png",
     "gespeeld": 0,
@@ -39,7 +65,7 @@
     "punten": 0
   },
   {
-    "positie": 4,
+    "positie": 6,
     "club": "ASV Arsenal 4",
     "logo": "",
     "gespeeld": 0,
@@ -52,7 +78,7 @@
     "punten": 0
   },
   {
-    "positie": 5,
+    "positie": 7,
     "club": "DWS afc 3",
     "logo": "images/afc.png",
     "gespeeld": 0,
@@ -65,34 +91,8 @@
     "punten": 0
   },
   {
-    "positie": 6,
-    "club": "SV Rood-Wit Zaanstad 3",
-    "logo": "",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
-    "positie": 7,
-    "club": "SDZ 6",
-    "logo": "",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
     "positie": 8,
-    "club": "Swift 7",
+    "club": "Zeeburgia avv 9",
     "logo": "",
     "gespeeld": 0,
     "gewonnen": 0,
@@ -107,30 +107,17 @@
     "positie": 9,
     "club": "VVA/Spartaan, 3",
     "logo": "",
-    "gespeeld": 0,
+    "gespeeld": 1,
     "gewonnen": 0,
     "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
+    "verloren": 1,
+    "voor": 2,
+    "tegen": 6,
+    "doelsaldo": -4,
     "punten": 0
   },
   {
     "positie": 10,
-    "club": "Zeeburgia avv 9",
-    "logo": "",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
-    "positie": 11,
     "club": "Atletico Club Amsterdam 2",
     "logo": "",
     "gespeeld": 1,
@@ -143,7 +130,7 @@
     "punten": 0
   },
   {
-    "positie": 12,
+    "positie": 11,
     "club": "KDO sv 2",
     "logo": "",
     "gespeeld": 1,
@@ -153,6 +140,19 @@
     "voor": 0,
     "tegen": 4,
     "doelsaldo": -4,
+    "punten": 0
+  },
+  {
+    "positie": 12,
+    "club": "SDZ 6",
+    "logo": "",
+    "gespeeld": 1,
+    "gewonnen": 0,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 1,
+    "tegen": 6,
+    "doelsaldo": -5,
     "punten": 0
   }
 ]
