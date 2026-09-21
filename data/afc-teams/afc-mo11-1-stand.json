@@ -3,17 +3,30 @@
     "positie": 1,
     "club": "Altius O11-4",
     "logo": "",
-    "gespeeld": 2,
-    "gewonnen": 2,
+    "gespeeld": 3,
+    "gewonnen": 3,
     "gelijk": 0,
     "verloren": 0,
-    "voor": 13,
-    "tegen": 8,
-    "doelsaldo": 5,
-    "punten": 6
+    "voor": 21,
+    "tegen": 9,
+    "doelsaldo": 12,
+    "punten": 9
   },
   {
     "positie": 2,
+    "club": "SDZ MO11-1",
+    "logo": "",
+    "gespeeld": 3,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 11,
+    "tegen": 11,
+    "doelsaldo": 0,
+    "punten": 6
+  },
+  {
+    "positie": 3,
     "club": "AFC MO11-1",
     "logo": "images/afc.png",
     "gespeeld": 3,
@@ -26,7 +39,7 @@
     "punten": 6
   },
   {
-    "positie": 3,
+    "positie": 4,
     "club": "vv Zwanenburg O11-4",
     "logo": "",
     "gespeeld": 3,
@@ -39,29 +52,16 @@
     "punten": 4
   },
   {
-    "positie": 4,
-    "club": "SDZ MO11-1",
-    "logo": "",
-    "gespeeld": 2,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 1,
-    "voor": 6,
-    "tegen": 7,
-    "doelsaldo": -1,
-    "punten": 3
-  },
-  {
     "positie": 5,
     "club": "VVA/Spartaan O11-4",
     "logo": "",
-    "gespeeld": 2,
+    "gespeeld": 3,
     "gewonnen": 1,
     "gelijk": 0,
-    "verloren": 1,
-    "voor": 5,
-    "tegen": 11,
-    "doelsaldo": -6,
+    "verloren": 2,
+    "voor": 6,
+    "tegen": 19,
+    "doelsaldo": -13,
     "punten": 3
   },
   {
@@ -94,13 +94,13 @@
     "positie": 8,
     "club": "DSS MO11-1",
     "logo": "",
-    "gespeeld": 1,
+    "gespeeld": 2,
     "gewonnen": 0,
     "gelijk": 0,
-    "verloren": 1,
-    "voor": 2,
-    "tegen": 4,
-    "doelsaldo": -2,
+    "verloren": 2,
+    "voor": 6,
+    "tegen": 9,
+    "doelsaldo": -3,
     "punten": 0
   }
 ]

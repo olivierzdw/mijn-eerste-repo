@@ -14,6 +14,32 @@
   },
   {
     "positie": 2,
+    "club": "AFC VR1",
+    "logo": "images/afc.png",
+    "gespeeld": 1,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 4,
+    "tegen": 0,
+    "doelsaldo": 4,
+    "punten": 3
+  },
+  {
+    "positie": 3,
+    "club": "Alverna VR1",
+    "logo": "",
+    "gespeeld": 1,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 2,
+    "tegen": 1,
+    "doelsaldo": 1,
+    "punten": 3
+  },
+  {
+    "positie": 4,
     "club": "VVS 46 VR1",
     "logo": "",
     "gespeeld": 1,
@@ -26,7 +52,7 @@
     "punten": 3
   },
   {
-    "positie": 3,
+    "positie": 5,
     "club": "Varsseveld VR1",
     "logo": "",
     "gespeeld": 1,
@@ -39,7 +65,7 @@
     "punten": 1
   },
   {
-    "positie": 4,
+    "positie": 6,
     "club": "WSV 1930 VR1",
     "logo": "",
     "gespeeld": 1,
@@ -52,46 +78,7 @@
     "punten": 1
   },
   {
-    "positie": 5,
-    "club": "AFC VR1",
-    "logo": "images/afc.png",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
-    "positie": 6,
-    "club": "Alverna VR1",
-    "logo": "",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
     "positie": 7,
-    "club": "NSVV FC Kunde VR1",
-    "logo": "",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
-    "positie": 8,
     "club": "Prinses Irene VR1",
     "logo": "",
     "gespeeld": 0,
@@ -104,20 +91,20 @@
     "punten": 0
   },
   {
-    "positie": 9,
+    "positie": 8,
     "club": "SJO/SVO HaDee VR1",
     "logo": "",
-    "gespeeld": 0,
+    "gespeeld": 1,
     "gewonnen": 0,
     "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
+    "verloren": 1,
+    "voor": 1,
+    "tegen": 2,
+    "doelsaldo": -1,
     "punten": 0
   },
   {
-    "positie": 10,
+    "positie": 9,
     "club": "Victoria Boys VR1",
     "logo": "",
     "gespeeld": 1,
@@ -130,7 +117,7 @@
     "punten": 0
   },
   {
-    "positie": 11,
+    "positie": 10,
     "club": "HVCH VR1",
     "logo": "",
     "gespeeld": 1,
@@ -139,6 +126,19 @@
     "verloren": 1,
     "voor": 2,
     "tegen": 6,
+    "doelsaldo": -4,
+    "punten": 0
+  },
+  {
+    "positie": 11,
+    "club": "NSVV FC Kunde VR1",
+    "logo": "",
+    "gespeeld": 1,
+    "gewonnen": 0,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 0,
+    "tegen": 4,
     "doelsaldo": -4,
     "punten": 0
   }
