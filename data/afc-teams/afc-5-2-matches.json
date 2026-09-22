@@ -56,7 +56,7 @@
     "uitLogo": ""
   },
   {
-    "datum": "za 21 november 10:15",
+    "datum": "za 21 november 11:00",
     "thuis": "Wartburgia asv 4",
     "thuisLogo": "",
     "uit": "AFC 5",
@@ -67,13 +67,6 @@
     "thuis": "AFC 5",
     "thuisLogo": "images/afc.png",
     "uit": "Buitenveldert sc. 2",
-    "uitLogo": ""
-  },
-  {
-    "datum": "za 5 december 16:30",
-    "thuis": "AFC 5",
-    "thuisLogo": "images/afc.png",
-    "uit": "GeuzenMiddenmeer 3",
     "uitLogo": ""
   }
 ]
