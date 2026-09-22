@@ -53,19 +53,6 @@
   },
   {
     "positie": 5,
-    "club": "FC Amsterdam 6",
-    "logo": "",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
-    "positie": 6,
     "club": "JOS Watergraafsmeer 5",
     "logo": "",
     "gespeeld": 0,
@@ -78,7 +65,7 @@
     "punten": 0
   },
   {
-    "positie": 7,
+    "positie": 6,
     "club": "TOG 2",
     "logo": "",
     "gespeeld": 0,
@@ -91,7 +78,7 @@
     "punten": 0
   },
   {
-    "positie": 8,
+    "positie": 7,
     "club": "Wartburgia asv 8",
     "logo": "",
     "gespeeld": 0,
@@ -104,7 +91,7 @@
     "punten": 0
   },
   {
-    "positie": 9,
+    "positie": 8,
     "club": "Meer De sv. 8",
     "logo": "",
     "gespeeld": 1,
@@ -117,7 +104,7 @@
     "punten": 0
   },
   {
-    "positie": 10,
+    "positie": 9,
     "club": "RAP sv. 3",
     "logo": "",
     "gespeeld": 1,
@@ -130,7 +117,7 @@
     "punten": 0
   },
   {
-    "positie": 11,
+    "positie": 10,
     "club": "AFC 9",
     "logo": "images/afc.png",
     "gespeeld": 1,
@@ -143,7 +130,7 @@
     "punten": 0
   },
   {
-    "positie": 12,
+    "positie": 11,
     "club": "DVVA csv. 8",
     "logo": "",
     "gespeeld": 1,
