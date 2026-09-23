@@ -3,160 +3,160 @@
     "slug": "afc-1",
     "naam": "AFC 1",
     "soort": "Senioren zaterdag",
-    "pouleId": null,
-    "heeftStand": false,
+    "pouleId": "826189",
+    "heeftStand": true,
     "aantalMatches": 10
   },
   {
     "slug": "afc-10",
     "naam": "AFC 10",
     "soort": "Senioren zaterdag",
-    "pouleId": null,
-    "heeftStand": false,
+    "pouleId": "827358",
+    "heeftStand": true,
+    "aantalMatches": 9
+  },
+  {
+    "slug": "afc-2",
+    "naam": "AFC 2",
+    "soort": "Senioren zaterdag",
+    "pouleId": "826379",
+    "heeftStand": true,
     "aantalMatches": 9
   },
   {
     "slug": "afc-3-2",
     "naam": "AFC 3",
     "soort": "Senioren zaterdag",
-    "pouleId": null,
-    "heeftStand": false,
+    "pouleId": "826382",
+    "heeftStand": true,
     "aantalMatches": 9
   },
   {
     "slug": "afc-4",
     "naam": "AFC 4",
     "soort": "Senioren zaterdag",
-    "pouleId": null,
-    "heeftStand": false,
+    "pouleId": "827968",
+    "heeftStand": true,
     "aantalMatches": 8
   },
   {
     "slug": "afc-5-2",
     "naam": "AFC 5",
     "soort": "Senioren zaterdag",
-    "pouleId": null,
-    "heeftStand": false,
+    "pouleId": "827331",
+    "heeftStand": true,
     "aantalMatches": 11
   },
   {
     "slug": "afc-6-2",
     "naam": "AFC 6",
     "soort": "Senioren zaterdag",
-    "pouleId": null,
-    "heeftStand": false,
+    "pouleId": "827333",
+    "heeftStand": true,
     "aantalMatches": 10
   },
   {
     "slug": "afc-7-2",
     "naam": "AFC 7",
     "soort": "Senioren zaterdag",
-    "pouleId": null,
-    "heeftStand": false,
+    "pouleId": "827335",
+    "heeftStand": true,
     "aantalMatches": 9
   },
   {
     "slug": "afc-8",
     "naam": "AFC 8",
     "soort": "Senioren zaterdag",
-    "pouleId": null,
-    "heeftStand": false,
+    "pouleId": "827341",
+    "heeftStand": true,
     "aantalMatches": 8
   },
   {
     "slug": "afc",
     "naam": "AFC",
     "soort": "Senioren zondag",
-    "pouleId": null,
-    "heeftStand": false,
+    "pouleId": "825465",
+    "heeftStand": true,
     "aantalMatches": 10
   },
   {
     "slug": "afc-2-2",
     "naam": "AFC 2",
     "soort": "Senioren zondag",
-    "pouleId": null,
-    "heeftStand": false,
+    "pouleId": "827489",
+    "heeftStand": true,
     "aantalMatches": 8
   },
   {
     "slug": "afc-3",
     "naam": "AFC 3",
     "soort": "Senioren zondag",
-    "pouleId": null,
-    "heeftStand": false,
-    "aantalMatches": 10
+    "pouleId": "827490",
+    "heeftStand": true,
+    "aantalMatches": 9
   },
   {
     "slug": "afc-4-2",
     "naam": "AFC 4",
     "soort": "Senioren zondag",
-    "pouleId": null,
-    "heeftStand": false,
+    "pouleId": "826384",
+    "heeftStand": true,
     "aantalMatches": 8
   },
   {
     "slug": "afc-5",
     "naam": "AFC 5",
     "soort": "Senioren zondag",
-    "pouleId": null,
-    "heeftStand": false,
+    "pouleId": "827969",
+    "heeftStand": true,
     "aantalMatches": 9
   },
   {
     "slug": "afc-6",
     "naam": "AFC 6",
     "soort": "Senioren zondag",
-    "pouleId": null,
-    "heeftStand": false,
+    "pouleId": "827984",
+    "heeftStand": true,
     "aantalMatches": 9
   },
   {
     "slug": "afc-7",
     "naam": "AFC 7",
     "soort": "Senioren zondag",
-    "pouleId": null,
-    "heeftStand": false,
+    "pouleId": "827988",
+    "heeftStand": true,
     "aantalMatches": 9
   },
   {
     "slug": "afc-9",
     "naam": "AFC 9",
     "soort": "Senioren zondag",
-    "pouleId": null,
-    "heeftStand": false,
+    "pouleId": "827344",
+    "heeftStand": true,
     "aantalMatches": 8
-  },
-  {
-    "slug": "afc-mo17-1",
-    "naam": "AFC MO17-1",
-    "soort": "Meisjes",
-    "pouleId": null,
-    "heeftStand": false,
-    "aantalMatches": 4
   },
   {
     "slug": "afc-351",
     "naam": "AFC 35+1",
     "soort": "Veteranen",
-    "pouleId": null,
-    "heeftStand": false,
+    "pouleId": "826661",
+    "heeftStand": true,
     "aantalMatches": 9
   },
   {
     "slug": "afc-451",
     "naam": "AFC 45+1",
     "soort": "Veteranen",
-    "pouleId": null,
-    "heeftStand": false,
+    "pouleId": "826673",
+    "heeftStand": true,
     "aantalMatches": 10
   },
   {
     "slug": "afc-452",
     "naam": "AFC 45+2",
     "soort": "Veteranen",
-    "pouleId": null,
-    "heeftStand": false,
+    "pouleId": "826670",
+    "heeftStand": true,
     "aantalMatches": 10
   }
 ]
