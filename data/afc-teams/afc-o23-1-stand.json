@@ -40,19 +40,6 @@
   },
   {
     "positie": 4,
-    "club": "TOS-Actief O23-1",
-    "logo": "",
-    "gespeeld": 1,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 4,
-    "tegen": 0,
-    "doelsaldo": 4,
-    "punten": 3
-  },
-  {
-    "positie": 5,
     "club": "Kon. HFC O23-1 (Zon)",
     "logo": "",
     "gespeeld": 1,
@@ -62,6 +49,19 @@
     "voor": 3,
     "tegen": 0,
     "doelsaldo": 3,
+    "punten": 3
+  },
+  {
+    "positie": 5,
+    "club": "SDZ O23-2",
+    "logo": "",
+    "gespeeld": 1,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 4,
+    "tegen": 3,
+    "doelsaldo": 1,
     "punten": 3
   },
   {
@@ -79,6 +79,19 @@
   },
   {
     "positie": 7,
+    "club": "TOS-Actief O23-1",
+    "logo": "",
+    "gespeeld": 2,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 7,
+    "tegen": 4,
+    "doelsaldo": 3,
+    "punten": 3
+  },
+  {
+    "positie": 8,
     "club": "TABA afc O23-1",
     "logo": "images/afc.png",
     "gespeeld": 2,
@@ -89,19 +102,6 @@
     "tegen": 7,
     "doelsaldo": 0,
     "punten": 3
-  },
-  {
-    "positie": 8,
-    "club": "SDZ O23-2",
-    "logo": "",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
   },
   {
     "positie": 9,
