@@ -1,8 +1,8 @@
 [
   {
     "positie": 1,
-    "club": "Hoofddorp s.v. 3",
-    "logo": "",
+    "club": "Sloterdijk avv. 2",
+    "logo": "images/sloterdijk.png",
     "gespeeld": 1,
     "gewonnen": 1,
     "gelijk": 0,
@@ -14,8 +14,8 @@
   },
   {
     "positie": 2,
-    "club": "Sloterdijk avv. 2",
-    "logo": "images/sloterdijk.png",
+    "club": "TOS-Actief 3",
+    "logo": "",
     "gespeeld": 1,
     "gewonnen": 1,
     "gelijk": 0,
@@ -131,7 +131,7 @@
   },
   {
     "positie": 11,
-    "club": "TOS-Actief 3",
+    "club": "Hoofddorp s.v. 3",
     "logo": "",
     "gespeeld": 1,
     "gewonnen": 0,
