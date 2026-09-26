@@ -1,6 +1,19 @@
 [
   {
     "positie": 1,
+    "club": "Waterwijk asc 2",
+    "logo": "",
+    "gespeeld": 2,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 10,
+    "tegen": 0,
+    "doelsaldo": 10,
+    "punten": 6
+  },
+  {
+    "positie": 2,
     "club": "Swift 4",
     "logo": "",
     "gespeeld": 1,
@@ -10,19 +23,6 @@
     "voor": 6,
     "tegen": 1,
     "doelsaldo": 5,
-    "punten": 3
-  },
-  {
-    "positie": 2,
-    "club": "Waterwijk asc 2",
-    "logo": "",
-    "gespeeld": 1,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 4,
-    "tegen": 0,
-    "doelsaldo": 4,
     "punten": 3
   },
   {
@@ -53,19 +53,6 @@
   },
   {
     "positie": 5,
-    "club": "DVVA csv. 3",
-    "logo": "",
-    "gespeeld": 1,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 3,
-    "tegen": 1,
-    "doelsaldo": 2,
-    "punten": 3
-  },
-  {
-    "positie": 6,
     "club": "Almere FC 2",
     "logo": "",
     "gespeeld": 1,
@@ -75,6 +62,19 @@
     "voor": 2,
     "tegen": 1,
     "doelsaldo": 1,
+    "punten": 3
+  },
+  {
+    "positie": 6,
+    "club": "DVVA csv. 3",
+    "logo": "",
+    "gespeeld": 2,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 3,
+    "tegen": 7,
+    "doelsaldo": -4,
     "punten": 3
   },
   {

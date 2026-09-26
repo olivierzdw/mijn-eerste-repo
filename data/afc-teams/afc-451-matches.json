@@ -68,5 +68,19 @@
     "thuisLogo": "",
     "uit": "AFC 45+1",
     "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 16 januari 15:00",
+    "thuis": "AFC 45+1",
+    "thuisLogo": "images/afc.png",
+    "uit": "TABA afc 45+1",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 23 januari 15:00",
+    "thuis": "AFC 45+1",
+    "thuisLogo": "images/afc.png",
+    "uit": "AGB 45+3",
+    "uitLogo": ""
   }
 ]

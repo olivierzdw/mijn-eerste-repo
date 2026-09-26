@@ -61,5 +61,19 @@
     "thuisLogo": "images/afc.png",
     "uit": "Sloterdijk avv. 3",
     "uitLogo": "images/sloterdijk.png"
+  },
+  {
+    "datum": "za 23 januari 12:30",
+    "thuis": "AFC 10",
+    "thuisLogo": "images/afc.png",
+    "uit": "DEVO'58 2",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 30 januari 14:30",
+    "thuis": "RAP sv. 6",
+    "thuisLogo": "",
+    "uit": "AFC 10",
+    "uitLogo": "images/afc.png"
   }
 ]

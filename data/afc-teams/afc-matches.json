@@ -68,5 +68,33 @@
     "thuisLogo": "images/afc.png",
     "uit": "Quick Boys",
     "uitLogo": ""
+  },
+  {
+    "datum": "za 12 december 15:00",
+    "thuis": "IJsselmeervogels",
+    "thuisLogo": "",
+    "uit": "AFC",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 9 januari 15:00",
+    "thuis": "Kloetinge",
+    "thuisLogo": "",
+    "uit": "AFC",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 16 januari 15:15",
+    "thuis": "AFC",
+    "thuisLogo": "images/afc.png",
+    "uit": "GVVV",
+    "uitLogo": ""
+  },
+  {
+    "datum": "zo 24 januari 14:00",
+    "thuis": "ROHDA Raalte",
+    "thuisLogo": "",
+    "uit": "AFC",
+    "uitLogo": "images/afc.png"
   }
 ]

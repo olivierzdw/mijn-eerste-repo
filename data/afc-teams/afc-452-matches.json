@@ -68,5 +68,26 @@
     "thuisLogo": "images/afc.png",
     "uit": "ST Weesp FC/Muiden SC 45+1",
     "uitLogo": ""
+  },
+  {
+    "datum": "za 16 januari 16:00",
+    "thuis": "Zuidoost United 45+1",
+    "thuisLogo": "",
+    "uit": "AFC 45+2",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 23 januari 17:00",
+    "thuis": "ASV Arsenal 45+1",
+    "thuisLogo": "",
+    "uit": "AFC 45+2",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 30 januari 15:00",
+    "thuis": "AFC 45+2",
+    "thuisLogo": "images/afc.png",
+    "uit": "Wartburgia asv 45+1",
+    "uitLogo": ""
   }
 ]

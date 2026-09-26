@@ -61,5 +61,19 @@
     "thuisLogo": "images/afc.png",
     "uit": "Nieuw West United SV 2",
     "uitLogo": ""
+  },
+  {
+    "datum": "zo 6 december 13:30",
+    "thuis": "AFC 6",
+    "thuisLogo": "images/afc.png",
+    "uit": "SDZ 7",
+    "uitLogo": ""
+  },
+  {
+    "datum": "zo 24 januari 15:00",
+    "thuis": "VVA/Spartaan, 4",
+    "thuisLogo": "",
+    "uit": "AFC 6",
+    "uitLogo": "images/afc.png"
   }
 ]

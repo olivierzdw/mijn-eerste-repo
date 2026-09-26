@@ -75,5 +75,19 @@
     "thuisLogo": "images/afc.png",
     "uit": "AH'78 1",
     "uitLogo": ""
+  },
+  {
+    "datum": "za 23 januari 15:00",
+    "thuis": "AFC 1",
+    "thuisLogo": "images/afc.png",
+    "uit": "Nederhorst vv 1",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 30 januari 15:00",
+    "thuis": "TOS-Actief 1",
+    "thuisLogo": "",
+    "uit": "AFC 1",
+    "uitLogo": "images/afc.png"
   }
 ]

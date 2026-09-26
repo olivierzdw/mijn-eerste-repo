@@ -14,6 +14,19 @@
   },
   {
     "positie": 2,
+    "club": "Vitesse O21",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 3,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 8,
+    "tegen": 8,
+    "doelsaldo": 0,
+    "punten": 9
+  },
+  {
+    "positie": 3,
     "club": "ADO Den Haag O21",
     "logo": "",
     "gespeeld": 4,
@@ -26,7 +39,7 @@
     "punten": 8
   },
   {
-    "positie": 3,
+    "positie": 4,
     "club": "FC Dordrecht O21",
     "logo": "",
     "gespeeld": 4,
@@ -39,7 +52,7 @@
     "punten": 8
   },
   {
-    "positie": 4,
+    "positie": 5,
     "club": "FC Volendam O21",
     "logo": "",
     "gespeeld": 4,
@@ -50,19 +63,6 @@
     "tegen": 10,
     "doelsaldo": 3,
     "punten": 7
-  },
-  {
-    "positie": 5,
-    "club": "Vitesse O21",
-    "logo": "",
-    "gespeeld": 4,
-    "gewonnen": 2,
-    "gelijk": 0,
-    "verloren": 2,
-    "voor": 5,
-    "tegen": 7,
-    "doelsaldo": -2,
-    "punten": 6
   },
   {
     "positie": 6,
@@ -79,19 +79,6 @@
   },
   {
     "positie": 7,
-    "club": "Fortuna Sittard O21",
-    "logo": "",
-    "gespeeld": 4,
-    "gewonnen": 0,
-    "gelijk": 1,
-    "verloren": 3,
-    "voor": 0,
-    "tegen": 10,
-    "doelsaldo": -10,
-    "punten": 1
-  },
-  {
-    "positie": 8,
     "club": "NAC Breda O21",
     "logo": "",
     "gespeeld": 4,
@@ -101,6 +88,19 @@
     "voor": 1,
     "tegen": 12,
     "doelsaldo": -11,
+    "punten": 1
+  },
+  {
+    "positie": 8,
+    "club": "Fortuna Sittard O21",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 0,
+    "gelijk": 1,
+    "verloren": 4,
+    "voor": 1,
+    "tegen": 13,
+    "doelsaldo": -12,
     "punten": 1
   }
 ]

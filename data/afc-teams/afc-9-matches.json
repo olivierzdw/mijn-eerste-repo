@@ -21,7 +21,7 @@
     "uitLogo": ""
   },
   {
-    "datum": "za 31 oktober 18:00",
+    "datum": "za 31 oktober 12:35",
     "thuis": "TABA afc 4",
     "thuisLogo": "images/afc.png",
     "uit": "AFC 9",
@@ -51,6 +51,13 @@
   {
     "datum": "za 5 december 11:30",
     "thuis": "WV-HEDW 9",
+    "thuisLogo": "",
+    "uit": "AFC 9",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 23 januari 12:30",
+    "thuis": "Meer De sv. 8",
     "thuisLogo": "",
     "uit": "AFC 9",
     "uitLogo": "images/afc.png"

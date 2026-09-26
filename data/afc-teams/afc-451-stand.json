@@ -1,6 +1,19 @@
 [
   {
     "positie": 1,
+    "club": "CTO '70 vv 45+3",
+    "logo": "",
+    "gespeeld": 2,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 10,
+    "tegen": 4,
+    "doelsaldo": 6,
+    "punten": 6
+  },
+  {
+    "positie": 2,
     "club": "ASV Arsenal 45+2",
     "logo": "",
     "gespeeld": 1,
@@ -10,19 +23,6 @@
     "voor": 6,
     "tegen": 1,
     "doelsaldo": 5,
-    "punten": 3
-  },
-  {
-    "positie": 2,
-    "club": "CTO '70 vv 45+3",
-    "logo": "",
-    "gespeeld": 1,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 6,
-    "tegen": 2,
-    "doelsaldo": 4,
     "punten": 3
   },
   {
@@ -92,19 +92,6 @@
   },
   {
     "positie": 8,
-    "club": "AGB 45+3",
-    "logo": "",
-    "gespeeld": 1,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 1,
-    "voor": 4,
-    "tegen": 5,
-    "doelsaldo": -1,
-    "punten": 0
-  },
-  {
-    "positie": 9,
     "club": "Sporting Martinus 45+1",
     "logo": "",
     "gespeeld": 1,
@@ -117,7 +104,7 @@
     "punten": 0
   },
   {
-    "positie": 10,
+    "positie": 9,
     "club": "Amstelveen/Heemraad 45+1",
     "logo": "",
     "gespeeld": 1,
@@ -130,7 +117,7 @@
     "punten": 0
   },
   {
-    "positie": 11,
+    "positie": 10,
     "club": "Buitenveldert sc. 45+1",
     "logo": "",
     "gespeeld": 1,
@@ -143,7 +130,7 @@
     "punten": 0
   },
   {
-    "positie": 12,
+    "positie": 11,
     "club": "AFC 45+1",
     "logo": "images/afc.png",
     "gespeeld": 1,
@@ -156,7 +143,7 @@
     "punten": 0
   },
   {
-    "positie": 13,
+    "positie": 12,
     "club": "AMVJ 45+1",
     "logo": "",
     "gespeeld": 1,
@@ -169,7 +156,7 @@
     "punten": 0
   },
   {
-    "positie": 14,
+    "positie": 13,
     "club": "TABA afc 45+1",
     "logo": "images/afc.png",
     "gespeeld": 1,
@@ -179,6 +166,19 @@
     "voor": 1,
     "tegen": 6,
     "doelsaldo": -5,
+    "punten": 0
+  },
+  {
+    "positie": 14,
+    "club": "AGB 45+3",
+    "logo": "",
+    "gespeeld": 2,
+    "gewonnen": 0,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 6,
+    "tegen": 9,
+    "doelsaldo": -3,
     "punten": 0
   }
 ]
