@@ -3,27 +3,27 @@
     "positie": 1,
     "club": "Atletico Club Amsterdam MO13-1",
     "logo": "",
-    "gespeeld": 2,
+    "gespeeld": 3,
     "gewonnen": 2,
-    "gelijk": 0,
+    "gelijk": 1,
     "verloren": 0,
-    "voor": 13,
-    "tegen": 1,
+    "voor": 15,
+    "tegen": 3,
     "doelsaldo": 12,
-    "punten": 6
+    "punten": 7
   },
   {
     "positie": 2,
     "club": "AFC MO13-1",
     "logo": "images/afc.png",
-    "gespeeld": 2,
+    "gespeeld": 3,
     "gewonnen": 2,
-    "gelijk": 0,
+    "gelijk": 1,
     "verloren": 0,
-    "voor": 6,
-    "tegen": 1,
+    "voor": 8,
+    "tegen": 3,
     "doelsaldo": 5,
-    "punten": 6
+    "punten": 7
   },
   {
     "positie": 3,
