@@ -53,6 +53,19 @@
   },
   {
     "positie": 5,
+    "club": "AFC 6",
+    "logo": "images/afc.png",
+    "gespeeld": 1,
+    "gewonnen": 0,
+    "gelijk": 1,
+    "verloren": 0,
+    "voor": 2,
+    "tegen": 2,
+    "doelsaldo": 0,
+    "punten": 1
+  },
+  {
+    "positie": 6,
     "club": "Purmerland 3",
     "logo": "",
     "gespeeld": 1,
@@ -65,7 +78,7 @@
     "punten": 1
   },
   {
-    "positie": 6,
+    "positie": 7,
     "club": "Meer De sv. 7",
     "logo": "",
     "gespeeld": 2,
@@ -78,20 +91,20 @@
     "punten": 1
   },
   {
-    "positie": 7,
-    "club": "AFC 6",
-    "logo": "images/afc.png",
-    "gespeeld": 0,
+    "positie": 8,
+    "club": "Foresters 5",
+    "logo": "",
+    "gespeeld": 2,
     "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
+    "gelijk": 1,
+    "verloren": 1,
+    "voor": 2,
+    "tegen": 7,
+    "doelsaldo": -5,
+    "punten": 1
   },
   {
-    "positie": 8,
+    "positie": 9,
     "club": "Marken sv. 3",
     "logo": "",
     "gespeeld": 0,
@@ -104,7 +117,7 @@
     "punten": 0
   },
   {
-    "positie": 9,
+    "positie": 10,
     "club": "Sloterdijk avv. 2",
     "logo": "images/sloterdijk.png",
     "gespeeld": 0,
@@ -117,7 +130,7 @@
     "punten": 0
   },
   {
-    "positie": 10,
+    "positie": 11,
     "club": "Zouaven (de) 2",
     "logo": "",
     "gespeeld": 0,
@@ -130,7 +143,7 @@
     "punten": 0
   },
   {
-    "positie": 11,
+    "positie": 12,
     "club": "Jong Hercules 3",
     "logo": "",
     "gespeeld": 1,
@@ -140,19 +153,6 @@
     "voor": 3,
     "tegen": 5,
     "doelsaldo": -2,
-    "punten": 0
-  },
-  {
-    "positie": 12,
-    "club": "Foresters 5",
-    "logo": "",
-    "gespeeld": 1,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 1,
-    "voor": 0,
-    "tegen": 5,
-    "doelsaldo": -5,
     "punten": 0
   }
 ]

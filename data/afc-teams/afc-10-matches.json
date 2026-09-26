@@ -1,6 +1,6 @@
 [
   {
-    "datum": "za 26 september 12:30",
+    "datum": "zo 26 september 12:30",
     "thuis": "WV-HEDW 12",
     "thuisLogo": "",
     "uit": "AFC 10",
@@ -75,5 +75,12 @@
     "thuisLogo": "",
     "uit": "AFC 10",
     "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 6 februari 12:30",
+    "thuis": "AFC 10",
+    "thuisLogo": "images/afc.png",
+    "uit": "WV-HEDW 12",
+    "uitLogo": ""
   }
 ]

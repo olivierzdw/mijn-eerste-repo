@@ -3,17 +3,30 @@
     "positie": 1,
     "club": "DVVA csv. 4",
     "logo": "",
+    "gespeeld": 2,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 10,
+    "tegen": 3,
+    "doelsaldo": 7,
+    "punten": 6
+  },
+  {
+    "positie": 2,
+    "club": "Real Sranang sv. 2",
+    "logo": "",
     "gespeeld": 1,
     "gewonnen": 1,
     "gelijk": 0,
     "verloren": 0,
-    "voor": 4,
-    "tegen": 0,
+    "voor": 6,
+    "tegen": 2,
     "doelsaldo": 4,
     "punten": 3
   },
   {
-    "positie": 2,
+    "positie": 3,
     "club": "DTA Fortius asv 3",
     "logo": "images/fortius.png",
     "gespeeld": 1,
@@ -26,7 +39,7 @@
     "punten": 3
   },
   {
-    "positie": 3,
+    "positie": 4,
     "club": "SDOB 2",
     "logo": "",
     "gespeeld": 1,
@@ -39,20 +52,20 @@
     "punten": 3
   },
   {
-    "positie": 4,
+    "positie": 5,
     "club": "EVC 2",
     "logo": "",
-    "gespeeld": 1,
+    "gespeeld": 2,
     "gewonnen": 1,
     "gelijk": 0,
-    "verloren": 0,
-    "voor": 3,
-    "tegen": 2,
-    "doelsaldo": 1,
+    "verloren": 1,
+    "voor": 6,
+    "tegen": 8,
+    "doelsaldo": -2,
     "punten": 3
   },
   {
-    "positie": 5,
+    "positie": 6,
     "club": "Marken sv. 2",
     "logo": "",
     "gespeeld": 0,
@@ -65,33 +78,7 @@
     "punten": 0
   },
   {
-    "positie": 6,
-    "club": "Monnickendam 2",
-    "logo": "",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
     "positie": 7,
-    "club": "Real Sranang sv. 2",
-    "logo": "",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
-    "positie": 8,
     "club": "TOS-Actief 2",
     "logo": "",
     "gespeeld": 1,
@@ -104,7 +91,7 @@
     "punten": 0
   },
   {
-    "positie": 9,
+    "positie": 8,
     "club": "WV-HEDW 3",
     "logo": "",
     "gespeeld": 1,
@@ -117,7 +104,7 @@
     "punten": 0
   },
   {
-    "positie": 10,
+    "positie": 9,
     "club": "HBOK 3",
     "logo": "",
     "gespeeld": 1,
@@ -127,6 +114,19 @@
     "voor": 1,
     "tegen": 4,
     "doelsaldo": -3,
+    "punten": 0
+  },
+  {
+    "positie": 10,
+    "club": "Monnickendam 2",
+    "logo": "",
+    "gespeeld": 1,
+    "gewonnen": 0,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 2,
+    "tegen": 6,
+    "doelsaldo": -4,
     "punten": 0
   },
   {

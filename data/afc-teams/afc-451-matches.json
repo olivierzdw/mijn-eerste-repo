@@ -1,12 +1,5 @@
 [
   {
-    "datum": "za 26 september 14:45",
-    "thuis": "TABA afc 45+1",
-    "thuisLogo": "images/afc.png",
-    "uit": "AFC 45+1",
-    "uitLogo": "images/afc.png"
-  },
-  {
     "datum": "za 3 oktober 15:30",
     "thuis": "ASV Arsenal 45+2",
     "thuisLogo": "",
@@ -82,5 +75,12 @@
     "thuisLogo": "images/afc.png",
     "uit": "AGB 45+3",
     "uitLogo": ""
+  },
+  {
+    "datum": "za 30 januari 19:00",
+    "thuis": "Real Sranang sv. 45+1",
+    "thuisLogo": "",
+    "uit": "AFC 45+1",
+    "uitLogo": "images/afc.png"
   }
 ]

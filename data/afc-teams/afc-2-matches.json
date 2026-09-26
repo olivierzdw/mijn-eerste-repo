@@ -1,12 +1,5 @@
 [
   {
-    "datum": "za 26 september 14:30",
-    "thuis": "AFC 2",
-    "thuisLogo": "images/afc.png",
-    "uit": "Swift 4",
-    "uitLogo": ""
-  },
-  {
     "datum": "za 3 oktober 10:30",
     "thuis": "Almere FC 2",
     "thuisLogo": "",
@@ -68,5 +61,12 @@
     "thuisLogo": "images/afc.png",
     "uit": "DVVA csv. 3",
     "uitLogo": ""
+  },
+  {
+    "datum": "za 6 februari 11:20",
+    "thuis": "Swift 4",
+    "thuisLogo": "",
+    "uit": "AFC 2",
+    "uitLogo": "images/afc.png"
   }
 ]

@@ -14,6 +14,19 @@
   },
   {
     "positie": 2,
+    "club": "OSV 2",
+    "logo": "",
+    "gespeeld": 2,
+    "gewonnen": 1,
+    "gelijk": 1,
+    "verloren": 0,
+    "voor": 2,
+    "tegen": 1,
+    "doelsaldo": 1,
+    "punten": 4
+  },
+  {
+    "positie": 3,
     "club": "Kadoelen sv. 4",
     "logo": "",
     "gespeeld": 1,
@@ -26,7 +39,7 @@
     "punten": 3
   },
   {
-    "positie": 3,
+    "positie": 4,
     "club": "Parkstad SV 2",
     "logo": "",
     "gespeeld": 1,
@@ -39,20 +52,20 @@
     "punten": 3
   },
   {
-    "positie": 4,
-    "club": "OSV 2",
+    "positie": 5,
+    "club": "AGB 2",
     "logo": "",
-    "gespeeld": 1,
-    "gewonnen": 1,
-    "gelijk": 0,
+    "gespeeld": 2,
+    "gewonnen": 0,
+    "gelijk": 2,
     "verloren": 0,
-    "voor": 2,
+    "voor": 1,
     "tegen": 1,
-    "doelsaldo": 1,
-    "punten": 3
+    "doelsaldo": 0,
+    "punten": 2
   },
   {
-    "positie": 5,
+    "positie": 6,
     "club": "AFC 8",
     "logo": "images/afc.png",
     "gespeeld": 1,
@@ -65,7 +78,7 @@
     "punten": 1
   },
   {
-    "positie": 6,
+    "positie": 7,
     "club": "DVVA csv. 7",
     "logo": "",
     "gespeeld": 1,
@@ -74,19 +87,6 @@
     "verloren": 0,
     "voor": 3,
     "tegen": 3,
-    "doelsaldo": 0,
-    "punten": 1
-  },
-  {
-    "positie": 7,
-    "club": "AGB 2",
-    "logo": "",
-    "gespeeld": 1,
-    "gewonnen": 0,
-    "gelijk": 1,
-    "verloren": 0,
-    "voor": 1,
-    "tegen": 1,
     "doelsaldo": 0,
     "punten": 1
   },
