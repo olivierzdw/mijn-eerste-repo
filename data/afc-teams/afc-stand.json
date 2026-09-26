@@ -14,6 +14,19 @@
   },
   {
     "positie": 2,
+    "club": "De Treffers",
+    "logo": "",
+    "gespeeld": 7,
+    "gewonnen": 4,
+    "gelijk": 3,
+    "verloren": 0,
+    "voor": 19,
+    "tegen": 6,
+    "doelsaldo": 13,
+    "punten": 15
+  },
+  {
+    "positie": 3,
     "club": "Kozakken Boys",
     "logo": "",
     "gespeeld": 7,
@@ -26,7 +39,7 @@
     "punten": 14
   },
   {
-    "positie": 3,
+    "positie": 4,
     "club": "IJsselmeervogels",
     "logo": "",
     "gespeeld": 6,
@@ -37,19 +50,6 @@
     "tegen": 3,
     "doelsaldo": 6,
     "punten": 13
-  },
-  {
-    "positie": 4,
-    "club": "De Treffers",
-    "logo": "",
-    "gespeeld": 6,
-    "gewonnen": 3,
-    "gelijk": 3,
-    "verloren": 0,
-    "voor": 14,
-    "tegen": 6,
-    "doelsaldo": 8,
-    "punten": 12
   },
   {
     "positie": 5,
@@ -105,19 +105,6 @@
   },
   {
     "positie": 9,
-    "club": "Spakenburg",
-    "logo": "",
-    "gespeeld": 6,
-    "gewonnen": 3,
-    "gelijk": 1,
-    "verloren": 2,
-    "voor": 9,
-    "tegen": 6,
-    "doelsaldo": 3,
-    "punten": 10
-  },
-  {
-    "positie": 10,
     "club": "AFC",
     "logo": "images/afc.png",
     "gespeeld": 7,
@@ -127,6 +114,19 @@
     "voor": 11,
     "tegen": 12,
     "doelsaldo": -1,
+    "punten": 10
+  },
+  {
+    "positie": 10,
+    "club": "Spakenburg",
+    "logo": "",
+    "gespeeld": 7,
+    "gewonnen": 3,
+    "gelijk": 1,
+    "verloren": 3,
+    "voor": 9,
+    "tegen": 11,
+    "doelsaldo": -2,
     "punten": 10
   },
   {

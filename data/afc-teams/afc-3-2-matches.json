@@ -1,12 +1,5 @@
 [
   {
-    "datum": "zo 26 september 11:15",
-    "thuis": "ASV Arsenal 3",
-    "thuisLogo": "",
-    "uit": "AFC 3",
-    "uitLogo": "images/afc.png"
-  },
-  {
     "datum": "za 3 oktober 14:30",
     "thuis": "AFC 3",
     "thuisLogo": "images/afc.png",
@@ -68,5 +61,12 @@
     "thuisLogo": "",
     "uit": "AFC 3",
     "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 6 februari 15:00",
+    "thuis": "AFC 3",
+    "thuisLogo": "images/afc.png",
+    "uit": "ASV Arsenal 3",
+    "uitLogo": ""
   }
 ]

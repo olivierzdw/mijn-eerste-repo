@@ -14,6 +14,19 @@
   },
   {
     "positie": 2,
+    "club": "Geinburgia sv. 35+1",
+    "logo": "",
+    "gespeeld": 2,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 11,
+    "tegen": 3,
+    "doelsaldo": 8,
+    "punten": 6
+  },
+  {
+    "positie": 3,
     "club": "AFC Ajax 35+1",
     "logo": "images/afc.png",
     "gespeeld": 2,
@@ -26,7 +39,7 @@
     "punten": 4
   },
   {
-    "positie": 3,
+    "positie": 4,
     "club": "ZSGOWMS 35+1",
     "logo": "",
     "gespeeld": 2,
@@ -39,33 +52,33 @@
     "punten": 4
   },
   {
-    "positie": 4,
-    "club": "Geinburgia sv. 35+1",
-    "logo": "",
-    "gespeeld": 1,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 8,
-    "tegen": 2,
-    "doelsaldo": 6,
-    "punten": 3
-  },
-  {
     "positie": 5,
     "club": "Real Sranang sv. 35+1",
     "logo": "",
-    "gespeeld": 1,
+    "gespeeld": 2,
     "gewonnen": 1,
     "gelijk": 0,
-    "verloren": 0,
-    "voor": 5,
-    "tegen": 1,
-    "doelsaldo": 4,
+    "verloren": 1,
+    "voor": 6,
+    "tegen": 4,
+    "doelsaldo": 2,
     "punten": 3
   },
   {
     "positie": 6,
+    "club": "VVA/Spartaan 35+1",
+    "logo": "",
+    "gespeeld": 2,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 3,
+    "tegen": 5,
+    "doelsaldo": -2,
+    "punten": 3
+  },
+  {
+    "positie": 7,
     "club": "ASC De Volewijckers 35+1",
     "logo": "",
     "gespeeld": 2,
@@ -78,7 +91,7 @@
     "punten": 3
   },
   {
-    "positie": 7,
+    "positie": 8,
     "club": "AFC 35+1",
     "logo": "images/afc.png",
     "gespeeld": 1,
@@ -91,33 +104,7 @@
     "punten": 0
   },
   {
-    "positie": 8,
-    "club": "AGB 35+1",
-    "logo": "",
-    "gespeeld": 1,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 1,
-    "voor": 1,
-    "tegen": 5,
-    "doelsaldo": -4,
-    "punten": 0
-  },
-  {
     "positie": 9,
-    "club": "VVA/Spartaan 35+1",
-    "logo": "",
-    "gespeeld": 1,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 1,
-    "voor": 0,
-    "tegen": 5,
-    "doelsaldo": -5,
-    "punten": 0
-  },
-  {
-    "positie": 10,
     "club": "Zuidoost United 35+1",
     "logo": "",
     "gespeeld": 1,
@@ -127,6 +114,19 @@
     "voor": 3,
     "tegen": 9,
     "doelsaldo": -6,
+    "punten": 0
+  },
+  {
+    "positie": 10,
+    "club": "AGB 35+1",
+    "logo": "",
+    "gespeeld": 2,
+    "gewonnen": 0,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 1,
+    "tegen": 8,
+    "doelsaldo": -7,
     "punten": 0
   },
   {
