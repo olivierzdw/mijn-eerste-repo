@@ -82,5 +82,12 @@
     "thuisLogo": "",
     "uit": "AFC 6",
     "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "zo 7 februari 13:30",
+    "thuis": "AFC 6",
+    "thuisLogo": "images/afc.png",
+    "uit": "Sloterdijk avv. 3",
+    "uitLogo": "images/sloterdijk.png"
   }
 ]

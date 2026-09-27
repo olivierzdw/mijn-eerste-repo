@@ -72,14 +72,6 @@
     "aantalMatches": 11
   },
   {
-    "slug": "afc-o23-1",
-    "naam": "AFC O23-1",
-    "soort": "Senioren zaterdag",
-    "pouleId": "829597",
-    "heeftStand": true,
-    "aantalMatches": 9
-  },
-  {
     "slug": "afc",
     "naam": "AFC",
     "soort": "Senioren zondag",
@@ -112,52 +104,36 @@
     "aantalMatches": 9
   },
   {
+    "slug": "afc-5",
+    "naam": "AFC 5",
+    "soort": "Senioren zondag",
+    "pouleId": "827969",
+    "heeftStand": true,
+    "aantalMatches": 13
+  },
+  {
+    "slug": "afc-6",
+    "naam": "AFC 6",
+    "soort": "Senioren zondag",
+    "pouleId": "827984",
+    "heeftStand": true,
+    "aantalMatches": 13
+  },
+  {
+    "slug": "afc-7",
+    "naam": "AFC 7",
+    "soort": "Senioren zondag",
+    "pouleId": "827988",
+    "heeftStand": true,
+    "aantalMatches": 14
+  },
+  {
     "slug": "afc-9",
     "naam": "AFC 9",
     "soort": "Senioren zondag",
     "pouleId": "827344",
     "heeftStand": true,
     "aantalMatches": 11
-  },
-  {
-    "slug": "afc-vr1",
-    "naam": "AFC VR1",
-    "soort": "Vrouwen",
-    "pouleId": "826375",
-    "heeftStand": true,
-    "aantalMatches": 10
-  },
-  {
-    "slug": "afc-mo10-1",
-    "naam": "AFC MO10-1",
-    "soort": "Meisjes",
-    "pouleId": null,
-    "heeftStand": false,
-    "aantalMatches": 1
-  },
-  {
-    "slug": "afc-mo11-1",
-    "naam": "AFC MO11-1",
-    "soort": "Meisjes",
-    "pouleId": "830027",
-    "heeftStand": true,
-    "aantalMatches": 1
-  },
-  {
-    "slug": "afc-mo11-2",
-    "naam": "AFC MO11-2",
-    "soort": "Meisjes",
-    "pouleId": "830047",
-    "heeftStand": true,
-    "aantalMatches": 1
-  },
-  {
-    "slug": "afc-mo12-1",
-    "naam": "AFC MO12-1",
-    "soort": "Meisjes",
-    "pouleId": "828154",
-    "heeftStand": true,
-    "aantalMatches": 1
   },
   {
     "slug": "afc-mo13-1",
@@ -168,20 +144,12 @@
     "aantalMatches": 1
   },
   {
-    "slug": "afc-mo15-1",
-    "naam": "AFC MO15-1",
+    "slug": "afc-mo17-1",
+    "naam": "AFC MO17-1",
     "soort": "Meisjes",
-    "pouleId": "839226",
+    "pouleId": "836800",
     "heeftStand": true,
-    "aantalMatches": 1
-  },
-  {
-    "slug": "afc-mo15-2",
-    "naam": "AFC MO15-2",
-    "soort": "Meisjes",
-    "pouleId": "836886",
-    "heeftStand": true,
-    "aantalMatches": 1
+    "aantalMatches": 3
   },
   {
     "slug": "afc-351",
