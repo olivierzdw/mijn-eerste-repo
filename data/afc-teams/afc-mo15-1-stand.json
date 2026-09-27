@@ -3,14 +3,14 @@
     "positie": 1,
     "club": "AS'80 O14-2",
     "logo": "",
-    "gespeeld": 3,
-    "gewonnen": 3,
+    "gespeeld": 4,
+    "gewonnen": 4,
     "gelijk": 0,
     "verloren": 0,
-    "voor": 10,
+    "voor": 16,
     "tegen": 3,
-    "doelsaldo": 7,
-    "punten": 9
+    "doelsaldo": 13,
+    "punten": 12
   },
   {
     "positie": 2,
@@ -29,13 +29,13 @@
     "positie": 3,
     "club": "Meer De sv. O14-1",
     "logo": "",
-    "gespeeld": 3,
+    "gespeeld": 4,
     "gewonnen": 2,
     "gelijk": 0,
-    "verloren": 1,
+    "verloren": 2,
     "voor": 11,
-    "tegen": 4,
-    "doelsaldo": 7,
+    "tegen": 10,
+    "doelsaldo": 1,
     "punten": 6
   },
   {

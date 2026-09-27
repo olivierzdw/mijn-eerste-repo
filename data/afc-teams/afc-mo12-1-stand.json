@@ -3,27 +3,27 @@
     "positie": 1,
     "club": "AFC MO12-1",
     "logo": "images/afc.png",
-    "gespeeld": 3,
-    "gewonnen": 3,
+    "gespeeld": 4,
+    "gewonnen": 4,
     "gelijk": 0,
     "verloren": 0,
-    "voor": 36,
+    "voor": 44,
     "tegen": 2,
-    "doelsaldo": 34,
-    "punten": 9
+    "doelsaldo": 42,
+    "punten": 12
   },
   {
     "positie": 2,
     "club": "Velsen Rkvv MO12-1",
     "logo": "",
-    "gespeeld": 3,
-    "gewonnen": 2,
+    "gespeeld": 4,
+    "gewonnen": 3,
     "gelijk": 0,
     "verloren": 1,
-    "voor": 13,
-    "tegen": 8,
-    "doelsaldo": 5,
-    "punten": 6
+    "voor": 17,
+    "tegen": 9,
+    "doelsaldo": 8,
+    "punten": 9
   },
   {
     "positie": 3,
@@ -40,19 +40,6 @@
   },
   {
     "positie": 4,
-    "club": "IJmuiden vv. MO12-1",
-    "logo": "",
-    "gespeeld": 3,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 2,
-    "voor": 5,
-    "tegen": 9,
-    "doelsaldo": -4,
-    "punten": 3
-  },
-  {
-    "positie": 5,
     "club": "Geel Wit '20 sv. MO12-1",
     "logo": "",
     "gespeeld": 3,
@@ -65,16 +52,29 @@
     "punten": 3
   },
   {
+    "positie": 5,
+    "club": "IJmuiden vv. MO12-1",
+    "logo": "",
+    "gespeeld": 4,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 3,
+    "voor": 5,
+    "tegen": 17,
+    "doelsaldo": -12,
+    "punten": 3
+  },
+  {
     "positie": 6,
     "club": "SDW MO12-3",
     "logo": "",
-    "gespeeld": 3,
+    "gespeeld": 4,
     "gewonnen": 0,
     "gelijk": 0,
-    "verloren": 3,
-    "voor": 1,
-    "tegen": 13,
-    "doelsaldo": -12,
+    "verloren": 4,
+    "voor": 2,
+    "tegen": 17,
+    "doelsaldo": -15,
     "punten": 0
   }
 ]

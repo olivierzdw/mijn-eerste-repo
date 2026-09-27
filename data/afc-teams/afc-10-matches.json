@@ -1,12 +1,5 @@
 [
   {
-    "datum": "zo 26 september 12:30",
-    "thuis": "WV-HEDW 12",
-    "thuisLogo": "",
-    "uit": "AFC 10",
-    "uitLogo": "images/afc.png"
-  },
-  {
     "datum": "za 3 oktober 13:00",
     "thuis": "VVA/Spartaan 3",
     "thuisLogo": "",
@@ -81,6 +74,13 @@
     "thuis": "AFC 10",
     "thuisLogo": "images/afc.png",
     "uit": "WV-HEDW 12",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 13 februari 12:30",
+    "thuis": "AFC 10",
+    "thuisLogo": "images/afc.png",
+    "uit": "ASV Arsenal 9",
     "uitLogo": ""
   }
 ]

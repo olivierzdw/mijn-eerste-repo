@@ -1,12 +1,5 @@
 [
   {
-    "datum": "zo 26 september 15:00",
-    "thuis": "DVVA csv. 8",
-    "thuisLogo": "",
-    "uit": "AFC 9",
-    "uitLogo": "images/afc.png"
-  },
-  {
     "datum": "za 10 oktober 14:30",
     "thuis": "JOS Watergraafsmeer 5",
     "thuisLogo": "",
@@ -75,5 +68,12 @@
     "thuisLogo": "images/afc.png",
     "uit": "DVVA csv. 8",
     "uitLogo": ""
+  },
+  {
+    "datum": "za 13 februari 12:15",
+    "thuis": "Wartburgia asv 8",
+    "thuisLogo": "",
+    "uit": "AFC 9",
+    "uitLogo": "images/afc.png"
   }
 ]
