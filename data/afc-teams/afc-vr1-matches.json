@@ -68,5 +68,19 @@
     "thuisLogo": "images/afc.png",
     "uit": "NSVV FC Kunde VR1",
     "uitLogo": ""
+  },
+  {
+    "datum": "zo 14 februari 11:00",
+    "thuis": "WSV 1930 VR1",
+    "thuisLogo": "",
+    "uit": "AFC VR1",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "zo 21 februari 13:30",
+    "thuis": "AFC VR1",
+    "thuisLogo": "images/afc.png",
+    "uit": "Varsseveld VR1",
+    "uitLogo": ""
   }
 ]

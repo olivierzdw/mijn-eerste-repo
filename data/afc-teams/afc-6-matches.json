@@ -1,6 +1,6 @@
 [
   {
-    "datum": "zo 27 september 12:00",
+    "datum": "ma 27 september 12:00",
     "thuis": "Sloterdijk avv. 3",
     "thuisLogo": "images/sloterdijk.png",
     "uit": "AFC 6",
@@ -89,5 +89,12 @@
     "thuisLogo": "images/afc.png",
     "uit": "Sloterdijk avv. 3",
     "uitLogo": "images/sloterdijk.png"
+  },
+  {
+    "datum": "zo 14 februari 13:30",
+    "thuis": "AFC 6",
+    "thuisLogo": "images/afc.png",
+    "uit": "Parkstad SV 2",
+    "uitLogo": ""
   }
 ]

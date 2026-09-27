@@ -1,6 +1,19 @@
 [
   {
     "positie": 1,
+    "club": "Swift 8",
+    "logo": "",
+    "gespeeld": 2,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 11,
+    "tegen": 7,
+    "doelsaldo": 4,
+    "punten": 6
+  },
+  {
+    "positie": 2,
     "club": "AFC 5",
     "logo": "images/afc.png",
     "gespeeld": 1,
@@ -13,7 +26,7 @@
     "punten": 3
   },
   {
-    "positie": 2,
+    "positie": 3,
     "club": "Swift 11",
     "logo": "",
     "gespeeld": 1,
@@ -26,7 +39,7 @@
     "punten": 3
   },
   {
-    "positie": 3,
+    "positie": 4,
     "club": "WV-HEDW 3",
     "logo": "",
     "gespeeld": 1,
@@ -36,19 +49,6 @@
     "voor": 2,
     "tegen": 0,
     "doelsaldo": 2,
-    "punten": 3
-  },
-  {
-    "positie": 4,
-    "club": "Swift 8",
-    "logo": "",
-    "gespeeld": 1,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 5,
-    "tegen": 4,
-    "doelsaldo": 1,
     "punten": 3
   },
   {
@@ -131,19 +131,6 @@
   },
   {
     "positie": 11,
-    "club": "Zeeburgia avv 2",
-    "logo": "",
-    "gespeeld": 1,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 1,
-    "voor": 3,
-    "tegen": 8,
-    "doelsaldo": -5,
-    "punten": 0
-  },
-  {
-    "positie": 12,
     "club": "DTA Fortius asv 2",
     "logo": "images/fortius.png",
     "gespeeld": 1,
@@ -153,6 +140,19 @@
     "voor": 1,
     "tegen": 6,
     "doelsaldo": -5,
+    "punten": 0
+  },
+  {
+    "positie": 12,
+    "club": "Zeeburgia avv 2",
+    "logo": "",
+    "gespeeld": 2,
+    "gewonnen": 0,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 6,
+    "tegen": 14,
+    "doelsaldo": -8,
     "punten": 0
   }
 ]

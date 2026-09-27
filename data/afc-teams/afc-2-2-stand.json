@@ -1,6 +1,32 @@
 [
   {
     "positie": 1,
+    "club": "Hoogland 3",
+    "logo": "",
+    "gespeeld": 1,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 5,
+    "tegen": 2,
+    "doelsaldo": 3,
+    "punten": 3
+  },
+  {
+    "positie": 2,
+    "club": "AFC 2",
+    "logo": "images/afc.png",
+    "gespeeld": 1,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 3,
+    "tegen": 1,
+    "doelsaldo": 2,
+    "punten": 3
+  },
+  {
+    "positie": 3,
     "club": "Rivierwijkers 2",
     "logo": "",
     "gespeeld": 1,
@@ -13,7 +39,7 @@
     "punten": 3
   },
   {
-    "positie": 2,
+    "positie": 4,
     "club": "SDZ 4",
     "logo": "",
     "gespeeld": 1,
@@ -24,32 +50,6 @@
     "tegen": 1,
     "doelsaldo": 1,
     "punten": 3
-  },
-  {
-    "positie": 3,
-    "club": "AFC 2",
-    "logo": "images/afc.png",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
-  },
-  {
-    "positie": 4,
-    "club": "Hoogland 3",
-    "logo": "",
-    "gespeeld": 0,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 0,
-    "tegen": 0,
-    "doelsaldo": 0,
-    "punten": 0
   },
   {
     "positie": 5,
@@ -105,28 +105,28 @@
   },
   {
     "positie": 9,
-    "club": "Hercules 2",
+    "club": "PVCV 2",
     "logo": "",
-    "gespeeld": 1,
+    "gespeeld": 2,
     "gewonnen": 0,
     "gelijk": 0,
-    "verloren": 1,
-    "voor": 3,
-    "tegen": 4,
-    "doelsaldo": -1,
+    "verloren": 2,
+    "voor": 2,
+    "tegen": 5,
+    "doelsaldo": -3,
     "punten": 0
   },
   {
     "positie": 10,
-    "club": "PVCV 2",
+    "club": "Hercules 2",
     "logo": "",
-    "gespeeld": 1,
+    "gespeeld": 2,
     "gewonnen": 0,
     "gelijk": 0,
-    "verloren": 1,
-    "voor": 1,
-    "tegen": 2,
-    "doelsaldo": -1,
+    "verloren": 2,
+    "voor": 5,
+    "tegen": 9,
+    "doelsaldo": -4,
     "punten": 0
   }
 ]
