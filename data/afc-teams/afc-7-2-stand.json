@@ -27,19 +27,6 @@
   },
   {
     "positie": 3,
-    "club": "RAP sv. 2",
-    "logo": "",
-    "gespeeld": 1,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 2,
-    "tegen": 0,
-    "doelsaldo": 2,
-    "punten": 3
-  },
-  {
-    "positie": 4,
     "club": "Diemen sv. 4",
     "logo": "",
     "gespeeld": 2,
@@ -48,6 +35,19 @@
     "verloren": 1,
     "voor": 6,
     "tegen": 5,
+    "doelsaldo": 1,
+    "punten": 3
+  },
+  {
+    "positie": 4,
+    "club": "RAP sv. 2",
+    "logo": "",
+    "gespeeld": 2,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 4,
+    "tegen": 3,
     "doelsaldo": 1,
     "punten": 3
   },
@@ -66,6 +66,19 @@
   },
   {
     "positie": 6,
+    "club": "Wartburgia asv 5",
+    "logo": "",
+    "gespeeld": 2,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 4,
+    "tegen": 4,
+    "doelsaldo": 0,
+    "punten": 3
+  },
+  {
+    "positie": 7,
     "club": "AFC 7",
     "logo": "images/afc.png",
     "gespeeld": 2,
@@ -78,7 +91,7 @@
     "punten": 3
   },
   {
-    "positie": 7,
+    "positie": 8,
     "club": "JOS Watergraafsmeer 4",
     "logo": "",
     "gespeeld": 2,
@@ -91,7 +104,7 @@
     "punten": 3
   },
   {
-    "positie": 8,
+    "positie": 9,
     "club": "FC Amsterdam 5",
     "logo": "",
     "gespeeld": 2,
@@ -104,7 +117,7 @@
     "punten": 3
   },
   {
-    "positie": 9,
+    "positie": 10,
     "club": "WV-HEDW 8",
     "logo": "",
     "gespeeld": 2,
@@ -117,7 +130,7 @@
     "punten": 3
   },
   {
-    "positie": 10,
+    "positie": 11,
     "club": "Zeeburgia avv 2",
     "logo": "",
     "gespeeld": 1,
@@ -126,19 +139,6 @@
     "verloren": 1,
     "voor": 2,
     "tegen": 3,
-    "doelsaldo": -1,
-    "punten": 0
-  },
-  {
-    "positie": 11,
-    "club": "Wartburgia asv 5",
-    "logo": "",
-    "gespeeld": 1,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 1,
-    "voor": 1,
-    "tegen": 2,
     "doelsaldo": -1,
     "punten": 0
   },

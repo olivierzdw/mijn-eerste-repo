@@ -1,6 +1,19 @@
 [
   {
     "positie": 1,
+    "club": "Buitenveldert sc. 3",
+    "logo": "",
+    "gespeeld": 2,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 12,
+    "tegen": 1,
+    "doelsaldo": 11,
+    "punten": 6
+  },
+  {
+    "positie": 2,
     "club": "HYS 4",
     "logo": "",
     "gespeeld": 2,
@@ -13,7 +26,7 @@
     "punten": 6
   },
   {
-    "positie": 2,
+    "positie": 3,
     "club": "WV-HEDW 6",
     "logo": "",
     "gespeeld": 2,
@@ -26,7 +39,7 @@
     "punten": 6
   },
   {
-    "positie": 3,
+    "positie": 4,
     "club": "TABA afc 5",
     "logo": "images/afc.png",
     "gespeeld": 2,
@@ -39,7 +52,7 @@
     "punten": 4
   },
   {
-    "positie": 4,
+    "positie": 5,
     "club": "Hoofddorp s.v. 4",
     "logo": "",
     "gespeeld": 1,
@@ -48,19 +61,6 @@
     "verloren": 0,
     "voor": 4,
     "tegen": 1,
-    "doelsaldo": 3,
-    "punten": 3
-  },
-  {
-    "positie": 5,
-    "club": "Buitenveldert sc. 3",
-    "logo": "",
-    "gespeeld": 1,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 3,
-    "tegen": 0,
     "doelsaldo": 3,
     "punten": 3
   },
@@ -131,19 +131,6 @@
   },
   {
     "positie": 11,
-    "club": "AFC 7",
-    "logo": "images/afc.png",
-    "gespeeld": 1,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 1,
-    "voor": 1,
-    "tegen": 6,
-    "doelsaldo": -5,
-    "punten": 0
-  },
-  {
-    "positie": 12,
     "club": "SCPB'22 4",
     "logo": "",
     "gespeeld": 2,
@@ -156,7 +143,7 @@
     "punten": 0
   },
   {
-    "positie": 13,
+    "positie": 12,
     "club": "ASV Arsenal 6",
     "logo": "",
     "gespeeld": 2,
@@ -169,7 +156,7 @@
     "punten": 0
   },
   {
-    "positie": 14,
+    "positie": 13,
     "club": "Zeeburgia avv 5",
     "logo": "",
     "gespeeld": 2,
@@ -179,6 +166,19 @@
     "voor": 2,
     "tegen": 12,
     "doelsaldo": -10,
+    "punten": 0
+  },
+  {
+    "positie": 14,
+    "club": "AFC 7",
+    "logo": "images/afc.png",
+    "gespeeld": 2,
+    "gewonnen": 0,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 2,
+    "tegen": 15,
+    "doelsaldo": -13,
     "punten": 0
   }
 ]
