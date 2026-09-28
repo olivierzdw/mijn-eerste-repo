@@ -53,16 +53,16 @@
   },
   {
     "positie": 5,
-    "club": "Hoofddorp s.v. 4",
-    "logo": "",
-    "gespeeld": 1,
+    "club": "Sloterdijk avv. 4",
+    "logo": "images/sloterdijk.png",
+    "gespeeld": 2,
     "gewonnen": 1,
-    "gelijk": 0,
+    "gelijk": 1,
     "verloren": 0,
-    "voor": 4,
-    "tegen": 1,
-    "doelsaldo": 3,
-    "punten": 3
+    "voor": 6,
+    "tegen": 5,
+    "doelsaldo": 1,
+    "punten": 4
   },
   {
     "positie": 6,
@@ -79,7 +79,7 @@
   },
   {
     "positie": 7,
-    "club": "Meer De sv. 6",
+    "club": "Hoofddorp s.v. 4",
     "logo": "",
     "gespeeld": 2,
     "gewonnen": 1,
@@ -92,6 +92,19 @@
   },
   {
     "positie": 8,
+    "club": "Meer De sv. 6",
+    "logo": "",
+    "gespeeld": 2,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 6,
+    "tegen": 4,
+    "doelsaldo": 2,
+    "punten": 3
+  },
+  {
+    "positie": 9,
     "club": "Sporting Martinus 4",
     "logo": "",
     "gespeeld": 2,
@@ -104,7 +117,7 @@
     "punten": 3
   },
   {
-    "positie": 9,
+    "positie": 10,
     "club": "VVA/Spartaan, 5",
     "logo": "",
     "gespeeld": 2,
@@ -115,19 +128,6 @@
     "tegen": 5,
     "doelsaldo": -1,
     "punten": 3
-  },
-  {
-    "positie": 10,
-    "club": "Sloterdijk avv. 4",
-    "logo": "images/sloterdijk.png",
-    "gespeeld": 1,
-    "gewonnen": 0,
-    "gelijk": 1,
-    "verloren": 0,
-    "voor": 3,
-    "tegen": 3,
-    "doelsaldo": 0,
-    "punten": 1
   },
   {
     "positie": 11,

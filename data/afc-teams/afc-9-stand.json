@@ -66,6 +66,19 @@
   },
   {
     "positie": 6,
+    "club": "AFC 9",
+    "logo": "images/afc.png",
+    "gespeeld": 2,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 2,
+    "tegen": 3,
+    "doelsaldo": -1,
+    "punten": 3
+  },
+  {
+    "positie": 7,
     "club": "TOG 2",
     "logo": "",
     "gespeeld": 1,
@@ -78,7 +91,7 @@
     "punten": 0
   },
   {
-    "positie": 7,
+    "positie": 8,
     "club": "RAP sv. 3",
     "logo": "",
     "gespeeld": 1,
@@ -91,33 +104,7 @@
     "punten": 0
   },
   {
-    "positie": 8,
-    "club": "AFC 9",
-    "logo": "images/afc.png",
-    "gespeeld": 1,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 1,
-    "voor": 0,
-    "tegen": 3,
-    "doelsaldo": -3,
-    "punten": 0
-  },
-  {
     "positie": 9,
-    "club": "DVVA csv. 8",
-    "logo": "",
-    "gespeeld": 1,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 1,
-    "voor": 1,
-    "tegen": 5,
-    "doelsaldo": -4,
-    "punten": 0
-  },
-  {
-    "positie": 10,
     "club": "Wartburgia asv 8",
     "logo": "",
     "gespeeld": 1,
@@ -130,7 +117,7 @@
     "punten": 0
   },
   {
-    "positie": 11,
+    "positie": 10,
     "club": "Meer De sv. 8",
     "logo": "",
     "gespeeld": 2,
@@ -140,6 +127,19 @@
     "voor": 3,
     "tegen": 7,
     "doelsaldo": -4,
+    "punten": 0
+  },
+  {
+    "positie": 11,
+    "club": "DVVA csv. 8",
+    "logo": "",
+    "gespeeld": 2,
+    "gewonnen": 0,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 1,
+    "tegen": 7,
+    "doelsaldo": -6,
     "punten": 0
   }
 ]
