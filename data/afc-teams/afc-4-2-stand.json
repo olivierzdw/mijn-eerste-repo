@@ -27,19 +27,6 @@
   },
   {
     "positie": 3,
-    "club": "Real Sranang sv. 2",
-    "logo": "",
-    "gespeeld": 1,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 6,
-    "tegen": 2,
-    "doelsaldo": 4,
-    "punten": 3
-  },
-  {
-    "positie": 4,
     "club": "TOS-Actief 2",
     "logo": "",
     "gespeeld": 2,
@@ -52,7 +39,7 @@
     "punten": 3
   },
   {
-    "positie": 5,
+    "positie": 4,
     "club": "DTA Fortius asv 3",
     "logo": "images/fortius.png",
     "gespeeld": 2,
@@ -65,7 +52,7 @@
     "punten": 3
   },
   {
-    "positie": 6,
+    "positie": 5,
     "club": "WV-HEDW 3",
     "logo": "",
     "gespeeld": 2,
@@ -78,7 +65,7 @@
     "punten": 3
   },
   {
-    "positie": 7,
+    "positie": 6,
     "club": "EVC 2",
     "logo": "",
     "gespeeld": 2,
@@ -89,6 +76,19 @@
     "tegen": 8,
     "doelsaldo": -2,
     "punten": 3
+  },
+  {
+    "positie": 7,
+    "club": "Real Sranang sv. 2",
+    "logo": "",
+    "gespeeld": 1,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 6,
+    "tegen": 2,
+    "doelsaldo": 4,
+    "punten": 0
   },
   {
     "positie": 8,
