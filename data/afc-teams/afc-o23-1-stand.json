@@ -1,6 +1,19 @@
 [
   {
     "positie": 1,
+    "club": "Swift O23-1",
+    "logo": "",
+    "gespeeld": 3,
+    "gewonnen": 3,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 18,
+    "tegen": 3,
+    "doelsaldo": 15,
+    "punten": 9
+  },
+  {
+    "positie": 2,
     "club": "JOS Watergraafsmeer O23-1",
     "logo": "",
     "gespeeld": 3,
@@ -13,33 +26,7 @@
     "punten": 9
   },
   {
-    "positie": 2,
-    "club": "Swift O23-1",
-    "logo": "",
-    "gespeeld": 2,
-    "gewonnen": 2,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 11,
-    "tegen": 2,
-    "doelsaldo": 9,
-    "punten": 6
-  },
-  {
     "positie": 3,
-    "club": "Hoofddorp s.v. O23-2",
-    "logo": "",
-    "gespeeld": 2,
-    "gewonnen": 2,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 8,
-    "tegen": 5,
-    "doelsaldo": 3,
-    "punten": 6
-  },
-  {
-    "positie": 4,
     "club": "TOS-Actief O23-1",
     "logo": "",
     "gespeeld": 3,
@@ -52,20 +39,46 @@
     "punten": 6
   },
   {
+    "positie": 4,
+    "club": "Hoofddorp s.v. O23-2",
+    "logo": "",
+    "gespeeld": 3,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 9,
+    "tegen": 12,
+    "doelsaldo": -3,
+    "punten": 6
+  },
+  {
     "positie": 5,
     "club": "SDZ O23-2",
     "logo": "",
-    "gespeeld": 1,
+    "gespeeld": 2,
     "gewonnen": 1,
-    "gelijk": 0,
+    "gelijk": 1,
     "verloren": 0,
-    "voor": 4,
-    "tegen": 3,
+    "voor": 6,
+    "tegen": 5,
     "doelsaldo": 1,
-    "punten": 3
+    "punten": 4
   },
   {
     "positie": 6,
+    "club": "TABA afc O23-1",
+    "logo": "images/afc.png",
+    "gespeeld": 3,
+    "gewonnen": 1,
+    "gelijk": 1,
+    "verloren": 1,
+    "voor": 9,
+    "tegen": 9,
+    "doelsaldo": 0,
+    "punten": 4
+  },
+  {
+    "positie": 7,
     "club": "Kon. HFC O23-1 (Zon)",
     "logo": "",
     "gespeeld": 2,
@@ -75,19 +88,6 @@
     "voor": 7,
     "tegen": 5,
     "doelsaldo": 2,
-    "punten": 3
-  },
-  {
-    "positie": 7,
-    "club": "TABA afc O23-1",
-    "logo": "images/afc.png",
-    "gespeeld": 2,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 1,
-    "voor": 7,
-    "tegen": 7,
-    "doelsaldo": 0,
     "punten": 3
   },
   {
@@ -107,14 +107,14 @@
     "positie": 9,
     "club": "AFC O23-1",
     "logo": "images/afc.png",
-    "gespeeld": 2,
-    "gewonnen": 0,
+    "gespeeld": 3,
+    "gewonnen": 1,
     "gelijk": 0,
     "verloren": 2,
-    "voor": 3,
-    "tegen": 10,
-    "doelsaldo": -7,
-    "punten": 0
+    "voor": 9,
+    "tegen": 13,
+    "doelsaldo": -4,
+    "punten": 3
   },
   {
     "positie": 10,
@@ -146,13 +146,13 @@
     "positie": 12,
     "club": "PVCV O23-2",
     "logo": "",
-    "gespeeld": 2,
+    "gespeeld": 3,
     "gewonnen": 0,
     "gelijk": 0,
-    "verloren": 2,
-    "voor": 1,
-    "tegen": 12,
-    "doelsaldo": -11,
+    "verloren": 3,
+    "voor": 4,
+    "tegen": 18,
+    "doelsaldo": -14,
     "punten": 0
   }
 ]

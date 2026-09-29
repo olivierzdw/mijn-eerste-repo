@@ -1,12 +1,5 @@
 [
   {
-    "datum": "zo 27 september 13:15",
-    "thuis": "AFC O23-1",
-    "thuisLogo": "images/afc.png",
-    "uit": "PVCV O23-2",
-    "uitLogo": ""
-  },
-  {
     "datum": "zo 4 oktober 13:15",
     "thuis": "AFC O23-1",
     "thuisLogo": "images/afc.png",
@@ -49,7 +42,7 @@
     "uitLogo": ""
   },
   {
-    "datum": "zo 29 november 12:45",
+    "datum": "zo 29 november 16:45",
     "thuis": "TABA afc O23-1",
     "thuisLogo": "images/afc.png",
     "uit": "AFC O23-1",
