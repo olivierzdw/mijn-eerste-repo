@@ -27,6 +27,19 @@
   },
   {
     "positie": 3,
+    "club": "SDW MO13-1",
+    "logo": "",
+    "gespeeld": 3,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 12,
+    "tegen": 13,
+    "doelsaldo": -1,
+    "punten": 3
+  },
+  {
+    "positie": 4,
     "club": "DSS MO13-1",
     "logo": "",
     "gespeeld": 3,
@@ -39,29 +52,16 @@
     "punten": 3
   },
   {
-    "positie": 4,
-    "club": "DCG Rksv MO13-2",
-    "logo": "",
-    "gespeeld": 1,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 1,
-    "voor": 0,
-    "tegen": 4,
-    "doelsaldo": -4,
-    "punten": 0
-  },
-  {
     "positie": 5,
-    "club": "SDW MO13-1",
+    "club": "DCG Rksv MO13-2",
     "logo": "",
     "gespeeld": 2,
     "gewonnen": 0,
     "gelijk": 0,
     "verloren": 2,
-    "voor": 1,
-    "tegen": 13,
-    "doelsaldo": -12,
+    "voor": 0,
+    "tegen": 15,
+    "doelsaldo": -15,
     "punten": 0
   }
 ]
