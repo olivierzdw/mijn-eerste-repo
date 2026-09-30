@@ -136,30 +136,6 @@
     "aantalMatches": 11
   },
   {
-    "slug": "afc-vr1",
-    "naam": "AFC VR1",
-    "soort": "Vrouwen",
-    "pouleId": "826375",
-    "heeftStand": true,
-    "aantalMatches": 12
-  },
-  {
-    "slug": "afc-mo11-1",
-    "naam": "AFC MO11-1",
-    "soort": "Meisjes",
-    "pouleId": "830027",
-    "heeftStand": true,
-    "aantalMatches": 1
-  },
-  {
-    "slug": "afc-mo13-1",
-    "naam": "AFC MO13-1",
-    "soort": "Meisjes",
-    "pouleId": "836902",
-    "heeftStand": true,
-    "aantalMatches": 1
-  },
-  {
     "slug": "afc-351",
     "naam": "AFC 35+1",
     "soort": "Veteranen",
