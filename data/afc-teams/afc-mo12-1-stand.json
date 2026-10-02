@@ -29,30 +29,17 @@
     "positie": 3,
     "club": "HBC MO12-1",
     "logo": "",
-    "gespeeld": 3,
-    "gewonnen": 2,
+    "gespeeld": 4,
+    "gewonnen": 3,
     "gelijk": 0,
     "verloren": 1,
-    "voor": 11,
-    "tegen": 11,
-    "doelsaldo": 0,
-    "punten": 6
+    "voor": 14,
+    "tegen": 12,
+    "doelsaldo": 2,
+    "punten": 9
   },
   {
     "positie": 4,
-    "club": "Geel Wit '20 sv. MO12-1",
-    "logo": "",
-    "gespeeld": 3,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 2,
-    "voor": 4,
-    "tegen": 27,
-    "doelsaldo": -23,
-    "punten": 3
-  },
-  {
-    "positie": 5,
     "club": "IJmuiden vv. MO12-1",
     "logo": "",
     "gespeeld": 4,
@@ -62,6 +49,19 @@
     "voor": 5,
     "tegen": 17,
     "doelsaldo": -12,
+    "punten": 3
+  },
+  {
+    "positie": 5,
+    "club": "Geel Wit '20 sv. MO12-1",
+    "logo": "",
+    "gespeeld": 4,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 3,
+    "voor": 5,
+    "tegen": 30,
+    "doelsaldo": -25,
     "punten": 3
   },
   {
