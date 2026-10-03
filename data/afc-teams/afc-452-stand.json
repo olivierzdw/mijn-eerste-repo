@@ -92,6 +92,19 @@
   },
   {
     "positie": 8,
+    "club": "Zuidoost United 45+1",
+    "logo": "",
+    "gespeeld": 2,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 6,
+    "tegen": 9,
+    "doelsaldo": -3,
+    "punten": 3
+  },
+  {
+    "positie": 9,
     "club": "Diemen sv. 45+1",
     "logo": "",
     "gespeeld": 3,
@@ -104,7 +117,7 @@
     "punten": 3
   },
   {
-    "positie": 9,
+    "positie": 10,
     "club": "Wartburgia asv 45+1",
     "logo": "",
     "gespeeld": 3,
@@ -117,7 +130,7 @@
     "punten": 3
   },
   {
-    "positie": 10,
+    "positie": 11,
     "club": "GeuzenMiddenmeer 45+2",
     "logo": "",
     "gespeeld": 3,
@@ -130,33 +143,7 @@
     "punten": 3
   },
   {
-    "positie": 11,
-    "club": "Zuidoost United 45+1",
-    "logo": "",
-    "gespeeld": 1,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 1,
-    "voor": 2,
-    "tegen": 8,
-    "doelsaldo": -6,
-    "punten": 0
-  },
-  {
     "positie": 12,
-    "club": "CTO '70 vv 45+2",
-    "logo": "",
-    "gespeeld": 2,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 2,
-    "voor": 3,
-    "tegen": 16,
-    "doelsaldo": -13,
-    "punten": 0
-  },
-  {
-    "positie": 13,
     "club": "VVGA 45+1",
     "logo": "",
     "gespeeld": 2,
@@ -169,7 +156,7 @@
     "punten": 0
   },
   {
-    "positie": 14,
+    "positie": 13,
     "club": "Muiderberg sc. 45+1",
     "logo": "",
     "gespeeld": 3,
@@ -179,6 +166,19 @@
     "voor": 3,
     "tegen": 17,
     "doelsaldo": -14,
+    "punten": 0
+  },
+  {
+    "positie": 14,
+    "club": "CTO '70 vv 45+2",
+    "logo": "",
+    "gespeeld": 3,
+    "gewonnen": 0,
+    "gelijk": 0,
+    "verloren": 3,
+    "voor": 4,
+    "tegen": 20,
+    "doelsaldo": -16,
     "punten": 0
   }
 ]
