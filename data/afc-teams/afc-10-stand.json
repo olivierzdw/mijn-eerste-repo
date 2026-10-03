@@ -27,6 +27,19 @@
   },
   {
     "positie": 3,
+    "club": "DEVO'58 2",
+    "logo": "",
+    "gespeeld": 3,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 17,
+    "tegen": 13,
+    "doelsaldo": 4,
+    "punten": 6
+  },
+  {
+    "positie": 4,
     "club": "Argon 7",
     "logo": "",
     "gespeeld": 3,
@@ -39,7 +52,7 @@
     "punten": 4
   },
   {
-    "positie": 4,
+    "positie": 5,
     "club": "VVA/Spartaan 3",
     "logo": "",
     "gespeeld": 2,
@@ -49,19 +62,6 @@
     "voor": 7,
     "tegen": 3,
     "doelsaldo": 4,
-    "punten": 3
-  },
-  {
-    "positie": 5,
-    "club": "DEVO'58 2",
-    "logo": "",
-    "gespeeld": 2,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 1,
-    "voor": 12,
-    "tegen": 10,
-    "doelsaldo": 2,
     "punten": 3
   },
   {
@@ -105,19 +105,6 @@
   },
   {
     "positie": 9,
-    "club": "Sloterdijk avv. 3",
-    "logo": "images/sloterdijk.png",
-    "gespeeld": 2,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 1,
-    "voor": 5,
-    "tegen": 5,
-    "doelsaldo": 0,
-    "punten": 3
-  },
-  {
-    "positie": 10,
     "club": "Swift 9",
     "logo": "",
     "gespeeld": 2,
@@ -127,6 +114,19 @@
     "voor": 3,
     "tegen": 6,
     "doelsaldo": -3,
+    "punten": 3
+  },
+  {
+    "positie": 10,
+    "club": "Sloterdijk avv. 3",
+    "logo": "images/sloterdijk.png",
+    "gespeeld": 3,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 8,
+    "tegen": 10,
+    "doelsaldo": -2,
     "punten": 3
   },
   {
