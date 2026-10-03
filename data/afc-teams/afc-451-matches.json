@@ -103,5 +103,19 @@
     "thuisLogo": "images/afc.png",
     "uit": "Sporting Martinus 45+1",
     "uitLogo": ""
+  },
+  {
+    "datum": "za 13 maart 17:00",
+    "thuis": "Wartburgia asv 45+2",
+    "thuisLogo": "",
+    "uit": "AFC 45+1",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 20 maart 15:00",
+    "thuis": "AFC 45+1",
+    "thuisLogo": "images/afc.png",
+    "uit": "CTO '70 vv 45+3",
+    "uitLogo": ""
   }
 ]

@@ -1,6 +1,19 @@
 [
   {
     "positie": 1,
+    "club": "AGB 2",
+    "logo": "",
+    "gespeeld": 3,
+    "gewonnen": 1,
+    "gelijk": 2,
+    "verloren": 0,
+    "voor": 9,
+    "tegen": 1,
+    "doelsaldo": 8,
+    "punten": 5
+  },
+  {
+    "positie": 2,
     "club": "Volendam (rkav) 4",
     "logo": "",
     "gespeeld": 2,
@@ -13,7 +26,7 @@
     "punten": 4
   },
   {
-    "positie": 2,
+    "positie": 3,
     "club": "Wartburgia asv 7",
     "logo": "",
     "gespeeld": 2,
@@ -26,7 +39,7 @@
     "punten": 4
   },
   {
-    "positie": 3,
+    "positie": 4,
     "club": "OSV 2",
     "logo": "",
     "gespeeld": 2,
@@ -39,7 +52,7 @@
     "punten": 4
   },
   {
-    "positie": 4,
+    "positie": 5,
     "club": "Kadoelen sv. 4",
     "logo": "",
     "gespeeld": 1,
@@ -50,19 +63,6 @@
     "tegen": 0,
     "doelsaldo": 4,
     "punten": 3
-  },
-  {
-    "positie": 5,
-    "club": "AGB 2",
-    "logo": "",
-    "gespeeld": 2,
-    "gewonnen": 0,
-    "gelijk": 2,
-    "verloren": 0,
-    "voor": 1,
-    "tegen": 1,
-    "doelsaldo": 0,
-    "punten": 2
   },
   {
     "positie": 6,
@@ -133,13 +133,13 @@
     "positie": 11,
     "club": "Vlug en Vaardig cvv. 2",
     "logo": "",
-    "gespeeld": 1,
+    "gespeeld": 2,
     "gewonnen": 0,
     "gelijk": 0,
-    "verloren": 1,
+    "verloren": 2,
     "voor": 0,
-    "tegen": 4,
-    "doelsaldo": -4,
+    "tegen": 12,
+    "doelsaldo": -12,
     "punten": 0
   }
 ]

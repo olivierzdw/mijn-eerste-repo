@@ -82,5 +82,19 @@
     "thuisLogo": "",
     "uit": "AFC 3",
     "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 13 maart 15:00",
+    "thuis": "AFC 3",
+    "thuisLogo": "images/afc.png",
+    "uit": "IJmuiden vv. 2",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 20 maart 12:30",
+    "thuis": "DCG Rksv 2",
+    "thuisLogo": "",
+    "uit": "AFC 3",
+    "uitLogo": "images/afc.png"
   }
 ]

@@ -1,6 +1,6 @@
 [
   {
-    "datum": "za 3 oktober 10:30",
+    "datum": "zo 3 oktober 10:30",
     "thuis": "Almere FC 2",
     "thuisLogo": "",
     "uit": "AFC 2",
@@ -89,5 +89,12 @@
     "thuisLogo": "",
     "uit": "AFC 2",
     "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 20 maart 15:00",
+    "thuis": "AFC 2",
+    "thuisLogo": "images/afc.png",
+    "uit": "Zuidoost United 2",
+    "uitLogo": ""
   }
 ]

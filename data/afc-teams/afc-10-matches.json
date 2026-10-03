@@ -96,5 +96,12 @@
     "thuisLogo": "",
     "uit": "AFC 10",
     "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 20 maart 12:30",
+    "thuis": "AFC 10",
+    "thuisLogo": "images/afc.png",
+    "uit": "Swift 9",
+    "uitLogo": ""
   }
 ]

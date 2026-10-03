@@ -1,6 +1,19 @@
 [
   {
     "positie": 1,
+    "club": "Swift 4",
+    "logo": "",
+    "gespeeld": 3,
+    "gewonnen": 2,
+    "gelijk": 1,
+    "verloren": 0,
+    "voor": 12,
+    "tegen": 6,
+    "doelsaldo": 6,
+    "punten": 7
+  },
+  {
+    "positie": 2,
     "club": "Waterwijk asc 2",
     "logo": "",
     "gespeeld": 2,
@@ -13,20 +26,20 @@
     "punten": 6
   },
   {
-    "positie": 2,
-    "club": "Swift 4",
+    "positie": 3,
+    "club": "ASV Arsenal 2",
     "logo": "",
-    "gespeeld": 2,
-    "gewonnen": 2,
-    "gelijk": 0,
+    "gespeeld": 3,
+    "gewonnen": 1,
+    "gelijk": 2,
     "verloren": 0,
     "voor": 9,
-    "tegen": 3,
-    "doelsaldo": 6,
-    "punten": 6
+    "tegen": 6,
+    "doelsaldo": 3,
+    "punten": 5
   },
   {
-    "positie": 3,
+    "positie": 4,
     "club": "Buitenboys sc. 2",
     "logo": "",
     "gespeeld": 2,
@@ -35,19 +48,6 @@
     "verloren": 0,
     "voor": 7,
     "tegen": 4,
-    "doelsaldo": 3,
-    "punten": 4
-  },
-  {
-    "positie": 4,
-    "club": "ASV Arsenal 2",
-    "logo": "",
-    "gespeeld": 2,
-    "gewonnen": 1,
-    "gelijk": 1,
-    "verloren": 0,
-    "voor": 6,
-    "tegen": 3,
     "doelsaldo": 3,
     "punten": 4
   },

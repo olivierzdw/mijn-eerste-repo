@@ -96,5 +96,19 @@
     "thuisLogo": "images/afc.png",
     "uit": "Laren 99 sv 1",
     "uitLogo": ""
+  },
+  {
+    "datum": "za 13 maart 15:00",
+    "thuis": "AFC 1",
+    "thuisLogo": "images/afc.png",
+    "uit": "GeuzenMiddenmeer 1",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 20 maart 14:30",
+    "thuis": "Eemnes 1",
+    "thuisLogo": "",
+    "uit": "AFC 1",
+    "uitLogo": "images/afc.png"
   }
 ]

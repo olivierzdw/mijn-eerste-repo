@@ -40,6 +40,19 @@
   },
   {
     "positie": 4,
+    "club": "Zeeburgia avv 3",
+    "logo": "",
+    "gespeeld": 3,
+    "gewonnen": 1,
+    "gelijk": 1,
+    "verloren": 1,
+    "voor": 5,
+    "tegen": 6,
+    "doelsaldo": -1,
+    "punten": 4
+  },
+  {
+    "positie": 5,
     "club": "JOS Watergraafsmeer 5",
     "logo": "",
     "gespeeld": 1,
@@ -49,19 +62,6 @@
     "voor": 4,
     "tegen": 2,
     "doelsaldo": 2,
-    "punten": 3
-  },
-  {
-    "positie": 5,
-    "club": "Zeeburgia avv 3",
-    "logo": "",
-    "gespeeld": 2,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 1,
-    "voor": 4,
-    "tegen": 5,
-    "doelsaldo": -1,
     "punten": 3
   },
   {
@@ -81,14 +81,14 @@
     "positie": 7,
     "club": "TOG 2",
     "logo": "",
-    "gespeeld": 1,
+    "gespeeld": 2,
     "gewonnen": 0,
-    "gelijk": 0,
+    "gelijk": 1,
     "verloren": 1,
-    "voor": 2,
-    "tegen": 4,
+    "voor": 3,
+    "tegen": 5,
     "doelsaldo": -2,
-    "punten": 0
+    "punten": 1
   },
   {
     "positie": 8,
