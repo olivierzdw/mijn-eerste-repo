@@ -1,6 +1,6 @@
 [
   {
-    "datum": "za 3 oktober 15:15",
+    "datum": "zo 3 oktober 15:15",
     "thuis": "OSV 2",
     "thuisLogo": "",
     "uit": "AFC 8",
@@ -93,6 +93,13 @@
   {
     "datum": "za 13 maart 14:30",
     "thuis": "DVVA csv. 7",
+    "thuisLogo": "",
+    "uit": "AFC 8",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 3 april 11:00",
+    "thuis": "Wartburgia asv 7",
     "thuisLogo": "",
     "uit": "AFC 8",
     "uitLogo": "images/afc.png"

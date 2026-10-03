@@ -1,6 +1,19 @@
 [
   {
     "positie": 1,
+    "club": "DTA Fortius asv 45+1",
+    "logo": "images/fortius.png",
+    "gespeeld": 3,
+    "gewonnen": 3,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 22,
+    "tegen": 5,
+    "doelsaldo": 17,
+    "punten": 9
+  },
+  {
+    "positie": 2,
     "club": "DRC 45+1",
     "logo": "",
     "gespeeld": 3,
@@ -13,7 +26,7 @@
     "punten": 7
   },
   {
-    "positie": 2,
+    "positie": 3,
     "club": "ASV Arsenal 45+1",
     "logo": "",
     "gespeeld": 2,
@@ -26,29 +39,16 @@
     "punten": 6
   },
   {
-    "positie": 3,
-    "club": "DTA Fortius asv 45+1",
-    "logo": "images/fortius.png",
-    "gespeeld": 2,
-    "gewonnen": 2,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 14,
-    "tegen": 3,
-    "doelsaldo": 11,
-    "punten": 6
-  },
-  {
     "positie": 4,
-    "club": "ST Weesp FC/Muiden SC 45+1",
-    "logo": "",
+    "club": "AFC 45+2",
+    "logo": "images/afc.png",
     "gespeeld": 2,
     "gewonnen": 2,
     "gelijk": 0,
     "verloren": 0,
-    "voor": 6,
+    "voor": 11,
     "tegen": 1,
-    "doelsaldo": 5,
+    "doelsaldo": 10,
     "punten": 6
   },
   {
@@ -66,58 +66,71 @@
   },
   {
     "positie": 6,
-    "club": "AFC 45+2",
-    "logo": "images/afc.png",
-    "gespeeld": 1,
-    "gewonnen": 1,
+    "club": "ST Weesp FC/Muiden SC 45+1",
+    "logo": "",
+    "gespeeld": 3,
+    "gewonnen": 2,
     "gelijk": 0,
-    "verloren": 0,
+    "verloren": 1,
     "voor": 8,
-    "tegen": 0,
-    "doelsaldo": 8,
-    "punten": 3
+    "tegen": 6,
+    "doelsaldo": 2,
+    "punten": 6
   },
   {
     "positie": 7,
-    "club": "Diemen sv. 45+1",
-    "logo": "",
-    "gespeeld": 2,
+    "club": "TABA afc 45+2",
+    "logo": "images/afc.png",
+    "gespeeld": 3,
     "gewonnen": 1,
-    "gelijk": 0,
+    "gelijk": 1,
     "verloren": 1,
-    "voor": 9,
-    "tegen": 3,
-    "doelsaldo": 6,
-    "punten": 3
+    "voor": 7,
+    "tegen": 8,
+    "doelsaldo": -1,
+    "punten": 4
   },
   {
     "positie": 8,
-    "club": "Wartburgia asv 45+1",
+    "club": "Diemen sv. 45+1",
     "logo": "",
-    "gespeeld": 2,
+    "gespeeld": 3,
     "gewonnen": 1,
     "gelijk": 0,
-    "verloren": 1,
-    "voor": 7,
-    "tegen": 9,
-    "doelsaldo": -2,
+    "verloren": 2,
+    "voor": 10,
+    "tegen": 6,
+    "doelsaldo": 4,
     "punten": 3
   },
   {
     "positie": 9,
-    "club": "TABA afc 45+2",
-    "logo": "images/afc.png",
-    "gespeeld": 2,
-    "gewonnen": 0,
-    "gelijk": 1,
-    "verloren": 1,
-    "voor": 2,
-    "tegen": 6,
-    "doelsaldo": -4,
-    "punten": 1
+    "club": "Wartburgia asv 45+1",
+    "logo": "",
+    "gespeeld": 3,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 9,
+    "tegen": 17,
+    "doelsaldo": -8,
+    "punten": 3
   },
   {
     "positie": 10,
+    "club": "GeuzenMiddenmeer 45+2",
+    "logo": "",
+    "gespeeld": 3,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 7,
+    "tegen": 16,
+    "doelsaldo": -9,
+    "punten": 3
+  },
+  {
+    "positie": 11,
     "club": "Zuidoost United 45+1",
     "logo": "",
     "gespeeld": 1,
@@ -130,33 +143,7 @@
     "punten": 0
   },
   {
-    "positie": 11,
-    "club": "Muiderberg sc. 45+1",
-    "logo": "",
-    "gespeeld": 2,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 2,
-    "voor": 1,
-    "tegen": 12,
-    "doelsaldo": -11,
-    "punten": 0
-  },
-  {
     "positie": 12,
-    "club": "GeuzenMiddenmeer 45+2",
-    "logo": "",
-    "gespeeld": 2,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 2,
-    "voor": 2,
-    "tegen": 14,
-    "doelsaldo": -12,
-    "punten": 0
-  },
-  {
-    "positie": 13,
     "club": "CTO '70 vv 45+2",
     "logo": "",
     "gespeeld": 2,
@@ -169,7 +156,7 @@
     "punten": 0
   },
   {
-    "positie": 14,
+    "positie": 13,
     "club": "VVGA 45+1",
     "logo": "",
     "gespeeld": 2,
@@ -179,6 +166,19 @@
     "voor": 2,
     "tegen": 17,
     "doelsaldo": -15,
+    "punten": 0
+  },
+  {
+    "positie": 14,
+    "club": "Muiderberg sc. 45+1",
+    "logo": "",
+    "gespeeld": 3,
+    "gewonnen": 0,
+    "gelijk": 0,
+    "verloren": 3,
+    "voor": 3,
+    "tegen": 17,
+    "doelsaldo": -14,
     "punten": 0
   }
 ]

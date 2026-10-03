@@ -27,6 +27,19 @@
   },
   {
     "positie": 3,
+    "club": "DCG Rksv 2",
+    "logo": "",
+    "gespeeld": 3,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 18,
+    "tegen": 7,
+    "doelsaldo": 11,
+    "punten": 6
+  },
+  {
+    "positie": 4,
     "club": "Swift 5",
     "logo": "",
     "gespeeld": 3,
@@ -39,7 +52,7 @@
     "punten": 6
   },
   {
-    "positie": 4,
+    "positie": 5,
     "club": "ASV Arsenal 3",
     "logo": "",
     "gespeeld": 3,
@@ -52,7 +65,7 @@
     "punten": 6
   },
   {
-    "positie": 5,
+    "positie": 6,
     "club": "HBOK 2",
     "logo": "",
     "gespeeld": 3,
@@ -65,7 +78,7 @@
     "punten": 6
   },
   {
-    "positie": 6,
+    "positie": 7,
     "club": "Wartburgia asv 3",
     "logo": "",
     "gespeeld": 3,
@@ -78,29 +91,16 @@
     "punten": 6
   },
   {
-    "positie": 7,
-    "club": "DCG Rksv 2",
-    "logo": "",
-    "gespeeld": 2,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 1,
-    "voor": 15,
-    "tegen": 6,
-    "doelsaldo": 9,
-    "punten": 3
-  },
-  {
     "positie": 8,
     "club": "Haarlem-Kennemerland f.c. 2",
     "logo": "",
-    "gespeeld": 2,
+    "gespeeld": 3,
     "gewonnen": 1,
     "gelijk": 0,
-    "verloren": 1,
-    "voor": 5,
-    "tegen": 7,
-    "doelsaldo": -2,
+    "verloren": 2,
+    "voor": 6,
+    "tegen": 10,
+    "doelsaldo": -4,
     "punten": 3
   },
   {

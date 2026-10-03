@@ -1,12 +1,5 @@
 [
   {
-    "datum": "za 3 oktober 15:15",
-    "thuis": "AFC 45+2",
-    "thuisLogo": "images/afc.png",
-    "uit": "Diemen sv. 45+1",
-    "uitLogo": ""
-  },
-  {
     "datum": "za 10 oktober 14:45",
     "thuis": "DTA Fortius asv 45+1",
     "thuisLogo": "images/fortius.png",
@@ -116,6 +109,13 @@
     "thuis": "Muiderberg sc. 45+1",
     "thuisLogo": "",
     "uit": "AFC 45+2",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 3 april 15:00",
+    "thuis": "AFC 45+2",
+    "thuisLogo": "images/afc.png",
+    "uit": "TABA afc 45+2",
     "uitLogo": "images/afc.png"
   }
 ]

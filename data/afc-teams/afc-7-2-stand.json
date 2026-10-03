@@ -27,6 +27,19 @@
   },
   {
     "positie": 3,
+    "club": "AFC 7",
+    "logo": "images/afc.png",
+    "gespeeld": 3,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 5,
+    "tegen": 3,
+    "doelsaldo": 2,
+    "punten": 6
+  },
+  {
+    "positie": 4,
     "club": "DVVA csv. 5",
     "logo": "",
     "gespeeld": 1,
@@ -39,7 +52,7 @@
     "punten": 3
   },
   {
-    "positie": 4,
+    "positie": 5,
     "club": "RAP sv. 2",
     "logo": "",
     "gespeeld": 2,
@@ -52,7 +65,7 @@
     "punten": 3
   },
   {
-    "positie": 5,
+    "positie": 6,
     "club": "TOS-Actief 3",
     "logo": "",
     "gespeeld": 2,
@@ -65,33 +78,7 @@
     "punten": 3
   },
   {
-    "positie": 6,
-    "club": "Wartburgia asv 5",
-    "logo": "",
-    "gespeeld": 2,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 1,
-    "voor": 4,
-    "tegen": 4,
-    "doelsaldo": 0,
-    "punten": 3
-  },
-  {
     "positie": 7,
-    "club": "AFC 7",
-    "logo": "images/afc.png",
-    "gespeeld": 2,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 1,
-    "voor": 3,
-    "tegen": 3,
-    "doelsaldo": 0,
-    "punten": 3
-  },
-  {
-    "positie": 8,
     "club": "JOS Watergraafsmeer 4",
     "logo": "",
     "gespeeld": 2,
@@ -104,16 +91,29 @@
     "punten": 3
   },
   {
+    "positie": 8,
+    "club": "Muiderberg sc. 2",
+    "logo": "",
+    "gespeeld": 3,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 5,
+    "tegen": 5,
+    "doelsaldo": 0,
+    "punten": 3
+  },
+  {
     "positie": 9,
     "club": "FC Amsterdam 5",
     "logo": "",
-    "gespeeld": 2,
+    "gespeeld": 3,
     "gewonnen": 1,
     "gelijk": 0,
-    "verloren": 1,
+    "verloren": 2,
     "voor": 5,
-    "tegen": 6,
-    "doelsaldo": -1,
+    "tegen": 8,
+    "doelsaldo": -3,
     "punten": 3
   },
   {
@@ -131,6 +131,19 @@
   },
   {
     "positie": 11,
+    "club": "Wartburgia asv 5",
+    "logo": "",
+    "gespeeld": 3,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 4,
+    "tegen": 8,
+    "doelsaldo": -4,
+    "punten": 3
+  },
+  {
+    "positie": 12,
     "club": "Zeeburgia avv 2",
     "logo": "",
     "gespeeld": 1,
@@ -140,19 +153,6 @@
     "voor": 2,
     "tegen": 3,
     "doelsaldo": -1,
-    "punten": 0
-  },
-  {
-    "positie": 12,
-    "club": "Muiderberg sc. 2",
-    "logo": "",
-    "gespeeld": 2,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 2,
-    "voor": 1,
-    "tegen": 5,
-    "doelsaldo": -4,
     "punten": 0
   }
 ]

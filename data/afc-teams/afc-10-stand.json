@@ -16,17 +16,30 @@
     "positie": 2,
     "club": "ASV Arsenal 9",
     "logo": "",
-    "gespeeld": 2,
+    "gespeeld": 3,
     "gewonnen": 2,
-    "gelijk": 0,
+    "gelijk": 1,
     "verloren": 0,
-    "voor": 7,
-    "tegen": 2,
+    "voor": 12,
+    "tegen": 7,
     "doelsaldo": 5,
-    "punten": 6
+    "punten": 7
   },
   {
     "positie": 3,
+    "club": "Argon 7",
+    "logo": "",
+    "gespeeld": 3,
+    "gewonnen": 1,
+    "gelijk": 1,
+    "verloren": 1,
+    "voor": 13,
+    "tegen": 13,
+    "doelsaldo": 0,
+    "punten": 4
+  },
+  {
+    "positie": 4,
     "club": "VVA/Spartaan 3",
     "logo": "",
     "gespeeld": 2,
@@ -39,7 +52,7 @@
     "punten": 3
   },
   {
-    "positie": 4,
+    "positie": 5,
     "club": "DEVO'58 2",
     "logo": "",
     "gespeeld": 2,
@@ -52,7 +65,7 @@
     "punten": 3
   },
   {
-    "positie": 5,
+    "positie": 6,
     "club": "Buitenveldert sc. 9",
     "logo": "",
     "gespeeld": 2,
@@ -65,7 +78,7 @@
     "punten": 3
   },
   {
-    "positie": 6,
+    "positie": 7,
     "club": "RAP sv. 6",
     "logo": "",
     "gespeeld": 2,
@@ -74,19 +87,6 @@
     "verloren": 1,
     "voor": 9,
     "tegen": 9,
-    "doelsaldo": 0,
-    "punten": 3
-  },
-  {
-    "positie": 7,
-    "club": "Argon 7",
-    "logo": "",
-    "gespeeld": 2,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 1,
-    "voor": 8,
-    "tegen": 8,
     "doelsaldo": 0,
     "punten": 3
   },
@@ -120,14 +120,14 @@
     "positie": 10,
     "club": "Swift 9",
     "logo": "",
-    "gespeeld": 1,
-    "gewonnen": 0,
+    "gespeeld": 2,
+    "gewonnen": 1,
     "gelijk": 0,
     "verloren": 1,
-    "voor": 1,
-    "tegen": 5,
-    "doelsaldo": -4,
-    "punten": 0
+    "voor": 3,
+    "tegen": 6,
+    "doelsaldo": -3,
+    "punten": 3
   },
   {
     "positie": 11,
@@ -146,13 +146,13 @@
     "positie": 12,
     "club": "WV-HEDW 12",
     "logo": "",
-    "gespeeld": 2,
+    "gespeeld": 3,
     "gewonnen": 0,
     "gelijk": 0,
-    "verloren": 2,
-    "voor": 1,
-    "tegen": 11,
-    "doelsaldo": -10,
+    "verloren": 3,
+    "voor": 2,
+    "tegen": 13,
+    "doelsaldo": -11,
     "punten": 0
   }
 ]

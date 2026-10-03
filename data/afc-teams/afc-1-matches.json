@@ -110,5 +110,12 @@
     "thuisLogo": "",
     "uit": "AFC 1",
     "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 3 april 15:00",
+    "thuis": "AFC 1",
+    "thuisLogo": "images/afc.png",
+    "uit": "Almere FC 1",
+    "uitLogo": ""
   }
 ]

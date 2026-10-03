@@ -1,32 +1,19 @@
 [
   {
     "positie": 1,
-    "club": "Buitenveldert sc. 5",
+    "club": "WV-HEDW 9",
     "logo": "",
-    "gespeeld": 2,
-    "gewonnen": 2,
+    "gespeeld": 3,
+    "gewonnen": 3,
     "gelijk": 0,
     "verloren": 0,
-    "voor": 10,
-    "tegen": 2,
-    "doelsaldo": 8,
-    "punten": 6
+    "voor": 13,
+    "tegen": 3,
+    "doelsaldo": 10,
+    "punten": 9
   },
   {
     "positie": 2,
-    "club": "WV-HEDW 9",
-    "logo": "",
-    "gespeeld": 2,
-    "gewonnen": 2,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 8,
-    "tegen": 2,
-    "doelsaldo": 6,
-    "punten": 6
-  },
-  {
-    "positie": 3,
     "club": "TABA afc 4",
     "logo": "images/afc.png",
     "gespeeld": 2,
@@ -36,6 +23,19 @@
     "voor": 7,
     "tegen": 2,
     "doelsaldo": 5,
+    "punten": 6
+  },
+  {
+    "positie": 3,
+    "club": "Buitenveldert sc. 5",
+    "logo": "",
+    "gespeeld": 3,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 11,
+    "tegen": 7,
+    "doelsaldo": 4,
     "punten": 6
   },
   {
