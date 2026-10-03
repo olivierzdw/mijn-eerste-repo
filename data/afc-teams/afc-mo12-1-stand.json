@@ -3,27 +3,27 @@
     "positie": 1,
     "club": "AFC MO12-1",
     "logo": "images/afc.png",
-    "gespeeld": 4,
+    "gespeeld": 5,
     "gewonnen": 4,
-    "gelijk": 0,
+    "gelijk": 1,
     "verloren": 0,
-    "voor": 44,
-    "tegen": 2,
+    "voor": 49,
+    "tegen": 7,
     "doelsaldo": 42,
-    "punten": 12
+    "punten": 13
   },
   {
     "positie": 2,
     "club": "Velsen Rkvv MO12-1",
     "logo": "",
-    "gespeeld": 4,
+    "gespeeld": 5,
     "gewonnen": 3,
-    "gelijk": 0,
+    "gelijk": 1,
     "verloren": 1,
-    "voor": 17,
-    "tegen": 9,
+    "voor": 22,
+    "tegen": 14,
     "doelsaldo": 8,
-    "punten": 9
+    "punten": 10
   },
   {
     "positie": 3,

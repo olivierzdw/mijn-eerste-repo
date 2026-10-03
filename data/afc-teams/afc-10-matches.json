@@ -82,5 +82,19 @@
     "thuisLogo": "images/afc.png",
     "uit": "ASV Arsenal 9",
     "uitLogo": ""
+  },
+  {
+    "datum": "za 6 maart 12:30",
+    "thuis": "AFC 10",
+    "thuisLogo": "images/afc.png",
+    "uit": "VVA/Spartaan 3",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 13 maart 12:30",
+    "thuis": "Volendam (rkav) 6",
+    "thuisLogo": "",
+    "uit": "AFC 10",
+    "uitLogo": "images/afc.png"
   }
 ]
