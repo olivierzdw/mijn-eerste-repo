@@ -12462,6 +12462,17 @@
       "uitLogo": "https://crests.football-data.org/6685.png",
       "thuisScore": 1,
       "uitScore": 2
+    },
+    {
+      "id": 554948,
+      "datum": "za 3 oktober",
+      "datumIso": "2026-10-02",
+      "thuis": "São Paulo FC",
+      "thuisLogo": "https://crests.football-data.org/1776.png",
+      "uit": "Santos FC",
+      "uitLogo": "https://crests.football-data.org/6685.png",
+      "thuisScore": 1,
+      "uitScore": 2
     }
   ],
   "1779": [
@@ -13381,6 +13392,17 @@
       "uitLogo": "https://crests.football-data.org/6684.png",
       "thuisScore": 1,
       "uitScore": 0
+    },
+    {
+      "id": 554948,
+      "datum": "za 3 oktober",
+      "datumIso": "2026-10-02",
+      "thuis": "São Paulo FC",
+      "thuisLogo": "https://crests.football-data.org/1776.png",
+      "uit": "Santos FC",
+      "uitLogo": "https://crests.football-data.org/6685.png",
+      "thuisScore": 1,
+      "uitScore": 2
     }
   ],
   "1783": [

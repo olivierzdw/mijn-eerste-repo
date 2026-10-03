@@ -1810,6 +1810,19 @@
     },
     {
       "positie": 7,
+      "club": "Santos FC",
+      "logo": "https://crests.football-data.org/6685.png",
+      "gespeeld": 28,
+      "punten": 41,
+      "gewonnen": 11,
+      "gelijk": 8,
+      "verloren": 9,
+      "doelsaldo": 2,
+      "voor": 43,
+      "tegen": 41
+    },
+    {
+      "positie": 8,
       "club": "CA Mineiro",
       "logo": "https://crests.football-data.org/1766.png",
       "gespeeld": 27,
@@ -1820,19 +1833,6 @@
       "doelsaldo": 4,
       "voor": 36,
       "tegen": 32
-    },
-    {
-      "positie": 8,
-      "club": "Santos FC",
-      "logo": "https://crests.football-data.org/6685.png",
-      "gespeeld": 27,
-      "punten": 38,
-      "gewonnen": 10,
-      "gelijk": 8,
-      "verloren": 9,
-      "doelsaldo": 1,
-      "voor": 41,
-      "tegen": 40
     },
     {
       "positie": 9,
@@ -1864,14 +1864,14 @@
       "positie": 11,
       "club": "São Paulo FC",
       "logo": "https://crests.football-data.org/1776.png",
-      "gespeeld": 27,
+      "gespeeld": 28,
       "punten": 36,
       "gewonnen": 10,
       "gelijk": 6,
-      "verloren": 11,
-      "doelsaldo": 2,
-      "voor": 32,
-      "tegen": 30
+      "verloren": 12,
+      "doelsaldo": 1,
+      "voor": 33,
+      "tegen": 32
     },
     {
       "positie": 12,
