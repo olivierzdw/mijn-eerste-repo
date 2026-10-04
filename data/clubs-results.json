@@ -9085,6 +9085,17 @@
       "uitLogo": "https://crests.football-data.org/1772_large.png",
       "thuisScore": 1,
       "uitScore": 1
+    },
+    {
+      "id": 554940,
+      "datum": "za 3 oktober",
+      "datumIso": "2026-10-03",
+      "thuis": "CA Mineiro",
+      "thuisLogo": "https://crests.football-data.org/1766.png",
+      "uit": "RB Bragantino",
+      "uitLogo": "https://crests.football-data.org/4286.png",
+      "thuisScore": 1,
+      "uitScore": 0
     }
   ],
   "1769": [
@@ -10004,6 +10015,17 @@
       "uitLogo": "https://crests.football-data.org/4286.png",
       "thuisScore": 2,
       "uitScore": 1
+    },
+    {
+      "id": 554940,
+      "datum": "za 3 oktober",
+      "datumIso": "2026-10-03",
+      "thuis": "CA Mineiro",
+      "thuisLogo": "https://crests.football-data.org/1766.png",
+      "uit": "RB Bragantino",
+      "uitLogo": "https://crests.football-data.org/4286.png",
+      "thuisScore": 1,
+      "uitScore": 0
     }
   ],
   "6684": [
