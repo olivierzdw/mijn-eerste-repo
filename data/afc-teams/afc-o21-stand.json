@@ -1,6 +1,19 @@
 [
   {
     "positie": 1,
+    "club": "FC Dordrecht O21",
+    "logo": "",
+    "gespeeld": 6,
+    "gewonnen": 4,
+    "gelijk": 2,
+    "verloren": 0,
+    "voor": 18,
+    "tegen": 9,
+    "doelsaldo": 9,
+    "punten": 14
+  },
+  {
+    "positie": 2,
     "club": "Excelsior Rotterdam O21",
     "logo": "",
     "gespeeld": 5,
@@ -11,19 +24,6 @@
     "tegen": 7,
     "doelsaldo": 15,
     "punten": 13
-  },
-  {
-    "positie": 2,
-    "club": "FC Dordrecht O21",
-    "logo": "",
-    "gespeeld": 5,
-    "gewonnen": 3,
-    "gelijk": 2,
-    "verloren": 0,
-    "voor": 15,
-    "tegen": 7,
-    "doelsaldo": 8,
-    "punten": 11
   },
   {
     "positie": 3,
@@ -94,13 +94,13 @@
     "positie": 8,
     "club": "NAC Breda O21",
     "logo": "",
-    "gespeeld": 5,
+    "gespeeld": 6,
     "gewonnen": 0,
     "gelijk": 1,
-    "verloren": 4,
-    "voor": 1,
-    "tegen": 16,
-    "doelsaldo": -15,
+    "verloren": 5,
+    "voor": 3,
+    "tegen": 19,
+    "doelsaldo": -16,
     "punten": 1
   }
 ]
