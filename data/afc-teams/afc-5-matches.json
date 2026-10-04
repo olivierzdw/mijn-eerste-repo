@@ -1,12 +1,5 @@
 [
   {
-    "datum": "zo 4 oktober 13:00",
-    "thuis": "AFC 5",
-    "thuisLogo": "images/afc.png",
-    "uit": "TABA afc 3",
-    "uitLogo": "images/afc.png"
-  },
-  {
     "datum": "zo 11 oktober 12:00",
     "thuis": "Abcoude fc 3",
     "thuisLogo": "",
@@ -124,5 +117,12 @@
     "thuisLogo": "images/afc.png",
     "uit": "DTA Fortius asv 2",
     "uitLogo": "images/fortius.png"
+  },
+  {
+    "datum": "zo 11 april 12:30",
+    "thuis": "FIT avv 2",
+    "thuisLogo": "",
+    "uit": "AFC 5",
+    "uitLogo": "images/afc.png"
   }
 ]

@@ -117,5 +117,12 @@
     "thuisLogo": "images/afc.png",
     "uit": "Almere FC 1",
     "uitLogo": ""
+  },
+  {
+    "datum": "za 10 april 14:30",
+    "thuis": "FC Weesp 1",
+    "thuisLogo": "",
+    "uit": "AFC 1",
+    "uitLogo": "images/afc.png"
   }
 ]

@@ -110,5 +110,12 @@
     "thuisLogo": "",
     "uit": "AFC 10",
     "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 10 april 12:30",
+    "thuis": "AFC 10",
+    "thuisLogo": "images/afc.png",
+    "uit": "Argon 7",
+    "uitLogo": ""
   }
 ]

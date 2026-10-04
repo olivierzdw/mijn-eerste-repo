@@ -1,12 +1,5 @@
 [
   {
-    "datum": "zo 4 oktober 14:15",
-    "thuis": "Rivierwijkers 2",
-    "thuisLogo": "",
-    "uit": "AFC 2",
-    "uitLogo": "images/afc.png"
-  },
-  {
     "datum": "zo 11 oktober 12:00",
     "thuis": "AFC 2",
     "thuisLogo": "images/afc.png",
@@ -96,5 +89,12 @@
     "thuisLogo": "",
     "uit": "AFC 2",
     "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "zo 11 april 13:30",
+    "thuis": "AFC 2",
+    "thuisLogo": "images/afc.png",
+    "uit": "Hercules 2",
+    "uitLogo": ""
   }
 ]

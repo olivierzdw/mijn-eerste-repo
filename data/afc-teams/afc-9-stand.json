@@ -40,6 +40,19 @@
   },
   {
     "positie": 4,
+    "club": "JOS Watergraafsmeer 5",
+    "logo": "",
+    "gespeeld": 2,
+    "gewonnen": 1,
+    "gelijk": 1,
+    "verloren": 0,
+    "voor": 5,
+    "tegen": 3,
+    "doelsaldo": 2,
+    "punten": 4
+  },
+  {
+    "positie": 5,
     "club": "Zeeburgia avv 3",
     "logo": "",
     "gespeeld": 3,
@@ -50,19 +63,6 @@
     "tegen": 6,
     "doelsaldo": -1,
     "punten": 4
-  },
-  {
-    "positie": 5,
-    "club": "JOS Watergraafsmeer 5",
-    "logo": "",
-    "gespeeld": 1,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 4,
-    "tegen": 2,
-    "doelsaldo": 2,
-    "punten": 3
   },
   {
     "positie": 6,
@@ -105,6 +105,19 @@
   },
   {
     "positie": 9,
+    "club": "DVVA csv. 8",
+    "logo": "",
+    "gespeeld": 3,
+    "gewonnen": 0,
+    "gelijk": 1,
+    "verloren": 2,
+    "voor": 2,
+    "tegen": 8,
+    "doelsaldo": -6,
+    "punten": 1
+  },
+  {
+    "positie": 10,
     "club": "RAP sv. 3",
     "logo": "",
     "gespeeld": 1,
@@ -117,7 +130,7 @@
     "punten": 0
   },
   {
-    "positie": 10,
+    "positie": 11,
     "club": "Meer De sv. 8",
     "logo": "",
     "gespeeld": 2,
@@ -127,19 +140,6 @@
     "voor": 3,
     "tegen": 7,
     "doelsaldo": -4,
-    "punten": 0
-  },
-  {
-    "positie": 11,
-    "club": "DVVA csv. 8",
-    "logo": "",
-    "gespeeld": 2,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 2,
-    "voor": 1,
-    "tegen": 7,
-    "doelsaldo": -6,
     "punten": 0
   }
 ]
