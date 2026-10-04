@@ -14,6 +14,19 @@
   },
   {
     "positie": 2,
+    "club": "DVVA csv. 5",
+    "logo": "",
+    "gespeeld": 2,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 7,
+    "tegen": 3,
+    "doelsaldo": 4,
+    "punten": 6
+  },
+  {
+    "positie": 3,
     "club": "Diemen sv. 4",
     "logo": "",
     "gespeeld": 3,
@@ -26,7 +39,7 @@
     "punten": 6
   },
   {
-    "positie": 3,
+    "positie": 4,
     "club": "AFC 7",
     "logo": "images/afc.png",
     "gespeeld": 3,
@@ -39,33 +52,7 @@
     "punten": 6
   },
   {
-    "positie": 4,
-    "club": "DVVA csv. 5",
-    "logo": "",
-    "gespeeld": 1,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 3,
-    "tegen": 1,
-    "doelsaldo": 2,
-    "punten": 3
-  },
-  {
     "positie": 5,
-    "club": "RAP sv. 2",
-    "logo": "",
-    "gespeeld": 2,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 1,
-    "voor": 4,
-    "tegen": 3,
-    "doelsaldo": 1,
-    "punten": 3
-  },
-  {
-    "positie": 6,
     "club": "TOS-Actief 3",
     "logo": "",
     "gespeeld": 2,
@@ -78,7 +65,7 @@
     "punten": 3
   },
   {
-    "positie": 7,
+    "positie": 6,
     "club": "JOS Watergraafsmeer 4",
     "logo": "",
     "gespeeld": 2,
@@ -91,7 +78,7 @@
     "punten": 3
   },
   {
-    "positie": 8,
+    "positie": 7,
     "club": "Muiderberg sc. 2",
     "logo": "",
     "gespeeld": 3,
@@ -101,6 +88,19 @@
     "voor": 5,
     "tegen": 5,
     "doelsaldo": 0,
+    "punten": 3
+  },
+  {
+    "positie": 8,
+    "club": "RAP sv. 2",
+    "logo": "",
+    "gespeeld": 3,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 6,
+    "tegen": 7,
+    "doelsaldo": -1,
     "punten": 3
   },
   {

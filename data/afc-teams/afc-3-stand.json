@@ -1,6 +1,19 @@
 [
   {
     "positie": 1,
+    "club": "Sloterdijk avv. 2",
+    "logo": "images/sloterdijk.png",
+    "gespeeld": 3,
+    "gewonnen": 2,
+    "gelijk": 1,
+    "verloren": 0,
+    "voor": 12,
+    "tegen": 3,
+    "doelsaldo": 9,
+    "punten": 7
+  },
+  {
+    "positie": 2,
     "club": "Swift 6",
     "logo": "",
     "gespeeld": 2,
@@ -13,7 +26,20 @@
     "punten": 6
   },
   {
-    "positie": 2,
+    "positie": 3,
+    "club": "TOS-Actief 3",
+    "logo": "",
+    "gespeeld": 2,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 7,
+    "tegen": 0,
+    "doelsaldo": 7,
+    "punten": 6
+  },
+  {
+    "positie": 4,
     "club": "AFC 3",
     "logo": "images/afc.png",
     "gespeeld": 2,
@@ -26,20 +52,7 @@
     "punten": 6
   },
   {
-    "positie": 3,
-    "club": "Sloterdijk avv. 2",
-    "logo": "images/sloterdijk.png",
-    "gespeeld": 2,
-    "gewonnen": 1,
-    "gelijk": 1,
-    "verloren": 0,
-    "voor": 7,
-    "tegen": 2,
-    "doelsaldo": 5,
-    "punten": 4
-  },
-  {
-    "positie": 4,
+    "positie": 5,
     "club": "Rivierwijkers 3",
     "logo": "",
     "gespeeld": 3,
@@ -50,19 +63,6 @@
     "tegen": 10,
     "doelsaldo": -1,
     "punten": 4
-  },
-  {
-    "positie": 5,
-    "club": "TOS-Actief 3",
-    "logo": "",
-    "gespeeld": 1,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 5,
-    "tegen": 0,
-    "doelsaldo": 5,
-    "punten": 3
   },
   {
     "positie": 6,
@@ -92,19 +92,6 @@
   },
   {
     "positie": 8,
-    "club": "PVCV 3",
-    "logo": "",
-    "gespeeld": 2,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 1,
-    "voor": 3,
-    "tegen": 5,
-    "doelsaldo": -2,
-    "punten": 3
-  },
-  {
-    "positie": 9,
     "club": "ASV Arsenal 3",
     "logo": "",
     "gespeeld": 2,
@@ -114,6 +101,19 @@
     "voor": 4,
     "tegen": 7,
     "doelsaldo": -3,
+    "punten": 3
+  },
+  {
+    "positie": 9,
+    "club": "PVCV 3",
+    "logo": "",
+    "gespeeld": 3,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 3,
+    "tegen": 7,
+    "doelsaldo": -4,
     "punten": 3
   },
   {
@@ -131,19 +131,6 @@
   },
   {
     "positie": 11,
-    "club": "SCPB'22 2",
-    "logo": "",
-    "gespeeld": 2,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 2,
-    "voor": 3,
-    "tegen": 12,
-    "doelsaldo": -9,
-    "punten": 0
-  },
-  {
-    "positie": 12,
     "club": "SDZ 5",
     "logo": "",
     "gespeeld": 3,
@@ -153,6 +140,19 @@
     "voor": 7,
     "tegen": 11,
     "doelsaldo": -4,
+    "punten": 0
+  },
+  {
+    "positie": 12,
+    "club": "SCPB'22 2",
+    "logo": "",
+    "gespeeld": 3,
+    "gewonnen": 0,
+    "gelijk": 0,
+    "verloren": 3,
+    "voor": 4,
+    "tegen": 17,
+    "doelsaldo": -13,
     "punten": 0
   }
 ]

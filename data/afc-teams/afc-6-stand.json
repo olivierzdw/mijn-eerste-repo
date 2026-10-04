@@ -14,6 +14,45 @@
   },
   {
     "positie": 2,
+    "club": "Parkstad SV 2",
+    "logo": "",
+    "gespeeld": 3,
+    "gewonnen": 2,
+    "gelijk": 1,
+    "verloren": 0,
+    "voor": 10,
+    "tegen": 5,
+    "doelsaldo": 5,
+    "punten": 7
+  },
+  {
+    "positie": 3,
+    "club": "Hercules Zaandam sc 3",
+    "logo": "",
+    "gespeeld": 3,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 17,
+    "tegen": 11,
+    "doelsaldo": 6,
+    "punten": 6
+  },
+  {
+    "positie": 4,
+    "club": "SCPB'22 3",
+    "logo": "",
+    "gespeeld": 3,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 10,
+    "tegen": 6,
+    "doelsaldo": 4,
+    "punten": 6
+  },
+  {
+    "positie": 5,
     "club": "SDOB 2",
     "logo": "",
     "gespeeld": 2,
@@ -26,7 +65,7 @@
     "punten": 4
   },
   {
-    "positie": 3,
+    "positie": 6,
     "club": "SDZ 7",
     "logo": "",
     "gespeeld": 2,
@@ -39,20 +78,7 @@
     "punten": 4
   },
   {
-    "positie": 4,
-    "club": "Parkstad SV 2",
-    "logo": "",
-    "gespeeld": 2,
-    "gewonnen": 1,
-    "gelijk": 1,
-    "verloren": 0,
-    "voor": 6,
-    "tegen": 4,
-    "doelsaldo": 2,
-    "punten": 4
-  },
-  {
-    "positie": 5,
+    "positie": 7,
     "club": "AFC 6",
     "logo": "images/afc.png",
     "gespeeld": 3,
@@ -65,72 +91,33 @@
     "punten": 4
   },
   {
-    "positie": 6,
+    "positie": 8,
     "club": "HYS 3",
-    "logo": "",
-    "gespeeld": 1,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 6,
-    "tegen": 1,
-    "doelsaldo": 5,
-    "punten": 3
-  },
-  {
-    "positie": 7,
-    "club": "Hercules Zaandam sc 3",
     "logo": "",
     "gespeeld": 2,
     "gewonnen": 1,
     "gelijk": 0,
     "verloren": 1,
     "voor": 7,
-    "tegen": 7,
-    "doelsaldo": 0,
-    "punten": 3
-  },
-  {
-    "positie": 8,
-    "club": "SCPB'22 3",
-    "logo": "",
-    "gespeeld": 2,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 1,
-    "voor": 5,
     "tegen": 5,
-    "doelsaldo": 0,
+    "doelsaldo": 2,
     "punten": 3
   },
   {
     "positie": 9,
     "club": "WV-HEDW 4",
     "logo": "",
-    "gespeeld": 2,
+    "gespeeld": 3,
     "gewonnen": 0,
     "gelijk": 1,
-    "verloren": 1,
-    "voor": 5,
-    "tegen": 10,
-    "doelsaldo": -5,
+    "verloren": 2,
+    "voor": 9,
+    "tegen": 20,
+    "doelsaldo": -11,
     "punten": 1
   },
   {
     "positie": 10,
-    "club": "VVA/Spartaan, 4",
-    "logo": "",
-    "gespeeld": 1,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 1,
-    "voor": 1,
-    "tegen": 6,
-    "doelsaldo": -5,
-    "punten": 0
-  },
-  {
-    "positie": 11,
     "club": "Sloterdijk avv. 3",
     "logo": "images/sloterdijk.png",
     "gespeeld": 2,
@@ -143,7 +130,7 @@
     "punten": 0
   },
   {
-    "positie": 12,
+    "positie": 11,
     "club": "Nieuw West United SV 2",
     "logo": "",
     "gespeeld": 2,
@@ -153,6 +140,19 @@
     "voor": 4,
     "tegen": 10,
     "doelsaldo": -6,
+    "punten": 0
+  },
+  {
+    "positie": 12,
+    "club": "VVA/Spartaan, 4",
+    "logo": "",
+    "gespeeld": 2,
+    "gewonnen": 0,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 2,
+    "tegen": 11,
+    "doelsaldo": -9,
     "punten": 0
   }
 ]

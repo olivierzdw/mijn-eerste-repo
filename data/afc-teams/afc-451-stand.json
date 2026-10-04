@@ -68,14 +68,14 @@
     "positie": 6,
     "club": "RAP sv. 45+1",
     "logo": "",
-    "gespeeld": 2,
-    "gewonnen": 1,
+    "gespeeld": 3,
+    "gewonnen": 2,
     "gelijk": 0,
     "verloren": 1,
-    "voor": 7,
-    "tegen": 7,
-    "doelsaldo": 0,
-    "punten": 3
+    "voor": 15,
+    "tegen": 8,
+    "doelsaldo": 7,
+    "punten": 6
   },
   {
     "positie": 7,
@@ -131,19 +131,6 @@
   },
   {
     "positie": 11,
-    "club": "AMVJ 45+1",
-    "logo": "",
-    "gespeeld": 1,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 1,
-    "voor": 2,
-    "tegen": 6,
-    "doelsaldo": -4,
-    "punten": 0
-  },
-  {
-    "positie": 12,
     "club": "AGB 45+3",
     "logo": "",
     "gespeeld": 2,
@@ -153,6 +140,19 @@
     "voor": 6,
     "tegen": 9,
     "doelsaldo": -3,
+    "punten": 0
+  },
+  {
+    "positie": 12,
+    "club": "AMVJ 45+1",
+    "logo": "",
+    "gespeeld": 2,
+    "gewonnen": 0,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 3,
+    "tegen": 14,
+    "doelsaldo": -11,
     "punten": 0
   },
   {
