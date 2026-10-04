@@ -27,6 +27,19 @@
   },
   {
     "positie": 3,
+    "club": "Zuidoost United 2",
+    "logo": "",
+    "gespeeld": 3,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 12,
+    "tegen": 7,
+    "doelsaldo": 5,
+    "punten": 6
+  },
+  {
+    "positie": 4,
     "club": "ASV Arsenal 2",
     "logo": "",
     "gespeeld": 3,
@@ -39,7 +52,7 @@
     "punten": 5
   },
   {
-    "positie": 4,
+    "positie": 5,
     "club": "Buitenboys sc. 2",
     "logo": "",
     "gespeeld": 3,
@@ -52,7 +65,7 @@
     "punten": 4
   },
   {
-    "positie": 5,
+    "positie": 6,
     "club": "DTA Fortius asv 2",
     "logo": "images/fortius.png",
     "gespeeld": 2,
@@ -62,19 +75,6 @@
     "voor": 11,
     "tegen": 6,
     "doelsaldo": 5,
-    "punten": 3
-  },
-  {
-    "positie": 6,
-    "club": "Zuidoost United 2",
-    "logo": "",
-    "gespeeld": 2,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 1,
-    "voor": 6,
-    "tegen": 6,
-    "doelsaldo": 0,
     "punten": 3
   },
   {
@@ -131,19 +131,6 @@
   },
   {
     "positie": 11,
-    "club": "CTO '70 vv 2",
-    "logo": "",
-    "gespeeld": 2,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 2,
-    "voor": 1,
-    "tegen": 6,
-    "doelsaldo": -5,
-    "punten": 0
-  },
-  {
-    "positie": 12,
     "club": "SDO 2",
     "logo": "",
     "gespeeld": 2,
@@ -153,6 +140,19 @@
     "voor": 3,
     "tegen": 11,
     "doelsaldo": -8,
+    "punten": 0
+  },
+  {
+    "positie": 12,
+    "club": "CTO '70 vv 2",
+    "logo": "",
+    "gespeeld": 3,
+    "gewonnen": 0,
+    "gelijk": 0,
+    "verloren": 3,
+    "voor": 2,
+    "tegen": 12,
+    "doelsaldo": -10,
     "punten": 0
   }
 ]
