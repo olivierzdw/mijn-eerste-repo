@@ -53,6 +53,19 @@
   },
   {
     "positie": 5,
+    "club": "TABA afc O23-1",
+    "logo": "images/afc.png",
+    "gespeeld": 4,
+    "gewonnen": 2,
+    "gelijk": 1,
+    "verloren": 1,
+    "voor": 17,
+    "tegen": 9,
+    "doelsaldo": 8,
+    "punten": 7
+  },
+  {
+    "positie": 6,
     "club": "AFC O23-1",
     "logo": "images/afc.png",
     "gespeeld": 4,
@@ -65,7 +78,7 @@
     "punten": 6
   },
   {
-    "positie": 6,
+    "positie": 7,
     "club": "Hoofddorp s.v. O23-2",
     "logo": "",
     "gespeeld": 4,
@@ -78,7 +91,7 @@
     "punten": 6
   },
   {
-    "positie": 7,
+    "positie": 8,
     "club": "Kon. HFC O23-1 (Zon)",
     "logo": "",
     "gespeeld": 3,
@@ -88,19 +101,6 @@
     "voor": 8,
     "tegen": 6,
     "doelsaldo": 2,
-    "punten": 4
-  },
-  {
-    "positie": 8,
-    "club": "TABA afc O23-1",
-    "logo": "images/afc.png",
-    "gespeeld": 3,
-    "gewonnen": 1,
-    "gelijk": 1,
-    "verloren": 1,
-    "voor": 9,
-    "tegen": 9,
-    "doelsaldo": 0,
     "punten": 4
   },
   {
@@ -133,13 +133,13 @@
     "positie": 11,
     "club": "SCPB'22 O23-1",
     "logo": "",
-    "gespeeld": 3,
+    "gespeeld": 4,
     "gewonnen": 0,
     "gelijk": 0,
-    "verloren": 3,
+    "verloren": 4,
     "voor": 4,
-    "tegen": 15,
-    "doelsaldo": -11,
+    "tegen": 23,
+    "doelsaldo": -19,
     "punten": 0
   },
   {

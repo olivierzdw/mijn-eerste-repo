@@ -14,6 +14,19 @@
   },
   {
     "positie": 2,
+    "club": "WV-HEDW 3",
+    "logo": "",
+    "gespeeld": 3,
+    "gewonnen": 2,
+    "gelijk": 1,
+    "verloren": 0,
+    "voor": 5,
+    "tegen": 2,
+    "doelsaldo": 3,
+    "punten": 7
+  },
+  {
+    "positie": 3,
     "club": "Swift 11",
     "logo": "",
     "gespeeld": 3,
@@ -24,19 +37,6 @@
     "tegen": 7,
     "doelsaldo": 3,
     "punten": 6
-  },
-  {
-    "positie": 3,
-    "club": "WV-HEDW 3",
-    "logo": "",
-    "gespeeld": 2,
-    "gewonnen": 1,
-    "gelijk": 1,
-    "verloren": 0,
-    "voor": 3,
-    "tegen": 1,
-    "doelsaldo": 2,
-    "punten": 4
   },
   {
     "positie": 4,
@@ -146,13 +146,13 @@
     "positie": 12,
     "club": "Zeeburgia avv 2",
     "logo": "",
-    "gespeeld": 2,
+    "gespeeld": 3,
     "gewonnen": 0,
     "gelijk": 0,
-    "verloren": 2,
-    "voor": 6,
-    "tegen": 14,
-    "doelsaldo": -8,
+    "verloren": 3,
+    "voor": 7,
+    "tegen": 16,
+    "doelsaldo": -9,
     "punten": 0
   }
 ]

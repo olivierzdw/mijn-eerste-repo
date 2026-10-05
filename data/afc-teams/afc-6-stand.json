@@ -105,6 +105,19 @@
   },
   {
     "positie": 9,
+    "club": "Nieuw West United SV 2",
+    "logo": "",
+    "gespeeld": 3,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 8,
+    "tegen": 11,
+    "doelsaldo": -3,
+    "punten": 3
+  },
+  {
+    "positie": 10,
     "club": "WV-HEDW 4",
     "logo": "",
     "gespeeld": 3,
@@ -117,33 +130,7 @@
     "punten": 1
   },
   {
-    "positie": 10,
-    "club": "Sloterdijk avv. 3",
-    "logo": "images/sloterdijk.png",
-    "gespeeld": 2,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 2,
-    "voor": 3,
-    "tegen": 7,
-    "doelsaldo": -4,
-    "punten": 0
-  },
-  {
     "positie": 11,
-    "club": "Nieuw West United SV 2",
-    "logo": "",
-    "gespeeld": 2,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 2,
-    "voor": 4,
-    "tegen": 10,
-    "doelsaldo": -6,
-    "punten": 0
-  },
-  {
-    "positie": 12,
     "club": "VVA/Spartaan, 4",
     "logo": "",
     "gespeeld": 2,
@@ -153,6 +140,19 @@
     "voor": 2,
     "tegen": 11,
     "doelsaldo": -9,
+    "punten": 0
+  },
+  {
+    "positie": 12,
+    "club": "Sloterdijk avv. 3",
+    "logo": "images/sloterdijk.png",
+    "gespeeld": 3,
+    "gewonnen": 0,
+    "gelijk": 0,
+    "verloren": 3,
+    "voor": 4,
+    "tegen": 11,
+    "doelsaldo": -7,
     "punten": 0
   }
 ]
