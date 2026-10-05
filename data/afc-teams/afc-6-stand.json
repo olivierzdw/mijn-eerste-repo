@@ -1,6 +1,19 @@
 [
   {
     "positie": 1,
+    "club": "SDOB 2",
+    "logo": "",
+    "gespeeld": 3,
+    "gewonnen": 2,
+    "gelijk": 1,
+    "verloren": 0,
+    "voor": 18,
+    "tegen": 7,
+    "doelsaldo": 11,
+    "punten": 7
+  },
+  {
+    "positie": 2,
     "club": "IVV 3",
     "logo": "",
     "gespeeld": 3,
@@ -13,7 +26,7 @@
     "punten": 7
   },
   {
-    "positie": 2,
+    "positie": 3,
     "club": "Parkstad SV 2",
     "logo": "",
     "gespeeld": 3,
@@ -26,7 +39,7 @@
     "punten": 7
   },
   {
-    "positie": 3,
+    "positie": 4,
     "club": "Hercules Zaandam sc 3",
     "logo": "",
     "gespeeld": 3,
@@ -39,7 +52,7 @@
     "punten": 6
   },
   {
-    "positie": 4,
+    "positie": 5,
     "club": "SCPB'22 3",
     "logo": "",
     "gespeeld": 3,
@@ -52,29 +65,16 @@
     "punten": 6
   },
   {
-    "positie": 5,
-    "club": "SDOB 2",
-    "logo": "",
-    "gespeeld": 2,
-    "gewonnen": 1,
-    "gelijk": 1,
-    "verloren": 0,
-    "voor": 11,
-    "tegen": 4,
-    "doelsaldo": 7,
-    "punten": 4
-  },
-  {
     "positie": 6,
     "club": "SDZ 7",
     "logo": "",
-    "gespeeld": 2,
+    "gespeeld": 3,
     "gewonnen": 1,
     "gelijk": 1,
-    "verloren": 0,
-    "voor": 7,
-    "tegen": 4,
-    "doelsaldo": 3,
+    "verloren": 1,
+    "voor": 10,
+    "tegen": 11,
+    "doelsaldo": -1,
     "punten": 4
   },
   {
