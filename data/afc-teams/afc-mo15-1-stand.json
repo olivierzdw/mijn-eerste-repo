@@ -16,30 +16,17 @@
     "positie": 2,
     "club": "CTO '70 vv O14-1",
     "logo": "",
-    "gespeeld": 4,
-    "gewonnen": 3,
+    "gespeeld": 5,
+    "gewonnen": 4,
     "gelijk": 0,
     "verloren": 1,
-    "voor": 25,
-    "tegen": 8,
-    "doelsaldo": 17,
-    "punten": 9
+    "voor": 32,
+    "tegen": 9,
+    "doelsaldo": 23,
+    "punten": 12
   },
   {
     "positie": 3,
-    "club": "Meer De sv. O14-1",
-    "logo": "",
-    "gespeeld": 4,
-    "gewonnen": 2,
-    "gelijk": 0,
-    "verloren": 2,
-    "voor": 11,
-    "tegen": 10,
-    "doelsaldo": 1,
-    "punten": 6
-  },
-  {
-    "positie": 4,
     "club": "Ouderkerk sv. O14-2",
     "logo": "",
     "gespeeld": 5,
@@ -49,6 +36,19 @@
     "voor": 16,
     "tegen": 20,
     "doelsaldo": -4,
+    "punten": 6
+  },
+  {
+    "positie": 4,
+    "club": "Meer De sv. O14-1",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 3,
+    "voor": 12,
+    "tegen": 17,
+    "doelsaldo": -5,
     "punten": 6
   },
   {
