@@ -13,7 +13,7 @@
     "soort": "Senioren zaterdag",
     "pouleId": "827358",
     "heeftStand": true,
-    "aantalMatches": 17
+    "aantalMatches": 16
   },
   {
     "slug": "afc-2",
@@ -93,7 +93,7 @@
     "soort": "Senioren zondag",
     "pouleId": "827490",
     "heeftStand": true,
-    "aantalMatches": 17
+    "aantalMatches": 16
   },
   {
     "slug": "afc-4-2",
@@ -109,7 +109,7 @@
     "soort": "Senioren zondag",
     "pouleId": "827969",
     "heeftStand": true,
-    "aantalMatches": 18
+    "aantalMatches": 17
   },
   {
     "slug": "afc-6",
@@ -136,20 +136,20 @@
     "aantalMatches": 15
   },
   {
-    "slug": "afc-mo12-1",
-    "naam": "AFC MO12-1",
-    "soort": "Meisjes",
-    "pouleId": "828154",
+    "slug": "afc-vr1",
+    "naam": "AFC VR1",
+    "soort": "Vrouwen",
+    "pouleId": "826375",
     "heeftStand": true,
-    "aantalMatches": 0
+    "aantalMatches": 16
   },
   {
-    "slug": "afc-mo17-1",
-    "naam": "AFC MO17-1",
+    "slug": "afc-mo11-2",
+    "naam": "AFC MO11-2",
     "soort": "Meisjes",
-    "pouleId": "836800",
+    "pouleId": "830047",
     "heeftStand": true,
-    "aantalMatches": 2
+    "aantalMatches": 0
   },
   {
     "slug": "afc-351",
