@@ -92,15 +92,15 @@
   },
   {
     "positie": 8,
-    "club": "Almere FC 2",
-    "logo": "",
-    "gespeeld": 2,
+    "club": "AFC 2",
+    "logo": "images/afc.png",
+    "gespeeld": 3,
     "gewonnen": 1,
     "gelijk": 0,
-    "verloren": 1,
-    "voor": 3,
-    "tegen": 10,
-    "doelsaldo": -7,
+    "verloren": 2,
+    "voor": 10,
+    "tegen": 9,
+    "doelsaldo": 1,
     "punten": 3
   },
   {
@@ -118,16 +118,16 @@
   },
   {
     "positie": 10,
-    "club": "AFC 2",
-    "logo": "images/afc.png",
-    "gespeeld": 2,
-    "gewonnen": 0,
+    "club": "Almere FC 2",
+    "logo": "",
+    "gespeeld": 3,
+    "gewonnen": 1,
     "gelijk": 0,
     "verloren": 2,
-    "voor": 3,
-    "tegen": 6,
-    "doelsaldo": -3,
-    "punten": 0
+    "voor": 6,
+    "tegen": 17,
+    "doelsaldo": -11,
+    "punten": 3
   },
   {
     "positie": 11,
