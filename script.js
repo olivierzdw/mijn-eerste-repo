@@ -2192,6 +2192,59 @@ function terugNaarKeuze() {
   toonAppKeuze();
 }
 
+// ── Restaurantje: Menukaart ───────────────────────────────────
+const MENUKAART = [
+  { categorie: "Voorgerechten", items: [
+    { naam: "Tomatensoep",       prijs: 5.50, emoji: "🍅" },
+    { naam: "Carpaccio",         prijs: 9.50, emoji: "🥩" },
+    { naam: "Bruschetta",        prijs: 6.00, emoji: "🥖" },
+  ]},
+  { categorie: "Hoofdgerechten", items: [
+    { naam: "Pizza Margherita",  prijs: 11.00, emoji: "🍕" },
+    { naam: "Spaghetti Bolognese", prijs: 12.50, emoji: "🍝" },
+    { naam: "Biefstuk met friet", prijs: 18.00, emoji: "🥩" },
+    { naam: "Zalm uit de oven",   prijs: 17.50, emoji: "🐟" },
+    { naam: "Kipsaté met friet",  prijs: 14.00, emoji: "🍗" },
+  ]},
+  { categorie: "Nagerechten", items: [
+    { naam: "Dame Blanche",      prijs: 6.50, emoji: "🍨" },
+    { naam: "Tiramisu",          prijs: 6.00, emoji: "🍰" },
+    { naam: "Appeltaart",        prijs: 5.00, emoji: "🥧" },
+  ]},
+  { categorie: "Drankjes", items: [
+    { naam: "Cola",              prijs: 2.80, emoji: "🥤" },
+    { naam: "Spa blauw",         prijs: 2.50, emoji: "💧" },
+    { naam: "Jus d'orange",      prijs: 3.00, emoji: "🍊" },
+    { naam: "Koffie",            prijs: 2.80, emoji: "☕" },
+    { naam: "Thee",              prijs: 2.50, emoji: "🍵" },
+  ]},
+];
+
+function toonMenukaart() {
+  const panel = document.getElementById("menukaart-panel");
+  const lijst = document.getElementById("menukaart-lijst");
+  if (!panel || !lijst) return;
+  if (!panel.classList.contains("hidden")) {
+    panel.classList.add("hidden");
+    return;
+  }
+  lijst.innerHTML = MENUKAART.map(cat => `
+    <div class="menu-categorie">
+      <h3>${escapeHTML(cat.categorie)}</h3>
+      <ul class="menu-items">
+        ${cat.items.map(it => `
+          <li>
+            <span class="menu-emoji">${it.emoji}</span>
+            <span class="menu-naam">${escapeHTML(it.naam)}</span>
+            <span class="menu-prijs">€ ${it.prijs.toFixed(2).replace('.', ',')}</span>
+          </li>
+        `).join('')}
+      </ul>
+    </div>
+  `).join('');
+  panel.classList.remove("hidden");
+}
+
 // ── Spelletjes ────────────────────────────────────────────────
 
 let huidigSpel = "penalty";

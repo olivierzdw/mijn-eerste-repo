@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Olliebet</title>
-  <link rel="stylesheet" href="style.css?v=19" />
+  <link rel="stylesheet" href="style.css?v=20" />
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
   <meta http-equiv="Pragma" content="no-cache" />
   <meta http-equiv="Expires" content="0" />
@@ -153,10 +153,16 @@
       <h1>🍽️ Restaurantje</h1>
     </header>
     <main class="restaurant-main">
-      <p class="restaurant-leeg">Restaurantje komt binnenkort — welkom!</p>
+      <div class="restaurant-knoppen">
+        <button class="restaurant-btn" onclick="toonMenukaart()">📖 Menukaart</button>
+      </div>
+      <div id="menukaart-panel" class="menukaart-panel hidden">
+        <h2>Menukaart</h2>
+        <div class="menukaart-lijst" id="menukaart-lijst"></div>
+      </div>
     </main>
   </div>
 
-  <script src="script.js?v=29"></script>
+  <script src="script.js?v=30"></script>
 </body>
 </html>
