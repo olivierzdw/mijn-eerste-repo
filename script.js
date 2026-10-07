@@ -2348,14 +2348,70 @@ function betaalBestelling() {
 }
 
 function bevestigBetaling(totaal) {
-  // Reset bestelling en toon bedank-popup
+  const tikkie = localStorage.getItem("restaurant-tikkie") || "";
+  if (!tikkie) {
+    vraagTikkieLink(totaal);
+    return;
+  }
+  opentTikkie(tikkie, totaal);
+}
+
+function vraagTikkieLink(totaal) {
+  const huidige = localStorage.getItem("restaurant-tikkie") || "";
+  toonBetaalPopup(`
+    <h2>💶 Tikkie instellen</h2>
+    <p>Plak hier je Tikkie-link (bijv. <code>https://tikkie.me/@jouwnaam</code>). Deze wordt op dit apparaat bewaard — hij hoeft dus maar één keer ingevuld te worden.</p>
+    <input type="text" id="tikkie-input" class="tikkie-input" placeholder="https://tikkie.me/..." value="${escapeHTML(huidige)}" />
+    <p class="tikkie-hint">💡 Nog geen Tikkie-profiel? Open de Tikkie-app → tabblad "Mijn Tikkie" → "Deel je persoonlijke link".</p>
+    <div class="betaal-acties">
+      <button class="betaal-annuleer" onclick="sluitBetaalPopup()">Annuleer</button>
+      <button class="betaal-bevestig" onclick="slaTikkieOp(${totaal})">Opslaan en betalen</button>
+    </div>
+  `);
+  setTimeout(() => {
+    const inp = document.getElementById("tikkie-input");
+    if (inp) inp.focus();
+  }, 50);
+}
+
+function slaTikkieOp(totaal) {
+  const inp = document.getElementById("tikkie-input");
+  const url = (inp?.value || "").trim();
+  if (!url || !/^https?:\/\//.test(url)) {
+    inp?.classList.add("fout");
+    inp?.focus();
+    return;
+  }
+  localStorage.setItem("restaurant-tikkie", url);
+  opentTikkie(url, totaal);
+}
+
+function opentTikkie(tikkie, totaal) {
+  const bedrag = formatEuro(totaal);
+  const qrUrl = `https://api.qrserver.com/v1/create-qr-code/?size=260x260&margin=10&data=${encodeURIComponent(tikkie)}`;
+  toonBetaalPopup(`
+    <h2>💶 Scan en betaal</h2>
+    <p>Bedrag: <b>${bedrag}</b></p>
+    <div class="tikkie-qr-wrap">
+      <img src="${qrUrl}" alt="Tikkie QR-code" class="tikkie-qr" />
+    </div>
+    <p class="tikkie-sub">📱 Scan de QR-code met je telefoon → Tikkie opent automatisch → stuur ${bedrag}.</p>
+    <a href="${escapeHTML(tikkie)}" target="_blank" rel="noopener noreferrer" class="tikkie-knop">💶 Open Tikkie-link</a>
+    <div class="betaal-acties">
+      <button class="betaal-annuleer" onclick="vraagTikkieLink(${totaal})">Andere link</button>
+      <button class="betaal-bevestig" onclick="rondTikkieAf(${totaal})">Betaald ✓</button>
+    </div>
+  `);
+}
+
+function rondTikkieAf(totaal) {
   localStorage.removeItem("restaurant-bestelling");
   document.querySelectorAll(".menu-aantal").forEach(inp => { inp.value = ''; });
   updateMenuTotaal();
   toonBetaalPopup(`
     <div class="betaal-ok-icoon">✅</div>
-    <h2>Betaling gelukt!</h2>
-    <p>Je hebt <b>${formatEuro(totaal)}</b> betaald.</p>
+    <h2>Betaald via Tikkie!</h2>
+    <p>${formatEuro(totaal)} ontvangen 🎉</p>
     <p class="betaal-dankje">Bedankt en tot ziens! 👋</p>
     <button class="betaal-ok" onclick="sluitBetaalPopup()">Sluiten</button>
   `);
