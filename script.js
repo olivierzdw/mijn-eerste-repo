@@ -2262,6 +2262,7 @@ function toonMenukaart() {
       <span id="menu-totaal">€ 0,00</span>
     </div>
     <div class="menu-acties">
+      <button class="menu-betaal" onclick="betaalBestelling()">💳 Betalen</button>
       <button class="menu-reset" onclick="resetBestelling()">Reset</button>
     </div>
   `;
@@ -2302,6 +2303,83 @@ function resetBestelling() {
   localStorage.removeItem("restaurant-bestelling");
   document.querySelectorAll(".menu-aantal").forEach(inp => { inp.value = ''; });
   updateMenuTotaal();
+}
+
+function betaalBestelling() {
+  const bestelling = JSON.parse(localStorage.getItem("restaurant-bestelling") || "{}");
+  const regels = [];
+  let totaal = 0;
+  for (const cat of MENUKAART) {
+    for (const it of cat.items) {
+      const n = bestelling[menuSleutel(cat.categorie, it.naam)] || 0;
+      if (n > 0) {
+        const sub = n * it.prijs;
+        regels.push({ naam: it.naam, aantal: n, prijs: it.prijs, sub, emoji: it.emoji });
+        totaal += sub;
+      }
+    }
+  }
+  if (regels.length === 0) {
+    toonBetaalPopup(`
+      <div class="betaal-leeg">🤔 Je hebt nog niks besteld.<br/>Vul eerst een aantal in bij een gerecht.</div>
+      <button class="betaal-ok" onclick="sluitBetaalPopup()">OK</button>
+    `);
+    return;
+  }
+  const regelHtml = regels.map(r => `
+    <li>
+      <span class="bon-aantal">${r.aantal}×</span>
+      <span class="bon-naam">${r.emoji} ${escapeHTML(r.naam)}</span>
+      <span class="bon-prijs">${r.prijs === 0 ? 'gratis' : formatEuro(r.sub)}</span>
+    </li>
+  `).join('');
+  toonBetaalPopup(`
+    <h2>🧾 Rekening</h2>
+    <ul class="bon-lijst">${regelHtml}</ul>
+    <div class="bon-totaal">
+      <span>Totaal</span>
+      <span>${formatEuro(totaal)}</span>
+    </div>
+    <div class="betaal-acties">
+      <button class="betaal-annuleer" onclick="sluitBetaalPopup()">Terug</button>
+      <button class="betaal-bevestig" onclick="bevestigBetaling(${totaal})">💳 Betaal ${formatEuro(totaal)}</button>
+    </div>
+  `);
+}
+
+function bevestigBetaling(totaal) {
+  // Reset bestelling en toon bedank-popup
+  localStorage.removeItem("restaurant-bestelling");
+  document.querySelectorAll(".menu-aantal").forEach(inp => { inp.value = ''; });
+  updateMenuTotaal();
+  toonBetaalPopup(`
+    <div class="betaal-ok-icoon">✅</div>
+    <h2>Betaling gelukt!</h2>
+    <p>Je hebt <b>${formatEuro(totaal)}</b> betaald.</p>
+    <p class="betaal-dankje">Bedankt en tot ziens! 👋</p>
+    <button class="betaal-ok" onclick="sluitBetaalPopup()">Sluiten</button>
+  `);
+}
+
+function toonBetaalPopup(html) {
+  let overlay = document.getElementById("betaal-overlay");
+  if (!overlay) {
+    overlay = document.createElement("div");
+    overlay.id = "betaal-overlay";
+    overlay.className = "betaal-overlay";
+    overlay.innerHTML = `<div class="betaal-popup" id="betaal-popup"></div>`;
+    overlay.addEventListener("click", (e) => {
+      if (e.target === overlay) sluitBetaalPopup();
+    });
+    document.body.appendChild(overlay);
+  }
+  document.getElementById("betaal-popup").innerHTML = html;
+  overlay.classList.remove("hidden");
+}
+
+function sluitBetaalPopup() {
+  const overlay = document.getElementById("betaal-overlay");
+  if (overlay) overlay.classList.add("hidden");
 }
 
 // ── Spelletjes ────────────────────────────────────────────────
