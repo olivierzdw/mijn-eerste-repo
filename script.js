@@ -2200,6 +2200,11 @@ const MENUKAART = [
     { naam: "Baguette",    prijs: 4.50, emoji: "🥖" },
   ]},
   { categorie: "Hoofdgerechten", items: [
+    { naam: "Pasta met tomatensaus",   prijs: 10.50, emoji: "🍝" },
+    { naam: "Pizza",                   prijs: 11.00, emoji: "🍕" },
+    { naam: "Eitje (gekookt of gebakken)", prijs: 4.50, emoji: "🍳" },
+    { naam: "Zalm",                    prijs: 17.50, emoji: "🐟" },
+    { naam: "Frietjes",                prijs: 4.00, emoji: "🍟" },
   ]},
   { categorie: "Nagerechten", items: [
   ]},
