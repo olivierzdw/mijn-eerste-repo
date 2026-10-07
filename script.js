@@ -2207,6 +2207,9 @@ const MENUKAART = [
     { naam: "Frietjes",                prijs: 4.00, emoji: "🍟" },
   ]},
   { categorie: "Nagerechten", items: [
+    { naam: "Zelfgebakken frambozentaart",    prijs: 6.50, emoji: "🥧" },
+    { naam: "Zelfgemaakt aardbeienijs",       prijs: 5.50, emoji: "🍓" },
+    { naam: "Koekjes met gesmolten chocola",  prijs: 5.00, emoji: "🍪" },
   ]},
   { categorie: "Drankjes", items: [
   ]},
