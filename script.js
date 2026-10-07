@@ -539,7 +539,7 @@ function renderAjaxWedstrijden() {
     const div = document.createElement("div");
     div.className = "ajax-wedstrijd";
     div.innerHTML = `
-      <span class="datum">${w.datum}</span>
+      <span class="datum">${w.datum}${w.toernooi ? ` <span class="toernooi-badge">${escapeHTML(w.toernooi)}</span>` : ''}</span>
       <div class="ajax-match">
         <div class="club-blok-klein">
           <img src="${w.thuisLogo || logoVanClub(w.thuis)}" alt="${w.thuis}" />
@@ -600,7 +600,7 @@ function renderAfcWedstrijden() {
     const div = document.createElement("div");
     div.className = "ajax-wedstrijd";
     div.innerHTML = `
-      <span class="datum">${w.datum}</span>
+      <span class="datum">${w.datum}${w.toernooi ? ` <span class="toernooi-badge">${escapeHTML(w.toernooi)}</span>` : ''}</span>
       <div class="ajax-match">
         <div class="club-blok-klein">
           <img src="${w.thuisLogo || ""}" alt="${w.thuis}" />
@@ -986,7 +986,30 @@ async function renderFavorieten() {
   if (aangepast) slaFavorietenOp(favs);
 
   for (const fav of favs) {
-    const matches = clubsMatches[String(fav.id)] || [];
+    let matches = (clubsMatches[String(fav.id)] || []).slice();
+    // Merge ESPN-schedule (CL-kwalificatie, cup, internationale wedstrijden)
+    if (fav.competitie) {
+      try {
+        const extra = await fetchEspnClubMatches(fav.competitie, fav.naam);
+        const key = w => {
+          const d = parseNlDatum(w.datum);
+          const dag = d ? `${d.getFullYear()}-${d.getMonth()}-${d.getDate()}` : (w.datum || '');
+          return `${dag}|${normTeam(w.thuis)}|${normTeam(w.uit)}`;
+        };
+        const bestaand = new Set(matches.map(key));
+        for (const w of extra) {
+          if (!bestaand.has(key(w))) {
+            matches.push(w);
+            bestaand.add(key(w));
+          }
+        }
+        matches.sort((a, b) => {
+          const da = parseNlDatum(a.datum)?.getTime() || 0;
+          const db = parseNlDatum(b.datum)?.getTime() || 0;
+          return da - db;
+        });
+      } catch (e) { /* zonder ESPN werken we door */ }
+    }
     const opgeslagen = JSON.parse(localStorage.getItem(sleutelClub(fav.id)) || "{}");
 
     const kop = document.createElement("div");
@@ -1010,7 +1033,7 @@ async function renderFavorieten() {
         div.className = "ajax-wedstrijd";
         const uid = `fav-${fav.id}-${i}`;
         div.innerHTML = `
-          <span class="datum">${w.datum}</span>
+          <span class="datum">${w.datum}${w.toernooi ? ` <span class="toernooi-badge">${escapeHTML(w.toernooi)}</span>` : ''}</span>
           <div class="ajax-match">
             <div class="club-blok-klein">
               <img src="${w.thuisLogo}" alt="${escapeHTML(w.thuis)}" onerror="this.style.display='none'" />
@@ -1686,28 +1709,146 @@ async function kiesClub(club) {
     }
     const lokaal = clubsMatches[String(club.id)];
     if (lokaal && lokaal.length > 0) {
-      clubWedstrijden = lokaal;
-      renderClubWedstrijden();
+      clubWedstrijden = lokaal.slice();
     } else {
       // Fallback: directe API-call (werkt op localhost)
-      const res = await fetch(
-        `https://api.football-data.org/v4/teams/${club.id}/matches?status=SCHEDULED,TIMED`,
-        { headers: { 'X-Auth-Token': FOOTBALL_API_KEY } }
-      );
-      const data = await res.json();
-      clubWedstrijden = (data.matches || []).map(m => ({
-        id:        m.id,
-        datum:     formatDatum(m.utcDate),
-        thuis:     m.homeTeam.name,
-        thuisLogo: m.homeTeam.crest || '',
-        uit:       m.awayTeam.name,
-        uitLogo:   m.awayTeam.crest || '',
-      }));
-      renderClubWedstrijden();
+      try {
+        const res = await fetch(
+          `https://api.football-data.org/v4/teams/${club.id}/matches?status=SCHEDULED,TIMED`,
+          { headers: { 'X-Auth-Token': FOOTBALL_API_KEY } }
+        );
+        const data = await res.json();
+        clubWedstrijden = (data.matches || []).map(m => ({
+          id:        m.id,
+          datum:     formatDatum(m.utcDate),
+          thuis:     m.homeTeam.name,
+          thuisLogo: m.homeTeam.crest || '',
+          uit:       m.awayTeam.name,
+          uitLogo:   m.awayTeam.crest || '',
+        }));
+      } catch (e) {
+        clubWedstrijden = [];
+      }
     }
+
+    // Merge ESPN-schedule: bevat óók CL-kwalificatie, KNVB-beker,
+    // internationale wedstrijden en oefenpotten (football-data free tier
+    // laat die vaak weg). Volledig client-side, geen API-key nodig.
+    if (club.competitie) {
+      try {
+        const extra = await fetchEspnClubMatches(club.competitie, club.naam);
+        const key = w => {
+          const d = parseNlDatum(w.datum);
+          const dag = d ? `${d.getFullYear()}-${d.getMonth()}-${d.getDate()}` : (w.datum || '');
+          return `${dag}|${normTeam(w.thuis)}|${normTeam(w.uit)}`;
+        };
+        const bestaand = new Set(clubWedstrijden.map(key));
+        for (const w of extra) {
+          if (!bestaand.has(key(w))) {
+            clubWedstrijden.push(w);
+            bestaand.add(key(w));
+          }
+        }
+        // Sorteer chronologisch
+        clubWedstrijden.sort((a, b) => {
+          const da = parseNlDatum(a.datum)?.getTime() || 0;
+          const db = parseNlDatum(b.datum)?.getTime() || 0;
+          return da - db;
+        });
+      } catch (e) { /* zonder ESPN werken we door met alleen lokaal */ }
+    }
+
+    renderClubWedstrijden();
   } catch(e) {
     document.getElementById("club-wedstrijden").innerHTML =
       `<p style="color:#666;text-align:center">Kon wedstrijden niet laden.</p>`;
+  }
+}
+
+// ── ESPN client-side match merge ─────────────────────────────
+// Voor pro-clubs vullen we de wedstrijdenlijst aan met álle
+// wedstrijden uit de ESPN team-schedule (dus ook cup, CL-kwalificatie,
+// internationaal, friendlies). ESPN heeft geen API-key nodig.
+const espnTeamsCache = {}; // league → [{id, name}]
+
+async function laadEspnTeams(league) {
+  if (espnTeamsCache[league]) return espnTeamsCache[league];
+  try {
+    const res = await fetch(`https://site.api.espn.com/apis/site/v2/sports/soccer/${league}/teams`);
+    const data = await res.json();
+    const list = [];
+    for (const s of (data.sports || [])) {
+      for (const l of (s.leagues || [])) {
+        for (const t of (l.teams || [])) {
+          const team = t.team || t;
+          if (team.id && team.displayName) {
+            list.push({
+              id: team.id,
+              name: team.displayName,
+              short: team.shortDisplayName || '',
+              abbr: team.abbreviation || '',
+            });
+          }
+        }
+      }
+    }
+    espnTeamsCache[league] = list;
+    return list;
+  } catch (e) {
+    espnTeamsCache[league] = [];
+    return [];
+  }
+}
+
+async function vindEspnTeamId(competitie, clubNaamStr) {
+  const league = ESPN_LEAGUE[competitie];
+  if (!league) return null;
+  const teams = await laadEspnTeams(league);
+  const want = normTeam(clubNaamStr);
+  if (!want) return null;
+  const exact = teams.find(t => normTeam(t.name) === want);
+  if (exact) return exact.id;
+  const bevat = teams.find(t => {
+    const n = normTeam(t.name);
+    return n.includes(want) || want.includes(n);
+  });
+  return bevat?.id || null;
+}
+
+async function fetchEspnClubMatches(competitie, clubNaamStr) {
+  const league = ESPN_LEAGUE[competitie];
+  if (!league) return [];
+  const teamId = await vindEspnTeamId(competitie, clubNaamStr);
+  if (!teamId) return [];
+  try {
+    const res = await fetch(`https://site.api.espn.com/apis/site/v2/sports/soccer/${league}/teams/${teamId}/schedule`);
+    const data = await res.json();
+    const nu = Date.now();
+    const events = (data.events || []).filter(e => {
+      if (!e || !e.date) return false;
+      // toekomstige of nu bezig (tot 4u na starttijd)
+      return new Date(e.date).getTime() > nu - 4 * 3600 * 1000;
+    });
+    return events.map(e => {
+      const comp = e.competitions?.[0] || {};
+      const cs = comp.competitors || [];
+      const home = cs.find(c => c.homeAway === 'home')?.team || {};
+      const away = cs.find(c => c.homeAway === 'away')?.team || {};
+      const homeLogo = home.logos?.[0]?.href || home.logo || '';
+      const awayLogo = away.logos?.[0]?.href || away.logo || '';
+      const toernooi = e.league?.name || e.season?.slug || comp.notes?.[0]?.headline || '';
+      return {
+        id:        `espn-${e.id}`,
+        datum:     formatDatum(e.date),
+        thuis:     clubNaam(home.displayName || ''),
+        thuisLogo: homeLogo,
+        uit:       clubNaam(away.displayName || ''),
+        uitLogo:   awayLogo,
+        toernooi,
+      };
+    });
+  } catch (e) {
+    return [];
   }
 }
 
@@ -1743,7 +1884,7 @@ function renderClubWedstrijden() {
     const div = document.createElement("div");
     div.className = "ajax-wedstrijd";
     div.innerHTML = `
-      <span class="datum">${w.datum}</span>
+      <span class="datum">${w.datum}${w.toernooi ? ` <span class="toernooi-badge">${escapeHTML(w.toernooi)}</span>` : ''}</span>
       <div class="ajax-match">
         <div class="club-blok-klein">
           <img src="${w.thuisLogo}" alt="${w.thuis}" onerror="this.style.display='none'" />
@@ -2020,11 +2161,35 @@ function controleerCode() {
   if (input.value === TOEGANGSCODE) {
     sessionStorage.setItem("olliebet-toegang", "ja");
     document.getElementById("code-gate").classList.add("hidden");
+    toonAppKeuze();
   } else {
     fout.classList.remove("hidden");
     input.value = "";
     input.focus();
   }
+}
+
+function toonAppKeuze() {
+  document.getElementById("app-chooser").classList.remove("hidden");
+  document.getElementById("voetbal-app").classList.add("hidden");
+  document.getElementById("restaurant-app").classList.add("hidden");
+}
+
+function kiesApp(app) {
+  sessionStorage.setItem("olliebet-app", app);
+  document.getElementById("app-chooser").classList.add("hidden");
+  if (app === "voetbal") {
+    document.getElementById("voetbal-app").classList.remove("hidden");
+    document.getElementById("restaurant-app").classList.add("hidden");
+  } else if (app === "restaurant") {
+    document.getElementById("restaurant-app").classList.remove("hidden");
+    document.getElementById("voetbal-app").classList.add("hidden");
+  }
+}
+
+function terugNaarKeuze() {
+  sessionStorage.removeItem("olliebet-app");
+  toonAppKeuze();
 }
 
 // ── Spelletjes ────────────────────────────────────────────────
@@ -2318,6 +2483,12 @@ function gameOverSnake() {
   if (!gate) return;
   if (sessionStorage.getItem("olliebet-toegang") === "ja") {
     gate.classList.add("hidden");
+    const app = sessionStorage.getItem("olliebet-app");
+    if (app === "voetbal" || app === "restaurant") {
+      kiesApp(app);
+    } else {
+      toonAppKeuze();
+    }
     return;
   }
   const input = document.getElementById("code-input");
