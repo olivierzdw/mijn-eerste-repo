@@ -2220,6 +2220,14 @@ const MENUKAART = [
   ]},
 ];
 
+function menuSleutel(cat, naam) {
+  return `${cat}|${naam}`;
+}
+
+function formatEuro(bedrag) {
+  return '€ ' + bedrag.toFixed(2).replace('.', ',');
+}
+
 function toonMenukaart() {
   const panel = document.getElementById("menukaart-panel");
   const lijst = document.getElementById("menukaart-lijst");
@@ -2228,21 +2236,72 @@ function toonMenukaart() {
     panel.classList.add("hidden");
     return;
   }
+  const opgeslagen = JSON.parse(localStorage.getItem("restaurant-bestelling") || "{}");
   lijst.innerHTML = MENUKAART.filter(cat => cat.items.length).map(cat => `
     <div class="menu-categorie">
       <h3>${escapeHTML(cat.categorie)}</h3>
       <ul class="menu-items">
-        ${cat.items.map(it => `
-          <li>
-            <span class="menu-emoji">${it.emoji}</span>
-            <span class="menu-naam">${escapeHTML(it.naam)}</span>
-            <span class="menu-prijs">${it.prijs === 0 ? 'gratis' : '€ ' + it.prijs.toFixed(2).replace('.', ',')}</span>
-          </li>
-        `).join('')}
+        ${cat.items.map(it => {
+          const sleutel = menuSleutel(cat.categorie, it.naam);
+          const aantal  = opgeslagen[sleutel] || 0;
+          return `
+            <li>
+              <span class="menu-emoji">${it.emoji}</span>
+              <span class="menu-naam">${escapeHTML(it.naam)}</span>
+              <span class="menu-prijs">${it.prijs === 0 ? 'gratis' : formatEuro(it.prijs)}</span>
+              <input class="menu-aantal" type="number" min="0" max="99" value="${aantal || ''}" placeholder="0"
+                     data-sleutel="${escapeHTML(sleutel)}" data-prijs="${it.prijs}" />
+            </li>
+          `;
+        }).join('')}
       </ul>
     </div>
-  `).join('');
+  `).join('') + `
+    <div class="menu-totaal-balk">
+      <span>Totaal</span>
+      <span id="menu-totaal">€ 0,00</span>
+    </div>
+    <div class="menu-acties">
+      <button class="menu-reset" onclick="resetBestelling()">Reset</button>
+    </div>
+  `;
+  // Bind inputs
+  lijst.querySelectorAll(".menu-aantal").forEach(inp => {
+    inp.addEventListener("input", onAantalWijzig);
+  });
+  updateMenuTotaal();
   panel.classList.remove("hidden");
+}
+
+function onAantalWijzig(e) {
+  const inp = e.target;
+  const sleutel = inp.dataset.sleutel;
+  let n = parseInt(inp.value, 10);
+  if (isNaN(n) || n < 0) n = 0;
+  if (n > 99) n = 99;
+  const bestelling = JSON.parse(localStorage.getItem("restaurant-bestelling") || "{}");
+  if (n === 0) delete bestelling[sleutel];
+  else bestelling[sleutel] = n;
+  localStorage.setItem("restaurant-bestelling", JSON.stringify(bestelling));
+  updateMenuTotaal();
+}
+
+function updateMenuTotaal() {
+  const el = document.getElementById("menu-totaal");
+  if (!el) return;
+  let totaal = 0;
+  document.querySelectorAll(".menu-aantal").forEach(inp => {
+    const n = parseInt(inp.value, 10) || 0;
+    const p = parseFloat(inp.dataset.prijs) || 0;
+    totaal += n * p;
+  });
+  el.textContent = formatEuro(totaal);
+}
+
+function resetBestelling() {
+  localStorage.removeItem("restaurant-bestelling");
+  document.querySelectorAll(".menu-aantal").forEach(inp => { inp.value = ''; });
+  updateMenuTotaal();
 }
 
 // ── Spelletjes ────────────────────────────────────────────────

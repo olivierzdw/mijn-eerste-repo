@@ -1142,7 +1142,7 @@ button:hover {
 }
 .menu-items li {
   display: grid;
-  grid-template-columns: 32px 1fr auto;
+  grid-template-columns: 32px 1fr auto 56px;
   gap: 10px;
   align-items: center;
   padding: 8px 6px;
@@ -1156,6 +1156,61 @@ button:hover {
   color: #f5a623;
   font-weight: 600;
   font-size: 0.95rem;
+}
+.menu-aantal {
+  width: 48px;
+  padding: 6px 4px;
+  text-align: center;
+  background: #1a1a2e;
+  color: #fff;
+  border: 2px solid rgba(245, 166, 35, 0.4);
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  /* Remove spinner on some browsers */
+  -moz-appearance: textfield;
+}
+.menu-aantal::-webkit-outer-spin-button,
+.menu-aantal::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.menu-aantal:focus {
+  outline: none;
+  border-color: #f5a623;
+  background: #22263d;
+}
+
+.menu-totaal-balk {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 12px;
+  margin-top: 16px;
+  background: rgba(245, 166, 35, 0.14);
+  border: 2px solid #f5a623;
+  border-radius: 10px;
+  color: #f5a623;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.menu-acties {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+.menu-reset {
+  background: transparent;
+  color: #aaa;
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 8px;
+  padding: 6px 14px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+.menu-reset:hover {
+  color: #fff;
+  border-color: #e94560;
 }
 
 .code-fout.hidden {
