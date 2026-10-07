@@ -1518,6 +1518,61 @@ button:hover {
   .bank-knop { flex: 1; }
 }
 
+/* Betaalstappen scherm */
+.bedrag-balk {
+  background: linear-gradient(135deg, #ffd700 0%, #ffb700 100%);
+  color: #1a1a2e;
+  font-size: 1.3rem;
+  font-weight: 700;
+  padding: 14px 18px;
+  border-radius: 12px;
+  text-align: center;
+  margin: 14px 0;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+}
+.bedrag-balk b {
+  font-size: 1.6rem;
+  color: #0a0a1a;
+}
+.betaal-stappen-titel {
+  font-weight: 600;
+  margin: 14px 0 6px 0;
+  color: #e0e0e0;
+}
+.betaal-stappen {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 10px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.betaal-stappen li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: #1a2440;
+  border: 1px solid #2a3a5e;
+  border-radius: 10px;
+  padding: 10px 12px;
+  color: #e8e8f0;
+  font-size: 0.98rem;
+  text-align: left;
+}
+.stap-nr {
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #ff6b00;
+  color: #fff;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.95rem;
+}
+
 .code-fout.hidden {
   display: none;
 }

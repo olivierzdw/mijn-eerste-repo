@@ -2352,17 +2352,27 @@ const BANKEN = {
     naam: "ABN AMRO",
     emoji: "🟢",
     kleur: "#009b3a",
-    sleutel: "restaurant-link-abn",
-    hint: "Open ABN AMRO app → Betalen → Betaalverzoek → vul bedrag + omschrijving in → Deel link → plak hier.",
-    placeholder: "https://betaalverzoek.abnamro.nl/payment/...",
+    stappen: [
+      "Open de ABN AMRO app op je telefoon",
+      "Log in met je pincode of gezicht",
+      "Kies Betalen → Nieuwe betaling",
+      "Vul het bedrag hieronder in",
+      "Kies de ontvanger (de rekening van Olivier)",
+      "Bevestig met je pincode",
+    ],
   },
   ing: {
     naam: "ING",
     emoji: "🟠",
     kleur: "#ff6200",
-    sleutel: "restaurant-link-ing",
-    hint: "Open ING app → Betalen → Betaalverzoek → vul bedrag + omschrijving in → Deel link → plak hier.",
-    placeholder: "https://ing-betaalverzoek.nl/...",
+    stappen: [
+      "Open de ING app op je telefoon",
+      "Log in met je pincode of gezicht",
+      "Kies Betalen → Overschrijven",
+      "Vul het bedrag hieronder in",
+      "Kies de ontvanger (de rekening van Olivier)",
+      "Bevestig met je pincode",
+    ],
   },
 };
 
@@ -2373,7 +2383,7 @@ function bevestigBetaling(totaal) {
 function toonBankKeuze(totaal) {
   toonBetaalPopup(`
     <h2>💶 Hoe wil je betalen?</h2>
-    <p>Kies een bank — mama scant daarna de QR-code met haar telefoon.</p>
+    <p>Kies je bank:</p>
     <div class="bank-keuze">
       <button class="bank-knop bank-abn" onclick="kiesBank('abn', ${totaal})">
         <span class="bank-emoji">🟢</span>
@@ -2393,76 +2403,15 @@ function toonBankKeuze(totaal) {
 function kiesBank(bankId, totaal) {
   const bank = BANKEN[bankId];
   if (!bank) return;
-  const link = localStorage.getItem(bank.sleutel) || "";
-  if (!link) {
-    vraagBankLink(bankId, totaal);
-    return;
-  }
-  opentBetaalLink(bankId, link, totaal);
-}
-
-function vraagBankLink(bankId, totaal) {
-  const bank = BANKEN[bankId];
-  const huidige = localStorage.getItem(bank.sleutel) || "";
+  const stappenHtml = bank.stappen.map((s, i) => `<li><span class="stap-nr">${i + 1}</span>${escapeHTML(s)}</li>`).join('');
   toonBetaalPopup(`
-    <h2>${bank.emoji} ${escapeHTML(bank.naam)} link</h2>
-    <p>Bedrag: <b>${formatEuro(totaal)}</b></p>
-    <p class="tikkie-hint">${escapeHTML(bank.hint)}</p>
-    <input type="text" id="betaal-input" class="tikkie-input" placeholder="${escapeHTML(bank.placeholder)}" value="${escapeHTML(huidige)}" />
-    <div class="betaal-acties">
-      <button class="betaal-annuleer" onclick="toonBankKeuze(${totaal})">Terug</button>
-      <button class="betaal-bevestig" onclick="slaBankLinkOp('${bankId}', ${totaal})">Opslaan en betalen</button>
+    <h2>${bank.emoji} Betalen via ${escapeHTML(bank.naam)}</h2>
+    <div class="bedrag-balk">
+      Te betalen: <b>${formatEuro(totaal)}</b>
     </div>
-  `);
-  setTimeout(() => {
-    const inp = document.getElementById("betaal-input");
-    if (inp) inp.focus();
-  }, 50);
-}
-
-function slaBankLinkOp(bankId, totaal) {
-  const bank = BANKEN[bankId];
-  if (!bank) return;
-  const inp = document.getElementById("betaal-input");
-  const url = (inp?.value || "").trim();
-  if (!url || !/^https?:\/\//.test(url)) {
-    inp?.classList.add("fout");
-    inp?.focus();
-    return;
-  }
-  localStorage.setItem(bank.sleutel, url);
-  opentBetaalLink(bankId, url, totaal);
-}
-
-function bouwBetaalUrl(sjabloon, totaal) {
-  // {bedrag} → "5.00" (punt), ook ondersteund: {bedrag_komma} → "5,00"
-  const bedrag = totaal.toFixed(2);
-  return sjabloon
-    .replace(/\{bedrag\}/g, bedrag)
-    .replace(/\{bedrag_komma\}/g, bedrag.replace('.', ','));
-}
-
-function opentBetaalLink(bankId, sjabloon, totaal) {
-  const bank = BANKEN[bankId];
-  const bedrag = formatEuro(totaal);
-  const url = bouwBetaalUrl(sjabloon, totaal);
-  const heeftBedrag = /\{bedrag/.test(sjabloon);
-  const qrUrl = `https://api.qrserver.com/v1/create-qr-code/?size=260x260&margin=10&data=${encodeURIComponent(url)}`;
-  const bankNaam = bank ? `${bank.emoji} ${bank.naam}` : "Bank";
-  toonBetaalPopup(`
-    <h2>💶 Scan en betaal</h2>
-    <p>Bedrag: <b>${bedrag}</b> — via ${escapeHTML(bankNaam)}</p>
-    <div class="tikkie-qr-wrap">
-      <img src="${qrUrl}" alt="Betaal QR-code" class="tikkie-qr" />
-    </div>
-    <p class="tikkie-sub">
-      📱 Scan met je telefoon → ${heeftBedrag
-        ? `je bank opent met <b>${bedrag}</b> al ingevuld.`
-        : `vul in de betaal-app het bedrag <b>${bedrag}</b> in.`}
-    </p>
-    <a href="${escapeHTML(url)}" target="_blank" rel="noopener noreferrer" class="tikkie-knop">💶 Open betaal-link</a>
+    <p class="betaal-stappen-titel">Volg deze stappen:</p>
+    <ol class="betaal-stappen">${stappenHtml}</ol>
     <div class="betaal-acties">
-      <button class="betaal-annuleer" onclick="vraagBankLink('${bankId}', ${totaal})">Andere link</button>
       <button class="betaal-annuleer" onclick="toonBankKeuze(${totaal})">Andere bank</button>
       <button class="betaal-bevestig" onclick="rondBetalingAf(${totaal})">Betaald ✓</button>
     </div>
