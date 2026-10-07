@@ -2212,6 +2212,9 @@ const MENUKAART = [
     { naam: "Koekjes met gesmolten chocola",  prijs: 5.00, emoji: "🍪" },
   ]},
   { categorie: "Drankjes", items: [
+    { naam: "Frisdrank",            prijs: 2.80, emoji: "🥤" },
+    { naam: "Water",                prijs: 0.00, emoji: "💧" },
+    { naam: "Zelfbedacht drankje",  prijs: 4.00, emoji: "🍹" },
   ]},
 ];
 
@@ -2231,7 +2234,7 @@ function toonMenukaart() {
           <li>
             <span class="menu-emoji">${it.emoji}</span>
             <span class="menu-naam">${escapeHTML(it.naam)}</span>
-            <span class="menu-prijs">€ ${it.prijs.toFixed(2).replace('.', ',')}</span>
+            <span class="menu-prijs">${it.prijs === 0 ? 'gratis' : '€ ' + it.prijs.toFixed(2).replace('.', ',')}</span>
           </li>
         `).join('')}
       </ul>
