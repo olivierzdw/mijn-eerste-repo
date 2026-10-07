@@ -2197,6 +2197,7 @@ const MENUKAART = [
   { categorie: "Voorgerechten", items: [
     { naam: "Salade",      prijs: 6.50, emoji: "🥗" },
     { naam: "Tomatensoep", prijs: 5.50, emoji: "🍅" },
+    { naam: "Baguette",    prijs: 4.50, emoji: "🥖" },
   ]},
   { categorie: "Hoofdgerechten", items: [
   ]},
