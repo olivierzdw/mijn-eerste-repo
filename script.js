@@ -2216,7 +2216,7 @@ const MENUKAART = [
     { naam: "Water",                prijs: 0.00, emoji: "💧" },
     { naam: "Thee",                 prijs: 2.50, emoji: "🍵" },
     { naam: "Koffie",               prijs: 2.80, emoji: "☕" },
-    { naam: "Zelfbedacht drankje",  prijs: 4.00, emoji: "🍹" },
+    { naam: "Zelfbedacht drankje",  prijs: 2.50, emoji: "🍹" },
   ]},
 ];
 
