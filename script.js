@@ -2347,37 +2347,71 @@ function betaalBestelling() {
   `);
 }
 
+const BANKEN = {
+  abn: {
+    naam: "ABN AMRO",
+    emoji: "🟢",
+    kleur: "#009b3a",
+    sleutel: "restaurant-link-abn",
+    hint: "Open ABN AMRO app → Betalen → Betaalverzoek → vul bedrag + omschrijving in → Deel link → plak hier.",
+    placeholder: "https://betaalverzoek.abnamro.nl/payment/...",
+  },
+  ing: {
+    naam: "ING",
+    emoji: "🟠",
+    kleur: "#ff6200",
+    sleutel: "restaurant-link-ing",
+    hint: "Open ING app → Betalen → Betaalverzoek → vul bedrag + omschrijving in → Deel link → plak hier.",
+    placeholder: "https://ing-betaalverzoek.nl/...",
+  },
+};
+
 function bevestigBetaling(totaal) {
-  // Oude key migreren
-  if (!localStorage.getItem("restaurant-betaallink") && localStorage.getItem("restaurant-tikkie")) {
-    localStorage.setItem("restaurant-betaallink", localStorage.getItem("restaurant-tikkie"));
-  }
-  const link = localStorage.getItem("restaurant-betaallink") || "";
-  if (!link) {
-    vraagBetaalLink(totaal);
-    return;
-  }
-  opentBetaalLink(link, totaal);
+  toonBankKeuze(totaal);
 }
 
-function vraagBetaalLink(totaal) {
-  const huidige = localStorage.getItem("restaurant-betaallink") || "";
+function toonBankKeuze(totaal) {
   toonBetaalPopup(`
-    <h2>💶 Betaallink instellen</h2>
-    <p>Plak de link van jouw betaaldienst. Gebruik <code>{bedrag}</code> in de URL, dan vullen we het bedrag automatisch in.</p>
-    <input type="text" id="betaal-input" class="tikkie-input" placeholder="https://..." value="${escapeHTML(huidige)}" />
-    <div class="tikkie-voorbeelden">
-      <strong>Voorbeelden:</strong>
-      <ul>
-        <li><code>https://betaalverzoek.abnamro.nl/payment/XXXX</code><br/><span>ABN AMRO Betaalverzoek — maak per bestelling een nieuwe in de ABN-app (Betalen → Betaalverzoek), plak de link hieronder ✅</span></li>
-        <li><code>https://bunq.me/jouwnaam/{bedrag}/Restaurantje</code><br/><span>iDEAL met vast bedrag — werkt met elke NL bank ✅</span></li>
-        <li><code>https://paypal.me/jouwnaam/{bedrag}</code><br/><span>PayPal met vast bedrag ✅</span></li>
-        <li><code>https://tikkie.me/@jouwnaam</code><br/><span>Tikkie — betaler typt zelf het bedrag</span></li>
-      </ul>
+    <h2>💶 Hoe wil je betalen?</h2>
+    <p>Kies een bank — mama scant daarna de QR-code met haar telefoon.</p>
+    <div class="bank-keuze">
+      <button class="bank-knop bank-abn" onclick="kiesBank('abn', ${totaal})">
+        <span class="bank-emoji">🟢</span>
+        <span class="bank-naam">ABN AMRO</span>
+      </button>
+      <button class="bank-knop bank-ing" onclick="kiesBank('ing', ${totaal})">
+        <span class="bank-emoji">🟠</span>
+        <span class="bank-naam">ING</span>
+      </button>
     </div>
     <div class="betaal-acties">
       <button class="betaal-annuleer" onclick="sluitBetaalPopup()">Annuleer</button>
-      <button class="betaal-bevestig" onclick="slaBetaalLinkOp(${totaal})">Opslaan en betalen</button>
+    </div>
+  `);
+}
+
+function kiesBank(bankId, totaal) {
+  const bank = BANKEN[bankId];
+  if (!bank) return;
+  const link = localStorage.getItem(bank.sleutel) || "";
+  if (!link) {
+    vraagBankLink(bankId, totaal);
+    return;
+  }
+  opentBetaalLink(bankId, link, totaal);
+}
+
+function vraagBankLink(bankId, totaal) {
+  const bank = BANKEN[bankId];
+  const huidige = localStorage.getItem(bank.sleutel) || "";
+  toonBetaalPopup(`
+    <h2>${bank.emoji} ${escapeHTML(bank.naam)} link</h2>
+    <p>Bedrag: <b>${formatEuro(totaal)}</b></p>
+    <p class="tikkie-hint">${escapeHTML(bank.hint)}</p>
+    <input type="text" id="betaal-input" class="tikkie-input" placeholder="${escapeHTML(bank.placeholder)}" value="${escapeHTML(huidige)}" />
+    <div class="betaal-acties">
+      <button class="betaal-annuleer" onclick="toonBankKeuze(${totaal})">Terug</button>
+      <button class="betaal-bevestig" onclick="slaBankLinkOp('${bankId}', ${totaal})">Opslaan en betalen</button>
     </div>
   `);
   setTimeout(() => {
@@ -2386,7 +2420,9 @@ function vraagBetaalLink(totaal) {
   }, 50);
 }
 
-function slaBetaalLinkOp(totaal) {
+function slaBankLinkOp(bankId, totaal) {
+  const bank = BANKEN[bankId];
+  if (!bank) return;
   const inp = document.getElementById("betaal-input");
   const url = (inp?.value || "").trim();
   if (!url || !/^https?:\/\//.test(url)) {
@@ -2394,8 +2430,8 @@ function slaBetaalLinkOp(totaal) {
     inp?.focus();
     return;
   }
-  localStorage.setItem("restaurant-betaallink", url);
-  opentBetaalLink(url, totaal);
+  localStorage.setItem(bank.sleutel, url);
+  opentBetaalLink(bankId, url, totaal);
 }
 
 function bouwBetaalUrl(sjabloon, totaal) {
@@ -2406,14 +2442,16 @@ function bouwBetaalUrl(sjabloon, totaal) {
     .replace(/\{bedrag_komma\}/g, bedrag.replace('.', ','));
 }
 
-function opentBetaalLink(sjabloon, totaal) {
+function opentBetaalLink(bankId, sjabloon, totaal) {
+  const bank = BANKEN[bankId];
   const bedrag = formatEuro(totaal);
   const url = bouwBetaalUrl(sjabloon, totaal);
   const heeftBedrag = /\{bedrag/.test(sjabloon);
   const qrUrl = `https://api.qrserver.com/v1/create-qr-code/?size=260x260&margin=10&data=${encodeURIComponent(url)}`;
+  const bankNaam = bank ? `${bank.emoji} ${bank.naam}` : "Bank";
   toonBetaalPopup(`
     <h2>💶 Scan en betaal</h2>
-    <p>Bedrag: <b>${bedrag}</b></p>
+    <p>Bedrag: <b>${bedrag}</b> — via ${escapeHTML(bankNaam)}</p>
     <div class="tikkie-qr-wrap">
       <img src="${qrUrl}" alt="Betaal QR-code" class="tikkie-qr" />
     </div>
@@ -2424,7 +2462,8 @@ function opentBetaalLink(sjabloon, totaal) {
     </p>
     <a href="${escapeHTML(url)}" target="_blank" rel="noopener noreferrer" class="tikkie-knop">💶 Open betaal-link</a>
     <div class="betaal-acties">
-      <button class="betaal-annuleer" onclick="vraagBetaalLink(${totaal})">Andere link</button>
+      <button class="betaal-annuleer" onclick="vraagBankLink('${bankId}', ${totaal})">Andere link</button>
+      <button class="betaal-annuleer" onclick="toonBankKeuze(${totaal})">Andere bank</button>
       <button class="betaal-bevestig" onclick="rondBetalingAf(${totaal})">Betaald ✓</button>
     </div>
   `);

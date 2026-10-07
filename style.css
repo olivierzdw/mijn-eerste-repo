@@ -1460,6 +1460,64 @@ button:hover {
   display: block;
 }
 
+/* Bankkeuze (ABN AMRO / ING) */
+.bank-keuze {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 18px 0 8px 0;
+}
+.bank-knop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  padding: 18px 20px;
+  font-size: 1.15rem;
+  font-weight: 700;
+  border: 3px solid #ccc;
+  border-radius: 14px;
+  background: #fff;
+  color: #1a1a2e;
+  cursor: pointer;
+  transition: transform 0.08s, box-shadow 0.15s, background 0.15s;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+}
+.bank-knop:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.3);
+}
+.bank-knop:active {
+  transform: translateY(0);
+}
+.bank-emoji {
+  font-size: 1.6rem;
+  line-height: 1;
+}
+.bank-naam {
+  letter-spacing: 0.3px;
+}
+.bank-knop.bank-abn {
+  border-color: #009b3a;
+  background: linear-gradient(135deg, #ffffff 0%, #e8f8ee 100%);
+  color: #006d29;
+}
+.bank-knop.bank-abn:hover {
+  background: linear-gradient(135deg, #e8f8ee 0%, #c8f0d6 100%);
+}
+.bank-knop.bank-ing {
+  border-color: #ff6200;
+  background: linear-gradient(135deg, #ffffff 0%, #fff0e2 100%);
+  color: #c24a00;
+}
+.bank-knop.bank-ing:hover {
+  background: linear-gradient(135deg, #fff0e2 0%, #ffdcbb 100%);
+}
+@media (min-width: 500px) {
+  .bank-keuze { flex-direction: row; }
+  .bank-knop { flex: 1; }
+}
+
 .code-fout.hidden {
   display: none;
 }
