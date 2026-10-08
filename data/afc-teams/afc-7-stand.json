@@ -72,9 +72,9 @@
     "gewonnen": 2,
     "gelijk": 0,
     "verloren": 1,
-    "voor": 17,
+    "voor": 18,
     "tegen": 7,
-    "doelsaldo": 10,
+    "doelsaldo": 11,
     "punten": 6
   },
   {
@@ -125,8 +125,8 @@
     "gelijk": 0,
     "verloren": 2,
     "voor": 7,
-    "tegen": 7,
-    "doelsaldo": 0,
+    "tegen": 8,
+    "doelsaldo": -1,
     "punten": 3
   },
   {
