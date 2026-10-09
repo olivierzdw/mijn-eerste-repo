@@ -1,6 +1,19 @@
 [
   {
     "positie": 1,
+    "club": "PSV",
+    "logo": "https://crests.football-data.org/674.png",
+    "gespeeld": 8,
+    "punten": 19,
+    "gewonnen": 6,
+    "gelijk": 1,
+    "verloren": 1,
+    "doelsaldo": 16,
+    "voor": 26,
+    "tegen": 10
+  },
+  {
+    "positie": 2,
     "club": "AZ",
     "logo": "https://crests.football-data.org/682.png",
     "gespeeld": 7,
@@ -13,7 +26,7 @@
     "tegen": 6
   },
   {
-    "positie": 2,
+    "positie": 3,
     "club": "Feyenoord Rotterdam",
     "logo": "https://crests.football-data.org/675.png",
     "gespeeld": 7,
@@ -24,19 +37,6 @@
     "doelsaldo": 18,
     "voor": 25,
     "tegen": 7
-  },
-  {
-    "positie": 3,
-    "club": "PSV",
-    "logo": "https://crests.football-data.org/674.png",
-    "gespeeld": 7,
-    "punten": 16,
-    "gewonnen": 5,
-    "gelijk": 1,
-    "verloren": 1,
-    "doelsaldo": 14,
-    "voor": 24,
-    "tegen": 10
   },
   {
     "positie": 4,
@@ -120,14 +120,14 @@
     "positie": 10,
     "club": "Heerenveen",
     "logo": "https://crests.football-data.org/673.png",
-    "gespeeld": 7,
+    "gespeeld": 8,
     "punten": 9,
     "gewonnen": 2,
     "gelijk": 3,
-    "verloren": 2,
-    "doelsaldo": 2,
+    "verloren": 3,
+    "doelsaldo": 0,
     "voor": 11,
-    "tegen": 9
+    "tegen": 11
   },
   {
     "positie": 11,
