@@ -9096,6 +9096,17 @@
       "uitLogo": "https://crests.football-data.org/4286.png",
       "thuisScore": 1,
       "uitScore": 0
+    },
+    {
+      "id": 555020,
+      "datum": "vr 9 oktober",
+      "datumIso": "2026-10-08",
+      "thuis": "CA Paranaense",
+      "thuisLogo": "https://crests.football-data.org/1768.png",
+      "uit": "CA Mineiro",
+      "uitLogo": "https://crests.football-data.org/1766.png",
+      "thuisScore": 2,
+      "uitScore": 2
     }
   ],
   "1769": [
@@ -9406,6 +9417,17 @@
       "uitLogo": "https://crests.football-data.org/1769.png",
       "thuisScore": 0,
       "uitScore": 0
+    },
+    {
+      "id": 555026,
+      "datum": "vr 9 oktober",
+      "datumIso": "2026-10-09",
+      "thuis": "SE Palmeiras",
+      "thuisLogo": "https://crests.football-data.org/1769.png",
+      "uit": "EC Bahia",
+      "uitLogo": "https://crests.football-data.org/1777.png",
+      "thuisScore": 1,
+      "uitScore": 0
     }
   ],
   "4241": [
@@ -9715,6 +9737,17 @@
       "uit": "Coritiba FBC",
       "uitLogo": "https://crests.football-data.org/4241.png",
       "thuisScore": 5,
+      "uitScore": 0
+    },
+    {
+      "id": 555024,
+      "datum": "vr 9 oktober",
+      "datumIso": "2026-10-09",
+      "thuis": "Fluminense FC",
+      "thuisLogo": "https://crests.football-data.org/1765.png",
+      "uit": "Coritiba FBC",
+      "uitLogo": "https://crests.football-data.org/4241.png",
+      "thuisScore": 4,
       "uitScore": 0
     }
   ],
@@ -10668,6 +10701,17 @@
       "uitLogo": "https://crests.football-data.org/1777.png",
       "thuisScore": 2,
       "uitScore": 1
+    },
+    {
+      "id": 555020,
+      "datum": "vr 9 oktober",
+      "datumIso": "2026-10-08",
+      "thuis": "CA Paranaense",
+      "thuisLogo": "https://crests.football-data.org/1768.png",
+      "uit": "CA Mineiro",
+      "uitLogo": "https://crests.football-data.org/1766.png",
+      "thuisScore": 2,
+      "uitScore": 2
     }
   ],
   "1782": [
@@ -11620,6 +11664,17 @@
       "uitLogo": "https://crests.football-data.org/1765.png",
       "thuisScore": 1,
       "uitScore": 3
+    },
+    {
+      "id": 555024,
+      "datum": "vr 9 oktober",
+      "datumIso": "2026-10-09",
+      "thuis": "Fluminense FC",
+      "thuisLogo": "https://crests.football-data.org/1765.png",
+      "uit": "Coritiba FBC",
+      "uitLogo": "https://crests.football-data.org/4241.png",
+      "thuisScore": 4,
+      "uitScore": 0
     }
   ],
   "1767": [
@@ -12561,6 +12616,17 @@
       "uitLogo": "https://crests.football-data.org/6685.png",
       "thuisScore": 1,
       "uitScore": 2
+    },
+    {
+      "id": 555028,
+      "datum": "vr 9 oktober",
+      "datumIso": "2026-10-08",
+      "thuis": "Santos FC",
+      "thuisLogo": "https://crests.football-data.org/6685.png",
+      "uit": "CR Flamengo",
+      "uitLogo": "https://crests.football-data.org/1783.png",
+      "thuisScore": 2,
+      "uitScore": 2
     }
   ],
   "1779": [
@@ -13192,6 +13258,17 @@
       "uitLogo": "https://crests.football-data.org/1777.png",
       "thuisScore": 2,
       "uitScore": 1
+    },
+    {
+      "id": 555026,
+      "datum": "vr 9 oktober",
+      "datumIso": "2026-10-09",
+      "thuis": "SE Palmeiras",
+      "thuisLogo": "https://crests.football-data.org/1769.png",
+      "uit": "EC Bahia",
+      "uitLogo": "https://crests.football-data.org/1777.png",
+      "thuisScore": 1,
+      "uitScore": 0
     }
   ],
   "1776": [
@@ -13823,6 +13900,17 @@
       "uitLogo": "https://crests.football-data.org/4286.png",
       "thuisScore": 2,
       "uitScore": 1
+    },
+    {
+      "id": 555028,
+      "datum": "vr 9 oktober",
+      "datumIso": "2026-10-08",
+      "thuis": "Santos FC",
+      "thuisLogo": "https://crests.football-data.org/6685.png",
+      "uit": "CR Flamengo",
+      "uitLogo": "https://crests.football-data.org/1783.png",
+      "thuisScore": 2,
+      "uitScore": 2
     }
   ],
   "4364": [
@@ -14452,7 +14540,7 @@
       "thuisLogo": "https://crests.football-data.org/1770.png",
       "uit": "CR Vasco da Gama",
       "uitLogo": "https://crests.football-data.org/1780.png",
-      "thuisScore": 2,
+      "thuisScore": 1,
       "uitScore": 2
     }
   ],
@@ -14773,7 +14861,7 @@
       "thuisLogo": "https://crests.football-data.org/1770.png",
       "uit": "CR Vasco da Gama",
       "uitLogo": "https://crests.football-data.org/1780.png",
-      "thuisScore": 2,
+      "thuisScore": 1,
       "uitScore": 2
     }
   ],
