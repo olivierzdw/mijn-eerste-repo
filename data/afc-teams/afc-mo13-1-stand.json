@@ -29,14 +29,14 @@
     "positie": 3,
     "club": "DSS MO13-1",
     "logo": "",
-    "gespeeld": 3,
-    "gewonnen": 1,
+    "gespeeld": 4,
+    "gewonnen": 2,
     "gelijk": 0,
     "verloren": 2,
-    "voor": 7,
+    "voor": 15,
     "tegen": 8,
-    "doelsaldo": -1,
-    "punten": 3
+    "doelsaldo": 7,
+    "punten": 6
   },
   {
     "positie": 4,
@@ -55,13 +55,13 @@
     "positie": 5,
     "club": "DCG Rksv MO13-2",
     "logo": "",
-    "gespeeld": 2,
+    "gespeeld": 3,
     "gewonnen": 0,
     "gelijk": 0,
-    "verloren": 2,
+    "verloren": 3,
     "voor": 0,
-    "tegen": 15,
-    "doelsaldo": -15,
+    "tegen": 23,
+    "doelsaldo": -23,
     "punten": 0
   }
 ]
