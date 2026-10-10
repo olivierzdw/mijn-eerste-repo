@@ -1,12 +1,5 @@
 [
   {
-    "datum": "za 10 oktober 15:15",
-    "thuis": "AFC",
-    "thuisLogo": "images/afc.png",
-    "uit": "Hoek",
-    "uitLogo": ""
-  },
-  {
     "datum": "za 17 oktober 15:00",
     "thuis": "Barendrecht",
     "thuisLogo": "",
@@ -152,5 +145,12 @@
     "thuisLogo": "images/afc.png",
     "uit": "Jong Sparta Rotterdam",
     "uitLogo": ""
+  },
+  {
+    "datum": "za 17 april 18:00",
+    "thuis": "De Treffers",
+    "thuisLogo": "",
+    "uit": "AFC",
+    "uitLogo": "images/afc.png"
   }
 ]

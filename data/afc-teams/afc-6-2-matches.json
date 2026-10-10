@@ -1,12 +1,5 @@
 [
   {
-    "datum": "za 10 oktober 12:00",
-    "thuis": "Monnickendam 3",
-    "thuisLogo": "",
-    "uit": "AFC 6",
-    "uitLogo": "images/afc.png"
-  },
-  {
     "datum": "za 17 oktober 13:30",
     "thuis": "WV-HEDW 7",
     "thuisLogo": "",
@@ -117,5 +110,12 @@
     "thuisLogo": "",
     "uit": "AFC 6",
     "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 17 april 15:00",
+    "thuis": "AFC 6",
+    "thuisLogo": "images/afc.png",
+    "uit": "Meer De sv. 7",
+    "uitLogo": ""
   }
 ]
