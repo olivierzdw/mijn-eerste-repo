@@ -79,6 +79,19 @@
   },
   {
     "positie": 7,
+    "club": "Wartburgia asv 4",
+    "logo": "",
+    "gespeeld": 4,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 7,
+    "tegen": 5,
+    "doelsaldo": 2,
+    "punten": 6
+  },
+  {
+    "positie": 8,
     "club": "Meer De sv. 6",
     "logo": "",
     "gespeeld": 3,
@@ -91,7 +104,20 @@
     "punten": 4
   },
   {
-    "positie": 8,
+    "positie": 9,
+    "club": "Ouderkerk sv. 3",
+    "logo": "",
+    "gespeeld": 4,
+    "gewonnen": 1,
+    "gelijk": 1,
+    "verloren": 2,
+    "voor": 13,
+    "tegen": 15,
+    "doelsaldo": -2,
+    "punten": 4
+  },
+  {
+    "positie": 10,
     "club": "ASV Arsenal 6",
     "logo": "",
     "gespeeld": 3,
@@ -104,7 +130,7 @@
     "punten": 3
   },
   {
-    "positie": 9,
+    "positie": 11,
     "club": "TABA afc 3",
     "logo": "images/afc.png",
     "gespeeld": 3,
@@ -117,55 +143,29 @@
     "punten": 3
   },
   {
-    "positie": 10,
-    "club": "Wartburgia asv 4",
-    "logo": "",
-    "gespeeld": 3,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 2,
-    "voor": 2,
-    "tegen": 4,
-    "doelsaldo": -2,
-    "punten": 3
-  },
-  {
-    "positie": 11,
-    "club": "Ouderkerk sv. 3",
-    "logo": "",
-    "gespeeld": 3,
-    "gewonnen": 0,
-    "gelijk": 1,
-    "verloren": 2,
-    "voor": 7,
-    "tegen": 11,
-    "doelsaldo": -4,
-    "punten": 1
-  },
-  {
     "positie": 12,
     "club": "AFC 5",
     "logo": "images/afc.png",
-    "gespeeld": 3,
+    "gespeeld": 4,
     "gewonnen": 0,
     "gelijk": 1,
-    "verloren": 2,
-    "voor": 3,
-    "tegen": 11,
-    "doelsaldo": -8,
+    "verloren": 3,
+    "voor": 7,
+    "tegen": 17,
+    "doelsaldo": -10,
     "punten": 1
   },
   {
     "positie": 13,
     "club": "FC Amsterdam 4",
     "logo": "",
-    "gespeeld": 3,
+    "gespeeld": 4,
     "gewonnen": 0,
     "gelijk": 1,
-    "verloren": 2,
-    "voor": 3,
-    "tegen": 12,
-    "doelsaldo": -9,
+    "verloren": 3,
+    "voor": 4,
+    "tegen": 17,
+    "doelsaldo": -13,
     "punten": 1
   },
   {

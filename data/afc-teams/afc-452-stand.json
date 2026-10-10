@@ -14,6 +14,19 @@
   },
   {
     "positie": 2,
+    "club": "Geinburgia sv. 45+1",
+    "logo": "",
+    "gespeeld": 4,
+    "gewonnen": 3,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 25,
+    "tegen": 9,
+    "doelsaldo": 16,
+    "punten": 9
+  },
+  {
+    "positie": 3,
     "club": "DRC 45+1",
     "logo": "",
     "gespeeld": 3,
@@ -26,7 +39,7 @@
     "punten": 7
   },
   {
-    "positie": 3,
+    "positie": 4,
     "club": "ASV Arsenal 45+1",
     "logo": "",
     "gespeeld": 2,
@@ -39,7 +52,7 @@
     "punten": 6
   },
   {
-    "positie": 4,
+    "positie": 5,
     "club": "AFC 45+2",
     "logo": "images/afc.png",
     "gespeeld": 2,
@@ -49,19 +62,6 @@
     "voor": 11,
     "tegen": 1,
     "doelsaldo": 10,
-    "punten": 6
-  },
-  {
-    "positie": 5,
-    "club": "Geinburgia sv. 45+1",
-    "logo": "",
-    "gespeeld": 3,
-    "gewonnen": 2,
-    "gelijk": 0,
-    "verloren": 1,
-    "voor": 12,
-    "tegen": 9,
-    "doelsaldo": 3,
     "punten": 6
   },
   {
@@ -144,19 +144,6 @@
   },
   {
     "positie": 12,
-    "club": "VVGA 45+1",
-    "logo": "",
-    "gespeeld": 2,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 2,
-    "voor": 2,
-    "tegen": 17,
-    "doelsaldo": -15,
-    "punten": 0
-  },
-  {
-    "positie": 13,
     "club": "Muiderberg sc. 45+1",
     "logo": "",
     "gespeeld": 3,
@@ -169,7 +156,7 @@
     "punten": 0
   },
   {
-    "positie": 14,
+    "positie": 13,
     "club": "CTO '70 vv 45+2",
     "logo": "",
     "gespeeld": 3,
@@ -179,6 +166,19 @@
     "voor": 4,
     "tegen": 20,
     "doelsaldo": -16,
+    "punten": 0
+  },
+  {
+    "positie": 14,
+    "club": "VVGA 45+1",
+    "logo": "",
+    "gespeeld": 3,
+    "gewonnen": 0,
+    "gelijk": 0,
+    "verloren": 3,
+    "voor": 2,
+    "tegen": 30,
+    "doelsaldo": -28,
     "punten": 0
   }
 ]

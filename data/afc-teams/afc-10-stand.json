@@ -27,6 +27,19 @@
   },
   {
     "positie": 3,
+    "club": "Argon 7",
+    "logo": "",
+    "gespeeld": 4,
+    "gewonnen": 2,
+    "gelijk": 1,
+    "verloren": 1,
+    "voor": 19,
+    "tegen": 17,
+    "doelsaldo": 2,
+    "punten": 7
+  },
+  {
+    "positie": 4,
     "club": "Buitenveldert sc. 9",
     "logo": "",
     "gespeeld": 3,
@@ -39,7 +52,7 @@
     "punten": 6
   },
   {
-    "positie": 4,
+    "positie": 5,
     "club": "DEVO'58 2",
     "logo": "",
     "gespeeld": 3,
@@ -50,19 +63,6 @@
     "tegen": 13,
     "doelsaldo": 4,
     "punten": 6
-  },
-  {
-    "positie": 5,
-    "club": "Argon 7",
-    "logo": "",
-    "gespeeld": 3,
-    "gewonnen": 1,
-    "gelijk": 1,
-    "verloren": 1,
-    "voor": 13,
-    "tegen": 13,
-    "doelsaldo": 0,
-    "punten": 4
   },
   {
     "positie": 6,
@@ -133,13 +133,13 @@
     "positie": 11,
     "club": "SDZ 2",
     "logo": "",
-    "gespeeld": 2,
+    "gespeeld": 3,
     "gewonnen": 0,
     "gelijk": 0,
-    "verloren": 2,
-    "voor": 8,
-    "tegen": 13,
-    "doelsaldo": -5,
+    "verloren": 3,
+    "voor": 12,
+    "tegen": 19,
+    "doelsaldo": -7,
     "punten": 0
   },
   {

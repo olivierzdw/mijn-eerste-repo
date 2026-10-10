@@ -40,6 +40,19 @@
   },
   {
     "positie": 4,
+    "club": "Atletico Club Amsterdam MO17-1",
+    "logo": "",
+    "gespeeld": 7,
+    "gewonnen": 3,
+    "gelijk": 0,
+    "verloren": 4,
+    "voor": 10,
+    "tegen": 21,
+    "doelsaldo": -11,
+    "punten": 9
+  },
+  {
+    "positie": 5,
     "club": "Almere FC MO17-1",
     "logo": "",
     "gespeeld": 6,
@@ -52,30 +65,17 @@
     "punten": 7
   },
   {
-    "positie": 5,
+    "positie": 6,
     "club": "SDO MO17-1",
     "logo": "",
-    "gespeeld": 6,
+    "gespeeld": 7,
     "gewonnen": 2,
     "gelijk": 1,
-    "verloren": 3,
-    "voor": 13,
-    "tegen": 16,
-    "doelsaldo": -3,
-    "punten": 7
-  },
-  {
-    "positie": 6,
-    "club": "Atletico Club Amsterdam MO17-1",
-    "logo": "",
-    "gespeeld": 6,
-    "gewonnen": 2,
-    "gelijk": 0,
     "verloren": 4,
-    "voor": 6,
-    "tegen": 18,
-    "doelsaldo": -12,
-    "punten": 6
+    "voor": 16,
+    "tegen": 20,
+    "doelsaldo": -4,
+    "punten": 7
   },
   {
     "positie": 7,
