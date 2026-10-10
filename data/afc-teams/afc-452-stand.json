@@ -14,6 +14,19 @@
   },
   {
     "positie": 2,
+    "club": "DRC 45+1",
+    "logo": "",
+    "gespeeld": 4,
+    "gewonnen": 3,
+    "gelijk": 1,
+    "verloren": 0,
+    "voor": 24,
+    "tegen": 7,
+    "doelsaldo": 17,
+    "punten": 10
+  },
+  {
+    "positie": 3,
     "club": "Geinburgia sv. 45+1",
     "logo": "",
     "gespeeld": 4,
@@ -24,19 +37,6 @@
     "tegen": 9,
     "doelsaldo": 16,
     "punten": 9
-  },
-  {
-    "positie": 3,
-    "club": "DRC 45+1",
-    "logo": "",
-    "gespeeld": 3,
-    "gewonnen": 2,
-    "gelijk": 1,
-    "verloren": 0,
-    "voor": 18,
-    "tegen": 5,
-    "doelsaldo": 13,
-    "punten": 7
   },
   {
     "positie": 4,
@@ -118,19 +118,6 @@
   },
   {
     "positie": 10,
-    "club": "Wartburgia asv 45+1",
-    "logo": "",
-    "gespeeld": 3,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 2,
-    "voor": 9,
-    "tegen": 17,
-    "doelsaldo": -8,
-    "punten": 3
-  },
-  {
-    "positie": 11,
     "club": "GeuzenMiddenmeer 45+2",
     "logo": "",
     "gespeeld": 3,
@@ -140,6 +127,19 @@
     "voor": 7,
     "tegen": 16,
     "doelsaldo": -9,
+    "punten": 3
+  },
+  {
+    "positie": 11,
+    "club": "Wartburgia asv 45+1",
+    "logo": "",
+    "gespeeld": 4,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 3,
+    "voor": 11,
+    "tegen": 23,
+    "doelsaldo": -12,
     "punten": 3
   },
   {

@@ -14,6 +14,19 @@
   },
   {
     "positie": 2,
+    "club": "DVVA csv. 5",
+    "logo": "",
+    "gespeeld": 3,
+    "gewonnen": 3,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 8,
+    "tegen": 3,
+    "doelsaldo": 5,
+    "punten": 9
+  },
+  {
+    "positie": 3,
     "club": "AFC 7",
     "logo": "images/afc.png",
     "gespeeld": 4,
@@ -24,19 +37,6 @@
     "tegen": 4,
     "doelsaldo": 2,
     "punten": 7
-  },
-  {
-    "positie": 3,
-    "club": "DVVA csv. 5",
-    "logo": "",
-    "gespeeld": 2,
-    "gewonnen": 2,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 7,
-    "tegen": 3,
-    "doelsaldo": 4,
-    "punten": 6
   },
   {
     "positie": 4,
@@ -53,6 +53,19 @@
   },
   {
     "positie": 5,
+    "club": "RAP sv. 2",
+    "logo": "",
+    "gespeeld": 4,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 11,
+    "tegen": 9,
+    "doelsaldo": 2,
+    "punten": 6
+  },
+  {
+    "positie": 6,
     "club": "Wartburgia asv 5",
     "logo": "",
     "gespeeld": 4,
@@ -65,7 +78,7 @@
     "punten": 6
   },
   {
-    "positie": 6,
+    "positie": 7,
     "club": "Muiderberg sc. 2",
     "logo": "",
     "gespeeld": 4,
@@ -78,33 +91,7 @@
     "punten": 4
   },
   {
-    "positie": 7,
-    "club": "JOS Watergraafsmeer 4",
-    "logo": "",
-    "gespeeld": 2,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 1,
-    "voor": 3,
-    "tegen": 3,
-    "doelsaldo": 0,
-    "punten": 3
-  },
-  {
     "positie": 8,
-    "club": "RAP sv. 2",
-    "logo": "",
-    "gespeeld": 3,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 2,
-    "voor": 6,
-    "tegen": 7,
-    "doelsaldo": -1,
-    "punten": 3
-  },
-  {
-    "positie": 9,
     "club": "TOS-Actief 3",
     "logo": "",
     "gespeeld": 3,
@@ -117,16 +104,29 @@
     "punten": 3
   },
   {
-    "positie": 10,
-    "club": "WV-HEDW 8",
+    "positie": 9,
+    "club": "JOS Watergraafsmeer 4",
     "logo": "",
     "gespeeld": 3,
     "gewonnen": 1,
     "gelijk": 0,
     "verloren": 2,
-    "voor": 4,
-    "tegen": 7,
+    "voor": 5,
+    "tegen": 8,
     "doelsaldo": -3,
+    "punten": 3
+  },
+  {
+    "positie": 10,
+    "club": "WV-HEDW 8",
+    "logo": "",
+    "gespeeld": 4,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 3,
+    "voor": 4,
+    "tegen": 8,
+    "doelsaldo": -4,
     "punten": 3
   },
   {

@@ -92,19 +92,32 @@
   },
   {
     "positie": 8,
-    "club": "Meer De sv. 6",
-    "logo": "",
-    "gespeeld": 3,
-    "gewonnen": 1,
-    "gelijk": 1,
-    "verloren": 1,
-    "voor": 10,
-    "tegen": 10,
+    "club": "TABA afc 3",
+    "logo": "images/afc.png",
+    "gespeeld": 4,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 13,
+    "tegen": 13,
     "doelsaldo": 0,
-    "punten": 4
+    "punten": 6
   },
   {
     "positie": 9,
+    "club": "Meer De sv. 6",
+    "logo": "",
+    "gespeeld": 4,
+    "gewonnen": 1,
+    "gelijk": 1,
+    "verloren": 2,
+    "voor": 12,
+    "tegen": 13,
+    "doelsaldo": -1,
+    "punten": 4
+  },
+  {
+    "positie": 10,
     "club": "Ouderkerk sv. 3",
     "logo": "",
     "gespeeld": 4,
@@ -117,7 +130,7 @@
     "punten": 4
   },
   {
-    "positie": 10,
+    "positie": 11,
     "club": "ASV Arsenal 6",
     "logo": "",
     "gespeeld": 3,
@@ -127,19 +140,6 @@
     "voor": 6,
     "tegen": 6,
     "doelsaldo": 0,
-    "punten": 3
-  },
-  {
-    "positie": 11,
-    "club": "TABA afc 3",
-    "logo": "images/afc.png",
-    "gespeeld": 3,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 2,
-    "voor": 10,
-    "tegen": 11,
-    "doelsaldo": -1,
     "punten": 3
   },
   {
