@@ -107,14 +107,14 @@
     "positie": 9,
     "club": "Go Ahead Eagles",
     "logo": "https://crests.football-data.org/718.png",
-    "gespeeld": 7,
+    "gespeeld": 8,
     "punten": 10,
     "gewonnen": 2,
     "gelijk": 4,
-    "verloren": 1,
-    "doelsaldo": 2,
+    "verloren": 2,
+    "doelsaldo": 1,
     "voor": 16,
-    "tegen": 14
+    "tegen": 15
   },
   {
     "positie": 10,
@@ -146,13 +146,13 @@
     "positie": 12,
     "club": "Sparta",
     "logo": "https://crests.football-data.org/6806.png",
-    "gespeeld": 7,
-    "punten": 5,
-    "gewonnen": 1,
+    "gespeeld": 8,
+    "punten": 8,
+    "gewonnen": 2,
     "gelijk": 2,
     "verloren": 4,
-    "doelsaldo": -7,
-    "voor": 10,
+    "doelsaldo": -6,
+    "voor": 11,
     "tegen": 17
   },
   {
