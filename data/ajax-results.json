@@ -68,5 +68,15 @@
     "uitLogo": "https://crests.football-data.org/670.png",
     "thuisScore": 2,
     "uitScore": 2
+  },
+  {
+    "id": 558878,
+    "datum": "za 10 oktober",
+    "thuis": "Ajax",
+    "thuisLogo": "https://crests.football-data.org/678.png",
+    "uit": "NEC",
+    "uitLogo": "https://crests.football-data.org/1915.png",
+    "thuisScore": 1,
+    "uitScore": 1
   }
 ]
