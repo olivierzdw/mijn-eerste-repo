@@ -394,6 +394,19 @@
     },
     {
       "positie": 11,
+      "club": "RCD Espanyol de Barcelona",
+      "logo": "https://crests.football-data.org/80.png",
+      "gespeeld": 8,
+      "punten": 8,
+      "gewonnen": 2,
+      "gelijk": 2,
+      "verloren": 4,
+      "doelsaldo": 0,
+      "voor": 11,
+      "tegen": 11
+    },
+    {
+      "positie": 12,
       "club": "Getafe CF",
       "logo": "https://crests.football-data.org/82.png",
       "gespeeld": 7,
@@ -406,7 +419,7 @@
       "tegen": 7
     },
     {
-      "positie": 12,
+      "positie": 13,
       "club": "Rayo Vallecano de Madrid",
       "logo": "https://crests.football-data.org/87.png",
       "gespeeld": 7,
@@ -419,7 +432,7 @@
       "tegen": 16
     },
     {
-      "positie": 13,
+      "positie": 14,
       "club": "CA Osasuna",
       "logo": "https://crests.football-data.org/79.png",
       "gespeeld": 7,
@@ -432,7 +445,7 @@
       "tegen": 13
     },
     {
-      "positie": 14,
+      "positie": 15,
       "club": "RC Celta de Vigo",
       "logo": "https://crests.football-data.org/558.png",
       "gespeeld": 7,
@@ -443,19 +456,6 @@
       "doelsaldo": 2,
       "voor": 8,
       "tegen": 6
-    },
-    {
-      "positie": 15,
-      "club": "RCD Espanyol de Barcelona",
-      "logo": "https://crests.football-data.org/80.png",
-      "gespeeld": 7,
-      "punten": 7,
-      "gewonnen": 2,
-      "gelijk": 1,
-      "verloren": 4,
-      "doelsaldo": 0,
-      "voor": 10,
-      "tegen": 10
     },
     {
       "positie": 16,
@@ -498,6 +498,19 @@
     },
     {
       "positie": 19,
+      "club": "Málaga CF",
+      "logo": "https://crests.football-data.org/84.png",
+      "gespeeld": 8,
+      "punten": 4,
+      "gewonnen": 0,
+      "gelijk": 4,
+      "verloren": 4,
+      "doelsaldo": -9,
+      "voor": 4,
+      "tegen": 13
+    },
+    {
+      "positie": 19,
       "club": "Valencia CF",
       "logo": "https://crests.football-data.org/95.png",
       "gespeeld": 7,
@@ -508,19 +521,6 @@
       "doelsaldo": -9,
       "voor": 4,
       "tegen": 13
-    },
-    {
-      "positie": 20,
-      "club": "Málaga CF",
-      "logo": "https://crests.football-data.org/84.png",
-      "gespeeld": 7,
-      "punten": 3,
-      "gewonnen": 0,
-      "gelijk": 3,
-      "verloren": 4,
-      "doelsaldo": -9,
-      "voor": 3,
-      "tegen": 12
     }
   ],
   "BL1": [
@@ -528,14 +528,14 @@
       "positie": 1,
       "club": "Borussia Dortmund",
       "logo": "https://crests.football-data.org/4.png",
-      "gespeeld": 4,
-      "punten": 12,
+      "gespeeld": 5,
+      "punten": 13,
       "gewonnen": 4,
-      "gelijk": 0,
+      "gelijk": 1,
       "verloren": 0,
       "doelsaldo": 7,
-      "voor": 9,
-      "tegen": 2
+      "voor": 11,
+      "tegen": 4
     },
     {
       "positie": 2,
@@ -565,6 +565,19 @@
     },
     {
       "positie": 4,
+      "club": "SV Werder Bremen",
+      "logo": "https://crests.football-data.org/12.png",
+      "gespeeld": 5,
+      "punten": 8,
+      "gewonnen": 2,
+      "gelijk": 2,
+      "verloren": 1,
+      "doelsaldo": 0,
+      "voor": 10,
+      "tegen": 10
+    },
+    {
+      "positie": 5,
       "club": "FC Augsburg",
       "logo": "https://crests.football-data.org/16.png",
       "gespeeld": 4,
@@ -577,7 +590,7 @@
       "tegen": 6
     },
     {
-      "positie": 5,
+      "positie": 6,
       "club": "Bayer 04 Leverkusen",
       "logo": "https://crests.football-data.org/3.png",
       "gespeeld": 4,
@@ -590,7 +603,7 @@
       "tegen": 5
     },
     {
-      "positie": 6,
+      "positie": 7,
       "club": "1. FSV Mainz 05",
       "logo": "https://crests.football-data.org/15.png",
       "gespeeld": 4,
@@ -603,7 +616,7 @@
       "tegen": 6
     },
     {
-      "positie": 7,
+      "positie": 8,
       "club": "SV 07 Elversberg",
       "logo": "https://crests.football-data.org/719.png",
       "gespeeld": 4,
@@ -614,19 +627,6 @@
       "doelsaldo": 1,
       "voor": 8,
       "tegen": 7
-    },
-    {
-      "positie": 8,
-      "club": "SV Werder Bremen",
-      "logo": "https://crests.football-data.org/12.png",
-      "gespeeld": 4,
-      "punten": 7,
-      "gewonnen": 2,
-      "gelijk": 1,
-      "verloren": 1,
-      "doelsaldo": 0,
-      "voor": 8,
-      "tegen": 8
     },
     {
       "positie": 9,
@@ -1039,14 +1039,14 @@
       "positie": 2,
       "club": "Olympique Lyonnais",
       "logo": "https://crests.football-data.org/523.png",
-      "gespeeld": 5,
+      "gespeeld": 6,
       "punten": 11,
       "gewonnen": 3,
       "gelijk": 2,
-      "verloren": 0,
-      "doelsaldo": 8,
-      "voor": 10,
-      "tegen": 2
+      "verloren": 1,
+      "doelsaldo": 7,
+      "voor": 11,
+      "tegen": 4
     },
     {
       "positie": 3,
@@ -1102,6 +1102,19 @@
     },
     {
       "positie": 7,
+      "club": "Racing Club de Lens",
+      "logo": "https://crests.football-data.org/546.png",
+      "gespeeld": 6,
+      "punten": 7,
+      "gewonnen": 2,
+      "gelijk": 1,
+      "verloren": 3,
+      "doelsaldo": 1,
+      "voor": 11,
+      "tegen": 10
+    },
+    {
+      "positie": 8,
       "club": "Angers SCO",
       "logo": "https://crests.football-data.org/532.png",
       "gespeeld": 5,
@@ -1114,7 +1127,7 @@
       "tegen": 5
     },
     {
-      "positie": 8,
+      "positie": 9,
       "club": "RC Strasbourg Alsace",
       "logo": "https://crests.football-data.org/576.png",
       "gespeeld": 5,
@@ -1127,7 +1140,7 @@
       "tegen": 10
     },
     {
-      "positie": 9,
+      "positie": 10,
       "club": "Le Mans FC",
       "logo": "https://crests.football-data.org/535.png",
       "gespeeld": 5,
@@ -1140,7 +1153,7 @@
       "tegen": 9
     },
     {
-      "positie": 10,
+      "positie": 11,
       "club": "AJ Auxerre",
       "logo": "https://crests.football-data.org/519.png",
       "gespeeld": 5,
@@ -1153,7 +1166,7 @@
       "tegen": 12
     },
     {
-      "positie": 11,
+      "positie": 12,
       "club": "Stade Brestois 29",
       "logo": "https://crests.football-data.org/512.png",
       "gespeeld": 5,
@@ -1166,7 +1179,7 @@
       "tegen": 8
     },
     {
-      "positie": 12,
+      "positie": 13,
       "club": "FC Lorient",
       "logo": "https://crests.football-data.org/525.png",
       "gespeeld": 5,
@@ -1179,7 +1192,7 @@
       "tegen": 6
     },
     {
-      "positie": 13,
+      "positie": 14,
       "club": "Toulouse FC",
       "logo": "https://crests.football-data.org/511.png",
       "gespeeld": 5,
@@ -1192,7 +1205,7 @@
       "tegen": 9
     },
     {
-      "positie": 14,
+      "positie": 15,
       "club": "OGC Nice",
       "logo": "https://crests.football-data.org/522.png",
       "gespeeld": 5,
@@ -1203,19 +1216,6 @@
       "doelsaldo": -3,
       "voor": 3,
       "tegen": 6
-    },
-    {
-      "positie": 15,
-      "club": "Racing Club de Lens",
-      "logo": "https://crests.football-data.org/546.png",
-      "gespeeld": 5,
-      "punten": 4,
-      "gewonnen": 1,
-      "gelijk": 1,
-      "verloren": 3,
-      "doelsaldo": 0,
-      "voor": 9,
-      "tegen": 9
     },
     {
       "positie": 16,
@@ -1260,6 +1260,19 @@
   "DED": [
     {
       "positie": 1,
+      "club": "PSV",
+      "logo": "https://crests.football-data.org/674.png",
+      "gespeeld": 8,
+      "punten": 19,
+      "gewonnen": 6,
+      "gelijk": 1,
+      "verloren": 1,
+      "doelsaldo": 16,
+      "voor": 26,
+      "tegen": 10
+    },
+    {
+      "positie": 2,
       "club": "AZ",
       "logo": "https://crests.football-data.org/682.png",
       "gespeeld": 7,
@@ -1272,7 +1285,7 @@
       "tegen": 6
     },
     {
-      "positie": 2,
+      "positie": 3,
       "club": "Feyenoord Rotterdam",
       "logo": "https://crests.football-data.org/675.png",
       "gespeeld": 7,
@@ -1283,19 +1296,6 @@
       "doelsaldo": 18,
       "voor": 25,
       "tegen": 7
-    },
-    {
-      "positie": 3,
-      "club": "PSV",
-      "logo": "https://crests.football-data.org/674.png",
-      "gespeeld": 7,
-      "punten": 16,
-      "gewonnen": 5,
-      "gelijk": 1,
-      "verloren": 1,
-      "doelsaldo": 14,
-      "voor": 24,
-      "tegen": 10
     },
     {
       "positie": 4,
@@ -1379,14 +1379,14 @@
       "positie": 10,
       "club": "SC Heerenveen",
       "logo": "https://crests.football-data.org/673.png",
-      "gespeeld": 7,
+      "gespeeld": 8,
       "punten": 9,
       "gewonnen": 2,
       "gelijk": 3,
-      "verloren": 2,
-      "doelsaldo": 2,
+      "verloren": 3,
+      "doelsaldo": 0,
       "voor": 11,
-      "tegen": 9
+      "tegen": 11
     },
     {
       "positie": 11,
@@ -1509,6 +1509,19 @@
     },
     {
       "positie": 2,
+      "club": "Sporting Clube de Portugal",
+      "logo": "https://crests.football-data.org/498.png",
+      "gespeeld": 8,
+      "punten": 18,
+      "gewonnen": 5,
+      "gelijk": 3,
+      "verloren": 0,
+      "doelsaldo": 11,
+      "voor": 20,
+      "tegen": 9
+    },
+    {
+      "positie": 3,
       "club": "Sport Lisboa e Benfica",
       "logo": "https://crests.football-data.org/1903.png",
       "gespeeld": 7,
@@ -1519,19 +1532,6 @@
       "doelsaldo": 15,
       "voor": 22,
       "tegen": 7
-    },
-    {
-      "positie": 3,
-      "club": "Sporting Clube de Portugal",
-      "logo": "https://crests.football-data.org/498.png",
-      "gespeeld": 7,
-      "punten": 15,
-      "gewonnen": 4,
-      "gelijk": 3,
-      "verloren": 0,
-      "doelsaldo": 9,
-      "voor": 17,
-      "tegen": 8
     },
     {
       "positie": 4,
@@ -1561,15 +1561,15 @@
     },
     {
       "positie": 6,
-      "club": "Sporting Clube de Braga",
-      "logo": "https://crests.football-data.org/5613.png",
-      "gespeeld": 6,
+      "club": "Gil Vicente FC",
+      "logo": "https://crests.football-data.org/5533.png",
+      "gespeeld": 7,
       "punten": 11,
       "gewonnen": 3,
       "gelijk": 2,
-      "verloren": 1,
-      "doelsaldo": 2,
-      "voor": 7,
+      "verloren": 2,
+      "doelsaldo": 1,
+      "voor": 6,
       "tegen": 5
     },
     {
@@ -1587,6 +1587,19 @@
     },
     {
       "positie": 8,
+      "club": "Sporting Clube de Braga",
+      "logo": "https://crests.football-data.org/5613.png",
+      "gespeeld": 7,
+      "punten": 11,
+      "gewonnen": 3,
+      "gelijk": 2,
+      "verloren": 2,
+      "doelsaldo": 0,
+      "voor": 8,
+      "tegen": 8
+    },
+    {
+      "positie": 9,
       "club": "CF Estrela da Amadora",
       "logo": "https://crests.football-data.org/9136.png",
       "gespeeld": 7,
@@ -1597,19 +1610,6 @@
       "doelsaldo": 0,
       "voor": 14,
       "tegen": 14
-    },
-    {
-      "positie": 9,
-      "club": "Gil Vicente FC",
-      "logo": "https://crests.football-data.org/5533.png",
-      "gespeeld": 6,
-      "punten": 8,
-      "gewonnen": 2,
-      "gelijk": 2,
-      "verloren": 2,
-      "doelsaldo": 0,
-      "voor": 5,
-      "tegen": 5
     },
     {
       "positie": 10,
@@ -1641,14 +1641,14 @@
       "positie": 12,
       "club": "Moreirense FC",
       "logo": "https://crests.football-data.org/583.png",
-      "gespeeld": 7,
+      "gespeeld": 8,
       "punten": 8,
       "gewonnen": 2,
       "gelijk": 2,
-      "verloren": 3,
-      "doelsaldo": -6,
+      "verloren": 4,
+      "doelsaldo": -7,
       "voor": 8,
-      "tegen": 14
+      "tegen": 15
     },
     {
       "positie": 13,
