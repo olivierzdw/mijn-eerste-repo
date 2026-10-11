@@ -81,13 +81,13 @@
     "positie": 7,
     "club": "EVC 2",
     "logo": "",
-    "gespeeld": 2,
+    "gespeeld": 3,
     "gewonnen": 1,
     "gelijk": 0,
-    "verloren": 1,
-    "voor": 6,
-    "tegen": 8,
-    "doelsaldo": -2,
+    "verloren": 2,
+    "voor": 7,
+    "tegen": 11,
+    "doelsaldo": -4,
     "punten": 3
   },
   {
@@ -118,6 +118,19 @@
   },
   {
     "positie": 10,
+    "club": "Real Sranang sv. 2",
+    "logo": "",
+    "gespeeld": 4,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 11,
+    "tegen": 19,
+    "doelsaldo": -8,
+    "punten": 3
+  },
+  {
+    "positie": 11,
     "club": "HBOK 3",
     "logo": "",
     "gespeeld": 3,
@@ -128,18 +141,5 @@
     "tegen": 10,
     "doelsaldo": -6,
     "punten": 1
-  },
-  {
-    "positie": 11,
-    "club": "Real Sranang sv. 2",
-    "logo": "",
-    "gespeeld": 3,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 2,
-    "voor": 8,
-    "tegen": 18,
-    "doelsaldo": -10,
-    "punten": 0
   }
 ]

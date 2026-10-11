@@ -40,19 +40,6 @@
   },
   {
     "positie": 4,
-    "club": "Diemen sv. 4",
-    "logo": "",
-    "gespeeld": 3,
-    "gewonnen": 2,
-    "gelijk": 0,
-    "verloren": 1,
-    "voor": 9,
-    "tegen": 6,
-    "doelsaldo": 3,
-    "punten": 6
-  },
-  {
-    "positie": 5,
     "club": "RAP sv. 2",
     "logo": "",
     "gespeeld": 4,
@@ -61,6 +48,19 @@
     "verloren": 2,
     "voor": 11,
     "tegen": 9,
+    "doelsaldo": 2,
+    "punten": 6
+  },
+  {
+    "positie": 5,
+    "club": "Diemen sv. 4",
+    "logo": "",
+    "gespeeld": 4,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 9,
+    "tegen": 7,
     "doelsaldo": 2,
     "punten": 6
   },
@@ -118,6 +118,19 @@
   },
   {
     "positie": 10,
+    "club": "Zeeburgia avv 2",
+    "logo": "",
+    "gespeeld": 3,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 3,
+    "tegen": 6,
+    "doelsaldo": -3,
+    "punten": 3
+  },
+  {
+    "positie": 11,
     "club": "WV-HEDW 8",
     "logo": "",
     "gespeeld": 4,
@@ -130,7 +143,7 @@
     "punten": 3
   },
   {
-    "positie": 11,
+    "positie": 12,
     "club": "FC Amsterdam 5",
     "logo": "",
     "gespeeld": 4,
@@ -141,18 +154,5 @@
     "tegen": 10,
     "doelsaldo": -5,
     "punten": 3
-  },
-  {
-    "positie": 12,
-    "club": "Zeeburgia avv 2",
-    "logo": "",
-    "gespeeld": 2,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 2,
-    "voor": 2,
-    "tegen": 6,
-    "doelsaldo": -4,
-    "punten": 0
   }
 ]

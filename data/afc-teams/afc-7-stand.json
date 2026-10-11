@@ -27,6 +27,32 @@
   },
   {
     "positie": 3,
+    "club": "WV-HEDW 6",
+    "logo": "",
+    "gespeeld": 3,
+    "gewonnen": 3,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 10,
+    "tegen": 2,
+    "doelsaldo": 8,
+    "punten": 9
+  },
+  {
+    "positie": 4,
+    "club": "VVA/Spartaan, 5",
+    "logo": "",
+    "gespeeld": 4,
+    "gewonnen": 3,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 23,
+    "tegen": 7,
+    "doelsaldo": 16,
+    "punten": 9
+  },
+  {
+    "positie": 5,
     "club": "TABA afc 5",
     "logo": "images/afc.png",
     "gespeeld": 3,
@@ -39,43 +65,17 @@
     "punten": 7
   },
   {
-    "positie": 4,
+    "positie": 6,
     "club": "Sloterdijk avv. 4",
     "logo": "images/sloterdijk.png",
-    "gespeeld": 3,
+    "gespeeld": 4,
     "gewonnen": 2,
     "gelijk": 1,
-    "verloren": 0,
-    "voor": 11,
-    "tegen": 8,
-    "doelsaldo": 3,
-    "punten": 7
-  },
-  {
-    "positie": 5,
-    "club": "WV-HEDW 6",
-    "logo": "",
-    "gespeeld": 2,
-    "gewonnen": 2,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 7,
-    "tegen": 1,
-    "doelsaldo": 6,
-    "punten": 6
-  },
-  {
-    "positie": 6,
-    "club": "VVA/Spartaan, 5",
-    "logo": "",
-    "gespeeld": 3,
-    "gewonnen": 2,
-    "gelijk": 0,
     "verloren": 1,
-    "voor": 18,
-    "tegen": 7,
-    "doelsaldo": 11,
-    "punten": 6
+    "voor": 12,
+    "tegen": 11,
+    "doelsaldo": 1,
+    "punten": 7
   },
   {
     "positie": 7,
@@ -92,6 +92,19 @@
   },
   {
     "positie": 8,
+    "club": "Sporting Martinus 4",
+    "logo": "",
+    "gespeeld": 4,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 15,
+    "tegen": 9,
+    "doelsaldo": 6,
+    "punten": 6
+  },
+  {
+    "positie": 9,
     "club": "SDZ 8",
     "logo": "",
     "gespeeld": 3,
@@ -104,7 +117,7 @@
     "punten": 3
   },
   {
-    "positie": 9,
+    "positie": 10,
     "club": "Meer De sv. 6",
     "logo": "",
     "gespeeld": 3,
@@ -114,19 +127,6 @@
     "voor": 7,
     "tegen": 7,
     "doelsaldo": 0,
-    "punten": 3
-  },
-  {
-    "positie": 10,
-    "club": "Sporting Martinus 4",
-    "logo": "",
-    "gespeeld": 3,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 2,
-    "voor": 7,
-    "tegen": 8,
-    "doelsaldo": -1,
     "punten": 3
   },
   {
@@ -157,28 +157,28 @@
   },
   {
     "positie": 13,
-    "club": "ASV Arsenal 6",
+    "club": "Zeeburgia avv 5",
     "logo": "",
-    "gespeeld": 3,
+    "gespeeld": 4,
     "gewonnen": 0,
     "gelijk": 0,
-    "verloren": 3,
-    "voor": 5,
-    "tegen": 22,
-    "doelsaldo": -17,
+    "verloren": 4,
+    "voor": 2,
+    "tegen": 25,
+    "doelsaldo": -23,
     "punten": 0
   },
   {
     "positie": 14,
-    "club": "Zeeburgia avv 5",
+    "club": "ASV Arsenal 6",
     "logo": "",
-    "gespeeld": 3,
+    "gespeeld": 4,
     "gewonnen": 0,
     "gelijk": 0,
-    "verloren": 3,
-    "voor": 2,
-    "tegen": 20,
-    "doelsaldo": -18,
+    "verloren": 4,
+    "voor": 6,
+    "tegen": 30,
+    "doelsaldo": -24,
     "punten": 0
   }
 ]
