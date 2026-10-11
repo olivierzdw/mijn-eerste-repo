@@ -55,14 +55,14 @@
     "positie": 5,
     "club": "Sporting Martinus 3",
     "logo": "",
-    "gespeeld": 3,
+    "gespeeld": 4,
     "gewonnen": 2,
-    "gelijk": 0,
+    "gelijk": 1,
     "verloren": 1,
-    "voor": 9,
-    "tegen": 5,
+    "voor": 13,
+    "tegen": 9,
     "doelsaldo": 4,
-    "punten": 6
+    "punten": 7
   },
   {
     "positie": 6,
@@ -107,14 +107,14 @@
     "positie": 9,
     "club": "VVA/Spartaan, 3",
     "logo": "",
-    "gespeeld": 3,
+    "gespeeld": 4,
     "gewonnen": 1,
-    "gelijk": 0,
+    "gelijk": 1,
     "verloren": 2,
-    "voor": 11,
-    "tegen": 17,
+    "voor": 15,
+    "tegen": 21,
     "doelsaldo": -6,
-    "punten": 3
+    "punten": 4
   },
   {
     "positie": 10,

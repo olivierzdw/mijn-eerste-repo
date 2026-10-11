@@ -27,6 +27,19 @@
   },
   {
     "positie": 3,
+    "club": "Kadoelen sv. 3",
+    "logo": "",
+    "gespeeld": 3,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 13,
+    "tegen": 7,
+    "doelsaldo": 6,
+    "punten": 6
+  },
+  {
+    "positie": 4,
     "club": "AFC 6",
     "logo": "images/afc.png",
     "gespeeld": 3,
@@ -39,7 +52,7 @@
     "punten": 5
   },
   {
-    "positie": 4,
+    "positie": 5,
     "club": "Monnickendam 3",
     "logo": "",
     "gespeeld": 3,
@@ -52,7 +65,7 @@
     "punten": 4
   },
   {
-    "positie": 5,
+    "positie": 6,
     "club": "Zouaven (de) 2",
     "logo": "",
     "gespeeld": 1,
@@ -62,19 +75,6 @@
     "voor": 6,
     "tegen": 4,
     "doelsaldo": 2,
-    "punten": 3
-  },
-  {
-    "positie": 6,
-    "club": "Sloterdijk avv. 2",
-    "logo": "images/sloterdijk.png",
-    "gespeeld": 1,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 1,
-    "tegen": 0,
-    "doelsaldo": 1,
     "punten": 3
   },
   {
@@ -92,15 +92,15 @@
   },
   {
     "positie": 8,
-    "club": "Kadoelen sv. 3",
-    "logo": "",
+    "club": "Sloterdijk avv. 2",
+    "logo": "images/sloterdijk.png",
     "gespeeld": 2,
     "gewonnen": 1,
     "gelijk": 0,
     "verloren": 1,
-    "voor": 7,
-    "tegen": 7,
-    "doelsaldo": 0,
+    "voor": 1,
+    "tegen": 6,
+    "doelsaldo": -5,
     "punten": 3
   },
   {

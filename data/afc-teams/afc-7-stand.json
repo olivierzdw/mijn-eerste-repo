@@ -1,6 +1,19 @@
 [
   {
     "positie": 1,
+    "club": "HYS 4",
+    "logo": "",
+    "gespeeld": 4,
+    "gewonnen": 4,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 20,
+    "tegen": 9,
+    "doelsaldo": 11,
+    "punten": 12
+  },
+  {
+    "positie": 2,
     "club": "Buitenveldert sc. 3",
     "logo": "",
     "gespeeld": 3,
@@ -10,19 +23,6 @@
     "voor": 20,
     "tegen": 1,
     "doelsaldo": 19,
-    "punten": 9
-  },
-  {
-    "positie": 2,
-    "club": "HYS 4",
-    "logo": "",
-    "gespeeld": 3,
-    "gewonnen": 3,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 17,
-    "tegen": 8,
-    "doelsaldo": 9,
     "punten": 9
   },
   {
@@ -55,13 +55,13 @@
     "positie": 5,
     "club": "TABA afc 5",
     "logo": "images/afc.png",
-    "gespeeld": 3,
+    "gespeeld": 4,
     "gewonnen": 2,
     "gelijk": 1,
-    "verloren": 0,
-    "voor": 11,
-    "tegen": 7,
-    "doelsaldo": 4,
+    "verloren": 1,
+    "voor": 14,
+    "tegen": 11,
+    "doelsaldo": 3,
     "punten": 7
   },
   {
@@ -118,29 +118,29 @@
   },
   {
     "positie": 10,
-    "club": "Meer De sv. 6",
+    "club": "SCPB'22 4",
     "logo": "",
     "gespeeld": 3,
     "gewonnen": 1,
     "gelijk": 0,
     "verloren": 2,
-    "voor": 7,
-    "tegen": 7,
-    "doelsaldo": 0,
+    "voor": 9,
+    "tegen": 14,
+    "doelsaldo": -5,
     "punten": 3
   },
   {
     "positie": 11,
-    "club": "SCPB'22 4",
+    "club": "Meer De sv. 6",
     "logo": "",
-    "gespeeld": 2,
-    "gewonnen": 0,
+    "gespeeld": 4,
+    "gewonnen": 1,
     "gelijk": 0,
-    "verloren": 2,
-    "voor": 5,
-    "tegen": 11,
-    "doelsaldo": -6,
-    "punten": 0
+    "verloren": 3,
+    "voor": 8,
+    "tegen": 10,
+    "doelsaldo": -2,
+    "punten": 3
   },
   {
     "positie": 12,
