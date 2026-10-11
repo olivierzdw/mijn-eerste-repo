@@ -1,6 +1,19 @@
 [
   {
     "positie": 1,
+    "club": "Atletico Club Amsterdam MO13-1",
+    "logo": "",
+    "gespeeld": 4,
+    "gewonnen": 3,
+    "gelijk": 1,
+    "verloren": 0,
+    "voor": 23,
+    "tegen": 3,
+    "doelsaldo": 20,
+    "punten": 10
+  },
+  {
+    "positie": 2,
     "club": "AFC MO13-1",
     "logo": "images/afc.png",
     "gespeeld": 4,
@@ -11,19 +24,6 @@
     "tegen": 4,
     "doelsaldo": 6,
     "punten": 10
-  },
-  {
-    "positie": 2,
-    "club": "Atletico Club Amsterdam MO13-1",
-    "logo": "",
-    "gespeeld": 3,
-    "gewonnen": 2,
-    "gelijk": 1,
-    "verloren": 0,
-    "voor": 15,
-    "tegen": 3,
-    "doelsaldo": 12,
-    "punten": 7
   },
   {
     "positie": 3,
@@ -55,13 +55,13 @@
     "positie": 5,
     "club": "DCG Rksv MO13-2",
     "logo": "",
-    "gespeeld": 3,
+    "gespeeld": 4,
     "gewonnen": 0,
     "gelijk": 0,
-    "verloren": 3,
+    "verloren": 4,
     "voor": 0,
-    "tegen": 23,
-    "doelsaldo": -23,
+    "tegen": 31,
+    "doelsaldo": -31,
     "punten": 0
   }
 ]
