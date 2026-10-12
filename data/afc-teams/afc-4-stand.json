@@ -120,27 +120,27 @@
     "positie": 10,
     "club": "SDZ 6",
     "logo": "",
-    "gespeeld": 3,
+    "gespeeld": 4,
     "gewonnen": 0,
-    "gelijk": 0,
+    "gelijk": 1,
     "verloren": 3,
-    "voor": 7,
-    "tegen": 16,
+    "voor": 10,
+    "tegen": 19,
     "doelsaldo": -9,
-    "punten": 0
+    "punten": 1
   },
   {
     "positie": 11,
     "club": "Atletico Club Amsterdam 2",
     "logo": "",
-    "gespeeld": 3,
+    "gespeeld": 4,
     "gewonnen": 0,
-    "gelijk": 0,
+    "gelijk": 1,
     "verloren": 3,
-    "voor": 6,
-    "tegen": 19,
+    "voor": 9,
+    "tegen": 22,
     "doelsaldo": -13,
-    "punten": 0
+    "punten": 1
   },
   {
     "positie": 12,

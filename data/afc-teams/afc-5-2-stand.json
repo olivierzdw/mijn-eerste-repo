@@ -27,6 +27,19 @@
   },
   {
     "positie": 3,
+    "club": "WV-HEDW 6",
+    "logo": "",
+    "gespeeld": 4,
+    "gewonnen": 3,
+    "gelijk": 1,
+    "verloren": 0,
+    "voor": 14,
+    "tegen": 8,
+    "doelsaldo": 6,
+    "punten": 10
+  },
+  {
+    "positie": 4,
     "club": "Sporting Martinus 3",
     "logo": "",
     "gespeeld": 4,
@@ -37,19 +50,6 @@
     "tegen": 10,
     "doelsaldo": 10,
     "punten": 9
-  },
-  {
-    "positie": 4,
-    "club": "WV-HEDW 6",
-    "logo": "",
-    "gespeeld": 4,
-    "gewonnen": 2,
-    "gelijk": 1,
-    "verloren": 1,
-    "voor": 12,
-    "tegen": 10,
-    "doelsaldo": 2,
-    "punten": 7
   },
   {
     "positie": 5,
@@ -144,19 +144,6 @@
   },
   {
     "positie": 12,
-    "club": "Kadoelen sv. 2",
-    "logo": "",
-    "gespeeld": 4,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 3,
-    "voor": 5,
-    "tegen": 13,
-    "doelsaldo": -8,
-    "punten": 3
-  },
-  {
-    "positie": 13,
     "club": "AFC 5",
     "logo": "images/afc.png",
     "gespeeld": 4,
@@ -169,7 +156,7 @@
     "punten": 1
   },
   {
-    "positie": 14,
+    "positie": 13,
     "club": "FC Amsterdam 4",
     "logo": "",
     "gespeeld": 4,
@@ -180,5 +167,18 @@
     "tegen": 17,
     "doelsaldo": -13,
     "punten": 1
+  },
+  {
+    "positie": 14,
+    "club": "Kadoelen sv. 2",
+    "logo": "",
+    "gespeeld": 4,
+    "gewonnen": 0,
+    "gelijk": 0,
+    "verloren": 4,
+    "voor": 3,
+    "tegen": 15,
+    "doelsaldo": -12,
+    "punten": 0
   }
 ]
