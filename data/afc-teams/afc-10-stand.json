@@ -14,6 +14,19 @@
   },
   {
     "positie": 2,
+    "club": "ASV Arsenal 9",
+    "logo": "",
+    "gespeeld": 4,
+    "gewonnen": 3,
+    "gelijk": 1,
+    "verloren": 0,
+    "voor": 17,
+    "tegen": 9,
+    "doelsaldo": 8,
+    "punten": 10
+  },
+  {
+    "positie": 3,
     "club": "Buitenveldert sc. 9",
     "logo": "",
     "gespeeld": 4,
@@ -26,33 +39,7 @@
     "punten": 9
   },
   {
-    "positie": 3,
-    "club": "DEVO'58 2",
-    "logo": "",
-    "gespeeld": 4,
-    "gewonnen": 3,
-    "gelijk": 0,
-    "verloren": 1,
-    "voor": 19,
-    "tegen": 14,
-    "doelsaldo": 5,
-    "punten": 9
-  },
-  {
     "positie": 4,
-    "club": "ASV Arsenal 9",
-    "logo": "",
-    "gespeeld": 4,
-    "gewonnen": 2,
-    "gelijk": 1,
-    "verloren": 1,
-    "voor": 13,
-    "tegen": 9,
-    "doelsaldo": 4,
-    "punten": 7
-  },
-  {
-    "positie": 5,
     "club": "Argon 7",
     "logo": "",
     "gespeeld": 4,
@@ -65,7 +52,7 @@
     "punten": 7
   },
   {
-    "positie": 6,
+    "positie": 5,
     "club": "Sloterdijk avv. 3",
     "logo": "images/sloterdijk.png",
     "gespeeld": 4,
@@ -75,6 +62,19 @@
     "voor": 15,
     "tegen": 12,
     "doelsaldo": 3,
+    "punten": 6
+  },
+  {
+    "positie": 6,
+    "club": "DEVO'58 2",
+    "logo": "",
+    "gespeeld": 4,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 19,
+    "tegen": 18,
+    "doelsaldo": 1,
     "punten": 6
   },
   {
