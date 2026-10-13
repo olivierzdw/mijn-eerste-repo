@@ -42,17 +42,30 @@
     "positie": 4,
     "club": "IJsselmeervogels",
     "logo": "",
-    "gespeeld": 8,
+    "gespeeld": 9,
     "gewonnen": 5,
     "gelijk": 1,
-    "verloren": 2,
+    "verloren": 3,
     "voor": 12,
-    "tegen": 5,
-    "doelsaldo": 7,
+    "tegen": 8,
+    "doelsaldo": 4,
     "punten": 16
   },
   {
     "positie": 5,
+    "club": "GVVV",
+    "logo": "",
+    "gespeeld": 9,
+    "gewonnen": 5,
+    "gelijk": 0,
+    "verloren": 4,
+    "voor": 21,
+    "tegen": 18,
+    "doelsaldo": 3,
+    "punten": 15
+  },
+  {
+    "positie": 6,
     "club": "HHC Hardenberg",
     "logo": "",
     "gespeeld": 9,
@@ -65,7 +78,7 @@
     "punten": 15
   },
   {
-    "positie": 6,
+    "positie": 7,
     "club": "Barendrecht",
     "logo": "",
     "gespeeld": 9,
@@ -78,7 +91,7 @@
     "punten": 14
   },
   {
-    "positie": 7,
+    "positie": 8,
     "club": "AFC",
     "logo": "images/afc.png",
     "gespeeld": 9,
@@ -91,7 +104,7 @@
     "punten": 13
   },
   {
-    "positie": 8,
+    "positie": 9,
     "club": "Spakenburg",
     "logo": "",
     "gespeeld": 9,
@@ -102,19 +115,6 @@
     "tegen": 14,
     "doelsaldo": -3,
     "punten": 13
-  },
-  {
-    "positie": 9,
-    "club": "GVVV",
-    "logo": "",
-    "gespeeld": 8,
-    "gewonnen": 4,
-    "gelijk": 0,
-    "verloren": 4,
-    "voor": 18,
-    "tegen": 18,
-    "doelsaldo": 0,
-    "punten": 12
   },
   {
     "positie": 10,
