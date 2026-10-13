@@ -14,6 +14,19 @@
   },
   {
     "positie": 2,
+    "club": "SDZ O23-2",
+    "logo": "",
+    "gespeeld": 4,
+    "gewonnen": 3,
+    "gelijk": 1,
+    "verloren": 0,
+    "voor": 19,
+    "tegen": 9,
+    "doelsaldo": 10,
+    "punten": 10
+  },
+  {
+    "positie": 3,
     "club": "Swift O23-1",
     "logo": "",
     "gespeeld": 4,
@@ -26,7 +39,7 @@
     "punten": 9
   },
   {
-    "positie": 3,
+    "positie": 4,
     "club": "TOS-Actief O23-1",
     "logo": "",
     "gespeeld": 4,
@@ -37,19 +50,6 @@
     "tegen": 6,
     "doelsaldo": 10,
     "punten": 9
-  },
-  {
-    "positie": 4,
-    "club": "SDZ O23-2",
-    "logo": "",
-    "gespeeld": 3,
-    "gewonnen": 2,
-    "gelijk": 1,
-    "verloren": 0,
-    "voor": 17,
-    "tegen": 8,
-    "doelsaldo": 9,
-    "punten": 7
   },
   {
     "positie": 5,
@@ -94,13 +94,13 @@
     "positie": 8,
     "club": "Kon. HFC O23-1 (Zon)",
     "logo": "",
-    "gespeeld": 3,
+    "gespeeld": 4,
     "gewonnen": 1,
     "gelijk": 1,
-    "verloren": 1,
-    "voor": 8,
-    "tegen": 6,
-    "doelsaldo": 2,
+    "verloren": 2,
+    "voor": 9,
+    "tegen": 8,
+    "doelsaldo": 1,
     "punten": 4
   },
   {
