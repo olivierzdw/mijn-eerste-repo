@@ -68,27 +68,27 @@
     "positie": 6,
     "club": "HVCH VR1",
     "logo": "",
-    "gespeeld": 3,
+    "gespeeld": 4,
     "gewonnen": 1,
-    "gelijk": 1,
+    "gelijk": 2,
     "verloren": 1,
-    "voor": 6,
-    "tegen": 9,
+    "voor": 7,
+    "tegen": 10,
     "doelsaldo": -3,
-    "punten": 4
+    "punten": 5
   },
   {
     "positie": 7,
     "club": "Victoria Boys VR1",
     "logo": "",
-    "gespeeld": 2,
+    "gespeeld": 3,
     "gewonnen": 1,
-    "gelijk": 0,
+    "gelijk": 1,
     "verloren": 1,
-    "voor": 2,
-    "tegen": 2,
+    "voor": 3,
+    "tegen": 3,
     "doelsaldo": 0,
-    "punten": 3
+    "punten": 4
   },
   {
     "positie": 8,
