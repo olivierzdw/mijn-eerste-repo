@@ -7,13 +7,6 @@
     "uitLogo": "images/afc.png"
   },
   {
-    "datum": "zo 25 oktober 13:30",
-    "thuis": "AFC 6",
-    "thuisLogo": "images/afc.png",
-    "uit": "SCPB'22 3",
-    "uitLogo": ""
-  },
-  {
     "datum": "zo 1 november 14:00",
     "thuis": "Hercules Zaandam sc 3",
     "thuisLogo": "",
@@ -25,6 +18,13 @@
     "thuis": "AFC 6",
     "thuisLogo": "images/afc.png",
     "uit": "WV-HEDW 4",
+    "uitLogo": ""
+  },
+  {
+    "datum": "zo 15 november 14:00",
+    "thuis": "AFC 6",
+    "thuisLogo": "images/afc.png",
+    "uit": "SCPB'22 3",
     "uitLogo": ""
   },
   {
