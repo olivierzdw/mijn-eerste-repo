@@ -14,6 +14,32 @@
   },
   {
     "positie": 2,
+    "club": "Meteoor De sv. 35+1",
+    "logo": "",
+    "gespeeld": 4,
+    "gewonnen": 2,
+    "gelijk": 2,
+    "verloren": 0,
+    "voor": 21,
+    "tegen": 6,
+    "doelsaldo": 15,
+    "punten": 8
+  },
+  {
+    "positie": 3,
+    "club": "ZSGOWMS 35+1",
+    "logo": "",
+    "gespeeld": 4,
+    "gewonnen": 2,
+    "gelijk": 2,
+    "verloren": 0,
+    "voor": 8,
+    "tegen": 6,
+    "doelsaldo": 2,
+    "punten": 8
+  },
+  {
+    "positie": 4,
     "club": "AFC Ajax 35+1",
     "logo": "images/afc.png",
     "gespeeld": 3,
@@ -23,32 +49,6 @@
     "voor": 22,
     "tegen": 3,
     "doelsaldo": 19,
-    "punten": 7
-  },
-  {
-    "positie": 3,
-    "club": "Meteoor De sv. 35+1",
-    "logo": "",
-    "gespeeld": 3,
-    "gewonnen": 2,
-    "gelijk": 1,
-    "verloren": 0,
-    "voor": 20,
-    "tegen": 5,
-    "doelsaldo": 15,
-    "punten": 7
-  },
-  {
-    "positie": 4,
-    "club": "ZSGOWMS 35+1",
-    "logo": "",
-    "gespeeld": 3,
-    "gewonnen": 2,
-    "gelijk": 1,
-    "verloren": 0,
-    "voor": 7,
-    "tegen": 5,
-    "doelsaldo": 2,
     "punten": 7
   },
   {
