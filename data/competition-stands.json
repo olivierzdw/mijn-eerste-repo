@@ -2020,6 +2020,19 @@
     },
     {
       "positie": 3,
+      "club": "West Ham United FC",
+      "logo": "https://crests.football-data.org/563.png",
+      "gespeeld": 10,
+      "punten": 19,
+      "gewonnen": 5,
+      "gelijk": 4,
+      "verloren": 1,
+      "doelsaldo": 17,
+      "voor": 29,
+      "tegen": 12
+    },
+    {
+      "positie": 4,
       "club": "Birmingham City FC",
       "logo": "https://crests.football-data.org/332.png",
       "gespeeld": 10,
@@ -2032,7 +2045,20 @@
       "tegen": 11
     },
     {
-      "positie": 4,
+      "positie": 5,
+      "club": "Queens Park Rangers FC",
+      "logo": "https://crests.football-data.org/69.png",
+      "gespeeld": 10,
+      "punten": 17,
+      "gewonnen": 4,
+      "gelijk": 5,
+      "verloren": 1,
+      "doelsaldo": 6,
+      "voor": 15,
+      "tegen": 9
+    },
+    {
+      "positie": 6,
       "club": "West Bromwich Albion FC",
       "logo": "https://crests.football-data.org/74.png",
       "gespeeld": 10,
@@ -2045,20 +2071,20 @@
       "tegen": 10
     },
     {
-      "positie": 5,
-      "club": "West Ham United FC",
-      "logo": "https://crests.football-data.org/563.png",
-      "gespeeld": 9,
+      "positie": 7,
+      "club": "Southampton FC",
+      "logo": "https://crests.football-data.org/340.png",
+      "gespeeld": 10,
       "punten": 16,
-      "gewonnen": 4,
-      "gelijk": 4,
-      "verloren": 1,
+      "gewonnen": 6,
+      "gelijk": 2,
+      "verloren": 2,
       "doelsaldo": 11,
-      "voor": 23,
-      "tegen": 12
+      "voor": 21,
+      "tegen": 10
     },
     {
-      "positie": 6,
+      "positie": 8,
       "club": "Stoke City FC",
       "logo": "https://crests.football-data.org/70.png",
       "gespeeld": 10,
@@ -2071,7 +2097,7 @@
       "tegen": 16
     },
     {
-      "positie": 7,
+      "positie": 9,
       "club": "Blackburn Rovers FC",
       "logo": "https://crests.football-data.org/59.png",
       "gespeeld": 10,
@@ -2084,20 +2110,7 @@
       "tegen": 13
     },
     {
-      "positie": 8,
-      "club": "Queens Park Rangers FC",
-      "logo": "https://crests.football-data.org/69.png",
-      "gespeeld": 9,
-      "punten": 14,
-      "gewonnen": 3,
-      "gelijk": 5,
-      "verloren": 1,
-      "doelsaldo": 3,
-      "voor": 11,
-      "tegen": 8
-    },
-    {
-      "positie": 9,
+      "positie": 10,
       "club": "Wolverhampton Wanderers FC",
       "logo": "https://crests.football-data.org/76.png",
       "gespeeld": 9,
@@ -2110,7 +2123,7 @@
       "tegen": 14
     },
     {
-      "positie": 10,
+      "positie": 11,
       "club": "Millwall FC",
       "logo": "https://crests.football-data.org/384.png",
       "gespeeld": 10,
@@ -2123,7 +2136,7 @@
       "tegen": 16
     },
     {
-      "positie": 11,
+      "positie": 12,
       "club": "Bristol City FC",
       "logo": "https://crests.football-data.org/387.png",
       "gespeeld": 10,
@@ -2136,7 +2149,7 @@
       "tegen": 14
     },
     {
-      "positie": 12,
+      "positie": 13,
       "club": "Charlton Athletic FC",
       "logo": "https://crests.football-data.org/348.png",
       "gespeeld": 10,
@@ -2147,19 +2160,6 @@
       "doelsaldo": -3,
       "voor": 10,
       "tegen": 13
-    },
-    {
-      "positie": 13,
-      "club": "Southampton FC",
-      "logo": "https://crests.football-data.org/340.png",
-      "gespeeld": 9,
-      "punten": 13,
-      "gewonnen": 5,
-      "gelijk": 2,
-      "verloren": 2,
-      "doelsaldo": 10,
-      "voor": 20,
-      "tegen": 10
     },
     {
       "positie": 14,
@@ -2178,17 +2178,30 @@
       "positie": 15,
       "club": "Sheffield United FC",
       "logo": "https://crests.football-data.org/356.png",
-      "gespeeld": 9,
+      "gespeeld": 10,
       "punten": 12,
       "gewonnen": 3,
       "gelijk": 3,
-      "verloren": 3,
-      "doelsaldo": 1,
-      "voor": 12,
-      "tegen": 11
+      "verloren": 4,
+      "doelsaldo": 0,
+      "voor": 14,
+      "tegen": 14
     },
     {
       "positie": 16,
+      "club": "Portsmouth FC",
+      "logo": "https://crests.football-data.org/325.png",
+      "gespeeld": 9,
+      "punten": 11,
+      "gewonnen": 3,
+      "gelijk": 2,
+      "verloren": 4,
+      "doelsaldo": -1,
+      "voor": 12,
+      "tegen": 13
+    },
+    {
+      "positie": 17,
       "club": "Wrexham AFC",
       "logo": "https://crests.football-data.org/404.png",
       "gespeeld": 10,
@@ -2201,20 +2214,20 @@
       "tegen": 15
     },
     {
-      "positie": 17,
+      "positie": 18,
       "club": "Lincoln City FC",
       "logo": "https://crests.football-data.org/1126.png",
-      "gespeeld": 9,
+      "gespeeld": 10,
       "punten": 11,
       "gewonnen": 3,
       "gelijk": 2,
-      "verloren": 4,
-      "doelsaldo": -4,
+      "verloren": 5,
+      "doelsaldo": -10,
       "voor": 7,
-      "tegen": 11
+      "tegen": 17
     },
     {
-      "positie": 18,
+      "positie": 19,
       "club": "Cardiff City FC",
       "logo": "https://crests.football-data.org/715.png",
       "gespeeld": 10,
@@ -2227,30 +2240,17 @@
       "tegen": 15
     },
     {
-      "positie": 19,
+      "positie": 20,
       "club": "Norwich City FC",
       "logo": "https://crests.football-data.org/68.png",
-      "gespeeld": 9,
+      "gespeeld": 10,
       "punten": 9,
       "gewonnen": 3,
       "gelijk": 0,
-      "verloren": 6,
-      "doelsaldo": -2,
+      "verloren": 7,
+      "doelsaldo": -3,
       "voor": 17,
-      "tegen": 19
-    },
-    {
-      "positie": 20,
-      "club": "Portsmouth FC",
-      "logo": "https://crests.football-data.org/325.png",
-      "gespeeld": 8,
-      "punten": 8,
-      "gewonnen": 2,
-      "gelijk": 2,
-      "verloren": 4,
-      "doelsaldo": -2,
-      "voor": 9,
-      "tegen": 11
+      "tegen": 20
     },
     {
       "positie": 21,
@@ -2282,14 +2282,14 @@
       "positie": 23,
       "club": "Derby County FC",
       "logo": "https://crests.football-data.org/342.png",
-      "gespeeld": 9,
+      "gespeeld": 10,
       "punten": 6,
       "gewonnen": 1,
       "gelijk": 3,
-      "verloren": 5,
-      "doelsaldo": -7,
-      "voor": 8,
-      "tegen": 15
+      "verloren": 6,
+      "doelsaldo": -10,
+      "voor": 9,
+      "tegen": 19
     },
     {
       "positie": 24,
