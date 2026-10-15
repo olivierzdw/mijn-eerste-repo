@@ -1,12 +1,5 @@
 [
   {
-    "datum": "do 15 oktober 20:00",
-    "thuis": "AFC 3",
-    "thuisLogo": "images/afc.png",
-    "uit": "Zandvoort s.v. 2",
-    "uitLogo": ""
-  },
-  {
     "datum": "za 24 oktober 12:30",
     "thuis": "AFC 3",
     "thuisLogo": "images/afc.png",
@@ -33,82 +26,5 @@
     "thuisLogo": "",
     "uit": "AFC 3",
     "uitLogo": "images/afc.png"
-  },
-  {
-    "datum": "za 28 november 16:00",
-    "thuis": "Swift 5",
-    "thuisLogo": "",
-    "uit": "AFC 3",
-    "uitLogo": "images/afc.png"
-  },
-  {
-    "datum": "za 5 december 16:00",
-    "thuis": "Wartburgia asv 3",
-    "thuisLogo": "",
-    "uit": "AFC 3",
-    "uitLogo": "images/afc.png"
-  },
-  {
-    "datum": "za 30 januari 12:00",
-    "thuis": "Haarlem-Kennemerland f.c. 2",
-    "thuisLogo": "",
-    "uit": "AFC 3",
-    "uitLogo": "images/afc.png"
-  },
-  {
-    "datum": "za 6 februari 15:00",
-    "thuis": "AFC 3",
-    "thuisLogo": "images/afc.png",
-    "uit": "ASV Arsenal 3",
-    "uitLogo": ""
-  },
-  {
-    "datum": "za 27 februari 15:00",
-    "thuis": "AFC 3",
-    "thuisLogo": "images/afc.png",
-    "uit": "Foresters 3",
-    "uitLogo": ""
-  },
-  {
-    "datum": "za 6 maart 12:00",
-    "thuis": "Zandvoort s.v. 2",
-    "thuisLogo": "",
-    "uit": "AFC 3",
-    "uitLogo": "images/afc.png"
-  },
-  {
-    "datum": "za 13 maart 15:00",
-    "thuis": "AFC 3",
-    "thuisLogo": "images/afc.png",
-    "uit": "IJmuiden vv. 2",
-    "uitLogo": ""
-  },
-  {
-    "datum": "za 20 maart 12:30",
-    "thuis": "DCG Rksv 2",
-    "thuisLogo": "",
-    "uit": "AFC 3",
-    "uitLogo": "images/afc.png"
-  },
-  {
-    "datum": "za 3 april 15:00",
-    "thuis": "AFC 3",
-    "thuisLogo": "images/afc.png",
-    "uit": "HBOK 2",
-    "uitLogo": ""
-  },
-  {
-    "datum": "za 10 april 12:00",
-    "thuis": "Meer De sv. 2",
-    "thuisLogo": "",
-    "uit": "AFC 3",
-    "uitLogo": "images/afc.png"
-  },
-  {
-    "datum": "za 17 april 15:00",
-    "thuis": "AFC 3",
-    "thuisLogo": "images/afc.png",
-    "uit": "vv Zwanenburg 2",
-    "uitLogo": ""
   }
 ]

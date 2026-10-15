@@ -1,12 +1,5 @@
 [
   {
-    "datum": "do 15 oktober 20:00",
-    "thuis": "AFC 3",
-    "thuisLogo": "images/afc.png",
-    "uit": "Hoogland 3",
-    "uitLogo": ""
-  },
-  {
     "datum": "zo 25 oktober 13:30",
     "thuis": "AFC 3",
     "thuisLogo": "images/afc.png",
@@ -33,96 +26,5 @@
     "thuisLogo": "",
     "uit": "AFC 3",
     "uitLogo": "images/afc.png"
-  },
-  {
-    "datum": "zo 22 november 16:00",
-    "thuis": "AFC 3",
-    "thuisLogo": "images/afc.png",
-    "uit": "Sloterdijk avv. 2",
-    "uitLogo": "images/sloterdijk.png"
-  },
-  {
-    "datum": "zo 29 november 14:00",
-    "thuis": "SCPB'22 2",
-    "thuisLogo": "",
-    "uit": "AFC 3",
-    "uitLogo": "images/afc.png"
-  },
-  {
-    "datum": "zo 6 december 11:30",
-    "thuis": "DWS afc 2",
-    "thuisLogo": "images/afc.png",
-    "uit": "AFC 3",
-    "uitLogo": "images/afc.png"
-  },
-  {
-    "datum": "zo 24 januari 11:00",
-    "thuis": "VVA/Spartaan, 2",
-    "thuisLogo": "",
-    "uit": "AFC 3",
-    "uitLogo": "images/afc.png"
-  },
-  {
-    "datum": "zo 31 januari 16:00",
-    "thuis": "AFC 3",
-    "thuisLogo": "images/afc.png",
-    "uit": "SDZ 5",
-    "uitLogo": ""
-  },
-  {
-    "datum": "zo 7 februari 11:00",
-    "thuis": "Hoofddorp s.v. 3",
-    "thuisLogo": "",
-    "uit": "AFC 3",
-    "uitLogo": "images/afc.png"
-  },
-  {
-    "datum": "zo 14 februari 14:30",
-    "thuis": "Sloterdijk avv. 2",
-    "thuisLogo": "images/sloterdijk.png",
-    "uit": "AFC 3",
-    "uitLogo": "images/afc.png"
-  },
-  {
-    "datum": "zo 7 maart 16:00",
-    "thuis": "AFC 3",
-    "thuisLogo": "images/afc.png",
-    "uit": "ASV Arsenal 3",
-    "uitLogo": ""
-  },
-  {
-    "datum": "zo 14 maart 10:30",
-    "thuis": "PVCV 3",
-    "thuisLogo": "",
-    "uit": "AFC 3",
-    "uitLogo": "images/afc.png"
-  },
-  {
-    "datum": "zo 21 maart 13:45",
-    "thuis": "Rivierwijkers 3",
-    "thuisLogo": "",
-    "uit": "AFC 3",
-    "uitLogo": "images/afc.png"
-  },
-  {
-    "datum": "zo 4 april 16:00",
-    "thuis": "AFC 3",
-    "thuisLogo": "images/afc.png",
-    "uit": "TOS-Actief 3",
-    "uitLogo": ""
-  },
-  {
-    "datum": "zo 11 april 13:00",
-    "thuis": "Swift 6",
-    "thuisLogo": "",
-    "uit": "AFC 3",
-    "uitLogo": "images/afc.png"
-  },
-  {
-    "datum": "zo 18 april 16:00",
-    "thuis": "AFC 3",
-    "thuisLogo": "images/afc.png",
-    "uit": "VVA/Spartaan, 2",
-    "uitLogo": ""
   }
 ]
