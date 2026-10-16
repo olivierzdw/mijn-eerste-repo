@@ -1420,6 +1420,146 @@ button:hover {
   animation: shake 0.3s;
 }
 
+/* Boek: samenvatting */
+.boek-sam {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  background: #0f1626;
+  border: 1px solid #2a3a5e;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.boek-sam-rij {
+  display: grid;
+  grid-template-columns: 130px 1fr;
+  gap: 12px;
+  padding: 10px 14px;
+  border-bottom: 1px solid #1a2440;
+}
+.boek-sam-rij:last-child { border-bottom: none; }
+.boek-sam-label {
+  color: #b0b8d0;
+  font-size: 0.88rem;
+  font-weight: 600;
+}
+.boek-sam-waarde {
+  color: #fff;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  word-wrap: break-word;
+}
+.boek-sam-waarde em { color: #8690ab; }
+
+/* Boek: genereer-balk (knop rechtsonder) */
+.boek-gen-balk {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 6px;
+}
+.boek-genereer {
+  background: var(--genre-kleur, #a855f7);
+  color: #fff;
+  border: none;
+  padding: 16px 28px;
+  border-radius: 12px;
+  font-size: 1.15rem;
+  font-weight: 800;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.4), 0 0 0 0 var(--genre-kleur);
+  transition: transform 0.1s ease, filter 0.15s ease, box-shadow 0.3s ease;
+  letter-spacing: 0.3px;
+}
+.boek-genereer:hover {
+  filter: brightness(1.15);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.5), 0 0 0 3px rgba(255,255,255,0.08);
+}
+.boek-genereer:active { transform: translateY(0); }
+.boek-gratis-op {
+  flex: 1;
+  color: #f59e0b;
+  font-size: 0.88rem;
+  font-weight: 600;
+}
+
+/* Boek: laadanimatie */
+.boek-laad {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 40px 20px;
+  text-align: center;
+}
+.boek-laad h2 { margin: 0; color: #fff; font-size: 1.3rem; }
+.boek-laad-icoon {
+  font-size: 3rem;
+  animation: boek-wiebel 1.2s ease-in-out infinite;
+}
+.boek-laad-spinner {
+  width: 48px;
+  height: 48px;
+  border: 4px solid #2a3a5e;
+  border-top-color: var(--genre-kleur, #a855f7);
+  border-radius: 50%;
+  animation: boek-spin 0.9s linear infinite;
+}
+.boek-laad-stap {
+  color: #c9b8e6;
+  font-size: 0.95rem;
+  margin: 0;
+  min-height: 1.5em;
+}
+@keyframes boek-spin { to { transform: rotate(360deg); } }
+@keyframes boek-wiebel {
+  0%, 100% { transform: rotate(-8deg); }
+  50%      { transform: rotate(8deg); }
+}
+
+/* Boek: resultaat */
+.boek-resultaat {
+  background: #faf5e8;
+  color: #1a1a2e;
+  padding: 24px 28px;
+  border-radius: 10px;
+  line-height: 1.6;
+  font-family: Georgia, 'Times New Roman', serif;
+  max-height: 500px;
+  overflow-y: auto;
+  box-shadow: inset 0 0 20px rgba(0,0,0,0.1);
+}
+.boek-resultaat h3 {
+  margin-top: 0;
+  color: #4a2d1a;
+  font-size: 1.3rem;
+  border-bottom: 2px solid #d4b896;
+  padding-bottom: 8px;
+}
+.boek-resultaat p { margin: 0 0 1em 0; }
+.boek-resultaat em { color: #8b6f47; }
+.boek-geen-ai {
+  background: #3a2a1a;
+  border: 2px solid #f59e0b;
+  border-radius: 10px;
+  padding: 14px 16px;
+  color: #fde4b4;
+}
+.boek-geen-ai strong {
+  display: block;
+  color: #ffcf72;
+  margin-bottom: 6px;
+}
+.boek-geen-ai p {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
 /* ===== OUDE RESTAURANT CSS (ongebruikt, blijft staan tot opschoning) ===== */
 .restaurant-header-oud {
 }

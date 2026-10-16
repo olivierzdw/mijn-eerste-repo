@@ -2505,8 +2505,141 @@ function slaLengteOp() {
   if (n > 500) n = 500;
   inp.classList.remove("fout");
   huidigBoek.bladzijdes = n;
+  toonBoekSamenvatting();
+}
+
+function heeftGratisGebruikt() {
+  return localStorage.getItem("boek-gratis-gebruikt") === "ja";
+}
+
+function markeerGratisGebruikt() {
+  localStorage.setItem("boek-gratis-gebruikt", "ja");
+}
+
+function toonBoekSamenvatting() {
+  const el = document.getElementById("boeken-genres");
+  if (!el || !huidigBoek) return;
+  const g = huidigBoek.genre;
   const aantalPlaatjes = (huidigBoek.plaatjes || []).length;
-  alert(`Genre: ${huidigBoek.genre.naam}\n\nHoofdpersonen:\n${huidigBoek.hoofdpersonen}\n\nBijpersonen:\n${huidigBoek.bijpersonen}\n\nOnderwerp:\n${huidigBoek.onderwerp}\n\nPlaatjes: ${aantalPlaatjes}\n\nBladzijdes: ${n}\n\nVolgende stap maken we zo samen 🙂`);
+  const gratisOp = heeftGratisGebruikt();
+  const knopLabel = gratisOp ? "✨ Genereer boek (betaald)" : "✨ Genereer boek (1 keer gratis)";
+  el.innerHTML = `
+    <div class="boek-stap" style="--genre-kleur:${g.kleur}">
+      <button class="boek-stap-terug" onclick="toonBoekLengte()">← Terug</button>
+      <div class="boek-stap-genre">
+        <span class="boek-stap-emoji">${g.emoji}</span>
+        <span class="boek-stap-naam">${escapeHTML(g.naam)}</span>
+        <span class="boek-stap-leeftijd">${escapeHTML(g.leeftijd)}</span>
+      </div>
+      <h2 class="boek-stap-vraag">Klaar om te schrijven?</h2>
+      <p class="boek-stap-hint">Controleer je keuzes. Klopt alles? Druk dan op Genereer boek.</p>
+      <div class="boek-sam">
+        <div class="boek-sam-rij">
+          <div class="boek-sam-label">Hoofdpersonen</div>
+          <div class="boek-sam-waarde">${escapeHTML(huidigBoek.hoofdpersonen).replace(/\n/g, '<br/>')}</div>
+        </div>
+        <div class="boek-sam-rij">
+          <div class="boek-sam-label">Bijpersonen</div>
+          <div class="boek-sam-waarde">${escapeHTML(huidigBoek.bijpersonen).replace(/\n/g, '<br/>')}</div>
+        </div>
+        <div class="boek-sam-rij">
+          <div class="boek-sam-label">Onderwerp</div>
+          <div class="boek-sam-waarde">${escapeHTML(huidigBoek.onderwerp).replace(/\n/g, '<br/>')}</div>
+        </div>
+        <div class="boek-sam-rij">
+          <div class="boek-sam-label">Plaatjes</div>
+          <div class="boek-sam-waarde">${aantalPlaatjes === 0 ? '<em>geen</em>' : aantalPlaatjes + ' plaatje' + (aantalPlaatjes === 1 ? '' : 's')}</div>
+        </div>
+        <div class="boek-sam-rij">
+          <div class="boek-sam-label">Bladzijdes</div>
+          <div class="boek-sam-waarde"><b>${huidigBoek.bladzijdes}</b></div>
+        </div>
+      </div>
+      <div class="boek-gen-balk">
+        ${gratisOp ? `<div class="boek-gratis-op">⚠️ Je gratis boek is al gebruikt. Volgende boeken kosten geld.</div>` : ''}
+        <button class="boek-genereer" style="--genre-kleur:${g.kleur}" onclick="genereerBoek()">${knopLabel}</button>
+      </div>
+    </div>
+  `;
+}
+
+function genereerBoek() {
+  if (!huidigBoek) return;
+  const el = document.getElementById("boeken-genres");
+  const g = huidigBoek.genre;
+  // Markeer gratis als gebruikt (alleen de eerste keer)
+  const wasGratis = !heeftGratisGebruikt();
+  if (wasGratis) markeerGratisGebruikt();
+
+  // Toon laadanimatie
+  el.innerHTML = `
+    <div class="boek-stap" style="--genre-kleur:${g.kleur}">
+      <div class="boek-laad">
+        <div class="boek-laad-icoon">✍️</div>
+        <h2>Je boek wordt geschreven...</h2>
+        <div class="boek-laad-spinner"></div>
+        <p class="boek-laad-stap" id="boek-laad-stap">Hoofdpersonen worden tot leven gewekt…</p>
+      </div>
+    </div>
+  `;
+
+  const stappen = [
+    "Hoofdpersonen worden tot leven gewekt…",
+    "De wereld wordt gebouwd…",
+    "Hoofdstuk 1 wordt geschreven…",
+    "Plot-wendingen worden bedacht…",
+    "Dialogen worden gepolijst…",
+    "Laatste controle en inkt droogt…",
+  ];
+  let i = 0;
+  const stapEl = document.getElementById("boek-laad-stap");
+  const stappenInterval = setInterval(() => {
+    i++;
+    if (i >= stappen.length) {
+      clearInterval(stappenInterval);
+    } else if (stapEl) {
+      stapEl.textContent = stappen[i];
+    }
+  }, 900);
+
+  // Simuleer schrijftijd — hier komt straks de echte AI-aanroep
+  setTimeout(() => {
+    clearInterval(stappenInterval);
+    toonBoekResultaat();
+  }, 5500);
+}
+
+function toonBoekResultaat() {
+  const el = document.getElementById("boeken-genres");
+  if (!el || !huidigBoek) return;
+  const g = huidigBoek.genre;
+  // Nog geen AI gekoppeld → eerlijke placeholder-tekst
+  const voorbeeldTekst = `
+    <p><em>[Dit is een voorbeeld-tekst. De echte AI-generatie moet nog aangezet worden — zie onder.]</em></p>
+    <h3>Hoofdstuk 1 — Het begin</h3>
+    <p>Op een regenachtige dinsdag... ${escapeHTML((huidigBoek.hoofdpersonen||'').split('\n')[0] || 'de hoofdpersoon')} keek naar buiten.</p>
+    <p>Het ${escapeHTML(g.naam.toLowerCase())}-verhaal gaat over: ${escapeHTML(huidigBoek.onderwerp)}.</p>
+    <p>Er zijn ${huidigBoek.bladzijdes} bladzijdes om alles te vertellen. Dit was nog maar het begin...</p>
+  `;
+  el.innerHTML = `
+    <div class="boek-stap" style="--genre-kleur:${g.kleur}">
+      <button class="boek-stap-terug" onclick="toonBoekSamenvatting()">← Terug naar samenvatting</button>
+      <div class="boek-stap-genre">
+        <span class="boek-stap-emoji">${g.emoji}</span>
+        <span class="boek-stap-naam">${escapeHTML(g.naam)}</span>
+        <span class="boek-stap-leeftijd">${escapeHTML(g.leeftijd)}</span>
+      </div>
+      <h2 class="boek-stap-vraag">Je boek 📖</h2>
+      <div class="boek-resultaat">${voorbeeldTekst}</div>
+      <div class="boek-geen-ai">
+        <strong>⚠️ AI nog niet gekoppeld</strong>
+        <p>Hierboven staat nu een voorbeeld. Om écht een boek te laten schrijven moet je nog kiezen welke AI we gebruiken (Claude, ChatGPT of Gemini) en een API-key aanmaken. Zeg welke je wilt en ik zet het op.</p>
+      </div>
+      <div class="boek-gen-balk">
+        <button class="boek-stap-terug" onclick="renderBoekenGenres()">Nieuw boek beginnen</button>
+      </div>
+    </div>
+  `;
 }
 
 // Render zodra DOM klaar is
