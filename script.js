@@ -2195,6 +2195,9 @@ function terugNaarKeuze() {
 }
 
 // ── AI Boekenschrijver ───────────────────────────────────────
+// Zet hieronder de URL van je Cloudflare Worker (zie cloudflare-worker/README.md)
+// Zolang hier "" staat, laat de app een nette foutmelding zien.
+const BOEKEN_WORKER_URL = "";
 const BOEKEN_GENRES = [
   { id: "leerzaam", emoji: "📚", naam: "Leerzaam boek",     leeftijd: "alle leeftijden", beschrijving: "Bijv. hoe wordt water gereinigd, hoe werkt een vulkaan, waarom slapen we?", kleur: "#22c55e" },
   { id: "avontuur", emoji: "🗺️", naam: "Avontuur",          leeftijd: "7 – 13 jaar",      beschrijving: "Spannende tochten, verborgen schatten en helden die alles durven.",         kleur: "#3b82f6" },
@@ -2563,7 +2566,7 @@ function toonBoekSamenvatting() {
   `;
 }
 
-function genereerBoek() {
+async function genereerBoek() {
   if (!huidigBoek) return;
   const el = document.getElementById("boeken-genres");
   const g = huidigBoek.genre;
@@ -2592,30 +2595,141 @@ function genereerBoek() {
     "Laatste controle en inkt droogt…",
   ];
   let i = 0;
-  const stapEl = document.getElementById("boek-laad-stap");
+  const stapEl = () => document.getElementById("boek-laad-stap");
   const stappenInterval = setInterval(() => {
-    i++;
-    if (i >= stappen.length) {
-      clearInterval(stappenInterval);
-    } else if (stapEl) {
-      stapEl.textContent = stappen[i];
-    }
-  }, 900);
+    i = (i + 1) % stappen.length;
+    const s = stapEl();
+    if (s) s.textContent = stappen[i];
+  }, 2500);
 
-  // Simuleer schrijftijd — hier komt straks de echte AI-aanroep
-  setTimeout(() => {
+  // Als er geen Worker-URL is: toon eerlijke placeholder
+  if (!BOEKEN_WORKER_URL) {
+    setTimeout(() => {
+      clearInterval(stappenInterval);
+      toonBoekResultaatPlaceholder();
+    }, 2500);
+    return;
+  }
+
+  // Roep de Cloudflare Worker aan (die praat met Claude)
+  try {
+    const resp = await fetch(BOEKEN_WORKER_URL, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        genre: huidigBoek.genre,
+        hoofdpersonen: huidigBoek.hoofdpersonen,
+        bijpersonen: huidigBoek.bijpersonen,
+        onderwerp: huidigBoek.onderwerp,
+        bladzijdes: huidigBoek.bladzijdes,
+        plaatjes: huidigBoek.plaatjes || [],
+      }),
+    });
     clearInterval(stappenInterval);
-    toonBoekResultaat();
-  }, 5500);
+    if (!resp.ok) {
+      const err = await resp.json().catch(() => ({ error: "Onbekende fout" }));
+      toonBoekResultaatFout(err.error || `Status ${resp.status}`);
+      return;
+    }
+    const data = await resp.json();
+    toonBoekResultaat(data.tekst || "");
+  } catch (err) {
+    clearInterval(stappenInterval);
+    toonBoekResultaatFout(`Verbinding met backend mislukt: ${err.message}`);
+  }
 }
 
-function toonBoekResultaat() {
+function boekTekstNaarHtml(tekst) {
+  // Simpele Markdown → HTML
+  if (!tekst) return "";
+  const regels = tekst.split(/\n/);
+  let html = "";
+  let inPar = false;
+  const closePar = () => { if (inPar) { html += "</p>"; inPar = false; } };
+  for (const regel of regels) {
+    const t = regel.trim();
+    if (!t) { closePar(); continue; }
+    const h1 = t.match(/^#\s+(.+)$/);
+    const h2 = t.match(/^##\s+(.+)$/);
+    const h3 = t.match(/^###\s+(.+)$/);
+    if (h1) { closePar(); html += `<h2>${escapeHTML(h1[1])}</h2>`; continue; }
+    if (h2) { closePar(); html += `<h3>${escapeHTML(h2[1])}</h3>`; continue; }
+    if (h3) { closePar(); html += `<h4>${escapeHTML(h3[1])}</h4>`; continue; }
+    if (!inPar) { html += "<p>"; inPar = true; }
+    else html += " ";
+    // Inline bold/italic
+    let line = escapeHTML(t)
+      .replace(/\*\*(.+?)\*\*/g, "<b>$1</b>")
+      .replace(/\*(.+?)\*/g, "<i>$1</i>");
+    html += line;
+  }
+  closePar();
+  return html;
+}
+
+function toonBoekResultaat(tekst) {
   const el = document.getElementById("boeken-genres");
   if (!el || !huidigBoek) return;
   const g = huidigBoek.genre;
-  // Nog geen AI gekoppeld → eerlijke placeholder-tekst
+  el.innerHTML = `
+    <div class="boek-stap" style="--genre-kleur:${g.kleur}">
+      <button class="boek-stap-terug" onclick="toonBoekSamenvatting()">← Terug naar samenvatting</button>
+      <div class="boek-stap-genre">
+        <span class="boek-stap-emoji">${g.emoji}</span>
+        <span class="boek-stap-naam">${escapeHTML(g.naam)}</span>
+        <span class="boek-stap-leeftijd">${escapeHTML(g.leeftijd)}</span>
+      </div>
+      <h2 class="boek-stap-vraag">Je boek 📖</h2>
+      <div class="boek-resultaat">${boekTekstNaarHtml(tekst)}</div>
+      <div class="boek-gen-balk">
+        <button class="boek-stap-terug" onclick="renderBoekenGenres()">Nieuw boek beginnen</button>
+        <button class="boek-stap-terug" onclick="downloadBoek()">⬇ Download .txt</button>
+      </div>
+    </div>
+  `;
+  huidigBoek.tekst = tekst;
+}
+
+function downloadBoek() {
+  if (!huidigBoek?.tekst) return;
+  const blob = new Blob([huidigBoek.tekst], { type: "text/plain;charset=utf-8" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = `${huidigBoek.genre.id}-boek.txt`;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+function toonBoekResultaatFout(melding) {
+  const el = document.getElementById("boeken-genres");
+  if (!el || !huidigBoek) return;
+  const g = huidigBoek.genre;
+  el.innerHTML = `
+    <div class="boek-stap" style="--genre-kleur:${g.kleur}">
+      <button class="boek-stap-terug" onclick="toonBoekSamenvatting()">← Terug</button>
+      <div class="boek-stap-genre">
+        <span class="boek-stap-emoji">${g.emoji}</span>
+        <span class="boek-stap-naam">${escapeHTML(g.naam)}</span>
+      </div>
+      <h2 class="boek-stap-vraag">Oeps, dat ging mis</h2>
+      <div class="boek-geen-ai">
+        <strong>❌ Er ging iets mis</strong>
+        <p>${escapeHTML(melding)}</p>
+      </div>
+      <div class="boek-gen-balk">
+        <button class="boek-genereer" style="--genre-kleur:${g.kleur}" onclick="genereerBoek()">Opnieuw proberen</button>
+      </div>
+    </div>
+  `;
+}
+
+function toonBoekResultaatPlaceholder() {
+  const el = document.getElementById("boeken-genres");
+  if (!el || !huidigBoek) return;
+  const g = huidigBoek.genre;
   const voorbeeldTekst = `
-    <p><em>[Dit is een voorbeeld-tekst. De echte AI-generatie moet nog aangezet worden — zie onder.]</em></p>
+    <p><em>[Dit is een voorbeeld. De backend-URL moet nog ingevuld worden in script.js.]</em></p>
     <h3>Hoofdstuk 1 — Het begin</h3>
     <p>Op een regenachtige dinsdag... ${escapeHTML((huidigBoek.hoofdpersonen||'').split('\n')[0] || 'de hoofdpersoon')} keek naar buiten.</p>
     <p>Het ${escapeHTML(g.naam.toLowerCase())}-verhaal gaat over: ${escapeHTML(huidigBoek.onderwerp)}.</p>
@@ -2632,8 +2746,8 @@ function toonBoekResultaat() {
       <h2 class="boek-stap-vraag">Je boek 📖</h2>
       <div class="boek-resultaat">${voorbeeldTekst}</div>
       <div class="boek-geen-ai">
-        <strong>⚠️ AI nog niet gekoppeld</strong>
-        <p>Hierboven staat nu een voorbeeld. Om écht een boek te laten schrijven moet je nog kiezen welke AI we gebruiken (Claude, ChatGPT of Gemini) en een API-key aanmaken. Zeg welke je wilt en ik zet het op.</p>
+        <strong>⚠️ Backend-URL nog niet ingevuld</strong>
+        <p>De Cloudflare Worker is al gebouwd (zie cloudflare-worker/README.md). Zodra je 'm hebt gedeployed en de URL in script.js hebt gezet (<code>BOEKEN_WORKER_URL</code>), schrijft Claude echte boeken.</p>
       </div>
       <div class="boek-gen-balk">
         <button class="boek-stap-terug" onclick="renderBoekenGenres()">Nieuw boek beginnen</button>
