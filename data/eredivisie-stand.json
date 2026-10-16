@@ -92,6 +92,19 @@
   },
   {
     "positie": 8,
+    "club": "Heerenveen",
+    "logo": "https://crests.football-data.org/673.png",
+    "gespeeld": 9,
+    "punten": 12,
+    "gewonnen": 3,
+    "gelijk": 3,
+    "verloren": 3,
+    "doelsaldo": 1,
+    "voor": 12,
+    "tegen": 11
+  },
+  {
+    "positie": 9,
     "club": "Go Ahead Eagles",
     "logo": "https://crests.football-data.org/718.png",
     "gespeeld": 8,
@@ -104,30 +117,17 @@
     "tegen": 17
   },
   {
-    "positie": 9,
+    "positie": 10,
     "club": "SBV Excelsior",
     "logo": "https://crests.football-data.org/670.png",
-    "gespeeld": 8,
+    "gespeeld": 9,
     "punten": 11,
     "gewonnen": 3,
     "gelijk": 2,
-    "verloren": 3,
-    "doelsaldo": 2,
+    "verloren": 4,
+    "doelsaldo": 1,
     "voor": 16,
-    "tegen": 14
-  },
-  {
-    "positie": 10,
-    "club": "Heerenveen",
-    "logo": "https://crests.football-data.org/673.png",
-    "gespeeld": 8,
-    "punten": 9,
-    "gewonnen": 2,
-    "gelijk": 3,
-    "verloren": 3,
-    "doelsaldo": 0,
-    "voor": 11,
-    "tegen": 11
+    "tegen": 15
   },
   {
     "positie": 11,
