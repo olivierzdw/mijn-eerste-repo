@@ -2263,7 +2263,47 @@ function slaHoofdpersonenOp() {
   }
   ta.classList.remove("fout");
   huidigBoek.hoofdpersonen = tekst;
-  alert(`Genre: ${huidigBoek.genre.naam}\n\nHoofdpersonen:\n${tekst}\n\nVolgende stap maken we zo samen 🙂`);
+  toonBoekBijpersonen();
+}
+
+function toonBoekBijpersonen() {
+  const el = document.getElementById("boeken-genres");
+  if (!el || !huidigBoek) return;
+  const g = huidigBoek.genre;
+  const opgeslagen = huidigBoek.bijpersonen || "";
+  el.innerHTML = `
+    <div class="boek-stap">
+      <button class="boek-stap-terug" onclick="toonBoekHoofdpersonen()">← Terug</button>
+      <div class="boek-stap-genre" style="--genre-kleur:${g.kleur}">
+        <span class="boek-stap-emoji">${g.emoji}</span>
+        <span class="boek-stap-naam">${escapeHTML(g.naam)}</span>
+        <span class="boek-stap-leeftijd">${escapeHTML(g.leeftijd)}</span>
+      </div>
+      <h2 class="boek-stap-vraag">En wie zijn de bijpersonen?</h2>
+      <p class="boek-stap-hint">Dit zijn personages die een rol spelen, maar niet het hoofdverhaal dragen. Bijv. vrienden, familie, de slechterik, een huisdier. Scheid meerdere personen met een komma of nieuwe regel.</p>
+      <textarea id="boek-bijpersonen" class="boek-textarea" rows="5"
+        placeholder="Bijv.&#10;Meester Pieter (hun leraar, altijd nieuwsgierig)&#10;Bello (de hond van Max)&#10;De burgemeester (verbergt een geheim)">${escapeHTML(opgeslagen)}</textarea>
+      <button class="boek-volgende" style="--genre-kleur:${g.kleur}" onclick="slaBijpersonenOp()">Volgende →</button>
+    </div>
+  `;
+  setTimeout(() => {
+    const ta = document.getElementById("boek-bijpersonen");
+    if (ta) ta.focus();
+  }, 50);
+}
+
+function slaBijpersonenOp() {
+  const ta = document.getElementById("boek-bijpersonen");
+  if (!ta) return;
+  const tekst = (ta.value || "").trim();
+  if (!tekst) {
+    ta.classList.add("fout");
+    ta.focus();
+    return;
+  }
+  ta.classList.remove("fout");
+  huidigBoek.bijpersonen = tekst;
+  alert(`Genre: ${huidigBoek.genre.naam}\n\nHoofdpersonen:\n${huidigBoek.hoofdpersonen}\n\nBijpersonen:\n${tekst}\n\nVolgende stap maken we zo samen 🙂`);
 }
 
 // Render zodra DOM klaar is
