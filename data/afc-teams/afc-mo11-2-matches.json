@@ -1,1 +1,37 @@
-[]
+[
+  {
+    "datum": "za 24 oktober 10:30",
+    "thuis": "EVC MO11-1",
+    "thuisLogo": "",
+    "uit": "AFC MO11-2",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 31 oktober 08:30",
+    "thuis": "AFC MO11-2",
+    "thuisLogo": "images/afc.png",
+    "uit": "Dijk De asv MO11-1",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 7 november 10:00",
+    "thuis": "DRC MO11-1",
+    "thuisLogo": "",
+    "uit": "AFC MO11-2",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 14 november 08:30",
+    "thuis": "AFC MO11-2",
+    "thuisLogo": "images/afc.png",
+    "uit": "Buitenboys sc. MO11-2",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 21 november 09:00",
+    "thuis": "Ouderkerk sv. MO11-1",
+    "thuisLogo": "",
+    "uit": "AFC MO11-2",
+    "uitLogo": "images/afc.png"
+  }
+]
