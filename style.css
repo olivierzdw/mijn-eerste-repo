@@ -1350,6 +1350,76 @@ button:hover {
   border-color: #fff;
 }
 
+/* Boek: lengte-keuze */
+.boek-presets {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 10px;
+}
+.boek-preset {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  padding: 14px 10px;
+  background: #0f1626;
+  color: #fff;
+  border: 2px solid #2a3a5e;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-weight: 700;
+  transition: transform 0.1s ease, border-color 0.15s ease, background 0.15s ease;
+}
+.boek-preset small {
+  display: block;
+  font-size: 0.75rem;
+  color: #b0b8d0;
+  font-weight: 500;
+  margin-top: 4px;
+}
+.boek-preset:hover {
+  background: #15203a;
+  border-color: var(--genre-kleur, #a855f7);
+}
+.boek-preset.actief {
+  background: #22305a;
+  border-color: var(--genre-kleur, #a855f7);
+  box-shadow: 0 0 0 2px var(--genre-kleur, #a855f7);
+}
+.boek-preset.actief small { color: #fff; }
+.boek-eigen-aantal {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 10px 0;
+  color: #d8dae8;
+}
+.boek-eigen-aantal label {
+  font-size: 0.95rem;
+}
+.boek-aantal-input {
+  width: 90px;
+  background: #0f1626;
+  color: #fff;
+  border: 2px solid #2a3a5e;
+  border-radius: 8px;
+  padding: 8px 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: center;
+}
+.boek-aantal-input:focus {
+  outline: none;
+  border-color: var(--genre-kleur, #a855f7);
+}
+.boek-aantal-input.fout {
+  border-color: #e94560;
+  animation: shake 0.3s;
+}
+
 /* ===== OUDE RESTAURANT CSS (ongebruikt, blijft staan tot opschoning) ===== */
 .restaurant-header-oud {
 }

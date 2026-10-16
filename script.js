@@ -2439,8 +2439,74 @@ function verwijderPlaatje(i) {
 
 function slaPlaatjesOp() {
   // Plaatjes zijn optioneel — gewoon doorgaan
-  const aantal = (huidigBoek.plaatjes || []).length;
-  alert(`Genre: ${huidigBoek.genre.naam}\n\nHoofdpersonen:\n${huidigBoek.hoofdpersonen}\n\nBijpersonen:\n${huidigBoek.bijpersonen}\n\nOnderwerp:\n${huidigBoek.onderwerp}\n\nPlaatjes: ${aantal}\n\nVolgende stap maken we zo samen 🙂`);
+  toonBoekLengte();
+}
+
+function toonBoekLengte() {
+  const el = document.getElementById("boeken-genres");
+  if (!el || !huidigBoek) return;
+  const g = huidigBoek.genre;
+  const huidig = huidigBoek.bladzijdes || 10;
+  el.innerHTML = `
+    <div class="boek-stap" style="--genre-kleur:${g.kleur}">
+      <button class="boek-stap-terug" onclick="toonBoekPlaatjes()">← Terug</button>
+      <div class="boek-stap-genre">
+        <span class="boek-stap-emoji">${g.emoji}</span>
+        <span class="boek-stap-naam">${escapeHTML(g.naam)}</span>
+        <span class="boek-stap-leeftijd">${escapeHTML(g.leeftijd)}</span>
+      </div>
+      <h2 class="boek-stap-vraag">Hoeveel bladzijdes?</h2>
+      <p class="boek-stap-hint">Kies een voorbeeld-lengte of vul zelf een aantal in.</p>
+      <div class="boek-presets">
+        <button class="boek-preset" data-aantal="3"   onclick="kiesLengte(3)">3<small>heel kort</small></button>
+        <button class="boek-preset" data-aantal="10"  onclick="kiesLengte(10)">10<small>kort verhaal</small></button>
+        <button class="boek-preset" data-aantal="25"  onclick="kiesLengte(25)">25<small>novelle</small></button>
+        <button class="boek-preset" data-aantal="50"  onclick="kiesLengte(50)">50<small>middel</small></button>
+        <button class="boek-preset" data-aantal="100" onclick="kiesLengte(100)">100<small>lang</small></button>
+        <button class="boek-preset" data-aantal="200" onclick="kiesLengte(200)">200<small>heel lang</small></button>
+      </div>
+      <div class="boek-eigen-aantal">
+        <label for="boek-bladzijdes">Of typ zelf een aantal:</label>
+        <input type="number" id="boek-bladzijdes" class="boek-aantal-input" min="1" max="500" value="${huidig}" />
+        <span>bladzijdes</span>
+      </div>
+      <button class="boek-volgende" style="--genre-kleur:${g.kleur}" onclick="slaLengteOp()">Volgende →</button>
+    </div>
+  `;
+  markeerActievePreset(huidig);
+  const inp = document.getElementById("boek-bladzijdes");
+  inp.addEventListener("input", () => {
+    const n = parseInt(inp.value, 10) || 0;
+    markeerActievePreset(n);
+  });
+}
+
+function kiesLengte(n) {
+  const inp = document.getElementById("boek-bladzijdes");
+  if (inp) inp.value = n;
+  markeerActievePreset(n);
+}
+
+function markeerActievePreset(n) {
+  document.querySelectorAll(".boek-preset").forEach(b => {
+    b.classList.toggle("actief", parseInt(b.dataset.aantal, 10) === n);
+  });
+}
+
+function slaLengteOp() {
+  const inp = document.getElementById("boek-bladzijdes");
+  if (!inp) return;
+  let n = parseInt(inp.value, 10);
+  if (isNaN(n) || n < 1) {
+    inp.classList.add("fout");
+    inp.focus();
+    return;
+  }
+  if (n > 500) n = 500;
+  inp.classList.remove("fout");
+  huidigBoek.bladzijdes = n;
+  const aantalPlaatjes = (huidigBoek.plaatjes || []).length;
+  alert(`Genre: ${huidigBoek.genre.naam}\n\nHoofdpersonen:\n${huidigBoek.hoofdpersonen}\n\nBijpersonen:\n${huidigBoek.bijpersonen}\n\nOnderwerp:\n${huidigBoek.onderwerp}\n\nPlaatjes: ${aantalPlaatjes}\n\nBladzijdes: ${n}\n\nVolgende stap maken we zo samen 🙂`);
 }
 
 // Render zodra DOM klaar is
