@@ -1,9 +1,9 @@
 // Olliebet AI Boekenschrijver — Cloudflare Worker
-// Ontvangt een boek-opdracht van de frontend, roept Google Gemini aan,
+// Ontvangt een boek-opdracht van de frontend, roept Anthropic Claude aan,
 // en geeft de gegenereerde tekst terug.
 //
-// GEMINI_API_KEY wordt als Cloudflare-secret ingesteld:
-//   wrangler secret put GEMINI_API_KEY
+// ANTHROPIC_API_KEY wordt als Cloudflare-secret ingesteld:
+//   wrangler secret put ANTHROPIC_API_KEY
 
 const ALLOWED_ORIGINS = [
   "https://olliebet.nl",
@@ -12,8 +12,7 @@ const ALLOWED_ORIGINS = [
   "http://127.0.0.1:8000",
 ];
 
-// Gemini 2.0 Flash is gratis op het free tier: 15 req/min, 1500 req/dag.
-const GEMINI_MODEL = "gemini-2.0-flash";
+const CLAUDE_MODEL = "claude-sonnet-4-5";
 
 function corsHeaders(origin) {
   const allow = ALLOWED_ORIGINS.includes(origin) ? origin : ALLOWED_ORIGINS[0];
@@ -47,53 +46,54 @@ export default {
     if (!genre || !hoofdpersonen || !onderwerp || !bladzijdes) {
       return jsonResp({ error: "Ontbrekende velden" }, 400, origin);
     }
-    if (!env.GEMINI_API_KEY) {
-      return jsonResp({ error: "Server mist GEMINI_API_KEY" }, 500, origin);
+    if (!env.ANTHROPIC_API_KEY) {
+      return jsonResp({ error: "Server mist ANTHROPIC_API_KEY" }, 500, origin);
     }
 
-    const systemInstruction = bouwSystemPrompt(genre);
-    const parts = bouwParts({ genre, hoofdpersonen, bijpersonen, onderwerp, bladzijdes, plaatjes });
+    const systemPrompt = bouwSystemPrompt(genre);
+    const userContent = bouwUserContent({ genre, hoofdpersonen, bijpersonen, onderwerp, bladzijdes, plaatjes });
 
-    // Gemini laat max ~8192 output tokens toe per response → ongeveer ~20 bladzijdes.
-    // Voor grotere boeken moeten we later chunken, voor nu capping.
-    const maxOutputTokens = Math.min(8192, Math.max(1024, bladzijdes * 350));
+    // Claude Sonnet 4.5 ondersteunt max 8192 output tokens per response.
+    // Grofweg ~350 tokens per bladzijde als ruwe schatting.
+    const maxTokens = Math.min(8192, Math.max(1024, bladzijdes * 350));
 
     try {
-      const url = `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent?key=${env.GEMINI_API_KEY}`;
-      const geminiResp = await fetch(url, {
+      const claudeResp = await fetch("https://api.anthropic.com/v1/messages", {
         method: "POST",
-        headers: { "content-type": "application/json" },
+        headers: {
+          "content-type": "application/json",
+          "x-api-key": env.ANTHROPIC_API_KEY,
+          "anthropic-version": "2023-06-01",
+        },
         body: JSON.stringify({
-          systemInstruction: { parts: [{ text: systemInstruction }] },
-          contents: [{ role: "user", parts }],
-          generationConfig: {
-            temperature: 0.9,
-            maxOutputTokens,
-          },
+          model: CLAUDE_MODEL,
+          max_tokens: maxTokens,
+          system: systemPrompt,
+          messages: [{ role: "user", content: userContent }],
         }),
       });
 
-      if (!geminiResp.ok) {
-        const errText = await geminiResp.text();
-        return jsonResp({ error: `Gemini: ${geminiResp.status} ${errText.slice(0, 400)}` }, 502, origin);
+      if (!claudeResp.ok) {
+        const errText = await claudeResp.text();
+        return jsonResp({ error: `Claude: ${claudeResp.status} ${errText.slice(0, 400)}` }, 502, origin);
       }
 
-      const data = await geminiResp.json();
-      const tekst = (data.candidates?.[0]?.content?.parts || [])
-        .filter(p => p.text)
-        .map(p => p.text)
+      const data = await claudeResp.json();
+      const tekst = (data.content || [])
+        .filter(c => c.type === "text")
+        .map(c => c.text)
         .join("\n\n");
 
       if (!tekst) {
         return jsonResp({
-          error: "Gemini gaf geen tekst terug",
+          error: "Claude gaf geen tekst terug",
           raw: data,
         }, 502, origin);
       }
 
-      return jsonResp({ tekst, usage: data.usageMetadata }, 200, origin);
+      return jsonResp({ tekst, usage: data.usage }, 200, origin);
     } catch (err) {
-      return jsonResp({ error: `Fout bij aanroepen Gemini: ${err.message}` }, 500, origin);
+      return jsonResp({ error: `Fout bij aanroepen Claude: ${err.message}` }, 500, origin);
     }
   },
 };
@@ -123,7 +123,7 @@ Je schrijft nu een LITERAIRE ROMAN voor volwassenen (18+). Diepgang, karakteront
   return basis;
 }
 
-function bouwParts({ genre, hoofdpersonen, bijpersonen, onderwerp, bladzijdes, plaatjes }) {
+function bouwUserContent({ genre, hoofdpersonen, bijpersonen, onderwerp, bladzijdes, plaatjes }) {
   const tekstPrompt = `Schrijf een ${genre.naam.toLowerCase()}-boek voor ${genre.leeftijd}.
 
 HOOFDPERSONEN:
@@ -139,26 +139,31 @@ GEWENSTE LENGTE: ongeveer ${bladzijdes} bladzijdes (${bladzijdes * 300} woorden)
 
 Schrijf het hele boek in één keer. Gebruik Markdown: # voor de titel, ## voor hoofdstukken.`;
 
-  const parts = [];
+  const content = [];
   if (Array.isArray(plaatjes) && plaatjes.length > 0) {
+    let plaatjesToegevoegd = 0;
     for (const p of plaatjes.slice(0, 5)) {
       if (!p.dataUrl || typeof p.dataUrl !== "string") continue;
       const match = p.dataUrl.match(/^data:(image\/[a-zA-Z]+);base64,(.+)$/);
       if (!match) continue;
-      parts.push({
-        inline_data: {
-          mime_type: match[1],
+      content.push({
+        type: "image",
+        source: {
+          type: "base64",
+          media_type: match[1],
           data: match[2],
         },
       });
+      plaatjesToegevoegd++;
     }
-    parts.push({
-      text: `Hierboven zie je ${parts.length} plaatje${parts.length === 1 ? "" : "s"} ter inspiratie. Gebruik ze als visuele referentie voor hoe personages, plekken of dingen eruit zouden kunnen zien.\n\n${tekstPrompt}`,
+    content.push({
+      type: "text",
+      text: `Hierboven zie je ${plaatjesToegevoegd} plaatje${plaatjesToegevoegd === 1 ? "" : "s"} ter inspiratie. Gebruik ze als visuele referentie voor hoe personages, plekken of dingen eruit zouden kunnen zien.\n\n${tekstPrompt}`,
     });
   } else {
-    parts.push({ text: tekstPrompt });
+    content.push({ type: "text", text: tekstPrompt });
   }
-  return parts;
+  return content;
 }
 
 function jsonResp(obj, status, origin) {

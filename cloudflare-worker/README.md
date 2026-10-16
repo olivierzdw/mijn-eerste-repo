@@ -1,19 +1,20 @@
-# Olliebet AI Boekenschrijver — Cloudflare Worker (Gemini)
+# Olliebet AI Boekenschrijver — Cloudflare Worker (Claude)
 
-Deze Worker ontvangt boekaanvragen van olliebet.nl, roept Google Gemini aan,
-en geeft de gegenereerde tekst terug. De Gemini API-key blijft op
+Deze Worker ontvangt boekaanvragen van olliebet.nl, roept Anthropic Claude aan,
+en geeft de gegenereerde tekst terug. De Anthropic API-key blijft op
 Cloudflare, nooit in de frontend.
 
-Gemini 2.0 Flash wordt gebruikt — gratis tier: **15 aanvragen per minuut, 1500 per dag**.
+Model: **claude-sonnet-4-5** (betaald — zie "Kosten" onderaan).
 
 ## Eenmalige setup (10 minuten)
 
-### 1. Gemini API-key ophalen
+### 1. Anthropic API-key ophalen
 
-- Ga naar [aistudio.google.com](https://aistudio.google.com)
-- Log in met je Google-account
-- Links: **"Get API key"** → **"Create API key"**
-- Kopieer de key (`AIza...`)
+- Ga naar [console.anthropic.com](https://console.anthropic.com)
+- Log in met je account
+- Links: **"API Keys"** → **"Create Key"**
+- Kopieer de key (`sk-ant-...`)
+- Zet wat tegoed op je account onder **"Billing"** (bijv. €5)
 
 ### 2. Cloudflare-account aanmaken
 
@@ -40,13 +41,13 @@ wrangler login
 
 Dit opent je browser → geef Wrangler toestemming.
 
-### 5. Gemini API-key als secret opslaan
+### 5. Anthropic API-key als secret opslaan
 
 ```bash
-wrangler secret put GEMINI_API_KEY
+wrangler secret put ANTHROPIC_API_KEY
 ```
 
-Hij vraagt om de key — plak je `AIza...` key en druk op Enter.
+Hij vraagt om de key — plak je `sk-ant-...` key en druk op Enter.
 De key wordt versleuteld opgeslagen bij Cloudflare, komt NOOIT in de git repo.
 
 ### 6. Deploy de Worker
@@ -85,6 +86,10 @@ Dat is alles. De Worker leeft op Cloudflare, los van git/GitHub Pages.
 ## Kosten
 
 - Cloudflare Workers: **gratis** tot 100.000 aanvragen per dag
-- Google Gemini: **gratis** tot 1500 aanvragen per dag (= 1500 boeken)
+- Anthropic Claude Sonnet 4.5: **betaald per gebruik**
+  - ~$3 per miljoen input tokens, ~$15 per miljoen output tokens
+  - Eén boek van ~20 bladzijdes ≈ $0.10 – $0.15
+  - Op €5 tegoed kun je dus ~30–50 boeken genereren
 
-**Totaal: €0 per maand** voor realistisch familiegebruik.
+De `(1 keer gratis)` tekst op de knop slaat op lokale lokale rate-limiting
+in de frontend (localStorage) — niet op API-kosten.
