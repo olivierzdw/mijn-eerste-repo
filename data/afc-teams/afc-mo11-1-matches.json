@@ -1,1 +1,37 @@
-[]
+[
+  {
+    "datum": "za 24 oktober 10:15",
+    "thuis": "AFC MO11-1",
+    "thuisLogo": "images/afc.png",
+    "uit": "SDW O11-3",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 31 oktober 08:30",
+    "thuis": "ASV Arsenal O11-4",
+    "thuisLogo": "",
+    "uit": "AFC MO11-1",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 7 november 09:00",
+    "thuis": "Amstelveen/Heemraad O11-3",
+    "thuisLogo": "",
+    "uit": "AFC MO11-1",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 14 november 08:30",
+    "thuis": "AFC MO11-1",
+    "thuisLogo": "images/afc.png",
+    "uit": "Buitenveldert sc. O11-5",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 21 november 09:45",
+    "thuis": "TABA afc O11-2",
+    "thuisLogo": "images/afc.png",
+    "uit": "AFC MO11-1",
+    "uitLogo": "images/afc.png"
+  }
+]
