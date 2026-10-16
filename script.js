@@ -2172,17 +2172,19 @@ function controleerCode() {
 function toonAppKeuze() {
   document.getElementById("app-chooser").classList.remove("hidden");
   document.getElementById("voetbal-app").classList.add("hidden");
-  document.getElementById("restaurant-app").classList.add("hidden");
+  const boeken = document.getElementById("boeken-app");
+  if (boeken) boeken.classList.add("hidden");
 }
 
 function kiesApp(app) {
   sessionStorage.setItem("olliebet-app", app);
   document.getElementById("app-chooser").classList.add("hidden");
+  const boeken = document.getElementById("boeken-app");
   if (app === "voetbal") {
     document.getElementById("voetbal-app").classList.remove("hidden");
-    document.getElementById("restaurant-app").classList.add("hidden");
-  } else if (app === "restaurant") {
-    document.getElementById("restaurant-app").classList.remove("hidden");
+    if (boeken) boeken.classList.add("hidden");
+  } else if (app === "boeken") {
+    if (boeken) boeken.classList.remove("hidden");
     document.getElementById("voetbal-app").classList.add("hidden");
   }
 }
@@ -2190,266 +2192,6 @@ function kiesApp(app) {
 function terugNaarKeuze() {
   sessionStorage.removeItem("olliebet-app");
   toonAppKeuze();
-}
-
-// ── Restaurantje: Menukaart ───────────────────────────────────
-const MENUKAART = [
-  { categorie: "Voorgerechten", items: [
-    { naam: "Salade",      prijs: 6.50, emoji: "🥗" },
-    { naam: "Tomatensoep", prijs: 5.50, emoji: "🍅" },
-    { naam: "Baguette",    prijs: 4.50, emoji: "🥖" },
-  ]},
-  { categorie: "Hoofdgerechten", items: [
-    { naam: "Pasta met tomatensaus",   prijs: 10.50, emoji: "🍝" },
-    { naam: "Pizza",                   prijs: 11.00, emoji: "🍕" },
-    { naam: "Eitje (gekookt of gebakken)", prijs: 4.50, emoji: "🍳" },
-    { naam: "Zalm",                    prijs: 17.50, emoji: "🐟" },
-    { naam: "Frietjes",                prijs: 4.00, emoji: "🍟" },
-  ]},
-  { categorie: "Nagerechten", items: [
-    { naam: "Zelfgebakken frambozentaart",    prijs: 6.50, emoji: "🥧" },
-    { naam: "Zelfgemaakt aardbeienijs",       prijs: 5.50, emoji: "🍓" },
-    { naam: "Koekjes met gesmolten chocola",  prijs: 5.00, emoji: "🍪" },
-  ]},
-  { categorie: "Drankjes", items: [
-    { naam: "Frisdrank",            prijs: 2.80, emoji: "🥤" },
-    { naam: "Water",                prijs: 0.00, emoji: "💧" },
-    { naam: "Thee",                 prijs: 2.50, emoji: "🍵" },
-    { naam: "Koffie",               prijs: 2.80, emoji: "☕" },
-    { naam: "Thuisgemaakte milkshake", prijs: 4.00, emoji: "🍦" },
-  ]},
-];
-
-function menuSleutel(cat, naam) {
-  return `${cat}|${naam}`;
-}
-
-function formatEuro(bedrag) {
-  return '€ ' + bedrag.toFixed(2).replace('.', ',');
-}
-
-function toonMenukaart() {
-  const panel = document.getElementById("menukaart-panel");
-  const lijst = document.getElementById("menukaart-lijst");
-  if (!panel || !lijst) return;
-  if (!panel.classList.contains("hidden")) {
-    panel.classList.add("hidden");
-    return;
-  }
-  const opgeslagen = JSON.parse(localStorage.getItem("restaurant-bestelling") || "{}");
-  lijst.innerHTML = MENUKAART.filter(cat => cat.items.length).map(cat => `
-    <div class="menu-categorie">
-      <h3>${escapeHTML(cat.categorie)}</h3>
-      <ul class="menu-items">
-        ${cat.items.map(it => {
-          const sleutel = menuSleutel(cat.categorie, it.naam);
-          const aantal  = opgeslagen[sleutel] || 0;
-          return `
-            <li>
-              <span class="menu-emoji">${it.emoji}</span>
-              <span class="menu-naam">${escapeHTML(it.naam)}</span>
-              <span class="menu-prijs">${it.prijs === 0 ? 'gratis' : formatEuro(it.prijs)}</span>
-              <input class="menu-aantal" type="number" min="0" max="99" value="${aantal || ''}" placeholder="0"
-                     data-sleutel="${escapeHTML(sleutel)}" data-prijs="${it.prijs}" />
-            </li>
-          `;
-        }).join('')}
-      </ul>
-    </div>
-  `).join('') + `
-    <div class="menu-totaal-balk">
-      <span>Totaal</span>
-      <span id="menu-totaal">€ 0,00</span>
-    </div>
-    <div class="menu-acties">
-      <button class="menu-betaal" onclick="betaalBestelling()">💳 Betalen</button>
-      <button class="menu-reset" onclick="resetBestelling()">Reset</button>
-    </div>
-  `;
-  // Bind inputs
-  lijst.querySelectorAll(".menu-aantal").forEach(inp => {
-    inp.addEventListener("input", onAantalWijzig);
-  });
-  updateMenuTotaal();
-  panel.classList.remove("hidden");
-}
-
-function onAantalWijzig(e) {
-  const inp = e.target;
-  const sleutel = inp.dataset.sleutel;
-  let n = parseInt(inp.value, 10);
-  if (isNaN(n) || n < 0) n = 0;
-  if (n > 99) n = 99;
-  const bestelling = JSON.parse(localStorage.getItem("restaurant-bestelling") || "{}");
-  if (n === 0) delete bestelling[sleutel];
-  else bestelling[sleutel] = n;
-  localStorage.setItem("restaurant-bestelling", JSON.stringify(bestelling));
-  updateMenuTotaal();
-}
-
-function updateMenuTotaal() {
-  const el = document.getElementById("menu-totaal");
-  if (!el) return;
-  let totaal = 0;
-  document.querySelectorAll(".menu-aantal").forEach(inp => {
-    const n = parseInt(inp.value, 10) || 0;
-    const p = parseFloat(inp.dataset.prijs) || 0;
-    totaal += n * p;
-  });
-  el.textContent = formatEuro(totaal);
-}
-
-function resetBestelling() {
-  localStorage.removeItem("restaurant-bestelling");
-  document.querySelectorAll(".menu-aantal").forEach(inp => { inp.value = ''; });
-  updateMenuTotaal();
-}
-
-function betaalBestelling() {
-  const bestelling = JSON.parse(localStorage.getItem("restaurant-bestelling") || "{}");
-  const regels = [];
-  let totaal = 0;
-  for (const cat of MENUKAART) {
-    for (const it of cat.items) {
-      const n = bestelling[menuSleutel(cat.categorie, it.naam)] || 0;
-      if (n > 0) {
-        const sub = n * it.prijs;
-        regels.push({ naam: it.naam, aantal: n, prijs: it.prijs, sub, emoji: it.emoji });
-        totaal += sub;
-      }
-    }
-  }
-  if (regels.length === 0) {
-    toonBetaalPopup(`
-      <div class="betaal-leeg">🤔 Je hebt nog niks besteld.<br/>Vul eerst een aantal in bij een gerecht.</div>
-      <button class="betaal-ok" onclick="sluitBetaalPopup()">OK</button>
-    `);
-    return;
-  }
-  const regelHtml = regels.map(r => `
-    <li>
-      <span class="bon-aantal">${r.aantal}×</span>
-      <span class="bon-naam">${r.emoji} ${escapeHTML(r.naam)}</span>
-      <span class="bon-prijs">${r.prijs === 0 ? 'gratis' : formatEuro(r.sub)}</span>
-    </li>
-  `).join('');
-  toonBetaalPopup(`
-    <h2>🧾 Rekening</h2>
-    <ul class="bon-lijst">${regelHtml}</ul>
-    <div class="bon-totaal">
-      <span>Totaal</span>
-      <span>${formatEuro(totaal)}</span>
-    </div>
-    <div class="betaal-acties">
-      <button class="betaal-annuleer" onclick="sluitBetaalPopup()">Terug</button>
-      <button class="betaal-bevestig" onclick="bevestigBetaling(${totaal})">💳 Betaal ${formatEuro(totaal)}</button>
-    </div>
-  `);
-}
-
-const BANKEN = {
-  abn: {
-    naam: "ABN AMRO",
-    emoji: "🟢",
-    kleur: "#009b3a",
-    stappen: [
-      "Open de ABN AMRO app op je telefoon",
-      "Log in met je pincode of gezicht",
-      "Kies Betalen → Nieuwe betaling",
-      "Vul het bedrag hieronder in",
-      "Kies de ontvanger (de rekening van Olivier)",
-      "Bevestig met je pincode",
-    ],
-  },
-  ing: {
-    naam: "ING",
-    emoji: "🟠",
-    kleur: "#ff6200",
-    stappen: [
-      "Open de ING app op je telefoon",
-      "Log in met je pincode of gezicht",
-      "Kies Betalen → Overschrijven",
-      "Vul het bedrag hieronder in",
-      "Kies de ontvanger (de rekening van Olivier)",
-      "Bevestig met je pincode",
-    ],
-  },
-};
-
-function bevestigBetaling(totaal) {
-  toonBankKeuze(totaal);
-}
-
-function toonBankKeuze(totaal) {
-  toonBetaalPopup(`
-    <h2>💶 Hoe wil je betalen?</h2>
-    <p>Kies je bank:</p>
-    <div class="bank-keuze">
-      <button class="bank-knop bank-abn" onclick="kiesBank('abn', ${totaal})">
-        <span class="bank-emoji">🟢</span>
-        <span class="bank-naam">ABN AMRO</span>
-      </button>
-      <button class="bank-knop bank-ing" onclick="kiesBank('ing', ${totaal})">
-        <span class="bank-emoji">🟠</span>
-        <span class="bank-naam">ING</span>
-      </button>
-    </div>
-    <div class="betaal-acties">
-      <button class="betaal-annuleer" onclick="sluitBetaalPopup()">Annuleer</button>
-    </div>
-  `);
-}
-
-function kiesBank(bankId, totaal) {
-  const bank = BANKEN[bankId];
-  if (!bank) return;
-  const stappenHtml = bank.stappen.map((s, i) => `<li><span class="stap-nr">${i + 1}</span>${escapeHTML(s)}</li>`).join('');
-  toonBetaalPopup(`
-    <h2>${bank.emoji} Betalen via ${escapeHTML(bank.naam)}</h2>
-    <div class="bedrag-balk">
-      Te betalen: <b>${formatEuro(totaal)}</b>
-    </div>
-    <p class="betaal-stappen-titel">Volg deze stappen:</p>
-    <ol class="betaal-stappen">${stappenHtml}</ol>
-    <div class="betaal-acties">
-      <button class="betaal-annuleer" onclick="toonBankKeuze(${totaal})">Andere bank</button>
-      <button class="betaal-bevestig" onclick="rondBetalingAf(${totaal})">Betaald ✓</button>
-    </div>
-  `);
-}
-
-function rondBetalingAf(totaal) {
-  localStorage.removeItem("restaurant-bestelling");
-  document.querySelectorAll(".menu-aantal").forEach(inp => { inp.value = ''; });
-  updateMenuTotaal();
-  toonBetaalPopup(`
-    <div class="betaal-ok-icoon">✅</div>
-    <h2>Betaald!</h2>
-    <p>${formatEuro(totaal)} ontvangen 🎉</p>
-    <p class="betaal-dankje">Bedankt en tot ziens! 👋</p>
-    <button class="betaal-ok" onclick="sluitBetaalPopup()">Sluiten</button>
-  `);
-}
-
-function toonBetaalPopup(html) {
-  let overlay = document.getElementById("betaal-overlay");
-  if (!overlay) {
-    overlay = document.createElement("div");
-    overlay.id = "betaal-overlay";
-    overlay.className = "betaal-overlay";
-    overlay.innerHTML = `<div class="betaal-popup" id="betaal-popup"></div>`;
-    overlay.addEventListener("click", (e) => {
-      if (e.target === overlay) sluitBetaalPopup();
-    });
-    document.body.appendChild(overlay);
-  }
-  document.getElementById("betaal-popup").innerHTML = html;
-  overlay.classList.remove("hidden");
-}
-
-function sluitBetaalPopup() {
-  const overlay = document.getElementById("betaal-overlay");
-  if (overlay) overlay.classList.add("hidden");
 }
 
 // ── Spelletjes ────────────────────────────────────────────────
@@ -2744,7 +2486,7 @@ function gameOverSnake() {
   if (sessionStorage.getItem("olliebet-toegang") === "ja") {
     gate.classList.add("hidden");
     const app = sessionStorage.getItem("olliebet-app");
-    if (app === "voetbal" || app === "restaurant") {
+    if (app === "voetbal" || app === "boeken") {
       kiesApp(app);
     } else {
       toonAppKeuze();

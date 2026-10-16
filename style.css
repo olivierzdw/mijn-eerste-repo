@@ -1024,11 +1024,11 @@ button:hover {
   transform: translateY(-3px);
   background: #1e2b50;
 }
-.app-tile.restaurant {
-  border-color: #f5a623;
+.app-tile.boeken {
+  border-color: #a855f7;
 }
-.app-tile.restaurant:hover {
-  background: #2a2440;
+.app-tile.boeken:hover {
+  background: #2a1f40;
 }
 .app-tile-icoon {
   font-size: 4rem;
@@ -1064,19 +1064,36 @@ button:hover {
   border-color: #e94560;
 }
 
-/* Restaurant placeholder */
-#restaurant-app {
+/* AI Boekenschrijver */
+#boeken-app {
   min-height: 100vh;
   padding: 60px 20px 40px;
 }
-.restaurant-header {
+.boeken-header {
   text-align: center;
   margin-bottom: 2rem;
 }
-.restaurant-header h1 {
-  color: #f5a623;
+.boeken-header h1 {
+  color: #a855f7;
   margin: 0;
   font-size: 2rem;
+}
+.boeken-main {
+  max-width: 700px;
+  margin: 0 auto;
+  color: #e0e0e0;
+}
+.boeken-intro {
+  text-align: center;
+  font-size: 1.1rem;
+  padding: 2rem;
+  background: #1a2440;
+  border: 2px solid #a855f7;
+  border-radius: 12px;
+}
+
+/* ===== OUDE RESTAURANT CSS (ongebruikt, blijft staan tot opschoning) ===== */
+.restaurant-header-oud {
 }
 .restaurant-main {
   max-width: 720px;
