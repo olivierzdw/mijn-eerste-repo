@@ -2303,7 +2303,57 @@ function slaBijpersonenOp() {
   }
   ta.classList.remove("fout");
   huidigBoek.bijpersonen = tekst;
-  alert(`Genre: ${huidigBoek.genre.naam}\n\nHoofdpersonen:\n${huidigBoek.hoofdpersonen}\n\nBijpersonen:\n${tekst}\n\nVolgende stap maken we zo samen 🙂`);
+  toonBoekOnderwerp();
+}
+
+function toonBoekOnderwerp() {
+  const el = document.getElementById("boeken-genres");
+  if (!el || !huidigBoek) return;
+  const g = huidigBoek.genre;
+  const opgeslagen = huidigBoek.onderwerp || "";
+  const vraag = g.id === "leerzaam" ? "Wat moet er uitgelegd worden?" : "Waar gaat het verhaal over?";
+  const hint  = g.id === "leerzaam"
+    ? "Beschrijf het onderwerp dat je wilt leren. Hoe uitgebreider, hoe beter het boek wordt."
+    : "Beschrijf kort de kern van het verhaal: wat gebeurt er, waar speelt het, wat is het probleem of de missie?";
+  const placeholder = g.id === "leerzaam"
+    ? "Bijv.&#10;Hoe wordt water gereinigd voordat het uit de kraan komt?&#10;Welke stappen zijn er en welke machines worden gebruikt?"
+    : g.id === "avontuur"
+    ? "Bijv.&#10;Lotte en Max vinden een oude schatkaart op zolder. De kaart leidt naar een eiland waar oma Riek vroeger vakantie vierde. Ze moeten langs drie raadsels voor ze de schat vinden."
+    : g.id === "thriller"
+    ? "Bijv.&#10;In een slaperig dorp verdwijnen 's nachts kinderen uit hun bed. Alleen de 15-jarige Sophie weet wie erachter zit, maar niemand gelooft haar."
+    : "Bijv.&#10;Twee oud-klasgenoten komen elkaar twintig jaar na de middelbare school weer tegen. Beiden hebben een geheim dat ze liever niet oprakelen.";
+  el.innerHTML = `
+    <div class="boek-stap">
+      <button class="boek-stap-terug" onclick="toonBoekBijpersonen()">← Terug</button>
+      <div class="boek-stap-genre" style="--genre-kleur:${g.kleur}">
+        <span class="boek-stap-emoji">${g.emoji}</span>
+        <span class="boek-stap-naam">${escapeHTML(g.naam)}</span>
+        <span class="boek-stap-leeftijd">${escapeHTML(g.leeftijd)}</span>
+      </div>
+      <h2 class="boek-stap-vraag">${escapeHTML(vraag)}</h2>
+      <p class="boek-stap-hint">${escapeHTML(hint)}</p>
+      <textarea id="boek-onderwerp" class="boek-textarea" rows="6" placeholder="${placeholder}">${escapeHTML(opgeslagen)}</textarea>
+      <button class="boek-volgende" style="--genre-kleur:${g.kleur}" onclick="slaOnderwerpOp()">Volgende →</button>
+    </div>
+  `;
+  setTimeout(() => {
+    const ta = document.getElementById("boek-onderwerp");
+    if (ta) ta.focus();
+  }, 50);
+}
+
+function slaOnderwerpOp() {
+  const ta = document.getElementById("boek-onderwerp");
+  if (!ta) return;
+  const tekst = (ta.value || "").trim();
+  if (!tekst) {
+    ta.classList.add("fout");
+    ta.focus();
+    return;
+  }
+  ta.classList.remove("fout");
+  huidigBoek.onderwerp = tekst;
+  alert(`Genre: ${huidigBoek.genre.naam}\n\nHoofdpersonen:\n${huidigBoek.hoofdpersonen}\n\nBijpersonen:\n${huidigBoek.bijpersonen}\n\nOnderwerp:\n${tekst}\n\nVolgende stap maken we zo samen 🙂`);
 }
 
 // Render zodra DOM klaar is
