@@ -1159,6 +1159,105 @@ button:hover {
   .boek-genre-info { font-size: 0.82rem; }
 }
 
+/* Boek stap-formulier */
+.boek-stap {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  background: #1a2440;
+  border: 2px solid #a855f7;
+  border-radius: 14px;
+  padding: 20px 22px;
+}
+.boek-stap-terug {
+  align-self: flex-start;
+  background: transparent;
+  color: #c9b8e6;
+  border: 1px solid #4a3a6e;
+  border-radius: 8px;
+  padding: 6px 12px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+.boek-stap-terug:hover {
+  background: #22305a;
+  color: #fff;
+}
+.boek-stap-genre {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid var(--genre-kleur, #a855f7);
+  border-radius: 10px;
+  font-weight: 600;
+}
+.boek-stap-emoji { font-size: 1.6rem; }
+.boek-stap-naam {
+  color: var(--genre-kleur, #fff);
+  font-size: 1.1rem;
+}
+.boek-stap-leeftijd {
+  margin-left: auto;
+  color: #b0b8d0;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+.boek-stap-vraag {
+  margin: 8px 0 0 0;
+  color: #fff;
+  font-size: 1.25rem;
+}
+.boek-stap-hint {
+  margin: 0;
+  color: #c0c6dc;
+  font-size: 0.92rem;
+  line-height: 1.4;
+}
+.boek-textarea {
+  width: 100%;
+  background: #0f1626;
+  color: #fff;
+  border: 2px solid #2a3a5e;
+  border-radius: 10px;
+  padding: 12px 14px;
+  font-size: 1rem;
+  font-family: inherit;
+  line-height: 1.5;
+  resize: vertical;
+  min-height: 120px;
+  box-sizing: border-box;
+}
+.boek-textarea:focus {
+  outline: none;
+  border-color: var(--genre-kleur, #a855f7);
+}
+.boek-textarea.fout {
+  border-color: #e94560;
+  animation: shake 0.3s;
+}
+.boek-volgende {
+  align-self: flex-end;
+  background: var(--genre-kleur, #a855f7);
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 10px;
+  font-size: 1.05rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+  transition: transform 0.1s ease, filter 0.15s ease;
+}
+.boek-volgende:hover { filter: brightness(1.15); transform: translateY(-1px); }
+.boek-volgende:active { transform: translateY(0); }
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-4px); }
+  75% { transform: translateX(4px); }
+}
+
 /* ===== OUDE RESTAURANT CSS (ongebruikt, blijft staan tot opschoning) ===== */
 .restaurant-header-oud {
 }

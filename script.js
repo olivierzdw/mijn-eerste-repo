@@ -2217,10 +2217,53 @@ function renderBoekenGenres() {
   `).join('');
 }
 
+let huidigBoek = null; // { genre, hoofdpersonen, ... }
+
 function kiesBoekGenre(id) {
   const g = BOEKEN_GENRES.find(x => x.id === id);
   if (!g) return;
-  alert(`Je koos: ${g.naam} (${g.leeftijd})\n\nVolgende stap maken we zo samen 🙂`);
+  huidigBoek = { genre: g };
+  toonBoekHoofdpersonen();
+}
+
+function toonBoekHoofdpersonen() {
+  const el = document.getElementById("boeken-genres");
+  if (!el || !huidigBoek) return;
+  const g = huidigBoek.genre;
+  const opgeslagen = huidigBoek.hoofdpersonen || "";
+  el.innerHTML = `
+    <div class="boek-stap">
+      <button class="boek-stap-terug" onclick="renderBoekenGenres()">← Ander genre</button>
+      <div class="boek-stap-genre" style="--genre-kleur:${g.kleur}">
+        <span class="boek-stap-emoji">${g.emoji}</span>
+        <span class="boek-stap-naam">${escapeHTML(g.naam)}</span>
+        <span class="boek-stap-leeftijd">${escapeHTML(g.leeftijd)}</span>
+      </div>
+      <h2 class="boek-stap-vraag">Wie zijn de hoofdpersonen?</h2>
+      <p class="boek-stap-hint">Typ hun namen en bijv. hun leeftijd of karakter. Scheid meerdere personen met een komma of nieuwe regel.</p>
+      <textarea id="boek-hoofdpersonen" class="boek-textarea" rows="5"
+        placeholder="Bijv.&#10;Lotte (10, slim en nieuwsgierig)&#10;Max (12, broer van Lotte, dapper maar bang voor spinnen)&#10;Oma Riek (65, kent alle geheimen van het dorp)">${escapeHTML(opgeslagen)}</textarea>
+      <button class="boek-volgende" style="--genre-kleur:${g.kleur}" onclick="slaHoofdpersonenOp()">Volgende →</button>
+    </div>
+  `;
+  setTimeout(() => {
+    const ta = document.getElementById("boek-hoofdpersonen");
+    if (ta) ta.focus();
+  }, 50);
+}
+
+function slaHoofdpersonenOp() {
+  const ta = document.getElementById("boek-hoofdpersonen");
+  if (!ta) return;
+  const tekst = (ta.value || "").trim();
+  if (!tekst) {
+    ta.classList.add("fout");
+    ta.focus();
+    return;
+  }
+  ta.classList.remove("fout");
+  huidigBoek.hoofdpersonen = tekst;
+  alert(`Genre: ${huidigBoek.genre.naam}\n\nHoofdpersonen:\n${tekst}\n\nVolgende stap maken we zo samen 🙂`);
 }
 
 // Render zodra DOM klaar is
