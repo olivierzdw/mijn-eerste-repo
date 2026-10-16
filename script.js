@@ -2353,7 +2353,94 @@ function slaOnderwerpOp() {
   }
   ta.classList.remove("fout");
   huidigBoek.onderwerp = tekst;
-  alert(`Genre: ${huidigBoek.genre.naam}\n\nHoofdpersonen:\n${huidigBoek.hoofdpersonen}\n\nBijpersonen:\n${huidigBoek.bijpersonen}\n\nOnderwerp:\n${tekst}\n\nVolgende stap maken we zo samen 🙂`);
+  toonBoekPlaatjes();
+}
+
+function toonBoekPlaatjes() {
+  const el = document.getElementById("boeken-genres");
+  if (!el || !huidigBoek) return;
+  const g = huidigBoek.genre;
+  huidigBoek.plaatjes = huidigBoek.plaatjes || [];
+  el.innerHTML = `
+    <div class="boek-stap">
+      <button class="boek-stap-terug" onclick="toonBoekOnderwerp()">← Terug</button>
+      <div class="boek-stap-genre" style="--genre-kleur:${g.kleur}">
+        <span class="boek-stap-emoji">${g.emoji}</span>
+        <span class="boek-stap-naam">${escapeHTML(g.naam)}</span>
+        <span class="boek-stap-leeftijd">${escapeHTML(g.leeftijd)}</span>
+      </div>
+      <h2 class="boek-stap-vraag">Wil je plaatjes toevoegen? <span class="boek-optioneel">(optioneel)</span></h2>
+      <p class="boek-stap-hint">Je kunt foto's of tekeningen uploaden ter inspiratie — bijv. hoe hoofdpersonen eruitzien, een plek, of iets dat in het verhaal voorkomt. Je kunt deze stap ook overslaan.</p>
+      <label for="boek-plaatjes-input" class="boek-upload-vak" style="--genre-kleur:${g.kleur}">
+        <div class="boek-upload-icoon">📷</div>
+        <div class="boek-upload-tekst">
+          <strong>Klik hier om plaatjes te kiezen</strong>
+          <span>of sleep ze hierheen · meerdere mag</span>
+        </div>
+      </label>
+      <input type="file" id="boek-plaatjes-input" accept="image/*" multiple hidden />
+      <div class="boek-plaatjes-grid" id="boek-plaatjes-grid"></div>
+      <button class="boek-volgende" style="--genre-kleur:${g.kleur}" onclick="slaPlaatjesOp()">Volgende →</button>
+    </div>
+  `;
+  const input = document.getElementById("boek-plaatjes-input");
+  input.addEventListener("change", onPlaatjesGekozen);
+  const vak = el.querySelector(".boek-upload-vak");
+  vak.addEventListener("dragover", e => { e.preventDefault(); vak.classList.add("drag"); });
+  vak.addEventListener("dragleave", () => vak.classList.remove("drag"));
+  vak.addEventListener("drop", e => {
+    e.preventDefault();
+    vak.classList.remove("drag");
+    if (e.dataTransfer?.files) voegPlaatjesToe(e.dataTransfer.files);
+  });
+  renderBoekPlaatjes();
+}
+
+function onPlaatjesGekozen(e) {
+  voegPlaatjesToe(e.target.files);
+  e.target.value = ""; // zodat je dezelfde file opnieuw mag kiezen
+}
+
+function voegPlaatjesToe(fileList) {
+  const files = Array.from(fileList).filter(f => f.type.startsWith("image/"));
+  if (!files.length) return;
+  let klaar = 0;
+  files.forEach(f => {
+    const reader = new FileReader();
+    reader.onload = () => {
+      huidigBoek.plaatjes.push({ naam: f.name, dataUrl: reader.result });
+      klaar++;
+      if (klaar === files.length) renderBoekPlaatjes();
+    };
+    reader.readAsDataURL(f);
+  });
+}
+
+function renderBoekPlaatjes() {
+  const grid = document.getElementById("boek-plaatjes-grid");
+  if (!grid) return;
+  const lijst = huidigBoek.plaatjes || [];
+  if (!lijst.length) {
+    grid.innerHTML = `<div class="boek-plaatjes-leeg">Nog geen plaatjes toegevoegd</div>`;
+    return;
+  }
+  grid.innerHTML = lijst.map((p, i) => `
+    <div class="boek-plaatje-tegel">
+      <img src="${p.dataUrl}" alt="${escapeHTML(p.naam)}" />
+      <button class="boek-plaatje-wis" onclick="verwijderPlaatje(${i})" title="Verwijder">×</button>
+    </div>
+  `).join('');
+}
+
+function verwijderPlaatje(i) {
+  huidigBoek.plaatjes.splice(i, 1);
+  renderBoekPlaatjes();
+}
+
+function slaPlaatjesOp() {
+  // Plaatjes zijn optioneel — gewoon doorgaan
+  const aantal = (huidigBoek.plaatjes || []).length;
+  alert(`Genre: ${huidigBoek.genre.naam}\n\nHoofdpersonen:\n${huidigBoek.hoofdpersonen}\n\nBijpersonen:\n${huidigBoek.bijpersonen}\n\nOnderwerp:\n${huidigBoek.onderwerp}\n\nPlaatjes: ${aantal}\n\nVolgende stap maken we zo samen 🙂`);
 }
 
 // Render zodra DOM klaar is
