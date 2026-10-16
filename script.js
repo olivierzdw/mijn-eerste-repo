@@ -2194,6 +2194,39 @@ function terugNaarKeuze() {
   toonAppKeuze();
 }
 
+// ── AI Boekenschrijver ───────────────────────────────────────
+const BOEKEN_GENRES = [
+  { id: "leerzaam", emoji: "📚", naam: "Leerzaam boek",     leeftijd: "alle leeftijden", beschrijving: "Bijv. hoe wordt water gereinigd, hoe werkt een vulkaan, waarom slapen we?", kleur: "#22c55e" },
+  { id: "avontuur", emoji: "🗺️", naam: "Avontuur",          leeftijd: "7 – 13 jaar",      beschrijving: "Spannende tochten, verborgen schatten en helden die alles durven.",         kleur: "#3b82f6" },
+  { id: "thriller", emoji: "🔪", naam: "Thriller",          leeftijd: "13 – 17 jaar",     beschrijving: "Mysteries, achtervolgingen en plotwendingen die je niet ziet aankomen.",   kleur: "#f59e0b" },
+  { id: "roman",    emoji: "💔", naam: "Roman",             leeftijd: "18+",              beschrijving: "Verhalen over liefde, verlies en het echte leven.",                        kleur: "#ec4899" },
+];
+
+function renderBoekenGenres() {
+  const el = document.getElementById("boeken-genres");
+  if (!el) return;
+  el.innerHTML = BOEKEN_GENRES.map(g => `
+    <button class="boek-genre" style="--genre-kleur:${g.kleur}" onclick="kiesBoekGenre('${g.id}')">
+      <div class="boek-genre-emoji">${g.emoji}</div>
+      <div class="boek-genre-tekst">
+        <div class="boek-genre-naam">${escapeHTML(g.naam)}</div>
+        <div class="boek-genre-leeftijd">${escapeHTML(g.leeftijd)}</div>
+        <div class="boek-genre-info">${escapeHTML(g.beschrijving)}</div>
+      </div>
+    </button>
+  `).join('');
+}
+
+function kiesBoekGenre(id) {
+  const g = BOEKEN_GENRES.find(x => x.id === id);
+  if (!g) return;
+  alert(`Je koos: ${g.naam} (${g.leeftijd})\n\nVolgende stap maken we zo samen 🙂`);
+}
+
+// Render zodra DOM klaar is
+if (document.readyState !== "loading") renderBoekenGenres();
+else document.addEventListener("DOMContentLoaded", renderBoekenGenres);
+
 // ── Spelletjes ────────────────────────────────────────────────
 
 let huidigSpel = "penalty";

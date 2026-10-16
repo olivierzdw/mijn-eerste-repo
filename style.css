@@ -1091,6 +1091,73 @@ button:hover {
   border: 2px solid #a855f7;
   border-radius: 12px;
 }
+.boeken-sub {
+  color: #c9b8e6;
+  text-align: center;
+  margin: 0.4rem 0 0 0;
+  font-size: 0.95rem;
+}
+.boeken-genres {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 1rem;
+}
+.boek-genre {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  text-align: left;
+  background: #1a2440;
+  color: #fff;
+  border: 2px solid var(--genre-kleur, #a855f7);
+  border-radius: 14px;
+  padding: 18px 20px;
+  cursor: pointer;
+  transition: transform 0.1s ease, background 0.15s ease, box-shadow 0.15s ease;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+.boek-genre:hover {
+  transform: translateY(-2px);
+  background: #22305a;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.4), 0 0 0 1px var(--genre-kleur);
+}
+.boek-genre:active { transform: translateY(0); }
+.boek-genre-emoji {
+  font-size: 2.4rem;
+  flex-shrink: 0;
+  width: 56px;
+  text-align: center;
+}
+.boek-genre-tekst {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  min-width: 0;
+}
+.boek-genre-naam {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--genre-kleur, #fff);
+}
+.boek-genre-leeftijd {
+  font-size: 0.85rem;
+  color: #b0b8d0;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+.boek-genre-info {
+  font-size: 0.88rem;
+  color: #d8dae8;
+  margin-top: 2px;
+  line-height: 1.3;
+}
+@media (max-width: 480px) {
+  .boek-genre { padding: 14px 14px; gap: 12px; }
+  .boek-genre-emoji { font-size: 2rem; width: 44px; }
+  .boek-genre-naam { font-size: 1.05rem; }
+  .boek-genre-info { font-size: 0.82rem; }
+}
 
 /* ===== OUDE RESTAURANT CSS (ongebruikt, blijft staan tot opschoning) ===== */
 .restaurant-header-oud {
