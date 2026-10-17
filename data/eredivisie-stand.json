@@ -9,8 +9,8 @@
     "gelijk": 2,
     "verloren": 0,
     "doelsaldo": 21,
-    "voor": 30,
-    "tegen": 9
+    "voor": 31,
+    "tegen": 10
   },
   {
     "positie": 2,
@@ -144,6 +144,19 @@
   },
   {
     "positie": 12,
+    "club": "Sparta",
+    "logo": "https://crests.football-data.org/6806.png",
+    "gespeeld": 9,
+    "punten": 9,
+    "gewonnen": 2,
+    "gelijk": 3,
+    "verloren": 4,
+    "doelsaldo": -6,
+    "voor": 16,
+    "tegen": 22
+  },
+  {
+    "positie": 13,
     "club": "SC Cambuur-Leeuwarden",
     "logo": "https://crests.football-data.org/1909.png",
     "gespeeld": 8,
@@ -156,7 +169,7 @@
     "tegen": 19
   },
   {
-    "positie": 13,
+    "positie": 14,
     "club": "FC Utrecht",
     "logo": "https://crests.football-data.org/676.png",
     "gespeeld": 8,
@@ -169,19 +182,6 @@
     "tegen": 25
   },
   {
-    "positie": 14,
-    "club": "Sparta",
-    "logo": "https://crests.football-data.org/6806.png",
-    "gespeeld": 8,
-    "punten": 6,
-    "gewonnen": 1,
-    "gelijk": 3,
-    "verloren": 4,
-    "doelsaldo": -7,
-    "voor": 13,
-    "tegen": 20
-  },
-  {
     "positie": 15,
     "club": "Telstar 1963",
     "logo": "https://crests.football-data.org/1912.png",
@@ -191,8 +191,8 @@
     "gelijk": 3,
     "verloren": 5,
     "doelsaldo": -8,
-    "voor": 9,
-    "tegen": 17
+    "voor": 10,
+    "tegen": 18
   },
   {
     "positie": 16,
@@ -224,13 +224,13 @@
     "positie": 18,
     "club": "Willem II Tilburg",
     "logo": "https://crests.football-data.org/672.png",
-    "gespeeld": 8,
+    "gespeeld": 9,
     "punten": 2,
     "gewonnen": 0,
     "gelijk": 2,
-    "verloren": 6,
-    "doelsaldo": -16,
-    "voor": 7,
-    "tegen": 23
+    "verloren": 7,
+    "doelsaldo": -17,
+    "voor": 9,
+    "tegen": 26
   }
 ]
