@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "datum": "za 31 oktober 08:30",
+    "thuis": "HBC O14-4",
+    "thuisLogo": "",
+    "uit": "AFC MO15-1",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 7 november 19:00",
+    "thuis": "Kadoelen sv. MO15-2",
+    "thuisLogo": "",
+    "uit": "AFC MO15-1",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 14 november 17:15",
+    "thuis": "AFC MO15-1",
+    "thuisLogo": "images/afc.png",
+    "uit": "DCG Rksv O14-4",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 21 november 12:00",
+    "thuis": "ASC De Volewijckers O14-2",
+    "thuisLogo": "",
+    "uit": "AFC MO15-1",
+    "uitLogo": "images/afc.png"
+  }
+]
