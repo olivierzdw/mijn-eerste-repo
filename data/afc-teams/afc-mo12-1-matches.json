@@ -1,1 +1,37 @@
-[]
+[
+  {
+    "datum": "za 24 oktober 10:30",
+    "thuis": "RODA '23 Rksv O12-5",
+    "thuisLogo": "",
+    "uit": "AFC MO12-1",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 31 oktober 11:30",
+    "thuis": "AFC MO12-1",
+    "thuisLogo": "images/afc.png",
+    "uit": "HBC MO12-1",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 7 november 09:30",
+    "thuis": "Eendracht '82 sc. O12-1",
+    "thuisLogo": "",
+    "uit": "AFC MO12-1",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 14 november 08:30",
+    "thuis": "AFC MO12-1",
+    "thuisLogo": "images/afc.png",
+    "uit": "Swift MO12-1",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 21 november 08:30",
+    "thuis": "VVA/Spartaan O12-3",
+    "thuisLogo": "",
+    "uit": "AFC MO12-1",
+    "uitLogo": "images/afc.png"
+  }
+]
