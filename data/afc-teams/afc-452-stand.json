@@ -27,6 +27,19 @@
   },
   {
     "positie": 3,
+    "club": "ASV Arsenal 45+1",
+    "logo": "",
+    "gespeeld": 3,
+    "gewonnen": 3,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 29,
+    "tegen": 5,
+    "doelsaldo": 24,
+    "punten": 9
+  },
+  {
+    "positie": 4,
     "club": "Geinburgia sv. 45+1",
     "logo": "",
     "gespeeld": 4,
@@ -37,19 +50,6 @@
     "tegen": 9,
     "doelsaldo": 16,
     "punten": 9
-  },
-  {
-    "positie": 4,
-    "club": "ASV Arsenal 45+1",
-    "logo": "",
-    "gespeeld": 2,
-    "gewonnen": 2,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 20,
-    "tegen": 3,
-    "doelsaldo": 17,
-    "punten": 6
   },
   {
     "positie": 5,
@@ -172,13 +172,13 @@
     "positie": 14,
     "club": "VVGA 45+1",
     "logo": "",
-    "gespeeld": 3,
+    "gespeeld": 4,
     "gewonnen": 0,
     "gelijk": 0,
-    "verloren": 3,
-    "voor": 2,
-    "tegen": 30,
-    "doelsaldo": -28,
+    "verloren": 4,
+    "voor": 4,
+    "tegen": 39,
+    "doelsaldo": -35,
     "punten": 0
   }
 ]

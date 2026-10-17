@@ -1,6 +1,19 @@
 [
   {
     "positie": 1,
+    "club": "AFC Ajax 45+1",
+    "logo": "images/afc.png",
+    "gespeeld": 4,
+    "gewonnen": 4,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 32,
+    "tegen": 6,
+    "doelsaldo": 26,
+    "punten": 12
+  },
+  {
+    "positie": 2,
     "club": "CTO '70 vv 45+3",
     "logo": "",
     "gespeeld": 4,
@@ -11,19 +24,6 @@
     "tegen": 5,
     "doelsaldo": 17,
     "punten": 12
-  },
-  {
-    "positie": 2,
-    "club": "AFC Ajax 45+1",
-    "logo": "images/afc.png",
-    "gespeeld": 3,
-    "gewonnen": 3,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 22,
-    "tegen": 4,
-    "doelsaldo": 18,
-    "punten": 9
   },
   {
     "positie": 3,
@@ -172,13 +172,13 @@
     "positie": 14,
     "club": "AMVJ 45+1",
     "logo": "",
-    "gespeeld": 2,
+    "gespeeld": 3,
     "gewonnen": 0,
     "gelijk": 0,
-    "verloren": 2,
-    "voor": 3,
-    "tegen": 14,
-    "doelsaldo": -11,
+    "verloren": 3,
+    "voor": 5,
+    "tegen": 24,
+    "doelsaldo": -19,
     "punten": 0
   }
 ]

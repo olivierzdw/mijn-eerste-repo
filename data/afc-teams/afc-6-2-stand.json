@@ -3,17 +3,30 @@
     "positie": 1,
     "club": "WV-HEDW 7",
     "logo": "",
-    "gespeeld": 3,
+    "gespeeld": 4,
     "gewonnen": 3,
     "gelijk": 0,
-    "verloren": 0,
+    "verloren": 1,
     "voor": 10,
-    "tegen": 3,
-    "doelsaldo": 7,
+    "tegen": 5,
+    "doelsaldo": 5,
     "punten": 9
   },
   {
     "positie": 2,
+    "club": "AFC 6",
+    "logo": "images/afc.png",
+    "gespeeld": 4,
+    "gewonnen": 2,
+    "gelijk": 2,
+    "verloren": 0,
+    "voor": 9,
+    "tegen": 3,
+    "doelsaldo": 6,
+    "punten": 8
+  },
+  {
+    "positie": 3,
     "club": "Meer De sv. 5",
     "logo": "",
     "gespeeld": 3,
@@ -26,7 +39,7 @@
     "punten": 6
   },
   {
-    "positie": 3,
+    "positie": 4,
     "club": "Kadoelen sv. 3",
     "logo": "",
     "gespeeld": 3,
@@ -37,19 +50,6 @@
     "tegen": 7,
     "doelsaldo": 6,
     "punten": 6
-  },
-  {
-    "positie": 4,
-    "club": "AFC 6",
-    "logo": "images/afc.png",
-    "gespeeld": 3,
-    "gewonnen": 1,
-    "gelijk": 2,
-    "verloren": 0,
-    "voor": 7,
-    "tegen": 3,
-    "doelsaldo": 4,
-    "punten": 5
   },
   {
     "positie": 5,
