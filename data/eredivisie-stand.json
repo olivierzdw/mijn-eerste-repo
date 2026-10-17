@@ -16,14 +16,14 @@
     "positie": 2,
     "club": "PSV",
     "logo": "https://crests.football-data.org/674.png",
-    "gespeeld": 8,
+    "gespeeld": 9,
     "punten": 19,
     "gewonnen": 6,
     "gelijk": 1,
-    "verloren": 1,
-    "doelsaldo": 16,
-    "voor": 26,
-    "tegen": 10
+    "verloren": 2,
+    "doelsaldo": 15,
+    "voor": 27,
+    "tegen": 12
   },
   {
     "positie": 3,
@@ -196,6 +196,19 @@
   },
   {
     "positie": 16,
+    "club": "ADO Den Haag",
+    "logo": "https://crests.football-data.org/680.png",
+    "gespeeld": 9,
+    "punten": 6,
+    "gewonnen": 1,
+    "gelijk": 3,
+    "verloren": 5,
+    "doelsaldo": -9,
+    "voor": 11,
+    "tegen": 20
+  },
+  {
+    "positie": 17,
     "club": "PEC Zwolle",
     "logo": "https://crests.football-data.org/684.png",
     "gespeeld": 8,
@@ -206,19 +219,6 @@
     "doelsaldo": -15,
     "voor": 6,
     "tegen": 21
-  },
-  {
-    "positie": 17,
-    "club": "ADO Den Haag",
-    "logo": "https://crests.football-data.org/680.png",
-    "gespeeld": 8,
-    "punten": 3,
-    "gewonnen": 0,
-    "gelijk": 3,
-    "verloren": 5,
-    "doelsaldo": -10,
-    "voor": 9,
-    "tegen": 19
   },
   {
     "positie": 18,
