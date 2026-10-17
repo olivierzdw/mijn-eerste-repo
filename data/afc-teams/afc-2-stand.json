@@ -14,6 +14,19 @@
   },
   {
     "positie": 2,
+    "club": "DTA Fortius asv 2",
+    "logo": "images/fortius.png",
+    "gespeeld": 4,
+    "gewonnen": 3,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 20,
+    "tegen": 9,
+    "doelsaldo": 11,
+    "punten": 9
+  },
+  {
+    "positie": 3,
     "club": "ASV Arsenal 2",
     "logo": "",
     "gespeeld": 4,
@@ -26,7 +39,7 @@
     "punten": 8
   },
   {
-    "positie": 3,
+    "positie": 4,
     "club": "Swift 4",
     "logo": "",
     "gespeeld": 4,
@@ -37,19 +50,6 @@
     "tegen": 9,
     "doelsaldo": 5,
     "punten": 7
-  },
-  {
-    "positie": 4,
-    "club": "DTA Fortius asv 2",
-    "logo": "images/fortius.png",
-    "gespeeld": 3,
-    "gewonnen": 2,
-    "gelijk": 0,
-    "verloren": 1,
-    "voor": 17,
-    "tegen": 8,
-    "doelsaldo": 9,
-    "punten": 6
   },
   {
     "positie": 5,
