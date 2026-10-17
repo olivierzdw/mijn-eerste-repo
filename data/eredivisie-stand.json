@@ -3,14 +3,14 @@
     "positie": 1,
     "club": "Feyenoord Rotterdam",
     "logo": "https://crests.football-data.org/675.png",
-    "gespeeld": 8,
-    "punten": 20,
-    "gewonnen": 6,
+    "gespeeld": 9,
+    "punten": 23,
+    "gewonnen": 7,
     "gelijk": 2,
     "verloren": 0,
-    "doelsaldo": 20,
-    "voor": 27,
-    "tegen": 7
+    "doelsaldo": 21,
+    "voor": 30,
+    "tegen": 9
   },
   {
     "positie": 2,
@@ -185,14 +185,14 @@
     "positie": 15,
     "club": "Telstar 1963",
     "logo": "https://crests.football-data.org/1912.png",
-    "gespeeld": 8,
+    "gespeeld": 9,
     "punten": 6,
     "gewonnen": 1,
     "gelijk": 3,
-    "verloren": 4,
-    "doelsaldo": -7,
-    "voor": 7,
-    "tegen": 14
+    "verloren": 5,
+    "doelsaldo": -8,
+    "voor": 9,
+    "tegen": 17
   },
   {
     "positie": 16,
