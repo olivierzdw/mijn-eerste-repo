@@ -56,26 +56,26 @@
     "club": "FC Twente '65",
     "logo": "https://crests.football-data.org/666.png",
     "gespeeld": 9,
-    "punten": 18,
+    "punten": 17,
     "gewonnen": 5,
-    "gelijk": 3,
-    "verloren": 1,
-    "doelsaldo": 8,
+    "gelijk": 2,
+    "verloren": 2,
+    "doelsaldo": 7,
     "voor": 17,
-    "tegen": 9
+    "tegen": 10
   },
   {
     "positie": 6,
     "club": "Fortuna Sittard",
     "logo": "https://crests.football-data.org/1920.png",
     "gespeeld": 9,
-    "punten": 17,
-    "gewonnen": 5,
-    "gelijk": 2,
+    "punten": 15,
+    "gewonnen": 4,
+    "gelijk": 3,
     "verloren": 2,
-    "doelsaldo": 0,
+    "doelsaldo": -1,
     "voor": 16,
-    "tegen": 16
+    "tegen": 17
   },
   {
     "positie": 7,
@@ -131,19 +131,32 @@
   },
   {
     "positie": 11,
-    "club": "NEC",
-    "logo": "https://crests.football-data.org/1915.png",
+    "club": "FC Utrecht",
+    "logo": "https://crests.football-data.org/676.png",
     "gespeeld": 9,
-    "punten": 9,
-    "gewonnen": 2,
-    "gelijk": 3,
+    "punten": 11,
+    "gewonnen": 3,
+    "gelijk": 2,
     "verloren": 4,
-    "doelsaldo": -2,
-    "voor": 14,
-    "tegen": 16
+    "doelsaldo": -10,
+    "voor": 16,
+    "tegen": 26
   },
   {
     "positie": 12,
+    "club": "NEC",
+    "logo": "https://crests.football-data.org/1915.png",
+    "gespeeld": 9,
+    "punten": 10,
+    "gewonnen": 2,
+    "gelijk": 4,
+    "verloren": 3,
+    "doelsaldo": -1,
+    "voor": 15,
+    "tegen": 16
+  },
+  {
+    "positie": 13,
     "club": "Sparta",
     "logo": "https://crests.football-data.org/6806.png",
     "gespeeld": 9,
@@ -156,7 +169,7 @@
     "tegen": 22
   },
   {
-    "positie": 13,
+    "positie": 14,
     "club": "SC Cambuur-Leeuwarden",
     "logo": "https://crests.football-data.org/1909.png",
     "gespeeld": 9,
@@ -167,19 +180,6 @@
     "doelsaldo": -8,
     "voor": 13,
     "tegen": 21
-  },
-  {
-    "positie": 14,
-    "club": "FC Utrecht",
-    "logo": "https://crests.football-data.org/676.png",
-    "gespeeld": 9,
-    "punten": 9,
-    "gewonnen": 2,
-    "gelijk": 3,
-    "verloren": 4,
-    "doelsaldo": -11,
-    "voor": 15,
-    "tegen": 26
   },
   {
     "positie": 15,
