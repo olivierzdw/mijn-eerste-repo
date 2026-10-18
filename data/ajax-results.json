@@ -78,5 +78,15 @@
     "uitLogo": "https://crests.football-data.org/1915.png",
     "thuisScore": 1,
     "uitScore": 1
+  },
+  {
+    "id": 558864,
+    "datum": "zo 18 oktober",
+    "thuis": "Groningen",
+    "thuisLogo": "https://crests.football-data.org/677.png",
+    "uit": "Ajax",
+    "uitLogo": "https://crests.football-data.org/678.png",
+    "thuisScore": 2,
+    "uitScore": 5
   }
 ]
