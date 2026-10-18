@@ -55,17 +55,30 @@
     "positie": 5,
     "club": "FC Twente '65",
     "logo": "https://crests.football-data.org/666.png",
-    "gespeeld": 8,
-    "punten": 17,
+    "gespeeld": 9,
+    "punten": 18,
     "gewonnen": 5,
-    "gelijk": 2,
+    "gelijk": 3,
     "verloren": 1,
     "doelsaldo": 8,
-    "voor": 16,
-    "tegen": 8
+    "voor": 17,
+    "tegen": 9
   },
   {
     "positie": 6,
+    "club": "Fortuna Sittard",
+    "logo": "https://crests.football-data.org/1920.png",
+    "gespeeld": 9,
+    "punten": 17,
+    "gewonnen": 5,
+    "gelijk": 2,
+    "verloren": 2,
+    "doelsaldo": 0,
+    "voor": 16,
+    "tegen": 16
+  },
+  {
+    "positie": 7,
     "club": "Groningen",
     "logo": "https://crests.football-data.org/677.png",
     "gespeeld": 9,
@@ -76,19 +89,6 @@
     "doelsaldo": 3,
     "voor": 22,
     "tegen": 19
-  },
-  {
-    "positie": 7,
-    "club": "Fortuna Sittard",
-    "logo": "https://crests.football-data.org/1920.png",
-    "gespeeld": 8,
-    "punten": 14,
-    "gewonnen": 4,
-    "gelijk": 2,
-    "verloren": 2,
-    "doelsaldo": -1,
-    "voor": 14,
-    "tegen": 15
   },
   {
     "positie": 8,
@@ -133,14 +133,14 @@
     "positie": 11,
     "club": "NEC",
     "logo": "https://crests.football-data.org/1915.png",
-    "gespeeld": 8,
+    "gespeeld": 9,
     "punten": 9,
     "gewonnen": 2,
     "gelijk": 3,
-    "verloren": 3,
-    "doelsaldo": -1,
-    "voor": 13,
-    "tegen": 14
+    "verloren": 4,
+    "doelsaldo": -2,
+    "voor": 14,
+    "tegen": 16
   },
   {
     "positie": 12,
@@ -172,14 +172,14 @@
     "positie": 14,
     "club": "FC Utrecht",
     "logo": "https://crests.football-data.org/676.png",
-    "gespeeld": 8,
-    "punten": 8,
+    "gespeeld": 9,
+    "punten": 9,
     "gewonnen": 2,
-    "gelijk": 2,
+    "gelijk": 3,
     "verloren": 4,
     "doelsaldo": -11,
-    "voor": 14,
-    "tegen": 25
+    "voor": 15,
+    "tegen": 26
   },
   {
     "positie": 15,
