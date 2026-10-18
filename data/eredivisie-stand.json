@@ -29,14 +29,14 @@
     "positie": 3,
     "club": "AZ",
     "logo": "https://crests.football-data.org/682.png",
-    "gespeeld": 8,
+    "gespeeld": 9,
     "punten": 19,
     "gewonnen": 6,
     "gelijk": 1,
-    "verloren": 1,
-    "doelsaldo": 10,
-    "voor": 18,
-    "tegen": 8
+    "verloren": 2,
+    "doelsaldo": 9,
+    "voor": 19,
+    "tegen": 10
   },
   {
     "positie": 4,
@@ -107,14 +107,14 @@
     "positie": 9,
     "club": "Go Ahead Eagles",
     "logo": "https://crests.football-data.org/718.png",
-    "gespeeld": 8,
+    "gespeeld": 9,
     "punten": 11,
     "gewonnen": 2,
     "gelijk": 5,
-    "verloren": 1,
-    "doelsaldo": 2,
-    "voor": 19,
-    "tegen": 17
+    "verloren": 2,
+    "doelsaldo": -1,
+    "voor": 20,
+    "tegen": 21
   },
   {
     "positie": 10,
@@ -131,6 +131,19 @@
   },
   {
     "positie": 11,
+    "club": "SC Cambuur-Leeuwarden",
+    "logo": "https://crests.football-data.org/1909.png",
+    "gespeeld": 9,
+    "punten": 11,
+    "gewonnen": 3,
+    "gelijk": 2,
+    "verloren": 4,
+    "doelsaldo": -7,
+    "voor": 13,
+    "tegen": 20
+  },
+  {
+    "positie": 12,
     "club": "NEC",
     "logo": "https://crests.football-data.org/1915.png",
     "gespeeld": 8,
@@ -143,7 +156,7 @@
     "tegen": 14
   },
   {
-    "positie": 12,
+    "positie": 13,
     "club": "Sparta",
     "logo": "https://crests.football-data.org/6806.png",
     "gespeeld": 9,
@@ -154,19 +167,6 @@
     "doelsaldo": -6,
     "voor": 16,
     "tegen": 22
-  },
-  {
-    "positie": 13,
-    "club": "SC Cambuur-Leeuwarden",
-    "logo": "https://crests.football-data.org/1909.png",
-    "gespeeld": 8,
-    "punten": 8,
-    "gewonnen": 2,
-    "gelijk": 2,
-    "verloren": 4,
-    "doelsaldo": -8,
-    "voor": 11,
-    "tegen": 19
   },
   {
     "positie": 14,
@@ -183,6 +183,19 @@
   },
   {
     "positie": 15,
+    "club": "PEC Zwolle",
+    "logo": "https://crests.football-data.org/684.png",
+    "gespeeld": 9,
+    "punten": 7,
+    "gewonnen": 2,
+    "gelijk": 1,
+    "verloren": 6,
+    "doelsaldo": -12,
+    "voor": 10,
+    "tegen": 22
+  },
+  {
+    "positie": 16,
     "club": "Telstar 1963",
     "logo": "https://crests.football-data.org/1912.png",
     "gespeeld": 9,
@@ -195,7 +208,7 @@
     "tegen": 18
   },
   {
-    "positie": 16,
+    "positie": 17,
     "club": "ADO Den Haag",
     "logo": "https://crests.football-data.org/680.png",
     "gespeeld": 9,
@@ -206,19 +219,6 @@
     "doelsaldo": -9,
     "voor": 11,
     "tegen": 20
-  },
-  {
-    "positie": 17,
-    "club": "PEC Zwolle",
-    "logo": "https://crests.football-data.org/684.png",
-    "gespeeld": 8,
-    "punten": 4,
-    "gewonnen": 1,
-    "gelijk": 1,
-    "verloren": 6,
-    "doelsaldo": -15,
-    "voor": 6,
-    "tegen": 21
   },
   {
     "positie": 18,
