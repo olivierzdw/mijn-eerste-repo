@@ -1,6 +1,19 @@
 [
   {
     "positie": 1,
+    "club": "WV-HEDW 6",
+    "logo": "",
+    "gespeeld": 4,
+    "gewonnen": 4,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 15,
+    "tegen": 3,
+    "doelsaldo": 12,
+    "punten": 12
+  },
+  {
+    "positie": 2,
     "club": "HYS 4",
     "logo": "",
     "gespeeld": 4,
@@ -13,7 +26,7 @@
     "punten": 12
   },
   {
-    "positie": 2,
+    "positie": 3,
     "club": "Buitenveldert sc. 3",
     "logo": "",
     "gespeeld": 4,
@@ -24,19 +37,6 @@
     "tegen": 3,
     "doelsaldo": 19,
     "punten": 10
-  },
-  {
-    "positie": 3,
-    "club": "WV-HEDW 6",
-    "logo": "",
-    "gespeeld": 3,
-    "gewonnen": 3,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 10,
-    "tegen": 2,
-    "doelsaldo": 8,
-    "punten": 9
   },
   {
     "positie": 4,
@@ -118,19 +118,6 @@
   },
   {
     "positie": 10,
-    "club": "SCPB'22 4",
-    "logo": "",
-    "gespeeld": 3,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 2,
-    "voor": 9,
-    "tegen": 14,
-    "doelsaldo": -5,
-    "punten": 3
-  },
-  {
-    "positie": 11,
     "club": "Meer De sv. 6",
     "logo": "",
     "gespeeld": 4,
@@ -140,6 +127,19 @@
     "voor": 8,
     "tegen": 10,
     "doelsaldo": -2,
+    "punten": 3
+  },
+  {
+    "positie": 11,
+    "club": "SCPB'22 4",
+    "logo": "",
+    "gespeeld": 4,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 3,
+    "voor": 10,
+    "tegen": 19,
+    "doelsaldo": -9,
     "punten": 3
   },
   {
