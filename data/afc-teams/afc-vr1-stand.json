@@ -27,6 +27,19 @@
   },
   {
     "positie": 3,
+    "club": "VVS 46 VR1",
+    "logo": "",
+    "gespeeld": 4,
+    "gewonnen": 3,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 9,
+    "tegen": 11,
+    "doelsaldo": -2,
+    "punten": 9
+  },
+  {
+    "positie": 4,
     "club": "Prinses Irene VR1",
     "logo": "",
     "gespeeld": 3,
@@ -37,19 +50,6 @@
     "tegen": 3,
     "doelsaldo": 5,
     "punten": 7
-  },
-  {
-    "positie": 4,
-    "club": "VVS 46 VR1",
-    "logo": "",
-    "gespeeld": 3,
-    "gewonnen": 2,
-    "gelijk": 0,
-    "verloren": 1,
-    "voor": 4,
-    "tegen": 10,
-    "doelsaldo": -6,
-    "punten": 6
   },
   {
     "positie": 5,
@@ -120,13 +120,13 @@
     "positie": 10,
     "club": "SJO/SVO HaDee VR1",
     "logo": "",
-    "gespeeld": 3,
+    "gespeeld": 4,
     "gewonnen": 0,
     "gelijk": 1,
-    "verloren": 2,
-    "voor": 1,
-    "tegen": 3,
-    "doelsaldo": -2,
+    "verloren": 3,
+    "voor": 2,
+    "tegen": 8,
+    "doelsaldo": -6,
     "punten": 1
   },
   {
