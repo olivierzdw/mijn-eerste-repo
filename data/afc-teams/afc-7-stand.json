@@ -27,32 +27,6 @@
   },
   {
     "positie": 3,
-    "club": "Buitenveldert sc. 3",
-    "logo": "",
-    "gespeeld": 4,
-    "gewonnen": 3,
-    "gelijk": 1,
-    "verloren": 0,
-    "voor": 22,
-    "tegen": 3,
-    "doelsaldo": 19,
-    "punten": 10
-  },
-  {
-    "positie": 4,
-    "club": "VVA/Spartaan, 5",
-    "logo": "",
-    "gespeeld": 4,
-    "gewonnen": 3,
-    "gelijk": 0,
-    "verloren": 1,
-    "voor": 23,
-    "tegen": 7,
-    "doelsaldo": 16,
-    "punten": 9
-  },
-  {
-    "positie": 5,
     "club": "Hoofddorp s.v. 4",
     "logo": "",
     "gespeeld": 4,
@@ -65,7 +39,20 @@
     "punten": 9
   },
   {
-    "positie": 6,
+    "positie": 4,
+    "club": "Buitenveldert sc. 3",
+    "logo": "",
+    "gespeeld": 3,
+    "gewonnen": 2,
+    "gelijk": 1,
+    "verloren": 0,
+    "voor": 14,
+    "tegen": 3,
+    "doelsaldo": 11,
+    "punten": 7
+  },
+  {
+    "positie": 5,
     "club": "TABA afc 5",
     "logo": "images/afc.png",
     "gespeeld": 4,
@@ -78,7 +65,7 @@
     "punten": 7
   },
   {
-    "positie": 7,
+    "positie": 6,
     "club": "Sloterdijk avv. 4",
     "logo": "images/sloterdijk.png",
     "gespeeld": 4,
@@ -89,6 +76,19 @@
     "tegen": 11,
     "doelsaldo": 1,
     "punten": 7
+  },
+  {
+    "positie": 7,
+    "club": "VVA/Spartaan, 5",
+    "logo": "",
+    "gespeeld": 3,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 18,
+    "tegen": 7,
+    "doelsaldo": 11,
+    "punten": 6
   },
   {
     "positie": 8,
@@ -105,32 +105,6 @@
   },
   {
     "positie": 9,
-    "club": "SDZ 8",
-    "logo": "",
-    "gespeeld": 4,
-    "gewonnen": 1,
-    "gelijk": 1,
-    "verloren": 2,
-    "voor": 13,
-    "tegen": 11,
-    "doelsaldo": 2,
-    "punten": 4
-  },
-  {
-    "positie": 10,
-    "club": "Meer De sv. 6",
-    "logo": "",
-    "gespeeld": 4,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 3,
-    "voor": 8,
-    "tegen": 10,
-    "doelsaldo": -2,
-    "punten": 3
-  },
-  {
-    "positie": 11,
     "club": "SCPB'22 4",
     "logo": "",
     "gespeeld": 4,
@@ -141,6 +115,32 @@
     "tegen": 19,
     "doelsaldo": -9,
     "punten": 3
+  },
+  {
+    "positie": 10,
+    "club": "SDZ 8",
+    "logo": "",
+    "gespeeld": 3,
+    "gewonnen": 0,
+    "gelijk": 1,
+    "verloren": 2,
+    "voor": 7,
+    "tegen": 10,
+    "doelsaldo": -3,
+    "punten": 1
+  },
+  {
+    "positie": 11,
+    "club": "Meer De sv. 6",
+    "logo": "",
+    "gespeeld": 3,
+    "gewonnen": 0,
+    "gelijk": 0,
+    "verloren": 3,
+    "voor": 2,
+    "tegen": 9,
+    "doelsaldo": -7,
+    "punten": 0
   },
   {
     "positie": 12,
@@ -157,19 +157,6 @@
   },
   {
     "positie": 13,
-    "club": "Zeeburgia avv 5",
-    "logo": "",
-    "gespeeld": 4,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 4,
-    "voor": 2,
-    "tegen": 25,
-    "doelsaldo": -23,
-    "punten": 0
-  },
-  {
-    "positie": 14,
     "club": "ASV Arsenal 6",
     "logo": "",
     "gespeeld": 4,
