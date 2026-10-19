@@ -1,19 +1,6 @@
 [
   {
     "positie": 1,
-    "club": "SV Rood-Wit Zaanstad 3",
-    "logo": "",
-    "gespeeld": 4,
-    "gewonnen": 4,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 24,
-    "tegen": 8,
-    "doelsaldo": 16,
-    "punten": 12
-  },
-  {
-    "positie": 2,
     "club": "ASV Arsenal 4",
     "logo": "",
     "gespeeld": 4,
@@ -26,20 +13,20 @@
     "punten": 12
   },
   {
-    "positie": 3,
-    "club": "KFC 4",
+    "positie": 2,
+    "club": "SV Rood-Wit Zaanstad 3",
     "logo": "",
-    "gespeeld": 4,
+    "gespeeld": 3,
     "gewonnen": 3,
     "gelijk": 0,
-    "verloren": 1,
-    "voor": 25,
-    "tegen": 8,
-    "doelsaldo": 17,
+    "verloren": 0,
+    "voor": 16,
+    "tegen": 5,
+    "doelsaldo": 11,
     "punten": 9
   },
   {
-    "positie": 4,
+    "positie": 3,
     "club": "Swift 7",
     "logo": "",
     "gespeeld": 4,
@@ -52,7 +39,7 @@
     "punten": 7
   },
   {
-    "positie": 5,
+    "positie": 4,
     "club": "Sporting Martinus 3",
     "logo": "",
     "gespeeld": 4,
@@ -65,20 +52,20 @@
     "punten": 7
   },
   {
-    "positie": 6,
-    "club": "DWS afc 3",
-    "logo": "images/afc.png",
-    "gespeeld": 4,
+    "positie": 5,
+    "club": "KFC 4",
+    "logo": "",
+    "gespeeld": 3,
     "gewonnen": 2,
     "gelijk": 0,
-    "verloren": 2,
-    "voor": 15,
-    "tegen": 17,
-    "doelsaldo": -2,
+    "verloren": 1,
+    "voor": 13,
+    "tegen": 8,
+    "doelsaldo": 5,
     "punten": 6
   },
   {
-    "positie": 7,
+    "positie": 6,
     "club": "KDO sv 2",
     "logo": "",
     "gespeeld": 4,
@@ -91,20 +78,7 @@
     "punten": 6
   },
   {
-    "positie": 8,
-    "club": "AFC 4",
-    "logo": "images/afc.png",
-    "gespeeld": 4,
-    "gewonnen": 1,
-    "gelijk": 1,
-    "verloren": 2,
-    "voor": 21,
-    "tegen": 12,
-    "doelsaldo": 9,
-    "punten": 4
-  },
-  {
-    "positie": 9,
+    "positie": 7,
     "club": "VVA/Spartaan, 3",
     "logo": "",
     "gespeeld": 4,
@@ -115,6 +89,32 @@
     "tegen": 21,
     "doelsaldo": -6,
     "punten": 4
+  },
+  {
+    "positie": 8,
+    "club": "DWS afc 3",
+    "logo": "images/afc.png",
+    "gespeeld": 3,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 9,
+    "tegen": 14,
+    "doelsaldo": -5,
+    "punten": 3
+  },
+  {
+    "positie": 9,
+    "club": "AFC 4",
+    "logo": "images/afc.png",
+    "gespeeld": 3,
+    "gewonnen": 0,
+    "gelijk": 1,
+    "verloren": 2,
+    "voor": 8,
+    "tegen": 10,
+    "doelsaldo": -2,
+    "punten": 1
   },
   {
     "positie": 10,
@@ -141,18 +141,5 @@
     "tegen": 22,
     "doelsaldo": -13,
     "punten": 1
-  },
-  {
-    "positie": 12,
-    "club": "Zeeburgia avv 9",
-    "logo": "",
-    "gespeeld": 4,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 4,
-    "voor": 8,
-    "tegen": 39,
-    "doelsaldo": -31,
-    "punten": 0
   }
 ]

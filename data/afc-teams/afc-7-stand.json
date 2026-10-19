@@ -131,6 +131,19 @@
   },
   {
     "positie": 11,
+    "club": "Zeeburgia avv 9",
+    "logo": "",
+    "gespeeld": 0,
+    "gewonnen": 0,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 0,
+    "tegen": 0,
+    "doelsaldo": 0,
+    "punten": 0
+  },
+  {
+    "positie": 12,
     "club": "Meer De sv. 6",
     "logo": "",
     "gespeeld": 3,
@@ -143,7 +156,7 @@
     "punten": 0
   },
   {
-    "positie": 12,
+    "positie": 13,
     "club": "AFC 7",
     "logo": "images/afc.png",
     "gespeeld": 4,
@@ -156,7 +169,7 @@
     "punten": 0
   },
   {
-    "positie": 13,
+    "positie": 14,
     "club": "ASV Arsenal 6",
     "logo": "",
     "gespeeld": 4,
