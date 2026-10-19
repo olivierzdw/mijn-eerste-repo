@@ -7,14 +7,14 @@
     "uitLogo": "images/afc.png"
   },
   {
-    "datum": "za 31 oktober 10:35",
+    "datum": "za 31 oktober 08:30",
     "thuis": "AFC MO10-1",
     "thuisLogo": "images/afc.png",
     "uit": "vv Zwanenburg MO10-1",
     "uitLogo": ""
   },
   {
-    "datum": "za 7 november 09:45",
+    "datum": "za 7 november 10:30",
     "thuis": "AFC MO10-1",
     "thuisLogo": "images/afc.png",
     "uit": "OFC O10-4",
@@ -33,5 +33,12 @@
     "thuisLogo": "images/afc.png",
     "uit": "OSV MO10-1",
     "uitLogo": ""
+  },
+  {
+    "datum": "za 28 november 08:30",
+    "thuis": "SDZ O10-7",
+    "thuisLogo": "",
+    "uit": "AFC MO10-1",
+    "uitLogo": "images/afc.png"
   }
 ]
