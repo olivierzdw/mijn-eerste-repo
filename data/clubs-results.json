@@ -166,6 +166,17 @@
       "uitLogo": "https://crests.football-data.org/67.png",
       "thuisScore": 4,
       "uitScore": 1
+    },
+    {
+      "id": 560606,
+      "datum": "ma 19 oktober",
+      "datumIso": "2026-10-19",
+      "thuis": "Tottenham Hotspur FC",
+      "thuisLogo": "https://crests.football-data.org/73.png",
+      "uit": "Coventry City FC",
+      "uitLogo": "https://crests.football-data.org/1076.png",
+      "thuisScore": 3,
+      "uitScore": 1
     }
   ],
   "322": [
@@ -966,6 +977,17 @@
       "uit": "Tottenham Hotspur FC",
       "uitLogo": "https://crests.football-data.org/73.png",
       "thuisScore": 1,
+      "uitScore": 1
+    },
+    {
+      "id": 560606,
+      "datum": "ma 19 oktober",
+      "datumIso": "2026-10-19",
+      "thuis": "Tottenham Hotspur FC",
+      "thuisLogo": "https://crests.football-data.org/73.png",
+      "uit": "Coventry City FC",
+      "uitLogo": "https://crests.football-data.org/1076.png",
+      "thuisScore": 3,
       "uitScore": 1
     }
   ],
@@ -1856,6 +1878,17 @@
       "uitLogo": "https://crests.football-data.org/82.png",
       "thuisScore": 3,
       "uitScore": 0
+    },
+    {
+      "id": 564717,
+      "datum": "ma 19 oktober",
+      "datumIso": "2026-10-19",
+      "thuis": "Getafe CF",
+      "thuisLogo": "https://crests.football-data.org/82.png",
+      "uit": "Rayo Vallecano de Madrid",
+      "uitLogo": "https://crests.football-data.org/87.png",
+      "thuisScore": 1,
+      "uitScore": 1
     }
   ],
   "559": [
@@ -2032,6 +2065,17 @@
       "datumIso": "2026-09-19",
       "thuis": "CA Osasuna",
       "thuisLogo": "https://crests.football-data.org/79.png",
+      "uit": "Rayo Vallecano de Madrid",
+      "uitLogo": "https://crests.football-data.org/87.png",
+      "thuisScore": 1,
+      "uitScore": 1
+    },
+    {
+      "id": 564717,
+      "datum": "ma 19 oktober",
+      "datumIso": "2026-10-19",
+      "thuis": "Getafe CF",
+      "thuisLogo": "https://crests.football-data.org/82.png",
       "uit": "Rayo Vallecano de Madrid",
       "uitLogo": "https://crests.football-data.org/87.png",
       "thuisScore": 1,
@@ -5390,6 +5434,17 @@
       "uitLogo": "https://crests.football-data.org/5911.png",
       "thuisScore": 3,
       "uitScore": 1
+    },
+    {
+      "id": 558576,
+      "datum": "ma 19 oktober",
+      "datumIso": "2026-10-19",
+      "thuis": "AC Monza",
+      "thuisLogo": "https://crests.football-data.org/5911.png",
+      "uit": "Cagliari Calcio",
+      "uitLogo": "https://crests.football-data.org/104.png",
+      "thuisScore": 4,
+      "uitScore": 0
     }
   ],
   "107": [
@@ -5638,6 +5693,17 @@
       "uitLogo": "https://crests.football-data.org/112.png",
       "thuisScore": 3,
       "uitScore": 0
+    },
+    {
+      "id": 558578,
+      "datum": "ma 19 oktober",
+      "datumIso": "2026-10-19",
+      "thuis": "Parma Calcio 1913",
+      "thuisLogo": "https://crests.football-data.org/112.png",
+      "uit": "Torino FC",
+      "uitLogo": "https://crests.football-data.org/586.png",
+      "thuisScore": 0,
+      "uitScore": 3
     }
   ],
   "104": [
@@ -5706,6 +5772,17 @@
       "uitLogo": "https://crests.football-data.org/109.png",
       "thuisScore": 1,
       "uitScore": 1
+    },
+    {
+      "id": 558576,
+      "datum": "ma 19 oktober",
+      "datumIso": "2026-10-19",
+      "thuis": "AC Monza",
+      "thuisLogo": "https://crests.football-data.org/5911.png",
+      "uit": "Cagliari Calcio",
+      "uitLogo": "https://crests.football-data.org/104.png",
+      "thuisScore": 4,
+      "uitScore": 0
     }
   ],
   "470": [
@@ -6248,6 +6325,17 @@
       "uitLogo": "https://crests.football-data.org/115.png",
       "thuisScore": 2,
       "uitScore": 1
+    },
+    {
+      "id": 558578,
+      "datum": "ma 19 oktober",
+      "datumIso": "2026-10-19",
+      "thuis": "Parma Calcio 1913",
+      "thuisLogo": "https://crests.football-data.org/112.png",
+      "uit": "Torino FC",
+      "uitLogo": "https://crests.football-data.org/586.png",
+      "thuisScore": 0,
+      "uitScore": 3
     }
   ],
   "98": [
@@ -11128,6 +11216,17 @@
       "uitLogo": "https://crests.football-data.org/498.png",
       "thuisScore": 1,
       "uitScore": 3
+    },
+    {
+      "id": 567271,
+      "datum": "ma 19 oktober",
+      "datumIso": "2026-10-19",
+      "thuis": "Sporting Clube de Braga",
+      "thuisLogo": "https://crests.football-data.org/5613.png",
+      "uit": "Gil Vicente FC",
+      "uitLogo": "https://crests.football-data.org/5533.png",
+      "thuisScore": 1,
+      "uitScore": 2
     }
   ],
   "5533": [
@@ -11207,6 +11306,17 @@
       "uitLogo": "https://crests.football-data.org/5533.png",
       "thuisScore": 0,
       "uitScore": 1
+    },
+    {
+      "id": 567271,
+      "datum": "ma 19 oktober",
+      "datumIso": "2026-10-19",
+      "thuis": "Sporting Clube de Braga",
+      "thuisLogo": "https://crests.football-data.org/5613.png",
+      "uit": "Gil Vicente FC",
+      "uitLogo": "https://crests.football-data.org/5533.png",
+      "thuisScore": 1,
+      "uitScore": 2
     }
   ],
   "496": [
@@ -14047,6 +14157,17 @@
       "uitLogo": "https://crests.football-data.org/1782.png",
       "thuisScore": 2,
       "uitScore": 1
+    },
+    {
+      "id": 555044,
+      "datum": "di 20 oktober",
+      "datumIso": "2026-10-19",
+      "thuis": "SC Corinthians Paulista",
+      "thuisLogo": "https://crests.football-data.org/1779.png",
+      "uit": "EC Vitória",
+      "uitLogo": "https://crests.football-data.org/1782.png",
+      "thuisScore": 1,
+      "uitScore": 1
     }
   ],
   "4287": [
@@ -16082,6 +16203,17 @@
       "uit": "SC Corinthians Paulista",
       "uitLogo": "https://crests.football-data.org/1779.png",
       "thuisScore": 4,
+      "uitScore": 1
+    },
+    {
+      "id": 555044,
+      "datum": "di 20 oktober",
+      "datumIso": "2026-10-19",
+      "thuis": "SC Corinthians Paulista",
+      "thuisLogo": "https://crests.football-data.org/1779.png",
+      "uit": "EC Vitória",
+      "uitLogo": "https://crests.football-data.org/1782.png",
+      "thuisScore": 1,
       "uitScore": 1
     }
   ],
