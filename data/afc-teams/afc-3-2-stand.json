@@ -14,6 +14,19 @@
   },
   {
     "positie": 2,
+    "club": "DCG Rksv 2",
+    "logo": "",
+    "gespeeld": 4,
+    "gewonnen": 3,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 21,
+    "tegen": 8,
+    "doelsaldo": 13,
+    "punten": 9
+  },
+  {
+    "positie": 3,
     "club": "AFC 3",
     "logo": "images/afc.png",
     "gespeeld": 4,
@@ -26,7 +39,7 @@
     "punten": 9
   },
   {
-    "positie": 3,
+    "positie": 4,
     "club": "ASV Arsenal 3",
     "logo": "",
     "gespeeld": 4,
@@ -39,7 +52,7 @@
     "punten": 9
   },
   {
-    "positie": 4,
+    "positie": 5,
     "club": "Wartburgia asv 3",
     "logo": "",
     "gespeeld": 4,
@@ -50,19 +63,6 @@
     "tegen": 14,
     "doelsaldo": 2,
     "punten": 9
-  },
-  {
-    "positie": 5,
-    "club": "DCG Rksv 2",
-    "logo": "",
-    "gespeeld": 3,
-    "gewonnen": 2,
-    "gelijk": 0,
-    "verloren": 1,
-    "voor": 18,
-    "tegen": 7,
-    "doelsaldo": 11,
-    "punten": 6
   },
   {
     "positie": 6,
@@ -118,19 +118,6 @@
   },
   {
     "positie": 10,
-    "club": "Foresters 3",
-    "logo": "",
-    "gespeeld": 3,
-    "gewonnen": 0,
-    "gelijk": 1,
-    "verloren": 2,
-    "voor": 5,
-    "tegen": 10,
-    "doelsaldo": -5,
-    "punten": 1
-  },
-  {
-    "positie": 11,
     "club": "Zandvoort s.v. 2",
     "logo": "",
     "gespeeld": 4,
@@ -140,6 +127,19 @@
     "voor": 12,
     "tegen": 15,
     "doelsaldo": -3,
+    "punten": 1
+  },
+  {
+    "positie": 11,
+    "club": "Foresters 3",
+    "logo": "",
+    "gespeeld": 4,
+    "gewonnen": 0,
+    "gelijk": 1,
+    "verloren": 3,
+    "voor": 6,
+    "tegen": 13,
+    "doelsaldo": -7,
     "punten": 1
   },
   {
