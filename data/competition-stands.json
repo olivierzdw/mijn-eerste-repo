@@ -2072,6 +2072,19 @@
     },
     {
       "positie": 7,
+      "club": "Wolverhampton Wanderers FC",
+      "logo": "https://crests.football-data.org/76.png",
+      "gespeeld": 11,
+      "punten": 18,
+      "gewonnen": 5,
+      "gelijk": 3,
+      "verloren": 3,
+      "doelsaldo": 3,
+      "voor": 19,
+      "tegen": 16
+    },
+    {
+      "positie": 8,
       "club": "Southampton FC",
       "logo": "https://crests.football-data.org/340.png",
       "gespeeld": 11,
@@ -2082,19 +2095,6 @@
       "doelsaldo": 11,
       "voor": 21,
       "tegen": 10
-    },
-    {
-      "positie": 8,
-      "club": "Wolverhampton Wanderers FC",
-      "logo": "https://crests.football-data.org/76.png",
-      "gespeeld": 10,
-      "punten": 17,
-      "gewonnen": 5,
-      "gelijk": 2,
-      "verloren": 3,
-      "doelsaldo": 3,
-      "voor": 18,
-      "tegen": 15
     },
     {
       "positie": 9,
@@ -2152,14 +2152,14 @@
       "positie": 13,
       "club": "Portsmouth FC",
       "logo": "https://crests.football-data.org/325.png",
-      "gespeeld": 10,
-      "punten": 14,
+      "gespeeld": 11,
+      "punten": 15,
       "gewonnen": 4,
-      "gelijk": 2,
+      "gelijk": 3,
       "verloren": 4,
       "doelsaldo": 0,
-      "voor": 13,
-      "tegen": 13
+      "voor": 14,
+      "tegen": 14
     },
     {
       "positie": 14,
