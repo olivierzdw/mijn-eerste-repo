@@ -749,14 +749,6 @@
       "uitLogo": "https://crests.football-data.org/73.png"
     },
     {
-      "id": 575374,
-      "datum": "wo 21 oktober 21:00",
-      "thuis": "Aston Villa FC",
-      "thuisLogo": "https://crests.football-data.org/58.png",
-      "uit": "Viking FK",
-      "uitLogo": "https://crests.football-data.org/5720.png"
-    },
-    {
       "id": 575380,
       "datum": "di 3 november 21:00",
       "thuis": "FC Barcelona",
@@ -1335,14 +1327,6 @@
       "thuisLogo": "https://crests.football-data.org/57.png",
       "uit": "Brighton & Hove Albion FC",
       "uitLogo": "https://crests.football-data.org/397.png"
-    },
-    {
-      "id": 575372,
-      "datum": "wo 21 oktober 21:00",
-      "thuis": "FC Bayern München",
-      "thuisLogo": "https://crests.football-data.org/5.png",
-      "uit": "Arsenal FC",
-      "uitLogo": "https://crests.football-data.org/57.png"
     },
     {
       "id": 575389,
@@ -3925,14 +3909,6 @@
       "uitLogo": "https://crests.football-data.org/63.png"
     },
     {
-      "id": 575368,
-      "datum": "wo 21 oktober 18:45",
-      "thuis": "Como 1907",
-      "thuisLogo": "https://crests.football-data.org/7397.png",
-      "uit": "Manchester United FC",
-      "uitLogo": "https://crests.football-data.org/66.png"
-    },
-    {
       "id": 575383,
       "datum": "di 3 november 21:00",
       "thuis": "Manchester United FC",
@@ -5221,490 +5197,6 @@
       "thuisLogo": "https://crests.football-data.org/354.png",
       "uit": "Leeds United FC",
       "uitLogo": "https://crests.football-data.org/341.png"
-    }
-  ],
-  "88": [
-    {
-      "id": 564685,
-      "datum": "wo 21 oktober 20:00",
-      "thuis": "Levante UD",
-      "thuisLogo": "https://crests.football-data.org/88.png",
-      "uit": "Athletic Club",
-      "uitLogo": "https://crests.football-data.org/77.png"
-    },
-    {
-      "id": 564726,
-      "datum": "zo 25 oktober 18:30",
-      "thuis": "Real Sociedad de Fútbol",
-      "thuisLogo": "https://crests.football-data.org/92.png",
-      "uit": "Levante UD",
-      "uitLogo": "https://crests.football-data.org/88.png"
-    },
-    {
-      "id": 564730,
-      "datum": "za 31 oktober 14:00",
-      "thuis": "Levante UD",
-      "thuisLogo": "https://crests.football-data.org/88.png",
-      "uit": "Club Atlético de Madrid",
-      "uitLogo": "https://crests.football-data.org/78.png"
-    },
-    {
-      "id": 564742,
-      "datum": "zo 8 november 18:30",
-      "thuis": "RC Celta de Vigo",
-      "thuisLogo": "https://crests.football-data.org/558.png",
-      "uit": "Levante UD",
-      "uitLogo": "https://crests.football-data.org/88.png"
-    },
-    {
-      "id": 564757,
-      "datum": "zo 22 november 01:00",
-      "thuis": "Levante UD",
-      "thuisLogo": "https://crests.football-data.org/88.png",
-      "uit": "Elche CF",
-      "uitLogo": "https://crests.football-data.org/285.png"
-    },
-    {
-      "id": 564765,
-      "datum": "zo 29 november 01:00",
-      "thuis": "Levante UD",
-      "thuisLogo": "https://crests.football-data.org/88.png",
-      "uit": "Real Racing Club de Santander",
-      "uitLogo": "https://crests.football-data.org/5335.png"
-    },
-    {
-      "id": 564777,
-      "datum": "zo 6 december 01:00",
-      "thuis": "Rayo Vallecano de Madrid",
-      "thuisLogo": "https://crests.football-data.org/87.png",
-      "uit": "Levante UD",
-      "uitLogo": "https://crests.football-data.org/88.png"
-    },
-    {
-      "id": 564782,
-      "datum": "zo 13 december 01:00",
-      "thuis": "Levante UD",
-      "thuisLogo": "https://crests.football-data.org/88.png",
-      "uit": "Deportivo Alavés",
-      "uitLogo": "https://crests.football-data.org/263.png"
-    },
-    {
-      "id": 564789,
-      "datum": "zo 20 december 01:00",
-      "thuis": "Getafe CF",
-      "thuisLogo": "https://crests.football-data.org/82.png",
-      "uit": "Levante UD",
-      "uitLogo": "https://crests.football-data.org/88.png"
-    },
-    {
-      "id": 564800,
-      "datum": "zo 3 januari 01:00",
-      "thuis": "Levante UD",
-      "thuisLogo": "https://crests.football-data.org/88.png",
-      "uit": "Valencia CF",
-      "uitLogo": "https://crests.football-data.org/95.png"
-    },
-    {
-      "id": 564810,
-      "datum": "zo 10 januari 01:00",
-      "thuis": "Real Madrid CF",
-      "thuisLogo": "https://crests.football-data.org/86.png",
-      "uit": "Levante UD",
-      "uitLogo": "https://crests.football-data.org/88.png"
-    },
-    {
-      "id": 564822,
-      "datum": "zo 17 januari 01:00",
-      "thuis": "Levante UD",
-      "thuisLogo": "https://crests.football-data.org/88.png",
-      "uit": "RCD Espanyol de Barcelona",
-      "uitLogo": "https://crests.football-data.org/80.png"
-    },
-    {
-      "id": 564835,
-      "datum": "zo 24 januari 01:00",
-      "thuis": "Athletic Club",
-      "thuisLogo": "https://crests.football-data.org/77.png",
-      "uit": "Levante UD",
-      "uitLogo": "https://crests.football-data.org/88.png"
-    },
-    {
-      "id": 564843,
-      "datum": "zo 31 januari 01:00",
-      "thuis": "Levante UD",
-      "thuisLogo": "https://crests.football-data.org/88.png",
-      "uit": "Real Sociedad de Fútbol",
-      "uitLogo": "https://crests.football-data.org/92.png"
-    },
-    {
-      "id": 564851,
-      "datum": "zo 7 februari 01:00",
-      "thuis": "Elche CF",
-      "thuisLogo": "https://crests.football-data.org/285.png",
-      "uit": "Levante UD",
-      "uitLogo": "https://crests.football-data.org/88.png"
-    },
-    {
-      "id": 564865,
-      "datum": "zo 14 februari 01:00",
-      "thuis": "Levante UD",
-      "thuisLogo": "https://crests.football-data.org/88.png",
-      "uit": "Málaga CF",
-      "uitLogo": "https://crests.football-data.org/84.png"
-    },
-    {
-      "id": 564871,
-      "datum": "zo 21 februari 01:00",
-      "thuis": "FC Barcelona",
-      "thuisLogo": "https://crests.football-data.org/81.png",
-      "uit": "Levante UD",
-      "uitLogo": "https://crests.football-data.org/88.png"
-    },
-    {
-      "id": 564879,
-      "datum": "zo 28 februari 01:00",
-      "thuis": "Levante UD",
-      "thuisLogo": "https://crests.football-data.org/88.png",
-      "uit": "RC Deportivo La Coruña",
-      "uitLogo": "https://crests.football-data.org/560.png"
-    },
-    {
-      "id": 564895,
-      "datum": "zo 7 maart 01:00",
-      "thuis": "Valencia CF",
-      "thuisLogo": "https://crests.football-data.org/95.png",
-      "uit": "Levante UD",
-      "uitLogo": "https://crests.football-data.org/88.png"
-    },
-    {
-      "id": 564902,
-      "datum": "zo 14 maart 01:00",
-      "thuis": "Real Betis Balompié",
-      "thuisLogo": "https://crests.football-data.org/90.png",
-      "uit": "Levante UD",
-      "uitLogo": "https://crests.football-data.org/88.png"
-    },
-    {
-      "id": 564910,
-      "datum": "zo 21 maart 01:00",
-      "thuis": "Levante UD",
-      "thuisLogo": "https://crests.football-data.org/88.png",
-      "uit": "CA Osasuna",
-      "uitLogo": "https://crests.football-data.org/79.png"
-    },
-    {
-      "id": 564918,
-      "datum": "zo 4 april 02:00",
-      "thuis": "Levante UD",
-      "thuisLogo": "https://crests.football-data.org/88.png",
-      "uit": "Rayo Vallecano de Madrid",
-      "uitLogo": "https://crests.football-data.org/87.png"
-    },
-    {
-      "id": 564937,
-      "datum": "zo 11 april 02:00",
-      "thuis": "Club Atlético de Madrid",
-      "thuisLogo": "https://crests.football-data.org/78.png",
-      "uit": "Levante UD",
-      "uitLogo": "https://crests.football-data.org/88.png"
-    },
-    {
-      "id": 564940,
-      "datum": "zo 18 april 02:00",
-      "thuis": "Levante UD",
-      "thuisLogo": "https://crests.football-data.org/88.png",
-      "uit": "Villarreal CF",
-      "uitLogo": "https://crests.football-data.org/94.png"
-    },
-    {
-      "id": 564956,
-      "datum": "wo 21 april 02:00",
-      "thuis": "Sevilla FC",
-      "thuisLogo": "https://crests.football-data.org/559.png",
-      "uit": "Levante UD",
-      "uitLogo": "https://crests.football-data.org/88.png"
-    },
-    {
-      "id": 564966,
-      "datum": "zo 2 mei 02:00",
-      "thuis": "Levante UD",
-      "thuisLogo": "https://crests.football-data.org/88.png",
-      "uit": "Real Madrid CF",
-      "uitLogo": "https://crests.football-data.org/86.png"
-    },
-    {
-      "id": 564970,
-      "datum": "zo 9 mei 02:00",
-      "thuis": "Deportivo Alavés",
-      "thuisLogo": "https://crests.football-data.org/263.png",
-      "uit": "Levante UD",
-      "uitLogo": "https://crests.football-data.org/88.png"
-    },
-    {
-      "id": 564984,
-      "datum": "zo 16 mei 02:00",
-      "thuis": "Levante UD",
-      "thuisLogo": "https://crests.football-data.org/88.png",
-      "uit": "Getafe CF",
-      "uitLogo": "https://crests.football-data.org/82.png"
-    },
-    {
-      "id": 564996,
-      "datum": "zo 23 mei 02:00",
-      "thuis": "Real Racing Club de Santander",
-      "thuisLogo": "https://crests.football-data.org/5335.png",
-      "uit": "Levante UD",
-      "uitLogo": "https://crests.football-data.org/88.png"
-    },
-    {
-      "id": 564998,
-      "datum": "zo 30 mei 02:00",
-      "thuis": "Levante UD",
-      "thuisLogo": "https://crests.football-data.org/88.png",
-      "uit": "RC Celta de Vigo",
-      "uitLogo": "https://crests.football-data.org/558.png"
-    }
-  ],
-  "77": [
-    {
-      "id": 564685,
-      "datum": "wo 21 oktober 20:00",
-      "thuis": "Levante UD",
-      "thuisLogo": "https://crests.football-data.org/88.png",
-      "uit": "Athletic Club",
-      "uitLogo": "https://crests.football-data.org/77.png"
-    },
-    {
-      "id": 564720,
-      "datum": "zo 25 oktober 14:00",
-      "thuis": "Athletic Club",
-      "thuisLogo": "https://crests.football-data.org/77.png",
-      "uit": "Getafe CF",
-      "uitLogo": "https://crests.football-data.org/82.png"
-    },
-    {
-      "id": 564729,
-      "datum": "zo 1 november 21:00",
-      "thuis": "Athletic Club",
-      "thuisLogo": "https://crests.football-data.org/77.png",
-      "uit": "Real Sociedad de Fútbol",
-      "uitLogo": "https://crests.football-data.org/92.png"
-    },
-    {
-      "id": 564739,
-      "datum": "za 7 november 18:30",
-      "thuis": "CA Osasuna",
-      "thuisLogo": "https://crests.football-data.org/79.png",
-      "uit": "Athletic Club",
-      "uitLogo": "https://crests.football-data.org/77.png"
-    },
-    {
-      "id": 564748,
-      "datum": "zo 22 november 01:00",
-      "thuis": "Athletic Club",
-      "thuisLogo": "https://crests.football-data.org/77.png",
-      "uit": "RCD Espanyol de Barcelona",
-      "uitLogo": "https://crests.football-data.org/80.png"
-    },
-    {
-      "id": 564767,
-      "datum": "zo 29 november 01:00",
-      "thuis": "Málaga CF",
-      "thuisLogo": "https://crests.football-data.org/84.png",
-      "uit": "Athletic Club",
-      "uitLogo": "https://crests.football-data.org/77.png"
-    },
-    {
-      "id": 564775,
-      "datum": "zo 6 december 01:00",
-      "thuis": "Athletic Club",
-      "thuisLogo": "https://crests.football-data.org/77.png",
-      "uit": "Real Madrid CF",
-      "uitLogo": "https://crests.football-data.org/86.png"
-    },
-    {
-      "id": 564781,
-      "datum": "zo 13 december 01:00",
-      "thuis": "RC Deportivo La Coruña",
-      "thuisLogo": "https://crests.football-data.org/560.png",
-      "uit": "Athletic Club",
-      "uitLogo": "https://crests.football-data.org/77.png"
-    },
-    {
-      "id": 564788,
-      "datum": "zo 20 december 01:00",
-      "thuis": "Athletic Club",
-      "thuisLogo": "https://crests.football-data.org/77.png",
-      "uit": "Real Betis Balompié",
-      "uitLogo": "https://crests.football-data.org/90.png"
-    },
-    {
-      "id": 564801,
-      "datum": "zo 3 januari 01:00",
-      "thuis": "Real Racing Club de Santander",
-      "thuisLogo": "https://crests.football-data.org/5335.png",
-      "uit": "Athletic Club",
-      "uitLogo": "https://crests.football-data.org/77.png"
-    },
-    {
-      "id": 564808,
-      "datum": "zo 10 januari 01:00",
-      "thuis": "Athletic Club",
-      "thuisLogo": "https://crests.football-data.org/77.png",
-      "uit": "Villarreal CF",
-      "uitLogo": "https://crests.football-data.org/94.png"
-    },
-    {
-      "id": 564824,
-      "datum": "zo 17 januari 01:00",
-      "thuis": "Getafe CF",
-      "thuisLogo": "https://crests.football-data.org/82.png",
-      "uit": "Athletic Club",
-      "uitLogo": "https://crests.football-data.org/77.png"
-    },
-    {
-      "id": 564835,
-      "datum": "zo 24 januari 01:00",
-      "thuis": "Athletic Club",
-      "thuisLogo": "https://crests.football-data.org/77.png",
-      "uit": "Levante UD",
-      "uitLogo": "https://crests.football-data.org/88.png"
-    },
-    {
-      "id": 564845,
-      "datum": "zo 31 januari 01:00",
-      "thuis": "Sevilla FC",
-      "thuisLogo": "https://crests.football-data.org/559.png",
-      "uit": "Athletic Club",
-      "uitLogo": "https://crests.football-data.org/77.png"
-    },
-    {
-      "id": 564848,
-      "datum": "zo 7 februari 01:00",
-      "thuis": "Athletic Club",
-      "thuisLogo": "https://crests.football-data.org/77.png",
-      "uit": "CA Osasuna",
-      "uitLogo": "https://crests.football-data.org/79.png"
-    },
-    {
-      "id": 564867,
-      "datum": "zo 14 februari 01:00",
-      "thuis": "Real Madrid CF",
-      "thuisLogo": "https://crests.football-data.org/86.png",
-      "uit": "Athletic Club",
-      "uitLogo": "https://crests.football-data.org/77.png"
-    },
-    {
-      "id": 564872,
-      "datum": "zo 21 februari 01:00",
-      "thuis": "Athletic Club",
-      "thuisLogo": "https://crests.football-data.org/77.png",
-      "uit": "RC Celta de Vigo",
-      "uitLogo": "https://crests.football-data.org/558.png"
-    },
-    {
-      "id": 564884,
-      "datum": "zo 28 februari 01:00",
-      "thuis": "Athletic Club",
-      "thuisLogo": "https://crests.football-data.org/77.png",
-      "uit": "FC Barcelona",
-      "uitLogo": "https://crests.football-data.org/81.png"
-    },
-    {
-      "id": 564890,
-      "datum": "zo 7 maart 01:00",
-      "thuis": "Deportivo Alavés",
-      "thuisLogo": "https://crests.football-data.org/263.png",
-      "uit": "Athletic Club",
-      "uitLogo": "https://crests.football-data.org/77.png"
-    },
-    {
-      "id": 564901,
-      "datum": "zo 14 maart 01:00",
-      "thuis": "Athletic Club",
-      "thuisLogo": "https://crests.football-data.org/77.png",
-      "uit": "Valencia CF",
-      "uitLogo": "https://crests.football-data.org/95.png"
-    },
-    {
-      "id": 564914,
-      "datum": "zo 21 maart 01:00",
-      "thuis": "RCD Espanyol de Barcelona",
-      "thuisLogo": "https://crests.football-data.org/80.png",
-      "uit": "Athletic Club",
-      "uitLogo": "https://crests.football-data.org/77.png"
-    },
-    {
-      "id": 564921,
-      "datum": "zo 4 april 02:00",
-      "thuis": "Athletic Club",
-      "thuisLogo": "https://crests.football-data.org/77.png",
-      "uit": "Real Racing Club de Santander",
-      "uitLogo": "https://crests.football-data.org/5335.png"
-    },
-    {
-      "id": 564930,
-      "datum": "zo 11 april 02:00",
-      "thuis": "Villarreal CF",
-      "thuisLogo": "https://crests.football-data.org/94.png",
-      "uit": "Athletic Club",
-      "uitLogo": "https://crests.football-data.org/77.png"
-    },
-    {
-      "id": 564946,
-      "datum": "zo 18 april 02:00",
-      "thuis": "Real Betis Balompié",
-      "thuisLogo": "https://crests.football-data.org/90.png",
-      "uit": "Athletic Club",
-      "uitLogo": "https://crests.football-data.org/77.png"
-    },
-    {
-      "id": 564953,
-      "datum": "wo 21 april 02:00",
-      "thuis": "Athletic Club",
-      "thuisLogo": "https://crests.football-data.org/77.png",
-      "uit": "RC Deportivo La Coruña",
-      "uitLogo": "https://crests.football-data.org/560.png"
-    },
-    {
-      "id": 564960,
-      "datum": "zo 2 mei 02:00",
-      "thuis": "Real Sociedad de Fútbol",
-      "thuisLogo": "https://crests.football-data.org/92.png",
-      "uit": "Athletic Club",
-      "uitLogo": "https://crests.football-data.org/77.png"
-    },
-    {
-      "id": 564971,
-      "datum": "zo 9 mei 02:00",
-      "thuis": "Athletic Club",
-      "thuisLogo": "https://crests.football-data.org/77.png",
-      "uit": "Málaga CF",
-      "uitLogo": "https://crests.football-data.org/84.png"
-    },
-    {
-      "id": 564981,
-      "datum": "zo 16 mei 02:00",
-      "thuis": "Elche CF",
-      "thuisLogo": "https://crests.football-data.org/285.png",
-      "uit": "Athletic Club",
-      "uitLogo": "https://crests.football-data.org/77.png"
-    },
-    {
-      "id": 564992,
-      "datum": "zo 23 mei 02:00",
-      "thuis": "Club Atlético de Madrid",
-      "thuisLogo": "https://crests.football-data.org/78.png",
-      "uit": "Athletic Club",
-      "uitLogo": "https://crests.football-data.org/77.png"
-    },
-    {
-      "id": 565004,
-      "datum": "zo 30 mei 02:00",
-      "thuis": "Athletic Club",
-      "thuisLogo": "https://crests.football-data.org/77.png",
-      "uit": "Rayo Vallecano de Madrid",
-      "uitLogo": "https://crests.football-data.org/87.png"
     }
   ],
   "263": [
@@ -8127,6 +7619,240 @@
       "uitLogo": "https://crests.football-data.org/560.png"
     }
   ],
+  "77": [
+    {
+      "id": 564720,
+      "datum": "zo 25 oktober 14:00",
+      "thuis": "Athletic Club",
+      "thuisLogo": "https://crests.football-data.org/77.png",
+      "uit": "Getafe CF",
+      "uitLogo": "https://crests.football-data.org/82.png"
+    },
+    {
+      "id": 564729,
+      "datum": "zo 1 november 21:00",
+      "thuis": "Athletic Club",
+      "thuisLogo": "https://crests.football-data.org/77.png",
+      "uit": "Real Sociedad de Fútbol",
+      "uitLogo": "https://crests.football-data.org/92.png"
+    },
+    {
+      "id": 564739,
+      "datum": "za 7 november 18:30",
+      "thuis": "CA Osasuna",
+      "thuisLogo": "https://crests.football-data.org/79.png",
+      "uit": "Athletic Club",
+      "uitLogo": "https://crests.football-data.org/77.png"
+    },
+    {
+      "id": 564748,
+      "datum": "zo 22 november 01:00",
+      "thuis": "Athletic Club",
+      "thuisLogo": "https://crests.football-data.org/77.png",
+      "uit": "RCD Espanyol de Barcelona",
+      "uitLogo": "https://crests.football-data.org/80.png"
+    },
+    {
+      "id": 564767,
+      "datum": "zo 29 november 01:00",
+      "thuis": "Málaga CF",
+      "thuisLogo": "https://crests.football-data.org/84.png",
+      "uit": "Athletic Club",
+      "uitLogo": "https://crests.football-data.org/77.png"
+    },
+    {
+      "id": 564775,
+      "datum": "zo 6 december 01:00",
+      "thuis": "Athletic Club",
+      "thuisLogo": "https://crests.football-data.org/77.png",
+      "uit": "Real Madrid CF",
+      "uitLogo": "https://crests.football-data.org/86.png"
+    },
+    {
+      "id": 564781,
+      "datum": "zo 13 december 01:00",
+      "thuis": "RC Deportivo La Coruña",
+      "thuisLogo": "https://crests.football-data.org/560.png",
+      "uit": "Athletic Club",
+      "uitLogo": "https://crests.football-data.org/77.png"
+    },
+    {
+      "id": 564788,
+      "datum": "zo 20 december 01:00",
+      "thuis": "Athletic Club",
+      "thuisLogo": "https://crests.football-data.org/77.png",
+      "uit": "Real Betis Balompié",
+      "uitLogo": "https://crests.football-data.org/90.png"
+    },
+    {
+      "id": 564801,
+      "datum": "zo 3 januari 01:00",
+      "thuis": "Real Racing Club de Santander",
+      "thuisLogo": "https://crests.football-data.org/5335.png",
+      "uit": "Athletic Club",
+      "uitLogo": "https://crests.football-data.org/77.png"
+    },
+    {
+      "id": 564808,
+      "datum": "zo 10 januari 01:00",
+      "thuis": "Athletic Club",
+      "thuisLogo": "https://crests.football-data.org/77.png",
+      "uit": "Villarreal CF",
+      "uitLogo": "https://crests.football-data.org/94.png"
+    },
+    {
+      "id": 564824,
+      "datum": "zo 17 januari 01:00",
+      "thuis": "Getafe CF",
+      "thuisLogo": "https://crests.football-data.org/82.png",
+      "uit": "Athletic Club",
+      "uitLogo": "https://crests.football-data.org/77.png"
+    },
+    {
+      "id": 564835,
+      "datum": "zo 24 januari 01:00",
+      "thuis": "Athletic Club",
+      "thuisLogo": "https://crests.football-data.org/77.png",
+      "uit": "Levante UD",
+      "uitLogo": "https://crests.football-data.org/88.png"
+    },
+    {
+      "id": 564845,
+      "datum": "zo 31 januari 01:00",
+      "thuis": "Sevilla FC",
+      "thuisLogo": "https://crests.football-data.org/559.png",
+      "uit": "Athletic Club",
+      "uitLogo": "https://crests.football-data.org/77.png"
+    },
+    {
+      "id": 564848,
+      "datum": "zo 7 februari 01:00",
+      "thuis": "Athletic Club",
+      "thuisLogo": "https://crests.football-data.org/77.png",
+      "uit": "CA Osasuna",
+      "uitLogo": "https://crests.football-data.org/79.png"
+    },
+    {
+      "id": 564867,
+      "datum": "zo 14 februari 01:00",
+      "thuis": "Real Madrid CF",
+      "thuisLogo": "https://crests.football-data.org/86.png",
+      "uit": "Athletic Club",
+      "uitLogo": "https://crests.football-data.org/77.png"
+    },
+    {
+      "id": 564872,
+      "datum": "zo 21 februari 01:00",
+      "thuis": "Athletic Club",
+      "thuisLogo": "https://crests.football-data.org/77.png",
+      "uit": "RC Celta de Vigo",
+      "uitLogo": "https://crests.football-data.org/558.png"
+    },
+    {
+      "id": 564884,
+      "datum": "zo 28 februari 01:00",
+      "thuis": "Athletic Club",
+      "thuisLogo": "https://crests.football-data.org/77.png",
+      "uit": "FC Barcelona",
+      "uitLogo": "https://crests.football-data.org/81.png"
+    },
+    {
+      "id": 564890,
+      "datum": "zo 7 maart 01:00",
+      "thuis": "Deportivo Alavés",
+      "thuisLogo": "https://crests.football-data.org/263.png",
+      "uit": "Athletic Club",
+      "uitLogo": "https://crests.football-data.org/77.png"
+    },
+    {
+      "id": 564901,
+      "datum": "zo 14 maart 01:00",
+      "thuis": "Athletic Club",
+      "thuisLogo": "https://crests.football-data.org/77.png",
+      "uit": "Valencia CF",
+      "uitLogo": "https://crests.football-data.org/95.png"
+    },
+    {
+      "id": 564914,
+      "datum": "zo 21 maart 01:00",
+      "thuis": "RCD Espanyol de Barcelona",
+      "thuisLogo": "https://crests.football-data.org/80.png",
+      "uit": "Athletic Club",
+      "uitLogo": "https://crests.football-data.org/77.png"
+    },
+    {
+      "id": 564921,
+      "datum": "zo 4 april 02:00",
+      "thuis": "Athletic Club",
+      "thuisLogo": "https://crests.football-data.org/77.png",
+      "uit": "Real Racing Club de Santander",
+      "uitLogo": "https://crests.football-data.org/5335.png"
+    },
+    {
+      "id": 564930,
+      "datum": "zo 11 april 02:00",
+      "thuis": "Villarreal CF",
+      "thuisLogo": "https://crests.football-data.org/94.png",
+      "uit": "Athletic Club",
+      "uitLogo": "https://crests.football-data.org/77.png"
+    },
+    {
+      "id": 564946,
+      "datum": "zo 18 april 02:00",
+      "thuis": "Real Betis Balompié",
+      "thuisLogo": "https://crests.football-data.org/90.png",
+      "uit": "Athletic Club",
+      "uitLogo": "https://crests.football-data.org/77.png"
+    },
+    {
+      "id": 564953,
+      "datum": "wo 21 april 02:00",
+      "thuis": "Athletic Club",
+      "thuisLogo": "https://crests.football-data.org/77.png",
+      "uit": "RC Deportivo La Coruña",
+      "uitLogo": "https://crests.football-data.org/560.png"
+    },
+    {
+      "id": 564960,
+      "datum": "zo 2 mei 02:00",
+      "thuis": "Real Sociedad de Fútbol",
+      "thuisLogo": "https://crests.football-data.org/92.png",
+      "uit": "Athletic Club",
+      "uitLogo": "https://crests.football-data.org/77.png"
+    },
+    {
+      "id": 564971,
+      "datum": "zo 9 mei 02:00",
+      "thuis": "Athletic Club",
+      "thuisLogo": "https://crests.football-data.org/77.png",
+      "uit": "Málaga CF",
+      "uitLogo": "https://crests.football-data.org/84.png"
+    },
+    {
+      "id": 564981,
+      "datum": "zo 16 mei 02:00",
+      "thuis": "Elche CF",
+      "thuisLogo": "https://crests.football-data.org/285.png",
+      "uit": "Athletic Club",
+      "uitLogo": "https://crests.football-data.org/77.png"
+    },
+    {
+      "id": 564992,
+      "datum": "zo 23 mei 02:00",
+      "thuis": "Club Atlético de Madrid",
+      "thuisLogo": "https://crests.football-data.org/78.png",
+      "uit": "Athletic Club",
+      "uitLogo": "https://crests.football-data.org/77.png"
+    },
+    {
+      "id": 565004,
+      "datum": "zo 30 mei 02:00",
+      "thuis": "Athletic Club",
+      "thuisLogo": "https://crests.football-data.org/77.png",
+      "uit": "Rayo Vallecano de Madrid",
+      "uitLogo": "https://crests.football-data.org/87.png"
+    }
+  ],
   "82": [
     {
       "id": 564720,
@@ -8829,14 +8555,6 @@
       "uitLogo": "https://crests.football-data.org/78.png"
     },
     {
-      "id": 575376,
-      "datum": "wo 21 oktober 21:00",
-      "thuis": "Real Betis Balompié",
-      "thuisLogo": "https://crests.football-data.org/90.png",
-      "uit": "Feyenoord Rotterdam",
-      "uitLogo": "https://crests.football-data.org/675.png"
-    },
-    {
       "id": 575391,
       "datum": "wo 4 november 21:00",
       "thuis": "Borussia Dortmund",
@@ -9109,6 +8827,240 @@
       "thuisLogo": "https://crests.football-data.org/92.png",
       "uit": "Villarreal CF",
       "uitLogo": "https://crests.football-data.org/94.png"
+    }
+  ],
+  "88": [
+    {
+      "id": 564726,
+      "datum": "zo 25 oktober 18:30",
+      "thuis": "Real Sociedad de Fútbol",
+      "thuisLogo": "https://crests.football-data.org/92.png",
+      "uit": "Levante UD",
+      "uitLogo": "https://crests.football-data.org/88.png"
+    },
+    {
+      "id": 564730,
+      "datum": "za 31 oktober 14:00",
+      "thuis": "Levante UD",
+      "thuisLogo": "https://crests.football-data.org/88.png",
+      "uit": "Club Atlético de Madrid",
+      "uitLogo": "https://crests.football-data.org/78.png"
+    },
+    {
+      "id": 564742,
+      "datum": "zo 8 november 18:30",
+      "thuis": "RC Celta de Vigo",
+      "thuisLogo": "https://crests.football-data.org/558.png",
+      "uit": "Levante UD",
+      "uitLogo": "https://crests.football-data.org/88.png"
+    },
+    {
+      "id": 564757,
+      "datum": "zo 22 november 01:00",
+      "thuis": "Levante UD",
+      "thuisLogo": "https://crests.football-data.org/88.png",
+      "uit": "Elche CF",
+      "uitLogo": "https://crests.football-data.org/285.png"
+    },
+    {
+      "id": 564765,
+      "datum": "zo 29 november 01:00",
+      "thuis": "Levante UD",
+      "thuisLogo": "https://crests.football-data.org/88.png",
+      "uit": "Real Racing Club de Santander",
+      "uitLogo": "https://crests.football-data.org/5335.png"
+    },
+    {
+      "id": 564777,
+      "datum": "zo 6 december 01:00",
+      "thuis": "Rayo Vallecano de Madrid",
+      "thuisLogo": "https://crests.football-data.org/87.png",
+      "uit": "Levante UD",
+      "uitLogo": "https://crests.football-data.org/88.png"
+    },
+    {
+      "id": 564782,
+      "datum": "zo 13 december 01:00",
+      "thuis": "Levante UD",
+      "thuisLogo": "https://crests.football-data.org/88.png",
+      "uit": "Deportivo Alavés",
+      "uitLogo": "https://crests.football-data.org/263.png"
+    },
+    {
+      "id": 564789,
+      "datum": "zo 20 december 01:00",
+      "thuis": "Getafe CF",
+      "thuisLogo": "https://crests.football-data.org/82.png",
+      "uit": "Levante UD",
+      "uitLogo": "https://crests.football-data.org/88.png"
+    },
+    {
+      "id": 564800,
+      "datum": "zo 3 januari 01:00",
+      "thuis": "Levante UD",
+      "thuisLogo": "https://crests.football-data.org/88.png",
+      "uit": "Valencia CF",
+      "uitLogo": "https://crests.football-data.org/95.png"
+    },
+    {
+      "id": 564810,
+      "datum": "zo 10 januari 01:00",
+      "thuis": "Real Madrid CF",
+      "thuisLogo": "https://crests.football-data.org/86.png",
+      "uit": "Levante UD",
+      "uitLogo": "https://crests.football-data.org/88.png"
+    },
+    {
+      "id": 564822,
+      "datum": "zo 17 januari 01:00",
+      "thuis": "Levante UD",
+      "thuisLogo": "https://crests.football-data.org/88.png",
+      "uit": "RCD Espanyol de Barcelona",
+      "uitLogo": "https://crests.football-data.org/80.png"
+    },
+    {
+      "id": 564835,
+      "datum": "zo 24 januari 01:00",
+      "thuis": "Athletic Club",
+      "thuisLogo": "https://crests.football-data.org/77.png",
+      "uit": "Levante UD",
+      "uitLogo": "https://crests.football-data.org/88.png"
+    },
+    {
+      "id": 564843,
+      "datum": "zo 31 januari 01:00",
+      "thuis": "Levante UD",
+      "thuisLogo": "https://crests.football-data.org/88.png",
+      "uit": "Real Sociedad de Fútbol",
+      "uitLogo": "https://crests.football-data.org/92.png"
+    },
+    {
+      "id": 564851,
+      "datum": "zo 7 februari 01:00",
+      "thuis": "Elche CF",
+      "thuisLogo": "https://crests.football-data.org/285.png",
+      "uit": "Levante UD",
+      "uitLogo": "https://crests.football-data.org/88.png"
+    },
+    {
+      "id": 564865,
+      "datum": "zo 14 februari 01:00",
+      "thuis": "Levante UD",
+      "thuisLogo": "https://crests.football-data.org/88.png",
+      "uit": "Málaga CF",
+      "uitLogo": "https://crests.football-data.org/84.png"
+    },
+    {
+      "id": 564871,
+      "datum": "zo 21 februari 01:00",
+      "thuis": "FC Barcelona",
+      "thuisLogo": "https://crests.football-data.org/81.png",
+      "uit": "Levante UD",
+      "uitLogo": "https://crests.football-data.org/88.png"
+    },
+    {
+      "id": 564879,
+      "datum": "zo 28 februari 01:00",
+      "thuis": "Levante UD",
+      "thuisLogo": "https://crests.football-data.org/88.png",
+      "uit": "RC Deportivo La Coruña",
+      "uitLogo": "https://crests.football-data.org/560.png"
+    },
+    {
+      "id": 564895,
+      "datum": "zo 7 maart 01:00",
+      "thuis": "Valencia CF",
+      "thuisLogo": "https://crests.football-data.org/95.png",
+      "uit": "Levante UD",
+      "uitLogo": "https://crests.football-data.org/88.png"
+    },
+    {
+      "id": 564902,
+      "datum": "zo 14 maart 01:00",
+      "thuis": "Real Betis Balompié",
+      "thuisLogo": "https://crests.football-data.org/90.png",
+      "uit": "Levante UD",
+      "uitLogo": "https://crests.football-data.org/88.png"
+    },
+    {
+      "id": 564910,
+      "datum": "zo 21 maart 01:00",
+      "thuis": "Levante UD",
+      "thuisLogo": "https://crests.football-data.org/88.png",
+      "uit": "CA Osasuna",
+      "uitLogo": "https://crests.football-data.org/79.png"
+    },
+    {
+      "id": 564918,
+      "datum": "zo 4 april 02:00",
+      "thuis": "Levante UD",
+      "thuisLogo": "https://crests.football-data.org/88.png",
+      "uit": "Rayo Vallecano de Madrid",
+      "uitLogo": "https://crests.football-data.org/87.png"
+    },
+    {
+      "id": 564937,
+      "datum": "zo 11 april 02:00",
+      "thuis": "Club Atlético de Madrid",
+      "thuisLogo": "https://crests.football-data.org/78.png",
+      "uit": "Levante UD",
+      "uitLogo": "https://crests.football-data.org/88.png"
+    },
+    {
+      "id": 564940,
+      "datum": "zo 18 april 02:00",
+      "thuis": "Levante UD",
+      "thuisLogo": "https://crests.football-data.org/88.png",
+      "uit": "Villarreal CF",
+      "uitLogo": "https://crests.football-data.org/94.png"
+    },
+    {
+      "id": 564956,
+      "datum": "wo 21 april 02:00",
+      "thuis": "Sevilla FC",
+      "thuisLogo": "https://crests.football-data.org/559.png",
+      "uit": "Levante UD",
+      "uitLogo": "https://crests.football-data.org/88.png"
+    },
+    {
+      "id": 564966,
+      "datum": "zo 2 mei 02:00",
+      "thuis": "Levante UD",
+      "thuisLogo": "https://crests.football-data.org/88.png",
+      "uit": "Real Madrid CF",
+      "uitLogo": "https://crests.football-data.org/86.png"
+    },
+    {
+      "id": 564970,
+      "datum": "zo 9 mei 02:00",
+      "thuis": "Deportivo Alavés",
+      "thuisLogo": "https://crests.football-data.org/263.png",
+      "uit": "Levante UD",
+      "uitLogo": "https://crests.football-data.org/88.png"
+    },
+    {
+      "id": 564984,
+      "datum": "zo 16 mei 02:00",
+      "thuis": "Levante UD",
+      "thuisLogo": "https://crests.football-data.org/88.png",
+      "uit": "Getafe CF",
+      "uitLogo": "https://crests.football-data.org/82.png"
+    },
+    {
+      "id": 564996,
+      "datum": "zo 23 mei 02:00",
+      "thuis": "Real Racing Club de Santander",
+      "thuisLogo": "https://crests.football-data.org/5335.png",
+      "uit": "Levante UD",
+      "uitLogo": "https://crests.football-data.org/88.png"
+    },
+    {
+      "id": 564998,
+      "datum": "zo 30 mei 02:00",
+      "thuis": "Levante UD",
+      "thuisLogo": "https://crests.football-data.org/88.png",
+      "uit": "RC Celta de Vigo",
+      "uitLogo": "https://crests.football-data.org/558.png"
     }
   ],
   "81": [
@@ -9617,14 +9569,6 @@
       "thuisLogo": "https://crests.football-data.org/86.png",
       "uit": "RC Deportivo La Coruña",
       "uitLogo": "https://crests.football-data.org/560.png"
-    },
-    {
-      "id": 575370,
-      "datum": "wo 21 oktober 21:00",
-      "thuis": "Real Madrid CF",
-      "thuisLogo": "https://crests.football-data.org/86.png",
-      "uit": "RB Leipzig",
-      "uitLogo": "https://crests.football-data.org/721.png"
     },
     {
       "id": 575386,
@@ -11755,14 +11699,6 @@
       "thuisLogo": "https://crests.football-data.org/721.png",
       "uit": "TSG 1899 Hoffenheim",
       "uitLogo": "https://crests.football-data.org/2.png"
-    },
-    {
-      "id": 575370,
-      "datum": "wo 21 oktober 21:00",
-      "thuis": "Real Madrid CF",
-      "thuisLogo": "https://crests.football-data.org/86.png",
-      "uit": "RB Leipzig",
-      "uitLogo": "https://crests.football-data.org/721.png"
     },
     {
       "id": 575388,
@@ -14331,14 +14267,6 @@
       "uitLogo": "https://crests.football-data.org/19.png"
     },
     {
-      "id": 575372,
-      "datum": "wo 21 oktober 21:00",
-      "thuis": "FC Bayern München",
-      "thuisLogo": "https://crests.football-data.org/5.png",
-      "uit": "Arsenal FC",
-      "uitLogo": "https://crests.football-data.org/57.png"
-    },
-    {
       "id": 575381,
       "datum": "di 3 november 21:00",
       "thuis": "Club Atlético de Madrid",
@@ -15627,14 +15555,6 @@
       "thuisLogo": "https://crests.football-data.org/7397.png",
       "uit": "Genoa CFC",
       "uitLogo": "https://crests.football-data.org/107.png"
-    },
-    {
-      "id": 575368,
-      "datum": "wo 21 oktober 18:45",
-      "thuis": "Como 1907",
-      "thuisLogo": "https://crests.football-data.org/7397.png",
-      "uit": "Manchester United FC",
-      "uitLogo": "https://crests.football-data.org/66.png"
     },
     {
       "id": 575393,
@@ -17255,14 +17175,6 @@
       "thuisLogo": "https://crests.football-data.org/471.png",
       "uit": "FC Internazionale Milano",
       "uitLogo": "https://crests.football-data.org/108.png"
-    },
-    {
-      "id": 575371,
-      "datum": "wo 21 oktober 21:00",
-      "thuis": "FC Internazionale Milano",
-      "thuisLogo": "https://crests.football-data.org/108.png",
-      "uit": "FK Shakhtar Donetsk",
-      "uitLogo": "https://crests.football-data.org/1887.png"
     },
     {
       "id": 575379,
@@ -19598,7 +19510,7 @@
     },
     {
       "id": 559608,
-      "datum": "za 5 december 01:00",
+      "datum": "zo 6 december 17:15",
       "thuis": "Stade Rennais FC 1901",
       "thuisLogo": "https://crests.football-data.org/529.png",
       "uit": "Stade Brestois 29",
@@ -19606,7 +19518,7 @@
     },
     {
       "id": 559598,
-      "datum": "za 12 december 01:00",
+      "datum": "za 12 december 20:45",
       "thuis": "Stade Brestois 29",
       "thuisLogo": "https://crests.football-data.org/512.png",
       "uit": "ES Troyes AC",
@@ -19614,7 +19526,7 @@
     },
     {
       "id": 559587,
-      "datum": "za 2 januari 01:00",
+      "datum": "za 2 januari 17:00",
       "thuis": "Stade Brestois 29",
       "thuisLogo": "https://crests.football-data.org/512.png",
       "uit": "Olympique de Marseille",
@@ -19622,7 +19534,7 @@
     },
     {
       "id": 559583,
-      "datum": "za 16 januari 01:00",
+      "datum": "zo 17 januari 17:15",
       "thuis": "AS Monaco FC",
       "thuisLogo": "https://crests.football-data.org/548.png",
       "uit": "Stade Brestois 29",
@@ -19630,7 +19542,7 @@
     },
     {
       "id": 559570,
-      "datum": "za 23 januari 01:00",
+      "datum": "za 23 januari 20:45",
       "thuis": "Racing Club de Lens",
       "thuisLogo": "https://crests.football-data.org/546.png",
       "uit": "Stade Brestois 29",
@@ -19638,7 +19550,7 @@
     },
     {
       "id": 559564,
-      "datum": "za 30 januari 01:00",
+      "datum": "vr 29 januari 20:45",
       "thuis": "Stade Brestois 29",
       "thuisLogo": "https://crests.football-data.org/512.png",
       "uit": "RC Strasbourg Alsace",
@@ -19816,7 +19728,7 @@
     },
     {
       "id": 559607,
-      "datum": "za 5 december 01:00",
+      "datum": "zo 6 december 20:45",
       "thuis": "Olympique de Marseille",
       "thuisLogo": "https://crests.football-data.org/516.png",
       "uit": "OGC Nice",
@@ -19824,7 +19736,7 @@
     },
     {
       "id": 559595,
-      "datum": "za 12 december 01:00",
+      "datum": "za 12 december 20:45",
       "thuis": "OGC Nice",
       "thuisLogo": "https://crests.football-data.org/522.png",
       "uit": "Racing Club de Lens",
@@ -19832,7 +19744,7 @@
     },
     {
       "id": 559590,
-      "datum": "za 2 januari 01:00",
+      "datum": "za 2 januari 21:00",
       "thuis": "AS Monaco FC",
       "thuisLogo": "https://crests.football-data.org/548.png",
       "uit": "OGC Nice",
@@ -19840,7 +19752,7 @@
     },
     {
       "id": 559580,
-      "datum": "za 16 januari 01:00",
+      "datum": "za 16 januari 20:45",
       "thuis": "OGC Nice",
       "thuisLogo": "https://crests.football-data.org/522.png",
       "uit": "Le Havre AC",
@@ -19848,7 +19760,7 @@
     },
     {
       "id": 559575,
-      "datum": "za 23 januari 01:00",
+      "datum": "za 23 januari 20:45",
       "thuis": "Toulouse FC",
       "thuisLogo": "https://crests.football-data.org/511.png",
       "uit": "OGC Nice",
@@ -19856,7 +19768,7 @@
     },
     {
       "id": 559561,
-      "datum": "za 30 januari 01:00",
+      "datum": "za 30 januari 20:45",
       "thuis": "Le Mans FC",
       "thuisLogo": "https://crests.football-data.org/535.png",
       "uit": "OGC Nice",
@@ -19991,442 +19903,6 @@
       "uitLogo": "https://crests.football-data.org/522.png"
     }
   ],
-  "511": [
-    {
-      "id": 559655,
-      "datum": "za 24 oktober 17:15",
-      "thuis": "Toulouse FC",
-      "thuisLogo": "https://crests.football-data.org/511.png",
-      "uit": "ES Troyes AC",
-      "uitLogo": "https://crests.football-data.org/531.png"
-    },
-    {
-      "id": 559645,
-      "datum": "zo 1 november 20:45",
-      "thuis": "Olympique de Marseille",
-      "thuisLogo": "https://crests.football-data.org/516.png",
-      "uit": "Toulouse FC",
-      "uitLogo": "https://crests.football-data.org/511.png"
-    },
-    {
-      "id": 559638,
-      "datum": "vr 6 november 20:45",
-      "thuis": "Toulouse FC",
-      "thuisLogo": "https://crests.football-data.org/511.png",
-      "uit": "RC Strasbourg Alsace",
-      "uitLogo": "https://crests.football-data.org/576.png"
-    },
-    {
-      "id": 559623,
-      "datum": "za 21 november 20:45",
-      "thuis": "Racing Club de Lens",
-      "thuisLogo": "https://crests.football-data.org/546.png",
-      "uit": "Toulouse FC",
-      "uitLogo": "https://crests.football-data.org/511.png"
-    },
-    {
-      "id": 559618,
-      "datum": "zo 29 november 17:15",
-      "thuis": "Toulouse FC",
-      "thuisLogo": "https://crests.football-data.org/511.png",
-      "uit": "Stade Rennais FC 1901",
-      "uitLogo": "https://crests.football-data.org/529.png"
-    },
-    {
-      "id": 559609,
-      "datum": "za 5 december 01:00",
-      "thuis": "Toulouse FC",
-      "thuisLogo": "https://crests.football-data.org/511.png",
-      "uit": "Paris Saint-Germain FC",
-      "uitLogo": "https://crests.football-data.org/524.png"
-    },
-    {
-      "id": 559602,
-      "datum": "za 12 december 01:00",
-      "thuis": "AJ Auxerre",
-      "thuisLogo": "https://crests.football-data.org/519.png",
-      "uit": "Toulouse FC",
-      "uitLogo": "https://crests.football-data.org/511.png"
-    },
-    {
-      "id": 559589,
-      "datum": "za 2 januari 01:00",
-      "thuis": "Toulouse FC",
-      "thuisLogo": "https://crests.football-data.org/511.png",
-      "uit": "Angers SCO",
-      "uitLogo": "https://crests.football-data.org/532.png"
-    },
-    {
-      "id": 559578,
-      "datum": "za 16 januari 01:00",
-      "thuis": "Paris FC",
-      "thuisLogo": "https://crests.football-data.org/1045.png",
-      "uit": "Toulouse FC",
-      "uitLogo": "https://crests.football-data.org/511.png"
-    },
-    {
-      "id": 559575,
-      "datum": "za 23 januari 01:00",
-      "thuis": "Toulouse FC",
-      "thuisLogo": "https://crests.football-data.org/511.png",
-      "uit": "OGC Nice",
-      "uitLogo": "https://crests.football-data.org/522.png"
-    },
-    {
-      "id": 559566,
-      "datum": "za 30 januari 01:00",
-      "thuis": "Toulouse FC",
-      "thuisLogo": "https://crests.football-data.org/511.png",
-      "uit": "Racing Club de Lens",
-      "uitLogo": "https://crests.football-data.org/546.png"
-    },
-    {
-      "id": 559552,
-      "datum": "za 6 februari 01:00",
-      "thuis": "Le Havre AC",
-      "thuisLogo": "https://crests.football-data.org/533.png",
-      "uit": "Toulouse FC",
-      "uitLogo": "https://crests.football-data.org/511.png"
-    },
-    {
-      "id": 559545,
-      "datum": "za 13 februari 01:00",
-      "thuis": "Toulouse FC",
-      "thuisLogo": "https://crests.football-data.org/511.png",
-      "uit": "AS Monaco FC",
-      "uitLogo": "https://crests.football-data.org/548.png"
-    },
-    {
-      "id": 559532,
-      "datum": "za 20 februari 01:00",
-      "thuis": "Stade Rennais FC 1901",
-      "thuisLogo": "https://crests.football-data.org/529.png",
-      "uit": "Toulouse FC",
-      "uitLogo": "https://crests.football-data.org/511.png"
-    },
-    {
-      "id": 559529,
-      "datum": "za 27 februari 01:00",
-      "thuis": "Olympique Lyonnais",
-      "thuisLogo": "https://crests.football-data.org/523.png",
-      "uit": "Toulouse FC",
-      "uitLogo": "https://crests.football-data.org/511.png"
-    },
-    {
-      "id": 559516,
-      "datum": "za 6 maart 01:00",
-      "thuis": "Toulouse FC",
-      "thuisLogo": "https://crests.football-data.org/511.png",
-      "uit": "Le Mans FC",
-      "uitLogo": "https://crests.football-data.org/535.png"
-    },
-    {
-      "id": 559504,
-      "datum": "za 13 maart 01:00",
-      "thuis": "OGC Nice",
-      "thuisLogo": "https://crests.football-data.org/522.png",
-      "uit": "Toulouse FC",
-      "uitLogo": "https://crests.football-data.org/511.png"
-    },
-    {
-      "id": 559497,
-      "datum": "za 20 maart 01:00",
-      "thuis": "Toulouse FC",
-      "thuisLogo": "https://crests.football-data.org/511.png",
-      "uit": "Stade Brestois 29",
-      "uitLogo": "https://crests.football-data.org/512.png"
-    },
-    {
-      "id": 559492,
-      "datum": "za 3 april 02:00",
-      "thuis": "RC Strasbourg Alsace",
-      "thuisLogo": "https://crests.football-data.org/576.png",
-      "uit": "Toulouse FC",
-      "uitLogo": "https://crests.football-data.org/511.png"
-    },
-    {
-      "id": 559484,
-      "datum": "za 10 april 02:00",
-      "thuis": "Lille OSC",
-      "thuisLogo": "https://crests.football-data.org/521.png",
-      "uit": "Toulouse FC",
-      "uitLogo": "https://crests.football-data.org/511.png"
-    },
-    {
-      "id": 559476,
-      "datum": "za 17 april 02:00",
-      "thuis": "Toulouse FC",
-      "thuisLogo": "https://crests.football-data.org/511.png",
-      "uit": "Paris FC",
-      "uitLogo": "https://crests.football-data.org/1045.png"
-    },
-    {
-      "id": 559463,
-      "datum": "za 24 april 02:00",
-      "thuis": "ES Troyes AC",
-      "thuisLogo": "https://crests.football-data.org/531.png",
-      "uit": "Toulouse FC",
-      "uitLogo": "https://crests.football-data.org/511.png"
-    },
-    {
-      "id": 559458,
-      "datum": "za 1 mei 02:00",
-      "thuis": "Toulouse FC",
-      "thuisLogo": "https://crests.football-data.org/511.png",
-      "uit": "Olympique de Marseille",
-      "uitLogo": "https://crests.football-data.org/516.png"
-    },
-    {
-      "id": 559448,
-      "datum": "za 8 mei 02:00",
-      "thuis": "Angers SCO",
-      "thuisLogo": "https://crests.football-data.org/532.png",
-      "uit": "Toulouse FC",
-      "uitLogo": "https://crests.football-data.org/511.png"
-    },
-    {
-      "id": 559435,
-      "datum": "zo 16 mei 02:00",
-      "thuis": "Toulouse FC",
-      "thuisLogo": "https://crests.football-data.org/511.png",
-      "uit": "FC Lorient",
-      "uitLogo": "https://crests.football-data.org/525.png"
-    },
-    {
-      "id": 559428,
-      "datum": "za 22 mei 02:00",
-      "thuis": "Toulouse FC",
-      "thuisLogo": "https://crests.football-data.org/511.png",
-      "uit": "AJ Auxerre",
-      "uitLogo": "https://crests.football-data.org/519.png"
-    },
-    {
-      "id": 559415,
-      "datum": "za 29 mei 02:00",
-      "thuis": "Paris Saint-Germain FC",
-      "thuisLogo": "https://crests.football-data.org/524.png",
-      "uit": "Toulouse FC",
-      "uitLogo": "https://crests.football-data.org/511.png"
-    }
-  ],
-  "531": [
-    {
-      "id": 559655,
-      "datum": "za 24 oktober 17:15",
-      "thuis": "Toulouse FC",
-      "thuisLogo": "https://crests.football-data.org/511.png",
-      "uit": "ES Troyes AC",
-      "uitLogo": "https://crests.football-data.org/531.png"
-    },
-    {
-      "id": 559643,
-      "datum": "za 31 oktober 20:45",
-      "thuis": "ES Troyes AC",
-      "thuisLogo": "https://crests.football-data.org/531.png",
-      "uit": "Le Mans FC",
-      "uitLogo": "https://crests.football-data.org/535.png"
-    },
-    {
-      "id": 559635,
-      "datum": "za 7 november 20:45",
-      "thuis": "Paris Saint-Germain FC",
-      "thuisLogo": "https://crests.football-data.org/524.png",
-      "uit": "ES Troyes AC",
-      "uitLogo": "https://crests.football-data.org/531.png"
-    },
-    {
-      "id": 559622,
-      "datum": "vr 20 november 20:45",
-      "thuis": "ES Troyes AC",
-      "thuisLogo": "https://crests.football-data.org/531.png",
-      "uit": "Le Havre AC",
-      "uitLogo": "https://crests.football-data.org/533.png"
-    },
-    {
-      "id": 559620,
-      "datum": "za 28 november 20:45",
-      "thuis": "OGC Nice",
-      "thuisLogo": "https://crests.football-data.org/522.png",
-      "uit": "ES Troyes AC",
-      "uitLogo": "https://crests.football-data.org/531.png"
-    },
-    {
-      "id": 559603,
-      "datum": "za 5 december 01:00",
-      "thuis": "ES Troyes AC",
-      "thuisLogo": "https://crests.football-data.org/531.png",
-      "uit": "Olympique Lyonnais",
-      "uitLogo": "https://crests.football-data.org/523.png"
-    },
-    {
-      "id": 559598,
-      "datum": "za 12 december 01:00",
-      "thuis": "Stade Brestois 29",
-      "thuisLogo": "https://crests.football-data.org/512.png",
-      "uit": "ES Troyes AC",
-      "uitLogo": "https://crests.football-data.org/531.png"
-    },
-    {
-      "id": 559588,
-      "datum": "za 2 januari 01:00",
-      "thuis": "ES Troyes AC",
-      "thuisLogo": "https://crests.football-data.org/531.png",
-      "uit": "Stade Rennais FC 1901",
-      "uitLogo": "https://crests.football-data.org/529.png"
-    },
-    {
-      "id": 559581,
-      "datum": "za 16 januari 01:00",
-      "thuis": "AJ Auxerre",
-      "thuisLogo": "https://crests.football-data.org/519.png",
-      "uit": "ES Troyes AC",
-      "uitLogo": "https://crests.football-data.org/531.png"
-    },
-    {
-      "id": 559572,
-      "datum": "za 23 januari 01:00",
-      "thuis": "ES Troyes AC",
-      "thuisLogo": "https://crests.football-data.org/531.png",
-      "uit": "AS Monaco FC",
-      "uitLogo": "https://crests.football-data.org/548.png"
-    },
-    {
-      "id": 559562,
-      "datum": "za 30 januari 01:00",
-      "thuis": "Olympique de Marseille",
-      "thuisLogo": "https://crests.football-data.org/516.png",
-      "uit": "ES Troyes AC",
-      "uitLogo": "https://crests.football-data.org/531.png"
-    },
-    {
-      "id": 559550,
-      "datum": "za 6 februari 01:00",
-      "thuis": "ES Troyes AC",
-      "thuisLogo": "https://crests.football-data.org/531.png",
-      "uit": "Lille OSC",
-      "uitLogo": "https://crests.football-data.org/521.png"
-    },
-    {
-      "id": 559541,
-      "datum": "za 13 februari 01:00",
-      "thuis": "Paris FC",
-      "thuisLogo": "https://crests.football-data.org/1045.png",
-      "uit": "ES Troyes AC",
-      "uitLogo": "https://crests.football-data.org/531.png"
-    },
-    {
-      "id": 559539,
-      "datum": "za 20 februari 01:00",
-      "thuis": "Racing Club de Lens",
-      "thuisLogo": "https://crests.football-data.org/546.png",
-      "uit": "ES Troyes AC",
-      "uitLogo": "https://crests.football-data.org/531.png"
-    },
-    {
-      "id": 559525,
-      "datum": "za 27 februari 01:00",
-      "thuis": "ES Troyes AC",
-      "thuisLogo": "https://crests.football-data.org/531.png",
-      "uit": "OGC Nice",
-      "uitLogo": "https://crests.football-data.org/522.png"
-    },
-    {
-      "id": 559517,
-      "datum": "za 6 maart 01:00",
-      "thuis": "ES Troyes AC",
-      "thuisLogo": "https://crests.football-data.org/531.png",
-      "uit": "FC Lorient",
-      "uitLogo": "https://crests.football-data.org/525.png"
-    },
-    {
-      "id": 559512,
-      "datum": "za 13 maart 01:00",
-      "thuis": "Olympique Lyonnais",
-      "thuisLogo": "https://crests.football-data.org/523.png",
-      "uit": "ES Troyes AC",
-      "uitLogo": "https://crests.football-data.org/531.png"
-    },
-    {
-      "id": 559498,
-      "datum": "za 20 maart 01:00",
-      "thuis": "ES Troyes AC",
-      "thuisLogo": "https://crests.football-data.org/531.png",
-      "uit": "AJ Auxerre",
-      "uitLogo": "https://crests.football-data.org/519.png"
-    },
-    {
-      "id": 559486,
-      "datum": "za 3 april 02:00",
-      "thuis": "Le Havre AC",
-      "thuisLogo": "https://crests.football-data.org/533.png",
-      "uit": "ES Troyes AC",
-      "uitLogo": "https://crests.football-data.org/531.png"
-    },
-    {
-      "id": 559480,
-      "datum": "za 10 april 02:00",
-      "thuis": "ES Troyes AC",
-      "thuisLogo": "https://crests.football-data.org/531.png",
-      "uit": "Angers SCO",
-      "uitLogo": "https://crests.football-data.org/532.png"
-    },
-    {
-      "id": 559473,
-      "datum": "za 17 april 02:00",
-      "thuis": "Stade Rennais FC 1901",
-      "thuisLogo": "https://crests.football-data.org/529.png",
-      "uit": "ES Troyes AC",
-      "uitLogo": "https://crests.football-data.org/531.png"
-    },
-    {
-      "id": 559463,
-      "datum": "za 24 april 02:00",
-      "thuis": "ES Troyes AC",
-      "thuisLogo": "https://crests.football-data.org/531.png",
-      "uit": "Toulouse FC",
-      "uitLogo": "https://crests.football-data.org/511.png"
-    },
-    {
-      "id": 559452,
-      "datum": "za 1 mei 02:00",
-      "thuis": "ES Troyes AC",
-      "thuisLogo": "https://crests.football-data.org/531.png",
-      "uit": "Stade Brestois 29",
-      "uitLogo": "https://crests.football-data.org/512.png"
-    },
-    {
-      "id": 559445,
-      "datum": "za 8 mei 02:00",
-      "thuis": "Le Mans FC",
-      "thuisLogo": "https://crests.football-data.org/535.png",
-      "uit": "ES Troyes AC",
-      "uitLogo": "https://crests.football-data.org/531.png"
-    },
-    {
-      "id": 559440,
-      "datum": "zo 16 mei 02:00",
-      "thuis": "RC Strasbourg Alsace",
-      "thuisLogo": "https://crests.football-data.org/576.png",
-      "uit": "ES Troyes AC",
-      "uitLogo": "https://crests.football-data.org/531.png"
-    },
-    {
-      "id": 559426,
-      "datum": "za 22 mei 02:00",
-      "thuis": "ES Troyes AC",
-      "thuisLogo": "https://crests.football-data.org/531.png",
-      "uit": "Paris Saint-Germain FC",
-      "uitLogo": "https://crests.football-data.org/524.png"
-    },
-    {
-      "id": 559414,
-      "datum": "za 29 mei 02:00",
-      "thuis": "AS Monaco FC",
-      "thuisLogo": "https://crests.football-data.org/548.png",
-      "uit": "ES Troyes AC",
-      "uitLogo": "https://crests.football-data.org/531.png"
-    }
-  ],
   "546": [
     {
       "id": 559652,
@@ -20470,7 +19946,7 @@
     },
     {
       "id": 559605,
-      "datum": "za 5 december 01:00",
+      "datum": "za 5 december 20:45",
       "thuis": "Racing Club de Lens",
       "thuisLogo": "https://crests.football-data.org/546.png",
       "uit": "Le Havre AC",
@@ -20478,7 +19954,7 @@
     },
     {
       "id": 559595,
-      "datum": "za 12 december 01:00",
+      "datum": "za 12 december 20:45",
       "thuis": "OGC Nice",
       "thuisLogo": "https://crests.football-data.org/522.png",
       "uit": "Racing Club de Lens",
@@ -20494,7 +19970,7 @@
     },
     {
       "id": 559579,
-      "datum": "za 16 januari 01:00",
+      "datum": "za 16 januari 20:45",
       "thuis": "Stade Rennais FC 1901",
       "thuisLogo": "https://crests.football-data.org/529.png",
       "uit": "Racing Club de Lens",
@@ -20502,7 +19978,7 @@
     },
     {
       "id": 559570,
-      "datum": "za 23 januari 01:00",
+      "datum": "za 23 januari 20:45",
       "thuis": "Racing Club de Lens",
       "thuisLogo": "https://crests.football-data.org/546.png",
       "uit": "Stade Brestois 29",
@@ -20510,7 +19986,7 @@
     },
     {
       "id": 559566,
-      "datum": "za 30 januari 01:00",
+      "datum": "za 30 januari 20:45",
       "thuis": "Toulouse FC",
       "thuisLogo": "https://crests.football-data.org/511.png",
       "uit": "Racing Club de Lens",
@@ -20645,14 +20121,6 @@
       "uitLogo": "https://crests.football-data.org/546.png"
     },
     {
-      "id": 575373,
-      "datum": "wo 21 oktober 21:00",
-      "thuis": "Club Brugge KV",
-      "thuisLogo": "https://crests.football-data.org/851.png",
-      "uit": "Racing Club de Lens",
-      "uitLogo": "https://crests.football-data.org/546.png"
-    },
-    {
       "id": 575393,
       "datum": "wo 4 november 21:00",
       "thuis": "Racing Club de Lens",
@@ -20736,7 +20204,7 @@
     },
     {
       "id": 559611,
-      "datum": "za 5 december 01:00",
+      "datum": "za 5 december 20:45",
       "thuis": "Paris FC",
       "thuisLogo": "https://crests.football-data.org/1045.png",
       "uit": "Le Mans FC",
@@ -20744,7 +20212,7 @@
     },
     {
       "id": 559596,
-      "datum": "za 12 december 01:00",
+      "datum": "za 12 december 17:15",
       "thuis": "Paris Saint-Germain FC",
       "thuisLogo": "https://crests.football-data.org/524.png",
       "uit": "Paris FC",
@@ -20752,7 +20220,7 @@
     },
     {
       "id": 559591,
-      "datum": "za 2 januari 01:00",
+      "datum": "za 2 januari 21:00",
       "thuis": "Paris FC",
       "thuisLogo": "https://crests.football-data.org/1045.png",
       "uit": "Le Havre AC",
@@ -20760,7 +20228,7 @@
     },
     {
       "id": 559578,
-      "datum": "za 16 januari 01:00",
+      "datum": "zo 17 januari 15:00",
       "thuis": "Paris FC",
       "thuisLogo": "https://crests.football-data.org/1045.png",
       "uit": "Toulouse FC",
@@ -20768,7 +20236,7 @@
     },
     {
       "id": 559569,
-      "datum": "za 23 januari 01:00",
+      "datum": "za 23 januari 17:15",
       "thuis": "Lille OSC",
       "thuisLogo": "https://crests.football-data.org/521.png",
       "uit": "Paris FC",
@@ -20776,7 +20244,7 @@
     },
     {
       "id": 559558,
-      "datum": "za 30 januari 01:00",
+      "datum": "za 30 januari 20:45",
       "thuis": "Paris FC",
       "thuisLogo": "https://crests.football-data.org/1045.png",
       "uit": "AJ Auxerre",
@@ -20954,7 +20422,7 @@
     },
     {
       "id": 559604,
-      "datum": "za 5 december 01:00",
+      "datum": "za 5 december 20:45",
       "thuis": "AS Monaco FC",
       "thuisLogo": "https://crests.football-data.org/548.png",
       "uit": "Angers SCO",
@@ -20962,7 +20430,7 @@
     },
     {
       "id": 559600,
-      "datum": "za 12 december 01:00",
+      "datum": "zo 13 december 17:15",
       "thuis": "Stade Rennais FC 1901",
       "thuisLogo": "https://crests.football-data.org/529.png",
       "uit": "AS Monaco FC",
@@ -20970,7 +20438,7 @@
     },
     {
       "id": 559590,
-      "datum": "za 2 januari 01:00",
+      "datum": "za 2 januari 21:00",
       "thuis": "AS Monaco FC",
       "thuisLogo": "https://crests.football-data.org/548.png",
       "uit": "OGC Nice",
@@ -20978,7 +20446,7 @@
     },
     {
       "id": 559583,
-      "datum": "za 16 januari 01:00",
+      "datum": "zo 17 januari 17:15",
       "thuis": "AS Monaco FC",
       "thuisLogo": "https://crests.football-data.org/548.png",
       "uit": "Stade Brestois 29",
@@ -20986,7 +20454,7 @@
     },
     {
       "id": 559572,
-      "datum": "za 23 januari 01:00",
+      "datum": "vr 22 januari 20:45",
       "thuis": "ES Troyes AC",
       "thuisLogo": "https://crests.football-data.org/531.png",
       "uit": "AS Monaco FC",
@@ -20994,7 +20462,7 @@
     },
     {
       "id": 559565,
-      "datum": "za 30 januari 01:00",
+      "datum": "za 30 januari 17:15",
       "thuis": "AS Monaco FC",
       "thuisLogo": "https://crests.football-data.org/548.png",
       "uit": "Paris Saint-Germain FC",
@@ -21172,7 +20640,7 @@
     },
     {
       "id": 559606,
-      "datum": "za 5 december 01:00",
+      "datum": "za 5 december 17:15",
       "thuis": "Lille OSC",
       "thuisLogo": "https://crests.football-data.org/521.png",
       "uit": "AJ Auxerre",
@@ -21180,7 +20648,7 @@
     },
     {
       "id": 559601,
-      "datum": "za 12 december 01:00",
+      "datum": "zo 13 december 15:00",
       "thuis": "FC Lorient",
       "thuisLogo": "https://crests.football-data.org/525.png",
       "uit": "Lille OSC",
@@ -21188,7 +20656,7 @@
     },
     {
       "id": 559593,
-      "datum": "za 2 januari 01:00",
+      "datum": "zo 3 januari 17:15",
       "thuis": "Lille OSC",
       "thuisLogo": "https://crests.football-data.org/521.png",
       "uit": "RC Strasbourg Alsace",
@@ -21196,7 +20664,7 @@
     },
     {
       "id": 559576,
-      "datum": "za 16 januari 01:00",
+      "datum": "vr 15 januari 20:45",
       "thuis": "Olympique de Marseille",
       "thuisLogo": "https://crests.football-data.org/516.png",
       "uit": "Lille OSC",
@@ -21204,7 +20672,7 @@
     },
     {
       "id": 559569,
-      "datum": "za 23 januari 01:00",
+      "datum": "za 23 januari 17:15",
       "thuis": "Lille OSC",
       "thuisLogo": "https://crests.football-data.org/521.png",
       "uit": "Paris FC",
@@ -21212,7 +20680,7 @@
     },
     {
       "id": 559559,
-      "datum": "za 30 januari 01:00",
+      "datum": "zo 31 januari 20:45",
       "thuis": "Olympique Lyonnais",
       "thuisLogo": "https://crests.football-data.org/523.png",
       "uit": "Lille OSC",
@@ -21347,14 +20815,6 @@
       "uitLogo": "https://crests.football-data.org/535.png"
     },
     {
-      "id": 575369,
-      "datum": "wo 21 oktober 18:45",
-      "thuis": "Lille OSC",
-      "thuisLogo": "https://crests.football-data.org/521.png",
-      "uit": "Galatasaray SK",
-      "uitLogo": "https://crests.football-data.org/610.png"
-    },
-    {
       "id": 575384,
       "datum": "di 3 november 21:00",
       "thuis": "FK Bodø/Glimt",
@@ -21438,7 +20898,7 @@
     },
     {
       "id": 559607,
-      "datum": "za 5 december 01:00",
+      "datum": "zo 6 december 20:45",
       "thuis": "Olympique de Marseille",
       "thuisLogo": "https://crests.football-data.org/516.png",
       "uit": "OGC Nice",
@@ -21454,7 +20914,7 @@
     },
     {
       "id": 559587,
-      "datum": "za 2 januari 01:00",
+      "datum": "za 2 januari 17:00",
       "thuis": "Stade Brestois 29",
       "thuisLogo": "https://crests.football-data.org/512.png",
       "uit": "Olympique de Marseille",
@@ -21462,7 +20922,7 @@
     },
     {
       "id": 559576,
-      "datum": "za 16 januari 01:00",
+      "datum": "vr 15 januari 20:45",
       "thuis": "Olympique de Marseille",
       "thuisLogo": "https://crests.football-data.org/516.png",
       "uit": "Lille OSC",
@@ -21470,7 +20930,7 @@
     },
     {
       "id": 559573,
-      "datum": "za 23 januari 01:00",
+      "datum": "zo 24 januari 17:15",
       "thuis": "FC Lorient",
       "thuisLogo": "https://crests.football-data.org/525.png",
       "uit": "Olympique de Marseille",
@@ -21478,7 +20938,7 @@
     },
     {
       "id": 559562,
-      "datum": "za 30 januari 01:00",
+      "datum": "zo 31 januari 17:15",
       "thuis": "Olympique de Marseille",
       "thuisLogo": "https://crests.football-data.org/516.png",
       "uit": "ES Troyes AC",
@@ -21656,7 +21116,7 @@
     },
     {
       "id": 559605,
-      "datum": "za 5 december 01:00",
+      "datum": "za 5 december 20:45",
       "thuis": "Racing Club de Lens",
       "thuisLogo": "https://crests.football-data.org/546.png",
       "uit": "Le Havre AC",
@@ -21664,7 +21124,7 @@
     },
     {
       "id": 559599,
-      "datum": "za 12 december 01:00",
+      "datum": "za 12 december 20:45",
       "thuis": "Le Havre AC",
       "thuisLogo": "https://crests.football-data.org/533.png",
       "uit": "Le Mans FC",
@@ -21672,7 +21132,7 @@
     },
     {
       "id": 559591,
-      "datum": "za 2 januari 01:00",
+      "datum": "za 2 januari 21:00",
       "thuis": "Paris FC",
       "thuisLogo": "https://crests.football-data.org/1045.png",
       "uit": "Le Havre AC",
@@ -21680,7 +21140,7 @@
     },
     {
       "id": 559580,
-      "datum": "za 16 januari 01:00",
+      "datum": "za 16 januari 20:45",
       "thuis": "OGC Nice",
       "thuisLogo": "https://crests.football-data.org/522.png",
       "uit": "Le Havre AC",
@@ -21688,7 +21148,7 @@
     },
     {
       "id": 559567,
-      "datum": "za 23 januari 01:00",
+      "datum": "zo 24 januari 15:00",
       "thuis": "Le Havre AC",
       "thuisLogo": "https://crests.football-data.org/533.png",
       "uit": "Stade Rennais FC 1901",
@@ -21696,7 +21156,7 @@
     },
     {
       "id": 559563,
-      "datum": "za 30 januari 01:00",
+      "datum": "za 30 januari 20:45",
       "thuis": "Angers SCO",
       "thuisLogo": "https://crests.football-data.org/532.png",
       "uit": "Le Havre AC",
@@ -21874,7 +21334,7 @@
     },
     {
       "id": 559608,
-      "datum": "za 5 december 01:00",
+      "datum": "zo 6 december 17:15",
       "thuis": "Stade Rennais FC 1901",
       "thuisLogo": "https://crests.football-data.org/529.png",
       "uit": "Stade Brestois 29",
@@ -21882,7 +21342,7 @@
     },
     {
       "id": 559600,
-      "datum": "za 12 december 01:00",
+      "datum": "zo 13 december 17:15",
       "thuis": "Stade Rennais FC 1901",
       "thuisLogo": "https://crests.football-data.org/529.png",
       "uit": "AS Monaco FC",
@@ -21890,7 +21350,7 @@
     },
     {
       "id": 559588,
-      "datum": "za 2 januari 01:00",
+      "datum": "za 2 januari 21:00",
       "thuis": "ES Troyes AC",
       "thuisLogo": "https://crests.football-data.org/531.png",
       "uit": "Stade Rennais FC 1901",
@@ -21898,7 +21358,7 @@
     },
     {
       "id": 559579,
-      "datum": "za 16 januari 01:00",
+      "datum": "za 16 januari 20:45",
       "thuis": "Stade Rennais FC 1901",
       "thuisLogo": "https://crests.football-data.org/529.png",
       "uit": "Racing Club de Lens",
@@ -21906,7 +21366,7 @@
     },
     {
       "id": 559567,
-      "datum": "za 23 januari 01:00",
+      "datum": "zo 24 januari 15:00",
       "thuis": "Le Havre AC",
       "thuisLogo": "https://crests.football-data.org/533.png",
       "uit": "Stade Rennais FC 1901",
@@ -21914,7 +21374,7 @@
     },
     {
       "id": 559560,
-      "datum": "za 30 januari 01:00",
+      "datum": "zo 31 januari 15:00",
       "thuis": "Stade Rennais FC 1901",
       "thuisLogo": "https://crests.football-data.org/529.png",
       "uit": "FC Lorient",
@@ -22092,7 +21552,7 @@
     },
     {
       "id": 559610,
-      "datum": "za 5 december 01:00",
+      "datum": "za 5 december 20:45",
       "thuis": "RC Strasbourg Alsace",
       "thuisLogo": "https://crests.football-data.org/576.png",
       "uit": "FC Lorient",
@@ -22100,7 +21560,7 @@
     },
     {
       "id": 559597,
-      "datum": "za 12 december 01:00",
+      "datum": "za 12 december 20:45",
       "thuis": "Angers SCO",
       "thuisLogo": "https://crests.football-data.org/532.png",
       "uit": "RC Strasbourg Alsace",
@@ -22108,7 +21568,7 @@
     },
     {
       "id": 559593,
-      "datum": "za 2 januari 01:00",
+      "datum": "zo 3 januari 17:15",
       "thuis": "Lille OSC",
       "thuisLogo": "https://crests.football-data.org/521.png",
       "uit": "RC Strasbourg Alsace",
@@ -22116,7 +21576,7 @@
     },
     {
       "id": 559582,
-      "datum": "za 16 januari 01:00",
+      "datum": "za 16 januari 20:45",
       "thuis": "RC Strasbourg Alsace",
       "thuisLogo": "https://crests.football-data.org/576.png",
       "uit": "Le Mans FC",
@@ -22124,7 +21584,7 @@
     },
     {
       "id": 559568,
-      "datum": "za 23 januari 01:00",
+      "datum": "zo 24 januari 20:45",
       "thuis": "RC Strasbourg Alsace",
       "thuisLogo": "https://crests.football-data.org/576.png",
       "uit": "Olympique Lyonnais",
@@ -22132,7 +21592,7 @@
     },
     {
       "id": 559564,
-      "datum": "za 30 januari 01:00",
+      "datum": "vr 29 januari 20:45",
       "thuis": "Stade Brestois 29",
       "thuisLogo": "https://crests.football-data.org/512.png",
       "uit": "RC Strasbourg Alsace",
@@ -22310,7 +21770,7 @@
     },
     {
       "id": 559604,
-      "datum": "za 5 december 01:00",
+      "datum": "za 5 december 20:45",
       "thuis": "AS Monaco FC",
       "thuisLogo": "https://crests.football-data.org/548.png",
       "uit": "Angers SCO",
@@ -22318,7 +21778,7 @@
     },
     {
       "id": 559597,
-      "datum": "za 12 december 01:00",
+      "datum": "za 12 december 20:45",
       "thuis": "Angers SCO",
       "thuisLogo": "https://crests.football-data.org/532.png",
       "uit": "RC Strasbourg Alsace",
@@ -22326,7 +21786,7 @@
     },
     {
       "id": 559589,
-      "datum": "za 2 januari 01:00",
+      "datum": "za 2 januari 21:00",
       "thuis": "Toulouse FC",
       "thuisLogo": "https://crests.football-data.org/511.png",
       "uit": "Angers SCO",
@@ -22334,7 +21794,7 @@
     },
     {
       "id": 559584,
-      "datum": "za 16 januari 01:00",
+      "datum": "za 16 januari 17:15",
       "thuis": "Angers SCO",
       "thuisLogo": "https://crests.football-data.org/532.png",
       "uit": "Paris Saint-Germain FC",
@@ -22342,7 +21802,7 @@
     },
     {
       "id": 559574,
-      "datum": "za 23 januari 01:00",
+      "datum": "za 23 januari 20:45",
       "thuis": "Le Mans FC",
       "thuisLogo": "https://crests.football-data.org/535.png",
       "uit": "Angers SCO",
@@ -22350,7 +21810,7 @@
     },
     {
       "id": 559563,
-      "datum": "za 30 januari 01:00",
+      "datum": "za 30 januari 20:45",
       "thuis": "Angers SCO",
       "thuisLogo": "https://crests.football-data.org/532.png",
       "uit": "Le Havre AC",
@@ -22528,7 +21988,7 @@
     },
     {
       "id": 559610,
-      "datum": "za 5 december 01:00",
+      "datum": "za 5 december 20:45",
       "thuis": "RC Strasbourg Alsace",
       "thuisLogo": "https://crests.football-data.org/576.png",
       "uit": "FC Lorient",
@@ -22536,7 +21996,7 @@
     },
     {
       "id": 559601,
-      "datum": "za 12 december 01:00",
+      "datum": "zo 13 december 15:00",
       "thuis": "FC Lorient",
       "thuisLogo": "https://crests.football-data.org/525.png",
       "uit": "Lille OSC",
@@ -22544,7 +22004,7 @@
     },
     {
       "id": 559592,
-      "datum": "za 2 januari 01:00",
+      "datum": "za 2 januari 21:00",
       "thuis": "FC Lorient",
       "thuisLogo": "https://crests.football-data.org/525.png",
       "uit": "AJ Auxerre",
@@ -22552,7 +22012,7 @@
     },
     {
       "id": 559577,
-      "datum": "za 16 januari 01:00",
+      "datum": "zo 17 januari 20:45",
       "thuis": "Olympique Lyonnais",
       "thuisLogo": "https://crests.football-data.org/523.png",
       "uit": "FC Lorient",
@@ -22560,7 +22020,7 @@
     },
     {
       "id": 559573,
-      "datum": "za 23 januari 01:00",
+      "datum": "zo 24 januari 17:15",
       "thuis": "FC Lorient",
       "thuisLogo": "https://crests.football-data.org/525.png",
       "uit": "Olympique de Marseille",
@@ -22568,7 +22028,7 @@
     },
     {
       "id": 559560,
-      "datum": "za 30 januari 01:00",
+      "datum": "zo 31 januari 15:00",
       "thuis": "Stade Rennais FC 1901",
       "thuisLogo": "https://crests.football-data.org/529.png",
       "uit": "FC Lorient",
@@ -22703,6 +22163,442 @@
       "uitLogo": "https://crests.football-data.org/525.png"
     }
   ],
+  "511": [
+    {
+      "id": 559655,
+      "datum": "zo 25 oktober 17:15",
+      "thuis": "Toulouse FC",
+      "thuisLogo": "https://crests.football-data.org/511.png",
+      "uit": "ES Troyes AC",
+      "uitLogo": "https://crests.football-data.org/531.png"
+    },
+    {
+      "id": 559645,
+      "datum": "zo 1 november 20:45",
+      "thuis": "Olympique de Marseille",
+      "thuisLogo": "https://crests.football-data.org/516.png",
+      "uit": "Toulouse FC",
+      "uitLogo": "https://crests.football-data.org/511.png"
+    },
+    {
+      "id": 559638,
+      "datum": "vr 6 november 20:45",
+      "thuis": "Toulouse FC",
+      "thuisLogo": "https://crests.football-data.org/511.png",
+      "uit": "RC Strasbourg Alsace",
+      "uitLogo": "https://crests.football-data.org/576.png"
+    },
+    {
+      "id": 559623,
+      "datum": "za 21 november 20:45",
+      "thuis": "Racing Club de Lens",
+      "thuisLogo": "https://crests.football-data.org/546.png",
+      "uit": "Toulouse FC",
+      "uitLogo": "https://crests.football-data.org/511.png"
+    },
+    {
+      "id": 559618,
+      "datum": "zo 29 november 17:15",
+      "thuis": "Toulouse FC",
+      "thuisLogo": "https://crests.football-data.org/511.png",
+      "uit": "Stade Rennais FC 1901",
+      "uitLogo": "https://crests.football-data.org/529.png"
+    },
+    {
+      "id": 559609,
+      "datum": "vr 4 december 20:45",
+      "thuis": "Toulouse FC",
+      "thuisLogo": "https://crests.football-data.org/511.png",
+      "uit": "Paris Saint-Germain FC",
+      "uitLogo": "https://crests.football-data.org/524.png"
+    },
+    {
+      "id": 559602,
+      "datum": "vr 11 december 20:45",
+      "thuis": "AJ Auxerre",
+      "thuisLogo": "https://crests.football-data.org/519.png",
+      "uit": "Toulouse FC",
+      "uitLogo": "https://crests.football-data.org/511.png"
+    },
+    {
+      "id": 559589,
+      "datum": "za 2 januari 21:00",
+      "thuis": "Toulouse FC",
+      "thuisLogo": "https://crests.football-data.org/511.png",
+      "uit": "Angers SCO",
+      "uitLogo": "https://crests.football-data.org/532.png"
+    },
+    {
+      "id": 559578,
+      "datum": "zo 17 januari 15:00",
+      "thuis": "Paris FC",
+      "thuisLogo": "https://crests.football-data.org/1045.png",
+      "uit": "Toulouse FC",
+      "uitLogo": "https://crests.football-data.org/511.png"
+    },
+    {
+      "id": 559575,
+      "datum": "za 23 januari 20:45",
+      "thuis": "Toulouse FC",
+      "thuisLogo": "https://crests.football-data.org/511.png",
+      "uit": "OGC Nice",
+      "uitLogo": "https://crests.football-data.org/522.png"
+    },
+    {
+      "id": 559566,
+      "datum": "za 30 januari 20:45",
+      "thuis": "Toulouse FC",
+      "thuisLogo": "https://crests.football-data.org/511.png",
+      "uit": "Racing Club de Lens",
+      "uitLogo": "https://crests.football-data.org/546.png"
+    },
+    {
+      "id": 559552,
+      "datum": "za 6 februari 01:00",
+      "thuis": "Le Havre AC",
+      "thuisLogo": "https://crests.football-data.org/533.png",
+      "uit": "Toulouse FC",
+      "uitLogo": "https://crests.football-data.org/511.png"
+    },
+    {
+      "id": 559545,
+      "datum": "za 13 februari 01:00",
+      "thuis": "Toulouse FC",
+      "thuisLogo": "https://crests.football-data.org/511.png",
+      "uit": "AS Monaco FC",
+      "uitLogo": "https://crests.football-data.org/548.png"
+    },
+    {
+      "id": 559532,
+      "datum": "za 20 februari 01:00",
+      "thuis": "Stade Rennais FC 1901",
+      "thuisLogo": "https://crests.football-data.org/529.png",
+      "uit": "Toulouse FC",
+      "uitLogo": "https://crests.football-data.org/511.png"
+    },
+    {
+      "id": 559529,
+      "datum": "za 27 februari 01:00",
+      "thuis": "Olympique Lyonnais",
+      "thuisLogo": "https://crests.football-data.org/523.png",
+      "uit": "Toulouse FC",
+      "uitLogo": "https://crests.football-data.org/511.png"
+    },
+    {
+      "id": 559516,
+      "datum": "za 6 maart 01:00",
+      "thuis": "Toulouse FC",
+      "thuisLogo": "https://crests.football-data.org/511.png",
+      "uit": "Le Mans FC",
+      "uitLogo": "https://crests.football-data.org/535.png"
+    },
+    {
+      "id": 559504,
+      "datum": "za 13 maart 01:00",
+      "thuis": "OGC Nice",
+      "thuisLogo": "https://crests.football-data.org/522.png",
+      "uit": "Toulouse FC",
+      "uitLogo": "https://crests.football-data.org/511.png"
+    },
+    {
+      "id": 559497,
+      "datum": "za 20 maart 01:00",
+      "thuis": "Toulouse FC",
+      "thuisLogo": "https://crests.football-data.org/511.png",
+      "uit": "Stade Brestois 29",
+      "uitLogo": "https://crests.football-data.org/512.png"
+    },
+    {
+      "id": 559492,
+      "datum": "za 3 april 02:00",
+      "thuis": "RC Strasbourg Alsace",
+      "thuisLogo": "https://crests.football-data.org/576.png",
+      "uit": "Toulouse FC",
+      "uitLogo": "https://crests.football-data.org/511.png"
+    },
+    {
+      "id": 559484,
+      "datum": "za 10 april 02:00",
+      "thuis": "Lille OSC",
+      "thuisLogo": "https://crests.football-data.org/521.png",
+      "uit": "Toulouse FC",
+      "uitLogo": "https://crests.football-data.org/511.png"
+    },
+    {
+      "id": 559476,
+      "datum": "za 17 april 02:00",
+      "thuis": "Toulouse FC",
+      "thuisLogo": "https://crests.football-data.org/511.png",
+      "uit": "Paris FC",
+      "uitLogo": "https://crests.football-data.org/1045.png"
+    },
+    {
+      "id": 559463,
+      "datum": "za 24 april 02:00",
+      "thuis": "ES Troyes AC",
+      "thuisLogo": "https://crests.football-data.org/531.png",
+      "uit": "Toulouse FC",
+      "uitLogo": "https://crests.football-data.org/511.png"
+    },
+    {
+      "id": 559458,
+      "datum": "za 1 mei 02:00",
+      "thuis": "Toulouse FC",
+      "thuisLogo": "https://crests.football-data.org/511.png",
+      "uit": "Olympique de Marseille",
+      "uitLogo": "https://crests.football-data.org/516.png"
+    },
+    {
+      "id": 559448,
+      "datum": "za 8 mei 02:00",
+      "thuis": "Angers SCO",
+      "thuisLogo": "https://crests.football-data.org/532.png",
+      "uit": "Toulouse FC",
+      "uitLogo": "https://crests.football-data.org/511.png"
+    },
+    {
+      "id": 559435,
+      "datum": "zo 16 mei 02:00",
+      "thuis": "Toulouse FC",
+      "thuisLogo": "https://crests.football-data.org/511.png",
+      "uit": "FC Lorient",
+      "uitLogo": "https://crests.football-data.org/525.png"
+    },
+    {
+      "id": 559428,
+      "datum": "za 22 mei 02:00",
+      "thuis": "Toulouse FC",
+      "thuisLogo": "https://crests.football-data.org/511.png",
+      "uit": "AJ Auxerre",
+      "uitLogo": "https://crests.football-data.org/519.png"
+    },
+    {
+      "id": 559415,
+      "datum": "za 29 mei 02:00",
+      "thuis": "Paris Saint-Germain FC",
+      "thuisLogo": "https://crests.football-data.org/524.png",
+      "uit": "Toulouse FC",
+      "uitLogo": "https://crests.football-data.org/511.png"
+    }
+  ],
+  "531": [
+    {
+      "id": 559655,
+      "datum": "zo 25 oktober 17:15",
+      "thuis": "Toulouse FC",
+      "thuisLogo": "https://crests.football-data.org/511.png",
+      "uit": "ES Troyes AC",
+      "uitLogo": "https://crests.football-data.org/531.png"
+    },
+    {
+      "id": 559643,
+      "datum": "za 31 oktober 20:45",
+      "thuis": "ES Troyes AC",
+      "thuisLogo": "https://crests.football-data.org/531.png",
+      "uit": "Le Mans FC",
+      "uitLogo": "https://crests.football-data.org/535.png"
+    },
+    {
+      "id": 559635,
+      "datum": "za 7 november 20:45",
+      "thuis": "Paris Saint-Germain FC",
+      "thuisLogo": "https://crests.football-data.org/524.png",
+      "uit": "ES Troyes AC",
+      "uitLogo": "https://crests.football-data.org/531.png"
+    },
+    {
+      "id": 559622,
+      "datum": "vr 20 november 20:45",
+      "thuis": "ES Troyes AC",
+      "thuisLogo": "https://crests.football-data.org/531.png",
+      "uit": "Le Havre AC",
+      "uitLogo": "https://crests.football-data.org/533.png"
+    },
+    {
+      "id": 559620,
+      "datum": "za 28 november 20:45",
+      "thuis": "OGC Nice",
+      "thuisLogo": "https://crests.football-data.org/522.png",
+      "uit": "ES Troyes AC",
+      "uitLogo": "https://crests.football-data.org/531.png"
+    },
+    {
+      "id": 559603,
+      "datum": "zo 6 december 15:00",
+      "thuis": "ES Troyes AC",
+      "thuisLogo": "https://crests.football-data.org/531.png",
+      "uit": "Olympique Lyonnais",
+      "uitLogo": "https://crests.football-data.org/523.png"
+    },
+    {
+      "id": 559598,
+      "datum": "za 12 december 20:45",
+      "thuis": "Stade Brestois 29",
+      "thuisLogo": "https://crests.football-data.org/512.png",
+      "uit": "ES Troyes AC",
+      "uitLogo": "https://crests.football-data.org/531.png"
+    },
+    {
+      "id": 559588,
+      "datum": "za 2 januari 21:00",
+      "thuis": "ES Troyes AC",
+      "thuisLogo": "https://crests.football-data.org/531.png",
+      "uit": "Stade Rennais FC 1901",
+      "uitLogo": "https://crests.football-data.org/529.png"
+    },
+    {
+      "id": 559581,
+      "datum": "za 16 januari 20:45",
+      "thuis": "AJ Auxerre",
+      "thuisLogo": "https://crests.football-data.org/519.png",
+      "uit": "ES Troyes AC",
+      "uitLogo": "https://crests.football-data.org/531.png"
+    },
+    {
+      "id": 559572,
+      "datum": "vr 22 januari 20:45",
+      "thuis": "ES Troyes AC",
+      "thuisLogo": "https://crests.football-data.org/531.png",
+      "uit": "AS Monaco FC",
+      "uitLogo": "https://crests.football-data.org/548.png"
+    },
+    {
+      "id": 559562,
+      "datum": "zo 31 januari 17:15",
+      "thuis": "Olympique de Marseille",
+      "thuisLogo": "https://crests.football-data.org/516.png",
+      "uit": "ES Troyes AC",
+      "uitLogo": "https://crests.football-data.org/531.png"
+    },
+    {
+      "id": 559550,
+      "datum": "za 6 februari 01:00",
+      "thuis": "ES Troyes AC",
+      "thuisLogo": "https://crests.football-data.org/531.png",
+      "uit": "Lille OSC",
+      "uitLogo": "https://crests.football-data.org/521.png"
+    },
+    {
+      "id": 559541,
+      "datum": "za 13 februari 01:00",
+      "thuis": "Paris FC",
+      "thuisLogo": "https://crests.football-data.org/1045.png",
+      "uit": "ES Troyes AC",
+      "uitLogo": "https://crests.football-data.org/531.png"
+    },
+    {
+      "id": 559539,
+      "datum": "za 20 februari 01:00",
+      "thuis": "Racing Club de Lens",
+      "thuisLogo": "https://crests.football-data.org/546.png",
+      "uit": "ES Troyes AC",
+      "uitLogo": "https://crests.football-data.org/531.png"
+    },
+    {
+      "id": 559525,
+      "datum": "za 27 februari 01:00",
+      "thuis": "ES Troyes AC",
+      "thuisLogo": "https://crests.football-data.org/531.png",
+      "uit": "OGC Nice",
+      "uitLogo": "https://crests.football-data.org/522.png"
+    },
+    {
+      "id": 559517,
+      "datum": "za 6 maart 01:00",
+      "thuis": "ES Troyes AC",
+      "thuisLogo": "https://crests.football-data.org/531.png",
+      "uit": "FC Lorient",
+      "uitLogo": "https://crests.football-data.org/525.png"
+    },
+    {
+      "id": 559512,
+      "datum": "za 13 maart 01:00",
+      "thuis": "Olympique Lyonnais",
+      "thuisLogo": "https://crests.football-data.org/523.png",
+      "uit": "ES Troyes AC",
+      "uitLogo": "https://crests.football-data.org/531.png"
+    },
+    {
+      "id": 559498,
+      "datum": "za 20 maart 01:00",
+      "thuis": "ES Troyes AC",
+      "thuisLogo": "https://crests.football-data.org/531.png",
+      "uit": "AJ Auxerre",
+      "uitLogo": "https://crests.football-data.org/519.png"
+    },
+    {
+      "id": 559486,
+      "datum": "za 3 april 02:00",
+      "thuis": "Le Havre AC",
+      "thuisLogo": "https://crests.football-data.org/533.png",
+      "uit": "ES Troyes AC",
+      "uitLogo": "https://crests.football-data.org/531.png"
+    },
+    {
+      "id": 559480,
+      "datum": "za 10 april 02:00",
+      "thuis": "ES Troyes AC",
+      "thuisLogo": "https://crests.football-data.org/531.png",
+      "uit": "Angers SCO",
+      "uitLogo": "https://crests.football-data.org/532.png"
+    },
+    {
+      "id": 559473,
+      "datum": "za 17 april 02:00",
+      "thuis": "Stade Rennais FC 1901",
+      "thuisLogo": "https://crests.football-data.org/529.png",
+      "uit": "ES Troyes AC",
+      "uitLogo": "https://crests.football-data.org/531.png"
+    },
+    {
+      "id": 559463,
+      "datum": "za 24 april 02:00",
+      "thuis": "ES Troyes AC",
+      "thuisLogo": "https://crests.football-data.org/531.png",
+      "uit": "Toulouse FC",
+      "uitLogo": "https://crests.football-data.org/511.png"
+    },
+    {
+      "id": 559452,
+      "datum": "za 1 mei 02:00",
+      "thuis": "ES Troyes AC",
+      "thuisLogo": "https://crests.football-data.org/531.png",
+      "uit": "Stade Brestois 29",
+      "uitLogo": "https://crests.football-data.org/512.png"
+    },
+    {
+      "id": 559445,
+      "datum": "za 8 mei 02:00",
+      "thuis": "Le Mans FC",
+      "thuisLogo": "https://crests.football-data.org/535.png",
+      "uit": "ES Troyes AC",
+      "uitLogo": "https://crests.football-data.org/531.png"
+    },
+    {
+      "id": 559440,
+      "datum": "zo 16 mei 02:00",
+      "thuis": "RC Strasbourg Alsace",
+      "thuisLogo": "https://crests.football-data.org/576.png",
+      "uit": "ES Troyes AC",
+      "uitLogo": "https://crests.football-data.org/531.png"
+    },
+    {
+      "id": 559426,
+      "datum": "za 22 mei 02:00",
+      "thuis": "ES Troyes AC",
+      "thuisLogo": "https://crests.football-data.org/531.png",
+      "uit": "Paris Saint-Germain FC",
+      "uitLogo": "https://crests.football-data.org/524.png"
+    },
+    {
+      "id": 559414,
+      "datum": "za 29 mei 02:00",
+      "thuis": "AS Monaco FC",
+      "thuisLogo": "https://crests.football-data.org/548.png",
+      "uit": "ES Troyes AC",
+      "uitLogo": "https://crests.football-data.org/531.png"
+    }
+  ],
   "519": [
     {
       "id": 559656,
@@ -22746,7 +22642,7 @@
     },
     {
       "id": 559606,
-      "datum": "za 5 december 01:00",
+      "datum": "za 5 december 17:15",
       "thuis": "Lille OSC",
       "thuisLogo": "https://crests.football-data.org/521.png",
       "uit": "AJ Auxerre",
@@ -22754,7 +22650,7 @@
     },
     {
       "id": 559602,
-      "datum": "za 12 december 01:00",
+      "datum": "vr 11 december 20:45",
       "thuis": "AJ Auxerre",
       "thuisLogo": "https://crests.football-data.org/519.png",
       "uit": "Toulouse FC",
@@ -22762,7 +22658,7 @@
     },
     {
       "id": 559592,
-      "datum": "za 2 januari 01:00",
+      "datum": "za 2 januari 21:00",
       "thuis": "FC Lorient",
       "thuisLogo": "https://crests.football-data.org/525.png",
       "uit": "AJ Auxerre",
@@ -22770,7 +22666,7 @@
     },
     {
       "id": 559581,
-      "datum": "za 16 januari 01:00",
+      "datum": "za 16 januari 20:45",
       "thuis": "AJ Auxerre",
       "thuisLogo": "https://crests.football-data.org/519.png",
       "uit": "ES Troyes AC",
@@ -22778,7 +22674,7 @@
     },
     {
       "id": 559571,
-      "datum": "za 23 januari 01:00",
+      "datum": "za 23 januari 20:45",
       "thuis": "Paris Saint-Germain FC",
       "thuisLogo": "https://crests.football-data.org/524.png",
       "uit": "AJ Auxerre",
@@ -22786,7 +22682,7 @@
     },
     {
       "id": 559558,
-      "datum": "za 30 januari 01:00",
+      "datum": "za 30 januari 20:45",
       "thuis": "Paris FC",
       "thuisLogo": "https://crests.football-data.org/1045.png",
       "uit": "AJ Auxerre",
@@ -22964,7 +22860,7 @@
     },
     {
       "id": 559611,
-      "datum": "za 5 december 01:00",
+      "datum": "za 5 december 20:45",
       "thuis": "Paris FC",
       "thuisLogo": "https://crests.football-data.org/1045.png",
       "uit": "Le Mans FC",
@@ -22972,7 +22868,7 @@
     },
     {
       "id": 559599,
-      "datum": "za 12 december 01:00",
+      "datum": "za 12 december 20:45",
       "thuis": "Le Havre AC",
       "thuisLogo": "https://crests.football-data.org/533.png",
       "uit": "Le Mans FC",
@@ -22980,7 +22876,7 @@
     },
     {
       "id": 559586,
-      "datum": "za 2 januari 01:00",
+      "datum": "zo 3 januari 15:00",
       "thuis": "Le Mans FC",
       "thuisLogo": "https://crests.football-data.org/535.png",
       "uit": "Olympique Lyonnais",
@@ -22988,7 +22884,7 @@
     },
     {
       "id": 559582,
-      "datum": "za 16 januari 01:00",
+      "datum": "za 16 januari 20:45",
       "thuis": "RC Strasbourg Alsace",
       "thuisLogo": "https://crests.football-data.org/576.png",
       "uit": "Le Mans FC",
@@ -22996,7 +22892,7 @@
     },
     {
       "id": 559574,
-      "datum": "za 23 januari 01:00",
+      "datum": "za 23 januari 20:45",
       "thuis": "Le Mans FC",
       "thuisLogo": "https://crests.football-data.org/535.png",
       "uit": "Angers SCO",
@@ -23004,7 +22900,7 @@
     },
     {
       "id": 559561,
-      "datum": "za 30 januari 01:00",
+      "datum": "za 30 januari 20:45",
       "thuis": "Le Mans FC",
       "thuisLogo": "https://crests.football-data.org/535.png",
       "uit": "OGC Nice",
@@ -23182,7 +23078,7 @@
     },
     {
       "id": 559609,
-      "datum": "za 5 december 01:00",
+      "datum": "vr 4 december 20:45",
       "thuis": "Toulouse FC",
       "thuisLogo": "https://crests.football-data.org/511.png",
       "uit": "Paris Saint-Germain FC",
@@ -23190,7 +23086,7 @@
     },
     {
       "id": 559596,
-      "datum": "za 12 december 01:00",
+      "datum": "za 12 december 17:15",
       "thuis": "Paris Saint-Germain FC",
       "thuisLogo": "https://crests.football-data.org/524.png",
       "uit": "Paris FC",
@@ -23206,7 +23102,7 @@
     },
     {
       "id": 559584,
-      "datum": "za 16 januari 01:00",
+      "datum": "za 16 januari 17:15",
       "thuis": "Angers SCO",
       "thuisLogo": "https://crests.football-data.org/532.png",
       "uit": "Paris Saint-Germain FC",
@@ -23214,7 +23110,7 @@
     },
     {
       "id": 559571,
-      "datum": "za 23 januari 01:00",
+      "datum": "za 23 januari 20:45",
       "thuis": "Paris Saint-Germain FC",
       "thuisLogo": "https://crests.football-data.org/524.png",
       "uit": "AJ Auxerre",
@@ -23222,7 +23118,7 @@
     },
     {
       "id": 559565,
-      "datum": "za 30 januari 01:00",
+      "datum": "za 30 januari 17:15",
       "thuis": "AS Monaco FC",
       "thuisLogo": "https://crests.football-data.org/548.png",
       "uit": "Paris Saint-Germain FC",
@@ -23440,7 +23336,7 @@
     },
     {
       "id": 559603,
-      "datum": "za 5 december 01:00",
+      "datum": "zo 6 december 15:00",
       "thuis": "ES Troyes AC",
       "thuisLogo": "https://crests.football-data.org/531.png",
       "uit": "Olympique Lyonnais",
@@ -23456,7 +23352,7 @@
     },
     {
       "id": 559586,
-      "datum": "za 2 januari 01:00",
+      "datum": "zo 3 januari 15:00",
       "thuis": "Le Mans FC",
       "thuisLogo": "https://crests.football-data.org/535.png",
       "uit": "Olympique Lyonnais",
@@ -23464,7 +23360,7 @@
     },
     {
       "id": 559577,
-      "datum": "za 16 januari 01:00",
+      "datum": "zo 17 januari 20:45",
       "thuis": "Olympique Lyonnais",
       "thuisLogo": "https://crests.football-data.org/523.png",
       "uit": "FC Lorient",
@@ -23472,7 +23368,7 @@
     },
     {
       "id": 559568,
-      "datum": "za 23 januari 01:00",
+      "datum": "zo 24 januari 20:45",
       "thuis": "RC Strasbourg Alsace",
       "thuisLogo": "https://crests.football-data.org/576.png",
       "uit": "Olympique Lyonnais",
@@ -23480,7 +23376,7 @@
     },
     {
       "id": 559559,
-      "datum": "za 30 januari 01:00",
+      "datum": "zo 31 januari 20:45",
       "thuis": "Olympique Lyonnais",
       "thuisLogo": "https://crests.football-data.org/523.png",
       "uit": "Lille OSC",
@@ -26481,14 +26377,6 @@
       "thuisLogo": "https://crests.football-data.org/675.png",
       "uit": "FC Groningen",
       "uitLogo": "https://crests.football-data.org/677.png"
-    },
-    {
-      "id": 575376,
-      "datum": "wo 21 oktober 21:00",
-      "thuis": "Real Betis Balompié",
-      "thuisLogo": "https://crests.football-data.org/90.png",
-      "uit": "Feyenoord Rotterdam",
-      "uitLogo": "https://crests.football-data.org/675.png"
     },
     {
       "id": 575379,
@@ -30527,14 +30415,6 @@
       "thuisLogo": "https://crests.football-data.org/5530.png",
       "uit": "Sporting Clube de Portugal",
       "uitLogo": "https://crests.football-data.org/498.png"
-    },
-    {
-      "id": 575375,
-      "datum": "wo 21 oktober 21:00",
-      "thuis": "Sporting Clube de Portugal",
-      "thuisLogo": "https://crests.football-data.org/498.png",
-      "uit": "LASK Linz",
-      "uitLogo": "https://crests.football-data.org/2016.png"
     },
     {
       "id": 575377,
@@ -39135,65 +39015,7 @@
       "uitLogo": "https://crests.football-data.org/346.png"
     }
   ],
-  "610": [
-    {
-      "id": 575369,
-      "datum": "wo 21 oktober 18:45",
-      "thuis": "Lille OSC",
-      "thuisLogo": "https://crests.football-data.org/521.png",
-      "uit": "Galatasaray SK",
-      "uitLogo": "https://crests.football-data.org/610.png"
-    },
-    {
-      "id": 575378,
-      "datum": "di 3 november 18:45",
-      "thuis": "Galatasaray SK",
-      "thuisLogo": "https://crests.football-data.org/610.png",
-      "uit": "VfB Stuttgart",
-      "uitLogo": "https://crests.football-data.org/10.png"
-    },
-    {
-      "id": 575395,
-      "datum": "di 24 november 18:45",
-      "thuis": "Galatasaray SK",
-      "thuisLogo": "https://crests.football-data.org/610.png",
-      "uit": "Aston Villa FC",
-      "uitLogo": "https://crests.football-data.org/58.png"
-    },
-    {
-      "id": 575421,
-      "datum": "di 8 december 21:00",
-      "thuis": "PAE AEK",
-      "thuisLogo": "https://crests.football-data.org/1899.png",
-      "uit": "Galatasaray SK",
-      "uitLogo": "https://crests.football-data.org/610.png"
-    },
-    {
-      "id": 575318,
-      "datum": "di 19 januari 18:45",
-      "thuis": "Galatasaray SK",
-      "thuisLogo": "https://crests.football-data.org/610.png",
-      "uit": "Feyenoord Rotterdam",
-      "uitLogo": "https://crests.football-data.org/675.png"
-    },
-    {
-      "id": 575293,
-      "datum": "wo 27 januari 21:00",
-      "thuis": "Paris Saint-Germain FC",
-      "thuisLogo": "https://crests.football-data.org/524.png",
-      "uit": "Galatasaray SK",
-      "uitLogo": "https://crests.football-data.org/610.png"
-    }
-  ],
   "1887": [
-    {
-      "id": 575371,
-      "datum": "wo 21 oktober 21:00",
-      "thuis": "FC Internazionale Milano",
-      "thuisLogo": "https://crests.football-data.org/108.png",
-      "uit": "FK Shakhtar Donetsk",
-      "uitLogo": "https://crests.football-data.org/1887.png"
-    },
     {
       "id": 575377,
       "datum": "di 3 november 18:45",
@@ -39235,154 +39057,46 @@
       "uitLogo": "https://crests.football-data.org/86.png"
     }
   ],
-  "851": [
+  "610": [
     {
-      "id": 575373,
-      "datum": "wo 21 oktober 21:00",
-      "thuis": "Club Brugge KV",
-      "thuisLogo": "https://crests.football-data.org/851.png",
-      "uit": "Racing Club de Lens",
-      "uitLogo": "https://crests.football-data.org/546.png"
+      "id": 575378,
+      "datum": "di 3 november 18:45",
+      "thuis": "Galatasaray SK",
+      "thuisLogo": "https://crests.football-data.org/610.png",
+      "uit": "VfB Stuttgart",
+      "uitLogo": "https://crests.football-data.org/10.png"
     },
     {
-      "id": 575390,
-      "datum": "wo 4 november 21:00",
-      "thuis": "PSV",
-      "thuisLogo": "https://crests.football-data.org/674.png",
-      "uit": "Club Brugge KV",
-      "uitLogo": "https://crests.football-data.org/851.png"
+      "id": 575395,
+      "datum": "di 24 november 18:45",
+      "thuis": "Galatasaray SK",
+      "thuisLogo": "https://crests.football-data.org/610.png",
+      "uit": "Aston Villa FC",
+      "uitLogo": "https://crests.football-data.org/58.png"
     },
     {
-      "id": 575409,
-      "datum": "wo 25 november 21:00",
-      "thuis": "Club Brugge KV",
-      "thuisLogo": "https://crests.football-data.org/851.png",
-      "uit": "Liverpool FC",
-      "uitLogo": "https://crests.football-data.org/64.png"
-    },
-    {
-      "id": 575418,
+      "id": 575421,
       "datum": "di 8 december 21:00",
-      "thuis": "SSC Napoli",
-      "thuisLogo": "https://crests.football-data.org/113.png",
-      "uit": "Club Brugge KV",
-      "uitLogo": "https://crests.football-data.org/851.png"
+      "thuis": "PAE AEK",
+      "thuisLogo": "https://crests.football-data.org/1899.png",
+      "uit": "Galatasaray SK",
+      "uitLogo": "https://crests.football-data.org/610.png"
     },
     {
-      "id": 575302,
-      "datum": "di 19 januari 21:00",
-      "thuis": "VfB Stuttgart",
-      "thuisLogo": "https://crests.football-data.org/10.png",
-      "uit": "Club Brugge KV",
-      "uitLogo": "https://crests.football-data.org/851.png"
-    },
-    {
-      "id": 575301,
-      "datum": "wo 27 januari 21:00",
-      "thuis": "Club Brugge KV",
-      "thuisLogo": "https://crests.football-data.org/851.png",
-      "uit": "FK Bodø/Glimt",
-      "uitLogo": "https://crests.football-data.org/5721.png"
-    }
-  ],
-  "5720": [
-    {
-      "id": 575374,
-      "datum": "wo 21 oktober 21:00",
-      "thuis": "Aston Villa FC",
-      "thuisLogo": "https://crests.football-data.org/58.png",
-      "uit": "Viking FK",
-      "uitLogo": "https://crests.football-data.org/5720.png"
-    },
-    {
-      "id": 575394,
-      "datum": "wo 4 november 21:00",
-      "thuis": "Viking FK",
-      "thuisLogo": "https://crests.football-data.org/5720.png",
-      "uit": "Sabah FK",
-      "uitLogo": "https://crests.football-data.org/10233.png"
-    },
-    {
-      "id": 575407,
-      "datum": "wo 25 november 21:00",
-      "thuis": "Club Atlético de Madrid",
-      "thuisLogo": "https://crests.football-data.org/78.png",
-      "uit": "Viking FK",
-      "uitLogo": "https://crests.football-data.org/5720.png"
-    },
-    {
-      "id": 575414,
-      "datum": "di 8 december 18:45",
-      "thuis": "Viking FK",
-      "thuisLogo": "https://crests.football-data.org/5720.png",
+      "id": 575318,
+      "datum": "di 19 januari 18:45",
+      "thuis": "Galatasaray SK",
+      "thuisLogo": "https://crests.football-data.org/610.png",
       "uit": "Feyenoord Rotterdam",
       "uitLogo": "https://crests.football-data.org/675.png"
     },
     {
-      "id": 575312,
-      "datum": "wo 20 januari 21:00",
-      "thuis": "Viking FK",
-      "thuisLogo": "https://crests.football-data.org/5720.png",
-      "uit": "PSV",
-      "uitLogo": "https://crests.football-data.org/674.png"
-    },
-    {
-      "id": 575319,
+      "id": 575293,
       "datum": "wo 27 januari 21:00",
-      "thuis": "SSC Napoli",
-      "thuisLogo": "https://crests.football-data.org/113.png",
-      "uit": "Viking FK",
-      "uitLogo": "https://crests.football-data.org/5720.png"
-    }
-  ],
-  "2016": [
-    {
-      "id": 575375,
-      "datum": "wo 21 oktober 21:00",
-      "thuis": "Sporting Clube de Portugal",
-      "thuisLogo": "https://crests.football-data.org/498.png",
-      "uit": "LASK Linz",
-      "uitLogo": "https://crests.football-data.org/2016.png"
-    },
-    {
-      "id": 575385,
-      "datum": "di 3 november 21:00",
-      "thuis": "LASK Linz",
-      "thuisLogo": "https://crests.football-data.org/2016.png",
-      "uit": "ŠK Slovan Bratislava",
-      "uitLogo": "https://crests.football-data.org/7509.png"
-    },
-    {
-      "id": 575396,
-      "datum": "di 24 november 18:45",
-      "thuis": "FK Bodø/Glimt",
-      "thuisLogo": "https://crests.football-data.org/5721.png",
-      "uit": "LASK Linz",
-      "uitLogo": "https://crests.football-data.org/2016.png"
-    },
-    {
-      "id": 575317,
-      "datum": "wo 9 december 21:00",
-      "thuis": "LASK Linz",
-      "thuisLogo": "https://crests.football-data.org/2016.png",
-      "uit": "Fenerbahçe SK",
-      "uitLogo": "https://crests.football-data.org/613.png"
-    },
-    {
-      "id": 575282,
-      "datum": "di 19 januari 21:00",
-      "thuis": "Real Madrid CF",
-      "thuisLogo": "https://crests.football-data.org/86.png",
-      "uit": "LASK Linz",
-      "uitLogo": "https://crests.football-data.org/2016.png"
-    },
-    {
-      "id": 575309,
-      "datum": "wo 27 januari 21:00",
-      "thuis": "LASK Linz",
-      "thuisLogo": "https://crests.football-data.org/2016.png",
-      "uit": "FC Porto",
-      "uitLogo": "https://crests.football-data.org/503.png"
+      "thuis": "Paris Saint-Germain FC",
+      "thuisLogo": "https://crests.football-data.org/524.png",
+      "uit": "Galatasaray SK",
+      "uitLogo": "https://crests.football-data.org/610.png"
     }
   ],
   "5721": [
@@ -39425,6 +39139,48 @@
       "thuisLogo": "https://crests.football-data.org/851.png",
       "uit": "FK Bodø/Glimt",
       "uitLogo": "https://crests.football-data.org/5721.png"
+    }
+  ],
+  "2016": [
+    {
+      "id": 575385,
+      "datum": "di 3 november 21:00",
+      "thuis": "LASK Linz",
+      "thuisLogo": "https://crests.football-data.org/2016.png",
+      "uit": "ŠK Slovan Bratislava",
+      "uitLogo": "https://crests.football-data.org/7509.png"
+    },
+    {
+      "id": 575396,
+      "datum": "di 24 november 18:45",
+      "thuis": "FK Bodø/Glimt",
+      "thuisLogo": "https://crests.football-data.org/5721.png",
+      "uit": "LASK Linz",
+      "uitLogo": "https://crests.football-data.org/2016.png"
+    },
+    {
+      "id": 575317,
+      "datum": "wo 9 december 21:00",
+      "thuis": "LASK Linz",
+      "thuisLogo": "https://crests.football-data.org/2016.png",
+      "uit": "Fenerbahçe SK",
+      "uitLogo": "https://crests.football-data.org/613.png"
+    },
+    {
+      "id": 575282,
+      "datum": "di 19 januari 21:00",
+      "thuis": "Real Madrid CF",
+      "thuisLogo": "https://crests.football-data.org/86.png",
+      "uit": "LASK Linz",
+      "uitLogo": "https://crests.football-data.org/2016.png"
+    },
+    {
+      "id": 575309,
+      "datum": "wo 27 januari 21:00",
+      "thuis": "LASK Linz",
+      "thuisLogo": "https://crests.football-data.org/2016.png",
+      "uit": "FC Porto",
+      "uitLogo": "https://crests.football-data.org/503.png"
     }
   ],
   "7509": [
@@ -39593,6 +39349,90 @@
       "thuisLogo": "https://crests.football-data.org/930.png",
       "uit": "Aston Villa FC",
       "uitLogo": "https://crests.football-data.org/58.png"
+    }
+  ],
+  "851": [
+    {
+      "id": 575390,
+      "datum": "wo 4 november 21:00",
+      "thuis": "PSV",
+      "thuisLogo": "https://crests.football-data.org/674.png",
+      "uit": "Club Brugge KV",
+      "uitLogo": "https://crests.football-data.org/851.png"
+    },
+    {
+      "id": 575409,
+      "datum": "wo 25 november 21:00",
+      "thuis": "Club Brugge KV",
+      "thuisLogo": "https://crests.football-data.org/851.png",
+      "uit": "Liverpool FC",
+      "uitLogo": "https://crests.football-data.org/64.png"
+    },
+    {
+      "id": 575418,
+      "datum": "di 8 december 21:00",
+      "thuis": "SSC Napoli",
+      "thuisLogo": "https://crests.football-data.org/113.png",
+      "uit": "Club Brugge KV",
+      "uitLogo": "https://crests.football-data.org/851.png"
+    },
+    {
+      "id": 575302,
+      "datum": "di 19 januari 21:00",
+      "thuis": "VfB Stuttgart",
+      "thuisLogo": "https://crests.football-data.org/10.png",
+      "uit": "Club Brugge KV",
+      "uitLogo": "https://crests.football-data.org/851.png"
+    },
+    {
+      "id": 575301,
+      "datum": "wo 27 januari 21:00",
+      "thuis": "Club Brugge KV",
+      "thuisLogo": "https://crests.football-data.org/851.png",
+      "uit": "FK Bodø/Glimt",
+      "uitLogo": "https://crests.football-data.org/5721.png"
+    }
+  ],
+  "5720": [
+    {
+      "id": 575394,
+      "datum": "wo 4 november 21:00",
+      "thuis": "Viking FK",
+      "thuisLogo": "https://crests.football-data.org/5720.png",
+      "uit": "Sabah FK",
+      "uitLogo": "https://crests.football-data.org/10233.png"
+    },
+    {
+      "id": 575407,
+      "datum": "wo 25 november 21:00",
+      "thuis": "Club Atlético de Madrid",
+      "thuisLogo": "https://crests.football-data.org/78.png",
+      "uit": "Viking FK",
+      "uitLogo": "https://crests.football-data.org/5720.png"
+    },
+    {
+      "id": 575414,
+      "datum": "di 8 december 18:45",
+      "thuis": "Viking FK",
+      "thuisLogo": "https://crests.football-data.org/5720.png",
+      "uit": "Feyenoord Rotterdam",
+      "uitLogo": "https://crests.football-data.org/675.png"
+    },
+    {
+      "id": 575312,
+      "datum": "wo 20 januari 21:00",
+      "thuis": "Viking FK",
+      "thuisLogo": "https://crests.football-data.org/5720.png",
+      "uit": "PSV",
+      "uitLogo": "https://crests.football-data.org/674.png"
+    },
+    {
+      "id": 575319,
+      "datum": "wo 27 januari 21:00",
+      "thuis": "SSC Napoli",
+      "thuisLogo": "https://crests.football-data.org/113.png",
+      "uit": "Viking FK",
+      "uitLogo": "https://crests.football-data.org/5720.png"
     }
   ],
   "10233": [

@@ -394,16 +394,16 @@
     },
     {
       "positie": 11,
-      "club": "Athletic Club",
-      "logo": "https://crests.football-data.org/77.png",
-      "gespeeld": 7,
-      "punten": 9,
+      "club": "Levante UD",
+      "logo": "https://crests.football-data.org/88.png",
+      "gespeeld": 9,
+      "punten": 10,
       "gewonnen": 2,
-      "gelijk": 3,
-      "verloren": 2,
-      "doelsaldo": 1,
-      "voor": 7,
-      "tegen": 6
+      "gelijk": 4,
+      "verloren": 3,
+      "doelsaldo": -2,
+      "voor": 15,
+      "tegen": 17
     },
     {
       "positie": 12,
@@ -420,6 +420,19 @@
     },
     {
       "positie": 13,
+      "club": "Athletic Club",
+      "logo": "https://crests.football-data.org/77.png",
+      "gespeeld": 8,
+      "punten": 9,
+      "gewonnen": 2,
+      "gelijk": 3,
+      "verloren": 3,
+      "doelsaldo": -1,
+      "voor": 8,
+      "tegen": 9
+    },
+    {
+      "positie": 14,
       "club": "Rayo Vallecano de Madrid",
       "logo": "https://crests.football-data.org/87.png",
       "gespeeld": 8,
@@ -432,7 +445,7 @@
       "tegen": 17
     },
     {
-      "positie": 14,
+      "positie": 15,
       "club": "Getafe CF",
       "logo": "https://crests.football-data.org/82.png",
       "gespeeld": 9,
@@ -445,7 +458,7 @@
       "tegen": 11
     },
     {
-      "positie": 15,
+      "positie": 16,
       "club": "RCD Espanyol de Barcelona",
       "logo": "https://crests.football-data.org/80.png",
       "gespeeld": 9,
@@ -458,7 +471,7 @@
       "tegen": 12
     },
     {
-      "positie": 16,
+      "positie": 17,
       "club": "Real Racing Club de Santander",
       "logo": "https://crests.football-data.org/5335.png",
       "gespeeld": 9,
@@ -469,19 +482,6 @@
       "doelsaldo": -12,
       "voor": 13,
       "tegen": 25
-    },
-    {
-      "positie": 17,
-      "club": "Levante UD",
-      "logo": "https://crests.football-data.org/88.png",
-      "gespeeld": 8,
-      "punten": 7,
-      "gewonnen": 1,
-      "gelijk": 4,
-      "verloren": 3,
-      "doelsaldo": -4,
-      "voor": 12,
-      "tegen": 16
     },
     {
       "positie": 18,
