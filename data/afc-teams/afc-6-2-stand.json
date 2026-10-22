@@ -1,6 +1,19 @@
 [
   {
     "positie": 1,
+    "club": "Kadoelen sv. 3",
+    "logo": "",
+    "gespeeld": 4,
+    "gewonnen": 3,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 26,
+    "tegen": 9,
+    "doelsaldo": 17,
+    "punten": 9
+  },
+  {
+    "positie": 2,
     "club": "Meer De sv. 5",
     "logo": "",
     "gespeeld": 4,
@@ -13,7 +26,7 @@
     "punten": 9
   },
   {
-    "positie": 2,
+    "positie": 3,
     "club": "WV-HEDW 7",
     "logo": "",
     "gespeeld": 4,
@@ -26,7 +39,7 @@
     "punten": 9
   },
   {
-    "positie": 3,
+    "positie": 4,
     "club": "AFC 6",
     "logo": "images/afc.png",
     "gespeeld": 4,
@@ -37,19 +50,6 @@
     "tegen": 3,
     "doelsaldo": 6,
     "punten": 8
-  },
-  {
-    "positie": 4,
-    "club": "Kadoelen sv. 3",
-    "logo": "",
-    "gespeeld": 3,
-    "gewonnen": 2,
-    "gelijk": 0,
-    "verloren": 1,
-    "voor": 13,
-    "tegen": 7,
-    "doelsaldo": 6,
-    "punten": 6
   },
   {
     "positie": 5,
@@ -118,19 +118,6 @@
   },
   {
     "positie": 10,
-    "club": "Purmerland 3",
-    "logo": "",
-    "gespeeld": 3,
-    "gewonnen": 0,
-    "gelijk": 1,
-    "verloren": 2,
-    "voor": 3,
-    "tegen": 14,
-    "doelsaldo": -11,
-    "punten": 1
-  },
-  {
-    "positie": 11,
     "club": "Meer De sv. 7",
     "logo": "",
     "gespeeld": 4,
@@ -140,6 +127,19 @@
     "voor": 2,
     "tegen": 7,
     "doelsaldo": -5,
+    "punten": 1
+  },
+  {
+    "positie": 11,
+    "club": "Purmerland 3",
+    "logo": "",
+    "gespeeld": 4,
+    "gewonnen": 0,
+    "gelijk": 1,
+    "verloren": 3,
+    "voor": 5,
+    "tegen": 27,
+    "doelsaldo": -22,
     "punten": 1
   },
   {
