@@ -1,12 +1,5 @@
 [
   {
-    "datum": "za 24 oktober 14:45",
-    "thuis": "AFC 6",
-    "thuisLogo": "images/afc.png",
-    "uit": "Kadoelen sv. 3",
-    "uitLogo": ""
-  },
-  {
     "datum": "za 31 oktober 11:00",
     "thuis": "Jong Hercules 3",
     "thuisLogo": "",
@@ -18,6 +11,13 @@
     "thuis": "AFC 6",
     "thuisLogo": "images/afc.png",
     "uit": "Purmerland 3",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 14 november 17:30",
+    "thuis": "AFC 6",
+    "thuisLogo": "images/afc.png",
+    "uit": "Kadoelen sv. 3",
     "uitLogo": ""
   },
   {
