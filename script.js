@@ -2197,7 +2197,7 @@ function terugNaarKeuze() {
 // ── AI Boekenschrijver ───────────────────────────────────────
 // Zet hieronder de URL van je Cloudflare Worker (zie cloudflare-worker/README.md)
 // Zolang hier "" staat, laat de app een nette foutmelding zien.
-const BOEKEN_WORKER_URL = "";
+const BOEKEN_WORKER_URL = "https://olliebet-boek.olivierzonderwijk.workers.dev";
 const BOEKEN_GENRES = [
   { id: "leerzaam", emoji: "📚", naam: "Leerzaam boek",     leeftijd: "alle leeftijden", beschrijving: "Bijv. hoe wordt water gereinigd, hoe werkt een vulkaan, waarom slapen we?", kleur: "#22c55e" },
   { id: "avontuur", emoji: "🗺️", naam: "Avontuur",          leeftijd: "7 – 13 jaar",      beschrijving: "Spannende tochten, verborgen schatten en helden die alles durven.",         kleur: "#3b82f6" },
