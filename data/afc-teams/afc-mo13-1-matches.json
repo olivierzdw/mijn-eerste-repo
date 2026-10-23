@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "datum": "za 31 oktober 12:00",
+    "thuis": "OSV MO13-1",
+    "thuisLogo": "",
+    "uit": "AFC MO13-1",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 7 november 09:00",
+    "thuis": "IVV MO13-1",
+    "thuisLogo": "",
+    "uit": "AFC MO13-1",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 14 november 17:00",
+    "thuis": "AFC MO13-1",
+    "thuisLogo": "images/afc.png",
+    "uit": "IJmuiden vv. MO13-1",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 21 november 15:25",
+    "thuis": "SCPB'22 MO13-1",
+    "thuisLogo": "",
+    "uit": "AFC MO13-1",
+    "uitLogo": "images/afc.png"
+  }
+]
