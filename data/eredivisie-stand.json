@@ -92,6 +92,19 @@
   },
   {
     "positie": 8,
+    "club": "Go Ahead Eagles",
+    "logo": "https://crests.football-data.org/718.png",
+    "gespeeld": 10,
+    "punten": 14,
+    "gewonnen": 3,
+    "gelijk": 5,
+    "verloren": 2,
+    "doelsaldo": 0,
+    "voor": 23,
+    "tegen": 23
+  },
+  {
+    "positie": 9,
     "club": "Heerenveen",
     "logo": "https://crests.football-data.org/673.png",
     "gespeeld": 9,
@@ -102,19 +115,6 @@
     "doelsaldo": 4,
     "voor": 15,
     "tegen": 11
-  },
-  {
-    "positie": 9,
-    "club": "Go Ahead Eagles",
-    "logo": "https://crests.football-data.org/718.png",
-    "gespeeld": 9,
-    "punten": 11,
-    "gewonnen": 2,
-    "gelijk": 5,
-    "verloren": 2,
-    "doelsaldo": -1,
-    "voor": 20,
-    "tegen": 21
   },
   {
     "positie": 10,
@@ -198,14 +198,14 @@
     "positie": 16,
     "club": "Telstar 1963",
     "logo": "https://crests.football-data.org/1912.png",
-    "gespeeld": 9,
+    "gespeeld": 10,
     "punten": 6,
     "gewonnen": 1,
     "gelijk": 3,
-    "verloren": 5,
-    "doelsaldo": -8,
-    "voor": 10,
-    "tegen": 18
+    "verloren": 6,
+    "doelsaldo": -9,
+    "voor": 12,
+    "tegen": 21
   },
   {
     "positie": 17,
