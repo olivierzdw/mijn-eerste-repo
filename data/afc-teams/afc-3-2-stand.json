@@ -14,32 +14,19 @@
   },
   {
     "positie": 2,
-    "club": "DCG Rksv 2",
-    "logo": "",
-    "gespeeld": 4,
-    "gewonnen": 3,
+    "club": "AFC 3",
+    "logo": "images/afc.png",
+    "gespeeld": 5,
+    "gewonnen": 4,
     "gelijk": 0,
     "verloren": 1,
-    "voor": 21,
-    "tegen": 8,
-    "doelsaldo": 13,
-    "punten": 9
+    "voor": 20,
+    "tegen": 11,
+    "doelsaldo": 9,
+    "punten": 12
   },
   {
     "positie": 3,
-    "club": "AFC 3",
-    "logo": "images/afc.png",
-    "gespeeld": 4,
-    "gewonnen": 3,
-    "gelijk": 0,
-    "verloren": 1,
-    "voor": 17,
-    "tegen": 11,
-    "doelsaldo": 6,
-    "punten": 9
-  },
-  {
-    "positie": 4,
     "club": "ASV Arsenal 3",
     "logo": "",
     "gespeeld": 4,
@@ -52,20 +39,20 @@
     "punten": 9
   },
   {
-    "positie": 5,
-    "club": "Wartburgia asv 3",
+    "positie": 4,
+    "club": "DCG Rksv 2",
     "logo": "",
-    "gespeeld": 4,
+    "gespeeld": 5,
     "gewonnen": 3,
     "gelijk": 0,
-    "verloren": 1,
-    "voor": 16,
-    "tegen": 14,
-    "doelsaldo": 2,
+    "verloren": 2,
+    "voor": 21,
+    "tegen": 11,
+    "doelsaldo": 10,
     "punten": 9
   },
   {
-    "positie": 6,
+    "positie": 5,
     "club": "HBOK 2",
     "logo": "",
     "gespeeld": 5,
@@ -78,7 +65,33 @@
     "punten": 9
   },
   {
+    "positie": 6,
+    "club": "Wartburgia asv 3",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 3,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 16,
+    "tegen": 16,
+    "doelsaldo": 0,
+    "punten": 9
+  },
+  {
     "positie": 7,
+    "club": "Haarlem-Kennemerland f.c. 2",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 3,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 12,
+    "tegen": 13,
+    "doelsaldo": -1,
+    "punten": 9
+  },
+  {
+    "positie": 8,
     "club": "Swift 5",
     "logo": "",
     "gespeeld": 4,
@@ -88,19 +101,6 @@
     "voor": 13,
     "tegen": 11,
     "doelsaldo": 2,
-    "punten": 6
-  },
-  {
-    "positie": 8,
-    "club": "Haarlem-Kennemerland f.c. 2",
-    "logo": "",
-    "gespeeld": 4,
-    "gewonnen": 2,
-    "gelijk": 0,
-    "verloren": 2,
-    "voor": 10,
-    "tegen": 13,
-    "doelsaldo": -3,
     "punten": 6
   },
   {

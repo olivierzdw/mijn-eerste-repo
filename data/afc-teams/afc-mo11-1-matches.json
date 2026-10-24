@@ -1,12 +1,5 @@
 [
   {
-    "datum": "za 24 oktober 10:15",
-    "thuis": "AFC MO11-1",
-    "thuisLogo": "images/afc.png",
-    "uit": "SDW O11-3",
-    "uitLogo": ""
-  },
-  {
     "datum": "za 31 oktober 08:30",
     "thuis": "ASV Arsenal O11-4",
     "thuisLogo": "",
@@ -33,5 +26,12 @@
     "thuisLogo": "images/afc.png",
     "uit": "AFC MO11-1",
     "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 28 november 08:30",
+    "thuis": "AFC MO11-1",
+    "thuisLogo": "images/afc.png",
+    "uit": "RODA '23 Rksv O11-7",
+    "uitLogo": ""
   }
 ]

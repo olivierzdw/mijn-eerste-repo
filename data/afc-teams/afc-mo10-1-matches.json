@@ -1,6 +1,6 @@
 [
   {
-    "datum": "za 24 oktober 10:00",
+    "datum": "zo 24 oktober 10:00",
     "thuis": "KFC MO10-1",
     "thuisLogo": "",
     "uit": "AFC MO10-1",
@@ -33,5 +33,12 @@
     "thuisLogo": "images/afc.png",
     "uit": "OSV MO10-1",
     "uitLogo": ""
+  },
+  {
+    "datum": "za 28 november 08:30",
+    "thuis": "SDZ O10-7",
+    "thuisLogo": "",
+    "uit": "AFC MO10-1",
+    "uitLogo": "images/afc.png"
   }
 ]

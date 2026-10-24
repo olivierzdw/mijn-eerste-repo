@@ -92,6 +92,19 @@
   },
   {
     "positie": 8,
+    "club": "JOS Watergraafsmeer 4",
+    "logo": "",
+    "gespeeld": 4,
+    "gewonnen": 1,
+    "gelijk": 1,
+    "verloren": 2,
+    "voor": 7,
+    "tegen": 10,
+    "doelsaldo": -3,
+    "punten": 4
+  },
+  {
+    "positie": 9,
     "club": "Zeeburgia avv 2",
     "logo": "",
     "gespeeld": 4,
@@ -104,7 +117,20 @@
     "punten": 4
   },
   {
-    "positie": 9,
+    "positie": 10,
+    "club": "FC Amsterdam 5",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 1,
+    "gelijk": 1,
+    "verloren": 3,
+    "voor": 7,
+    "tegen": 12,
+    "doelsaldo": -5,
+    "punten": 4
+  },
+  {
+    "positie": 11,
     "club": "TOS-Actief 3",
     "logo": "",
     "gespeeld": 3,
@@ -117,20 +143,7 @@
     "punten": 3
   },
   {
-    "positie": 10,
-    "club": "JOS Watergraafsmeer 4",
-    "logo": "",
-    "gespeeld": 3,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 2,
-    "voor": 5,
-    "tegen": 8,
-    "doelsaldo": -3,
-    "punten": 3
-  },
-  {
-    "positie": 11,
+    "positie": 12,
     "club": "WV-HEDW 8",
     "logo": "",
     "gespeeld": 4,
@@ -140,19 +153,6 @@
     "voor": 4,
     "tegen": 8,
     "doelsaldo": -4,
-    "punten": 3
-  },
-  {
-    "positie": 12,
-    "club": "FC Amsterdam 5",
-    "logo": "",
-    "gespeeld": 4,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 3,
-    "voor": 5,
-    "tegen": 10,
-    "doelsaldo": -5,
     "punten": 3
   }
 ]

@@ -1,12 +1,5 @@
 [
   {
-    "datum": "za 24 oktober 10:30",
-    "thuis": "RODA '23 Rksv O12-5",
-    "thuisLogo": "",
-    "uit": "AFC MO12-1",
-    "uitLogo": "images/afc.png"
-  },
-  {
     "datum": "za 31 oktober 08:30",
     "thuis": "AFC MO12-1",
     "thuisLogo": "images/afc.png",
@@ -30,6 +23,13 @@
   {
     "datum": "za 21 november 08:30",
     "thuis": "VVA/Spartaan O12-3",
+    "thuisLogo": "",
+    "uit": "AFC MO12-1",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 28 november 09:30",
+    "thuis": "VVC fc O12-2JM",
     "thuisLogo": "",
     "uit": "AFC MO12-1",
     "uitLogo": "images/afc.png"
