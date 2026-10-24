@@ -29,14 +29,14 @@
     "positie": 3,
     "club": "ASV Arsenal 3",
     "logo": "",
-    "gespeeld": 4,
-    "gewonnen": 3,
+    "gespeeld": 5,
+    "gewonnen": 4,
     "gelijk": 0,
     "verloren": 1,
-    "voor": 10,
+    "voor": 13,
     "tegen": 5,
-    "doelsaldo": 5,
-    "punten": 9
+    "doelsaldo": 8,
+    "punten": 12
   },
   {
     "positie": 4,
@@ -133,13 +133,13 @@
     "positie": 11,
     "club": "Foresters 3",
     "logo": "",
-    "gespeeld": 4,
+    "gespeeld": 5,
     "gewonnen": 0,
     "gelijk": 1,
-    "verloren": 3,
+    "verloren": 4,
     "voor": 6,
-    "tegen": 13,
-    "doelsaldo": -7,
+    "tegen": 16,
+    "doelsaldo": -10,
     "punten": 1
   },
   {

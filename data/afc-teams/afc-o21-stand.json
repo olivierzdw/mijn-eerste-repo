@@ -42,27 +42,27 @@
     "positie": 4,
     "club": "FC Volendam O21",
     "logo": "",
-    "gespeeld": 7,
+    "gespeeld": 8,
     "gewonnen": 3,
-    "gelijk": 1,
+    "gelijk": 2,
     "verloren": 3,
-    "voor": 20,
-    "tegen": 21,
+    "voor": 23,
+    "tegen": 24,
     "doelsaldo": -1,
-    "punten": 10
+    "punten": 11
   },
   {
     "positie": 5,
     "club": "ADO Den Haag O21",
     "logo": "",
-    "gespeeld": 7,
+    "gespeeld": 8,
     "gewonnen": 2,
-    "gelijk": 3,
+    "gelijk": 4,
     "verloren": 2,
-    "voor": 20,
-    "tegen": 16,
+    "voor": 23,
+    "tegen": 19,
     "doelsaldo": 4,
-    "punten": 9
+    "punten": 10
   },
   {
     "positie": 6,

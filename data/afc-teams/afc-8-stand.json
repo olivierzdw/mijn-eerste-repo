@@ -3,13 +3,13 @@
     "positie": 1,
     "club": "OSV 2",
     "logo": "",
-    "gespeeld": 4,
+    "gespeeld": 5,
     "gewonnen": 3,
     "gelijk": 1,
-    "verloren": 0,
-    "voor": 9,
-    "tegen": 4,
-    "doelsaldo": 5,
+    "verloren": 1,
+    "voor": 11,
+    "tegen": 8,
+    "doelsaldo": 3,
     "punten": 10
   },
   {
@@ -53,19 +53,32 @@
   },
   {
     "positie": 5,
-    "club": "AGB 2",
+    "club": "Kadoelen sv. 4",
     "logo": "",
     "gespeeld": 3,
-    "gewonnen": 1,
-    "gelijk": 2,
-    "verloren": 0,
-    "voor": 9,
-    "tegen": 1,
-    "doelsaldo": 8,
-    "punten": 5
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 7,
+    "tegen": 3,
+    "doelsaldo": 4,
+    "punten": 6
   },
   {
     "positie": 6,
+    "club": "AGB 2",
+    "logo": "",
+    "gespeeld": 4,
+    "gewonnen": 1,
+    "gelijk": 2,
+    "verloren": 1,
+    "voor": 10,
+    "tegen": 4,
+    "doelsaldo": 6,
+    "punten": 5
+  },
+  {
+    "positie": 7,
     "club": "Wartburgia asv 7",
     "logo": "",
     "gespeeld": 4,
@@ -78,7 +91,7 @@
     "punten": 5
   },
   {
-    "positie": 7,
+    "positie": 8,
     "club": "AFC 8",
     "logo": "images/afc.png",
     "gespeeld": 3,
@@ -91,20 +104,20 @@
     "punten": 4
   },
   {
-    "positie": 8,
-    "club": "Kadoelen sv. 4",
+    "positie": 9,
+    "club": "DVVA csv. 7",
     "logo": "",
-    "gespeeld": 2,
+    "gespeeld": 4,
     "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 1,
-    "voor": 4,
-    "tegen": 2,
-    "doelsaldo": 2,
-    "punten": 3
+    "gelijk": 1,
+    "verloren": 2,
+    "voor": 9,
+    "tegen": 10,
+    "doelsaldo": -1,
+    "punten": 4
   },
   {
-    "positie": 9,
+    "positie": 10,
     "club": "Vlug en Vaardig cvv. 2",
     "logo": "",
     "gespeeld": 4,
@@ -115,19 +128,6 @@
     "tegen": 16,
     "doelsaldo": -12,
     "punten": 3
-  },
-  {
-    "positie": 10,
-    "club": "DVVA csv. 7",
-    "logo": "",
-    "gespeeld": 3,
-    "gewonnen": 0,
-    "gelijk": 1,
-    "verloren": 2,
-    "voor": 5,
-    "tegen": 8,
-    "doelsaldo": -3,
-    "punten": 1
   },
   {
     "positie": 11,

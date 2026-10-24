@@ -14,6 +14,19 @@
   },
   {
     "positie": 2,
+    "club": "TABA afc 4",
+    "logo": "images/afc.png",
+    "gespeeld": 4,
+    "gewonnen": 3,
+    "gelijk": 1,
+    "verloren": 0,
+    "voor": 11,
+    "tegen": 3,
+    "doelsaldo": 8,
+    "punten": 10
+  },
+  {
+    "positie": 3,
     "club": "Buitenveldert sc. 5",
     "logo": "",
     "gespeeld": 4,
@@ -26,43 +39,30 @@
     "punten": 9
   },
   {
-    "positie": 3,
-    "club": "TABA afc 4",
-    "logo": "images/afc.png",
-    "gespeeld": 3,
-    "gewonnen": 2,
-    "gelijk": 1,
-    "verloren": 0,
-    "voor": 8,
-    "tegen": 3,
-    "doelsaldo": 5,
-    "punten": 7
-  },
-  {
     "positie": 4,
-    "club": "Zeeburgia avv 3",
-    "logo": "",
+    "club": "AFC 9",
+    "logo": "images/afc.png",
     "gespeeld": 4,
-    "gewonnen": 2,
-    "gelijk": 1,
+    "gewonnen": 3,
+    "gelijk": 0,
     "verloren": 1,
-    "voor": 9,
-    "tegen": 8,
-    "doelsaldo": 1,
-    "punten": 7
+    "voor": 10,
+    "tegen": 5,
+    "doelsaldo": 5,
+    "punten": 9
   },
   {
     "positie": 5,
-    "club": "AFC 9",
-    "logo": "images/afc.png",
-    "gespeeld": 3,
+    "club": "Zeeburgia avv 3",
+    "logo": "",
+    "gespeeld": 5,
     "gewonnen": 2,
-    "gelijk": 0,
-    "verloren": 1,
-    "voor": 7,
-    "tegen": 4,
-    "doelsaldo": 3,
-    "punten": 6
+    "gelijk": 1,
+    "verloren": 2,
+    "voor": 10,
+    "tegen": 11,
+    "doelsaldo": -1,
+    "punten": 7
   },
   {
     "positie": 6,
@@ -133,13 +133,13 @@
     "positie": 11,
     "club": "DVVA csv. 8",
     "logo": "",
-    "gespeeld": 4,
+    "gespeeld": 5,
     "gewonnen": 0,
     "gelijk": 1,
-    "verloren": 3,
+    "verloren": 4,
     "voor": 2,
-    "tegen": 12,
-    "doelsaldo": -10,
+    "tegen": 15,
+    "doelsaldo": -13,
     "punten": 1
   }
 ]
