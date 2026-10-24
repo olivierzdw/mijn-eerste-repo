@@ -66,6 +66,19 @@
   },
   {
     "positie": 6,
+    "club": "HBOK 2",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 3,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 11,
+    "tegen": 8,
+    "doelsaldo": 3,
+    "punten": 9
+  },
+  {
+    "positie": 7,
     "club": "Swift 5",
     "logo": "",
     "gespeeld": 4,
@@ -75,19 +88,6 @@
     "voor": 13,
     "tegen": 11,
     "doelsaldo": 2,
-    "punten": 6
-  },
-  {
-    "positie": 7,
-    "club": "HBOK 2",
-    "logo": "",
-    "gespeeld": 4,
-    "gewonnen": 2,
-    "gelijk": 0,
-    "verloren": 2,
-    "voor": 7,
-    "tegen": 7,
-    "doelsaldo": 0,
     "punten": 6
   },
   {
@@ -146,13 +146,13 @@
     "positie": 12,
     "club": "vv Zwanenburg 2",
     "logo": "",
-    "gespeeld": 4,
+    "gespeeld": 5,
     "gewonnen": 0,
     "gelijk": 0,
-    "verloren": 4,
-    "voor": 5,
-    "tegen": 27,
-    "doelsaldo": -22,
+    "verloren": 5,
+    "voor": 6,
+    "tegen": 31,
+    "doelsaldo": -25,
     "punten": 0
   }
 ]
