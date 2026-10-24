@@ -118,6 +118,19 @@
   },
   {
     "positie": 10,
+    "club": "SC Cambuur-Leeuwarden",
+    "logo": "https://crests.football-data.org/1909.png",
+    "gespeeld": 10,
+    "punten": 12,
+    "gewonnen": 3,
+    "gelijk": 3,
+    "verloren": 4,
+    "doelsaldo": -5,
+    "voor": 16,
+    "tegen": 21
+  },
+  {
+    "positie": 11,
     "club": "FC Utrecht",
     "logo": "https://crests.football-data.org/676.png",
     "gespeeld": 10,
@@ -126,11 +139,11 @@
     "gelijk": 3,
     "verloren": 4,
     "doelsaldo": -10,
-    "voor": 16,
-    "tegen": 26
+    "voor": 17,
+    "tegen": 27
   },
   {
-    "positie": 11,
+    "positie": 12,
     "club": "SBV Excelsior",
     "logo": "https://crests.football-data.org/670.png",
     "gespeeld": 9,
@@ -143,7 +156,7 @@
     "tegen": 18
   },
   {
-    "positie": 12,
+    "positie": 13,
     "club": "NEC",
     "logo": "https://crests.football-data.org/1915.png",
     "gespeeld": 9,
@@ -156,7 +169,7 @@
     "tegen": 16
   },
   {
-    "positie": 13,
+    "positie": 14,
     "club": "Sparta",
     "logo": "https://crests.football-data.org/6806.png",
     "gespeeld": 9,
@@ -169,19 +182,6 @@
     "tegen": 22
   },
   {
-    "positie": 14,
-    "club": "SC Cambuur-Leeuwarden",
-    "logo": "https://crests.football-data.org/1909.png",
-    "gespeeld": 9,
-    "punten": 9,
-    "gewonnen": 2,
-    "gelijk": 3,
-    "verloren": 4,
-    "doelsaldo": -8,
-    "voor": 13,
-    "tegen": 21
-  },
-  {
     "positie": 15,
     "club": "PEC Zwolle",
     "logo": "https://crests.football-data.org/684.png",
@@ -191,8 +191,8 @@
     "gelijk": 2,
     "verloren": 6,
     "doelsaldo": -12,
-    "voor": 10,
-    "tegen": 22
+    "voor": 11,
+    "tegen": 23
   },
   {
     "positie": 16,
@@ -224,13 +224,13 @@
     "positie": 18,
     "club": "Willem II Tilburg",
     "logo": "https://crests.football-data.org/672.png",
-    "gespeeld": 9,
+    "gespeeld": 10,
     "punten": 2,
     "gewonnen": 0,
     "gelijk": 2,
-    "verloren": 7,
-    "doelsaldo": -17,
+    "verloren": 8,
+    "doelsaldo": -20,
     "voor": 9,
-    "tegen": 26
+    "tegen": 29
   }
 ]
