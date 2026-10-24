@@ -66,6 +66,19 @@
   },
   {
     "positie": 6,
+    "club": "Heerenveen",
+    "logo": "https://crests.football-data.org/673.png",
+    "gespeeld": 10,
+    "punten": 15,
+    "gewonnen": 4,
+    "gelijk": 3,
+    "verloren": 3,
+    "doelsaldo": 5,
+    "voor": 16,
+    "tegen": 11
+  },
+  {
+    "positie": 7,
     "club": "Fortuna Sittard",
     "logo": "https://crests.football-data.org/1920.png",
     "gespeeld": 9,
@@ -78,7 +91,7 @@
     "tegen": 17
   },
   {
-    "positie": 7,
+    "positie": 8,
     "club": "Groningen",
     "logo": "https://crests.football-data.org/677.png",
     "gespeeld": 9,
@@ -91,7 +104,7 @@
     "tegen": 19
   },
   {
-    "positie": 8,
+    "positie": 9,
     "club": "Go Ahead Eagles",
     "logo": "https://crests.football-data.org/718.png",
     "gespeeld": 10,
@@ -104,19 +117,6 @@
     "tegen": 23
   },
   {
-    "positie": 9,
-    "club": "Heerenveen",
-    "logo": "https://crests.football-data.org/673.png",
-    "gespeeld": 9,
-    "punten": 12,
-    "gewonnen": 3,
-    "gelijk": 3,
-    "verloren": 3,
-    "doelsaldo": 4,
-    "voor": 15,
-    "tegen": 11
-  },
-  {
     "positie": 10,
     "club": "SC Cambuur-Leeuwarden",
     "logo": "https://crests.football-data.org/1909.png",
@@ -125,9 +125,9 @@
     "gewonnen": 3,
     "gelijk": 3,
     "verloren": 4,
-    "doelsaldo": -5,
-    "voor": 16,
-    "tegen": 21
+    "doelsaldo": -3,
+    "voor": 19,
+    "tegen": 22
   },
   {
     "positie": 11,
@@ -211,14 +211,14 @@
     "positie": 17,
     "club": "ADO Den Haag",
     "logo": "https://crests.football-data.org/680.png",
-    "gespeeld": 9,
+    "gespeeld": 10,
     "punten": 6,
     "gewonnen": 1,
     "gelijk": 3,
-    "verloren": 5,
-    "doelsaldo": -9,
+    "verloren": 6,
+    "doelsaldo": -10,
     "voor": 11,
-    "tegen": 20
+    "tegen": 21
   },
   {
     "positie": 18,
@@ -229,8 +229,8 @@
     "gewonnen": 0,
     "gelijk": 2,
     "verloren": 8,
-    "doelsaldo": -20,
-    "voor": 9,
-    "tegen": 29
+    "doelsaldo": -22,
+    "voor": 10,
+    "tegen": 32
   }
 ]
