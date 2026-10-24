@@ -14,6 +14,19 @@
   },
   {
     "positie": 2,
+    "club": "De Treffers",
+    "logo": "",
+    "gespeeld": 11,
+    "gewonnen": 6,
+    "gelijk": 4,
+    "verloren": 1,
+    "voor": 30,
+    "tegen": 14,
+    "doelsaldo": 16,
+    "punten": 22
+  },
+  {
+    "positie": 3,
     "club": "IJsselmeervogels",
     "logo": "",
     "gespeeld": 11,
@@ -24,19 +37,6 @@
     "tegen": 10,
     "doelsaldo": 6,
     "punten": 22
-  },
-  {
-    "positie": 3,
-    "club": "De Treffers",
-    "logo": "",
-    "gespeeld": 10,
-    "gewonnen": 6,
-    "gelijk": 3,
-    "verloren": 1,
-    "voor": 27,
-    "tegen": 11,
-    "doelsaldo": 16,
-    "punten": 21
   },
   {
     "positie": 4,
@@ -131,6 +131,19 @@
   },
   {
     "positie": 11,
+    "club": "Jong Sparta Rotterdam",
+    "logo": "",
+    "gespeeld": 11,
+    "gewonnen": 3,
+    "gelijk": 4,
+    "verloren": 4,
+    "voor": 28,
+    "tegen": 24,
+    "doelsaldo": 4,
+    "punten": 13
+  },
+  {
+    "positie": 12,
     "club": "Jong Almere City FC",
     "logo": "",
     "gespeeld": 11,
@@ -143,7 +156,7 @@
     "punten": 13
   },
   {
-    "positie": 12,
+    "positie": 13,
     "club": "AFC",
     "logo": "images/afc.png",
     "gespeeld": 11,
@@ -156,7 +169,7 @@
     "punten": 13
   },
   {
-    "positie": 13,
+    "positie": 14,
     "club": "Rijnsburgse Boys",
     "logo": "",
     "gespeeld": 11,
@@ -167,19 +180,6 @@
     "tegen": 27,
     "doelsaldo": -10,
     "punten": 13
-  },
-  {
-    "positie": 14,
-    "club": "Jong Sparta Rotterdam",
-    "logo": "",
-    "gespeeld": 10,
-    "gewonnen": 3,
-    "gelijk": 3,
-    "verloren": 4,
-    "voor": 25,
-    "tegen": 21,
-    "doelsaldo": 4,
-    "punten": 12
   },
   {
     "positie": 15,

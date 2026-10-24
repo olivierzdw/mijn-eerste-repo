@@ -3,27 +3,27 @@
     "positie": 1,
     "club": "GeuzenMiddenmeer 4",
     "logo": "",
-    "gespeeld": 4,
+    "gespeeld": 5,
     "gewonnen": 4,
-    "gelijk": 0,
+    "gelijk": 1,
     "verloren": 0,
-    "voor": 11,
-    "tegen": 3,
+    "voor": 12,
+    "tegen": 4,
     "doelsaldo": 8,
-    "punten": 12
+    "punten": 13
   },
   {
     "positie": 2,
     "club": "DVVA csv. 5",
     "logo": "",
-    "gespeeld": 4,
+    "gespeeld": 5,
     "gewonnen": 3,
-    "gelijk": 1,
+    "gelijk": 2,
     "verloren": 0,
-    "voor": 9,
-    "tegen": 4,
+    "voor": 10,
+    "tegen": 5,
     "doelsaldo": 5,
-    "punten": 10
+    "punten": 11
   },
   {
     "positie": 3,
