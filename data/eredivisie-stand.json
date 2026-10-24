@@ -118,6 +118,19 @@
   },
   {
     "positie": 10,
+    "club": "FC Utrecht",
+    "logo": "https://crests.football-data.org/676.png",
+    "gespeeld": 10,
+    "punten": 12,
+    "gewonnen": 3,
+    "gelijk": 3,
+    "verloren": 4,
+    "doelsaldo": -10,
+    "voor": 16,
+    "tegen": 26
+  },
+  {
+    "positie": 11,
     "club": "SBV Excelsior",
     "logo": "https://crests.football-data.org/670.png",
     "gespeeld": 9,
@@ -128,19 +141,6 @@
     "doelsaldo": -2,
     "voor": 16,
     "tegen": 18
-  },
-  {
-    "positie": 11,
-    "club": "FC Utrecht",
-    "logo": "https://crests.football-data.org/676.png",
-    "gespeeld": 9,
-    "punten": 11,
-    "gewonnen": 3,
-    "gelijk": 2,
-    "verloren": 4,
-    "doelsaldo": -10,
-    "voor": 16,
-    "tegen": 26
   },
   {
     "positie": 12,
@@ -185,10 +185,10 @@
     "positie": 15,
     "club": "PEC Zwolle",
     "logo": "https://crests.football-data.org/684.png",
-    "gespeeld": 9,
-    "punten": 7,
+    "gespeeld": 10,
+    "punten": 8,
     "gewonnen": 2,
-    "gelijk": 1,
+    "gelijk": 2,
     "verloren": 6,
     "doelsaldo": -12,
     "voor": 10,
