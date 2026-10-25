@@ -1,6 +1,19 @@
 [
   {
     "positie": 1,
+    "club": "Geinburgia sv. 35+1",
+    "logo": "",
+    "gespeeld": 4,
+    "gewonnen": 4,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 19,
+    "tegen": 7,
+    "doelsaldo": 12,
+    "punten": 12
+  },
+  {
+    "positie": 2,
     "club": "Meteoor De sv. 35+1",
     "logo": "",
     "gespeeld": 5,
@@ -13,7 +26,7 @@
     "punten": 11
   },
   {
-    "positie": 2,
+    "positie": 3,
     "club": "AFC Ajax 35+1",
     "logo": "images/afc.png",
     "gespeeld": 4,
@@ -24,19 +37,6 @@
     "tegen": 5,
     "doelsaldo": 24,
     "punten": 10
-  },
-  {
-    "positie": 3,
-    "club": "Geinburgia sv. 35+1",
-    "logo": "",
-    "gespeeld": 3,
-    "gewonnen": 3,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 15,
-    "tegen": 4,
-    "doelsaldo": 11,
-    "punten": 9
   },
   {
     "positie": 4,
@@ -107,13 +107,13 @@
     "positie": 9,
     "club": "AGB 35+1",
     "logo": "",
-    "gespeeld": 2,
+    "gespeeld": 3,
     "gewonnen": 0,
     "gelijk": 0,
-    "verloren": 2,
-    "voor": 1,
-    "tegen": 8,
-    "doelsaldo": -7,
+    "verloren": 3,
+    "voor": 4,
+    "tegen": 12,
+    "doelsaldo": -8,
     "punten": 0
   },
   {
