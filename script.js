@@ -2899,27 +2899,185 @@ function boekTekstNaarHtml(tekst, plaatjes) {
   return html;
 }
 
+// ── Boek-paginering ───────────────────────────────────────
+// Verdeelt de gegenereerde tekst in pagina's die je kan doorbladeren.
+function tekstNaarBlokken(tekst, plaatjes) {
+  const regels = (tekst || "").split(/\n/);
+  const blokken = [];
+  let parBuf = "";
+
+  const plaatjeImg = (n) => {
+    const idx = n - 1;
+    if (!Array.isArray(plaatjes) || !plaatjes[idx] || !plaatjes[idx].dataUrl) return "";
+    const alt = escapeHTML(plaatjes[idx].naam || `Plaatje ${n}`);
+    return `<figure class="boek-figuur"><img src="${plaatjes[idx].dataUrl}" alt="${alt}" /></figure>`;
+  };
+  const inline = (t) => escapeHTML(t)
+    .replace(/\*\*(.+?)\*\*/g, "<b>$1</b>")
+    .replace(/\*(.+?)\*/g, "<i>$1</i>");
+  const flushPar = () => {
+    const t = parBuf.trim();
+    if (t) blokken.push({ type: "p", html: `<p>${inline(t)}</p>`, lengte: t.length });
+    parBuf = "";
+  };
+
+  for (const regel of regels) {
+    const t = regel.trim();
+    if (!t) { flushPar(); continue; }
+    const soloPlaatje = t.match(/^\[PLAATJE\s*(\d+)\]$/i);
+    if (soloPlaatje) {
+      flushPar();
+      const img = plaatjeImg(parseInt(soloPlaatje[1], 10));
+      if (img) blokken.push({ type: "img", html: img, lengte: 500 });
+      continue;
+    }
+    const h1 = t.match(/^#\s+(.+)$/);
+    const h2 = t.match(/^##\s+(.+)$/);
+    const h3 = t.match(/^###\s+(.+)$/);
+    if (h1) { flushPar(); blokken.push({ type: "titel", html: `<h1 class="boek-kaft-titel">${escapeHTML(h1[1])}</h1>`, text: h1[1] }); continue; }
+    if (h2) { flushPar(); blokken.push({ type: "hoofdstuk", html: `<h2 class="boek-hoofdstuk-titel">${escapeHTML(h2[1])}</h2>`, text: h2[1] }); continue; }
+    if (h3) { flushPar(); blokken.push({ type: "sub", html: `<h3>${escapeHTML(h3[1])}</h3>`, lengte: 100 }); continue; }
+    parBuf += (parBuf ? " " : "") + t;
+  }
+  flushPar();
+  return blokken;
+}
+
+function blokkenNaarPaginas(blokken) {
+  const MAX = 850; // ongeveer wat op één boekpagina past
+  const paginas = [];
+  let huidigHtml = "";
+  let huidigLen = 0;
+  let huidigHoofdstuk = "";
+  const flush = (opts = {}) => {
+    if (huidigHtml.trim()) paginas.push({ html: huidigHtml, hoofdstuk: huidigHoofdstuk, ...opts });
+    huidigHtml = "";
+    huidigLen = 0;
+  };
+  for (const b of blokken) {
+    if (b.type === "titel") {
+      flush();
+      paginas.push({ html: `<div class="boek-kaft-inhoud">${b.html}</div>`, hoofdstuk: "", isKaft: true });
+      continue;
+    }
+    if (b.type === "hoofdstuk") {
+      flush();
+      huidigHoofdstuk = b.text;
+      huidigHtml = b.html;
+      huidigLen = 100;
+      continue;
+    }
+    if (b.type === "img") {
+      // Plaatje: eigen pagina als er al wat op staat
+      if (huidigLen > 300) flush();
+      huidigHtml += b.html;
+      huidigLen += b.lengte;
+      // na een plaatje liever nieuwe pagina starten
+      if (huidigLen > 400) flush();
+      continue;
+    }
+    // p of sub
+    if (huidigLen + (b.lengte || 100) > MAX && huidigLen > 0) flush();
+    huidigHtml += b.html;
+    huidigLen += (b.lengte || 100);
+  }
+  flush();
+  return paginas.length ? paginas : [{ html: "<p><em>Leeg boek</em></p>", hoofdstuk: "" }];
+}
+
 function toonBoekResultaat(tekst) {
   const el = document.getElementById("boeken-genres");
   if (!el || !huidigBoek) return;
   const g = huidigBoek.genre;
+  huidigBoek.tekst = tekst;
+  huidigBoek.paginas = blokkenNaarPaginas(tekstNaarBlokken(tekst, huidigBoek.plaatjes));
+  huidigBoek.paginaIdx = 0;
+
   el.innerHTML = `
     <div class="boek-stap" style="--genre-kleur:${g.kleur}">
-      <button class="boek-stap-terug" onclick="toonBoekSamenvatting()">← Terug naar samenvatting</button>
+      <button class="boek-stap-terug" onclick="verlaatBoekViewer(); toonBoekSamenvatting();">← Terug naar samenvatting</button>
       <div class="boek-stap-genre">
         <span class="boek-stap-emoji">${g.emoji}</span>
         <span class="boek-stap-naam">${escapeHTML(g.naam)}</span>
         <span class="boek-stap-leeftijd">${escapeHTML(g.leeftijd)}</span>
       </div>
-      <h2 class="boek-stap-vraag">Je boek 📖</h2>
-      <div class="boek-resultaat">${boekTekstNaarHtml(tekst, huidigBoek.plaatjes)}</div>
+
+      <div class="boek-viewer">
+        <button class="boek-blader-knop" id="boek-vorige" onclick="vorigePagina()" aria-label="Vorige pagina">‹</button>
+        <div class="boek-boek">
+          <div class="boek-pagina" id="boek-pagina">
+            <div class="boek-pagina-hoofd" id="boek-pagina-hoofd"></div>
+            <div class="boek-pagina-inhoud" id="boek-pagina-inhoud"></div>
+            <div class="boek-pagina-voet">
+              <span id="boek-pagina-teller"></span>
+            </div>
+          </div>
+        </div>
+        <button class="boek-blader-knop" id="boek-volgende" onclick="volgendePagina()" aria-label="Volgende pagina">›</button>
+      </div>
+
       <div class="boek-gen-balk">
-        <button class="boek-stap-terug" onclick="renderBoekenGenres()">Nieuw boek beginnen</button>
+        <button class="boek-stap-terug" onclick="verlaatBoekViewer(); renderBoekenGenres();">Nieuw boek beginnen</button>
         <button class="boek-stap-terug" onclick="downloadBoek()">⬇ Download .txt</button>
       </div>
     </div>
   `;
-  huidigBoek.tekst = tekst;
+
+  renderBoekPagina();
+  // Toetsenbord-navigatie (links/rechts)
+  document.removeEventListener("keydown", boekViewerToetsen);
+  document.addEventListener("keydown", boekViewerToetsen);
+}
+
+function renderBoekPagina() {
+  if (!huidigBoek || !huidigBoek.paginas) return;
+  const p = huidigBoek.paginas[huidigBoek.paginaIdx];
+  const totaal = huidigBoek.paginas.length;
+  const idx = huidigBoek.paginaIdx;
+
+  const pag = document.getElementById("boek-pagina");
+  const inhoud = document.getElementById("boek-pagina-inhoud");
+  const hoofd = document.getElementById("boek-pagina-hoofd");
+  const teller = document.getElementById("boek-pagina-teller");
+  const vorige = document.getElementById("boek-vorige");
+  const volgende = document.getElementById("boek-volgende");
+
+  if (!pag || !inhoud) return;
+  pag.classList.toggle("is-kaft", !!p.isKaft);
+  hoofd.textContent = (p.hoofdstuk && !p.isKaft) ? p.hoofdstuk : "";
+  inhoud.innerHTML = p.html;
+  teller.textContent = p.isKaft ? "" : `${idx} / ${totaal - 1}`;
+  if (vorige) vorige.disabled = (idx === 0);
+  if (volgende) volgende.disabled = (idx === totaal - 1);
+  // kort "page-turn"-effect
+  pag.classList.remove("flip");
+  void pag.offsetWidth; // force reflow
+  pag.classList.add("flip");
+}
+
+function volgendePagina() {
+  if (!huidigBoek?.paginas) return;
+  if (huidigBoek.paginaIdx < huidigBoek.paginas.length - 1) {
+    huidigBoek.paginaIdx++;
+    renderBoekPagina();
+  }
+}
+function vorigePagina() {
+  if (!huidigBoek?.paginas) return;
+  if (huidigBoek.paginaIdx > 0) {
+    huidigBoek.paginaIdx--;
+    renderBoekPagina();
+  }
+}
+
+function boekViewerToetsen(e) {
+  if (!document.getElementById("boek-pagina")) return;
+  if (e.key === "ArrowRight" || e.key === " ") { e.preventDefault(); volgendePagina(); }
+  if (e.key === "ArrowLeft")  { e.preventDefault(); vorigePagina(); }
+}
+
+function verlaatBoekViewer() {
+  document.removeEventListener("keydown", boekViewerToetsen);
 }
 
 function downloadBoek() {
