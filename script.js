@@ -2791,16 +2791,35 @@ async function genereerBoek() {
   }
 }
 
-function boekTekstNaarHtml(tekst) {
-  // Simpele Markdown → HTML
+function boekTekstNaarHtml(tekst, plaatjes) {
+  // Simpele Markdown → HTML, met [PLAATJE N]-markers vervangen door <img>
   if (!tekst) return "";
   const regels = tekst.split(/\n/);
   let html = "";
   let inPar = false;
   const closePar = () => { if (inPar) { html += "</p>"; inPar = false; } };
+
+  const plaatjeImg = (n) => {
+    const idx = n - 1;
+    if (!Array.isArray(plaatjes) || !plaatjes[idx] || !plaatjes[idx].dataUrl) return "";
+    const alt = escapeHTML(plaatjes[idx].naam || `Plaatje ${n}`);
+    return `<figure class="boek-figuur"><img src="${plaatjes[idx].dataUrl}" alt="${alt}" /></figure>`;
+  };
+
+  // Vervang [PLAATJE N] eerst als eigen "regel" — als 'ie alleen op een regel staat → als figuur boven/onder tekst
   for (const regel of regels) {
     const t = regel.trim();
     if (!t) { closePar(); continue; }
+
+    // Hele regel is een plaatje-marker
+    const soloPlaatje = t.match(/^\[PLAATJE\s*(\d+)\]$/i);
+    if (soloPlaatje) {
+      closePar();
+      const img = plaatjeImg(parseInt(soloPlaatje[1], 10));
+      if (img) html += img;
+      continue;
+    }
+
     const h1 = t.match(/^#\s+(.+)$/);
     const h2 = t.match(/^##\s+(.+)$/);
     const h3 = t.match(/^###\s+(.+)$/);
@@ -2809,10 +2828,19 @@ function boekTekstNaarHtml(tekst) {
     if (h3) { closePar(); html += `<h4>${escapeHTML(h3[1])}</h4>`; continue; }
     if (!inPar) { html += "<p>"; inPar = true; }
     else html += " ";
-    // Inline bold/italic
+    // Inline bold/italic + inline plaatje-markers in de tekst
     let line = escapeHTML(t)
       .replace(/\*\*(.+?)\*\*/g, "<b>$1</b>")
-      .replace(/\*(.+?)\*/g, "<i>$1</i>");
+      .replace(/\*(.+?)\*/g, "<i>$1</i>")
+      .replace(/\[PLAATJE\s*(\d+)\]/gi, (_, n) => {
+        const img = plaatjeImg(parseInt(n, 10));
+        if (!img) return "";
+        // sluit paragraaf, voeg figuur in, open nieuwe paragraaf
+        closePar();
+        return img + "<p>";
+      });
+    // Als de replace een closePar() deed moeten we 'inPar' resetten naar true
+    if (line.includes("<p>")) inPar = true;
     html += line;
   }
   closePar();
@@ -2832,7 +2860,7 @@ function toonBoekResultaat(tekst) {
         <span class="boek-stap-leeftijd">${escapeHTML(g.leeftijd)}</span>
       </div>
       <h2 class="boek-stap-vraag">Je boek 📖</h2>
-      <div class="boek-resultaat">${boekTekstNaarHtml(tekst)}</div>
+      <div class="boek-resultaat">${boekTekstNaarHtml(tekst, huidigBoek.plaatjes)}</div>
       <div class="boek-gen-balk">
         <button class="boek-stap-terug" onclick="renderBoekenGenres()">Nieuw boek beginnen</button>
         <button class="boek-stap-terug" onclick="downloadBoek()">⬇ Download .txt</button>

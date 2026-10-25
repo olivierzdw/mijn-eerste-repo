@@ -154,11 +154,32 @@ Schrijf het hele boek in één keer. Gebruik Markdown: # voor de titel, ## voor 
           data: match[2],
         },
       });
+      content.push({
+        type: "text",
+        text: `↑ Dit is PLAATJE ${plaatjesToegevoegd + 1}.`,
+      });
       plaatjesToegevoegd++;
     }
+    const markerLijst = Array.from({ length: plaatjesToegevoegd }, (_, i) => `[PLAATJE ${i + 1}]`).join(", ");
     content.push({
       type: "text",
-      text: `Hierboven zie je ${plaatjesToegevoegd} plaatje${plaatjesToegevoegd === 1 ? "" : "s"} ter inspiratie. Gebruik ze als visuele referentie voor hoe personages, plekken of dingen eruit zouden kunnen zien.\n\n${tekstPrompt}`,
+      text: `Hierboven zie je ${plaatjesToegevoegd} plaatje${plaatjesToegevoegd === 1 ? "" : "s"} genummerd van 1 tot ${plaatjesToegevoegd}.
+
+BELANGRIJK over de plaatjes:
+- Gebruik ze als visuele referentie: beschrijf personages, plekken of voorwerpen zoals ze op de plaatjes staan.
+- Verdeel de plaatjes over het hele boek: zet elke marker (${markerLijst}) op een plek waar hij logisch past bij wat er op dat moment in het verhaal gebeurt.
+- Zet de marker ALTIJD op een eigen regel (lege regel ervoor en erna), bijvoorbeeld:
+
+  Lotte opende de deur van de hut.
+
+  [PLAATJE 1]
+
+  Binnen was het donker en stoffig.
+
+- Gebruik ELKE plaatje-marker precies één keer. Niet herhalen, niet overslaan.
+- Verzin GEEN eigen markers of andere plaatjes dan deze ${plaatjesToegevoegd}.
+
+${tekstPrompt}`,
     });
   } else {
     content.push({ type: "text", text: tekstPrompt });

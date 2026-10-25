@@ -1192,6 +1192,18 @@ button:hover {
   font-size: 0.9rem;
   text-align: center;
 }
+
+/* Plaatjes in het gegenereerde boek */
+.boek-figuur {
+  margin: 1.25rem 0;
+  text-align: center;
+}
+.boek-figuur img {
+  max-width: 100%;
+  max-height: 420px;
+  border-radius: 10px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.35);
+}
 .boek-genre {
   display: flex;
   align-items: center;
