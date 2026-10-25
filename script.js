@@ -2186,6 +2186,7 @@ function kiesApp(app) {
   } else if (app === "boeken") {
     if (boeken) boeken.classList.remove("hidden");
     document.getElementById("voetbal-app").classList.add("hidden");
+    toonBoekSchermNaInloggen();
   }
 }
 
@@ -2204,6 +2205,157 @@ const BOEKEN_GENRES = [
   { id: "thriller", emoji: "🔪", naam: "Thriller",          leeftijd: "13 – 17 jaar",     beschrijving: "Mysteries, achtervolgingen en plotwendingen die je niet ziet aankomen.",   kleur: "#f59e0b" },
   { id: "roman",    emoji: "💔", naam: "Roman",             leeftijd: "18+",              beschrijving: "Verhalen over liefde, verlies en het echte leven.",                        kleur: "#ec4899" },
 ];
+
+// ── Boek-login (eenvoudige user accounts in Firebase) ─────────
+const BOEK_GEBRUIKER_KEY = "olliebet-boek-gebruiker";
+const BOEK_SALT = "olliebet-boek-2026-x7p"; // app-wide salt, niet geheim
+
+function boekNaamSleutel(naam) {
+  // Firebase key-safe: lowercase, alleen letters/cijfers/underscore
+  return (naam || "").toLowerCase().trim().replace(/[^a-z0-9]/g, "_").slice(0, 40);
+}
+
+async function hashWachtwoord(w) {
+  const bytes = new TextEncoder().encode(BOEK_SALT + "|" + w);
+  const hash = await crypto.subtle.digest("SHA-256", bytes);
+  return Array.from(new Uint8Array(hash)).map(b => b.toString(16).padStart(2, "0")).join("");
+}
+
+function huidigeBoekGebruiker() {
+  try {
+    const raw = localStorage.getItem(BOEK_GEBRUIKER_KEY);
+    if (!raw) return null;
+    return JSON.parse(raw);
+  } catch { return null; }
+}
+
+function slaBoekGebruikerOp(gebruiker) {
+  localStorage.setItem(BOEK_GEBRUIKER_KEY, JSON.stringify(gebruiker));
+}
+
+function toonBoekSchermNaInloggen() {
+  const auth  = document.getElementById("boeken-auth");
+  const genre = document.getElementById("boeken-genres");
+  const sub   = document.getElementById("boeken-sub");
+  const userBalk = document.getElementById("boeken-user");
+  const userNaam = document.getElementById("boeken-user-naam");
+  if (!auth || !genre) return;
+
+  const u = huidigeBoekGebruiker();
+  if (u && u.naam) {
+    auth.classList.add("hidden");
+    genre.classList.remove("hidden");
+    if (sub) sub.textContent = "Kies een genre om te beginnen";
+    if (userBalk) userBalk.classList.remove("hidden");
+    if (userNaam) userNaam.textContent = "Ingelogd als " + u.naam;
+    huidigBoek = null;
+    renderBoekenGenres();
+  } else {
+    auth.classList.remove("hidden");
+    genre.classList.add("hidden");
+    if (sub) sub.textContent = "Log in om boeken te maken";
+    if (userBalk) userBalk.classList.add("hidden");
+    toonBoekAuth("login");
+  }
+}
+
+function toonBoekAuth(modus) {
+  const el = document.getElementById("boeken-auth");
+  if (!el) return;
+  const fout = `<div class="boek-auth-fout hidden" id="boek-auth-fout"></div>`;
+  if (modus === "register") {
+    el.innerHTML = `
+      <div class="boek-auth-vak">
+        <h2 class="boek-auth-titel">Account aanmaken</h2>
+        <input type="text" id="boek-auth-naam" class="boek-auth-input" placeholder="Gebruikersnaam" autocomplete="username" maxlength="30" />
+        <input type="password" id="boek-auth-ww" class="boek-auth-input" placeholder="Wachtwoord (min. 4 tekens)" autocomplete="new-password" />
+        <input type="password" id="boek-auth-ww2" class="boek-auth-input" placeholder="Herhaal wachtwoord" autocomplete="new-password" />
+        <button class="boek-auth-knop" onclick="doeBoekRegister()">Account aanmaken</button>
+        ${fout}
+        <a class="boek-auth-wissel" onclick="toonBoekAuth('login')">of log in met bestaand account</a>
+      </div>`;
+  } else {
+    el.innerHTML = `
+      <div class="boek-auth-vak">
+        <input type="text" id="boek-auth-naam" class="boek-auth-input" placeholder="Gebruikersnaam" autocomplete="username" maxlength="30" />
+        <input type="password" id="boek-auth-ww" class="boek-auth-input" placeholder="Wachtwoord" autocomplete="current-password" />
+        <button class="boek-auth-knop" onclick="doeBoekLogin()">Inloggen</button>
+        ${fout}
+        <a class="boek-auth-wissel" onclick="toonBoekAuth('register')">of maak een account aan</a>
+      </div>`;
+  }
+  // Enter = submit
+  setTimeout(() => {
+    const inputs = el.querySelectorAll("input");
+    inputs.forEach(inp => {
+      inp.addEventListener("keydown", e => {
+        if (e.key === "Enter") {
+          e.preventDefault();
+          if (modus === "register") doeBoekRegister(); else doeBoekLogin();
+        }
+      });
+    });
+    const naam = document.getElementById("boek-auth-naam");
+    if (naam) naam.focus();
+  }, 20);
+}
+
+function boekAuthFout(tekst) {
+  const el = document.getElementById("boek-auth-fout");
+  if (!el) return;
+  el.textContent = tekst;
+  el.classList.remove("hidden");
+}
+
+async function doeBoekRegister() {
+  const naam = (document.getElementById("boek-auth-naam")?.value || "").trim();
+  const ww   = document.getElementById("boek-auth-ww")?.value || "";
+  const ww2  = document.getElementById("boek-auth-ww2")?.value || "";
+  if (naam.length < 2) return boekAuthFout("Vul een gebruikersnaam in (min. 2 tekens).");
+  if (ww.length < 4)   return boekAuthFout("Wachtwoord moet minimaal 4 tekens zijn.");
+  if (ww !== ww2)      return boekAuthFout("De wachtwoorden komen niet overeen.");
+  const sleutel = boekNaamSleutel(naam);
+  if (!sleutel) return boekAuthFout("Ongeldige gebruikersnaam — gebruik letters/cijfers.");
+
+  try {
+    const res = await fetch(`${FIREBASE_URL}/boek-gebruikers/${sleutel}.json`);
+    const bestaand = await res.json();
+    if (bestaand) return boekAuthFout("Deze gebruikersnaam bestaat al — kies een andere of log in.");
+    const hash = await hashWachtwoord(ww);
+    await fetch(`${FIREBASE_URL}/boek-gebruikers/${sleutel}.json`, {
+      method: "PUT",
+      body: JSON.stringify({ naam, hash, aangemaakt: Date.now() }),
+    });
+    slaBoekGebruikerOp({ naam, sleutel });
+    toonBoekSchermNaInloggen();
+  } catch (err) {
+    boekAuthFout("Er ging iets mis — probeer het nog eens.");
+  }
+}
+
+async function doeBoekLogin() {
+  const naam = (document.getElementById("boek-auth-naam")?.value || "").trim();
+  const ww   = document.getElementById("boek-auth-ww")?.value || "";
+  if (!naam || !ww) return boekAuthFout("Vul gebruikersnaam en wachtwoord in.");
+  const sleutel = boekNaamSleutel(naam);
+  try {
+    const res = await fetch(`${FIREBASE_URL}/boek-gebruikers/${sleutel}.json`);
+    const data = await res.json();
+    if (!data || !data.hash) return boekAuthFout("Gebruikersnaam of wachtwoord klopt niet.");
+    const hash = await hashWachtwoord(ww);
+    if (hash !== data.hash) return boekAuthFout("Gebruikersnaam of wachtwoord klopt niet.");
+    slaBoekGebruikerOp({ naam: data.naam || naam, sleutel });
+    toonBoekSchermNaInloggen();
+  } catch (err) {
+    boekAuthFout("Er ging iets mis — probeer het nog eens.");
+  }
+}
+
+function doeBoekUitloggen() {
+  localStorage.removeItem(BOEK_GEBRUIKER_KEY);
+  huidigBoek = null;
+  toonBoekSchermNaInloggen();
+}
 
 function renderBoekenGenres() {
   const el = document.getElementById("boeken-genres");

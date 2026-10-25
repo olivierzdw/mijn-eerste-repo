@@ -1103,6 +1103,95 @@ button:hover {
   gap: 14px;
   margin-top: 1rem;
 }
+
+/* ── Boek-login ───────────────────────────────────────────── */
+.boeken-user {
+  margin-top: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  font-size: 0.9rem;
+  color: #c9b8e6;
+}
+.boeken-uitlog {
+  background: transparent;
+  color: #c9b8e6;
+  border: 1px solid #4a3b6b;
+  border-radius: 8px;
+  padding: 4px 10px;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+.boeken-uitlog:hover { background: #2a1f45; color: #fff; }
+
+.boeken-auth {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+.boek-auth-vak {
+  width: 100%;
+  max-width: 360px;
+  background: #1a2440;
+  border: 2px solid #a855f7;
+  border-radius: 14px;
+  padding: 1.75rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.boek-auth-titel {
+  margin: 0 0 0.5rem 0;
+  color: #a855f7;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.boek-auth-input {
+  width: 100%;
+  padding: 0.75rem 0.9rem;
+  background: #0f172a;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+.boek-auth-input:focus {
+  outline: none;
+  border-color: #a855f7;
+}
+.boek-auth-knop {
+  margin-top: 0.4rem;
+  padding: 0.8rem 1rem;
+  background: #a855f7;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.boek-auth-knop:hover { background: #9333ea; }
+.boek-auth-wissel {
+  display: block;
+  text-align: center;
+  margin-top: 0.5rem;
+  color: #c9b8e6;
+  font-size: 0.9rem;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.boek-auth-wissel:hover { color: #fff; }
+.boek-auth-fout {
+  background: #4a1f2a;
+  color: #fecaca;
+  border: 1px solid #ef4444;
+  border-radius: 8px;
+  padding: 0.6rem 0.8rem;
+  font-size: 0.9rem;
+  text-align: center;
+}
 .boek-genre {
   display: flex;
   align-items: center;

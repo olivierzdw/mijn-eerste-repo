@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Olliebet</title>
-  <link rel="stylesheet" href="style.css?v=32" />
+  <link rel="stylesheet" href="style.css?v=33" />
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
   <meta http-equiv="Pragma" content="no-cache" />
   <meta http-equiv="Expires" content="0" />
@@ -151,13 +151,18 @@
     <button class="app-terug" onclick="terugNaarKeuze()">← Terug naar keuze</button>
     <header class="boeken-header">
       <h1>📖 AI Boekenschrijver</h1>
-      <p class="boeken-sub">Kies een genre om te beginnen</p>
+      <p class="boeken-sub" id="boeken-sub">Kies een genre om te beginnen</p>
+      <div class="boeken-user hidden" id="boeken-user">
+        <span class="boeken-user-naam" id="boeken-user-naam"></span>
+        <button class="boeken-uitlog" onclick="doeBoekUitloggen()">Uitloggen</button>
+      </div>
     </header>
     <main class="boeken-main">
-      <div class="boeken-genres" id="boeken-genres"></div>
+      <div class="boeken-auth" id="boeken-auth"></div>
+      <div class="boeken-genres hidden" id="boeken-genres"></div>
     </main>
   </div>
 
-  <script src="script.js?v=54"></script>
+  <script src="script.js?v=55"></script>
 </body>
 </html>
