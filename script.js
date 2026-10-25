@@ -2378,6 +2378,53 @@ function kiesBoekGenre(id) {
   const g = BOEKEN_GENRES.find(x => x.id === id);
   if (!g) return;
   huidigBoek = { genre: g };
+  toonBoekLeeftijd();
+}
+
+function suggestieLeeftijd(genreId) {
+  if (genreId === "avontuur") return 10;
+  if (genreId === "thriller") return 15;
+  if (genreId === "roman") return 25;
+  return 10; // leerzaam = alle leeftijden, standaard 10
+}
+
+function toonBoekLeeftijd() {
+  const el = document.getElementById("boeken-genres");
+  if (!el || !huidigBoek) return;
+  const g = huidigBoek.genre;
+  const opgeslagen = huidigBoek.leeftijd || suggestieLeeftijd(g.id);
+  el.innerHTML = `
+    <div class="boek-stap" style="--genre-kleur:${g.kleur}">
+      <button class="boek-stap-terug" onclick="renderBoekenGenres()">← Ander genre</button>
+      <div class="boek-stap-genre">
+        <span class="boek-stap-emoji">${g.emoji}</span>
+        <span class="boek-stap-naam">${escapeHTML(g.naam)}</span>
+        <span class="boek-stap-leeftijd">${escapeHTML(g.leeftijd)}</span>
+      </div>
+      <h2 class="boek-stap-vraag">Voor welke leeftijd is het boek?</h2>
+      <p class="boek-stap-hint">Vul de leeftijd in van degene voor wie het boek bedoeld is. Claude past daar het taalgebruik en de thema's op aan.</p>
+      <input type="number" id="boek-leeftijd" class="boek-aantal-input" min="3" max="99" value="${opgeslagen}" />
+      <p class="boek-stap-hint" style="margin-top:0.4rem; font-size:0.85rem; color:#9ca3af;">Het genre is bedoeld voor <b>${escapeHTML(g.leeftijd)}</b> — maar je mag ervan afwijken.</p>
+      <button class="boek-volgende" style="--genre-kleur:${g.kleur}" onclick="slaLeeftijdOp()">Volgende →</button>
+    </div>
+  `;
+  setTimeout(() => {
+    const inp = document.getElementById("boek-leeftijd");
+    if (inp) { inp.focus(); inp.select(); }
+  }, 50);
+}
+
+function slaLeeftijdOp() {
+  const inp = document.getElementById("boek-leeftijd");
+  if (!inp) return;
+  const n = parseInt(inp.value, 10);
+  if (!n || n < 3 || n > 99) {
+    inp.classList.add("fout");
+    inp.focus();
+    return;
+  }
+  inp.classList.remove("fout");
+  huidigBoek.leeftijd = n;
   toonBoekHoofdpersonen();
 }
 
@@ -2388,7 +2435,7 @@ function toonBoekHoofdpersonen() {
   const opgeslagen = huidigBoek.hoofdpersonen || "";
   el.innerHTML = `
     <div class="boek-stap">
-      <button class="boek-stap-terug" onclick="renderBoekenGenres()">← Ander genre</button>
+      <button class="boek-stap-terug" onclick="toonBoekLeeftijd()">← Terug</button>
       <div class="boek-stap-genre" style="--genre-kleur:${g.kleur}">
         <span class="boek-stap-emoji">${g.emoji}</span>
         <span class="boek-stap-naam">${escapeHTML(g.naam)}</span>
@@ -2690,6 +2737,10 @@ function toonBoekSamenvatting() {
       <p class="boek-stap-hint">Controleer je keuzes. Klopt alles? Druk dan op Genereer boek.</p>
       <div class="boek-sam">
         <div class="boek-sam-rij">
+          <div class="boek-sam-label">Leeftijd lezer</div>
+          <div class="boek-sam-waarde"><b>${huidigBoek.leeftijd || "?"}</b> jaar</div>
+        </div>
+        <div class="boek-sam-rij">
           <div class="boek-sam-label">Hoofdpersonen</div>
           <div class="boek-sam-waarde">${escapeHTML(huidigBoek.hoofdpersonen).replace(/\n/g, '<br/>')}</div>
         </div>
@@ -2770,6 +2821,7 @@ async function genereerBoek() {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         genre: huidigBoek.genre,
+        leeftijd: huidigBoek.leeftijd,
         hoofdpersonen: huidigBoek.hoofdpersonen,
         bijpersonen: huidigBoek.bijpersonen,
         onderwerp: huidigBoek.onderwerp,

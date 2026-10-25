@@ -42,7 +42,7 @@ export default {
       return jsonResp({ error: "Ongeldige JSON" }, 400, origin);
     }
 
-    const { genre, hoofdpersonen, bijpersonen, onderwerp, bladzijdes, plaatjes } = body;
+    const { genre, leeftijd, hoofdpersonen, bijpersonen, onderwerp, bladzijdes, plaatjes } = body;
     if (!genre || !hoofdpersonen || !onderwerp || !bladzijdes) {
       return jsonResp({ error: "Ontbrekende velden" }, 400, origin);
     }
@@ -50,8 +50,8 @@ export default {
       return jsonResp({ error: "Server mist ANTHROPIC_API_KEY" }, 500, origin);
     }
 
-    const systemPrompt = bouwSystemPrompt(genre);
-    const userContent = bouwUserContent({ genre, hoofdpersonen, bijpersonen, onderwerp, bladzijdes, plaatjes });
+    const systemPrompt = bouwSystemPrompt(genre, leeftijd);
+    const userContent = bouwUserContent({ genre, leeftijd, hoofdpersonen, bijpersonen, onderwerp, bladzijdes, plaatjes });
 
     // Claude Sonnet 4.5 ondersteunt max 8192 output tokens per response.
     // Grofweg ~350 tokens per bladzijde als ruwe schatting.
@@ -98,8 +98,17 @@ export default {
   },
 };
 
-function bouwSystemPrompt(genre) {
-  const basis = `Je bent een ervaren Nederlandse schrijver die boeken schrijft op maat. Je schrijft in natuurlijk, levendig Nederlands. Je gebruikt dialoog, beschrijvingen en een duidelijke verhaalstructuur met hoofdstukken. Gebruik Markdown-opmaak: # voor de boektitel, ## voor hoofdstuktitels.`;
+function bouwSystemPrompt(genre, leeftijd) {
+  const leeftijdNum = parseInt(leeftijd, 10);
+  const leeftijdRegel = (leeftijdNum && leeftijdNum >= 3 && leeftijdNum <= 99)
+    ? `\n\nBELANGRIJK — doelgroep: de lezer is ${leeftijdNum} jaar oud. Pas hier je taalgebruik, zinslengte, woordkeuze en thema's op aan:
+- 3-6 jaar: zeer korte zinnen, heel eenvoudige woorden, veel herhaling, geen enge of volwassen onderwerpen.
+- 7-9 jaar: korte zinnen, bekende woorden, duidelijke structuur, veel actie en humor, niets te eng.
+- 10-13 jaar: iets langere zinnen, grotere woordenschat, meer spanning en diepgang mogelijk.
+- 14-17 jaar: volwassener taalgebruik, complexere emoties, uitdagende thema's — maar nog steeds geschikt voor tieners.
+- 18+: volle literaire taal, alle thema's en nuance mogelijk.`
+    : "";
+  const basis = `Je bent een ervaren Nederlandse schrijver die boeken schrijft op maat. Je schrijft in natuurlijk, levendig Nederlands. Je gebruikt dialoog, beschrijvingen en een duidelijke verhaalstructuur met hoofdstukken. Gebruik Markdown-opmaak: # voor de boektitel, ## voor hoofdstuktitels.${leeftijdRegel}`;
   if (genre.id === "leerzaam") {
     return `${basis}
 
@@ -123,8 +132,12 @@ Je schrijft nu een LITERAIRE ROMAN voor volwassenen (18+). Diepgang, karakteront
   return basis;
 }
 
-function bouwUserContent({ genre, hoofdpersonen, bijpersonen, onderwerp, bladzijdes, plaatjes }) {
-  const tekstPrompt = `Schrijf een ${genre.naam.toLowerCase()}-boek voor ${genre.leeftijd}.
+function bouwUserContent({ genre, leeftijd, hoofdpersonen, bijpersonen, onderwerp, bladzijdes, plaatjes }) {
+  const leeftijdNum = parseInt(leeftijd, 10);
+  const leeftijdZin = (leeftijdNum && leeftijdNum >= 3 && leeftijdNum <= 99)
+    ? `voor een lezer van ${leeftijdNum} jaar oud`
+    : `voor ${genre.leeftijd}`;
+  const tekstPrompt = `Schrijf een ${genre.naam.toLowerCase()}-boek ${leeftijdZin}.
 
 HOOFDPERSONEN:
 ${hoofdpersonen}
