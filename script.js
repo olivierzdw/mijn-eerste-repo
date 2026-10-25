@@ -2718,13 +2718,26 @@ function markeerGratisGebruikt() {
   localStorage.setItem("boek-gratis-gebruikt", "ja");
 }
 
+// ── Prijsmodel ──────────────────────────────────────────────
+const BOEK_CENT_PER_BLZ = 5;            // 5 cent per bladzijde
+const BOEK_BETAAL_IBAN  = "";           // bijv. "NL91ABNA0417164300" — laat leeg tot ingesteld
+const BOEK_BETAAL_NAAM  = "";           // bijv. "O. Zonderwijk"
+
+function boekPrijsCent() {
+  return (huidigBoek?.bladzijdes || 0) * BOEK_CENT_PER_BLZ;
+}
+function formatEuro(cent) {
+  const euro = Math.floor(cent / 100);
+  const c = (cent % 100).toString().padStart(2, "0");
+  return `€${euro},${c}`;
+}
+
 function toonBoekSamenvatting() {
   const el = document.getElementById("boeken-genres");
   if (!el || !huidigBoek) return;
   const g = huidigBoek.genre;
   const aantalPlaatjes = (huidigBoek.plaatjes || []).length;
-  const gratisOp = heeftGratisGebruikt();
-  const knopLabel = gratisOp ? "✨ Genereer boek (betaald)" : "✨ Genereer boek (1 keer gratis)";
+  const prijs = formatEuro(boekPrijsCent());
   el.innerHTML = `
     <div class="boek-stap" style="--genre-kleur:${g.kleur}">
       <button class="boek-stap-terug" onclick="toonBoekLengte()">← Terug</button>
@@ -2734,7 +2747,7 @@ function toonBoekSamenvatting() {
         <span class="boek-stap-leeftijd">${escapeHTML(g.leeftijd)}</span>
       </div>
       <h2 class="boek-stap-vraag">Klaar om te schrijven?</h2>
-      <p class="boek-stap-hint">Controleer je keuzes. Klopt alles? Druk dan op Genereer boek.</p>
+      <p class="boek-stap-hint">Controleer je keuzes. Klopt alles? Kies dan hoe je wil betalen.</p>
       <div class="boek-sam">
         <div class="boek-sam-rij">
           <div class="boek-sam-label">Leeftijd lezer</div>
@@ -2760,11 +2773,143 @@ function toonBoekSamenvatting() {
           <div class="boek-sam-label">Bladzijdes</div>
           <div class="boek-sam-waarde"><b>${huidigBoek.bladzijdes}</b></div>
         </div>
+        <div class="boek-sam-rij boek-sam-prijs">
+          <div class="boek-sam-label">Prijs</div>
+          <div class="boek-sam-waarde"><b>${prijs}</b> <span class="boek-sam-rek">(${huidigBoek.bladzijdes} × €0,05)</span></div>
+        </div>
       </div>
-      <div class="boek-gen-balk">
-        ${gratisOp ? `<div class="boek-gratis-op">⚠️ Je gratis boek is al gebruikt. Volgende boeken kosten geld.</div>` : ''}
-        <button class="boek-genereer" style="--genre-kleur:${g.kleur}" onclick="genereerBoek()">${knopLabel}</button>
+      <div class="boek-gen-balk boek-gen-balk-split">
+        <button class="boek-cadeau-knop" onclick="toonCadeaucodeInvoer()">🎁 Cadeaucode</button>
+        <button class="boek-genereer" style="--genre-kleur:${g.kleur}" onclick="toonBetaalScherm()">💳 Betalen ${prijs}</button>
       </div>
+    </div>
+  `;
+}
+
+// ── Cadeaucodes ─────────────────────────────────────────────
+// Codes staan in Firebase onder /boek-cadeaucodes/<CODE>
+// Vorm: { gebruikt_door: null|"naam", gebruikt_op: null|timestamp, omschrijving: "..." }
+function toonCadeaucodeInvoer() {
+  const el = document.getElementById("boeken-genres");
+  if (!el || !huidigBoek) return;
+  const g = huidigBoek.genre;
+  el.innerHTML = `
+    <div class="boek-stap" style="--genre-kleur:${g.kleur}">
+      <button class="boek-stap-terug" onclick="toonBoekSamenvatting()">← Terug</button>
+      <div class="boek-stap-genre">
+        <span class="boek-stap-emoji">${g.emoji}</span>
+        <span class="boek-stap-naam">${escapeHTML(g.naam)}</span>
+      </div>
+      <h2 class="boek-stap-vraag">🎁 Cadeaucode invoeren</h2>
+      <p class="boek-stap-hint">Vul de code in van je cadeaubon. Als die geldig is wordt het boek gratis gegenereerd.</p>
+      <input id="boek-cadeaucode" class="boek-aantal-input" placeholder="Bijv. BOEK-ABC123" maxlength="40" autocomplete="off" style="text-transform:uppercase;" />
+      <div id="boek-cadeaucode-fout" class="boek-auth-fout hidden"></div>
+      <button class="boek-volgende" style="--genre-kleur:${g.kleur}" onclick="controleerCadeaucode()">Verzilveren →</button>
+    </div>
+  `;
+  setTimeout(() => {
+    const inp = document.getElementById("boek-cadeaucode");
+    if (inp) {
+      inp.focus();
+      inp.addEventListener("keydown", e => {
+        if (e.key === "Enter") { e.preventDefault(); controleerCadeaucode(); }
+      });
+    }
+  }, 50);
+}
+
+function cadeaucodeSleutel(code) {
+  return (code || "").toUpperCase().trim().replace(/[^A-Z0-9_-]/g, "");
+}
+
+async function controleerCadeaucode() {
+  const inp = document.getElementById("boek-cadeaucode");
+  const fout = document.getElementById("boek-cadeaucode-fout");
+  const sleutel = cadeaucodeSleutel(inp?.value || "");
+  const toonFout = (tekst) => { if (fout) { fout.textContent = tekst; fout.classList.remove("hidden"); } };
+  if (!sleutel) return toonFout("Vul een code in.");
+  try {
+    const res = await fetch(`${FIREBASE_URL}/boek-cadeaucodes/${sleutel}.json`);
+    const data = await res.json();
+    if (!data) return toonFout("Deze code bestaat niet.");
+    if (data.gebruikt_door) return toonFout(`Deze code is al verzilverd${data.gebruikt_door !== true ? ' door ' + data.gebruikt_door : ''}.`);
+    const u = huidigeBoekGebruiker();
+    await fetch(`${FIREBASE_URL}/boek-cadeaucodes/${sleutel}.json`, {
+      method: "PATCH",
+      body: JSON.stringify({
+        gebruikt_door: u?.naam || "onbekend",
+        gebruikt_op: Date.now(),
+        bladzijdes: huidigBoek.bladzijdes,
+      }),
+    });
+    genereerBoek();
+  } catch (err) {
+    toonFout("Er ging iets mis — probeer het nog eens.");
+  }
+}
+
+// ── Betaalscherm ────────────────────────────────────────────
+function bouwEpcPayload() {
+  // EPC-QR formaat (SEPA Credit Transfer)
+  const bedragEuro = (boekPrijsCent() / 100).toFixed(2);
+  return [
+    "BCD",
+    "002",
+    "1",
+    "SCT",
+    "",                                  // BIC (optioneel)
+    BOEK_BETAAL_NAAM,
+    BOEK_BETAAL_IBAN.replace(/\s/g, ""),
+    `EUR${bedragEuro}`,
+    "",
+    "",
+    `AI Boek (${huidigBoek.bladzijdes} blz)`,
+  ].join("\n");
+}
+
+function toonBetaalScherm() {
+  const el = document.getElementById("boeken-genres");
+  if (!el || !huidigBoek) return;
+  const g = huidigBoek.genre;
+  const prijs = formatEuro(boekPrijsCent());
+  const heeftIban = BOEK_BETAAL_IBAN && BOEK_BETAAL_NAAM;
+
+  let betaalHtml;
+  if (heeftIban) {
+    const qrUrl = `https://api.qrserver.com/v1/create-qr-code/?size=260x260&margin=10&data=${encodeURIComponent(bouwEpcPayload())}`;
+    betaalHtml = `
+      <div class="boek-betaal-vak">
+        <img src="${qrUrl}" alt="iDEAL / SEPA QR" class="boek-betaal-qr" />
+        <p class="boek-betaal-hint">Scan de QR met je bank-app of camera —<br/>bedrag en rekening worden automatisch ingevuld.</p>
+        <p class="boek-betaal-hint boek-betaal-handmatig">
+          Of maak zelf over:<br/>
+          <b>${escapeHTML(BOEK_BETAAL_IBAN)}</b><br/>
+          t.n.v. <b>${escapeHTML(BOEK_BETAAL_NAAM)}</b><br/>
+          Bedrag: <b>${prijs}</b>
+        </p>
+      </div>
+    `;
+  } else {
+    betaalHtml = `
+      <div class="boek-betaal-vak boek-betaal-tbd">
+        <p>⚠️ <b>Betaalgegevens zijn nog niet ingesteld.</b></p>
+        <p>Vraag Olivier om <code>BOEK_BETAAL_IBAN</code> en <code>BOEK_BETAAL_NAAM</code> in <code>script.js</code> in te vullen.</p>
+        <p style="margin-top:0.75rem;">Zolang je kan testen met "Ik heb betaald" hieronder — maar er wordt natuurlijk niets afgeschreven.</p>
+      </div>
+    `;
+  }
+
+  el.innerHTML = `
+    <div class="boek-stap" style="--genre-kleur:${g.kleur}">
+      <button class="boek-stap-terug" onclick="toonBoekSamenvatting()">← Terug</button>
+      <div class="boek-stap-genre">
+        <span class="boek-stap-emoji">${g.emoji}</span>
+        <span class="boek-stap-naam">${escapeHTML(g.naam)}</span>
+      </div>
+      <h2 class="boek-stap-vraag">💳 Betaal ${prijs}</h2>
+      <p class="boek-stap-hint">${huidigBoek.bladzijdes} bladzijdes × €0,05 = <b>${prijs}</b></p>
+      ${betaalHtml}
+      <button class="boek-genereer" style="--genre-kleur:${g.kleur}" onclick="genereerBoek()">✓ Ik heb betaald — Genereer boek</button>
     </div>
   `;
 }

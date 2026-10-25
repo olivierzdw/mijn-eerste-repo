@@ -1724,6 +1724,79 @@ button:hover {
   font-weight: 600;
 }
 
+/* Boek: twee knoppen naast elkaar (cadeaucode links, betalen rechts) */
+.boek-gen-balk-split {
+  justify-content: space-between;
+}
+.boek-cadeau-knop {
+  background: transparent;
+  color: #f3e4b6;
+  border: 2px solid #c9a876;
+  padding: 14px 22px;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.15s, transform 0.1s;
+}
+.boek-cadeau-knop:hover {
+  background: rgba(201, 168, 118, 0.15);
+  transform: translateY(-2px);
+}
+
+/* Boek: samenvatting-prijsregel iets dikker */
+.boek-sam-prijs {
+  border-top: 1px solid #334155;
+  padding-top: 10px;
+  margin-top: 6px;
+}
+.boek-sam-prijs .boek-sam-waarde b { font-size: 1.15rem; color: #fff; }
+.boek-sam-rek { color: #94a3b8; font-size: 0.85rem; margin-left: 4px; }
+
+/* Boek: betaalscherm */
+.boek-betaal-vak {
+  background: #fdf6e3;
+  color: #2d2214;
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: center;
+  margin: 1rem 0 1.25rem;
+}
+.boek-betaal-qr {
+  display: block;
+  margin: 0 auto 1rem;
+  width: 240px;
+  height: 240px;
+  background: #fff;
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+.boek-betaal-hint {
+  color: #4a3a20;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin: 0.6rem 0;
+}
+.boek-betaal-handmatig {
+  margin-top: 1rem;
+  padding-top: 0.9rem;
+  border-top: 1px dashed #c9a876;
+  font-size: 0.9rem;
+}
+.boek-betaal-tbd {
+  background: #4a3a1a;
+  color: #fde68a;
+  text-align: left;
+}
+.boek-betaal-tbd code {
+  background: rgba(0,0,0,0.3);
+  color: #fde68a;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.88rem;
+}
+
 /* Boek: laadanimatie */
 .boek-laad {
   display: flex;
