@@ -27,6 +27,19 @@
   },
   {
     "positie": 3,
+    "club": "AZ",
+    "logo": "https://crests.football-data.org/682.png",
+    "gespeeld": 10,
+    "punten": 21,
+    "gewonnen": 6,
+    "gelijk": 3,
+    "verloren": 1,
+    "doelsaldo": 10,
+    "voor": 20,
+    "tegen": 10
+  },
+  {
+    "positie": 4,
     "club": "PSV",
     "logo": "https://crests.football-data.org/674.png",
     "gespeeld": 10,
@@ -39,20 +52,20 @@
     "tegen": 13
   },
   {
-    "positie": 4,
-    "club": "AZ",
-    "logo": "https://crests.football-data.org/682.png",
-    "gespeeld": 9,
-    "punten": 20,
-    "gewonnen": 6,
-    "gelijk": 2,
-    "verloren": 1,
-    "doelsaldo": 10,
-    "voor": 20,
+    "positie": 5,
+    "club": "FC Twente '65",
+    "logo": "https://crests.football-data.org/666.png",
+    "gespeeld": 10,
+    "punten": 18,
+    "gewonnen": 5,
+    "gelijk": 3,
+    "verloren": 2,
+    "doelsaldo": 7,
+    "voor": 17,
     "tegen": 10
   },
   {
-    "positie": 5,
+    "positie": 6,
     "club": "Fortuna Sittard",
     "logo": "https://crests.football-data.org/1920.png",
     "gespeeld": 10,
@@ -63,19 +76,6 @@
     "doelsaldo": 0,
     "voor": 17,
     "tegen": 17
-  },
-  {
-    "positie": 6,
-    "club": "FC Twente '65",
-    "logo": "https://crests.football-data.org/666.png",
-    "gespeeld": 9,
-    "punten": 17,
-    "gewonnen": 5,
-    "gelijk": 2,
-    "verloren": 2,
-    "doelsaldo": 7,
-    "voor": 17,
-    "tegen": 10
   },
   {
     "positie": 7,
