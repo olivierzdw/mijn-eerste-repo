@@ -1,12 +1,5 @@
 [
   {
-    "datum": "zo 1 november 15:00",
-    "thuis": "TOS-Actief 3",
-    "thuisLogo": "",
-    "uit": "AFC 3",
-    "uitLogo": "images/afc.png"
-  },
-  {
     "datum": "zo 8 november 13:30",
     "thuis": "AFC 3",
     "thuisLogo": "images/afc.png",
@@ -21,7 +14,7 @@
     "uitLogo": "images/afc.png"
   },
   {
-    "datum": "zo 15 november 16:00",
+    "datum": "zo 15 november 13:15",
     "thuis": "AFC 3",
     "thuisLogo": "images/afc.png",
     "uit": "WV-HEDW 3",
