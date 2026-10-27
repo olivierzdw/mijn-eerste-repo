@@ -94,27 +94,27 @@
     "positie": 8,
     "club": "Almere FC 1",
     "logo": "",
-    "gespeeld": 4,
+    "gespeeld": 5,
     "gewonnen": 1,
-    "gelijk": 1,
+    "gelijk": 2,
     "verloren": 2,
-    "voor": 8,
-    "tegen": 10,
+    "voor": 11,
+    "tegen": 13,
     "doelsaldo": -2,
-    "punten": 4
+    "punten": 5
   },
   {
     "positie": 9,
     "club": "Nederhorst vv 1",
     "logo": "",
-    "gespeeld": 4,
+    "gespeeld": 5,
     "gewonnen": 1,
-    "gelijk": 1,
+    "gelijk": 2,
     "verloren": 2,
-    "voor": 5,
-    "tegen": 11,
+    "voor": 8,
+    "tegen": 14,
     "doelsaldo": -6,
-    "punten": 4
+    "punten": 5
   },
   {
     "positie": 10,
