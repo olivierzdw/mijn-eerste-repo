@@ -762,6 +762,19 @@
   "SA": [
     {
       "positie": 1,
+      "club": "SS Lazio",
+      "logo": "https://crests.football-data.org/110.png",
+      "gespeeld": 9,
+      "punten": 25,
+      "gewonnen": 8,
+      "gelijk": 1,
+      "verloren": 0,
+      "doelsaldo": 15,
+      "voor": 22,
+      "tegen": 7
+    },
+    {
+      "positie": 2,
       "club": "FC Internazionale Milano",
       "logo": "https://crests.football-data.org/108.png",
       "gespeeld": 8,
@@ -774,33 +787,33 @@
       "tegen": 10
     },
     {
-      "positie": 2,
-      "club": "SS Lazio",
-      "logo": "https://crests.football-data.org/110.png",
-      "gespeeld": 8,
-      "punten": 22,
-      "gewonnen": 7,
-      "gelijk": 1,
-      "verloren": 0,
-      "doelsaldo": 11,
-      "voor": 16,
-      "tegen": 5
-    },
-    {
       "positie": 3,
       "club": "AS Roma",
       "logo": "https://crests.football-data.org/100.png",
-      "gespeeld": 8,
-      "punten": 18,
-      "gewonnen": 5,
+      "gespeeld": 9,
+      "punten": 21,
+      "gewonnen": 6,
       "gelijk": 3,
       "verloren": 0,
-      "doelsaldo": 13,
-      "voor": 19,
-      "tegen": 6
+      "doelsaldo": 15,
+      "voor": 23,
+      "tegen": 8
     },
     {
       "positie": 4,
+      "club": "Como 1907",
+      "logo": "https://crests.football-data.org/7397.png",
+      "gespeeld": 9,
+      "punten": 20,
+      "gewonnen": 6,
+      "gelijk": 2,
+      "verloren": 1,
+      "doelsaldo": 9,
+      "voor": 17,
+      "tegen": 8
+    },
+    {
+      "positie": 5,
       "club": "AC Milan",
       "logo": "https://crests.football-data.org/98.png",
       "gespeeld": 8,
@@ -810,19 +823,6 @@
       "verloren": 0,
       "doelsaldo": 9,
       "voor": 16,
-      "tegen": 7
-    },
-    {
-      "positie": 5,
-      "club": "Como 1907",
-      "logo": "https://crests.football-data.org/7397.png",
-      "gespeeld": 8,
-      "punten": 17,
-      "gewonnen": 5,
-      "gelijk": 2,
-      "verloren": 1,
-      "doelsaldo": 7,
-      "voor": 14,
       "tegen": 7
     },
     {
@@ -855,27 +855,27 @@
       "positie": 8,
       "club": "Torino FC",
       "logo": "https://crests.football-data.org/586.png",
-      "gespeeld": 8,
+      "gespeeld": 9,
       "punten": 13,
       "gewonnen": 4,
       "gelijk": 1,
-      "verloren": 3,
-      "doelsaldo": 2,
-      "voor": 13,
-      "tegen": 11
+      "verloren": 4,
+      "doelsaldo": 0,
+      "voor": 14,
+      "tegen": 14
     },
     {
       "positie": 9,
       "club": "Cagliari Calcio",
       "logo": "https://crests.football-data.org/104.png",
-      "gespeeld": 8,
+      "gespeeld": 9,
       "punten": 13,
       "gewonnen": 4,
       "gelijk": 1,
-      "verloren": 3,
-      "doelsaldo": -3,
-      "voor": 6,
-      "tegen": 9
+      "verloren": 4,
+      "doelsaldo": -5,
+      "voor": 8,
+      "tegen": 13
     },
     {
       "positie": 10,
@@ -933,14 +933,14 @@
       "positie": 14,
       "club": "US Sassuolo Calcio",
       "logo": "https://crests.football-data.org/471.png",
-      "gespeeld": 8,
+      "gespeeld": 9,
       "punten": 8,
       "gewonnen": 2,
       "gelijk": 2,
-      "verloren": 4,
-      "doelsaldo": -4,
-      "voor": 12,
-      "tegen": 16
+      "verloren": 5,
+      "doelsaldo": -8,
+      "voor": 14,
+      "tegen": 22
     },
     {
       "positie": 15,
