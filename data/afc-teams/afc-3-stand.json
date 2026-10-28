@@ -14,16 +14,16 @@
   },
   {
     "positie": 2,
-    "club": "AFC 3",
-    "logo": "images/afc.png",
-    "gespeeld": 3,
+    "club": "Rivierwijkers 3",
+    "logo": "",
+    "gespeeld": 5,
     "gewonnen": 3,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 14,
-    "tegen": 6,
-    "doelsaldo": 8,
-    "punten": 9
+    "gelijk": 1,
+    "verloren": 1,
+    "voor": 18,
+    "tegen": 14,
+    "doelsaldo": 4,
+    "punten": 10
   },
   {
     "positie": 3,
@@ -40,6 +40,19 @@
   },
   {
     "positie": 4,
+    "club": "AFC 3",
+    "logo": "images/afc.png",
+    "gespeeld": 4,
+    "gewonnen": 3,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 16,
+    "tegen": 9,
+    "doelsaldo": 7,
+    "punten": 9
+  },
+  {
+    "positie": 5,
     "club": "ASV Arsenal 3",
     "logo": "",
     "gespeeld": 4,
@@ -50,19 +63,6 @@
     "tegen": 9,
     "doelsaldo": 3,
     "punten": 9
-  },
-  {
-    "positie": 5,
-    "club": "Rivierwijkers 3",
-    "logo": "",
-    "gespeeld": 4,
-    "gewonnen": 2,
-    "gelijk": 1,
-    "verloren": 1,
-    "voor": 15,
-    "tegen": 12,
-    "doelsaldo": 3,
-    "punten": 7
   },
   {
     "positie": 6,

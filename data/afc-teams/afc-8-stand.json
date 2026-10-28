@@ -1,6 +1,19 @@
 [
   {
     "positie": 1,
+    "club": "VVA/Spartaan 2",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 3,
+    "gelijk": 1,
+    "verloren": 1,
+    "voor": 14,
+    "tegen": 9,
+    "doelsaldo": 5,
+    "punten": 10
+  },
+  {
+    "positie": 2,
     "club": "OSV 2",
     "logo": "",
     "gespeeld": 5,
@@ -13,7 +26,7 @@
     "punten": 10
   },
   {
-    "positie": 2,
+    "positie": 3,
     "club": "Volendam (rkav) 4",
     "logo": "",
     "gespeeld": 5,
@@ -24,19 +37,6 @@
     "tegen": 13,
     "doelsaldo": 0,
     "punten": 8
-  },
-  {
-    "positie": 3,
-    "club": "VVA/Spartaan 2",
-    "logo": "",
-    "gespeeld": 4,
-    "gewonnen": 2,
-    "gelijk": 1,
-    "verloren": 1,
-    "voor": 10,
-    "tegen": 7,
-    "doelsaldo": 3,
-    "punten": 7
   },
   {
     "positie": 4,
@@ -81,13 +81,13 @@
     "positie": 7,
     "club": "Wartburgia asv 7",
     "logo": "",
-    "gespeeld": 4,
+    "gespeeld": 5,
     "gewonnen": 1,
     "gelijk": 2,
-    "verloren": 1,
-    "voor": 11,
-    "tegen": 11,
-    "doelsaldo": 0,
+    "verloren": 2,
+    "voor": 13,
+    "tegen": 15,
+    "doelsaldo": -2,
     "punten": 5
   },
   {
