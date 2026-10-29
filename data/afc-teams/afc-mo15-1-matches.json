@@ -14,7 +14,7 @@
     "uitLogo": "images/afc.png"
   },
   {
-    "datum": "za 14 november 17:15",
+    "datum": "za 14 november 13:30",
     "thuis": "AFC MO15-1",
     "thuisLogo": "images/afc.png",
     "uit": "DCG Rksv O14-4",
@@ -26,5 +26,12 @@
     "thuisLogo": "",
     "uit": "AFC MO15-1",
     "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 28 november 11:30",
+    "thuis": "AFC MO15-1",
+    "thuisLogo": "images/afc.png",
+    "uit": "VVA/Spartaan O14-1",
+    "uitLogo": ""
   }
 ]
