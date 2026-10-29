@@ -14,45 +14,6 @@
   },
   {
     "positie": 2,
-    "club": "ASV Arsenal 2",
-    "logo": "",
-    "gespeeld": 5,
-    "gewonnen": 3,
-    "gelijk": 2,
-    "verloren": 0,
-    "voor": 24,
-    "tegen": 15,
-    "doelsaldo": 9,
-    "punten": 11
-  },
-  {
-    "positie": 3,
-    "club": "Swift 4",
-    "logo": "",
-    "gespeeld": 5,
-    "gewonnen": 3,
-    "gelijk": 1,
-    "verloren": 1,
-    "voor": 17,
-    "tegen": 9,
-    "doelsaldo": 8,
-    "punten": 10
-  },
-  {
-    "positie": 4,
-    "club": "DTA Fortius asv 2",
-    "logo": "images/fortius.png",
-    "gespeeld": 5,
-    "gewonnen": 3,
-    "gelijk": 0,
-    "verloren": 2,
-    "voor": 20,
-    "tegen": 12,
-    "doelsaldo": 8,
-    "punten": 9
-  },
-  {
-    "positie": 5,
     "club": "AFC 2",
     "logo": "images/afc.png",
     "gespeeld": 5,
@@ -65,7 +26,7 @@
     "punten": 9
   },
   {
-    "positie": 6,
+    "positie": 3,
     "club": "FC Weesp 2",
     "logo": "",
     "gespeeld": 5,
@@ -78,7 +39,20 @@
     "punten": 9
   },
   {
-    "positie": 7,
+    "positie": 4,
+    "club": "ASV Arsenal 2",
+    "logo": "",
+    "gespeeld": 4,
+    "gewonnen": 2,
+    "gelijk": 2,
+    "verloren": 0,
+    "voor": 16,
+    "tegen": 11,
+    "doelsaldo": 5,
+    "punten": 8
+  },
+  {
+    "positie": 5,
     "club": "Buitenboys sc. 2",
     "logo": "",
     "gespeeld": 5,
@@ -91,20 +65,33 @@
     "punten": 8
   },
   {
-    "positie": 8,
-    "club": "Zuidoost United 2",
+    "positie": 6,
+    "club": "Swift 4",
     "logo": "",
-    "gespeeld": 5,
+    "gespeeld": 4,
+    "gewonnen": 2,
+    "gelijk": 1,
+    "verloren": 1,
+    "voor": 11,
+    "tegen": 8,
+    "doelsaldo": 3,
+    "punten": 7
+  },
+  {
+    "positie": 7,
+    "club": "DTA Fortius asv 2",
+    "logo": "images/fortius.png",
+    "gespeeld": 4,
     "gewonnen": 2,
     "gelijk": 0,
-    "verloren": 3,
-    "voor": 14,
-    "tegen": 15,
-    "doelsaldo": -1,
+    "verloren": 2,
+    "voor": 17,
+    "tegen": 11,
+    "doelsaldo": 6,
     "punten": 6
   },
   {
-    "positie": 9,
+    "positie": 8,
     "club": "DVVA csv. 3",
     "logo": "",
     "gespeeld": 5,
@@ -115,6 +102,19 @@
     "tegen": 17,
     "doelsaldo": -11,
     "punten": 6
+  },
+  {
+    "positie": 9,
+    "club": "Zuidoost United 2",
+    "logo": "",
+    "gespeeld": 4,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 3,
+    "voor": 9,
+    "tegen": 13,
+    "doelsaldo": -4,
+    "punten": 3
   },
   {
     "positie": 10,
