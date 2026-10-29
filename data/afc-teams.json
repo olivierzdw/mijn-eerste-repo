@@ -136,11 +136,19 @@
     "aantalMatches": 4
   },
   {
-    "slug": "afc-mo11-2",
-    "naam": "AFC MO11-2",
-    "soort": "Meisjes",
-    "pouleId": "830047",
+    "slug": "afc-o21",
+    "naam": "AFC O21",
+    "soort": "Jeugd zaterdag",
+    "pouleId": "825498",
     "heeftStand": true,
+    "aantalMatches": 4
+  },
+  {
+    "slug": "afc-mo10-1",
+    "naam": "AFC MO10-1",
+    "soort": "Meisjes",
+    "pouleId": null,
+    "heeftStand": false,
     "aantalMatches": 5
   },
   {
