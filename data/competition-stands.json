@@ -827,6 +827,19 @@
     },
     {
       "positie": 6,
+      "club": "Frosinone Calcio",
+      "logo": "https://crests.football-data.org/470.png",
+      "gespeeld": 9,
+      "punten": 17,
+      "gewonnen": 5,
+      "gelijk": 2,
+      "verloren": 2,
+      "doelsaldo": 8,
+      "voor": 22,
+      "tegen": 14
+    },
+    {
+      "positie": 7,
       "club": "SSC Napoli",
       "logo": "https://crests.football-data.org/113.png",
       "gespeeld": 9,
@@ -837,19 +850,6 @@
       "doelsaldo": 6,
       "voor": 17,
       "tegen": 11
-    },
-    {
-      "positie": 7,
-      "club": "Frosinone Calcio",
-      "logo": "https://crests.football-data.org/470.png",
-      "gespeeld": 8,
-      "punten": 14,
-      "gewonnen": 4,
-      "gelijk": 2,
-      "verloren": 2,
-      "doelsaldo": 4,
-      "voor": 17,
-      "tegen": 13
     },
     {
       "positie": 8,
@@ -907,14 +907,14 @@
       "positie": 12,
       "club": "Atalanta BC",
       "logo": "https://crests.football-data.org/102.png",
-      "gespeeld": 8,
-      "punten": 10,
+      "gespeeld": 9,
+      "punten": 11,
       "gewonnen": 3,
-      "gelijk": 1,
+      "gelijk": 2,
       "verloren": 4,
       "doelsaldo": -1,
-      "voor": 14,
-      "tegen": 15
+      "voor": 16,
+      "tegen": 17
     },
     {
       "positie": 13,
@@ -933,14 +933,14 @@
       "positie": 14,
       "club": "US Lecce",
       "logo": "https://crests.football-data.org/5890.png",
-      "gespeeld": 8,
+      "gespeeld": 9,
       "punten": 9,
       "gewonnen": 3,
       "gelijk": 0,
-      "verloren": 5,
-      "doelsaldo": -5,
-      "voor": 9,
-      "tegen": 14
+      "verloren": 6,
+      "doelsaldo": -9,
+      "voor": 10,
+      "tegen": 19
     },
     {
       "positie": 15,
@@ -983,6 +983,19 @@
     },
     {
       "positie": 18,
+      "club": "ACF Fiorentina",
+      "logo": "https://crests.football-data.org/99.png",
+      "gespeeld": 9,
+      "punten": 5,
+      "gewonnen": 1,
+      "gelijk": 2,
+      "verloren": 6,
+      "doelsaldo": -10,
+      "voor": 11,
+      "tegen": 21
+    },
+    {
+      "positie": 19,
       "club": "Parma Calcio 1913",
       "logo": "https://crests.football-data.org/112.png",
       "gespeeld": 9,
@@ -993,19 +1006,6 @@
       "doelsaldo": -10,
       "voor": 5,
       "tegen": 15
-    },
-    {
-      "positie": 19,
-      "club": "ACF Fiorentina",
-      "logo": "https://crests.football-data.org/99.png",
-      "gespeeld": 8,
-      "punten": 4,
-      "gewonnen": 1,
-      "gelijk": 1,
-      "verloren": 6,
-      "doelsaldo": -10,
-      "voor": 9,
-      "tegen": 19
     },
     {
       "positie": 20,
@@ -1734,14 +1734,14 @@
       "positie": 1,
       "club": "CR Flamengo",
       "logo": "https://crests.football-data.org/1783.png",
-      "gespeeld": 32,
-      "punten": 70,
-      "gewonnen": 21,
+      "gespeeld": 33,
+      "punten": 73,
+      "gewonnen": 22,
       "gelijk": 7,
       "verloren": 4,
-      "doelsaldo": 37,
-      "voor": 64,
-      "tegen": 27
+      "doelsaldo": 40,
+      "voor": 68,
+      "tegen": 28
     },
     {
       "positie": 2,
@@ -1760,30 +1760,17 @@
       "positie": 3,
       "club": "Cruzeiro EC",
       "logo": "https://crests.football-data.org/1771.png",
-      "gespeeld": 32,
-      "punten": 54,
-      "gewonnen": 16,
+      "gespeeld": 33,
+      "punten": 57,
+      "gewonnen": 17,
       "gelijk": 6,
       "verloren": 10,
-      "doelsaldo": 5,
-      "voor": 51,
+      "doelsaldo": 6,
+      "voor": 52,
       "tegen": 46
     },
     {
       "positie": 4,
-      "club": "CA Paranaense",
-      "logo": "https://crests.football-data.org/1768.png",
-      "gespeeld": 32,
-      "punten": 54,
-      "gewonnen": 15,
-      "gelijk": 9,
-      "verloren": 8,
-      "doelsaldo": 12,
-      "voor": 50,
-      "tegen": 38
-    },
-    {
-      "positie": 5,
       "club": "Fluminense FC",
       "logo": "https://crests.football-data.org/1765.png",
       "gespeeld": 33,
@@ -1794,6 +1781,19 @@
       "doelsaldo": 10,
       "voor": 52,
       "tegen": 42
+    },
+    {
+      "positie": 5,
+      "club": "CA Paranaense",
+      "logo": "https://crests.football-data.org/1768.png",
+      "gespeeld": 33,
+      "punten": 54,
+      "gewonnen": 15,
+      "gelijk": 9,
+      "verloren": 9,
+      "doelsaldo": 10,
+      "voor": 50,
+      "tegen": 40
     },
     {
       "positie": 6,
@@ -1812,14 +1812,14 @@
       "positie": 7,
       "club": "CA Mineiro",
       "logo": "https://crests.football-data.org/1766.png",
-      "gespeeld": 32,
+      "gespeeld": 33,
       "punten": 50,
       "gewonnen": 14,
       "gelijk": 8,
-      "verloren": 10,
-      "doelsaldo": 6,
+      "verloren": 11,
+      "doelsaldo": 5,
       "voor": 44,
-      "tegen": 38
+      "tegen": 39
     },
     {
       "positie": 8,
@@ -1890,14 +1890,14 @@
       "positie": 13,
       "club": "CR Vasco da Gama",
       "logo": "https://crests.football-data.org/1780.png",
-      "gespeeld": 31,
+      "gespeeld": 32,
       "punten": 38,
       "gewonnen": 10,
       "gelijk": 8,
-      "verloren": 13,
-      "doelsaldo": -6,
-      "voor": 39,
-      "tegen": 45
+      "verloren": 14,
+      "doelsaldo": -9,
+      "voor": 40,
+      "tegen": 49
     },
     {
       "positie": 14,
@@ -1914,6 +1914,19 @@
     },
     {
       "positie": 15,
+      "club": "Grêmio FBPA",
+      "logo": "https://crests.football-data.org/1767.png",
+      "gespeeld": 33,
+      "punten": 37,
+      "gewonnen": 9,
+      "gelijk": 10,
+      "verloren": 14,
+      "doelsaldo": -7,
+      "voor": 37,
+      "tegen": 44
+    },
+    {
+      "positie": 16,
       "club": "Mirassol FC",
       "logo": "https://crests.football-data.org/4364.png",
       "gespeeld": 32,
@@ -1926,7 +1939,7 @@
       "tegen": 45
     },
     {
-      "positie": 16,
+      "positie": 17,
       "club": "SC Internacional",
       "logo": "https://crests.football-data.org/6684.png",
       "gespeeld": 33,
@@ -1937,19 +1950,6 @@
       "doelsaldo": -5,
       "voor": 37,
       "tegen": 42
-    },
-    {
-      "positie": 17,
-      "club": "Grêmio FBPA",
-      "logo": "https://crests.football-data.org/1767.png",
-      "gespeeld": 32,
-      "punten": 34,
-      "gewonnen": 8,
-      "gelijk": 10,
-      "verloren": 14,
-      "doelsaldo": -9,
-      "voor": 35,
-      "tegen": 44
     },
     {
       "positie": 18,
