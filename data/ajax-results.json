@@ -98,5 +98,15 @@
     "uitLogo": "https://crests.football-data.org/678.png",
     "thuisScore": 1,
     "uitScore": 2
+  },
+  {
+    "id": 558851,
+    "datum": "za 31 oktober",
+    "thuis": "Ajax",
+    "thuisLogo": "https://crests.football-data.org/678.png",
+    "uit": "AZ",
+    "uitLogo": "https://crests.football-data.org/682.png",
+    "thuisScore": 1,
+    "uitScore": 0
   }
 ]

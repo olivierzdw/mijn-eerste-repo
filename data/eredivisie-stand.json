@@ -14,6 +14,19 @@
   },
   {
     "positie": 2,
+    "club": "Ajax",
+    "logo": "https://crests.football-data.org/678.png",
+    "gespeeld": 11,
+    "punten": 24,
+    "gewonnen": 7,
+    "gelijk": 3,
+    "verloren": 1,
+    "doelsaldo": 17,
+    "voor": 30,
+    "tegen": 13
+  },
+  {
+    "positie": 3,
     "club": "PSV",
     "logo": "https://crests.football-data.org/674.png",
     "gespeeld": 11,
@@ -23,19 +36,6 @@
     "verloren": 2,
     "doelsaldo": 22,
     "voor": 35,
-    "tegen": 13
-  },
-  {
-    "positie": 3,
-    "club": "Ajax",
-    "logo": "https://crests.football-data.org/678.png",
-    "gespeeld": 10,
-    "punten": 21,
-    "gewonnen": 6,
-    "gelijk": 3,
-    "verloren": 1,
-    "doelsaldo": 16,
-    "voor": 29,
     "tegen": 13
   },
   {
@@ -55,14 +55,14 @@
     "positie": 5,
     "club": "AZ",
     "logo": "https://crests.football-data.org/682.png",
-    "gespeeld": 10,
+    "gespeeld": 11,
     "punten": 20,
     "gewonnen": 6,
     "gelijk": 2,
-    "verloren": 2,
-    "doelsaldo": 8,
+    "verloren": 3,
+    "doelsaldo": 7,
     "voor": 20,
-    "tegen": 12
+    "tegen": 13
   },
   {
     "positie": 6,
@@ -105,29 +105,29 @@
   },
   {
     "positie": 9,
-    "club": "Go Ahead Eagles",
-    "logo": "https://crests.football-data.org/718.png",
-    "gespeeld": 10,
-    "punten": 14,
-    "gewonnen": 3,
-    "gelijk": 5,
-    "verloren": 2,
-    "doelsaldo": 0,
+    "club": "SC Cambuur-Leeuwarden",
+    "logo": "https://crests.football-data.org/1909.png",
+    "gespeeld": 11,
+    "punten": 15,
+    "gewonnen": 4,
+    "gelijk": 3,
+    "verloren": 4,
+    "doelsaldo": 1,
     "voor": 23,
-    "tegen": 23
+    "tegen": 22
   },
   {
     "positie": 10,
-    "club": "SC Cambuur-Leeuwarden",
-    "logo": "https://crests.football-data.org/1909.png",
-    "gespeeld": 10,
-    "punten": 12,
+    "club": "Go Ahead Eagles",
+    "logo": "https://crests.football-data.org/718.png",
+    "gespeeld": 11,
+    "punten": 14,
     "gewonnen": 3,
-    "gelijk": 3,
-    "verloren": 4,
-    "doelsaldo": -3,
-    "voor": 19,
-    "tegen": 22
+    "gelijk": 5,
+    "verloren": 3,
+    "doelsaldo": -4,
+    "voor": 23,
+    "tegen": 27
   },
   {
     "positie": 11,
