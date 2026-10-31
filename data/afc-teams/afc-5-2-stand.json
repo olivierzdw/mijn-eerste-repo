@@ -53,6 +53,19 @@
   },
   {
     "positie": 5,
+    "club": "ASV Arsenal 6",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 2,
+    "gelijk": 3,
+    "verloren": 0,
+    "voor": 14,
+    "tegen": 8,
+    "doelsaldo": 6,
+    "punten": 9
+  },
+  {
+    "positie": 6,
     "club": "JOS Watergraafsmeer 3",
     "logo": "",
     "gespeeld": 4,
@@ -65,33 +78,7 @@
     "punten": 6
   },
   {
-    "positie": 6,
-    "club": "ASV Arsenal 6",
-    "logo": "",
-    "gespeeld": 4,
-    "gewonnen": 1,
-    "gelijk": 3,
-    "verloren": 0,
-    "voor": 10,
-    "tegen": 8,
-    "doelsaldo": 2,
-    "punten": 6
-  },
-  {
     "positie": 7,
-    "club": "Wartburgia asv 4",
-    "logo": "",
-    "gespeeld": 4,
-    "gewonnen": 2,
-    "gelijk": 0,
-    "verloren": 2,
-    "voor": 7,
-    "tegen": 5,
-    "doelsaldo": 2,
-    "punten": 6
-  },
-  {
-    "positie": 8,
     "club": "TABA afc 3",
     "logo": "images/afc.png",
     "gespeeld": 4,
@@ -104,7 +91,7 @@
     "punten": 6
   },
   {
-    "positie": 9,
+    "positie": 8,
     "club": "GeuzenMiddenmeer 3",
     "logo": "",
     "gespeeld": 4,
@@ -114,6 +101,19 @@
     "voor": 7,
     "tegen": 8,
     "doelsaldo": -1,
+    "punten": 6
+  },
+  {
+    "positie": 9,
+    "club": "Wartburgia asv 4",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 3,
+    "voor": 7,
+    "tegen": 9,
+    "doelsaldo": -2,
     "punten": 6
   },
   {

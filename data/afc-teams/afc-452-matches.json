@@ -14,7 +14,7 @@
     "uitLogo": ""
   },
   {
-    "datum": "za 14 november 17:00",
+    "datum": "za 14 november 13:00",
     "thuis": "TABA afc 45+2",
     "thuisLogo": "images/afc.png",
     "uit": "AFC 45+2",
@@ -26,5 +26,12 @@
     "thuisLogo": "images/afc.png",
     "uit": "Geinburgia sv. 45+1",
     "uitLogo": ""
+  },
+  {
+    "datum": "za 28 november 17:50",
+    "thuis": "DRC 45+1",
+    "thuisLogo": "",
+    "uit": "AFC 45+2",
+    "uitLogo": "images/afc.png"
   }
 ]

@@ -66,19 +66,6 @@
   },
   {
     "positie": 6,
-    "club": "Marken sv. 2",
-    "logo": "",
-    "gespeeld": 4,
-    "gewonnen": 2,
-    "gelijk": 0,
-    "verloren": 2,
-    "voor": 14,
-    "tegen": 9,
-    "doelsaldo": 5,
-    "punten": 6
-  },
-  {
-    "positie": 7,
     "club": "EVC 2",
     "logo": "",
     "gespeeld": 4,
@@ -91,7 +78,33 @@
     "punten": 6
   },
   {
+    "positie": 7,
+    "club": "Marken sv. 2",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 3,
+    "voor": 14,
+    "tegen": 13,
+    "doelsaldo": 1,
+    "punten": 6
+  },
+  {
     "positie": 8,
+    "club": "HBOK 3",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 1,
+    "gelijk": 1,
+    "verloren": 3,
+    "voor": 11,
+    "tegen": 14,
+    "doelsaldo": -3,
+    "punten": 4
+  },
+  {
+    "positie": 9,
     "club": "DTA Fortius asv 3",
     "logo": "images/fortius.png",
     "gespeeld": 4,
@@ -104,7 +117,7 @@
     "punten": 3
   },
   {
-    "positie": 9,
+    "positie": 10,
     "club": "AFC 4",
     "logo": "images/afc.png",
     "gespeeld": 4,
@@ -117,7 +130,7 @@
     "punten": 3
   },
   {
-    "positie": 10,
+    "positie": 11,
     "club": "Real Sranang sv. 2",
     "logo": "",
     "gespeeld": 5,
@@ -128,18 +141,5 @@
     "tegen": 23,
     "doelsaldo": -11,
     "punten": 3
-  },
-  {
-    "positie": 11,
-    "club": "HBOK 3",
-    "logo": "",
-    "gespeeld": 4,
-    "gewonnen": 0,
-    "gelijk": 1,
-    "verloren": 3,
-    "voor": 7,
-    "tegen": 14,
-    "doelsaldo": -7,
-    "punten": 1
   }
 ]

@@ -27,6 +27,19 @@
   },
   {
     "positie": 3,
+    "club": "Buitenveldert sc. 4",
+    "logo": "",
+    "gespeeld": 4,
+    "gewonnen": 3,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 14,
+    "tegen": 8,
+    "doelsaldo": 6,
+    "punten": 9
+  },
+  {
+    "positie": 4,
     "club": "Volendam (rkav) 4",
     "logo": "",
     "gespeeld": 5,
@@ -37,19 +50,6 @@
     "tegen": 13,
     "doelsaldo": 0,
     "punten": 8
-  },
-  {
-    "positie": 4,
-    "club": "Buitenveldert sc. 4",
-    "logo": "",
-    "gespeeld": 3,
-    "gewonnen": 2,
-    "gelijk": 0,
-    "verloren": 1,
-    "voor": 9,
-    "tegen": 5,
-    "doelsaldo": 4,
-    "punten": 6
   },
   {
     "positie": 5,
@@ -120,13 +120,13 @@
     "positie": 10,
     "club": "Vlug en Vaardig cvv. 2",
     "logo": "",
-    "gespeeld": 4,
+    "gespeeld": 5,
     "gewonnen": 1,
     "gelijk": 0,
-    "verloren": 3,
-    "voor": 4,
-    "tegen": 16,
-    "doelsaldo": -12,
+    "verloren": 4,
+    "voor": 7,
+    "tegen": 21,
+    "doelsaldo": -14,
     "punten": 3
   },
   {

@@ -1,16 +1,16 @@
 [
   {
-    "datum": "za 31 oktober 11:00",
-    "thuis": "Jong Hercules 3",
-    "thuisLogo": "",
-    "uit": "AFC 6",
-    "uitLogo": "images/afc.png"
-  },
-  {
     "datum": "za 21 november 16:00",
     "thuis": "AFC 6",
     "thuisLogo": "images/afc.png",
     "uit": "Sloterdijk avv. 2",
     "uitLogo": "images/sloterdijk.png"
+  },
+  {
+    "datum": "za 28 november 12:30",
+    "thuis": "Meer De sv. 5",
+    "thuisLogo": "",
+    "uit": "AFC 6",
+    "uitLogo": "images/afc.png"
   }
 ]
