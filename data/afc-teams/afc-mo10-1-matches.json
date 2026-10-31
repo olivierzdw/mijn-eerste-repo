@@ -1,12 +1,5 @@
 [
   {
-    "datum": "za 31 oktober 08:30",
-    "thuis": "AFC MO10-1",
-    "thuisLogo": "images/afc.png",
-    "uit": "vv Zwanenburg MO10-1",
-    "uitLogo": ""
-  },
-  {
     "datum": "za 7 november 10:30",
     "thuis": "AFC MO10-1",
     "thuisLogo": "images/afc.png",
@@ -33,5 +26,12 @@
     "thuisLogo": "",
     "uit": "AFC MO10-1",
     "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 5 december 08:30",
+    "thuis": "AFC MO10-1",
+    "thuisLogo": "images/afc.png",
+    "uit": "Hercules Zaandam sc MO10-1",
+    "uitLogo": ""
   }
 ]

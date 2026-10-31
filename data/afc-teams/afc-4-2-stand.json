@@ -3,27 +3,27 @@
     "positie": 1,
     "club": "SDOB 2",
     "logo": "",
-    "gespeeld": 4,
-    "gewonnen": 3,
+    "gespeeld": 5,
+    "gewonnen": 4,
     "gelijk": 1,
     "verloren": 0,
-    "voor": 14,
-    "tegen": 6,
-    "doelsaldo": 8,
-    "punten": 10
+    "voor": 18,
+    "tegen": 9,
+    "doelsaldo": 9,
+    "punten": 13
   },
   {
     "positie": 2,
     "club": "Monnickendam 2",
     "logo": "",
-    "gespeeld": 4,
+    "gespeeld": 5,
     "gewonnen": 3,
-    "gelijk": 0,
+    "gelijk": 1,
     "verloren": 1,
-    "voor": 13,
-    "tegen": 9,
+    "voor": 16,
+    "tegen": 12,
     "doelsaldo": 4,
-    "punten": 9
+    "punten": 10
   },
   {
     "positie": 3,
@@ -40,6 +40,19 @@
   },
   {
     "positie": 4,
+    "club": "WV-HEDW 3",
+    "logo": "",
+    "gespeeld": 6,
+    "gewonnen": 2,
+    "gelijk": 3,
+    "verloren": 1,
+    "voor": 13,
+    "tegen": 13,
+    "doelsaldo": 0,
+    "punten": 9
+  },
+  {
+    "positie": 5,
     "club": "TOS-Actief 2",
     "logo": "",
     "gespeeld": 5,
@@ -49,19 +62,6 @@
     "voor": 17,
     "tegen": 12,
     "doelsaldo": 5,
-    "punten": 8
-  },
-  {
-    "positie": 5,
-    "club": "WV-HEDW 3",
-    "logo": "",
-    "gespeeld": 5,
-    "gewonnen": 2,
-    "gelijk": 2,
-    "verloren": 1,
-    "voor": 10,
-    "tegen": 10,
-    "doelsaldo": 0,
     "punten": 8
   },
   {
@@ -133,13 +133,13 @@
     "positie": 11,
     "club": "Real Sranang sv. 2",
     "logo": "",
-    "gespeeld": 5,
+    "gespeeld": 6,
     "gewonnen": 2,
     "gelijk": 0,
-    "verloren": 3,
-    "voor": 12,
-    "tegen": 23,
-    "doelsaldo": -11,
+    "verloren": 4,
+    "voor": 15,
+    "tegen": 27,
+    "doelsaldo": -12,
     "punten": 3
   }
 ]
