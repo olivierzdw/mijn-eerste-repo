@@ -9,11 +9,24 @@
     "gelijk": 4,
     "verloren": 0,
     "doelsaldo": 21,
-    "voor": 32,
-    "tegen": 11
+    "voor": 33,
+    "tegen": 12
   },
   {
     "positie": 2,
+    "club": "PSV",
+    "logo": "https://crests.football-data.org/674.png",
+    "gespeeld": 11,
+    "punten": 23,
+    "gewonnen": 7,
+    "gelijk": 2,
+    "verloren": 2,
+    "doelsaldo": 22,
+    "voor": 35,
+    "tegen": 13
+  },
+  {
+    "positie": 3,
     "club": "Ajax",
     "logo": "https://crests.football-data.org/678.png",
     "gespeeld": 10,
@@ -23,19 +36,6 @@
     "verloren": 1,
     "doelsaldo": 16,
     "voor": 29,
-    "tegen": 13
-  },
-  {
-    "positie": 3,
-    "club": "PSV",
-    "logo": "https://crests.football-data.org/674.png",
-    "gespeeld": 10,
-    "punten": 20,
-    "gewonnen": 6,
-    "gelijk": 2,
-    "verloren": 2,
-    "doelsaldo": 15,
-    "voor": 28,
     "tegen": 13
   },
   {
@@ -74,20 +74,20 @@
     "gelijk": 4,
     "verloren": 2,
     "doelsaldo": 0,
-    "voor": 17,
-    "tegen": 17
+    "voor": 18,
+    "tegen": 18
   },
   {
     "positie": 7,
     "club": "Heerenveen",
     "logo": "https://crests.football-data.org/673.png",
-    "gespeeld": 10,
-    "punten": 15,
-    "gewonnen": 4,
+    "gespeeld": 11,
+    "punten": 18,
+    "gewonnen": 5,
     "gelijk": 3,
     "verloren": 3,
-    "doelsaldo": 5,
-    "voor": 18,
+    "doelsaldo": 6,
+    "voor": 19,
     "tegen": 13
   },
   {
@@ -146,14 +146,14 @@
     "positie": 12,
     "club": "NEC",
     "logo": "https://crests.football-data.org/1915.png",
-    "gespeeld": 10,
+    "gespeeld": 11,
     "punten": 11,
     "gewonnen": 2,
     "gelijk": 5,
-    "verloren": 3,
-    "doelsaldo": -1,
+    "verloren": 4,
+    "doelsaldo": -2,
     "voor": 17,
-    "tegen": 18
+    "tegen": 19
   },
   {
     "positie": 13,
@@ -224,13 +224,13 @@
     "positie": 18,
     "club": "Willem II Tilburg",
     "logo": "https://crests.football-data.org/672.png",
-    "gespeeld": 10,
+    "gespeeld": 11,
     "punten": 2,
     "gewonnen": 0,
     "gelijk": 2,
-    "verloren": 8,
-    "doelsaldo": -22,
+    "verloren": 9,
+    "doelsaldo": -29,
     "voor": 10,
-    "tegen": 32
+    "tegen": 39
   }
 ]
