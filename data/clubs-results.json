@@ -2625,6 +2625,17 @@
       "uitScore": 2
     },
     {
+      "id": 564737,
+      "datum": "vr 30 oktober",
+      "datumIso": "2026-10-30",
+      "thuis": "Villarreal CF",
+      "thuisLogo": "https://crests.football-data.org/94.png",
+      "uit": "RCD Espanyol de Barcelona",
+      "uitLogo": "https://crests.football-data.org/80.png",
+      "thuisScore": 0,
+      "uitScore": 1
+    },
+    {
       "id": 575327,
       "datum": "di 8 september",
       "datumIso": "2026-09-08",
@@ -2767,6 +2778,17 @@
       "uit": "RCD Espanyol de Barcelona",
       "uitLogo": "https://crests.football-data.org/80.png",
       "thuisScore": 2,
+      "uitScore": 1
+    },
+    {
+      "id": 564737,
+      "datum": "vr 30 oktober",
+      "datumIso": "2026-10-30",
+      "thuis": "Villarreal CF",
+      "thuisLogo": "https://crests.football-data.org/94.png",
+      "uit": "RCD Espanyol de Barcelona",
+      "uitLogo": "https://crests.football-data.org/80.png",
+      "thuisScore": 0,
       "uitScore": 1
     }
   ],
@@ -4839,6 +4861,17 @@
       "uitLogo": "https://crests.football-data.org/12.png",
       "thuisScore": 2,
       "uitScore": 3
+    },
+    {
+      "id": 565846,
+      "datum": "vr 30 oktober",
+      "datumIso": "2026-10-30",
+      "thuis": "SV 07 Elversberg",
+      "thuisLogo": "https://crests.football-data.org/719.png",
+      "uit": "1. FSV Mainz 05",
+      "uitLogo": "https://crests.football-data.org/15.png",
+      "thuisScore": 4,
+      "uitScore": 1
     }
   ],
   "29": [
@@ -5155,6 +5188,17 @@
       "uitLogo": "https://crests.football-data.org/719.png",
       "thuisScore": 4,
       "uitScore": 0
+    },
+    {
+      "id": 565846,
+      "datum": "vr 30 oktober",
+      "datumIso": "2026-10-30",
+      "thuis": "SV 07 Elversberg",
+      "thuisLogo": "https://crests.football-data.org/719.png",
+      "uit": "1. FSV Mainz 05",
+      "uitLogo": "https://crests.football-data.org/15.png",
+      "thuisScore": 4,
+      "uitScore": 1
     }
   ],
   "3": [
@@ -8323,6 +8367,17 @@
       "uitScore": 1
     },
     {
+      "id": 559639,
+      "datum": "vr 30 oktober",
+      "datumIso": "2026-10-30",
+      "thuis": "Lille OSC",
+      "thuisLogo": "https://crests.football-data.org/521.png",
+      "uit": "Racing Club de Lens",
+      "uitLogo": "https://crests.football-data.org/546.png",
+      "thuisScore": 1,
+      "uitScore": 0
+    },
+    {
       "id": 575340,
       "datum": "do 10 september",
       "datumIso": "2026-09-10",
@@ -8894,6 +8949,17 @@
       "uitLogo": "https://crests.football-data.org/522.png",
       "thuisScore": 1,
       "uitScore": 2
+    },
+    {
+      "id": 559646,
+      "datum": "vr 30 oktober",
+      "datumIso": "2026-10-30",
+      "thuis": "OGC Nice",
+      "thuisLogo": "https://crests.football-data.org/522.png",
+      "uit": "Stade Rennais FC 1901",
+      "uitLogo": "https://crests.football-data.org/529.png",
+      "thuisScore": 5,
+      "uitScore": 2
     }
   ],
   "525": [
@@ -9346,6 +9412,17 @@
       "uitScore": 1
     },
     {
+      "id": 559639,
+      "datum": "vr 30 oktober",
+      "datumIso": "2026-10-30",
+      "thuis": "Lille OSC",
+      "thuisLogo": "https://crests.football-data.org/521.png",
+      "uit": "Racing Club de Lens",
+      "uitLogo": "https://crests.football-data.org/546.png",
+      "thuisScore": 1,
+      "uitScore": 0
+    },
+    {
       "id": 575328,
       "datum": "di 8 september",
       "datumIso": "2026-09-08",
@@ -9467,6 +9544,17 @@
       "uitLogo": "https://crests.football-data.org/533.png",
       "thuisScore": 4,
       "uitScore": 3
+    },
+    {
+      "id": 559644,
+      "datum": "vr 30 oktober",
+      "datumIso": "2026-10-30",
+      "thuis": "Le Havre AC",
+      "thuisLogo": "https://crests.football-data.org/533.png",
+      "uit": "Paris Saint-Germain FC",
+      "uitLogo": "https://crests.football-data.org/524.png",
+      "thuisScore": 1,
+      "uitScore": 5
     }
   ],
   "548": [
@@ -9647,6 +9735,17 @@
       "uitLogo": "https://crests.football-data.org/576.png",
       "thuisScore": 3,
       "uitScore": 0
+    },
+    {
+      "id": 559646,
+      "datum": "vr 30 oktober",
+      "datumIso": "2026-10-30",
+      "thuis": "OGC Nice",
+      "thuisLogo": "https://crests.football-data.org/522.png",
+      "uit": "Stade Rennais FC 1901",
+      "uitLogo": "https://crests.football-data.org/529.png",
+      "thuisScore": 5,
+      "uitScore": 2
     }
   ],
   "524": [
@@ -9737,6 +9836,17 @@
       "uitLogo": "https://crests.football-data.org/523.png",
       "thuisScore": 2,
       "uitScore": 0
+    },
+    {
+      "id": 559644,
+      "datum": "vr 30 oktober",
+      "datumIso": "2026-10-30",
+      "thuis": "Le Havre AC",
+      "thuisLogo": "https://crests.football-data.org/533.png",
+      "uit": "Paris Saint-Germain FC",
+      "uitLogo": "https://crests.football-data.org/524.png",
+      "thuisScore": 1,
+      "uitScore": 5
     },
     {
       "id": 575332,
@@ -12256,6 +12366,17 @@
       "uitLogo": "https://crests.football-data.org/6618.png",
       "thuisScore": 0,
       "uitScore": 2
+    },
+    {
+      "id": 567344,
+      "datum": "vr 30 oktober",
+      "datumIso": "2026-10-30",
+      "thuis": "Casa Pia AC",
+      "thuisLogo": "https://crests.football-data.org/6618.png",
+      "uit": "Sporting Clube de Portugal",
+      "uitLogo": "https://crests.football-data.org/498.png",
+      "thuisScore": 0,
+      "uitScore": 2
     }
   ],
   "5543": [
@@ -12659,6 +12780,17 @@
       "uit": "Académico de Viseu FC",
       "uitLogo": "https://crests.football-data.org/5527.png",
       "thuisScore": 1,
+      "uitScore": 2
+    },
+    {
+      "id": 567344,
+      "datum": "vr 30 oktober",
+      "datumIso": "2026-10-30",
+      "thuis": "Casa Pia AC",
+      "thuisLogo": "https://crests.football-data.org/6618.png",
+      "uit": "Sporting Clube de Portugal",
+      "uitLogo": "https://crests.football-data.org/498.png",
+      "thuisScore": 0,
       "uitScore": 2
     },
     {
@@ -18437,6 +18569,17 @@
       "uitLogo": "https://crests.football-data.org/1779.png",
       "thuisScore": 3,
       "uitScore": 2
+    },
+    {
+      "id": 555063,
+      "datum": "za 31 oktober",
+      "datumIso": "2026-10-30",
+      "thuis": "SC Corinthians Paulista",
+      "thuisLogo": "https://crests.football-data.org/1779.png",
+      "uit": "Mirassol FC",
+      "uitLogo": "https://crests.football-data.org/4364.png",
+      "thuisScore": 2,
+      "uitScore": 0
     }
   ],
   "1777": [
@@ -19886,6 +20029,17 @@
       "uitLogo": "https://crests.football-data.org/1776.png",
       "thuisScore": 1,
       "uitScore": 1
+    },
+    {
+      "id": 555063,
+      "datum": "za 31 oktober",
+      "datumIso": "2026-10-30",
+      "thuis": "SC Corinthians Paulista",
+      "thuisLogo": "https://crests.football-data.org/1779.png",
+      "uit": "Mirassol FC",
+      "uitLogo": "https://crests.football-data.org/4364.png",
+      "thuisScore": 2,
+      "uitScore": 0
     }
   ],
   "1780": [
