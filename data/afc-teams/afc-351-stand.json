@@ -79,6 +79,19 @@
   },
   {
     "positie": 7,
+    "club": "ASC De Volewijckers 35+1",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 3,
+    "voor": 14,
+    "tegen": 36,
+    "doelsaldo": -22,
+    "punten": 6
+  },
+  {
+    "positie": 8,
     "club": "Zuidoost United 35+1",
     "logo": "",
     "gespeeld": 3,
@@ -88,19 +101,6 @@
     "voor": 7,
     "tegen": 13,
     "doelsaldo": -6,
-    "punten": 3
-  },
-  {
-    "positie": 8,
-    "club": "ASC De Volewijckers 35+1",
-    "logo": "",
-    "gespeeld": 4,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 3,
-    "voor": 10,
-    "tegen": 33,
-    "doelsaldo": -23,
     "punten": 3
   },
   {
@@ -133,13 +133,13 @@
     "positie": 11,
     "club": "VVZ '49 35+1",
     "logo": "",
-    "gespeeld": 3,
+    "gespeeld": 4,
     "gewonnen": 0,
     "gelijk": 0,
-    "verloren": 3,
-    "voor": 4,
-    "tegen": 17,
-    "doelsaldo": -13,
+    "verloren": 4,
+    "voor": 7,
+    "tegen": 21,
+    "doelsaldo": -14,
     "punten": 0
   }
 ]
