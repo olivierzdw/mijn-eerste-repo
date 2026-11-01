@@ -16,17 +16,30 @@
     "positie": 2,
     "club": "Swift 8",
     "logo": "",
-    "gespeeld": 4,
+    "gespeeld": 5,
     "gewonnen": 3,
     "gelijk": 0,
-    "verloren": 1,
-    "voor": 14,
-    "tegen": 10,
-    "doelsaldo": 4,
+    "verloren": 2,
+    "voor": 16,
+    "tegen": 17,
+    "doelsaldo": -1,
     "punten": 9
   },
   {
     "positie": 3,
+    "club": "Swift 11",
+    "logo": "",
+    "gespeeld": 6,
+    "gewonnen": 3,
+    "gelijk": 0,
+    "verloren": 3,
+    "voor": 20,
+    "tegen": 15,
+    "doelsaldo": 5,
+    "punten": 9
+  },
+  {
+    "positie": 4,
     "club": "CTO '70 vv 2",
     "logo": "",
     "gespeeld": 4,
@@ -39,7 +52,7 @@
     "punten": 8
   },
   {
-    "positie": 4,
+    "positie": 5,
     "club": "Meer De sv. 3",
     "logo": "",
     "gespeeld": 5,
@@ -52,7 +65,7 @@
     "punten": 8
   },
   {
-    "positie": 5,
+    "positie": 6,
     "club": "AFC 5",
     "logo": "images/afc.png",
     "gespeeld": 4,
@@ -65,7 +78,7 @@
     "punten": 7
   },
   {
-    "positie": 6,
+    "positie": 7,
     "club": "DTA Fortius asv 2",
     "logo": "images/fortius.png",
     "gespeeld": 5,
@@ -78,7 +91,7 @@
     "punten": 7
   },
   {
-    "positie": 7,
+    "positie": 8,
     "club": "FIT avv 2",
     "logo": "",
     "gespeeld": 4,
@@ -88,19 +101,6 @@
     "voor": 9,
     "tegen": 10,
     "doelsaldo": -1,
-    "punten": 6
-  },
-  {
-    "positie": 8,
-    "club": "Swift 11",
-    "logo": "",
-    "gespeeld": 5,
-    "gewonnen": 2,
-    "gelijk": 0,
-    "verloren": 3,
-    "voor": 13,
-    "tegen": 13,
-    "doelsaldo": 0,
     "punten": 6
   },
   {

@@ -55,14 +55,14 @@
     "positie": 5,
     "club": "Ouderkerk sv. 1",
     "logo": "",
-    "gespeeld": 4,
+    "gespeeld": 5,
     "gewonnen": 3,
-    "gelijk": 0,
+    "gelijk": 1,
     "verloren": 1,
-    "voor": 15,
-    "tegen": 9,
+    "voor": 18,
+    "tegen": 12,
     "doelsaldo": 6,
-    "punten": 9
+    "punten": 10
   },
   {
     "positie": 6,
@@ -120,14 +120,14 @@
     "positie": 10,
     "club": "Almere FC 1",
     "logo": "",
-    "gespeeld": 5,
+    "gespeeld": 6,
     "gewonnen": 1,
-    "gelijk": 2,
+    "gelijk": 3,
     "verloren": 2,
-    "voor": 11,
-    "tegen": 13,
+    "voor": 14,
+    "tegen": 16,
     "doelsaldo": -2,
-    "punten": 5
+    "punten": 6
   },
   {
     "positie": 11,
