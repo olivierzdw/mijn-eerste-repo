@@ -1,12 +1,5 @@
 [
   {
-    "datum": "za 31 oktober 08:30",
-    "thuis": "AFC MO12-1",
-    "thuisLogo": "images/afc.png",
-    "uit": "HBC MO12-1",
-    "uitLogo": ""
-  },
-  {
     "datum": "za 7 november 09:30",
     "thuis": "Eendracht '82 sc. O12-1",
     "thuisLogo": "",
@@ -33,5 +26,12 @@
     "thuisLogo": "",
     "uit": "AFC MO12-1",
     "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 5 december 10:00",
+    "thuis": "AFC MO12-1",
+    "thuisLogo": "images/afc.png",
+    "uit": "Hoofddorp s.v. MO12-1",
+    "uitLogo": ""
   }
 ]
