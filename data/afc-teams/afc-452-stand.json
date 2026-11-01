@@ -27,6 +27,19 @@
   },
   {
     "positie": 3,
+    "club": "AFC 45+2",
+    "logo": "images/afc.png",
+    "gespeeld": 5,
+    "gewonnen": 4,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 22,
+    "tegen": 10,
+    "doelsaldo": 12,
+    "punten": 12
+  },
+  {
+    "positie": 4,
     "club": "ST Weesp FC/Muiden SC 45+1",
     "logo": "",
     "gespeeld": 6,
@@ -39,7 +52,7 @@
     "punten": 12
   },
   {
-    "positie": 4,
+    "positie": 5,
     "club": "TABA afc 45+2",
     "logo": "images/afc.png",
     "gespeeld": 5,
@@ -52,7 +65,7 @@
     "punten": 10
   },
   {
-    "positie": 5,
+    "positie": 6,
     "club": "DRC 45+1",
     "logo": "",
     "gespeeld": 6,
@@ -63,19 +76,6 @@
     "tegen": 14,
     "doelsaldo": 12,
     "punten": 10
-  },
-  {
-    "positie": 6,
-    "club": "AFC 45+2",
-    "logo": "images/afc.png",
-    "gespeeld": 4,
-    "gewonnen": 3,
-    "gelijk": 0,
-    "verloren": 1,
-    "voor": 16,
-    "tegen": 9,
-    "doelsaldo": 7,
-    "punten": 9
   },
   {
     "positie": 7,
@@ -159,13 +159,13 @@
     "positie": 13,
     "club": "CTO '70 vv 45+2",
     "logo": "",
-    "gespeeld": 4,
+    "gespeeld": 5,
     "gewonnen": 0,
     "gelijk": 0,
-    "verloren": 4,
-    "voor": 6,
-    "tegen": 34,
-    "doelsaldo": -28,
+    "verloren": 5,
+    "voor": 7,
+    "tegen": 40,
+    "doelsaldo": -33,
     "punten": 0
   },
   {

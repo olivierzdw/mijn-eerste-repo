@@ -53,6 +53,19 @@
   },
   {
     "positie": 5,
+    "club": "AGB 2",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 2,
+    "gelijk": 2,
+    "verloren": 1,
+    "voor": 13,
+    "tegen": 5,
+    "doelsaldo": 8,
+    "punten": 8
+  },
+  {
+    "positie": 6,
     "club": "Volendam (rkav) 4",
     "logo": "",
     "gespeeld": 5,
@@ -63,19 +76,6 @@
     "tegen": 13,
     "doelsaldo": 0,
     "punten": 8
-  },
-  {
-    "positie": 6,
-    "club": "AGB 2",
-    "logo": "",
-    "gespeeld": 4,
-    "gewonnen": 1,
-    "gelijk": 2,
-    "verloren": 1,
-    "voor": 10,
-    "tegen": 4,
-    "doelsaldo": 6,
-    "punten": 5
   },
   {
     "positie": 7,
@@ -133,13 +133,13 @@
     "positie": 11,
     "club": "RODA '23 Rksv 5",
     "logo": "",
-    "gespeeld": 3,
+    "gespeeld": 4,
     "gewonnen": 0,
     "gelijk": 0,
-    "verloren": 3,
-    "voor": 5,
-    "tegen": 11,
-    "doelsaldo": -6,
+    "verloren": 4,
+    "voor": 6,
+    "tegen": 14,
+    "doelsaldo": -8,
     "punten": 0
   }
 ]

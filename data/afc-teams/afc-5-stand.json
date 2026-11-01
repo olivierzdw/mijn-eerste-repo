@@ -3,14 +3,14 @@
     "positie": 1,
     "club": "WV-HEDW 3",
     "logo": "",
-    "gespeeld": 5,
-    "gewonnen": 3,
+    "gespeeld": 6,
+    "gewonnen": 4,
     "gelijk": 1,
     "verloren": 1,
-    "voor": 9,
+    "voor": 12,
     "tegen": 6,
-    "doelsaldo": 3,
-    "punten": 10
+    "doelsaldo": 6,
+    "punten": 13
   },
   {
     "positie": 2,
@@ -27,6 +27,19 @@
   },
   {
     "positie": 3,
+    "club": "CTO '70 vv 2",
+    "logo": "",
+    "gespeeld": 4,
+    "gewonnen": 2,
+    "gelijk": 2,
+    "verloren": 0,
+    "voor": 12,
+    "tegen": 6,
+    "doelsaldo": 6,
+    "punten": 8
+  },
+  {
+    "positie": 4,
     "club": "Meer De sv. 3",
     "logo": "",
     "gespeeld": 5,
@@ -39,7 +52,7 @@
     "punten": 8
   },
   {
-    "positie": 4,
+    "positie": 5,
     "club": "AFC 5",
     "logo": "images/afc.png",
     "gespeeld": 4,
@@ -52,7 +65,7 @@
     "punten": 7
   },
   {
-    "positie": 5,
+    "positie": 6,
     "club": "DTA Fortius asv 2",
     "logo": "images/fortius.png",
     "gespeeld": 5,
@@ -65,7 +78,20 @@
     "punten": 7
   },
   {
-    "positie": 6,
+    "positie": 7,
+    "club": "FIT avv 2",
+    "logo": "",
+    "gespeeld": 4,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 9,
+    "tegen": 10,
+    "doelsaldo": -1,
+    "punten": 6
+  },
+  {
+    "positie": 8,
     "club": "Swift 11",
     "logo": "",
     "gespeeld": 5,
@@ -78,68 +104,42 @@
     "punten": 6
   },
   {
-    "positie": 7,
-    "club": "CTO '70 vv 2",
-    "logo": "",
-    "gespeeld": 3,
-    "gewonnen": 1,
-    "gelijk": 2,
-    "verloren": 0,
-    "voor": 6,
-    "tegen": 4,
-    "doelsaldo": 2,
-    "punten": 5
-  },
-  {
-    "positie": 8,
+    "positie": 9,
     "club": "TABA afc 3",
     "logo": "images/afc.png",
-    "gespeeld": 4,
-    "gewonnen": 1,
-    "gelijk": 2,
-    "verloren": 1,
-    "voor": 11,
-    "tegen": 11,
-    "doelsaldo": 0,
-    "punten": 5
-  },
-  {
-    "positie": 9,
-    "club": "Zeeburgia avv 2",
-    "logo": "",
     "gespeeld": 5,
     "gewonnen": 1,
-    "gelijk": 1,
-    "verloren": 3,
-    "voor": 12,
-    "tegen": 20,
-    "doelsaldo": -8,
-    "punten": 4
+    "gelijk": 2,
+    "verloren": 2,
+    "voor": 11,
+    "tegen": 14,
+    "doelsaldo": -3,
+    "punten": 5
   },
   {
     "positie": 10,
-    "club": "FIT avv 2",
+    "club": "Zeeburgia avv 2",
     "logo": "",
-    "gespeeld": 3,
+    "gespeeld": 6,
     "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 2,
-    "voor": 5,
-    "tegen": 7,
-    "doelsaldo": -2,
-    "punten": 3
+    "gelijk": 1,
+    "verloren": 4,
+    "voor": 15,
+    "tegen": 24,
+    "doelsaldo": -9,
+    "punten": 4
   },
   {
     "positie": 11,
     "club": "Abcoude fc 3",
     "logo": "",
-    "gespeeld": 5,
+    "gespeeld": 6,
     "gewonnen": 0,
     "gelijk": 3,
-    "verloren": 2,
-    "voor": 6,
-    "tegen": 9,
-    "doelsaldo": -3,
+    "verloren": 3,
+    "voor": 8,
+    "tegen": 15,
+    "doelsaldo": -7,
     "punten": 3
   },
   {

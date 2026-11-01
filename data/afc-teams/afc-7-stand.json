@@ -40,6 +40,19 @@
   },
   {
     "positie": 4,
+    "club": "Sloterdijk avv. 4",
+    "logo": "images/sloterdijk.png",
+    "gespeeld": 6,
+    "gewonnen": 3,
+    "gelijk": 1,
+    "verloren": 2,
+    "voor": 23,
+    "tegen": 20,
+    "doelsaldo": 3,
+    "punten": 10
+  },
+  {
+    "positie": 5,
     "club": "VVA/Spartaan, 5",
     "logo": "",
     "gespeeld": 4,
@@ -52,7 +65,7 @@
     "punten": 9
   },
   {
-    "positie": 5,
+    "positie": 6,
     "club": "Buitenveldert sc. 3",
     "logo": "",
     "gespeeld": 3,
@@ -65,7 +78,7 @@
     "punten": 7
   },
   {
-    "positie": 6,
+    "positie": 7,
     "club": "TABA afc 5",
     "logo": "images/afc.png",
     "gespeeld": 5,
@@ -75,19 +88,6 @@
     "voor": 15,
     "tegen": 13,
     "doelsaldo": 2,
-    "punten": 7
-  },
-  {
-    "positie": 7,
-    "club": "Sloterdijk avv. 4",
-    "logo": "images/sloterdijk.png",
-    "gespeeld": 5,
-    "gewonnen": 2,
-    "gelijk": 1,
-    "verloren": 2,
-    "voor": 16,
-    "tegen": 20,
-    "doelsaldo": -4,
     "punten": 7
   },
   {
@@ -133,13 +133,13 @@
     "positie": 11,
     "club": "ASV Arsenal 6",
     "logo": "",
-    "gespeeld": 5,
+    "gespeeld": 6,
     "gewonnen": 1,
     "gelijk": 0,
-    "verloren": 4,
+    "verloren": 5,
     "voor": 9,
-    "tegen": 31,
-    "doelsaldo": -22,
+    "tegen": 38,
+    "doelsaldo": -29,
     "punten": 3
   },
   {

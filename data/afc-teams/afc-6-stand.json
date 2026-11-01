@@ -53,6 +53,19 @@
   },
   {
     "positie": 5,
+    "club": "SCPB'22 3",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 3,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 17,
+    "tegen": 12,
+    "doelsaldo": 5,
+    "punten": 9
+  },
+  {
+    "positie": 6,
     "club": "HYS 3",
     "logo": "",
     "gespeeld": 3,
@@ -62,19 +75,6 @@
     "voor": 10,
     "tegen": 7,
     "doelsaldo": 3,
-    "punten": 6
-  },
-  {
-    "positie": 6,
-    "club": "SCPB'22 3",
-    "logo": "",
-    "gespeeld": 4,
-    "gewonnen": 2,
-    "gelijk": 0,
-    "verloren": 2,
-    "voor": 12,
-    "tegen": 10,
-    "doelsaldo": 2,
     "punten": 6
   },
   {
@@ -120,13 +120,13 @@
     "positie": 10,
     "club": "WV-HEDW 4",
     "logo": "",
-    "gespeeld": 5,
+    "gespeeld": 6,
     "gewonnen": 1,
     "gelijk": 1,
-    "verloren": 3,
-    "voor": 13,
-    "tegen": 25,
-    "doelsaldo": -12,
+    "verloren": 4,
+    "voor": 15,
+    "tegen": 30,
+    "doelsaldo": -15,
     "punten": 4
   },
   {
