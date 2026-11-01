@@ -14,6 +14,19 @@
   },
   {
     "positie": 2,
+    "club": "DTA Fortius asv 2",
+    "logo": "images/fortius.png",
+    "gespeeld": 6,
+    "gewonnen": 3,
+    "gelijk": 1,
+    "verloren": 2,
+    "voor": 11,
+    "tegen": 13,
+    "doelsaldo": -2,
+    "punten": 10
+  },
+  {
+    "positie": 3,
     "club": "Swift 8",
     "logo": "",
     "gespeeld": 5,
@@ -26,7 +39,7 @@
     "punten": 9
   },
   {
-    "positie": 3,
+    "positie": 4,
     "club": "Swift 11",
     "logo": "",
     "gespeeld": 6,
@@ -39,7 +52,7 @@
     "punten": 9
   },
   {
-    "positie": 4,
+    "positie": 5,
     "club": "CTO '70 vv 2",
     "logo": "",
     "gespeeld": 4,
@@ -52,42 +65,29 @@
     "punten": 8
   },
   {
-    "positie": 5,
+    "positie": 6,
     "club": "Meer De sv. 3",
     "logo": "",
-    "gespeeld": 5,
+    "gespeeld": 6,
     "gewonnen": 2,
     "gelijk": 2,
-    "verloren": 1,
-    "voor": 12,
-    "tegen": 9,
-    "doelsaldo": 3,
+    "verloren": 2,
+    "voor": 14,
+    "tegen": 12,
+    "doelsaldo": 2,
     "punten": 8
   },
   {
-    "positie": 6,
+    "positie": 7,
     "club": "AFC 5",
     "logo": "images/afc.png",
-    "gespeeld": 4,
-    "gewonnen": 2,
-    "gelijk": 1,
-    "verloren": 1,
-    "voor": 15,
-    "tegen": 9,
-    "doelsaldo": 6,
-    "punten": 7
-  },
-  {
-    "positie": 7,
-    "club": "DTA Fortius asv 2",
-    "logo": "images/fortius.png",
     "gespeeld": 5,
     "gewonnen": 2,
     "gelijk": 1,
     "verloren": 2,
-    "voor": 8,
-    "tegen": 11,
-    "doelsaldo": -3,
+    "voor": 17,
+    "tegen": 12,
+    "doelsaldo": 5,
     "punten": 7
   },
   {
@@ -118,6 +118,19 @@
   },
   {
     "positie": 10,
+    "club": "Dijk De asv 2",
+    "logo": "",
+    "gespeeld": 3,
+    "gewonnen": 1,
+    "gelijk": 1,
+    "verloren": 1,
+    "voor": 5,
+    "tegen": 6,
+    "doelsaldo": -1,
+    "punten": 4
+  },
+  {
+    "positie": 11,
     "club": "Zeeburgia avv 2",
     "logo": "",
     "gespeeld": 6,
@@ -130,7 +143,7 @@
     "punten": 4
   },
   {
-    "positie": 11,
+    "positie": 12,
     "club": "Abcoude fc 3",
     "logo": "",
     "gespeeld": 6,
@@ -141,18 +154,5 @@
     "tegen": 15,
     "doelsaldo": -7,
     "punten": 3
-  },
-  {
-    "positie": 12,
-    "club": "Dijk De asv 2",
-    "logo": "",
-    "gespeeld": 2,
-    "gewonnen": 0,
-    "gelijk": 1,
-    "verloren": 1,
-    "voor": 2,
-    "tegen": 4,
-    "doelsaldo": -2,
-    "punten": 1
   }
 ]

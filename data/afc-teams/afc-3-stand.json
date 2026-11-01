@@ -1,6 +1,19 @@
 [
   {
     "positie": 1,
+    "club": "Sloterdijk avv. 2",
+    "logo": "images/sloterdijk.png",
+    "gespeeld": 6,
+    "gewonnen": 4,
+    "gelijk": 1,
+    "verloren": 1,
+    "voor": 17,
+    "tegen": 7,
+    "doelsaldo": 10,
+    "punten": 13
+  },
+  {
+    "positie": 2,
     "club": "Swift 6",
     "logo": "",
     "gespeeld": 5,
@@ -11,19 +24,6 @@
     "tegen": 7,
     "doelsaldo": 22,
     "punten": 12
-  },
-  {
-    "positie": 2,
-    "club": "Sloterdijk avv. 2",
-    "logo": "images/sloterdijk.png",
-    "gespeeld": 5,
-    "gewonnen": 3,
-    "gelijk": 1,
-    "verloren": 1,
-    "voor": 15,
-    "tegen": 6,
-    "doelsaldo": 9,
-    "punten": 10
   },
   {
     "positie": 3,
@@ -55,13 +55,13 @@
     "positie": 5,
     "club": "ASV Arsenal 3",
     "logo": "",
-    "gespeeld": 4,
+    "gespeeld": 5,
     "gewonnen": 3,
     "gelijk": 0,
-    "verloren": 1,
-    "voor": 12,
-    "tegen": 9,
-    "doelsaldo": 3,
+    "verloren": 2,
+    "voor": 13,
+    "tegen": 11,
+    "doelsaldo": 2,
     "punten": 9
   },
   {
