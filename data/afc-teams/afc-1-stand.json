@@ -29,13 +29,13 @@
     "positie": 3,
     "club": "AFC 1",
     "logo": "images/afc.png",
-    "gespeeld": 4,
+    "gespeeld": 5,
     "gewonnen": 4,
     "gelijk": 0,
-    "verloren": 0,
-    "voor": 14,
-    "tegen": 2,
-    "doelsaldo": 12,
+    "verloren": 1,
+    "voor": 16,
+    "tegen": 6,
+    "doelsaldo": 10,
     "punten": 12
   },
   {
@@ -79,6 +79,19 @@
   },
   {
     "positie": 7,
+    "club": "GeuzenMiddenmeer 1",
+    "logo": "",
+    "gespeeld": 6,
+    "gewonnen": 2,
+    "gelijk": 1,
+    "verloren": 3,
+    "voor": 14,
+    "tegen": 18,
+    "doelsaldo": -4,
+    "punten": 7
+  },
+  {
+    "positie": 8,
     "club": "Altius 1",
     "logo": "",
     "gespeeld": 5,
@@ -91,7 +104,7 @@
     "punten": 6
   },
   {
-    "positie": 8,
+    "positie": 9,
     "club": "FC Weesp 1",
     "logo": "",
     "gespeeld": 5,
@@ -104,7 +117,7 @@
     "punten": 6
   },
   {
-    "positie": 9,
+    "positie": 10,
     "club": "Almere FC 1",
     "logo": "",
     "gespeeld": 5,
@@ -117,7 +130,7 @@
     "punten": 5
   },
   {
-    "positie": 10,
+    "positie": 11,
     "club": "Nederhorst vv 1",
     "logo": "",
     "gespeeld": 6,
@@ -128,19 +141,6 @@
     "tegen": 16,
     "doelsaldo": -7,
     "punten": 5
-  },
-  {
-    "positie": 11,
-    "club": "GeuzenMiddenmeer 1",
-    "logo": "",
-    "gespeeld": 5,
-    "gewonnen": 1,
-    "gelijk": 1,
-    "verloren": 3,
-    "voor": 10,
-    "tegen": 16,
-    "doelsaldo": -6,
-    "punten": 4
   },
   {
     "positie": 12,
