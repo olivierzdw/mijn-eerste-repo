@@ -1,12 +1,5 @@
 [
   {
-    "datum": "zo 31 oktober 12:30",
-    "thuis": "OSV MO13-1",
-    "thuisLogo": "",
-    "uit": "AFC MO13-1",
-    "uitLogo": "images/afc.png"
-  },
-  {
     "datum": "za 7 november 09:00",
     "thuis": "IVV MO13-1",
     "thuisLogo": "",
@@ -33,5 +26,12 @@
     "thuisLogo": "images/afc.png",
     "uit": "Atletico Club Amsterdam MO13-1",
     "uitLogo": ""
+  },
+  {
+    "datum": "za 5 december 09:30",
+    "thuis": "BSM sv MO13-1",
+    "thuisLogo": "",
+    "uit": "AFC MO13-1",
+    "uitLogo": "images/afc.png"
   }
 ]
