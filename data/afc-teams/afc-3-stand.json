@@ -16,43 +16,17 @@
     "positie": 2,
     "club": "Swift 6",
     "logo": "",
-    "gespeeld": 5,
-    "gewonnen": 4,
-    "gelijk": 0,
-    "verloren": 1,
-    "voor": 29,
-    "tegen": 7,
-    "doelsaldo": 22,
-    "punten": 12
-  },
-  {
-    "positie": 3,
-    "club": "Rivierwijkers 3",
-    "logo": "",
-    "gespeeld": 6,
-    "gewonnen": 3,
-    "gelijk": 1,
-    "verloren": 2,
-    "voor": 18,
-    "tegen": 17,
-    "doelsaldo": 1,
-    "punten": 10
-  },
-  {
-    "positie": 4,
-    "club": "AFC 3",
-    "logo": "images/afc.png",
     "gespeeld": 4,
     "gewonnen": 3,
     "gelijk": 0,
     "verloren": 1,
-    "voor": 16,
-    "tegen": 9,
-    "doelsaldo": 7,
+    "voor": 20,
+    "tegen": 6,
+    "doelsaldo": 14,
     "punten": 9
   },
   {
-    "positie": 5,
+    "positie": 3,
     "club": "ASV Arsenal 3",
     "logo": "",
     "gespeeld": 5,
@@ -65,20 +39,33 @@
     "punten": 9
   },
   {
-    "positie": 6,
-    "club": "TOS-Actief 3",
+    "positie": 4,
+    "club": "Rivierwijkers 3",
     "logo": "",
-    "gespeeld": 4,
+    "gespeeld": 5,
+    "gewonnen": 2,
+    "gelijk": 1,
+    "verloren": 2,
+    "voor": 12,
+    "tegen": 15,
+    "doelsaldo": -3,
+    "punten": 7
+  },
+  {
+    "positie": 5,
+    "club": "AFC 3",
+    "logo": "images/afc.png",
+    "gespeeld": 3,
     "gewonnen": 2,
     "gelijk": 0,
-    "verloren": 2,
-    "voor": 11,
-    "tegen": 9,
-    "doelsaldo": 2,
+    "verloren": 1,
+    "voor": 9,
+    "tegen": 6,
+    "doelsaldo": 3,
     "punten": 6
   },
   {
-    "positie": 7,
+    "positie": 6,
     "club": "PVCV 3",
     "logo": "",
     "gespeeld": 5,
@@ -91,20 +78,7 @@
     "punten": 6
   },
   {
-    "positie": 8,
-    "club": "SCPB'22 2",
-    "logo": "",
-    "gespeeld": 6,
-    "gewonnen": 1,
-    "gelijk": 1,
-    "verloren": 4,
-    "voor": 10,
-    "tegen": 22,
-    "doelsaldo": -12,
-    "punten": 4
-  },
-  {
-    "positie": 9,
+    "positie": 7,
     "club": "VVA/Spartaan, 2",
     "logo": "",
     "gespeeld": 2,
@@ -117,7 +91,20 @@
     "punten": 3
   },
   {
-    "positie": 10,
+    "positie": 8,
+    "club": "TOS-Actief 3",
+    "logo": "",
+    "gespeeld": 3,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 6,
+    "tegen": 9,
+    "doelsaldo": -3,
+    "punten": 3
+  },
+  {
+    "positie": 9,
     "club": "SDZ 5",
     "logo": "",
     "gespeeld": 5,
@@ -130,7 +117,7 @@
     "punten": 3
   },
   {
-    "positie": 11,
+    "positie": 10,
     "club": "DWS afc 2",
     "logo": "images/afc.png",
     "gespeeld": 3,
@@ -143,16 +130,16 @@
     "punten": 2
   },
   {
-    "positie": 12,
-    "club": "Hoofddorp s.v. 3",
+    "positie": 11,
+    "club": "SCPB'22 2",
     "logo": "",
     "gespeeld": 5,
     "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 5,
-    "voor": 7,
-    "tegen": 32,
-    "doelsaldo": -25,
-    "punten": 0
+    "gelijk": 1,
+    "verloren": 4,
+    "voor": 5,
+    "tegen": 21,
+    "doelsaldo": -16,
+    "punten": 1
   }
 ]
