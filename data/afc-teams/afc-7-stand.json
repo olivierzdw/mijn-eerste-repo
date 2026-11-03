@@ -14,6 +14,19 @@
   },
   {
     "positie": 2,
+    "club": "HYS 4",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 5,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 25,
+    "tegen": 9,
+    "doelsaldo": 16,
+    "punten": 15
+  },
+  {
+    "positie": 3,
     "club": "Hoofddorp s.v. 4",
     "logo": "",
     "gespeeld": 6,
@@ -24,19 +37,6 @@
     "tegen": 8,
     "doelsaldo": 15,
     "punten": 15
-  },
-  {
-    "positie": 3,
-    "club": "HYS 4",
-    "logo": "",
-    "gespeeld": 4,
-    "gewonnen": 4,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 20,
-    "tegen": 9,
-    "doelsaldo": 11,
-    "punten": 12
   },
   {
     "positie": 4,
@@ -159,13 +159,13 @@
     "positie": 13,
     "club": "Zeeburgia avv 9",
     "logo": "",
-    "gespeeld": 1,
+    "gespeeld": 2,
     "gewonnen": 0,
     "gelijk": 0,
-    "verloren": 1,
+    "verloren": 2,
     "voor": 1,
-    "tegen": 6,
-    "doelsaldo": -5,
+    "tegen": 11,
+    "doelsaldo": -10,
     "punten": 0
   },
   {
