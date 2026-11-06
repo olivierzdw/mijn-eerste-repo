@@ -144,6 +144,19 @@
   },
   {
     "positie": 12,
+    "club": "PEC Zwolle",
+    "logo": "https://crests.football-data.org/684.png",
+    "gespeeld": 12,
+    "punten": 12,
+    "gewonnen": 3,
+    "gelijk": 3,
+    "verloren": 6,
+    "doelsaldo": -11,
+    "voor": 13,
+    "tegen": 24
+  },
+  {
+    "positie": 13,
     "club": "FC Utrecht",
     "logo": "https://crests.football-data.org/676.png",
     "gespeeld": 11,
@@ -156,7 +169,7 @@
     "tegen": 31
   },
   {
-    "positie": 13,
+    "positie": 14,
     "club": "NEC",
     "logo": "https://crests.football-data.org/1915.png",
     "gespeeld": 11,
@@ -167,19 +180,6 @@
     "doelsaldo": -2,
     "voor": 17,
     "tegen": 19
-  },
-  {
-    "positie": 14,
-    "club": "PEC Zwolle",
-    "logo": "https://crests.football-data.org/684.png",
-    "gespeeld": 11,
-    "punten": 11,
-    "gewonnen": 3,
-    "gelijk": 2,
-    "verloren": 6,
-    "doelsaldo": -11,
-    "voor": 12,
-    "tegen": 23
   },
   {
     "positie": 15,
@@ -224,13 +224,13 @@
     "positie": 18,
     "club": "Willem II Tilburg",
     "logo": "https://crests.football-data.org/672.png",
-    "gespeeld": 11,
-    "punten": 2,
+    "gespeeld": 12,
+    "punten": 3,
     "gewonnen": 0,
-    "gelijk": 2,
+    "gelijk": 3,
     "verloren": 9,
     "doelsaldo": -29,
-    "voor": 10,
-    "tegen": 39
+    "voor": 11,
+    "tegen": 40
   }
 ]
