@@ -16204,6 +16204,17 @@
       "uitLogo": "https://crests.football-data.org/1769.png",
       "thuisScore": 0,
       "uitScore": 0
+    },
+    {
+      "id": 555077,
+      "datum": "do 5 november",
+      "datumIso": "2026-11-05",
+      "thuis": "SE Palmeiras",
+      "thuisLogo": "https://crests.football-data.org/1769.png",
+      "uit": "Clube do Remo",
+      "uitLogo": "https://crests.football-data.org/4287.png",
+      "thuisScore": 6,
+      "uitScore": 1
     }
   ],
   "4241": [
@@ -18438,6 +18449,17 @@
       "uitLogo": "https://crests.football-data.org/1770.png",
       "thuisScore": 2,
       "uitScore": 1
+    },
+    {
+      "id": 555077,
+      "datum": "do 5 november",
+      "datumIso": "2026-11-05",
+      "thuis": "SE Palmeiras",
+      "thuisLogo": "https://crests.football-data.org/1769.png",
+      "uit": "Clube do Remo",
+      "uitLogo": "https://crests.football-data.org/4287.png",
+      "thuisScore": 6,
+      "uitScore": 1
     }
   ],
   "1765": [
@@ -20659,6 +20681,17 @@
       "thuisLogo": "https://crests.football-data.org/1777.png",
       "uit": "São Paulo FC",
       "uitLogo": "https://crests.football-data.org/1776.png",
+      "thuisScore": 3,
+      "uitScore": 2
+    },
+    {
+      "id": 555074,
+      "datum": "vr 6 november",
+      "datumIso": "2026-11-06",
+      "thuis": "Cruzeiro EC",
+      "thuisLogo": "https://crests.football-data.org/1771.png",
+      "uit": "EC Bahia",
+      "uitLogo": "https://crests.football-data.org/1777.png",
       "thuisScore": 3,
       "uitScore": 2
     }
@@ -22895,6 +22928,17 @@
       "uitLogo": "https://crests.football-data.org/1771.png",
       "thuisScore": 0,
       "uitScore": 1
+    },
+    {
+      "id": 555074,
+      "datum": "vr 6 november",
+      "datumIso": "2026-11-06",
+      "thuis": "Cruzeiro EC",
+      "thuisLogo": "https://crests.football-data.org/1771.png",
+      "uit": "EC Bahia",
+      "uitLogo": "https://crests.football-data.org/1777.png",
+      "thuisScore": 3,
+      "uitScore": 2
     }
   ],
   "76": [
