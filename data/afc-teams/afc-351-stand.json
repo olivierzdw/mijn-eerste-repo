@@ -3,14 +3,14 @@
     "positie": 1,
     "club": "Geinburgia sv. 35+1",
     "logo": "",
-    "gespeeld": 5,
-    "gewonnen": 4,
+    "gespeeld": 6,
+    "gewonnen": 5,
     "gelijk": 0,
     "verloren": 1,
-    "voor": 20,
-    "tegen": 9,
-    "doelsaldo": 11,
-    "punten": 12
+    "voor": 26,
+    "tegen": 11,
+    "doelsaldo": 15,
+    "punten": 15
   },
   {
     "positie": 2,
@@ -133,13 +133,13 @@
     "positie": 11,
     "club": "VVZ '49 35+1",
     "logo": "",
-    "gespeeld": 4,
+    "gespeeld": 5,
     "gewonnen": 0,
     "gelijk": 0,
-    "verloren": 4,
-    "voor": 7,
-    "tegen": 21,
-    "doelsaldo": -14,
+    "verloren": 5,
+    "voor": 9,
+    "tegen": 27,
+    "doelsaldo": -18,
     "punten": 0
   }
 ]

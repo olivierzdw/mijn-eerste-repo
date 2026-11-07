@@ -27,6 +27,19 @@
   },
   {
     "positie": 3,
+    "club": "FC Weesp 2",
+    "logo": "",
+    "gespeeld": 6,
+    "gewonnen": 4,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 20,
+    "tegen": 10,
+    "doelsaldo": 10,
+    "punten": 12
+  },
+  {
+    "positie": 4,
     "club": "Swift 4",
     "logo": "",
     "gespeeld": 5,
@@ -39,7 +52,7 @@
     "punten": 10
   },
   {
-    "positie": 4,
+    "positie": 5,
     "club": "DTA Fortius asv 2",
     "logo": "images/fortius.png",
     "gespeeld": 6,
@@ -50,19 +63,6 @@
     "tegen": 15,
     "doelsaldo": 8,
     "punten": 10
-  },
-  {
-    "positie": 5,
-    "club": "FC Weesp 2",
-    "logo": "",
-    "gespeeld": 5,
-    "gewonnen": 3,
-    "gelijk": 0,
-    "verloren": 2,
-    "voor": 13,
-    "tegen": 8,
-    "doelsaldo": 5,
-    "punten": 9
   },
   {
     "positie": 6,
@@ -120,13 +120,13 @@
     "positie": 10,
     "club": "Zuidoost United 2",
     "logo": "",
-    "gespeeld": 5,
+    "gespeeld": 6,
     "gewonnen": 1,
     "gelijk": 0,
-    "verloren": 4,
-    "voor": 11,
-    "tegen": 19,
-    "doelsaldo": -8,
+    "verloren": 5,
+    "voor": 13,
+    "tegen": 26,
+    "doelsaldo": -13,
     "punten": 3
   },
   {

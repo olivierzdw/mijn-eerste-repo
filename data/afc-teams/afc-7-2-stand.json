@@ -66,15 +66,15 @@
   },
   {
     "positie": 6,
-    "club": "FC Amsterdam 5",
+    "club": "Muiderberg sc. 2",
     "logo": "",
     "gespeeld": 6,
     "gewonnen": 2,
     "gelijk": 1,
     "verloren": 3,
-    "voor": 12,
-    "tegen": 12,
-    "doelsaldo": 0,
+    "voor": 15,
+    "tegen": 14,
+    "doelsaldo": 1,
     "punten": 7
   },
   {
@@ -92,6 +92,32 @@
   },
   {
     "positie": 8,
+    "club": "FC Amsterdam 5",
+    "logo": "",
+    "gespeeld": 7,
+    "gewonnen": 2,
+    "gelijk": 1,
+    "verloren": 4,
+    "voor": 15,
+    "tegen": 17,
+    "doelsaldo": -2,
+    "punten": 7
+  },
+  {
+    "positie": 9,
+    "club": "TOS-Actief 3",
+    "logo": "",
+    "gespeeld": 5,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 3,
+    "voor": 15,
+    "tegen": 16,
+    "doelsaldo": -1,
+    "punten": 6
+  },
+  {
+    "positie": 10,
     "club": "WV-HEDW 8",
     "logo": "",
     "gespeeld": 6,
@@ -104,7 +130,7 @@
     "punten": 6
   },
   {
-    "positie": 9,
+    "positie": 11,
     "club": "Wartburgia asv 5",
     "logo": "",
     "gespeeld": 6,
@@ -117,42 +143,16 @@
     "punten": 6
   },
   {
-    "positie": 10,
-    "club": "Muiderberg sc. 2",
-    "logo": "",
-    "gespeeld": 5,
-    "gewonnen": 1,
-    "gelijk": 1,
-    "verloren": 3,
-    "voor": 10,
-    "tegen": 11,
-    "doelsaldo": -1,
-    "punten": 4
-  },
-  {
-    "positie": 11,
+    "positie": 12,
     "club": "Zeeburgia avv 2",
     "logo": "",
-    "gespeeld": 5,
+    "gespeeld": 6,
     "gewonnen": 1,
     "gelijk": 1,
-    "verloren": 3,
-    "voor": 6,
-    "tegen": 11,
-    "doelsaldo": -5,
+    "verloren": 4,
+    "voor": 7,
+    "tegen": 16,
+    "doelsaldo": -9,
     "punten": 4
-  },
-  {
-    "positie": 12,
-    "club": "TOS-Actief 3",
-    "logo": "",
-    "gespeeld": 4,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 3,
-    "voor": 10,
-    "tegen": 15,
-    "doelsaldo": -5,
-    "punten": 3
   }
 ]

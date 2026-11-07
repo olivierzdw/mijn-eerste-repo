@@ -27,16 +27,16 @@
   },
   {
     "positie": 3,
-    "club": "AMVJ 1",
+    "club": "Ouderkerk sv. 1",
     "logo": "",
-    "gespeeld": 5,
+    "gespeeld": 6,
     "gewonnen": 4,
-    "gelijk": 0,
+    "gelijk": 1,
     "verloren": 1,
-    "voor": 14,
-    "tegen": 9,
-    "doelsaldo": 5,
-    "punten": 12
+    "voor": 20,
+    "tegen": 13,
+    "doelsaldo": 7,
+    "punten": 13
   },
   {
     "positie": 4,
@@ -53,6 +53,19 @@
   },
   {
     "positie": 5,
+    "club": "AMVJ 1",
+    "logo": "",
+    "gespeeld": 6,
+    "gewonnen": 4,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 15,
+    "tegen": 11,
+    "doelsaldo": 4,
+    "punten": 12
+  },
+  {
+    "positie": 6,
     "club": "FC Failliet/Finesse 1",
     "logo": "",
     "gespeeld": 7,
@@ -63,19 +76,6 @@
     "tegen": 10,
     "doelsaldo": 6,
     "punten": 11
-  },
-  {
-    "positie": 6,
-    "club": "Ouderkerk sv. 1",
-    "logo": "",
-    "gespeeld": 5,
-    "gewonnen": 3,
-    "gelijk": 1,
-    "verloren": 1,
-    "voor": 18,
-    "tegen": 12,
-    "doelsaldo": 6,
-    "punten": 10
   },
   {
     "positie": 7,
@@ -105,6 +105,32 @@
   },
   {
     "positie": 9,
+    "club": "Altius 1",
+    "logo": "",
+    "gespeeld": 6,
+    "gewonnen": 1,
+    "gelijk": 4,
+    "verloren": 1,
+    "voor": 14,
+    "tegen": 13,
+    "doelsaldo": 1,
+    "punten": 7
+  },
+  {
+    "positie": 10,
+    "club": "Almere FC 1",
+    "logo": "",
+    "gespeeld": 7,
+    "gewonnen": 1,
+    "gelijk": 4,
+    "verloren": 2,
+    "voor": 18,
+    "tegen": 20,
+    "doelsaldo": -2,
+    "punten": 7
+  },
+  {
+    "positie": 11,
     "club": "GeuzenMiddenmeer 1",
     "logo": "",
     "gespeeld": 7,
@@ -115,32 +141,6 @@
     "tegen": 24,
     "doelsaldo": -9,
     "punten": 7
-  },
-  {
-    "positie": 10,
-    "club": "Altius 1",
-    "logo": "",
-    "gespeeld": 5,
-    "gewonnen": 1,
-    "gelijk": 3,
-    "verloren": 1,
-    "voor": 10,
-    "tegen": 9,
-    "doelsaldo": 1,
-    "punten": 6
-  },
-  {
-    "positie": 11,
-    "club": "Almere FC 1",
-    "logo": "",
-    "gespeeld": 6,
-    "gewonnen": 1,
-    "gelijk": 3,
-    "verloren": 2,
-    "voor": 14,
-    "tegen": 16,
-    "doelsaldo": -2,
-    "punten": 6
   },
   {
     "positie": 12,

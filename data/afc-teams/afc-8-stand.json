@@ -14,6 +14,19 @@
   },
   {
     "positie": 2,
+    "club": "Volendam (rkav) 4",
+    "logo": "",
+    "gespeeld": 6,
+    "gewonnen": 3,
+    "gelijk": 2,
+    "verloren": 1,
+    "voor": 16,
+    "tegen": 15,
+    "doelsaldo": 1,
+    "punten": 11
+  },
+  {
+    "positie": 3,
     "club": "OSV 2",
     "logo": "",
     "gespeeld": 5,
@@ -26,7 +39,7 @@
     "punten": 10
   },
   {
-    "positie": 3,
+    "positie": 4,
     "club": "VVA/Spartaan 2",
     "logo": "",
     "gespeeld": 6,
@@ -39,7 +52,7 @@
     "punten": 10
   },
   {
-    "positie": 4,
+    "positie": 5,
     "club": "Kadoelen sv. 4",
     "logo": "",
     "gespeeld": 5,
@@ -52,29 +65,16 @@
     "punten": 9
   },
   {
-    "positie": 5,
+    "positie": 6,
     "club": "AGB 2",
     "logo": "",
-    "gespeeld": 5,
+    "gespeeld": 6,
     "gewonnen": 2,
     "gelijk": 2,
-    "verloren": 1,
-    "voor": 13,
-    "tegen": 5,
-    "doelsaldo": 8,
-    "punten": 8
-  },
-  {
-    "positie": 6,
-    "club": "Volendam (rkav) 4",
-    "logo": "",
-    "gespeeld": 5,
-    "gewonnen": 2,
-    "gelijk": 2,
-    "verloren": 1,
-    "voor": 13,
-    "tegen": 13,
-    "doelsaldo": 0,
+    "verloren": 2,
+    "voor": 15,
+    "tegen": 8,
+    "doelsaldo": 7,
     "punten": 8
   },
   {
