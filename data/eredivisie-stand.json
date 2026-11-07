@@ -92,6 +92,19 @@
   },
   {
     "positie": 8,
+    "club": "Go Ahead Eagles",
+    "logo": "https://crests.football-data.org/718.png",
+    "gespeeld": 12,
+    "punten": 17,
+    "gewonnen": 4,
+    "gelijk": 5,
+    "verloren": 3,
+    "doelsaldo": -3,
+    "voor": 24,
+    "tegen": 27
+  },
+  {
+    "positie": 9,
     "club": "Groningen",
     "logo": "https://crests.football-data.org/677.png",
     "gespeeld": 11,
@@ -104,7 +117,7 @@
     "tegen": 24
   },
   {
-    "positie": 9,
+    "positie": 10,
     "club": "SC Cambuur-Leeuwarden",
     "logo": "https://crests.football-data.org/1909.png",
     "gespeeld": 11,
@@ -115,19 +128,6 @@
     "doelsaldo": 1,
     "voor": 23,
     "tegen": 22
-  },
-  {
-    "positie": 10,
-    "club": "Go Ahead Eagles",
-    "logo": "https://crests.football-data.org/718.png",
-    "gespeeld": 11,
-    "punten": 14,
-    "gewonnen": 3,
-    "gelijk": 5,
-    "verloren": 3,
-    "doelsaldo": -4,
-    "voor": 23,
-    "tegen": 27
   },
   {
     "positie": 11,
@@ -185,14 +185,14 @@
     "positie": 15,
     "club": "SBV Excelsior",
     "logo": "https://crests.football-data.org/670.png",
-    "gespeeld": 11,
+    "gespeeld": 12,
     "punten": 11,
     "gewonnen": 3,
     "gelijk": 2,
-    "verloren": 6,
-    "doelsaldo": -12,
+    "verloren": 7,
+    "doelsaldo": -13,
     "voor": 16,
-    "tegen": 28
+    "tegen": 29
   },
   {
     "positie": 16,
