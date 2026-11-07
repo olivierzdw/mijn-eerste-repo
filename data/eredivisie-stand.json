@@ -74,8 +74,8 @@
     "gelijk": 5,
     "verloren": 2,
     "doelsaldo": 0,
-    "voor": 18,
-    "tegen": 18
+    "voor": 20,
+    "tegen": 20
   },
   {
     "positie": 7,
@@ -133,14 +133,14 @@
     "positie": 11,
     "club": "Sparta",
     "logo": "https://crests.football-data.org/6806.png",
-    "gespeeld": 11,
+    "gespeeld": 12,
     "punten": 12,
     "gewonnen": 3,
     "gelijk": 3,
-    "verloren": 5,
-    "doelsaldo": -6,
-    "voor": 20,
-    "tegen": 26
+    "verloren": 6,
+    "doelsaldo": -8,
+    "voor": 21,
+    "tegen": 29
   },
   {
     "positie": 12,
@@ -204,21 +204,21 @@
     "gelijk": 4,
     "verloren": 6,
     "doelsaldo": -7,
-    "voor": 16,
-    "tegen": 23
+    "voor": 18,
+    "tegen": 25
   },
   {
     "positie": 17,
     "club": "ADO Den Haag",
     "logo": "https://crests.football-data.org/680.png",
-    "gespeeld": 11,
-    "punten": 6,
-    "gewonnen": 1,
+    "gespeeld": 12,
+    "punten": 9,
+    "gewonnen": 2,
     "gelijk": 3,
     "verloren": 7,
-    "doelsaldo": -11,
-    "voor": 13,
-    "tegen": 24
+    "doelsaldo": -9,
+    "voor": 16,
+    "tegen": 25
   },
   {
     "positie": 18,
