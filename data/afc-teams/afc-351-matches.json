@@ -1,12 +1,5 @@
 [
   {
-    "datum": "za 7 november 14:00",
-    "thuis": "Meteoor De sv. 35+1",
-    "thuisLogo": "",
-    "uit": "AFC 35+1",
-    "uitLogo": "images/afc.png"
-  },
-  {
     "datum": "za 21 november 13:00",
     "thuis": "VVA/Spartaan 35+1",
     "thuisLogo": "",
@@ -18,6 +11,13 @@
     "thuis": "AFC 35+1",
     "thuisLogo": "images/afc.png",
     "uit": "ZSGOWMS 35+1",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 5 december 14:00",
+    "thuis": "AFC 35+1",
+    "thuisLogo": "images/afc.png",
+    "uit": "Real Sranang sv. 35+1",
     "uitLogo": ""
   }
 ]

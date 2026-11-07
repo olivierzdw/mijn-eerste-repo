@@ -3,30 +3,43 @@
     "positie": 1,
     "club": "GeuzenMiddenmeer 4",
     "logo": "",
-    "gespeeld": 6,
+    "gespeeld": 7,
     "gewonnen": 5,
     "gelijk": 1,
-    "verloren": 0,
-    "voor": 14,
-    "tegen": 5,
-    "doelsaldo": 9,
+    "verloren": 1,
+    "voor": 15,
+    "tegen": 14,
+    "doelsaldo": 1,
     "punten": 16
   },
   {
     "positie": 2,
     "club": "DVVA csv. 5",
     "logo": "",
-    "gespeeld": 6,
-    "gewonnen": 3,
+    "gespeeld": 7,
+    "gewonnen": 4,
     "gelijk": 2,
     "verloren": 1,
-    "voor": 12,
-    "tegen": 8,
-    "doelsaldo": 4,
-    "punten": 11
+    "voor": 14,
+    "tegen": 9,
+    "doelsaldo": 5,
+    "punten": 14
   },
   {
     "positie": 3,
+    "club": "RAP sv. 2",
+    "logo": "",
+    "gespeeld": 6,
+    "gewonnen": 4,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 24,
+    "tegen": 12,
+    "doelsaldo": 12,
+    "punten": 12
+  },
+  {
+    "positie": 4,
     "club": "AFC 7",
     "logo": "images/afc.png",
     "gespeeld": 5,
@@ -37,19 +50,6 @@
     "tegen": 6,
     "doelsaldo": 4,
     "punten": 10
-  },
-  {
-    "positie": 4,
-    "club": "RAP sv. 2",
-    "logo": "",
-    "gespeeld": 5,
-    "gewonnen": 3,
-    "gelijk": 0,
-    "verloren": 2,
-    "voor": 15,
-    "tegen": 11,
-    "doelsaldo": 4,
-    "punten": 9
   },
   {
     "positie": 5,
@@ -66,19 +66,6 @@
   },
   {
     "positie": 6,
-    "club": "JOS Watergraafsmeer 4",
-    "logo": "",
-    "gespeeld": 5,
-    "gewonnen": 2,
-    "gelijk": 1,
-    "verloren": 2,
-    "voor": 12,
-    "tegen": 14,
-    "doelsaldo": -2,
-    "punten": 7
-  },
-  {
-    "positie": 7,
     "club": "FC Amsterdam 5",
     "logo": "",
     "gespeeld": 6,
@@ -91,20 +78,46 @@
     "punten": 7
   },
   {
-    "positie": 8,
-    "club": "Wartburgia asv 5",
+    "positie": 7,
+    "club": "JOS Watergraafsmeer 4",
     "logo": "",
-    "gespeeld": 5,
+    "gespeeld": 6,
+    "gewonnen": 2,
+    "gelijk": 1,
+    "verloren": 3,
+    "voor": 15,
+    "tegen": 18,
+    "doelsaldo": -3,
+    "punten": 7
+  },
+  {
+    "positie": 8,
+    "club": "WV-HEDW 8",
+    "logo": "",
+    "gespeeld": 6,
     "gewonnen": 2,
     "gelijk": 0,
-    "verloren": 3,
-    "voor": 10,
-    "tegen": 16,
-    "doelsaldo": -6,
+    "verloren": 4,
+    "voor": 9,
+    "tegen": 13,
+    "doelsaldo": -4,
     "punten": 6
   },
   {
     "positie": 9,
+    "club": "Wartburgia asv 5",
+    "logo": "",
+    "gespeeld": 6,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 4,
+    "voor": 11,
+    "tegen": 18,
+    "doelsaldo": -7,
+    "punten": 6
+  },
+  {
+    "positie": 10,
     "club": "Muiderberg sc. 2",
     "logo": "",
     "gespeeld": 5,
@@ -117,7 +130,7 @@
     "punten": 4
   },
   {
-    "positie": 10,
+    "positie": 11,
     "club": "Zeeburgia avv 2",
     "logo": "",
     "gespeeld": 5,
@@ -130,7 +143,7 @@
     "punten": 4
   },
   {
-    "positie": 11,
+    "positie": 12,
     "club": "TOS-Actief 3",
     "logo": "",
     "gespeeld": 4,
@@ -139,19 +152,6 @@
     "verloren": 3,
     "voor": 10,
     "tegen": 15,
-    "doelsaldo": -5,
-    "punten": 3
-  },
-  {
-    "positie": 12,
-    "club": "WV-HEDW 8",
-    "logo": "",
-    "gespeeld": 5,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 4,
-    "voor": 5,
-    "tegen": 10,
     "doelsaldo": -5,
     "punten": 3
   }

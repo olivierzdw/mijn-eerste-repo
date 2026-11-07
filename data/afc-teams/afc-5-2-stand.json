@@ -3,14 +3,14 @@
     "positie": 1,
     "club": "Swift 6",
     "logo": "",
-    "gespeeld": 5,
-    "gewonnen": 4,
+    "gespeeld": 6,
+    "gewonnen": 5,
     "gelijk": 1,
     "verloren": 0,
-    "voor": 21,
+    "voor": 27,
     "tegen": 7,
-    "doelsaldo": 14,
-    "punten": 13
+    "doelsaldo": 20,
+    "punten": 16
   },
   {
     "positie": 2,
@@ -29,17 +29,30 @@
     "positie": 3,
     "club": "WV-HEDW 6",
     "logo": "",
-    "gespeeld": 4,
+    "gespeeld": 5,
     "gewonnen": 3,
-    "gelijk": 1,
+    "gelijk": 2,
     "verloren": 0,
-    "voor": 14,
-    "tegen": 8,
+    "voor": 15,
+    "tegen": 9,
     "doelsaldo": 6,
-    "punten": 10
+    "punten": 11
   },
   {
     "positie": 4,
+    "club": "GeuzenMiddenmeer 3",
+    "logo": "",
+    "gespeeld": 6,
+    "gewonnen": 3,
+    "gelijk": 1,
+    "verloren": 2,
+    "voor": 11,
+    "tegen": 11,
+    "doelsaldo": 0,
+    "punten": 10
+  },
+  {
+    "positie": 5,
     "club": "JOS Watergraafsmeer 3",
     "logo": "",
     "gespeeld": 5,
@@ -52,7 +65,7 @@
     "punten": 9
   },
   {
-    "positie": 5,
+    "positie": 6,
     "club": "Sporting Martinus 3",
     "logo": "",
     "gespeeld": 5,
@@ -65,7 +78,7 @@
     "punten": 9
   },
   {
-    "positie": 6,
+    "positie": 7,
     "club": "TABA afc 3",
     "logo": "images/afc.png",
     "gespeeld": 5,
@@ -78,7 +91,7 @@
     "punten": 9
   },
   {
-    "positie": 7,
+    "positie": 8,
     "club": "ASV Arsenal 6",
     "logo": "",
     "gespeeld": 5,
@@ -88,19 +101,6 @@
     "voor": 14,
     "tegen": 8,
     "doelsaldo": 6,
-    "punten": 9
-  },
-  {
-    "positie": 8,
-    "club": "GeuzenMiddenmeer 3",
-    "logo": "",
-    "gespeeld": 5,
-    "gewonnen": 3,
-    "gelijk": 0,
-    "verloren": 2,
-    "voor": 10,
-    "tegen": 10,
-    "doelsaldo": 0,
     "punten": 9
   },
   {
@@ -172,13 +172,13 @@
     "positie": 14,
     "club": "Kadoelen sv. 2",
     "logo": "",
-    "gespeeld": 6,
+    "gespeeld": 7,
     "gewonnen": 0,
     "gelijk": 0,
-    "verloren": 6,
+    "verloren": 7,
     "voor": 6,
-    "tegen": 24,
-    "doelsaldo": -18,
+    "tegen": 30,
+    "doelsaldo": -24,
     "punten": 0
   }
 ]
