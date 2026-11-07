@@ -3,43 +3,30 @@
     "positie": 1,
     "club": "AH'78 1",
     "logo": "",
-    "gespeeld": 5,
+    "gespeeld": 6,
     "gewonnen": 5,
-    "gelijk": 0,
+    "gelijk": 1,
     "verloren": 0,
-    "voor": 16,
-    "tegen": 1,
+    "voor": 18,
+    "tegen": 3,
     "doelsaldo": 15,
-    "punten": 15
+    "punten": 16
   },
   {
     "positie": 2,
     "club": "Eemnes 1",
     "logo": "",
-    "gespeeld": 6,
+    "gespeeld": 7,
     "gewonnen": 4,
-    "gelijk": 1,
+    "gelijk": 2,
     "verloren": 1,
-    "voor": 18,
-    "tegen": 9,
+    "voor": 20,
+    "tegen": 11,
     "doelsaldo": 9,
-    "punten": 13
+    "punten": 14
   },
   {
     "positie": 3,
-    "club": "AFC 1",
-    "logo": "images/afc.png",
-    "gespeeld": 5,
-    "gewonnen": 4,
-    "gelijk": 0,
-    "verloren": 1,
-    "voor": 16,
-    "tegen": 6,
-    "doelsaldo": 10,
-    "punten": 12
-  },
-  {
-    "positie": 4,
     "club": "AMVJ 1",
     "logo": "",
     "gespeeld": 5,
@@ -52,7 +39,33 @@
     "punten": 12
   },
   {
+    "positie": 4,
+    "club": "AFC 1",
+    "logo": "images/afc.png",
+    "gespeeld": 6,
+    "gewonnen": 4,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 16,
+    "tegen": 9,
+    "doelsaldo": 7,
+    "punten": 12
+  },
+  {
     "positie": 5,
+    "club": "FC Failliet/Finesse 1",
+    "logo": "",
+    "gespeeld": 7,
+    "gewonnen": 3,
+    "gelijk": 2,
+    "verloren": 2,
+    "voor": 16,
+    "tegen": 10,
+    "doelsaldo": 6,
+    "punten": 11
+  },
+  {
+    "positie": 6,
     "club": "Ouderkerk sv. 1",
     "logo": "",
     "gespeeld": 5,
@@ -65,33 +78,46 @@
     "punten": 10
   },
   {
-    "positie": 6,
-    "club": "FC Failliet/Finesse 1",
-    "logo": "",
-    "gespeeld": 6,
-    "gewonnen": 2,
-    "gelijk": 2,
-    "verloren": 2,
-    "voor": 10,
-    "tegen": 9,
-    "doelsaldo": 1,
-    "punten": 8
-  },
-  {
     "positie": 7,
-    "club": "GeuzenMiddenmeer 1",
+    "club": "FC Weesp 1",
     "logo": "",
     "gespeeld": 6,
-    "gewonnen": 2,
-    "gelijk": 1,
+    "gewonnen": 3,
+    "gelijk": 0,
     "verloren": 3,
     "voor": 14,
-    "tegen": 18,
-    "doelsaldo": -4,
-    "punten": 7
+    "tegen": 11,
+    "doelsaldo": 3,
+    "punten": 9
   },
   {
     "positie": 8,
+    "club": "Nederhorst vv 1",
+    "logo": "",
+    "gespeeld": 7,
+    "gewonnen": 2,
+    "gelijk": 2,
+    "verloren": 3,
+    "voor": 12,
+    "tegen": 16,
+    "doelsaldo": -4,
+    "punten": 8
+  },
+  {
+    "positie": 9,
+    "club": "GeuzenMiddenmeer 1",
+    "logo": "",
+    "gespeeld": 7,
+    "gewonnen": 2,
+    "gelijk": 1,
+    "verloren": 4,
+    "voor": 15,
+    "tegen": 24,
+    "doelsaldo": -9,
+    "punten": 7
+  },
+  {
+    "positie": 10,
     "club": "Altius 1",
     "logo": "",
     "gespeeld": 5,
@@ -104,20 +130,7 @@
     "punten": 6
   },
   {
-    "positie": 9,
-    "club": "FC Weesp 1",
-    "logo": "",
-    "gespeeld": 5,
-    "gewonnen": 2,
-    "gelijk": 0,
-    "verloren": 3,
-    "voor": 11,
-    "tegen": 11,
-    "doelsaldo": 0,
-    "punten": 6
-  },
-  {
-    "positie": 10,
+    "positie": 11,
     "club": "Almere FC 1",
     "logo": "",
     "gespeeld": 6,
@@ -128,19 +141,6 @@
     "tegen": 16,
     "doelsaldo": -2,
     "punten": 6
-  },
-  {
-    "positie": 11,
-    "club": "Nederhorst vv 1",
-    "logo": "",
-    "gespeeld": 6,
-    "gewonnen": 1,
-    "gelijk": 2,
-    "verloren": 3,
-    "voor": 9,
-    "tegen": 16,
-    "doelsaldo": -7,
-    "punten": 5
   },
   {
     "positie": 12,
@@ -159,13 +159,13 @@
     "positie": 13,
     "club": "Laren 99 sv 1",
     "logo": "",
-    "gespeeld": 6,
+    "gespeeld": 7,
     "gewonnen": 0,
     "gelijk": 0,
-    "verloren": 6,
+    "verloren": 7,
     "voor": 3,
-    "tegen": 22,
-    "doelsaldo": -19,
+    "tegen": 25,
+    "doelsaldo": -22,
     "punten": 0
   }
 ]

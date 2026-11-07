@@ -27,6 +27,19 @@
   },
   {
     "positie": 3,
+    "club": "AFC 7",
+    "logo": "images/afc.png",
+    "gespeeld": 6,
+    "gewonnen": 4,
+    "gelijk": 1,
+    "verloren": 1,
+    "voor": 14,
+    "tegen": 7,
+    "doelsaldo": 7,
+    "punten": 13
+  },
+  {
+    "positie": 4,
     "club": "RAP sv. 2",
     "logo": "",
     "gespeeld": 6,
@@ -39,29 +52,16 @@
     "punten": 12
   },
   {
-    "positie": 4,
-    "club": "AFC 7",
-    "logo": "images/afc.png",
-    "gespeeld": 5,
-    "gewonnen": 3,
-    "gelijk": 1,
-    "verloren": 1,
-    "voor": 10,
-    "tegen": 6,
-    "doelsaldo": 4,
-    "punten": 10
-  },
-  {
     "positie": 5,
     "club": "Diemen sv. 4",
     "logo": "",
-    "gespeeld": 5,
+    "gespeeld": 6,
     "gewonnen": 3,
     "gelijk": 0,
-    "verloren": 2,
-    "voor": 12,
-    "tegen": 9,
-    "doelsaldo": 3,
+    "verloren": 3,
+    "voor": 13,
+    "tegen": 13,
+    "doelsaldo": 0,
     "punten": 9
   },
   {

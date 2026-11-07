@@ -1,12 +1,5 @@
 [
   {
-    "datum": "za 7 november 15:00",
-    "thuis": "AFC 1",
-    "thuisLogo": "images/afc.png",
-    "uit": "FC Weesp 1",
-    "uitLogo": ""
-  },
-  {
     "datum": "za 14 november 15:00",
     "thuis": "Almere FC 1",
     "thuisLogo": "",
@@ -33,5 +26,12 @@
     "thuisLogo": "",
     "uit": "AFC 1",
     "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 12 december 14:00",
+    "thuis": "AFC 1",
+    "thuisLogo": "images/afc.png",
+    "uit": "AH'78 1",
+    "uitLogo": ""
   }
 ]

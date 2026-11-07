@@ -1,6 +1,6 @@
 [
   {
-    "datum": "za 7 november 15:15",
+    "datum": "zo 7 november 15:15",
     "thuis": "Fortuna Sittard O21",
     "thuisLogo": "",
     "uit": "AFC O21",
@@ -26,5 +26,12 @@
     "thuisLogo": "images/afc.png",
     "uit": "IJsselmeervogels O21",
     "uitLogo": ""
+  },
+  {
+    "datum": "za 5 december 15:00",
+    "thuis": "FC Volendam O21",
+    "thuisLogo": "",
+    "uit": "AFC O21",
+    "uitLogo": "images/afc.png"
   }
 ]

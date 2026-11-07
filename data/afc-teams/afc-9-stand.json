@@ -16,27 +16,27 @@
     "positie": 2,
     "club": "AFC 9",
     "logo": "images/afc.png",
-    "gespeeld": 5,
-    "gewonnen": 4,
+    "gespeeld": 6,
+    "gewonnen": 5,
     "gelijk": 0,
     "verloren": 1,
-    "voor": 14,
-    "tegen": 7,
-    "doelsaldo": 7,
-    "punten": 12
+    "voor": 21,
+    "tegen": 8,
+    "doelsaldo": 13,
+    "punten": 15
   },
   {
     "positie": 3,
     "club": "TABA afc 4",
     "logo": "images/afc.png",
-    "gespeeld": 5,
+    "gespeeld": 6,
     "gewonnen": 3,
-    "gelijk": 1,
+    "gelijk": 2,
     "verloren": 1,
-    "voor": 13,
-    "tegen": 7,
+    "voor": 15,
+    "tegen": 9,
     "doelsaldo": 6,
-    "punten": 10
+    "punten": 11
   },
   {
     "positie": 4,
@@ -55,14 +55,14 @@
     "positie": 5,
     "club": "JOS Watergraafsmeer 5",
     "logo": "",
-    "gespeeld": 5,
+    "gespeeld": 6,
     "gewonnen": 2,
-    "gelijk": 2,
+    "gelijk": 3,
     "verloren": 1,
-    "voor": 14,
-    "tegen": 11,
+    "voor": 16,
+    "tegen": 13,
     "doelsaldo": 3,
-    "punten": 8
+    "punten": 9
   },
   {
     "positie": 6,
@@ -133,13 +133,13 @@
     "positie": 11,
     "club": "RAP sv. 3",
     "logo": "",
-    "gespeeld": 5,
+    "gespeeld": 6,
     "gewonnen": 0,
     "gelijk": 1,
-    "verloren": 4,
-    "voor": 7,
-    "tegen": 25,
-    "doelsaldo": -18,
+    "verloren": 5,
+    "voor": 8,
+    "tegen": 32,
+    "doelsaldo": -24,
     "punten": 1
   }
 ]

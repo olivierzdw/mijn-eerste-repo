@@ -27,6 +27,19 @@
   },
   {
     "positie": 3,
+    "club": "JOS Watergraafsmeer 3",
+    "logo": "",
+    "gespeeld": 6,
+    "gewonnen": 4,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 26,
+    "tegen": 16,
+    "doelsaldo": 10,
+    "punten": 12
+  },
+  {
+    "positie": 4,
     "club": "WV-HEDW 6",
     "logo": "",
     "gespeeld": 5,
@@ -39,7 +52,20 @@
     "punten": 11
   },
   {
-    "positie": 4,
+    "positie": 5,
+    "club": "Meer De sv. 6",
+    "logo": "",
+    "gespeeld": 6,
+    "gewonnen": 3,
+    "gelijk": 1,
+    "verloren": 2,
+    "voor": 24,
+    "tegen": 17,
+    "doelsaldo": 7,
+    "punten": 10
+  },
+  {
+    "positie": 6,
     "club": "GeuzenMiddenmeer 3",
     "logo": "",
     "gespeeld": 6,
@@ -52,20 +78,7 @@
     "punten": 10
   },
   {
-    "positie": 5,
-    "club": "JOS Watergraafsmeer 3",
-    "logo": "",
-    "gespeeld": 5,
-    "gewonnen": 3,
-    "gelijk": 0,
-    "verloren": 2,
-    "voor": 19,
-    "tegen": 10,
-    "doelsaldo": 9,
-    "punten": 9
-  },
-  {
-    "positie": 6,
+    "positie": 7,
     "club": "Sporting Martinus 3",
     "logo": "",
     "gespeeld": 5,
@@ -78,7 +91,7 @@
     "punten": 9
   },
   {
-    "positie": 7,
+    "positie": 8,
     "club": "TABA afc 3",
     "logo": "images/afc.png",
     "gespeeld": 5,
@@ -91,7 +104,7 @@
     "punten": 9
   },
   {
-    "positie": 8,
+    "positie": 9,
     "club": "ASV Arsenal 6",
     "logo": "",
     "gespeeld": 5,
@@ -102,19 +115,6 @@
     "tegen": 8,
     "doelsaldo": 6,
     "punten": 9
-  },
-  {
-    "positie": 9,
-    "club": "Meer De sv. 6",
-    "logo": "",
-    "gespeeld": 5,
-    "gewonnen": 2,
-    "gelijk": 1,
-    "verloren": 2,
-    "voor": 19,
-    "tegen": 15,
-    "doelsaldo": 4,
-    "punten": 7
   },
   {
     "positie": 10,
@@ -133,30 +133,17 @@
     "positie": 11,
     "club": "Ouderkerk sv. 3",
     "logo": "",
-    "gespeeld": 5,
+    "gespeeld": 6,
     "gewonnen": 1,
     "gelijk": 1,
-    "verloren": 3,
-    "voor": 15,
-    "tegen": 18,
-    "doelsaldo": -3,
+    "verloren": 4,
+    "voor": 21,
+    "tegen": 25,
+    "doelsaldo": -4,
     "punten": 4
   },
   {
     "positie": 12,
-    "club": "AFC 5",
-    "logo": "images/afc.png",
-    "gespeeld": 5,
-    "gewonnen": 0,
-    "gelijk": 1,
-    "verloren": 4,
-    "voor": 8,
-    "tegen": 24,
-    "doelsaldo": -16,
-    "punten": 1
-  },
-  {
-    "positie": 13,
     "club": "FC Amsterdam 4",
     "logo": "",
     "gespeeld": 5,
@@ -165,6 +152,19 @@
     "verloren": 4,
     "voor": 6,
     "tegen": 25,
+    "doelsaldo": -19,
+    "punten": 1
+  },
+  {
+    "positie": 13,
+    "club": "AFC 5",
+    "logo": "images/afc.png",
+    "gespeeld": 6,
+    "gewonnen": 0,
+    "gelijk": 1,
+    "verloren": 5,
+    "voor": 10,
+    "tegen": 29,
     "doelsaldo": -19,
     "punten": 1
   },

@@ -1,6 +1,6 @@
 [
   {
-    "datum": "za 7 november 14:45",
+    "datum": "zo 7 november 14:45",
     "thuis": "RODA '23 Rksv 5",
     "thuisLogo": "",
     "uit": "AFC 8",
@@ -32,6 +32,13 @@
     "thuis": "AFC 8",
     "thuisLogo": "images/afc.png",
     "uit": "Volendam (rkav) 4",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 12 december 14:00",
+    "thuis": "AFC 8",
+    "thuisLogo": "images/afc.png",
+    "uit": "Kadoelen sv. 4",
     "uitLogo": ""
   }
 ]

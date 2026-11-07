@@ -3,14 +3,14 @@
     "positie": 1,
     "club": "Excelsior Rotterdam O21",
     "logo": "",
-    "gespeeld": 9,
-    "gewonnen": 7,
+    "gespeeld": 10,
+    "gewonnen": 8,
     "gelijk": 1,
     "verloren": 1,
-    "voor": 37,
+    "voor": 43,
     "tegen": 10,
-    "doelsaldo": 27,
-    "punten": 22
+    "doelsaldo": 33,
+    "punten": 25
   },
   {
     "positie": 2,
@@ -29,13 +29,13 @@
     "positie": 3,
     "club": "FC Dordrecht O21",
     "logo": "",
-    "gespeeld": 9,
+    "gespeeld": 10,
     "gewonnen": 5,
     "gelijk": 2,
-    "verloren": 2,
+    "verloren": 3,
     "voor": 21,
-    "tegen": 22,
-    "doelsaldo": -1,
+    "tegen": 28,
+    "doelsaldo": -7,
     "punten": 17
   },
   {
