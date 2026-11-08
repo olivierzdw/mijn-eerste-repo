@@ -27,6 +27,19 @@
   },
   {
     "positie": 3,
+    "club": "ASV Arsenal 6",
+    "logo": "",
+    "gespeeld": 6,
+    "gewonnen": 3,
+    "gelijk": 3,
+    "verloren": 0,
+    "voor": 19,
+    "tegen": 8,
+    "doelsaldo": 11,
+    "punten": 12
+  },
+  {
+    "positie": 4,
     "club": "JOS Watergraafsmeer 3",
     "logo": "",
     "gespeeld": 6,
@@ -39,7 +52,7 @@
     "punten": 12
   },
   {
-    "positie": 4,
+    "positie": 5,
     "club": "TABA afc 3",
     "logo": "images/afc.png",
     "gespeeld": 6,
@@ -52,7 +65,7 @@
     "punten": 12
   },
   {
-    "positie": 5,
+    "positie": 6,
     "club": "WV-HEDW 6",
     "logo": "",
     "gespeeld": 5,
@@ -65,7 +78,7 @@
     "punten": 11
   },
   {
-    "positie": 6,
+    "positie": 7,
     "club": "Meer De sv. 6",
     "logo": "",
     "gespeeld": 6,
@@ -78,7 +91,7 @@
     "punten": 10
   },
   {
-    "positie": 7,
+    "positie": 8,
     "club": "GeuzenMiddenmeer 3",
     "logo": "",
     "gespeeld": 6,
@@ -91,29 +104,16 @@
     "punten": 10
   },
   {
-    "positie": 8,
+    "positie": 9,
     "club": "Sporting Martinus 3",
     "logo": "",
-    "gespeeld": 5,
+    "gespeeld": 6,
     "gewonnen": 3,
     "gelijk": 0,
-    "verloren": 2,
+    "verloren": 3,
     "voor": 21,
-    "tegen": 15,
-    "doelsaldo": 6,
-    "punten": 9
-  },
-  {
-    "positie": 9,
-    "club": "ASV Arsenal 6",
-    "logo": "",
-    "gespeeld": 5,
-    "gewonnen": 2,
-    "gelijk": 3,
-    "verloren": 0,
-    "voor": 14,
-    "tegen": 8,
-    "doelsaldo": 6,
+    "tegen": 20,
+    "doelsaldo": 1,
     "punten": 9
   },
   {
