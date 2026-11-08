@@ -53,6 +53,19 @@
   },
   {
     "positie": 5,
+    "club": "HBOK 2",
+    "logo": "",
+    "gespeeld": 6,
+    "gewonnen": 4,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 21,
+    "tegen": 10,
+    "doelsaldo": 11,
+    "punten": 12
+  },
+  {
+    "positie": 6,
     "club": "Swift 5",
     "logo": "",
     "gespeeld": 7,
@@ -65,7 +78,7 @@
     "punten": 12
   },
   {
-    "positie": 6,
+    "positie": 7,
     "club": "Wartburgia asv 3",
     "logo": "",
     "gespeeld": 7,
@@ -78,7 +91,7 @@
     "punten": 12
   },
   {
-    "positie": 7,
+    "positie": 8,
     "club": "Haarlem-Kennemerland f.c. 2",
     "logo": "",
     "gespeeld": 7,
@@ -89,19 +102,6 @@
     "tegen": 17,
     "doelsaldo": -1,
     "punten": 12
-  },
-  {
-    "positie": 8,
-    "club": "HBOK 2",
-    "logo": "",
-    "gespeeld": 5,
-    "gewonnen": 3,
-    "gelijk": 0,
-    "verloren": 2,
-    "voor": 11,
-    "tegen": 8,
-    "doelsaldo": 3,
-    "punten": 9
   },
   {
     "positie": 9,
@@ -133,13 +133,13 @@
     "positie": 11,
     "club": "Foresters 3",
     "logo": "",
-    "gespeeld": 6,
+    "gespeeld": 7,
     "gewonnen": 0,
     "gelijk": 1,
-    "verloren": 5,
-    "voor": 10,
-    "tegen": 22,
-    "doelsaldo": -12,
+    "verloren": 6,
+    "voor": 12,
+    "tegen": 32,
+    "doelsaldo": -20,
     "punten": 1
   },
   {

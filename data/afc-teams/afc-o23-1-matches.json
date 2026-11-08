@@ -1,12 +1,5 @@
 [
   {
-    "datum": "zo 8 november 13:15",
-    "thuis": "AFC O23-1",
-    "thuisLogo": "images/afc.png",
-    "uit": "SCPB'22 O23-1",
-    "uitLogo": ""
-  },
-  {
     "datum": "zo 15 november 13:00",
     "thuis": "Swift O23-1",
     "thuisLogo": "",
@@ -33,5 +26,12 @@
     "thuisLogo": "",
     "uit": "AFC O23-1",
     "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "zo 17 januari 13:00",
+    "thuis": "AFC O23-1",
+    "thuisLogo": "images/afc.png",
+    "uit": "RODA '23 Rksv O23-1",
+    "uitLogo": ""
   }
 ]

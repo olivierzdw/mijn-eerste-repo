@@ -1,12 +1,5 @@
 [
   {
-    "datum": "zo 8 november 13:15",
-    "thuis": "AFC 6",
-    "thuisLogo": "images/afc.png",
-    "uit": "WV-HEDW 4",
-    "uitLogo": ""
-  },
-  {
     "datum": "zo 15 november 12:00",
     "thuis": "TOS-Actief 4",
     "thuisLogo": "",
@@ -40,5 +33,12 @@
     "thuisLogo": "",
     "uit": "AFC 6",
     "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "zo 17 januari 13:30",
+    "thuis": "AFC 6",
+    "thuisLogo": "images/afc.png",
+    "uit": "SCPB'22 3",
+    "uitLogo": ""
   }
 ]

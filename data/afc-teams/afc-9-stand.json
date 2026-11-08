@@ -27,6 +27,19 @@
   },
   {
     "positie": 3,
+    "club": "Buitenveldert sc. 5",
+    "logo": "",
+    "gespeeld": 6,
+    "gewonnen": 4,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 19,
+    "tegen": 15,
+    "doelsaldo": 4,
+    "punten": 12
+  },
+  {
+    "positie": 4,
     "club": "TABA afc 4",
     "logo": "images/afc.png",
     "gespeeld": 6,
@@ -37,19 +50,6 @@
     "tegen": 9,
     "doelsaldo": 6,
     "punten": 11
-  },
-  {
-    "positie": 4,
-    "club": "Buitenveldert sc. 5",
-    "logo": "",
-    "gespeeld": 5,
-    "gewonnen": 3,
-    "gelijk": 0,
-    "verloren": 2,
-    "voor": 17,
-    "tegen": 14,
-    "doelsaldo": 3,
-    "punten": 9
   },
   {
     "positie": 5,
@@ -81,13 +81,13 @@
     "positie": 7,
     "club": "Zeeburgia avv 3",
     "logo": "",
-    "gespeeld": 6,
+    "gespeeld": 7,
     "gewonnen": 2,
     "gelijk": 1,
-    "verloren": 3,
-    "voor": 12,
-    "tegen": 15,
-    "doelsaldo": -3,
+    "verloren": 4,
+    "voor": 13,
+    "tegen": 17,
+    "doelsaldo": -4,
     "punten": 7
   },
   {

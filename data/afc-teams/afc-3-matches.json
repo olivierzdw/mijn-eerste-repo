@@ -1,12 +1,5 @@
 [
   {
-    "datum": "zo 8 november 13:15",
-    "thuis": "AFC 3",
-    "thuisLogo": "images/afc.png",
-    "uit": "Swift 6",
-    "uitLogo": ""
-  },
-  {
     "datum": "do 12 november 20:00",
     "thuis": "ASV Arsenal 3",
     "thuisLogo": "",
@@ -38,6 +31,13 @@
     "datum": "zo 6 december 11:00",
     "thuis": "DWS afc 2",
     "thuisLogo": "images/afc.png",
+    "uit": "AFC 3",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "zo 17 januari 15:00",
+    "thuis": "TOS-Actief 3",
+    "thuisLogo": "",
     "uit": "AFC 3",
     "uitLogo": "images/afc.png"
   }
