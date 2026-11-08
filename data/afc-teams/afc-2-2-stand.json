@@ -3,14 +3,14 @@
     "positie": 1,
     "club": "AFC 2",
     "logo": "images/afc.png",
-    "gespeeld": 4,
-    "gewonnen": 4,
+    "gespeeld": 5,
+    "gewonnen": 5,
     "gelijk": 0,
     "verloren": 0,
-    "voor": 21,
-    "tegen": 7,
-    "doelsaldo": 14,
-    "punten": 12
+    "voor": 28,
+    "tegen": 10,
+    "doelsaldo": 18,
+    "punten": 15
   },
   {
     "positie": 2,
@@ -120,13 +120,13 @@
     "positie": 10,
     "club": "Hercules 2",
     "logo": "",
-    "gespeeld": 5,
+    "gespeeld": 6,
     "gewonnen": 0,
     "gelijk": 0,
-    "verloren": 5,
-    "voor": 11,
-    "tegen": 23,
-    "doelsaldo": -12,
+    "verloren": 6,
+    "voor": 14,
+    "tegen": 30,
+    "doelsaldo": -16,
     "punten": 0
   }
 ]

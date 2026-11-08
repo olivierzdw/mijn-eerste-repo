@@ -94,13 +94,13 @@
     "positie": 8,
     "club": "AFC 4",
     "logo": "images/afc.png",
-    "gespeeld": 5,
+    "gespeeld": 6,
     "gewonnen": 1,
     "gelijk": 2,
-    "verloren": 2,
-    "voor": 16,
-    "tegen": 17,
-    "doelsaldo": -1,
+    "verloren": 3,
+    "voor": 19,
+    "tegen": 21,
+    "doelsaldo": -2,
     "punten": 5
   },
   {
@@ -118,6 +118,19 @@
   },
   {
     "positie": 10,
+    "club": "Atletico Club Amsterdam 2",
+    "logo": "",
+    "gespeeld": 6,
+    "gewonnen": 1,
+    "gelijk": 1,
+    "verloren": 4,
+    "voor": 15,
+    "tegen": 30,
+    "doelsaldo": -15,
+    "punten": 4
+  },
+  {
+    "positie": 11,
     "club": "SDZ 6",
     "logo": "",
     "gespeeld": 4,
@@ -127,19 +140,6 @@
     "voor": 10,
     "tegen": 19,
     "doelsaldo": -9,
-    "punten": 1
-  },
-  {
-    "positie": 11,
-    "club": "Atletico Club Amsterdam 2",
-    "logo": "",
-    "gespeeld": 5,
-    "gewonnen": 0,
-    "gelijk": 1,
-    "verloren": 4,
-    "voor": 11,
-    "tegen": 27,
-    "doelsaldo": -16,
     "punten": 1
   }
 ]

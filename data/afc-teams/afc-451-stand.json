@@ -29,14 +29,14 @@
     "positie": 3,
     "club": "RAP sv. 45+1",
     "logo": "",
-    "gespeeld": 5,
-    "gewonnen": 3,
+    "gespeeld": 6,
+    "gewonnen": 4,
     "gelijk": 1,
     "verloren": 1,
-    "voor": 24,
+    "voor": 25,
     "tegen": 11,
-    "doelsaldo": 13,
-    "punten": 10
+    "doelsaldo": 14,
+    "punten": 13
   },
   {
     "positie": 4,
@@ -120,13 +120,13 @@
     "positie": 10,
     "club": "AFC 45+1",
     "logo": "images/afc.png",
-    "gespeeld": 6,
+    "gespeeld": 7,
     "gewonnen": 2,
     "gelijk": 0,
-    "verloren": 4,
+    "verloren": 5,
     "voor": 14,
-    "tegen": 22,
-    "doelsaldo": -8,
+    "tegen": 23,
+    "doelsaldo": -9,
     "punten": 6
   },
   {

@@ -40,6 +40,19 @@
   },
   {
     "positie": 4,
+    "club": "PVCV 3",
+    "logo": "",
+    "gespeeld": 6,
+    "gewonnen": 3,
+    "gelijk": 0,
+    "verloren": 3,
+    "voor": 11,
+    "tegen": 13,
+    "doelsaldo": -2,
+    "punten": 9
+  },
+  {
+    "positie": 5,
     "club": "Rivierwijkers 3",
     "logo": "",
     "gespeeld": 5,
@@ -52,7 +65,7 @@
     "punten": 7
   },
   {
-    "positie": 5,
+    "positie": 6,
     "club": "AFC 3",
     "logo": "images/afc.png",
     "gespeeld": 3,
@@ -62,19 +75,6 @@
     "voor": 9,
     "tegen": 6,
     "doelsaldo": 3,
-    "punten": 6
-  },
-  {
-    "positie": 6,
-    "club": "PVCV 3",
-    "logo": "",
-    "gespeeld": 5,
-    "gewonnen": 2,
-    "gelijk": 0,
-    "verloren": 3,
-    "voor": 6,
-    "tegen": 10,
-    "doelsaldo": -4,
     "punten": 6
   },
   {
@@ -133,13 +133,13 @@
     "positie": 11,
     "club": "SCPB'22 2",
     "logo": "",
-    "gespeeld": 5,
+    "gespeeld": 6,
     "gewonnen": 0,
     "gelijk": 1,
-    "verloren": 4,
-    "voor": 5,
-    "tegen": 21,
-    "doelsaldo": -16,
+    "verloren": 5,
+    "voor": 8,
+    "tegen": 26,
+    "doelsaldo": -18,
     "punten": 1
   }
 ]

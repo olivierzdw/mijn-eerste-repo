@@ -1,6 +1,19 @@
 [
   {
     "positie": 1,
+    "club": "Hoofddorp s.v. 4",
+    "logo": "",
+    "gespeeld": 7,
+    "gewonnen": 6,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 28,
+    "tegen": 9,
+    "doelsaldo": 19,
+    "punten": 18
+  },
+  {
+    "positie": 2,
     "club": "WV-HEDW 6",
     "logo": "",
     "gespeeld": 6,
@@ -13,33 +26,33 @@
     "punten": 16
   },
   {
-    "positie": 2,
-    "club": "HYS 4",
-    "logo": "",
-    "gespeeld": 5,
-    "gewonnen": 5,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 25,
-    "tegen": 9,
-    "doelsaldo": 16,
-    "punten": 15
-  },
-  {
     "positie": 3,
-    "club": "Hoofddorp s.v. 4",
+    "club": "HYS 4",
     "logo": "",
     "gespeeld": 6,
     "gewonnen": 5,
     "gelijk": 0,
     "verloren": 1,
-    "voor": 23,
-    "tegen": 8,
-    "doelsaldo": 15,
+    "voor": 26,
+    "tegen": 14,
+    "doelsaldo": 12,
     "punten": 15
   },
   {
     "positie": 4,
+    "club": "Sloterdijk avv. 4",
+    "logo": "images/sloterdijk.png",
+    "gespeeld": 7,
+    "gewonnen": 4,
+    "gelijk": 1,
+    "verloren": 2,
+    "voor": 33,
+    "tegen": 23,
+    "doelsaldo": 10,
+    "punten": 13
+  },
+  {
+    "positie": 5,
     "club": "Buitenveldert sc. 3",
     "logo": "",
     "gespeeld": 4,
@@ -49,19 +62,6 @@
     "voor": 19,
     "tegen": 6,
     "doelsaldo": 13,
-    "punten": 10
-  },
-  {
-    "positie": 5,
-    "club": "Sloterdijk avv. 4",
-    "logo": "images/sloterdijk.png",
-    "gespeeld": 6,
-    "gewonnen": 3,
-    "gelijk": 1,
-    "verloren": 2,
-    "voor": 23,
-    "tegen": 20,
-    "doelsaldo": 3,
     "punten": 10
   },
   {
@@ -172,13 +172,13 @@
     "positie": 14,
     "club": "AFC 7",
     "logo": "images/afc.png",
-    "gespeeld": 5,
+    "gespeeld": 6,
     "gewonnen": 0,
     "gelijk": 0,
-    "verloren": 5,
-    "voor": 3,
-    "tegen": 41,
-    "doelsaldo": -38,
+    "verloren": 6,
+    "voor": 6,
+    "tegen": 51,
+    "doelsaldo": -45,
     "punten": 0
   }
 ]
