@@ -108,5 +108,15 @@
     "uitLogo": "https://crests.football-data.org/682.png",
     "thuisScore": 1,
     "uitScore": 0
+  },
+  {
+    "id": 558839,
+    "datum": "zo 8 november",
+    "thuis": "FC Twente '65",
+    "thuisLogo": "https://crests.football-data.org/666.png",
+    "uit": "Ajax",
+    "uitLogo": "https://crests.football-data.org/678.png",
+    "thuisScore": 2,
+    "uitScore": 2
   }
 ]
