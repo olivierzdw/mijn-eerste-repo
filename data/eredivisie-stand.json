@@ -8,9 +8,9 @@
     "gewonnen": 8,
     "gelijk": 2,
     "verloren": 2,
-    "doelsaldo": 23,
-    "voor": 36,
-    "tegen": 13
+    "doelsaldo": 25,
+    "voor": 40,
+    "tegen": 15
   },
   {
     "positie": 2,
@@ -53,6 +53,19 @@
   },
   {
     "positie": 5,
+    "club": "AZ",
+    "logo": "https://crests.football-data.org/682.png",
+    "gespeeld": 12,
+    "punten": 23,
+    "gewonnen": 7,
+    "gelijk": 2,
+    "verloren": 3,
+    "doelsaldo": 8,
+    "voor": 24,
+    "tegen": 16
+  },
+  {
+    "positie": 6,
     "club": "Heerenveen",
     "logo": "https://crests.football-data.org/673.png",
     "gespeeld": 12,
@@ -63,19 +76,6 @@
     "doelsaldo": 8,
     "voor": 24,
     "tegen": 16
-  },
-  {
-    "positie": 6,
-    "club": "AZ",
-    "logo": "https://crests.football-data.org/682.png",
-    "gespeeld": 12,
-    "punten": 20,
-    "gewonnen": 6,
-    "gelijk": 2,
-    "verloren": 4,
-    "doelsaldo": 6,
-    "voor": 20,
-    "tegen": 14
   },
   {
     "positie": 7,
@@ -92,19 +92,6 @@
   },
   {
     "positie": 8,
-    "club": "Groningen",
-    "logo": "https://crests.football-data.org/677.png",
-    "gespeeld": 12,
-    "punten": 18,
-    "gewonnen": 5,
-    "gelijk": 3,
-    "verloren": 4,
-    "doelsaldo": 3,
-    "voor": 27,
-    "tegen": 24
-  },
-  {
-    "positie": 9,
     "club": "Go Ahead Eagles",
     "logo": "https://crests.football-data.org/718.png",
     "gespeeld": 12,
@@ -117,6 +104,19 @@
     "tegen": 27
   },
   {
+    "positie": 9,
+    "club": "Groningen",
+    "logo": "https://crests.football-data.org/677.png",
+    "gespeeld": 12,
+    "punten": 15,
+    "gewonnen": 4,
+    "gelijk": 3,
+    "verloren": 5,
+    "doelsaldo": 1,
+    "voor": 29,
+    "tegen": 28
+  },
+  {
     "positie": 10,
     "club": "SC Cambuur-Leeuwarden",
     "logo": "https://crests.football-data.org/1909.png",
@@ -125,12 +125,25 @@
     "gewonnen": 4,
     "gelijk": 3,
     "verloren": 5,
-    "doelsaldo": 0,
-    "voor": 23,
-    "tegen": 23
+    "doelsaldo": -2,
+    "voor": 25,
+    "tegen": 27
   },
   {
     "positie": 11,
+    "club": "NEC",
+    "logo": "https://crests.football-data.org/1915.png",
+    "gespeeld": 12,
+    "punten": 14,
+    "gewonnen": 3,
+    "gelijk": 5,
+    "verloren": 4,
+    "doelsaldo": 0,
+    "voor": 20,
+    "tegen": 20
+  },
+  {
+    "positie": 12,
     "club": "Sparta",
     "logo": "https://crests.football-data.org/6806.png",
     "gespeeld": 12,
@@ -143,7 +156,7 @@
     "tegen": 29
   },
   {
-    "positie": 12,
+    "positie": 13,
     "club": "PEC Zwolle",
     "logo": "https://crests.football-data.org/684.png",
     "gespeeld": 12,
@@ -156,30 +169,17 @@
     "tegen": 24
   },
   {
-    "positie": 13,
+    "positie": 14,
     "club": "FC Utrecht",
     "logo": "https://crests.football-data.org/676.png",
-    "gespeeld": 11,
+    "gespeeld": 12,
     "punten": 12,
     "gewonnen": 3,
     "gelijk": 3,
-    "verloren": 5,
-    "doelsaldo": -12,
-    "voor": 19,
-    "tegen": 31
-  },
-  {
-    "positie": 14,
-    "club": "NEC",
-    "logo": "https://crests.football-data.org/1915.png",
-    "gespeeld": 11,
-    "punten": 11,
-    "gewonnen": 2,
-    "gelijk": 5,
-    "verloren": 4,
-    "doelsaldo": -2,
-    "voor": 17,
-    "tegen": 19
+    "verloren": 6,
+    "doelsaldo": -14,
+    "voor": 20,
+    "tegen": 34
   },
   {
     "positie": 15,
