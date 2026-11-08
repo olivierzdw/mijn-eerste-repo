@@ -1,17 +1,17 @@
 [
   {
-    "datum": "za 7 november 20:15",
-    "thuis": "Kadoelen sv. MO15-2",
-    "thuisLogo": "",
-    "uit": "AFC MO15-1",
-    "uitLogo": "images/afc.png"
-  },
-  {
     "datum": "za 14 november 13:30",
     "thuis": "AFC MO15-1",
     "thuisLogo": "images/afc.png",
     "uit": "DCG Rksv O14-4",
     "uitLogo": ""
+  },
+  {
+    "datum": "wo 18 november 19:30",
+    "thuis": "Kadoelen sv. MO15-2",
+    "thuisLogo": "",
+    "uit": "AFC MO15-1",
+    "uitLogo": "images/afc.png"
   },
   {
     "datum": "za 21 november 12:00",
@@ -32,6 +32,13 @@
     "thuis": "Spaarnwoude sv. O14-1",
     "thuisLogo": "",
     "uit": "AFC MO15-1",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 12 december 10:00",
+    "thuis": "AFC MO15-1",
+    "thuisLogo": "images/afc.png",
+    "uit": "DWS afc O14-1",
     "uitLogo": "images/afc.png"
   }
 ]

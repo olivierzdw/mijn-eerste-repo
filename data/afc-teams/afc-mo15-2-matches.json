@@ -1,12 +1,5 @@
 [
   {
-    "datum": "za 7 november 10:30",
-    "thuis": "IVV MO15-1",
-    "thuisLogo": "",
-    "uit": "AFC MO15-2",
-    "uitLogo": "images/afc.png"
-  },
-  {
     "datum": "za 14 november 13:30",
     "thuis": "AFC MO15-2",
     "thuisLogo": "images/afc.png",
@@ -25,6 +18,20 @@
     "thuis": "AFC MO15-2",
     "thuisLogo": "images/afc.png",
     "uit": "WV-HEDW MO15-1",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 5 december 12:15",
+    "thuis": "Dijk De asv MO15-1",
+    "thuisLogo": "",
+    "uit": "AFC MO15-2",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 12 december 10:00",
+    "thuis": "AFC MO15-2",
+    "thuisLogo": "images/afc.png",
+    "uit": "TOS-Actief MO15-2",
     "uitLogo": ""
   }
 ]

@@ -79,6 +79,19 @@
   },
   {
     "positie": 7,
+    "club": "AFC 8",
+    "logo": "images/afc.png",
+    "gespeeld": 4,
+    "gewonnen": 2,
+    "gelijk": 1,
+    "verloren": 1,
+    "voor": 15,
+    "tegen": 10,
+    "doelsaldo": 5,
+    "punten": 7
+  },
+  {
+    "positie": 8,
     "club": "Vlug en Vaardig cvv. 2",
     "logo": "",
     "gespeeld": 6,
@@ -91,7 +104,7 @@
     "punten": 6
   },
   {
-    "positie": 8,
+    "positie": 9,
     "club": "Wartburgia asv 7",
     "logo": "",
     "gespeeld": 5,
@@ -102,19 +115,6 @@
     "tegen": 15,
     "doelsaldo": -2,
     "punten": 5
-  },
-  {
-    "positie": 9,
-    "club": "AFC 8",
-    "logo": "images/afc.png",
-    "gespeeld": 3,
-    "gewonnen": 1,
-    "gelijk": 1,
-    "verloren": 1,
-    "voor": 8,
-    "tegen": 9,
-    "doelsaldo": -1,
-    "punten": 4
   },
   {
     "positie": 10,
@@ -133,13 +133,13 @@
     "positie": 11,
     "club": "RODA '23 Rksv 5",
     "logo": "",
-    "gespeeld": 4,
+    "gespeeld": 5,
     "gewonnen": 0,
     "gelijk": 0,
-    "verloren": 4,
-    "voor": 6,
-    "tegen": 14,
-    "doelsaldo": -8,
+    "verloren": 5,
+    "voor": 7,
+    "tegen": 21,
+    "doelsaldo": -14,
     "punten": 0
   }
 ]

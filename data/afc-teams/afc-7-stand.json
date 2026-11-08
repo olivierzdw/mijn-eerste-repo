@@ -92,6 +92,19 @@
   },
   {
     "positie": 8,
+    "club": "Meer De sv. 6",
+    "logo": "",
+    "gespeeld": 6,
+    "gewonnen": 2,
+    "gelijk": 1,
+    "verloren": 3,
+    "voor": 15,
+    "tegen": 12,
+    "doelsaldo": 3,
+    "punten": 7
+  },
+  {
+    "positie": 9,
     "club": "TABA afc 5",
     "logo": "images/afc.png",
     "gespeeld": 6,
@@ -104,7 +117,7 @@
     "punten": 7
   },
   {
-    "positie": 9,
+    "positie": 10,
     "club": "SDZ 8",
     "logo": "",
     "gespeeld": 6,
@@ -117,7 +130,7 @@
     "punten": 7
   },
   {
-    "positie": 10,
+    "positie": 11,
     "club": "SCPB'22 4",
     "logo": "",
     "gespeeld": 7,
@@ -128,19 +141,6 @@
     "tegen": 30,
     "doelsaldo": -14,
     "punten": 6
-  },
-  {
-    "positie": 11,
-    "club": "Meer De sv. 6",
-    "logo": "",
-    "gespeeld": 5,
-    "gewonnen": 1,
-    "gelijk": 1,
-    "verloren": 3,
-    "voor": 8,
-    "tegen": 12,
-    "doelsaldo": -4,
-    "punten": 4
   },
   {
     "positie": 12,
@@ -159,13 +159,13 @@
     "positie": 13,
     "club": "ASV Arsenal 6",
     "logo": "",
-    "gespeeld": 6,
+    "gespeeld": 7,
     "gewonnen": 1,
     "gelijk": 0,
-    "verloren": 5,
+    "verloren": 6,
     "voor": 9,
-    "tegen": 38,
-    "doelsaldo": -29,
+    "tegen": 45,
+    "doelsaldo": -36,
     "punten": 3
   },
   {
