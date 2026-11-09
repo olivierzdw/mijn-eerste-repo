@@ -1,6 +1,19 @@
 [
   {
     "positie": 1,
+    "club": "WV-HEDW 6",
+    "logo": "",
+    "gespeeld": 7,
+    "gewonnen": 6,
+    "gelijk": 1,
+    "verloren": 0,
+    "voor": 42,
+    "tegen": 4,
+    "doelsaldo": 38,
+    "punten": 19
+  },
+  {
+    "positie": 2,
     "club": "Hoofddorp s.v. 4",
     "logo": "",
     "gespeeld": 7,
@@ -11,19 +24,6 @@
     "tegen": 9,
     "doelsaldo": 19,
     "punten": 18
-  },
-  {
-    "positie": 2,
-    "club": "WV-HEDW 6",
-    "logo": "",
-    "gespeeld": 7,
-    "gewonnen": 5,
-    "gelijk": 1,
-    "verloren": 1,
-    "voor": 33,
-    "tegen": 12,
-    "doelsaldo": 21,
-    "punten": 16
   },
   {
     "positie": 3,
@@ -144,19 +144,6 @@
   },
   {
     "positie": 12,
-    "club": "Zeeburgia avv 9",
-    "logo": "",
-    "gespeeld": 3,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 2,
-    "voor": 9,
-    "tegen": 11,
-    "doelsaldo": -2,
-    "punten": 3
-  },
-  {
-    "positie": 13,
     "club": "ASV Arsenal 6",
     "logo": "",
     "gespeeld": 7,
@@ -167,6 +154,19 @@
     "tegen": 45,
     "doelsaldo": -36,
     "punten": 3
+  },
+  {
+    "positie": 13,
+    "club": "Zeeburgia avv 9",
+    "logo": "",
+    "gespeeld": 3,
+    "gewonnen": 0,
+    "gelijk": 0,
+    "verloren": 3,
+    "voor": 1,
+    "tegen": 20,
+    "doelsaldo": -19,
+    "punten": 0
   },
   {
     "positie": 14,
