@@ -1,30 +1,30 @@
 [
   {
-    "datum": "za 14 november 08:45",
-    "thuis": "VVA/Spartaan MO10-2",
-    "thuisLogo": "",
-    "uit": "AFC MO10-1",
-    "uitLogo": "images/afc.png"
-  },
-  {
-    "datum": "za 21 november 08:45",
+    "datum": "za 14 november 10:30",
     "thuis": "AFC MO10-1",
     "thuisLogo": "images/afc.png",
-    "uit": "OSV MO10-1",
+    "uit": "DIOS sv. O10-3",
     "uitLogo": ""
   },
   {
-    "datum": "za 28 november 08:30",
-    "thuis": "SDZ O10-7",
+    "datum": "za 21 november 09:40",
+    "thuis": "Swift MO10-1",
     "thuisLogo": "",
     "uit": "AFC MO10-1",
     "uitLogo": "images/afc.png"
   },
   {
-    "datum": "za 5 december 08:30",
+    "datum": "za 5 december 11:00",
+    "thuis": "CSW MO10-1",
+    "thuisLogo": "",
+    "uit": "AFC MO10-1",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 12 december 10:00",
     "thuis": "AFC MO10-1",
     "thuisLogo": "images/afc.png",
-    "uit": "Hercules Zaandam sc MO10-1",
+    "uit": "AMVJ O10-2",
     "uitLogo": ""
   }
 ]
