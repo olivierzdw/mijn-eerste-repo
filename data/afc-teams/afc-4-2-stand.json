@@ -16,14 +16,14 @@
     "positie": 2,
     "club": "DVVA csv. 4",
     "logo": "",
-    "gespeeld": 6,
+    "gespeeld": 7,
     "gewonnen": 4,
-    "gelijk": 0,
+    "gelijk": 1,
     "verloren": 2,
-    "voor": 18,
-    "tegen": 12,
+    "voor": 19,
+    "tegen": 13,
     "doelsaldo": 6,
-    "punten": 12
+    "punten": 13
   },
   {
     "positie": 3,
@@ -53,6 +53,19 @@
   },
   {
     "positie": 5,
+    "club": "TOS-Actief 2",
+    "logo": "",
+    "gespeeld": 6,
+    "gewonnen": 2,
+    "gelijk": 3,
+    "verloren": 1,
+    "voor": 18,
+    "tegen": 13,
+    "doelsaldo": 5,
+    "punten": 9
+  },
+  {
+    "positie": 6,
     "club": "Marken sv. 2",
     "logo": "",
     "gespeeld": 6,
@@ -63,19 +76,6 @@
     "tegen": 14,
     "doelsaldo": 2,
     "punten": 9
-  },
-  {
-    "positie": 6,
-    "club": "TOS-Actief 2",
-    "logo": "",
-    "gespeeld": 5,
-    "gewonnen": 2,
-    "gelijk": 2,
-    "verloren": 1,
-    "voor": 17,
-    "tegen": 12,
-    "doelsaldo": 5,
-    "punten": 8
   },
   {
     "positie": 7,
