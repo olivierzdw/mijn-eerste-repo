@@ -2358,7 +2358,7 @@ function doeBoekUitloggen() {
 }
 
 function renderBoekenGenres() {
-  // Welkomscherm — grote knop "Maak een nieuw boek".
+  // Welkomscherm — grote knop "Maak een nieuw boek" + Over ons.
   const el = document.getElementById("boeken-genres");
   if (!el) return;
   el.innerHTML = `
@@ -2367,10 +2367,67 @@ function renderBoekenGenres() {
         <span class="boek-welkom-emoji">✨</span>
         <span class="boek-welkom-tekst">Maak een nieuw boek</span>
       </button>
+      <button class="boek-welkom-knop boek-welkom-knop-sec" onclick="toonOverOns()">
+        <span class="boek-welkom-emoji">ℹ️</span>
+        <span class="boek-welkom-tekst">Over ons</span>
+      </button>
     </div>
   `;
   toonMijnBoekenSidebar(true);
   ladenMijnBoeken();
+}
+
+function toonOverOns() {
+  const el = document.getElementById("boeken-genres");
+  if (!el) return;
+  el.innerHTML = `
+    <button class="boek-stap-terug" onclick="renderBoekenGenres()">← Terug</button>
+    <article class="boek-over">
+      <h2>📖 Over de AI Boekenschrijver</h2>
+
+      <p>Welkom bij <b>Olliebet AI Boekenschrijver</b>! Hier kun je in een paar
+      minuten je eigen boek laten schrijven door kunstmatige intelligentie —
+      precies op jouw wensen.</p>
+
+      <h3>✨ Wat kan het?</h3>
+      <ul>
+        <li>Kies uit vier genres: <b>Leerzaam</b>, <b>Avontuur</b>, <b>Thriller</b> of <b>Roman</b>.</li>
+        <li>Geef je eigen <b>hoofdpersonen</b> en <b>bijpersonen</b> op.</li>
+        <li>Beschrijf zelf het <b>onderwerp of plot</b>.</li>
+        <li>Upload maximaal 5 <b>plaatjes</b> — die komen in het boek terecht op logische plekken.</li>
+        <li>Stel de <b>leeftijd</b> van de lezer in (3-99 jaar) zodat de schrijfstijl precies klopt.</li>
+        <li>Kies zelf de <b>lengte</b>: van 10 tot 200 bladzijdes.</li>
+      </ul>
+
+      <h3>💳 Wat kost het?</h3>
+      <p><b>€0,05 per bladzijde</b>. Dus een boek van 20 blz kost €1,- en een
+      boek van 200 blz €10,-. Je kunt betalen via Tikkie of met een
+      <b>cadeaucode</b> als iemand er een voor je heeft gemaakt.</p>
+
+      <h3>📚 Je eigen bibliotheek</h3>
+      <p>Alle boeken die je maakt worden automatisch opgeslagen bij jouw
+      account. In het hoofdscherm zie je de lijst "Mijn boeken" — klik een
+      boek aan om 'm opnieuw te lezen, of op het kruisje om te verwijderen.</p>
+
+      <h3>🔒 Account</h3>
+      <p>Je maakt één keer een account aan met een <b>gebruikersnaam</b> en
+      <b>wachtwoord</b>. Het wachtwoord wordt versleuteld opgeslagen (SHA-256),
+      wij kunnen het zelf niet zien. Je blijft ingelogd tot je op "Uitloggen" klikt.</p>
+
+      <h3>🤖 Hoe werkt het technisch?</h3>
+      <p>Het boek wordt geschreven door <b>Claude (Anthropic)</b>, een
+      geavanceerd taalmodel. De vraag gaat via een beveiligde Cloudflare
+      Worker naar Claude en komt dan als compleet boek terug — meestal binnen
+      30-60 seconden. Je krijgt het boek direct te zien in een mooie
+      boek-viewer waarmee je kunt bladeren, en je kunt het downloaden als
+      <code>.txt</code>-bestand.</p>
+
+      <h3>👤 Gemaakt door</h3>
+      <p>Olliebet is een hobbyproject van Olivier. Vragen of ideeën? Zeg het
+      maar!</p>
+    </article>
+  `;
+  toonMijnBoekenSidebar(false);
 }
 
 function toonGenreKeuze() {

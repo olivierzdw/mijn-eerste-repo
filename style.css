@@ -1461,8 +1461,60 @@ button:hover {
 }
 .boek-welkom {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
   padding: 3rem 1rem 2rem;
+}
+.boek-welkom-knop-sec {
+  font-size: 1.1rem;
+  padding: 0.75rem 1.8rem;
+  background: rgba(20, 15, 40, 0.42);
+}
+.boek-welkom-knop-sec:hover {
+  background: rgba(40, 30, 70, 0.6);
+}
+
+.boek-over {
+  background: rgba(20, 15, 40, 0.55);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1.5px solid rgba(255, 255, 255, 0.2);
+  border-radius: 14px;
+  padding: 1.5rem 1.6rem;
+  color: #e8ecf5;
+  line-height: 1.55;
+  margin-top: 0.8rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+.boek-over h2 {
+  color: #fff;
+  margin: 0 0 0.6rem 0;
+  font-size: 1.4rem;
+}
+.boek-over h3 {
+  color: #d8c4ff;
+  margin: 1.3rem 0 0.4rem 0;
+  font-size: 1.05rem;
+}
+.boek-over p {
+  margin: 0.3rem 0 0.6rem 0;
+}
+.boek-over ul {
+  padding-left: 1.3rem;
+  margin: 0.3rem 0 0.7rem 0;
+}
+.boek-over li {
+  margin: 0.25rem 0;
+}
+.boek-over code {
+  background: rgba(0,0,0,0.3);
+  padding: 1px 6px;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+.boek-over b {
+  color: #fff;
 }
 .boek-welkom-knop {
   display: flex;
