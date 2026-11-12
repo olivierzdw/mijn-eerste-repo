@@ -2363,13 +2363,17 @@ function renderBoekenGenres() {
   if (!el) return;
   el.innerHTML = `
     <div class="boek-welkom">
-      <button class="boek-welkom-knop" onclick="toonGenreKeuze()">
-        <span class="boek-welkom-emoji">✨</span>
-        <span class="boek-welkom-tekst">Maak een nieuw boek</span>
+      <button class="welkom-kaart welkom-primair" onclick="toonGenreKeuze()">
+        <div class="welkom-kaart-emoji">✨</div>
+        <div class="welkom-kaart-titel">Maak een nieuw boek</div>
+        <div class="welkom-kaart-sub">Kies een genre en begin</div>
+        <div class="welkom-kaart-pijl">→</div>
       </button>
-      <button class="boek-welkom-knop boek-welkom-knop-sec" onclick="toonOverOns()">
-        <span class="boek-welkom-emoji">ℹ️</span>
-        <span class="boek-welkom-tekst">Over ons</span>
+      <button class="welkom-kaart welkom-secundair" onclick="toonOverOns()">
+        <div class="welkom-kaart-emoji">ℹ️</div>
+        <div class="welkom-kaart-titel">Over ons</div>
+        <div class="welkom-kaart-sub">Hoe het werkt &amp; wat het kost</div>
+        <div class="welkom-kaart-pijl">→</div>
       </button>
     </div>
   `;
@@ -2382,52 +2386,73 @@ function toonOverOns() {
   if (!el) return;
   el.innerHTML = `
     <button class="boek-stap-terug" onclick="renderBoekenGenres()">← Terug</button>
-    <article class="boek-over">
-      <h2>📖 Over de AI Boekenschrijver</h2>
 
-      <p>Welkom bij <b>Olliebet AI Boekenschrijver</b>! Hier kun je in een paar
-      minuten je eigen boek laten schrijven door kunstmatige intelligentie —
-      precies op jouw wensen.</p>
+    <section class="over-hero">
+      <div class="over-hero-emoji">📖</div>
+      <h2 class="over-hero-titel">AI Boekenschrijver</h2>
+      <p class="over-hero-sub">Jouw eigen boek, in een paar minuten geschreven door kunstmatige intelligentie — precies zoals jij het wil.</p>
+    </section>
 
-      <h3>✨ Wat kan het?</h3>
-      <ul>
-        <li>Kies uit vier genres: <b>Leerzaam</b>, <b>Avontuur</b>, <b>Thriller</b> of <b>Roman</b>.</li>
-        <li>Geef je eigen <b>hoofdpersonen</b> en <b>bijpersonen</b> op.</li>
-        <li>Beschrijf zelf het <b>onderwerp of plot</b>.</li>
-        <li>Upload maximaal 5 <b>plaatjes</b> — die komen in het boek terecht op logische plekken.</li>
-        <li>Stel de <b>leeftijd</b> van de lezer in (3-99 jaar) zodat de schrijfstijl precies klopt.</li>
-        <li>Kies zelf de <b>lengte</b>: van 10 tot 200 bladzijdes.</li>
-      </ul>
+    <section class="over-sect">
+      <h3 class="over-sect-titel"><span class="over-sect-emoji">🚀</span> Zo werkt het</h3>
+      <ol class="over-stappen">
+        <li><span class="over-stap-nr">1</span><div><b>Kies een genre</b><br/><span>Leerzaam, Avontuur, Thriller of Roman.</span></div></li>
+        <li><span class="over-stap-nr">2</span><div><b>Vul in</b><br/><span>Leeftijd, personages, onderwerp, lengte, eventueel plaatjes.</span></div></li>
+        <li><span class="over-stap-nr">3</span><div><b>Betaal</b><br/><span>Via Tikkie of met een cadeaucode.</span></div></li>
+        <li><span class="over-stap-nr">4</span><div><b>Lees je boek</b><br/><span>Direct bladeren in de boek-viewer. Download als .txt kan ook.</span></div></li>
+      </ol>
+    </section>
 
-      <h3>💳 Wat kost het?</h3>
-      <p><b>€0,05 per bladzijde</b>. Dus een boek van 20 blz kost €1,- en een
-      boek van 200 blz €10,-. Je kunt betalen via Tikkie of met een
-      <b>cadeaucode</b> als iemand er een voor je heeft gemaakt.</p>
+    <section class="over-sect">
+      <h3 class="over-sect-titel"><span class="over-sect-emoji">✨</span> Wat kan het?</h3>
+      <div class="over-grid">
+        <div class="over-kaart"><div class="over-kaart-emoji">📚</div><b>4 genres</b><p>Leerzaam, Avontuur, Thriller, Roman.</p></div>
+        <div class="over-kaart"><div class="over-kaart-emoji">👥</div><b>Eigen personages</b><p>Hoofd- en bijpersonen die jij verzint.</p></div>
+        <div class="over-kaart"><div class="over-kaart-emoji">💡</div><b>Eigen plot</b><p>Schrijf zelf waar het boek over gaat.</p></div>
+        <div class="over-kaart"><div class="over-kaart-emoji">🖼️</div><b>Tot 5 plaatjes</b><p>Komen op logische plekken in het verhaal.</p></div>
+        <div class="over-kaart"><div class="over-kaart-emoji">🎂</div><b>Leeftijd 3-99</b><p>Schrijfstijl past zich aan de lezer aan.</p></div>
+        <div class="over-kaart"><div class="over-kaart-emoji">📏</div><b>10-200 blz</b><p>Zelf bepalen hoe lang je boek wordt.</p></div>
+      </div>
+    </section>
 
-      <h3>📚 Je eigen bibliotheek</h3>
-      <p>Alle boeken die je maakt worden automatisch opgeslagen bij jouw
-      account. In het hoofdscherm zie je de lijst "Mijn boeken" — klik een
-      boek aan om 'm opnieuw te lezen, of op het kruisje om te verwijderen.</p>
+    <section class="over-sect">
+      <h3 class="over-sect-titel"><span class="over-sect-emoji">💳</span> Wat kost het?</h3>
+      <div class="over-prijs">
+        <div class="over-prijs-bedrag">€0,05</div>
+        <div class="over-prijs-per">per bladzijde</div>
+      </div>
+      <div class="over-prijs-vb">
+        <div class="over-prijs-vb-rij"><span>10 blz</span><b>€0,50</b></div>
+        <div class="over-prijs-vb-rij"><span>20 blz</span><b>€1,00</b></div>
+        <div class="over-prijs-vb-rij"><span>50 blz</span><b>€2,50</b></div>
+        <div class="over-prijs-vb-rij"><span>100 blz</span><b>€5,00</b></div>
+        <div class="over-prijs-vb-rij"><span>200 blz</span><b>€10,00</b></div>
+      </div>
+      <p class="over-prijs-info">Betalen gaat via <b>Tikkie</b>. Heb je een <b>cadeaucode</b> gekregen? Dan is het gratis — tot de code op is.</p>
+    </section>
 
-      <h3>🔒 Account</h3>
-      <p>Je maakt één keer een account aan met een <b>gebruikersnaam</b> en
-      <b>wachtwoord</b>. Het wachtwoord wordt versleuteld opgeslagen (SHA-256),
-      wij kunnen het zelf niet zien. Je blijft ingelogd tot je op "Uitloggen" klikt.</p>
+    <section class="over-sect">
+      <h3 class="over-sect-titel"><span class="over-sect-emoji">📚</span> Je eigen bibliotheek</h3>
+      <p class="over-tekst">Elk boek dat je maakt wordt automatisch opgeslagen bij jouw account. In het hoofdscherm zie je de lijst "Mijn boeken" waar je ze opnieuw kunt openen of met het kruisje kunt verwijderen. Niemand anders kan bij jouw boeken.</p>
+    </section>
 
-      <h3>🤖 Hoe werkt het technisch?</h3>
-      <p>Het boek wordt geschreven door <b>Claude (Anthropic)</b>, een
-      geavanceerd taalmodel. De vraag gaat via een beveiligde Cloudflare
-      Worker naar Claude en komt dan als compleet boek terug — meestal binnen
-      30-60 seconden. Je krijgt het boek direct te zien in een mooie
-      boek-viewer waarmee je kunt bladeren, en je kunt het downloaden als
-      <code>.txt</code>-bestand.</p>
+    <section class="over-sect">
+      <h3 class="over-sect-titel"><span class="over-sect-emoji">🔒</span> Veilig en privé</h3>
+      <p class="over-tekst">Je wachtwoord wordt versleuteld opgeslagen met <b>SHA-256</b>. Wij kunnen het zelf niet uitlezen. Je blijft ingelogd tot je op "Uitloggen" klikt.</p>
+    </section>
 
-      <h3>👤 Gemaakt door</h3>
-      <p>Olliebet is een hobbyproject van Olivier. Vragen of ideeën? Zeg het
-      maar!</p>
-    </article>
+    <section class="over-sect">
+      <h3 class="over-sect-titel"><span class="over-sect-emoji">🤖</span> Hoe werkt het technisch?</h3>
+      <p class="over-tekst">De tekst wordt geschreven door <b>Claude Sonnet 4.5</b> (Anthropic), een van de krachtigste taalmodellen die er bestaan. Je aanvraag gaat via een beveiligde <b>Cloudflare Worker</b> naar Claude — de API-sleutel staat veilig op de server en komt nooit in je browser. Een boek is gemiddeld in <b>30-90 seconden</b> klaar.</p>
+    </section>
+
+    <footer class="over-voet">
+      <div class="over-voet-emoji">👋</div>
+      <p><b>Olliebet</b> is een hobbyproject van Olivier.<br/>Vragen, ideeën of problemen? Zeg het maar!</p>
+    </footer>
   `;
   toonMijnBoekenSidebar(false);
+  window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
 function toonGenreKeuze() {
