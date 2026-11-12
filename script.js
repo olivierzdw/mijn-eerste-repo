@@ -2358,9 +2358,28 @@ function doeBoekUitloggen() {
 }
 
 function renderBoekenGenres() {
+  // Welkomscherm — grote knop "Maak een nieuw boek".
   const el = document.getElementById("boeken-genres");
   if (!el) return;
-  el.innerHTML = BOEKEN_GENRES.map(g => `
+  el.innerHTML = `
+    <div class="boek-welkom">
+      <button class="boek-welkom-knop" onclick="toonGenreKeuze()">
+        <span class="boek-welkom-emoji">✨</span>
+        <span class="boek-welkom-tekst">Maak een nieuw boek</span>
+      </button>
+    </div>
+  `;
+  toonMijnBoekenSidebar(true);
+  ladenMijnBoeken();
+}
+
+function toonGenreKeuze() {
+  const el = document.getElementById("boeken-genres");
+  if (!el) return;
+  el.innerHTML = `
+    <button class="boek-stap-terug" onclick="renderBoekenGenres()">← Terug</button>
+    <h2 class="boek-genre-titel">Kies een genre</h2>
+  ` + BOEKEN_GENRES.map(g => `
     <button class="boek-genre" style="--genre-kleur:${g.kleur}" onclick="kiesBoekGenre('${g.id}')">
       <div class="boek-genre-emoji">${g.emoji}</div>
       <div class="boek-genre-tekst">
@@ -2526,7 +2545,7 @@ function toonBoekLeeftijd() {
   const opgeslagen = huidigBoek.leeftijd || suggestieLeeftijd(g.id);
   el.innerHTML = `
     <div class="boek-stap" style="--genre-kleur:${g.kleur}">
-      <button class="boek-stap-terug" onclick="renderBoekenGenres()">← Ander genre</button>
+      <button class="boek-stap-terug" onclick="toonGenreKeuze()">← Ander genre</button>
       <div class="boek-stap-genre">
         <span class="boek-stap-emoji">${g.emoji}</span>
         <span class="boek-stap-naam">${escapeHTML(g.naam)}</span>
