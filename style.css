@@ -1084,9 +1084,127 @@ button:hover {
   font-size: 2rem;
 }
 .boeken-main {
-  max-width: 700px;
+  max-width: 1100px;
   margin: 0 auto;
   color: #e0e0e0;
+}
+.boeken-layout {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  margin-top: 1rem;
+}
+.boeken-layout > .boeken-genres {
+  flex: 1 1 auto;
+  min-width: 0;
+  max-width: 700px;
+}
+.boeken-mijn {
+  flex: 0 0 300px;
+  background: rgba(26, 36, 64, 0.85);
+  border: 2px solid #a855f7;
+  border-radius: 12px;
+  padding: 18px 16px;
+  position: sticky;
+  top: 20px;
+  max-height: calc(100vh - 40px);
+  overflow-y: auto;
+}
+.boeken-mijn-titel {
+  margin: 0 0 14px 0;
+  color: #e0e0e0;
+  font-size: 1.1rem;
+  text-align: center;
+}
+.boeken-mijn-aantal {
+  color: #c9b8e6;
+  font-weight: normal;
+  font-size: 0.9rem;
+}
+.boeken-mijn-lijst {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.boeken-mijn-leeg {
+  color: #c9b8e6;
+  text-align: center;
+  font-size: 0.9rem;
+  padding: 1rem 0.5rem;
+  margin: 0;
+  line-height: 1.5;
+}
+.boeken-mijn-kaart {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  background: #1a2440;
+  border-left: 3px solid var(--genre-kleur, #a855f7);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.12s, background 0.12s;
+  position: relative;
+}
+.boeken-mijn-kaart:hover {
+  background: #22305a;
+  transform: translateX(2px);
+}
+.boeken-mijn-kaart-emoji {
+  font-size: 1.6rem;
+  flex-shrink: 0;
+}
+.boeken-mijn-kaart-tekst {
+  flex: 1;
+  min-width: 0;
+}
+.boeken-mijn-kaart-titel {
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.92rem;
+  margin-bottom: 2px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.boeken-mijn-kaart-meta {
+  color: #9aa9c7;
+  font-size: 0.75rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.boeken-mijn-kaart-del {
+  background: transparent;
+  border: none;
+  color: #9aa9c7;
+  font-size: 1.3rem;
+  line-height: 1;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+  flex-shrink: 0;
+  padding: 0;
+  transition: background 0.12s, color 0.12s;
+}
+.boeken-mijn-kaart-del:hover {
+  background: #e94560;
+  color: #fff;
+}
+@media (max-width: 900px) {
+  .boeken-layout {
+    flex-direction: column;
+  }
+  .boeken-layout > .boeken-genres {
+    max-width: 100%;
+  }
+  .boeken-mijn {
+    flex: 1 1 auto;
+    width: 100%;
+    position: static;
+    max-height: 420px;
+  }
 }
 .boeken-intro {
   text-align: center;

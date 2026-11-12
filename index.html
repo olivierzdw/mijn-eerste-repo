@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Olliebet</title>
-  <link rel="stylesheet" href="style.css?v=38" />
+  <link rel="stylesheet" href="style.css?v=39" />
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
   <meta http-equiv="Pragma" content="no-cache" />
   <meta http-equiv="Expires" content="0" />
@@ -159,10 +159,18 @@
     </header>
     <main class="boeken-main">
       <div class="boeken-auth" id="boeken-auth"></div>
-      <div class="boeken-genres hidden" id="boeken-genres"></div>
+      <div class="boeken-layout hidden" id="boeken-layout">
+        <div class="boeken-genres" id="boeken-genres"></div>
+        <aside class="boeken-mijn hidden" id="boeken-mijn">
+          <h3 class="boeken-mijn-titel">📚 Mijn boeken <span class="boeken-mijn-aantal" id="boeken-mijn-aantal"></span></h3>
+          <div class="boeken-mijn-lijst" id="boeken-mijn-lijst">
+            <p class="boeken-mijn-leeg">Laden...</p>
+          </div>
+        </aside>
+      </div>
     </main>
   </div>
 
-  <script src="script.js?v=59"></script>
+  <script src="script.js?v=60"></script>
 </body>
 </html>

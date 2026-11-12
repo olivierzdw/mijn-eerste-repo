@@ -2234,17 +2234,17 @@ function slaBoekGebruikerOp(gebruiker) {
 }
 
 function toonBoekSchermNaInloggen() {
-  const auth  = document.getElementById("boeken-auth");
-  const genre = document.getElementById("boeken-genres");
-  const sub   = document.getElementById("boeken-sub");
+  const auth   = document.getElementById("boeken-auth");
+  const layout = document.getElementById("boeken-layout");
+  const sub    = document.getElementById("boeken-sub");
   const userBalk = document.getElementById("boeken-user");
   const userNaam = document.getElementById("boeken-user-naam");
-  if (!auth || !genre) return;
+  if (!auth || !layout) return;
 
   const u = huidigeBoekGebruiker();
   if (u && u.naam) {
     auth.classList.add("hidden");
-    genre.classList.remove("hidden");
+    layout.classList.remove("hidden");
     if (sub) sub.textContent = "Kies een genre om te beginnen";
     if (userBalk) userBalk.classList.remove("hidden");
     if (userNaam) userNaam.textContent = "Ingelogd als " + u.naam;
@@ -2252,7 +2252,7 @@ function toonBoekSchermNaInloggen() {
     renderBoekenGenres();
   } else {
     auth.classList.remove("hidden");
-    genre.classList.add("hidden");
+    layout.classList.add("hidden");
     if (sub) sub.textContent = "Log in om boeken te maken";
     if (userBalk) userBalk.classList.add("hidden");
     toonBoekAuth("login");
@@ -2370,6 +2370,136 @@ function renderBoekenGenres() {
       </div>
     </button>
   `).join('');
+  toonMijnBoekenSidebar(true);
+  ladenMijnBoeken();
+}
+
+function toonMijnBoekenSidebar(show) {
+  const side = document.getElementById("boeken-mijn");
+  if (!side) return;
+  if (show && huidigeBoekGebruiker()) side.classList.remove("hidden");
+  else side.classList.add("hidden");
+}
+
+async function ladenMijnBoeken() {
+  const u = huidigeBoekGebruiker();
+  const lijstEl = document.getElementById("boeken-mijn-lijst");
+  const aantalEl = document.getElementById("boeken-mijn-aantal");
+  if (!u || !lijstEl) return;
+  try {
+    const res = await fetch(`${FIREBASE_URL}/boek-gebruikers/${u.sleutel}/boeken.json`);
+    const data = await res.json();
+    const boeken = data
+      ? Object.entries(data).map(([id, b]) => ({ id, ...b })).sort((a, b) => (b.datum || 0) - (a.datum || 0))
+      : [];
+    renderMijnBoeken(boeken);
+    if (aantalEl) aantalEl.textContent = boeken.length ? `(${boeken.length})` : "";
+  } catch (err) {
+    lijstEl.innerHTML = `<p class="boeken-mijn-leeg">Kon boeken niet laden.</p>`;
+  }
+}
+
+function renderMijnBoeken(boeken) {
+  const lijstEl = document.getElementById("boeken-mijn-lijst");
+  if (!lijstEl) return;
+  if (!boeken.length) {
+    lijstEl.innerHTML = `<p class="boeken-mijn-leeg">Nog geen boeken.<br/>Kies een genre om je eerste boek te maken!</p>`;
+    return;
+  }
+  lijstEl.innerHTML = boeken.map(b => {
+    const d = b.datum ? new Date(b.datum) : null;
+    const datumStr = d ? `${String(d.getDate()).padStart(2,'0')}-${String(d.getMonth()+1).padStart(2,'0')}-${d.getFullYear()}` : '';
+    const kleur = b.genre_kleur || "#a855f7";
+    return `
+      <div class="boeken-mijn-kaart" style="--genre-kleur:${kleur}" onclick="openOpgeslagenBoek('${b.id}')">
+        <div class="boeken-mijn-kaart-emoji">${b.genre_emoji || "📖"}</div>
+        <div class="boeken-mijn-kaart-tekst">
+          <div class="boeken-mijn-kaart-titel">${escapeHTML(b.titel || "Zonder titel")}</div>
+          <div class="boeken-mijn-kaart-meta">${escapeHTML(b.genre_naam || "")} · ${b.bladzijdes || "?"} blz · ${datumStr}</div>
+        </div>
+        <button class="boeken-mijn-kaart-del" onclick="event.stopPropagation(); verwijderOpgeslagenBoek('${b.id}', this)" title="Verwijderen">×</button>
+      </div>
+    `;
+  }).join('');
+}
+
+async function openOpgeslagenBoek(id) {
+  const u = huidigeBoekGebruiker();
+  if (!u) return;
+  try {
+    const res = await fetch(`${FIREBASE_URL}/boek-gebruikers/${u.sleutel}/boeken/${id}.json`);
+    const b = await res.json();
+    if (!b || !b.tekst) return;
+    const g = BOEKEN_GENRES.find(x => x.id === b.genre_id) || {
+      id: b.genre_id, naam: b.genre_naam, emoji: b.genre_emoji, kleur: b.genre_kleur, leeftijd: b.genre_leeftijd,
+    };
+    huidigBoek = {
+      genre: g,
+      leeftijd: b.leeftijd,
+      hoofdpersonen: b.hoofdpersonen || "",
+      bijpersonen: b.bijpersonen || "",
+      onderwerp: b.onderwerp || "",
+      bladzijdes: b.bladzijdes || 0,
+      plaatjes: [],
+      _opgeslagenId: id,
+    };
+    toonMijnBoekenSidebar(false);
+    toonBoekResultaat(b.tekst);
+  } catch (err) {
+    alert("Kon boek niet openen.");
+  }
+}
+
+async function verwijderOpgeslagenBoek(id, knop) {
+  const u = huidigeBoekGebruiker();
+  if (!u) return;
+  if (!confirm("Dit boek verwijderen? Dit kan niet ongedaan worden gemaakt.")) return;
+  try {
+    await fetch(`${FIREBASE_URL}/boek-gebruikers/${u.sleutel}/boeken/${id}.json`, { method: "DELETE" });
+    ladenMijnBoeken();
+  } catch (err) {
+    alert("Kon boek niet verwijderen.");
+  }
+}
+
+function leidTitelAfUitTekst(tekst) {
+  if (!tekst) return "Zonder titel";
+  const m = tekst.match(/^#\s+(.+)$/m);
+  if (m) return m[1].trim().slice(0, 80);
+  const eerste = tekst.split(/\n/).find(r => r.trim());
+  return (eerste || "Zonder titel").trim().slice(0, 80);
+}
+
+async function slaBoekOpInFirebase(tekst) {
+  const u = huidigeBoekGebruiker();
+  if (!u || !huidigBoek || !tekst) return;
+  if (huidigBoek._opgeslagenId) return; // al eerder opgeslagen boek, niet nogmaals opslaan
+  const g = huidigBoek.genre || {};
+  const boek = {
+    titel: leidTitelAfUitTekst(tekst),
+    datum: Date.now(),
+    genre_id: g.id || "",
+    genre_naam: g.naam || "",
+    genre_emoji: g.emoji || "📖",
+    genre_kleur: g.kleur || "#a855f7",
+    genre_leeftijd: g.leeftijd || "",
+    leeftijd: huidigBoek.leeftijd || null,
+    hoofdpersonen: huidigBoek.hoofdpersonen || "",
+    bijpersonen: huidigBoek.bijpersonen || "",
+    onderwerp: huidigBoek.onderwerp || "",
+    bladzijdes: huidigBoek.bladzijdes || 0,
+    tekst,
+  };
+  try {
+    const res = await fetch(`${FIREBASE_URL}/boek-gebruikers/${u.sleutel}/boeken.json`, {
+      method: "POST",
+      body: JSON.stringify(boek),
+    });
+    const data = await res.json();
+    if (data && data.name) huidigBoek._opgeslagenId = data.name;
+  } catch (err) {
+    // stilletjes falen — boek is al zichtbaar in viewer
+  }
 }
 
 let huidigBoek = null; // { genre, hoofdpersonen, ... }
@@ -2378,6 +2508,7 @@ function kiesBoekGenre(id) {
   const g = BOEKEN_GENRES.find(x => x.id === id);
   if (!g) return;
   huidigBoek = { genre: g };
+  toonMijnBoekenSidebar(false);
   toonBoekLeeftijd();
 }
 
@@ -2981,7 +3112,9 @@ async function genereerBoek() {
       return;
     }
     const data = await resp.json();
-    toonBoekResultaat(data.tekst || "");
+    const tekst = data.tekst || "";
+    toonBoekResultaat(tekst);
+    slaBoekOpInFirebase(tekst);
   } catch (err) {
     clearInterval(stappenInterval);
     toonBoekResultaatFout(`Verbinding met backend mislukt: ${err.message}`);
