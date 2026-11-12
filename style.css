@@ -1068,6 +1068,11 @@ button:hover {
 #boeken-app {
   min-height: 100vh;
   padding: 60px 20px 40px;
+  background:
+    linear-gradient(rgba(14, 10, 40, 0.80), rgba(14, 10, 40, 0.88)),
+    url("boeken-bg.svg?v=1") center 120px / min(760px, 92%) auto no-repeat,
+    #1a1a2e;
+  background-attachment: fixed, fixed, fixed;
 }
 .boeken-header {
   text-align: center;
