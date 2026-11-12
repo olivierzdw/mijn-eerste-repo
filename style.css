@@ -1070,7 +1070,7 @@ button:hover {
   padding: 60px 20px 40px;
   background:
     linear-gradient(rgba(14, 10, 40, 0.72), rgba(14, 10, 40, 0.82)),
-    url("boeken-bg.jpg?v=1") center center / cover no-repeat,
+    url("boeken-bg.jpg?v=2") center center / cover no-repeat,
     #1a1a2e;
   background-attachment: fixed, fixed, fixed;
 }
