@@ -1084,30 +1084,26 @@ button:hover {
   font-size: 2rem;
 }
 .boeken-main {
-  max-width: 1100px;
+  max-width: 700px;
   margin: 0 auto;
   color: #e0e0e0;
 }
 .boeken-layout {
   display: flex;
+  flex-direction: column;
   gap: 24px;
-  align-items: flex-start;
   margin-top: 1rem;
 }
 .boeken-layout > .boeken-genres {
-  flex: 1 1 auto;
-  min-width: 0;
-  max-width: 700px;
+  width: 100%;
 }
 .boeken-mijn {
-  flex: 0 0 300px;
+  width: 100%;
   background: rgba(26, 36, 64, 0.85);
   border: 2px solid #a855f7;
   border-radius: 12px;
   padding: 18px 16px;
-  position: sticky;
-  top: 20px;
-  max-height: calc(100vh - 40px);
+  max-height: 480px;
   overflow-y: auto;
 }
 .boeken-mijn-titel {
@@ -1191,20 +1187,6 @@ button:hover {
 .boeken-mijn-kaart-del:hover {
   background: #e94560;
   color: #fff;
-}
-@media (max-width: 900px) {
-  .boeken-layout {
-    flex-direction: column;
-  }
-  .boeken-layout > .boeken-genres {
-    max-width: 100%;
-  }
-  .boeken-mijn {
-    flex: 1 1 auto;
-    width: 100%;
-    position: static;
-    max-height: 420px;
-  }
 }
 .boeken-intro {
   text-align: center;
