@@ -1069,10 +1069,15 @@ button:hover {
   min-height: 100vh;
   padding: 60px 20px 40px;
   background:
-    linear-gradient(rgba(14, 10, 40, 0.30), rgba(14, 10, 40, 0.45)),
+    linear-gradient(rgba(10, 8, 30, 0.18), rgba(10, 8, 30, 0.35)),
     url("boeken-bg.jpg?v=3") center center / cover no-repeat,
     #1a1a2e;
   background-attachment: fixed, fixed, fixed;
+}
+.boeken-header h1,
+.boeken-sub,
+.boeken-user {
+  text-shadow: 0 2px 10px rgba(0,0,0,0.85), 0 1px 3px rgba(0,0,0,0.9);
 }
 .boeken-header {
   text-align: center;
@@ -1099,12 +1104,18 @@ button:hover {
 }
 .boeken-mijn {
   width: 100%;
-  background: rgba(26, 36, 64, 0.85);
-  border: 2px solid #a855f7;
+  background: rgba(20, 15, 40, 0.28);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border: 1.5px solid rgba(255,255,255,0.25);
   border-radius: 12px;
   padding: 18px 16px;
   max-height: 480px;
   overflow-y: auto;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.35);
+}
+.boeken-mijn-titel {
+  text-shadow: 0 1px 4px rgba(0,0,0,0.75);
 }
 .boeken-mijn-titel {
   margin: 0 0 14px 0;
@@ -1135,7 +1146,9 @@ button:hover {
   align-items: center;
   gap: 10px;
   padding: 10px;
-  background: #1a2440;
+  background: rgba(20, 15, 40, 0.42);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
   border-left: 3px solid var(--genre-kleur, #a855f7);
   border-radius: 6px;
   cursor: pointer;
@@ -1143,7 +1156,7 @@ button:hover {
   position: relative;
 }
 .boeken-mijn-kaart:hover {
-  background: #22305a;
+  background: rgba(40, 30, 70, 0.6);
   transform: translateX(2px);
 }
 .boeken-mijn-kaart-emoji {
@@ -1451,19 +1464,22 @@ button:hover {
   align-items: center;
   gap: 16px;
   text-align: left;
-  background: #1a2440;
+  background: rgba(20, 15, 40, 0.28);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
   color: #fff;
-  border: 2px solid var(--genre-kleur, #a855f7);
+  border: 1.5px solid rgba(255,255,255,0.25);
+  border-left: 4px solid var(--genre-kleur, #a855f7);
   border-radius: 14px;
   padding: 18px 20px;
   cursor: pointer;
   transition: transform 0.1s ease, background 0.15s ease, box-shadow 0.15s ease;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.35);
 }
 .boek-genre:hover {
   transform: translateY(-2px);
-  background: #22305a;
-  box-shadow: 0 6px 16px rgba(0,0,0,0.4), 0 0 0 1px var(--genre-kleur);
+  background: rgba(40, 30, 70, 0.45);
+  box-shadow: 0 8px 22px rgba(0,0,0,0.5), 0 0 0 1px var(--genre-kleur);
 }
 .boek-genre:active { transform: translateY(0); }
 .boek-genre-emoji {
@@ -1482,6 +1498,7 @@ button:hover {
   font-size: 1.2rem;
   font-weight: 700;
   color: var(--genre-kleur, #fff);
+  text-shadow: 0 1px 4px rgba(0,0,0,0.75);
 }
 .boek-genre-leeftijd {
   font-size: 0.85rem;
