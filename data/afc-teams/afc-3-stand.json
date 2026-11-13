@@ -1,6 +1,19 @@
 [
   {
     "positie": 1,
+    "club": "ASV Arsenal 3",
+    "logo": "",
+    "gespeeld": 7,
+    "gewonnen": 5,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 21,
+    "tegen": 15,
+    "doelsaldo": 6,
+    "punten": 15
+  },
+  {
+    "positie": 2,
     "club": "Sloterdijk avv. 2",
     "logo": "images/sloterdijk.png",
     "gespeeld": 7,
@@ -11,19 +24,6 @@
     "tegen": 8,
     "doelsaldo": 10,
     "punten": 14
-  },
-  {
-    "positie": 2,
-    "club": "ASV Arsenal 3",
-    "logo": "",
-    "gespeeld": 6,
-    "gewonnen": 4,
-    "gelijk": 0,
-    "verloren": 2,
-    "voor": 18,
-    "tegen": 13,
-    "doelsaldo": 5,
-    "punten": 12
   },
   {
     "positie": 3,
@@ -42,26 +42,26 @@
     "positie": 4,
     "club": "PVCV 3",
     "logo": "",
-    "gespeeld": 6,
+    "gespeeld": 7,
     "gewonnen": 3,
-    "gelijk": 0,
+    "gelijk": 1,
     "verloren": 3,
-    "voor": 11,
-    "tegen": 13,
+    "voor": 12,
+    "tegen": 14,
     "doelsaldo": -2,
-    "punten": 9
+    "punten": 10
   },
   {
     "positie": 5,
     "club": "AFC 3",
     "logo": "images/afc.png",
-    "gespeeld": 4,
+    "gespeeld": 5,
     "gewonnen": 2,
     "gelijk": 1,
-    "verloren": 1,
-    "voor": 13,
-    "tegen": 10,
-    "doelsaldo": 3,
+    "verloren": 2,
+    "voor": 15,
+    "tegen": 13,
+    "doelsaldo": 2,
     "punten": 7
   },
   {
@@ -79,6 +79,19 @@
   },
   {
     "positie": 7,
+    "club": "VVA/Spartaan, 2",
+    "logo": "",
+    "gespeeld": 3,
+    "gewonnen": 1,
+    "gelijk": 1,
+    "verloren": 1,
+    "voor": 6,
+    "tegen": 6,
+    "doelsaldo": 0,
+    "punten": 4
+  },
+  {
+    "positie": 8,
     "club": "SDZ 5",
     "logo": "",
     "gespeeld": 6,
@@ -89,19 +102,6 @@
     "tegen": 20,
     "doelsaldo": -7,
     "punten": 4
-  },
-  {
-    "positie": 8,
-    "club": "VVA/Spartaan, 2",
-    "logo": "",
-    "gespeeld": 2,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 1,
-    "voor": 5,
-    "tegen": 5,
-    "doelsaldo": 0,
-    "punten": 3
   },
   {
     "positie": 9,
