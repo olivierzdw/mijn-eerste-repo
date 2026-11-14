@@ -146,14 +146,14 @@
     "positie": 12,
     "club": "AFC 5",
     "logo": "images/afc.png",
-    "gespeeld": 6,
+    "gespeeld": 7,
     "gewonnen": 0,
-    "gelijk": 1,
+    "gelijk": 2,
     "verloren": 5,
-    "voor": 10,
-    "tegen": 29,
+    "voor": 13,
+    "tegen": 32,
     "doelsaldo": -19,
-    "punten": 1
+    "punten": 2
   },
   {
     "positie": 13,
@@ -172,13 +172,13 @@
     "positie": 14,
     "club": "Kadoelen sv. 2",
     "logo": "",
-    "gespeeld": 7,
+    "gespeeld": 8,
     "gewonnen": 0,
-    "gelijk": 0,
+    "gelijk": 1,
     "verloren": 7,
-    "voor": 6,
-    "tegen": 30,
+    "voor": 9,
+    "tegen": 33,
     "doelsaldo": -24,
-    "punten": 0
+    "punten": 1
   }
 ]

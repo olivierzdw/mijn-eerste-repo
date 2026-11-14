@@ -1,6 +1,19 @@
 [
   {
     "positie": 1,
+    "club": "DTA Fortius asv 45+1",
+    "logo": "images/fortius.png",
+    "gespeeld": 8,
+    "gewonnen": 8,
+    "gelijk": 0,
+    "verloren": 0,
+    "voor": 59,
+    "tegen": 11,
+    "doelsaldo": 48,
+    "punten": 24
+  },
+  {
+    "positie": 2,
     "club": "ASV Arsenal 45+1",
     "logo": "",
     "gespeeld": 7,
@@ -13,20 +26,20 @@
     "punten": 21
   },
   {
-    "positie": 2,
-    "club": "DTA Fortius asv 45+1",
-    "logo": "images/fortius.png",
-    "gespeeld": 7,
-    "gewonnen": 7,
+    "positie": 3,
+    "club": "Diemen sv. 45+1",
+    "logo": "",
+    "gespeeld": 8,
+    "gewonnen": 5,
     "gelijk": 0,
-    "verloren": 0,
-    "voor": 51,
-    "tegen": 10,
-    "doelsaldo": 41,
-    "punten": 21
+    "verloren": 3,
+    "voor": 22,
+    "tegen": 15,
+    "doelsaldo": 7,
+    "punten": 15
   },
   {
-    "positie": 3,
+    "positie": 4,
     "club": "AFC 45+2",
     "logo": "images/afc.png",
     "gespeeld": 6,
@@ -39,7 +52,7 @@
     "punten": 14
   },
   {
-    "positie": 4,
+    "positie": 5,
     "club": "Geinburgia sv. 45+1",
     "logo": "",
     "gespeeld": 7,
@@ -49,19 +62,6 @@
     "voor": 34,
     "tegen": 18,
     "doelsaldo": 16,
-    "punten": 12
-  },
-  {
-    "positie": 5,
-    "club": "Diemen sv. 45+1",
-    "logo": "",
-    "gespeeld": 7,
-    "gewonnen": 4,
-    "gelijk": 0,
-    "verloren": 3,
-    "voor": 19,
-    "tegen": 13,
-    "doelsaldo": 6,
     "punten": 12
   },
   {
@@ -120,43 +120,17 @@
     "positie": 10,
     "club": "Zuidoost United 45+1",
     "logo": "",
-    "gespeeld": 4,
-    "gewonnen": 1,
+    "gespeeld": 5,
+    "gewonnen": 2,
     "gelijk": 0,
     "verloren": 3,
-    "voor": 9,
-    "tegen": 16,
-    "doelsaldo": -7,
-    "punten": 3
+    "voor": 12,
+    "tegen": 18,
+    "doelsaldo": -6,
+    "punten": 6
   },
   {
     "positie": 11,
-    "club": "Muiderberg sc. 45+1",
-    "logo": "",
-    "gespeeld": 6,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 5,
-    "voor": 8,
-    "tegen": 23,
-    "doelsaldo": -15,
-    "punten": 3
-  },
-  {
-    "positie": 12,
-    "club": "CTO '70 vv 45+2",
-    "logo": "",
-    "gespeeld": 6,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 5,
-    "voor": 14,
-    "tegen": 43,
-    "doelsaldo": -29,
-    "punten": 3
-  },
-  {
-    "positie": 13,
     "club": "Wartburgia asv 45+1",
     "logo": "",
     "gespeeld": 7,
@@ -169,16 +143,42 @@
     "punten": 3
   },
   {
+    "positie": 12,
+    "club": "Muiderberg sc. 45+1",
+    "logo": "",
+    "gespeeld": 7,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 6,
+    "voor": 9,
+    "tegen": 31,
+    "doelsaldo": -22,
+    "punten": 3
+  },
+  {
+    "positie": 13,
+    "club": "CTO '70 vv 45+2",
+    "logo": "",
+    "gespeeld": 7,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 6,
+    "voor": 16,
+    "tegen": 46,
+    "doelsaldo": -30,
+    "punten": 3
+  },
+  {
     "positie": 14,
     "club": "VVGA 45+1",
     "logo": "",
-    "gespeeld": 7,
+    "gespeeld": 8,
     "gewonnen": 0,
     "gelijk": 0,
-    "verloren": 7,
-    "voor": 10,
-    "tegen": 62,
-    "doelsaldo": -52,
+    "verloren": 8,
+    "voor": 12,
+    "tegen": 65,
+    "doelsaldo": -53,
     "punten": 0
   }
 ]
