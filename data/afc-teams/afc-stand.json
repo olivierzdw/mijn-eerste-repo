@@ -183,6 +183,19 @@
   },
   {
     "positie": 15,
+    "club": "Hoek",
+    "logo": "",
+    "gespeeld": 13,
+    "gewonnen": 3,
+    "gelijk": 4,
+    "verloren": 6,
+    "voor": 15,
+    "tegen": 23,
+    "doelsaldo": -8,
+    "punten": 13
+  },
+  {
+    "positie": 16,
     "club": "Kon. HFC",
     "logo": "",
     "gespeeld": 12,
@@ -195,29 +208,16 @@
     "punten": 12
   },
   {
-    "positie": 16,
-    "club": "Hoek",
-    "logo": "",
-    "gespeeld": 12,
-    "gewonnen": 2,
-    "gelijk": 4,
-    "verloren": 6,
-    "voor": 12,
-    "tegen": 21,
-    "doelsaldo": -9,
-    "punten": 10
-  },
-  {
     "positie": 17,
     "club": "Kloetinge",
     "logo": "",
-    "gespeeld": 12,
+    "gespeeld": 13,
     "gewonnen": 1,
     "gelijk": 4,
-    "verloren": 7,
-    "voor": 17,
-    "tegen": 33,
-    "doelsaldo": -16,
+    "verloren": 8,
+    "voor": 19,
+    "tegen": 36,
+    "doelsaldo": -17,
     "punten": 7
   },
   {
