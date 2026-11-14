@@ -53,6 +53,19 @@
   },
   {
     "positie": 5,
+    "club": "DRC 45+1",
+    "logo": "",
+    "gespeeld": 7,
+    "gewonnen": 4,
+    "gelijk": 1,
+    "verloren": 2,
+    "voor": 37,
+    "tegen": 16,
+    "doelsaldo": 21,
+    "punten": 13
+  },
+  {
+    "positie": 6,
     "club": "Geinburgia sv. 45+1",
     "logo": "",
     "gespeeld": 7,
@@ -65,7 +78,7 @@
     "punten": 12
   },
   {
-    "positie": 6,
+    "positie": 7,
     "club": "ST Weesp FC/Muiden SC 45+1",
     "logo": "",
     "gespeeld": 8,
@@ -76,19 +89,6 @@
     "tegen": 29,
     "doelsaldo": -9,
     "punten": 12
-  },
-  {
-    "positie": 7,
-    "club": "DRC 45+1",
-    "logo": "",
-    "gespeeld": 6,
-    "gewonnen": 3,
-    "gelijk": 1,
-    "verloren": 2,
-    "voor": 26,
-    "tegen": 14,
-    "doelsaldo": 12,
-    "punten": 10
   },
   {
     "positie": 8,
@@ -107,13 +107,13 @@
     "positie": 9,
     "club": "GeuzenMiddenmeer 45+2",
     "logo": "",
-    "gespeeld": 6,
+    "gespeeld": 7,
     "gewonnen": 3,
     "gelijk": 0,
-    "verloren": 3,
-    "voor": 20,
-    "tegen": 26,
-    "doelsaldo": -6,
+    "verloren": 4,
+    "voor": 22,
+    "tegen": 37,
+    "doelsaldo": -15,
     "punten": 9
   },
   {

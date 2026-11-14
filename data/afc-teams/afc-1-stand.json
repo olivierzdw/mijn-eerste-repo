@@ -144,28 +144,28 @@
   },
   {
     "positie": 12,
-    "club": "TOS-Actief 1",
+    "club": "Laren 99 sv 1",
     "logo": "",
-    "gespeeld": 6,
-    "gewonnen": 0,
-    "gelijk": 1,
-    "verloren": 5,
-    "voor": 3,
-    "tegen": 18,
-    "doelsaldo": -15,
-    "punten": 1
+    "gespeeld": 8,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 7,
+    "voor": 6,
+    "tegen": 25,
+    "doelsaldo": -19,
+    "punten": 3
   },
   {
     "positie": 13,
-    "club": "Laren 99 sv 1",
+    "club": "TOS-Actief 1",
     "logo": "",
     "gespeeld": 7,
     "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 7,
+    "gelijk": 1,
+    "verloren": 6,
     "voor": 3,
-    "tegen": 25,
-    "doelsaldo": -22,
-    "punten": 0
+    "tegen": 21,
+    "doelsaldo": -18,
+    "punten": 1
   }
 ]
