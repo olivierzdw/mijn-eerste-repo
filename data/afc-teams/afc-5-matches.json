@@ -26,5 +26,19 @@
     "thuisLogo": "images/afc.png",
     "uit": "Swift 8",
     "uitLogo": ""
+  },
+  {
+    "datum": "zo 24 januari 11:00",
+    "thuis": "CTO '70 vv 2",
+    "thuisLogo": "",
+    "uit": "AFC 5",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "zo 31 januari 13:30",
+    "thuis": "Zeeburgia avv 2",
+    "thuisLogo": "",
+    "uit": "AFC 5",
+    "uitLogo": "images/afc.png"
   }
 ]

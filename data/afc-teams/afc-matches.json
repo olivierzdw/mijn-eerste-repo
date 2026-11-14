@@ -54,5 +54,19 @@
     "thuisLogo": "images/afc.png",
     "uit": "GVVV",
     "uitLogo": ""
+  },
+  {
+    "datum": "zo 24 januari 14:00",
+    "thuis": "ROHDA Raalte",
+    "thuisLogo": "",
+    "uit": "AFC",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 30 januari 15:15",
+    "thuis": "AFC",
+    "thuisLogo": "images/afc.png",
+    "uit": "Rijnsburgse Boys",
+    "uitLogo": ""
   }
 ]

@@ -14,6 +14,19 @@
   },
   {
     "positie": 2,
+    "club": "RAP sv. 2",
+    "logo": "",
+    "gespeeld": 7,
+    "gewonnen": 5,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 30,
+    "tegen": 14,
+    "doelsaldo": 16,
+    "punten": 15
+  },
+  {
+    "positie": 3,
     "club": "DVVA csv. 5",
     "logo": "",
     "gespeeld": 7,
@@ -26,7 +39,7 @@
     "punten": 14
   },
   {
-    "positie": 3,
+    "positie": 4,
     "club": "AFC 7",
     "logo": "images/afc.png",
     "gespeeld": 6,
@@ -39,29 +52,16 @@
     "punten": 13
   },
   {
-    "positie": 4,
-    "club": "RAP sv. 2",
-    "logo": "",
-    "gespeeld": 6,
-    "gewonnen": 4,
-    "gelijk": 0,
-    "verloren": 2,
-    "voor": 24,
-    "tegen": 12,
-    "doelsaldo": 12,
-    "punten": 12
-  },
-  {
     "positie": 5,
     "club": "Diemen sv. 4",
     "logo": "",
-    "gespeeld": 6,
+    "gespeeld": 7,
     "gewonnen": 3,
     "gelijk": 0,
-    "verloren": 3,
-    "voor": 13,
-    "tegen": 13,
-    "doelsaldo": 0,
+    "verloren": 4,
+    "voor": 15,
+    "tegen": 19,
+    "doelsaldo": -4,
     "punten": 9
   },
   {

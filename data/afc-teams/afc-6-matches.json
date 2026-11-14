@@ -40,5 +40,19 @@
     "thuisLogo": "images/afc.png",
     "uit": "SCPB'22 3",
     "uitLogo": ""
+  },
+  {
+    "datum": "zo 24 januari 15:00",
+    "thuis": "VVA/Spartaan, 4",
+    "thuisLogo": "",
+    "uit": "AFC 6",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "zo 31 januari 12:00",
+    "thuis": "SDOB 2",
+    "thuisLogo": "",
+    "uit": "AFC 6",
+    "uitLogo": "images/afc.png"
   }
 ]

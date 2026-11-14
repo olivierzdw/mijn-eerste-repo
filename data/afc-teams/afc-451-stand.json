@@ -40,6 +40,19 @@
   },
   {
     "positie": 4,
+    "club": "GeuzenMiddenmeer 45+1",
+    "logo": "",
+    "gespeeld": 7,
+    "gewonnen": 4,
+    "gelijk": 0,
+    "verloren": 3,
+    "voor": 23,
+    "tegen": 11,
+    "doelsaldo": 12,
+    "punten": 12
+  },
+  {
+    "positie": 5,
     "club": "ASV Arsenal 45+2",
     "logo": "",
     "gespeeld": 7,
@@ -52,7 +65,7 @@
     "punten": 10
   },
   {
-    "positie": 5,
+    "positie": 6,
     "club": "Real Sranang sv. 45+1",
     "logo": "",
     "gespeeld": 5,
@@ -62,19 +75,6 @@
     "voor": 25,
     "tegen": 19,
     "doelsaldo": 6,
-    "punten": 9
-  },
-  {
-    "positie": 6,
-    "club": "GeuzenMiddenmeer 45+1",
-    "logo": "",
-    "gespeeld": 6,
-    "gewonnen": 3,
-    "gelijk": 0,
-    "verloren": 3,
-    "voor": 21,
-    "tegen": 10,
-    "doelsaldo": 11,
     "punten": 9
   },
   {
@@ -94,13 +94,13 @@
     "positie": 8,
     "club": "Wartburgia asv 45+2",
     "logo": "",
-    "gespeeld": 6,
+    "gespeeld": 7,
     "gewonnen": 3,
     "gelijk": 0,
-    "verloren": 3,
-    "voor": 12,
-    "tegen": 24,
-    "doelsaldo": -12,
+    "verloren": 4,
+    "voor": 13,
+    "tegen": 26,
+    "doelsaldo": -13,
     "punten": 9
   },
   {

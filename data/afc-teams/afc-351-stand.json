@@ -14,6 +14,19 @@
   },
   {
     "positie": 2,
+    "club": "VVA/Spartaan 35+1",
+    "logo": "",
+    "gespeeld": 6,
+    "gewonnen": 4,
+    "gelijk": 1,
+    "verloren": 1,
+    "voor": 16,
+    "tegen": 12,
+    "doelsaldo": 4,
+    "punten": 13
+  },
+  {
+    "positie": 3,
     "club": "Meteoor De sv. 35+1",
     "logo": "",
     "gespeeld": 5,
@@ -26,7 +39,7 @@
     "punten": 11
   },
   {
-    "positie": 3,
+    "positie": 4,
     "club": "ZSGOWMS 35+1",
     "logo": "",
     "gespeeld": 6,
@@ -39,7 +52,7 @@
     "punten": 11
   },
   {
-    "positie": 4,
+    "positie": 5,
     "club": "AFC Ajax 35+1",
     "logo": "images/afc.png",
     "gespeeld": 4,
@@ -49,19 +62,6 @@
     "voor": 29,
     "tegen": 5,
     "doelsaldo": 24,
-    "punten": 10
-  },
-  {
-    "positie": 5,
-    "club": "VVA/Spartaan 35+1",
-    "logo": "",
-    "gespeeld": 5,
-    "gewonnen": 3,
-    "gelijk": 1,
-    "verloren": 1,
-    "voor": 13,
-    "tegen": 10,
-    "doelsaldo": 3,
     "punten": 10
   },
   {
@@ -133,13 +133,13 @@
     "positie": 11,
     "club": "VVZ '49 35+1",
     "logo": "",
-    "gespeeld": 5,
+    "gespeeld": 6,
     "gewonnen": 0,
     "gelijk": 0,
-    "verloren": 5,
-    "voor": 9,
-    "tegen": 27,
-    "doelsaldo": -18,
+    "verloren": 6,
+    "voor": 11,
+    "tegen": 30,
+    "doelsaldo": -19,
     "punten": 0
   }
 ]

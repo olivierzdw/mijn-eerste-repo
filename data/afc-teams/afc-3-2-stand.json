@@ -1,6 +1,19 @@
 [
   {
     "positie": 1,
+    "club": "AFC 3",
+    "logo": "images/afc.png",
+    "gespeeld": 7,
+    "gewonnen": 6,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 24,
+    "tegen": 12,
+    "doelsaldo": 12,
+    "punten": 18
+  },
+  {
+    "positie": 2,
     "club": "Meer De sv. 2",
     "logo": "",
     "gespeeld": 7,
@@ -11,19 +24,6 @@
     "tegen": 10,
     "doelsaldo": 12,
     "punten": 18
-  },
-  {
-    "positie": 2,
-    "club": "AFC 3",
-    "logo": "images/afc.png",
-    "gespeeld": 6,
-    "gewonnen": 5,
-    "gelijk": 0,
-    "verloren": 1,
-    "voor": 23,
-    "tegen": 12,
-    "doelsaldo": 11,
-    "punten": 15
   },
   {
     "positie": 3,
@@ -53,19 +53,6 @@
   },
   {
     "positie": 5,
-    "club": "HBOK 2",
-    "logo": "",
-    "gespeeld": 6,
-    "gewonnen": 4,
-    "gelijk": 0,
-    "verloren": 2,
-    "voor": 21,
-    "tegen": 10,
-    "doelsaldo": 11,
-    "punten": 12
-  },
-  {
-    "positie": 6,
     "club": "Swift 5",
     "logo": "",
     "gespeeld": 7,
@@ -75,6 +62,19 @@
     "voor": 30,
     "tegen": 18,
     "doelsaldo": 12,
+    "punten": 12
+  },
+  {
+    "positie": 6,
+    "club": "HBOK 2",
+    "logo": "",
+    "gespeeld": 7,
+    "gewonnen": 4,
+    "gelijk": 0,
+    "verloren": 3,
+    "voor": 21,
+    "tegen": 11,
+    "doelsaldo": 10,
     "punten": 12
   },
   {
@@ -107,14 +107,14 @@
     "positie": 9,
     "club": "IJmuiden vv. 2",
     "logo": "",
-    "gespeeld": 7,
+    "gespeeld": 8,
     "gewonnen": 2,
-    "gelijk": 0,
+    "gelijk": 1,
     "verloren": 5,
-    "voor": 11,
-    "tegen": 21,
+    "voor": 13,
+    "tegen": 23,
     "doelsaldo": -10,
-    "punten": 6
+    "punten": 7
   },
   {
     "positie": 10,
@@ -133,14 +133,14 @@
     "positie": 11,
     "club": "Foresters 3",
     "logo": "",
-    "gespeeld": 7,
+    "gespeeld": 8,
     "gewonnen": 0,
-    "gelijk": 1,
+    "gelijk": 2,
     "verloren": 6,
-    "voor": 12,
-    "tegen": 32,
+    "voor": 14,
+    "tegen": 34,
     "doelsaldo": -20,
-    "punten": 1
+    "punten": 2
   },
   {
     "positie": 12,

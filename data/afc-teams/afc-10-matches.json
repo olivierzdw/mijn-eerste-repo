@@ -33,5 +33,19 @@
     "thuisLogo": "images/afc.png",
     "uit": "DEVO'58 2",
     "uitLogo": ""
+  },
+  {
+    "datum": "za 30 januari 14:30",
+    "thuis": "RAP sv. 6",
+    "thuisLogo": "",
+    "uit": "AFC 10",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 6 februari 17:15",
+    "thuis": "AFC 10",
+    "thuisLogo": "images/afc.png",
+    "uit": "WV-HEDW 12",
+    "uitLogo": ""
   }
 ]

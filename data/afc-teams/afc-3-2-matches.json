@@ -1,12 +1,5 @@
 [
   {
-    "datum": "za 14 november 11:30",
-    "thuis": "HBOK 2",
-    "thuisLogo": "",
-    "uit": "AFC 3",
-    "uitLogo": "images/afc.png"
-  },
-  {
     "datum": "za 21 november 12:15",
     "thuis": "vv Zwanenburg 2",
     "thuisLogo": "",
@@ -26,5 +19,19 @@
     "thuisLogo": "",
     "uit": "AFC 3",
     "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 30 januari 12:00",
+    "thuis": "Haarlem-Kennemerland f.c. 2",
+    "thuisLogo": "",
+    "uit": "AFC 3",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 6 februari 15:00",
+    "thuis": "AFC 3",
+    "thuisLogo": "images/afc.png",
+    "uit": "ASV Arsenal 3",
+    "uitLogo": ""
   }
 ]

@@ -26,5 +26,19 @@
     "thuisLogo": "",
     "uit": "AFC 9",
     "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 30 januari 16:30",
+    "thuis": "Buitenveldert sc. 5",
+    "thuisLogo": "",
+    "uit": "AFC 9",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 6 februari 17:15",
+    "thuis": "AFC 9",
+    "thuisLogo": "images/afc.png",
+    "uit": "DVVA csv. 8",
+    "uitLogo": ""
   }
 ]
