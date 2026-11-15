@@ -1812,10 +1812,10 @@
       "positie": 7,
       "club": "CA Mineiro",
       "logo": "https://crests.football-data.org/1766.png",
-      "gespeeld": 34,
-      "punten": 50,
+      "gespeeld": 35,
+      "punten": 51,
       "gewonnen": 14,
-      "gelijk": 8,
+      "gelijk": 9,
       "verloren": 12,
       "doelsaldo": 4,
       "voor": 44,
@@ -1862,6 +1862,19 @@
     },
     {
       "positie": 11,
+      "club": "CR Vasco da Gama",
+      "logo": "https://crests.football-data.org/1780.png",
+      "gespeeld": 34,
+      "punten": 44,
+      "gewonnen": 12,
+      "gelijk": 8,
+      "verloren": 14,
+      "doelsaldo": -5,
+      "voor": 45,
+      "tegen": 50
+    },
+    {
+      "positie": 12,
       "club": "Botafogo FR",
       "logo": "https://crests.football-data.org/1770.png",
       "gespeeld": 34,
@@ -1874,7 +1887,7 @@
       "tegen": 53
     },
     {
-      "positie": 12,
+      "positie": 13,
       "club": "Coritiba FBC",
       "logo": "https://crests.football-data.org/4241.png",
       "gespeeld": 34,
@@ -1887,26 +1900,13 @@
       "tegen": 51
     },
     {
-      "positie": 13,
-      "club": "CR Vasco da Gama",
-      "logo": "https://crests.football-data.org/1780.png",
-      "gespeeld": 33,
-      "punten": 41,
-      "gewonnen": 11,
-      "gelijk": 8,
-      "verloren": 14,
-      "doelsaldo": -7,
-      "voor": 43,
-      "tegen": 50
-    },
-    {
       "positie": 14,
       "club": "Mirassol FC",
       "logo": "https://crests.football-data.org/4364.png",
-      "gespeeld": 34,
-      "punten": 40,
+      "gespeeld": 35,
+      "punten": 41,
       "gewonnen": 10,
-      "gelijk": 10,
+      "gelijk": 11,
       "verloren": 14,
       "doelsaldo": -9,
       "voor": 39,
@@ -1981,14 +1981,14 @@
       "positie": 20,
       "club": "Chapecoense AF",
       "logo": "https://crests.football-data.org/1772_large.png",
-      "gespeeld": 33,
+      "gespeeld": 34,
       "punten": 21,
       "gewonnen": 4,
       "gelijk": 9,
-      "verloren": 20,
-      "doelsaldo": -35,
+      "verloren": 21,
+      "doelsaldo": -37,
       "voor": 33,
-      "tegen": 68
+      "tegen": 70
     }
   ],
   "ELC": [
