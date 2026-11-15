@@ -1,29 +1,29 @@
 [
   {
     "positie": 1,
-    "club": "Parkstad SV 2",
+    "club": "IVV 3",
     "logo": "",
     "gespeeld": 6,
     "gewonnen": 5,
     "gelijk": 1,
     "verloren": 0,
-    "voor": 28,
-    "tegen": 14,
-    "doelsaldo": 14,
+    "voor": 27,
+    "tegen": 8,
+    "doelsaldo": 19,
     "punten": 16
   },
   {
     "positie": 2,
-    "club": "IVV 3",
+    "club": "Parkstad SV 2",
     "logo": "",
-    "gespeeld": 5,
-    "gewonnen": 4,
+    "gespeeld": 7,
+    "gewonnen": 5,
     "gelijk": 1,
-    "verloren": 0,
-    "voor": 19,
-    "tegen": 7,
-    "doelsaldo": 12,
-    "punten": 13
+    "verloren": 1,
+    "voor": 29,
+    "tegen": 22,
+    "doelsaldo": 7,
+    "punten": 16
   },
   {
     "positie": 3,
