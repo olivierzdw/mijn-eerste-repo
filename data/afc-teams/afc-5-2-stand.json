@@ -14,6 +14,19 @@
   },
   {
     "positie": 2,
+    "club": "Buitenveldert sc. 2",
+    "logo": "",
+    "gespeeld": 6,
+    "gewonnen": 5,
+    "gelijk": 1,
+    "verloren": 0,
+    "voor": 21,
+    "tegen": 10,
+    "doelsaldo": 11,
+    "punten": 16
+  },
+  {
+    "positie": 3,
     "club": "WV-HEDW 6",
     "logo": "",
     "gespeeld": 6,
@@ -24,19 +37,6 @@
     "tegen": 9,
     "doelsaldo": 7,
     "punten": 14
-  },
-  {
-    "positie": 3,
-    "club": "Buitenveldert sc. 2",
-    "logo": "",
-    "gespeeld": 5,
-    "gewonnen": 4,
-    "gelijk": 1,
-    "verloren": 0,
-    "voor": 17,
-    "tegen": 10,
-    "doelsaldo": 7,
-    "punten": 13
   },
   {
     "positie": 4,
@@ -120,13 +120,13 @@
     "positie": 10,
     "club": "Wartburgia asv 4",
     "logo": "",
-    "gespeeld": 5,
+    "gespeeld": 6,
     "gewonnen": 2,
     "gelijk": 0,
-    "verloren": 3,
+    "verloren": 4,
     "voor": 7,
-    "tegen": 9,
-    "doelsaldo": -2,
+    "tegen": 13,
+    "doelsaldo": -6,
     "punten": 6
   },
   {
