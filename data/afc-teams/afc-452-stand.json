@@ -42,13 +42,13 @@
     "positie": 4,
     "club": "AFC 45+2",
     "logo": "images/afc.png",
-    "gespeeld": 6,
+    "gespeeld": 7,
     "gewonnen": 5,
     "gelijk": 0,
-    "verloren": 1,
+    "verloren": 2,
     "voor": 32,
-    "tegen": 10,
-    "doelsaldo": 22,
+    "tegen": 15,
+    "doelsaldo": 17,
     "punten": 14
   },
   {
@@ -105,6 +105,19 @@
   },
   {
     "positie": 9,
+    "club": "Zuidoost United 45+1",
+    "logo": "",
+    "gespeeld": 6,
+    "gewonnen": 3,
+    "gelijk": 0,
+    "verloren": 3,
+    "voor": 17,
+    "tegen": 18,
+    "doelsaldo": -1,
+    "punten": 9
+  },
+  {
+    "positie": 10,
     "club": "GeuzenMiddenmeer 45+2",
     "logo": "",
     "gespeeld": 7,
@@ -115,19 +128,6 @@
     "tegen": 37,
     "doelsaldo": -15,
     "punten": 9
-  },
-  {
-    "positie": 10,
-    "club": "Zuidoost United 45+1",
-    "logo": "",
-    "gespeeld": 5,
-    "gewonnen": 2,
-    "gelijk": 0,
-    "verloren": 3,
-    "voor": 12,
-    "tegen": 18,
-    "doelsaldo": -6,
-    "punten": 6
   },
   {
     "positie": 11,
