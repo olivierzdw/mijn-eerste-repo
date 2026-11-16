@@ -24437,6 +24437,58 @@
       "uitScore": 2
     }
   ],
+  "68": [
+    {
+      "id": 561763,
+      "datum": "za 15 augustus",
+      "datumIso": "2026-08-15",
+      "thuis": "Norwich City FC",
+      "thuisLogo": "https://crests.football-data.org/68.png",
+      "uit": "West Bromwich Albion FC",
+      "uitLogo": "https://crests.football-data.org/74.png",
+      "thuisScore": 1,
+      "uitScore": 2
+    }
+  ],
+  "74": [
+    {
+      "id": 561763,
+      "datum": "za 15 augustus",
+      "datumIso": "2026-08-15",
+      "thuis": "Norwich City FC",
+      "thuisLogo": "https://crests.football-data.org/68.png",
+      "uit": "West Bromwich Albion FC",
+      "uitLogo": "https://crests.football-data.org/74.png",
+      "thuisScore": 1,
+      "uitScore": 2
+    }
+  ],
+  "328": [
+    {
+      "id": 561848,
+      "datum": "za 19 september",
+      "datumIso": "2026-09-19",
+      "thuis": "Burnley FC",
+      "thuisLogo": "https://crests.football-data.org/328.png",
+      "uit": "Derby County FC",
+      "uitLogo": "https://crests.football-data.org/342.png",
+      "thuisScore": 1,
+      "uitScore": 1
+    }
+  ],
+  "342": [
+    {
+      "id": 561848,
+      "datum": "za 19 september",
+      "datumIso": "2026-09-19",
+      "thuis": "Burnley FC",
+      "thuisLogo": "https://crests.football-data.org/328.png",
+      "uit": "Derby County FC",
+      "uitLogo": "https://crests.football-data.org/342.png",
+      "thuisScore": 1,
+      "uitScore": 1
+    }
+  ],
   "851": [
     {
       "id": 575323,
