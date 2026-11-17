@@ -24448,6 +24448,17 @@
       "uitLogo": "https://crests.football-data.org/74.png",
       "thuisScore": 1,
       "uitScore": 2
+    },
+    {
+      "id": 561860,
+      "datum": "za 10 oktober",
+      "datumIso": "2026-10-10",
+      "thuis": "Swansea City AFC",
+      "thuisLogo": "https://crests.football-data.org/72.png",
+      "uit": "Norwich City FC",
+      "uitLogo": "https://crests.football-data.org/68.png",
+      "thuisScore": 2,
+      "uitScore": 1
     }
   ],
   "74": [
@@ -24463,6 +24474,43 @@
       "uitScore": 2
     }
   ],
+  "348": [
+    {
+      "id": 561767,
+      "datum": "za 15 augustus",
+      "datumIso": "2026-08-15",
+      "thuis": "Charlton Athletic FC",
+      "thuisLogo": "https://crests.football-data.org/348.png",
+      "uit": "Derby County FC",
+      "uitLogo": "https://crests.football-data.org/342.png",
+      "thuisScore": 2,
+      "uitScore": 1
+    }
+  ],
+  "342": [
+    {
+      "id": 561767,
+      "datum": "za 15 augustus",
+      "datumIso": "2026-08-15",
+      "thuis": "Charlton Athletic FC",
+      "thuisLogo": "https://crests.football-data.org/348.png",
+      "uit": "Derby County FC",
+      "uitLogo": "https://crests.football-data.org/342.png",
+      "thuisScore": 2,
+      "uitScore": 1
+    },
+    {
+      "id": 561848,
+      "datum": "za 19 september",
+      "datumIso": "2026-09-19",
+      "thuis": "Burnley FC",
+      "thuisLogo": "https://crests.football-data.org/328.png",
+      "uit": "Derby County FC",
+      "uitLogo": "https://crests.football-data.org/342.png",
+      "thuisScore": 1,
+      "uitScore": 1
+    }
+  ],
   "328": [
     {
       "id": 561848,
@@ -24476,17 +24524,67 @@
       "uitScore": 1
     }
   ],
-  "342": [
+  "72": [
     {
-      "id": 561848,
-      "datum": "za 19 september",
-      "datumIso": "2026-09-19",
-      "thuis": "Burnley FC",
-      "thuisLogo": "https://crests.football-data.org/328.png",
-      "uit": "Derby County FC",
-      "uitLogo": "https://crests.football-data.org/342.png",
-      "thuisScore": 1,
+      "id": 561860,
+      "datum": "za 10 oktober",
+      "datumIso": "2026-10-10",
+      "thuis": "Swansea City AFC",
+      "thuisLogo": "https://crests.football-data.org/72.png",
+      "uit": "Norwich City FC",
+      "uitLogo": "https://crests.football-data.org/68.png",
+      "thuisScore": 2,
       "uitScore": 1
+    },
+    {
+      "id": 561871,
+      "datum": "di 13 oktober",
+      "datumIso": "2026-10-13",
+      "thuis": "Millwall FC",
+      "thuisLogo": "https://crests.football-data.org/384.png",
+      "uit": "Swansea City AFC",
+      "uitLogo": "https://crests.football-data.org/72.png",
+      "thuisScore": 0,
+      "uitScore": 1
+    }
+  ],
+  "384": [
+    {
+      "id": 561871,
+      "datum": "di 13 oktober",
+      "datumIso": "2026-10-13",
+      "thuis": "Millwall FC",
+      "thuisLogo": "https://crests.football-data.org/384.png",
+      "uit": "Swansea City AFC",
+      "uitLogo": "https://crests.football-data.org/72.png",
+      "thuisScore": 0,
+      "uitScore": 1
+    }
+  ],
+  "715": [
+    {
+      "id": 561893,
+      "datum": "za 24 oktober",
+      "datumIso": "2026-10-24",
+      "thuis": "Cardiff City FC",
+      "thuisLogo": "https://crests.football-data.org/715.png",
+      "uit": "Birmingham City FC",
+      "uitLogo": "https://crests.football-data.org/332.png",
+      "thuisScore": 1,
+      "uitScore": 0
+    }
+  ],
+  "332": [
+    {
+      "id": 561893,
+      "datum": "za 24 oktober",
+      "datumIso": "2026-10-24",
+      "thuis": "Cardiff City FC",
+      "thuisLogo": "https://crests.football-data.org/715.png",
+      "uit": "Birmingham City FC",
+      "uitLogo": "https://crests.football-data.org/332.png",
+      "thuisScore": 1,
+      "uitScore": 0
     }
   ],
   "851": [
