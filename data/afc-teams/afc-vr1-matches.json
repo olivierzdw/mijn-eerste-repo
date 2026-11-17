@@ -1,12 +1,5 @@
 [
   {
-    "datum": "zo 15 november 14:00",
-    "thuis": "Victoria Boys VR1",
-    "thuisLogo": "",
-    "uit": "AFC VR1",
-    "uitLogo": "images/afc.png"
-  },
-  {
     "datum": "zo 22 november 13:30",
     "thuis": "AFC VR1",
     "thuisLogo": "images/afc.png",
@@ -33,5 +26,26 @@
     "thuisLogo": "images/afc.png",
     "uit": "NSVV FC Kunde VR1",
     "uitLogo": ""
+  },
+  {
+    "datum": "zo 14 februari 11:00",
+    "thuis": "WSV 1930 VR1",
+    "thuisLogo": "",
+    "uit": "AFC VR1",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "zo 21 februari 13:30",
+    "thuis": "AFC VR1",
+    "thuisLogo": "images/afc.png",
+    "uit": "Varsseveld VR1",
+    "uitLogo": ""
+  },
+  {
+    "datum": "zo 7 maart 12:00",
+    "thuis": "SJO/SVO HaDee VR1",
+    "thuisLogo": "",
+    "uit": "AFC VR1",
+    "uitLogo": "images/afc.png"
   }
 ]
