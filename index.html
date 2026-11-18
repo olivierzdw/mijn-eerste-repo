@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Olliebet</title>
-  <link rel="stylesheet" href="style.css?v=52" />
+  <link rel="stylesheet" href="style.css?v=53" />
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
   <meta http-equiv="Pragma" content="no-cache" />
   <meta http-equiv="Expires" content="0" />
@@ -23,15 +23,19 @@
 
   <div class="app-chooser hidden" id="app-chooser">
     <h1 class="app-chooser-titel">Kies een app</h1>
-    <div class="app-tiles">
+    <div class="app-tiles app-tiles-solo">
       <button class="app-tile boeken" onclick="kiesApp('boeken')">
         <div class="app-tile-icoon">📖</div>
         <div class="app-tile-naam">AI Boekenschrijver</div>
       </button>
+      <!-- VOETBAL-TEGEL — tijdelijk verborgen op verzoek.
+           Om terug te zetten: verwijder deze comment-wrapper rondom de knop
+           EN haal de class 'app-tiles-solo' weg bij <div class="app-tiles ...">.
       <button class="app-tile voetbal" onclick="kiesApp('voetbal')">
         <div class="app-tile-icoon">⚽</div>
         <div class="app-tile-naam">Voetbalgokken</div>
       </button>
+      -->
     </div>
   </div>
 
