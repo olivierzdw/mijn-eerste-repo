@@ -2180,13 +2180,19 @@ function kiesApp(app) {
   sessionStorage.setItem("olliebet-app", app);
   document.getElementById("app-chooser").classList.add("hidden");
   const boeken = document.getElementById("boeken-app");
-  if (app === "voetbal") {
-    document.getElementById("voetbal-app").classList.remove("hidden");
-    if (boeken) boeken.classList.add("hidden");
-  } else if (app === "boeken") {
-    if (boeken) boeken.classList.remove("hidden");
-    document.getElementById("voetbal-app").classList.add("hidden");
+  const school = document.getElementById("school-app");
+  const voetbal = document.getElementById("voetbal-app");
+  if (boeken) boeken.classList.add("hidden");
+  if (school) school.classList.add("hidden");
+  if (voetbal) voetbal.classList.add("hidden");
+  if (app === "voetbal" && voetbal) {
+    voetbal.classList.remove("hidden");
+  } else if (app === "boeken" && boeken) {
+    boeken.classList.remove("hidden");
     toonBoekSchermNaInloggen();
+  } else if (app === "school" && school) {
+    school.classList.remove("hidden");
+    toonSchoolSchermNaInloggen();
   }
 }
 
@@ -3815,13 +3821,684 @@ function gameOverSnake() {
   if (snakeLoop) { clearInterval(snakeLoop); snakeLoop = null; }
 }
 
+// ═════════════════════════════════════════════════════════════════
+// ✏️ SCHOOLBLADEN — oefenbladen voor basisschool
+// ═════════════════════════════════════════════════════════════════
+
+const SCHOOL_WORKER_URL = BOEKEN_WORKER_URL; // zelfde Worker, ander 'type'
+
+const SCHOOL_VAKKEN = [
+  {
+    id: "rekenen", emoji: "🧮", naam: "Rekenen", kleur: "#f59e0b",
+    themas: [
+      { id: "automatiseren", naam: "Automatiseren",      beschrijving: "Tafels, plus- en minsommen" },
+      { id: "klokkijken",    naam: "Klokkijken",          beschrijving: "Hele, halve en kwartieren" },
+      { id: "verhaaltjessommen", naam: "Verhaaltjessommen", beschrijving: "Sommen in een verhaal" },
+      { id: "breuken",       naam: "Breuken",             beschrijving: "Breuken optellen, vergelijken" },
+      { id: "geld",          naam: "Geld",                beschrijving: "Rekenen met euro's en centen" },
+      { id: "meten",         naam: "Meten",               beschrijving: "Lengte, gewicht en inhoud" },
+      { id: "oppervlakte",   naam: "Oppervlakte/omtrek",  beschrijving: "Vlakke figuren meten" },
+      { id: "procenten",     naam: "Procenten",           beschrijving: "Van breuk naar procent" },
+    ],
+  },
+  {
+    id: "taal", emoji: "✍️", naam: "Taal & spelling", kleur: "#06b6d4",
+    themas: [
+      { id: "spelling",      naam: "Spelling",            beschrijving: "Woorden goed opschrijven" },
+      { id: "werkwoord",     naam: "Werkwoordspelling",   beschrijving: "Ik word / wordt / werd" },
+      { id: "grammatica",    naam: "Grammatica",          beschrijving: "Woordsoorten herkennen" },
+      { id: "zinsontleding", naam: "Zinsontleding",       beschrijving: "Onderwerp, werkwoord, lijdend vw." },
+      { id: "interpunctie",  naam: "Interpunctie",        beschrijving: "Punten, komma's, hoofdletters" },
+      { id: "synoniemen",    naam: "Synoniemen",          beschrijving: "Woorden met dezelfde betekenis" },
+    ],
+  },
+  {
+    id: "lezen", emoji: "📖", naam: "Begrijpend lezen", kleur: "#a855f7",
+    themas: [
+      { id: "kort",       naam: "Kort stukje + vragen",   beschrijving: "Korte tekst, een paar vragen" },
+      { id: "lang",       naam: "Lange tekst + vragen",   beschrijving: "Uitgebreidere tekst met meer vragen" },
+    ],
+  },
+  {
+    id: "aardrijkskunde", emoji: "🌍", naam: "Aardrijkskunde", kleur: "#22c55e",
+    themas: [
+      { id: "nederland",  naam: "Nederland",              beschrijving: "Provincies en hoofdsteden" },
+      { id: "europa",     naam: "Europa",                 beschrijving: "Landen en hoofdsteden" },
+      { id: "wereld",     naam: "Wereld",                 beschrijving: "Werelddelen en landen" },
+    ],
+  },
+  {
+    id: "geschiedenis", emoji: "🏰", naam: "Geschiedenis", kleur: "#b45309",
+    themas: [
+      { id: "vroeger",    naam: "Vroege tijden",          beschrijving: "Prehistorie, Romeinen" },
+      { id: "middel",     naam: "Middeleeuwen",           beschrijving: "Ridders, kastelen, gilden" },
+      { id: "nl-oud",     naam: "Nederland 1500-1900",    beschrijving: "Gouden Eeuw, VOC" },
+      { id: "modern",     naam: "20e eeuw",               beschrijving: "WO1, WO2, moderne tijd" },
+    ],
+  },
+  {
+    id: "natuur", emoji: "🔬", naam: "Natuur & techniek", kleur: "#10b981",
+    themas: [
+      { id: "dieren",     naam: "Dieren",                 beschrijving: "Zoogdieren, vogels, vissen" },
+      { id: "planten",    naam: "Planten",                beschrijving: "Groei, delen, soorten" },
+      { id: "lichaam",    naam: "Het lichaam",            beschrijving: "Organen, zintuigen, botten" },
+      { id: "weer",       naam: "Weer & klimaat",         beschrijving: "Regen, wind, seizoenen" },
+    ],
+  },
+  {
+    id: "engels", emoji: "🇬🇧", naam: "Engels", kleur: "#ef4444",
+    themas: [
+      { id: "woorden",    naam: "Woorden leren",          beschrijving: "Vertalen NL ↔ EN" },
+      { id: "zinnen",     naam: "Zinnen maken",           beschrijving: "Simpele Engelse zinnen" },
+    ],
+  },
+  {
+    id: "vrij", emoji: "🎨", naam: "Vrij onderwerp", kleur: "#ec4899",
+    themas: [
+      { id: "vrij",       naam: "Jij bedenkt het",        beschrijving: "Typ zelf welk vak en onderwerp" },
+    ],
+  },
+];
+
+let huidigSchool = null; // { vak, thema, groep, aantal, moeilijkheid, focus }
+
+function toonSchoolSchermNaInloggen() {
+  const auth   = document.getElementById("school-auth");
+  const inhoud = document.getElementById("school-inhoud");
+  const sub    = document.getElementById("school-sub");
+  const userBalk = document.getElementById("school-user");
+  const userNaam = document.getElementById("school-user-naam");
+  if (!auth || !inhoud) return;
+
+  const u = huidigeBoekGebruiker();
+  if (u && u.naam) {
+    auth.classList.add("hidden");
+    inhoud.classList.remove("hidden");
+    if (sub) sub.textContent = "Kies een vak om een oefenblad te maken";
+    if (userBalk) userBalk.classList.remove("hidden");
+    if (userNaam) userNaam.textContent = "Ingelogd als " + u.naam;
+    huidigSchool = null;
+    renderSchoolWelkom();
+  } else {
+    auth.classList.remove("hidden");
+    inhoud.classList.add("hidden");
+    if (sub) sub.textContent = "Log in om oefenbladen te maken";
+    if (userBalk) userBalk.classList.add("hidden");
+    renderSchoolAuth("login");
+  }
+}
+
+function renderSchoolAuth(modus) {
+  const el = document.getElementById("school-auth");
+  if (!el) return;
+  const fout = `<div class="boek-auth-fout hidden" id="school-auth-fout"></div>`;
+  if (modus === "register") {
+    el.innerHTML = `
+      <div class="boek-auth-vak">
+        <h2>Account aanmaken</h2>
+        <input type="text" id="school-auth-naam" class="boek-auth-input" placeholder="Gebruikersnaam" maxlength="20" autocomplete="username" />
+        <input type="password" id="school-auth-ww" class="boek-auth-input" placeholder="Wachtwoord (min. 4 tekens)" autocomplete="new-password" />
+        <input type="password" id="school-auth-ww2" class="boek-auth-input" placeholder="Wachtwoord nog eens" autocomplete="new-password" />
+        ${fout}
+        <button class="boek-auth-knop" onclick="doeSchoolRegister()">Account aanmaken</button>
+        <p class="boek-auth-wissel">Heb je al een account? <a href="#" onclick="renderSchoolAuth('login'); return false;">Log in</a></p>
+      </div>
+    `;
+  } else {
+    el.innerHTML = `
+      <div class="boek-auth-vak">
+        <h2>Inloggen</h2>
+        <input type="text" id="school-auth-naam" class="boek-auth-input" placeholder="Gebruikersnaam" maxlength="20" autocomplete="username" />
+        <input type="password" id="school-auth-ww" class="boek-auth-input" placeholder="Wachtwoord" autocomplete="current-password" />
+        ${fout}
+        <button class="boek-auth-knop" onclick="doeSchoolLogin()">Inloggen</button>
+        <p class="boek-auth-wissel">Nog geen account? <a href="#" onclick="renderSchoolAuth('register'); return false;">Maak een account aan</a></p>
+      </div>
+    `;
+  }
+}
+
+function schoolAuthFout(msg) {
+  const el = document.getElementById("school-auth-fout");
+  if (el) { el.textContent = msg; el.classList.remove("hidden"); }
+}
+
+async function doeSchoolRegister() {
+  const naam = (document.getElementById("school-auth-naam")?.value || "").trim();
+  const ww   = document.getElementById("school-auth-ww")?.value || "";
+  const ww2  = document.getElementById("school-auth-ww2")?.value || "";
+  if (naam.length < 2) return schoolAuthFout("Vul een gebruikersnaam in (min. 2 tekens).");
+  if (ww.length < 4)   return schoolAuthFout("Wachtwoord moet minimaal 4 tekens zijn.");
+  if (ww !== ww2)      return schoolAuthFout("De wachtwoorden komen niet overeen.");
+  const sleutel = boekNaamSleutel(naam);
+  if (!sleutel) return schoolAuthFout("Ongeldige gebruikersnaam — gebruik letters/cijfers.");
+  try {
+    const res = await fetch(`${FIREBASE_URL}/boek-gebruikers/${sleutel}.json`);
+    const bestaand = await res.json();
+    if (bestaand) return schoolAuthFout("Deze gebruikersnaam bestaat al — kies een andere of log in.");
+    const hash = await hashWachtwoord(ww);
+    await fetch(`${FIREBASE_URL}/boek-gebruikers/${sleutel}.json`, {
+      method: "PUT",
+      body: JSON.stringify({ naam, hash, aangemaakt: Date.now() }),
+    });
+    slaBoekGebruikerOp({ naam, sleutel });
+    toonSchoolSchermNaInloggen();
+  } catch (err) {
+    schoolAuthFout("Er ging iets mis — probeer het nog eens.");
+  }
+}
+
+async function doeSchoolLogin() {
+  const naam = (document.getElementById("school-auth-naam")?.value || "").trim();
+  const ww   = document.getElementById("school-auth-ww")?.value || "";
+  if (!naam || !ww) return schoolAuthFout("Vul gebruikersnaam en wachtwoord in.");
+  const sleutel = boekNaamSleutel(naam);
+  try {
+    const res = await fetch(`${FIREBASE_URL}/boek-gebruikers/${sleutel}.json`);
+    const data = await res.json();
+    if (!data || !data.hash) return schoolAuthFout("Gebruikersnaam of wachtwoord klopt niet.");
+    const hash = await hashWachtwoord(ww);
+    if (hash !== data.hash) return schoolAuthFout("Gebruikersnaam of wachtwoord klopt niet.");
+    slaBoekGebruikerOp({ naam: data.naam || naam, sleutel });
+    toonSchoolSchermNaInloggen();
+  } catch (err) {
+    schoolAuthFout("Er ging iets mis — probeer het nog eens.");
+  }
+}
+
+function renderSchoolWelkom() {
+  const el = document.getElementById("school-inhoud");
+  if (!el) return;
+  el.innerHTML = `
+    <div class="boek-welkom">
+      <button class="welkom-kaart welkom-primair" onclick="toonVakKeuze()">
+        <div class="welkom-kaart-emoji">✏️</div>
+        <div class="welkom-kaart-titel">Maak een nieuw oefenblad</div>
+        <div class="welkom-kaart-sub">Kies een vak en thema</div>
+        <div class="welkom-kaart-pijl">→</div>
+      </button>
+      <button class="welkom-kaart welkom-secundair" onclick="toonSchoolOverOns()">
+        <div class="welkom-kaart-emoji">ℹ️</div>
+        <div class="welkom-kaart-titel">Over schoolbladen</div>
+        <div class="welkom-kaart-sub">Hoe het werkt &amp; wat het kost</div>
+        <div class="welkom-kaart-pijl">→</div>
+      </button>
+    </div>
+    <div class="boeken-mijn" id="school-mijn">
+      <h3 class="boeken-mijn-titel">📄 Mijn bladen <span class="boeken-mijn-aantal" id="school-mijn-aantal"></span></h3>
+      <div class="boeken-mijn-lijst" id="school-mijn-lijst">
+        <p class="boeken-mijn-leeg">Laden...</p>
+      </div>
+    </div>
+  `;
+  ladenMijnSchoolbladen();
+}
+
+function toonVakKeuze() {
+  const el = document.getElementById("school-inhoud");
+  if (!el) return;
+  el.innerHTML = `
+    <button class="boek-stap-terug" onclick="renderSchoolWelkom()">← Terug</button>
+    <h2 class="boek-genre-titel">Kies een vak</h2>
+    <div class="boeken-genres">
+    ${SCHOOL_VAKKEN.map(v => `
+      <button class="boek-genre" style="--genre-kleur:${v.kleur}" onclick="kiesVak('${v.id}')">
+        <div class="boek-genre-emoji">${v.emoji}</div>
+        <div class="boek-genre-tekst">
+          <div class="boek-genre-naam">${escapeHTML(v.naam)}</div>
+          <div class="boek-genre-info">${v.themas.length} onderwerpen</div>
+        </div>
+      </button>
+    `).join('')}
+    </div>
+  `;
+}
+
+function kiesVak(id) {
+  const v = SCHOOL_VAKKEN.find(x => x.id === id);
+  if (!v) return;
+  huidigSchool = { vak: v };
+  toonThemaKeuze();
+}
+
+function toonThemaKeuze() {
+  const el = document.getElementById("school-inhoud");
+  if (!el || !huidigSchool) return;
+  const v = huidigSchool.vak;
+  el.innerHTML = `
+    <button class="boek-stap-terug" onclick="toonVakKeuze()">← Ander vak</button>
+    <div class="boek-stap-genre">
+      <span class="boek-stap-emoji">${v.emoji}</span>
+      <span class="boek-stap-naam">${escapeHTML(v.naam)}</span>
+    </div>
+    <h2 class="boek-genre-titel">Kies een onderwerp</h2>
+    <div class="boeken-genres">
+    ${v.themas.map(t => `
+      <button class="boek-genre" style="--genre-kleur:${v.kleur}" onclick="kiesThema('${t.id}')">
+        <div class="boek-genre-tekst">
+          <div class="boek-genre-naam">${escapeHTML(t.naam)}</div>
+          <div class="boek-genre-info">${escapeHTML(t.beschrijving)}</div>
+        </div>
+      </button>
+    `).join('')}
+    </div>
+  `;
+}
+
+function kiesThema(id) {
+  if (!huidigSchool) return;
+  const t = huidigSchool.vak.themas.find(x => x.id === id);
+  if (!t) return;
+  huidigSchool.thema = t;
+  toonSchoolForm();
+}
+
+function toonSchoolForm() {
+  const el = document.getElementById("school-inhoud");
+  if (!el || !huidigSchool) return;
+  const v = huidigSchool.vak;
+  const t = huidigSchool.thema;
+  const isVrij = (v.id === "vrij");
+  el.innerHTML = `
+    <button class="boek-stap-terug" onclick="toonThemaKeuze()">← Ander onderwerp</button>
+    <div class="boek-stap-genre">
+      <span class="boek-stap-emoji">${v.emoji}</span>
+      <span class="boek-stap-naam">${escapeHTML(v.naam)} — ${escapeHTML(t.naam)}</span>
+    </div>
+
+    <div class="boek-stap" style="--genre-kleur:${v.kleur}">
+      <label class="boek-label">Groep</label>
+      <div class="school-groep-keuze">
+        ${[3,4,5,6,7,8].map(g => `<button class="school-groep-knop" data-groep="${g}" onclick="kiesGroep(${g})">Groep ${g}</button>`).join('')}
+      </div>
+
+      <label class="boek-label" style="margin-top:1rem;">Aantal oefeningen</label>
+      <div class="school-groep-keuze">
+        ${[5,10,15,20,30].map(n => `<button class="school-groep-knop" data-aantal="${n}" onclick="kiesAantalOef(${n})">${n}</button>`).join('')}
+      </div>
+
+      <label class="boek-label" style="margin-top:1rem;">Moeilijkheid</label>
+      <div class="school-groep-keuze">
+        ${["makkelijk","gemiddeld","moeilijk"].map(m => `<button class="school-groep-knop" data-moei="${m}" onclick="kiesMoei('${m}')">${m}</button>`).join('')}
+      </div>
+
+      <label class="boek-label" style="margin-top:1rem;">${isVrij ? "Vak + onderwerp (verplicht)" : "Extra focus (optioneel)"}</label>
+      <input type="text" id="school-focus" class="boek-auth-input" placeholder="${isVrij ? "Bijv. 'Spaans - dieren' of 'Muziek - noten lezen'" : "Bijv. 'tafels van 7 en 8' of 'getallen tot 100'"}" maxlength="120" />
+
+      <div id="school-form-fout" class="boek-auth-fout hidden" style="margin-top:0.8rem;"></div>
+
+      <button class="boek-genereer" style="--genre-kleur:${v.kleur}; margin-top:1.2rem;" onclick="startGenereerSchoolblad()">✏️ Maak oefenblad</button>
+    </div>
+  `;
+  // defaults
+  kiesGroep(5);
+  kiesAantalOef(10);
+  kiesMoei("gemiddeld");
+}
+
+function kiesGroep(n) {
+  if (!huidigSchool) return;
+  huidigSchool.groep = n;
+  document.querySelectorAll('[data-groep]').forEach(b => {
+    b.classList.toggle('actief', parseInt(b.dataset.groep, 10) === n);
+  });
+}
+function kiesAantalOef(n) {
+  if (!huidigSchool) return;
+  huidigSchool.aantal = n;
+  document.querySelectorAll('[data-aantal]').forEach(b => {
+    b.classList.toggle('actief', parseInt(b.dataset.aantal, 10) === n);
+  });
+}
+function kiesMoei(m) {
+  if (!huidigSchool) return;
+  huidigSchool.moeilijkheid = m;
+  document.querySelectorAll('[data-moei]').forEach(b => {
+    b.classList.toggle('actief', b.dataset.moei === m);
+  });
+}
+
+function schoolFormFout(msg) {
+  const el = document.getElementById("school-form-fout");
+  if (el) { el.textContent = msg; el.classList.remove("hidden"); }
+}
+
+async function startGenereerSchoolblad() {
+  if (!huidigSchool) return;
+  const focus = (document.getElementById("school-focus")?.value || "").trim();
+  if (huidigSchool.vak.id === "vrij" && !focus) {
+    return schoolFormFout("Vul bij 'Vrij onderwerp' zelf het vak + onderwerp in.");
+  }
+  huidigSchool.focus = focus;
+
+  const el = document.getElementById("school-inhoud");
+  const v = huidigSchool.vak;
+  el.innerHTML = `
+    <div class="boek-stap" style="--genre-kleur:${v.kleur}">
+      <div class="boek-laad">
+        <div class="boek-laad-icoon">✏️</div>
+        <h2>Je oefenblad wordt gemaakt...</h2>
+        <div class="boek-laad-spinner"></div>
+        <p class="boek-laad-stap">Sommen worden bedacht…</p>
+      </div>
+    </div>
+  `;
+
+  if (!SCHOOL_WORKER_URL) {
+    setTimeout(() => toonSchoolbladFout("Backend niet geconfigureerd."), 500);
+    return;
+  }
+
+  try {
+    const vakNaam = (huidigSchool.vak.id === "vrij" && focus) ? focus : `${huidigSchool.vak.naam} — ${huidigSchool.thema.naam}`;
+    const resp = await fetch(SCHOOL_WORKER_URL, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        type: "schoolblad",
+        vak: vakNaam,
+        groep: huidigSchool.groep,
+        aantal: huidigSchool.aantal,
+        moeilijkheid: huidigSchool.moeilijkheid,
+        onderwerp: (huidigSchool.vak.id !== "vrij") ? focus : "",
+      }),
+    });
+    if (!resp.ok) {
+      const err = await resp.json().catch(() => ({ error: "Onbekende fout" }));
+      return toonSchoolbladFout(err.error || `Status ${resp.status}`);
+    }
+    const data = await resp.json();
+    toonSchoolbladResultaat(data.tekst || "");
+    slaSchoolbladOpInFirebase(data.tekst || "");
+  } catch (err) {
+    toonSchoolbladFout(`Verbinding mislukt: ${err.message}`);
+  }
+}
+
+function toonSchoolbladFout(msg) {
+  const el = document.getElementById("school-inhoud");
+  if (!el) return;
+  const v = huidigSchool?.vak || { kleur: "#a855f7" };
+  el.innerHTML = `
+    <div class="boek-stap" style="--genre-kleur:${v.kleur}">
+      <div class="boek-laad">
+        <div class="boek-laad-icoon">⚠️</div>
+        <h2>Er ging iets mis</h2>
+        <p style="color:#fca5a5; margin:1rem 0;">${escapeHTML(msg)}</p>
+        <button class="boek-stap-terug" onclick="toonSchoolForm()">← Opnieuw proberen</button>
+        <button class="boek-stap-terug" onclick="renderSchoolWelkom()">Nieuw blad</button>
+      </div>
+    </div>
+  `;
+}
+
+function schoolbladNaarHtml(tekst) {
+  if (!tekst) return "";
+  const regels = tekst.split(/\n/);
+  let html = "";
+  let inAntwoorden = false;
+  for (const r of regels) {
+    const t = r.trim();
+    if (!t) { html += "<div class='school-regel-leeg'></div>"; continue; }
+    const h1 = t.match(/^#\s+(.+)$/);
+    const h2 = t.match(/^##\s+(.+)$/);
+    const num = t.match(/^(\d+)\.\s*(.+)$/);
+    if (h1) { html += `<h1 class='school-titel'>${escapeHTML(h1[1])}</h1>`; continue; }
+    if (h2) {
+      inAntwoorden = /antwoord/i.test(h2[1]);
+      html += `<h2 class='school-hoofdstuk ${inAntwoorden ? "school-antwoord-kop" : ""}'>${escapeHTML(h2[1])}</h2>`;
+      continue;
+    }
+    if (num) {
+      html += `<div class='school-opdracht'><span class='school-nr'>${num[1]}.</span><span class='school-opdracht-tekst'>${escapeHTML(num[2]).replace(/\*\*(.+?)\*\*/g, "<b>$1</b>").replace(/\*(.+?)\*/g, "<i>$1</i>")}</span></div>`;
+      continue;
+    }
+    html += `<p>${escapeHTML(t).replace(/\*\*(.+?)\*\*/g, "<b>$1</b>")}</p>`;
+  }
+  return html;
+}
+
+let huidigeSchoolbladTekst = "";
+let schoolAntwoordenZichtbaar = false;
+
+function toonSchoolbladResultaat(tekst) {
+  const el = document.getElementById("school-inhoud");
+  if (!el) return;
+  const v = huidigSchool?.vak || { kleur: "#a855f7" };
+  huidigeSchoolbladTekst = tekst;
+  schoolAntwoordenZichtbaar = false;
+  el.innerHTML = `
+    <div class="boek-stap" style="--genre-kleur:${v.kleur}">
+      <div class="boek-gen-balk" style="margin-bottom:0.8rem;">
+        <button class="boek-stap-terug" onclick="renderSchoolWelkom()">← Nieuw blad</button>
+        <button class="boek-stap-terug" onclick="toggleSchoolAntwoorden()" id="school-ant-toggle">👁️ Toon antwoorden</button>
+        <button class="boek-stap-terug" onclick="printSchoolblad()">🖨️ Printen</button>
+        <button class="boek-stap-terug" onclick="downloadSchoolblad()">⬇ Download .txt</button>
+      </div>
+      <div class="school-papier" id="school-papier">
+        ${schoolbladNaarHtml(verbergAntwoorden(tekst, true))}
+      </div>
+    </div>
+  `;
+}
+
+function verbergAntwoorden(tekst, verberg) {
+  if (!verberg) return tekst;
+  const idx = tekst.search(/^##\s*antwoorden/im);
+  if (idx === -1) return tekst;
+  return tekst.slice(0, idx).trimEnd();
+}
+
+function toggleSchoolAntwoorden() {
+  schoolAntwoordenZichtbaar = !schoolAntwoordenZichtbaar;
+  const papier = document.getElementById("school-papier");
+  const knop = document.getElementById("school-ant-toggle");
+  if (!papier || !knop) return;
+  papier.innerHTML = schoolbladNaarHtml(verbergAntwoorden(huidigeSchoolbladTekst, !schoolAntwoordenZichtbaar));
+  knop.innerHTML = schoolAntwoordenZichtbaar ? "🙈 Verberg antwoorden" : "👁️ Toon antwoorden";
+}
+
+function printSchoolblad() {
+  const papier = document.getElementById("school-papier");
+  if (!papier) return;
+  const win = window.open("", "_blank");
+  if (!win) return;
+  win.document.write(`<!doctype html><html><head><meta charset="utf-8"><title>Oefenblad</title>
+    <style>
+      body { font-family: Georgia, serif; padding: 2rem; max-width: 720px; margin: 0 auto; color: #000; }
+      h1 { border-bottom: 2px solid #333; padding-bottom: 0.4rem; }
+      h2 { margin-top: 2rem; border-top: 1px dashed #999; padding-top: 1rem; }
+      .school-opdracht { display: flex; gap: 10px; margin: 0.8rem 0; }
+      .school-nr { font-weight: bold; min-width: 2rem; }
+      .school-regel-leeg { height: 0.4rem; }
+      p { margin: 0.5rem 0; }
+    </style></head><body>
+    ${papier.innerHTML}
+    <script>window.print(); setTimeout(() => window.close(), 300);<\/script>
+    </body></html>`);
+  win.document.close();
+}
+
+function downloadSchoolblad() {
+  const naam = (huidigSchool?.vak?.naam || "oefenblad") + "-" + (huidigSchool?.thema?.naam || "") + ".txt";
+  const blob = new Blob([huidigeSchoolbladTekst || ""], { type: "text/plain" });
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = naam.replace(/[^\w.-]+/g, "_");
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+
+async function slaSchoolbladOpInFirebase(tekst) {
+  const u = huidigeBoekGebruiker();
+  if (!u || !huidigSchool || !tekst) return;
+  if (huidigSchool._opgeslagenId) return;
+  const v = huidigSchool.vak;
+  const t = huidigSchool.thema;
+  const blad = {
+    vak_id: v.id,
+    vak_naam: v.naam,
+    vak_emoji: v.emoji,
+    vak_kleur: v.kleur,
+    thema_id: t.id,
+    thema_naam: t.naam,
+    groep: huidigSchool.groep,
+    aantal: huidigSchool.aantal,
+    moeilijkheid: huidigSchool.moeilijkheid,
+    focus: huidigSchool.focus || "",
+    datum: Date.now(),
+    tekst,
+  };
+  try {
+    const res = await fetch(`${FIREBASE_URL}/boek-gebruikers/${u.sleutel}/schoolbladen.json`, {
+      method: "POST",
+      body: JSON.stringify(blad),
+    });
+    const data = await res.json();
+    if (data && data.name) huidigSchool._opgeslagenId = data.name;
+  } catch (err) {
+    // stil falen
+  }
+}
+
+async function ladenMijnSchoolbladen() {
+  const u = huidigeBoekGebruiker();
+  const lijstEl = document.getElementById("school-mijn-lijst");
+  const aantalEl = document.getElementById("school-mijn-aantal");
+  if (!u || !lijstEl) return;
+  try {
+    const res = await fetch(`${FIREBASE_URL}/boek-gebruikers/${u.sleutel}/schoolbladen.json`);
+    const data = await res.json();
+    const bladen = data
+      ? Object.entries(data).map(([id, b]) => ({ id, ...b })).sort((a, b) => (b.datum || 0) - (a.datum || 0))
+      : [];
+    renderMijnSchoolbladen(bladen);
+    if (aantalEl) aantalEl.textContent = bladen.length ? `(${bladen.length})` : "";
+  } catch (err) {
+    lijstEl.innerHTML = `<p class="boeken-mijn-leeg">Kon bladen niet laden.</p>`;
+  }
+}
+
+function renderMijnSchoolbladen(bladen) {
+  const lijstEl = document.getElementById("school-mijn-lijst");
+  if (!lijstEl) return;
+  if (!bladen.length) {
+    lijstEl.innerHTML = `<p class="boeken-mijn-leeg">Nog geen bladen.<br/>Klik hierboven om je eerste te maken!</p>`;
+    return;
+  }
+  lijstEl.innerHTML = bladen.map(b => {
+    const d = b.datum ? new Date(b.datum) : null;
+    const datumStr = d ? `${String(d.getDate()).padStart(2,'0')}-${String(d.getMonth()+1).padStart(2,'0')}-${d.getFullYear()}` : '';
+    return `
+      <div class="boeken-mijn-kaart" style="--genre-kleur:${b.vak_kleur || '#a855f7'}" onclick="openOpgeslagenSchoolblad('${b.id}')">
+        <div class="boeken-mijn-kaart-emoji">${b.vak_emoji || "📄"}</div>
+        <div class="boeken-mijn-kaart-tekst">
+          <div class="boeken-mijn-kaart-titel">${escapeHTML(b.thema_naam || b.vak_naam || "Oefenblad")}</div>
+          <div class="boeken-mijn-kaart-meta">${escapeHTML(b.vak_naam || "")} · Groep ${b.groep} · ${datumStr}</div>
+        </div>
+        <button class="boeken-mijn-kaart-del" onclick="event.stopPropagation(); verwijderOpgeslagenSchoolblad('${b.id}', this)" title="Verwijderen">×</button>
+      </div>
+    `;
+  }).join('');
+}
+
+async function openOpgeslagenSchoolblad(id) {
+  const u = huidigeBoekGebruiker();
+  if (!u) return;
+  try {
+    const res = await fetch(`${FIREBASE_URL}/boek-gebruikers/${u.sleutel}/schoolbladen/${id}.json`);
+    const b = await res.json();
+    if (!b || !b.tekst) return;
+    const v = SCHOOL_VAKKEN.find(x => x.id === b.vak_id) || {
+      id: b.vak_id, naam: b.vak_naam, emoji: b.vak_emoji, kleur: b.vak_kleur, themas: [],
+    };
+    huidigSchool = {
+      vak: v,
+      thema: { id: b.thema_id, naam: b.thema_naam, beschrijving: "" },
+      groep: b.groep,
+      aantal: b.aantal,
+      moeilijkheid: b.moeilijkheid,
+      focus: b.focus || "",
+      _opgeslagenId: id,
+    };
+    toonSchoolbladResultaat(b.tekst);
+  } catch (err) {
+    alert("Kon blad niet openen.");
+  }
+}
+
+async function verwijderOpgeslagenSchoolblad(id) {
+  const u = huidigeBoekGebruiker();
+  if (!u) return;
+  if (!confirm("Dit oefenblad verwijderen?")) return;
+  try {
+    await fetch(`${FIREBASE_URL}/boek-gebruikers/${u.sleutel}/schoolbladen/${id}.json`, { method: "DELETE" });
+    ladenMijnSchoolbladen();
+  } catch (err) {
+    alert("Kon blad niet verwijderen.");
+  }
+}
+
+function toonSchoolOverOns() {
+  const el = document.getElementById("school-inhoud");
+  if (!el) return;
+  el.innerHTML = `
+    <button class="boek-stap-terug" onclick="renderSchoolWelkom()">← Terug</button>
+    <section class="over-hero">
+      <div class="over-hero-emoji">✏️</div>
+      <h2 class="over-hero-titel">Schoolbladen</h2>
+      <p class="over-hero-sub">Maak in een paar klikken je eigen oefenblad voor de basisschool — op het niveau van jouw groep.</p>
+    </section>
+
+    <section class="over-sect">
+      <h3 class="over-sect-titel"><span class="over-sect-emoji">🚀</span> Zo werkt het</h3>
+      <ol class="over-stappen">
+        <li><span class="over-stap-nr">1</span><div><b>Kies een vak</b><br/><span>Rekenen, Taal, Lezen, Aardrijkskunde en meer.</span></div></li>
+        <li><span class="over-stap-nr">2</span><div><b>Kies een onderwerp</b><br/><span>Bijv. tafels, klokkijken, werkwoordspelling.</span></div></li>
+        <li><span class="over-stap-nr">3</span><div><b>Stel in</b><br/><span>Groep (3-8), aantal oefeningen, moeilijkheid, eventueel een focus.</span></div></li>
+        <li><span class="over-stap-nr">4</span><div><b>Maak &amp; print</b><br/><span>Je oefenblad verschijnt met antwoorden erbij (verborgen tot jij ze bekijkt).</span></div></li>
+      </ol>
+    </section>
+
+    <section class="over-sect">
+      <h3 class="over-sect-titel"><span class="over-sect-emoji">✨</span> Wat kan het?</h3>
+      <div class="over-grid">
+        <div class="over-kaart"><div class="over-kaart-emoji">📚</div><b>8 vakken</b><p>Rekenen, Taal, Lezen, Aardrijkskunde, Geschiedenis, Natuur, Engels, Vrij.</p></div>
+        <div class="over-kaart"><div class="over-kaart-emoji">🎯</div><b>Per groep</b><p>Niveau 3 t/m 8, aangepast op de leerling.</p></div>
+        <div class="over-kaart"><div class="over-kaart-emoji">🔢</div><b>5-30 oefeningen</b><p>Jij kiest hoe lang het blad is.</p></div>
+        <div class="over-kaart"><div class="over-kaart-emoji">✅</div><b>Antwoorden erbij</b><p>Verborgen tot je op de knop drukt.</p></div>
+        <div class="over-kaart"><div class="over-kaart-emoji">🖨️</div><b>Printen</b><p>Direct printklaar voor school of thuis.</p></div>
+        <div class="over-kaart"><div class="over-kaart-emoji">💾</div><b>Opgeslagen</b><p>Alles wat je maakt vind je terug in "Mijn bladen".</p></div>
+      </div>
+    </section>
+
+    <section class="over-sect">
+      <h3 class="over-sect-titel"><span class="over-sect-emoji">💳</span> Wat kost het?</h3>
+      <p class="over-tekst"><b>Voorlopig gratis</b> tijdens de testperiode. Later komt er mogelijk een kleine prijs per blad (vergelijkbaar met een boek).</p>
+    </section>
+
+    <section class="over-sect">
+      <h3 class="over-sect-titel"><span class="over-sect-emoji">🤖</span> Hoe werkt het technisch?</h3>
+      <p class="over-tekst">De oefeningen worden gemaakt door <b>Claude Sonnet 4.5</b> (Anthropic) via dezelfde beveiligde Cloudflare Worker als de AI Boekenschrijver. Gemiddeld is een blad binnen 10-30 seconden klaar.</p>
+    </section>
+
+    <footer class="over-voet">
+      <div class="over-voet-emoji">👋</div>
+      <p><b>Olliebet</b> — hobbyproject van Olivier.</p>
+    </footer>
+  `;
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+// ═════════════════════════════════════════════════════════════════
+
 (function initCodeGate() {
   const gate = document.getElementById("code-gate");
   if (!gate) return;
   if (sessionStorage.getItem("olliebet-toegang") === "ja") {
     gate.classList.add("hidden");
     const app = sessionStorage.getItem("olliebet-app");
-    if (app === "voetbal" || app === "boeken") {
+    if (app === "voetbal" || app === "boeken" || app === "school") {
       kiesApp(app);
     } else {
       toonAppKeuze();

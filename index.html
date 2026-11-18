@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Olliebet</title>
-  <link rel="stylesheet" href="style.css?v=53" />
+  <link rel="stylesheet" href="style.css?v=54" />
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
   <meta http-equiv="Pragma" content="no-cache" />
   <meta http-equiv="Expires" content="0" />
@@ -23,14 +23,18 @@
 
   <div class="app-chooser hidden" id="app-chooser">
     <h1 class="app-chooser-titel">Kies een app</h1>
-    <div class="app-tiles app-tiles-solo">
+    <div class="app-tiles">
       <button class="app-tile boeken" onclick="kiesApp('boeken')">
         <div class="app-tile-icoon">📖</div>
         <div class="app-tile-naam">AI Boekenschrijver</div>
       </button>
+      <button class="app-tile school" onclick="kiesApp('school')">
+        <div class="app-tile-icoon">✏️</div>
+        <div class="app-tile-naam">Schoolbladen</div>
+      </button>
       <!-- VOETBAL-TEGEL — tijdelijk verborgen op verzoek.
-           Om terug te zetten: verwijder deze comment-wrapper rondom de knop
-           EN haal de class 'app-tiles-solo' weg bij <div class="app-tiles ...">.
+           Om terug te zetten: verwijder deze comment-wrapper en pas het
+           grid aan (3 kolommen i.p.v. 2).
       <button class="app-tile voetbal" onclick="kiesApp('voetbal')">
         <div class="app-tile-icoon">⚽</div>
         <div class="app-tile-naam">Voetbalgokken</div>
@@ -151,6 +155,22 @@
     </div>
   </div>
 
+  <div id="school-app" class="hidden">
+    <button class="app-terug" onclick="terugNaarKeuze()">← Terug naar keuze</button>
+    <header class="school-header">
+      <h1>✏️ Schoolbladen</h1>
+      <p class="school-sub" id="school-sub">Maak je eigen oefenblad</p>
+      <div class="school-user hidden" id="school-user">
+        <span class="school-user-naam" id="school-user-naam"></span>
+        <button class="school-uitlog" onclick="doeBoekUitloggen(); toonSchoolSchermNaInloggen();">Uitloggen</button>
+      </div>
+    </header>
+    <main class="school-main">
+      <div class="school-auth" id="school-auth"></div>
+      <div class="school-inhoud hidden" id="school-inhoud"></div>
+    </main>
+  </div>
+
   <div id="boeken-app" class="hidden">
     <button class="app-terug" onclick="terugNaarKeuze()">← Terug naar keuze</button>
     <header class="boeken-header">
@@ -175,6 +195,6 @@
     </main>
   </div>
 
-  <script src="script.js?v=63"></script>
+  <script src="script.js?v=64"></script>
 </body>
 </html>

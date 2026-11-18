@@ -42,20 +42,33 @@ export default {
       return jsonResp({ error: "Ongeldige JSON" }, 400, origin);
     }
 
-    const { genre, leeftijd, hoofdpersonen, bijpersonen, onderwerp, bladzijdes, plaatjes } = body;
-    if (!genre || !hoofdpersonen || !onderwerp || !bladzijdes) {
-      return jsonResp({ error: "Ontbrekende velden" }, 400, origin);
-    }
     if (!env.ANTHROPIC_API_KEY) {
       return jsonResp({ error: "Server mist ANTHROPIC_API_KEY" }, 500, origin);
     }
 
-    const systemPrompt = bouwSystemPrompt(genre, leeftijd);
-    const userContent = bouwUserContent({ genre, leeftijd, hoofdpersonen, bijpersonen, onderwerp, bladzijdes, plaatjes });
+    const type = body.type || "boek";
 
-    // Claude Sonnet 4.5 ondersteunt max 8192 output tokens per response.
-    // Grofweg ~350 tokens per bladzijde als ruwe schatting.
-    const maxTokens = Math.min(8192, Math.max(1024, bladzijdes * 350));
+    let systemPrompt, userContent, maxTokens;
+
+    if (type === "schoolblad") {
+      const { vak, groep, aantal, onderwerp, moeilijkheid } = body;
+      if (!vak || !groep || !aantal) {
+        return jsonResp({ error: "Ontbrekende velden (vak, groep, aantal)" }, 400, origin);
+      }
+      systemPrompt = bouwSchoolSystemPrompt(vak, groep);
+      userContent = [{ type: "text", text: bouwSchoolUserPrompt({ vak, groep, aantal, onderwerp, moeilijkheid }) }];
+      maxTokens = Math.min(8192, Math.max(1024, Number(aantal) * 120));
+    } else {
+      const { genre, leeftijd, hoofdpersonen, bijpersonen, onderwerp, bladzijdes, plaatjes } = body;
+      if (!genre || !hoofdpersonen || !onderwerp || !bladzijdes) {
+        return jsonResp({ error: "Ontbrekende velden" }, 400, origin);
+      }
+      systemPrompt = bouwSystemPrompt(genre, leeftijd);
+      userContent = bouwUserContent({ genre, leeftijd, hoofdpersonen, bijpersonen, onderwerp, bladzijdes, plaatjes });
+      // Claude Sonnet 4.5 ondersteunt max 8192 output tokens per response.
+      // Grofweg ~350 tokens per bladzijde als ruwe schatting.
+      maxTokens = Math.min(8192, Math.max(1024, bladzijdes * 350));
+    }
 
     try {
       const claudeResp = await fetch("https://api.anthropic.com/v1/messages", {
@@ -198,6 +211,53 @@ ${tekstPrompt}`,
     content.push({ type: "text", text: tekstPrompt });
   }
   return content;
+}
+
+// ── Schoolbladen (basisschool oefenbladen) ─────────────────────────
+
+function bouwSchoolSystemPrompt(vak, groep) {
+  const g = parseInt(groep, 10) || 5;
+  const leeftijd = g + 5; // groep 3 ≈ 8 jr, groep 8 ≈ 13 jr
+  return `Je bent een ervaren Nederlandse basisschool-leerkracht die oefenbladen maakt.
+Doelgroep: leerlingen van groep ${g} (ongeveer ${leeftijd} jaar oud).
+Vak: ${vak}.
+
+BELANGRIJK:
+- Taal en moeilijkheid moeten KLOPPEN met groep ${g}. Niet te makkelijk, niet te moeilijk.
+- Schrijf in correct, helder Nederlands. Geen Engels, geen jargon.
+- Formatteer het blad in Markdown:
+  - # bovenaan: titel van het werkblad
+  - Per oefening: genummerd (1., 2., 3., …) met de opgave direct erna
+  - Laat onder elke opgave VOLDOENDE ruimte open voor het antwoord (bij rekenen: '____'; bij schrijf-opgaven: lege regel of regels '__________')
+  - Helemaal onderaan ALTIJD een kopje "## Antwoorden" met alle antwoorden genummerd op dezelfde volgorde
+- Geef GEEN uitleg vooraf, GEEN introductie, GEEN "succes!". Alleen de titel, de genummerde oefeningen en de antwoorden.
+- Zorg dat de antwoorden écht kloppen. Reken je sommen stuk voor stuk na.`;
+}
+
+function bouwSchoolUserPrompt({ vak, groep, aantal, onderwerp, moeilijkheid }) {
+  const regels = [];
+  regels.push(`Maak een oefenblad voor groep ${groep} over het vak "${vak}".`);
+  regels.push(`Aantal oefeningen: ${aantal}.`);
+  if (onderwerp && onderwerp.trim()) {
+    regels.push(`Specifiek onderwerp / focus: ${onderwerp.trim()}.`);
+  }
+  if (moeilijkheid && moeilijkheid !== "gemiddeld") {
+    regels.push(`Moeilijkheid: ${moeilijkheid}.`);
+  }
+  regels.push(``);
+  regels.push(`Formaat:`);
+  regels.push(`# <titel van het werkblad>`);
+  regels.push(``);
+  regels.push(`1. <eerste opgave>`);
+  regels.push(`   <evt. invulruimte>`);
+  regels.push(`2. <tweede opgave>`);
+  regels.push(`...`);
+  regels.push(``);
+  regels.push(`## Antwoorden`);
+  regels.push(`1. <antwoord 1>`);
+  regels.push(`2. <antwoord 2>`);
+  regels.push(`...`);
+  return regels.join("\n");
 }
 
 function jsonResp(obj, status, origin) {
