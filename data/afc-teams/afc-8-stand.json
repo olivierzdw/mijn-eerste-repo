@@ -40,19 +40,6 @@
   },
   {
     "positie": 4,
-    "club": "OSV 2",
-    "logo": "",
-    "gespeeld": 5,
-    "gewonnen": 3,
-    "gelijk": 1,
-    "verloren": 1,
-    "voor": 11,
-    "tegen": 8,
-    "doelsaldo": 3,
-    "punten": 10
-  },
-  {
-    "positie": 5,
     "club": "VVA/Spartaan 2",
     "logo": "",
     "gespeeld": 6,
@@ -62,6 +49,19 @@
     "voor": 16,
     "tegen": 12,
     "doelsaldo": 4,
+    "punten": 10
+  },
+  {
+    "positie": 5,
+    "club": "OSV 2",
+    "logo": "",
+    "gespeeld": 6,
+    "gewonnen": 3,
+    "gelijk": 1,
+    "verloren": 2,
+    "voor": 12,
+    "tegen": 15,
+    "doelsaldo": -3,
     "punten": 10
   },
   {
@@ -92,6 +92,19 @@
   },
   {
     "positie": 8,
+    "club": "Wartburgia asv 7",
+    "logo": "",
+    "gespeeld": 7,
+    "gewonnen": 2,
+    "gelijk": 2,
+    "verloren": 3,
+    "voor": 20,
+    "tegen": 19,
+    "doelsaldo": 1,
+    "punten": 8
+  },
+  {
+    "positie": 9,
     "club": "Vlug en Vaardig cvv. 2",
     "logo": "",
     "gespeeld": 6,
@@ -102,19 +115,6 @@
     "tegen": 23,
     "doelsaldo": -13,
     "punten": 6
-  },
-  {
-    "positie": 9,
-    "club": "Wartburgia asv 7",
-    "logo": "",
-    "gespeeld": 6,
-    "gewonnen": 1,
-    "gelijk": 2,
-    "verloren": 3,
-    "voor": 13,
-    "tegen": 18,
-    "doelsaldo": -5,
-    "punten": 5
   },
   {
     "positie": 10,
