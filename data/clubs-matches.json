@@ -27575,414 +27575,6 @@
       "uitLogo": "https://crests.football-data.org/5531.png"
     }
   ],
-  "4241": [
-    {
-      "id": 555081,
-      "datum": "wo 18 november 23:30",
-      "thuis": "Coritiba FBC",
-      "thuisLogo": "https://crests.football-data.org/4241.png",
-      "uit": "Santos FC",
-      "uitLogo": "https://crests.football-data.org/6685.png"
-    },
-    {
-      "id": 555092,
-      "datum": "za 21 november 21:30",
-      "thuis": "EC Bahia",
-      "thuisLogo": "https://crests.football-data.org/1777.png",
-      "uit": "Coritiba FBC",
-      "uitLogo": "https://crests.football-data.org/4241.png"
-    },
-    {
-      "id": 555104,
-      "datum": "zo 29 november 20:00",
-      "thuis": "Coritiba FBC",
-      "thuisLogo": "https://crests.football-data.org/4241.png",
-      "uit": "CR Flamengo",
-      "uitLogo": "https://crests.football-data.org/1783.png"
-    },
-    {
-      "id": 555116,
-      "datum": "do 3 december 01:30",
-      "thuis": "SE Palmeiras",
-      "thuisLogo": "https://crests.football-data.org/1769.png",
-      "uit": "Coritiba FBC",
-      "uitLogo": "https://crests.football-data.org/4241.png"
-    }
-  ],
-  "6685": [
-    {
-      "id": 555081,
-      "datum": "wo 18 november 23:30",
-      "thuis": "Coritiba FBC",
-      "thuisLogo": "https://crests.football-data.org/4241.png",
-      "uit": "Santos FC",
-      "uitLogo": "https://crests.football-data.org/6685.png"
-    },
-    {
-      "id": 555099,
-      "datum": "di 24 november 01:00",
-      "thuis": "Santos FC",
-      "thuisLogo": "https://crests.football-data.org/6685.png",
-      "uit": "Grêmio FBPA",
-      "uitLogo": "https://crests.football-data.org/1767.png"
-    },
-    {
-      "id": 555109,
-      "datum": "zo 29 november 20:00",
-      "thuis": "EC Vitória",
-      "thuisLogo": "https://crests.football-data.org/1782.png",
-      "uit": "Santos FC",
-      "uitLogo": "https://crests.football-data.org/6685.png"
-    },
-    {
-      "id": 555118,
-      "datum": "do 3 december 01:30",
-      "thuis": "Santos FC",
-      "thuisLogo": "https://crests.football-data.org/6685.png",
-      "uit": "Botafogo FR",
-      "uitLogo": "https://crests.football-data.org/1770.png"
-    }
-  ],
-  "4287": [
-    {
-      "id": 555086,
-      "datum": "do 19 november 00:00",
-      "thuis": "Clube do Remo",
-      "thuisLogo": "https://crests.football-data.org/4287.png",
-      "uit": "Chapecoense AF",
-      "uitLogo": "https://crests.football-data.org/1772_large.png"
-    },
-    {
-      "id": 555090,
-      "datum": "zo 22 november 20:00",
-      "thuis": "CA Paranaense",
-      "thuisLogo": "https://crests.football-data.org/1768.png",
-      "uit": "Clube do Remo",
-      "uitLogo": "https://crests.football-data.org/4287.png"
-    },
-    {
-      "id": 555108,
-      "datum": "vr 27 november 00:00",
-      "thuis": "São Paulo FC",
-      "thuisLogo": "https://crests.football-data.org/1776.png",
-      "uit": "Clube do Remo",
-      "uitLogo": "https://crests.football-data.org/4287.png"
-    },
-    {
-      "id": 555117,
-      "datum": "do 3 december 01:30",
-      "thuis": "Clube do Remo",
-      "thuisLogo": "https://crests.football-data.org/4287.png",
-      "uit": "SC Corinthians Paulista",
-      "uitLogo": "https://crests.football-data.org/1779.png"
-    }
-  ],
-  "1772": [
-    {
-      "id": 555086,
-      "datum": "do 19 november 00:00",
-      "thuis": "Clube do Remo",
-      "thuisLogo": "https://crests.football-data.org/4287.png",
-      "uit": "Chapecoense AF",
-      "uitLogo": "https://crests.football-data.org/1772_large.png"
-    },
-    {
-      "id": 555095,
-      "datum": "zo 22 november 01:00",
-      "thuis": "Chapecoense AF",
-      "thuisLogo": "https://crests.football-data.org/1772_large.png",
-      "uit": "Cruzeiro EC",
-      "uitLogo": "https://crests.football-data.org/1771.png"
-    },
-    {
-      "id": 555102,
-      "datum": "di 24 november 22:00",
-      "thuis": "Chapecoense AF",
-      "thuisLogo": "https://crests.football-data.org/1772_large.png",
-      "uit": "SE Palmeiras",
-      "uitLogo": "https://crests.football-data.org/1769.png"
-    },
-    {
-      "id": 555114,
-      "datum": "do 3 december 01:30",
-      "thuis": "CR Flamengo",
-      "thuisLogo": "https://crests.football-data.org/1783.png",
-      "uit": "Chapecoense AF",
-      "uitLogo": "https://crests.football-data.org/1772_large.png"
-    }
-  ],
-  "1771": [
-    {
-      "id": 555082,
-      "datum": "do 19 november 00:30",
-      "thuis": "Cruzeiro EC",
-      "thuisLogo": "https://crests.football-data.org/1771.png",
-      "uit": "SE Palmeiras",
-      "uitLogo": "https://crests.football-data.org/1769.png"
-    },
-    {
-      "id": 555095,
-      "datum": "zo 22 november 01:00",
-      "thuis": "Chapecoense AF",
-      "thuisLogo": "https://crests.football-data.org/1772_large.png",
-      "uit": "Cruzeiro EC",
-      "uitLogo": "https://crests.football-data.org/1771.png"
-    },
-    {
-      "id": 555105,
-      "datum": "za 28 november 00:00",
-      "thuis": "Fluminense FC",
-      "thuisLogo": "https://crests.football-data.org/1765.png",
-      "uit": "Cruzeiro EC",
-      "uitLogo": "https://crests.football-data.org/1771.png"
-    },
-    {
-      "id": 555113,
-      "datum": "do 3 december 01:30",
-      "thuis": "Cruzeiro EC",
-      "thuisLogo": "https://crests.football-data.org/1771.png",
-      "uit": "SC Internacional",
-      "uitLogo": "https://crests.football-data.org/6684.png"
-    }
-  ],
-  "1769": [
-    {
-      "id": 555082,
-      "datum": "do 19 november 00:30",
-      "thuis": "Cruzeiro EC",
-      "thuisLogo": "https://crests.football-data.org/1771.png",
-      "uit": "SE Palmeiras",
-      "uitLogo": "https://crests.football-data.org/1769.png"
-    },
-    {
-      "id": 555098,
-      "datum": "za 21 november 20:30",
-      "thuis": "SE Palmeiras",
-      "thuisLogo": "https://crests.football-data.org/1769.png",
-      "uit": "CR Flamengo",
-      "uitLogo": "https://crests.football-data.org/1783.png"
-    },
-    {
-      "id": 555102,
-      "datum": "di 24 november 22:00",
-      "thuis": "Chapecoense AF",
-      "thuisLogo": "https://crests.football-data.org/1772_large.png",
-      "uit": "SE Palmeiras",
-      "uitLogo": "https://crests.football-data.org/1769.png"
-    },
-    {
-      "id": 555116,
-      "datum": "do 3 december 01:30",
-      "thuis": "SE Palmeiras",
-      "thuisLogo": "https://crests.football-data.org/1769.png",
-      "uit": "Coritiba FBC",
-      "uitLogo": "https://crests.football-data.org/4241.png"
-    }
-  ],
-  "1783": [
-    {
-      "id": 555083,
-      "datum": "do 19 november 00:30",
-      "thuis": "CR Flamengo",
-      "thuisLogo": "https://crests.football-data.org/1783.png",
-      "uit": "CA Paranaense",
-      "uitLogo": "https://crests.football-data.org/1768.png"
-    },
-    {
-      "id": 555098,
-      "datum": "za 21 november 20:30",
-      "thuis": "SE Palmeiras",
-      "thuisLogo": "https://crests.football-data.org/1769.png",
-      "uit": "CR Flamengo",
-      "uitLogo": "https://crests.football-data.org/1783.png"
-    },
-    {
-      "id": 555104,
-      "datum": "zo 29 november 20:00",
-      "thuis": "Coritiba FBC",
-      "thuisLogo": "https://crests.football-data.org/4241.png",
-      "uit": "CR Flamengo",
-      "uitLogo": "https://crests.football-data.org/1783.png"
-    },
-    {
-      "id": 555114,
-      "datum": "do 3 december 01:30",
-      "thuis": "CR Flamengo",
-      "thuisLogo": "https://crests.football-data.org/1783.png",
-      "uit": "Chapecoense AF",
-      "uitLogo": "https://crests.football-data.org/1772_large.png"
-    }
-  ],
-  "1768": [
-    {
-      "id": 555083,
-      "datum": "do 19 november 00:30",
-      "thuis": "CR Flamengo",
-      "thuisLogo": "https://crests.football-data.org/1783.png",
-      "uit": "CA Paranaense",
-      "uitLogo": "https://crests.football-data.org/1768.png"
-    },
-    {
-      "id": 555090,
-      "datum": "zo 22 november 20:00",
-      "thuis": "CA Paranaense",
-      "thuisLogo": "https://crests.football-data.org/1768.png",
-      "uit": "Clube do Remo",
-      "uitLogo": "https://crests.football-data.org/4287.png"
-    },
-    {
-      "id": 555107,
-      "datum": "zo 29 november 22:30",
-      "thuis": "Mirassol FC",
-      "thuisLogo": "https://crests.football-data.org/4364.png",
-      "uit": "CA Paranaense",
-      "uitLogo": "https://crests.football-data.org/1768.png"
-    },
-    {
-      "id": 555110,
-      "datum": "do 3 december 01:30",
-      "thuis": "CA Paranaense",
-      "thuisLogo": "https://crests.football-data.org/1768.png",
-      "uit": "São Paulo FC",
-      "uitLogo": "https://crests.football-data.org/1776.png"
-    }
-  ],
-  "1779": [
-    {
-      "id": 555080,
-      "datum": "do 19 november 01:30",
-      "thuis": "SC Corinthians Paulista",
-      "thuisLogo": "https://crests.football-data.org/1779.png",
-      "uit": "Botafogo FR",
-      "uitLogo": "https://crests.football-data.org/1770.png"
-    },
-    {
-      "id": 555091,
-      "datum": "do 26 november 00:00",
-      "thuis": "CA Mineiro",
-      "thuisLogo": "https://crests.football-data.org/1766.png",
-      "uit": "SC Corinthians Paulista",
-      "uitLogo": "https://crests.football-data.org/1779.png"
-    },
-    {
-      "id": 555103,
-      "datum": "zo 29 november 22:30",
-      "thuis": "SC Corinthians Paulista",
-      "thuisLogo": "https://crests.football-data.org/1779.png",
-      "uit": "Grêmio FBPA",
-      "uitLogo": "https://crests.football-data.org/1767.png"
-    },
-    {
-      "id": 555117,
-      "datum": "do 3 december 01:30",
-      "thuis": "Clube do Remo",
-      "thuisLogo": "https://crests.football-data.org/4287.png",
-      "uit": "SC Corinthians Paulista",
-      "uitLogo": "https://crests.football-data.org/1779.png"
-    }
-  ],
-  "1770": [
-    {
-      "id": 555080,
-      "datum": "do 19 november 01:30",
-      "thuis": "SC Corinthians Paulista",
-      "thuisLogo": "https://crests.football-data.org/1779.png",
-      "uit": "Botafogo FR",
-      "uitLogo": "https://crests.football-data.org/1770.png"
-    },
-    {
-      "id": 555093,
-      "datum": "di 24 november 00:00",
-      "thuis": "Botafogo FR",
-      "thuisLogo": "https://crests.football-data.org/1770.png",
-      "uit": "São Paulo FC",
-      "uitLogo": "https://crests.football-data.org/1776.png"
-    },
-    {
-      "id": 555101,
-      "datum": "zo 29 november 01:00",
-      "thuis": "Botafogo FR",
-      "thuisLogo": "https://crests.football-data.org/1770.png",
-      "uit": "EC Bahia",
-      "uitLogo": "https://crests.football-data.org/1777.png"
-    },
-    {
-      "id": 555118,
-      "datum": "do 3 december 01:30",
-      "thuis": "Santos FC",
-      "thuisLogo": "https://crests.football-data.org/6685.png",
-      "uit": "Botafogo FR",
-      "uitLogo": "https://crests.football-data.org/1770.png"
-    }
-  ],
-  "1767": [
-    {
-      "id": 555084,
-      "datum": "do 19 november 01:30",
-      "thuis": "Grêmio FBPA",
-      "thuisLogo": "https://crests.football-data.org/1767.png",
-      "uit": "EC Bahia",
-      "uitLogo": "https://crests.football-data.org/1777.png"
-    },
-    {
-      "id": 555099,
-      "datum": "di 24 november 01:00",
-      "thuis": "Santos FC",
-      "thuisLogo": "https://crests.football-data.org/6685.png",
-      "uit": "Grêmio FBPA",
-      "uitLogo": "https://crests.football-data.org/1767.png"
-    },
-    {
-      "id": 555103,
-      "datum": "zo 29 november 22:30",
-      "thuis": "SC Corinthians Paulista",
-      "thuisLogo": "https://crests.football-data.org/1779.png",
-      "uit": "Grêmio FBPA",
-      "uitLogo": "https://crests.football-data.org/1767.png"
-    },
-    {
-      "id": 555115,
-      "datum": "do 3 december 01:30",
-      "thuis": "Grêmio FBPA",
-      "thuisLogo": "https://crests.football-data.org/1767.png",
-      "uit": "Mirassol FC",
-      "uitLogo": "https://crests.football-data.org/4364.png"
-    }
-  ],
-  "1777": [
-    {
-      "id": 555084,
-      "datum": "do 19 november 01:30",
-      "thuis": "Grêmio FBPA",
-      "thuisLogo": "https://crests.football-data.org/1767.png",
-      "uit": "EC Bahia",
-      "uitLogo": "https://crests.football-data.org/1777.png"
-    },
-    {
-      "id": 555092,
-      "datum": "za 21 november 21:30",
-      "thuis": "EC Bahia",
-      "thuisLogo": "https://crests.football-data.org/1777.png",
-      "uit": "Coritiba FBC",
-      "uitLogo": "https://crests.football-data.org/4241.png"
-    },
-    {
-      "id": 555101,
-      "datum": "zo 29 november 01:00",
-      "thuis": "Botafogo FR",
-      "thuisLogo": "https://crests.football-data.org/1770.png",
-      "uit": "EC Bahia",
-      "uitLogo": "https://crests.football-data.org/1777.png"
-    },
-    {
-      "id": 555111,
-      "datum": "do 3 december 01:30",
-      "thuis": "EC Bahia",
-      "thuisLogo": "https://crests.football-data.org/1777.png",
-      "uit": "CA Mineiro",
-      "uitLogo": "https://crests.football-data.org/1766.png"
-    }
-  ],
   "1780": [
     {
       "id": 555088,
@@ -28187,6 +27779,214 @@
       "uitLogo": "https://crests.football-data.org/1765.png"
     }
   ],
+  "1769": [
+    {
+      "id": 555098,
+      "datum": "za 21 november 20:30",
+      "thuis": "SE Palmeiras",
+      "thuisLogo": "https://crests.football-data.org/1769.png",
+      "uit": "CR Flamengo",
+      "uitLogo": "https://crests.football-data.org/1783.png"
+    },
+    {
+      "id": 555102,
+      "datum": "di 24 november 22:00",
+      "thuis": "Chapecoense AF",
+      "thuisLogo": "https://crests.football-data.org/1772_large.png",
+      "uit": "SE Palmeiras",
+      "uitLogo": "https://crests.football-data.org/1769.png"
+    },
+    {
+      "id": 555116,
+      "datum": "do 3 december 01:30",
+      "thuis": "SE Palmeiras",
+      "thuisLogo": "https://crests.football-data.org/1769.png",
+      "uit": "Coritiba FBC",
+      "uitLogo": "https://crests.football-data.org/4241.png"
+    }
+  ],
+  "1783": [
+    {
+      "id": 555098,
+      "datum": "za 21 november 20:30",
+      "thuis": "SE Palmeiras",
+      "thuisLogo": "https://crests.football-data.org/1769.png",
+      "uit": "CR Flamengo",
+      "uitLogo": "https://crests.football-data.org/1783.png"
+    },
+    {
+      "id": 555104,
+      "datum": "zo 29 november 20:00",
+      "thuis": "Coritiba FBC",
+      "thuisLogo": "https://crests.football-data.org/4241.png",
+      "uit": "CR Flamengo",
+      "uitLogo": "https://crests.football-data.org/1783.png"
+    },
+    {
+      "id": 555114,
+      "datum": "do 3 december 01:30",
+      "thuis": "CR Flamengo",
+      "thuisLogo": "https://crests.football-data.org/1783.png",
+      "uit": "Chapecoense AF",
+      "uitLogo": "https://crests.football-data.org/1772_large.png"
+    }
+  ],
+  "1777": [
+    {
+      "id": 555092,
+      "datum": "za 21 november 21:30",
+      "thuis": "EC Bahia",
+      "thuisLogo": "https://crests.football-data.org/1777.png",
+      "uit": "Coritiba FBC",
+      "uitLogo": "https://crests.football-data.org/4241.png"
+    },
+    {
+      "id": 555101,
+      "datum": "zo 29 november 01:00",
+      "thuis": "Botafogo FR",
+      "thuisLogo": "https://crests.football-data.org/1770.png",
+      "uit": "EC Bahia",
+      "uitLogo": "https://crests.football-data.org/1777.png"
+    },
+    {
+      "id": 555111,
+      "datum": "do 3 december 01:30",
+      "thuis": "EC Bahia",
+      "thuisLogo": "https://crests.football-data.org/1777.png",
+      "uit": "CA Mineiro",
+      "uitLogo": "https://crests.football-data.org/1766.png"
+    }
+  ],
+  "4241": [
+    {
+      "id": 555092,
+      "datum": "za 21 november 21:30",
+      "thuis": "EC Bahia",
+      "thuisLogo": "https://crests.football-data.org/1777.png",
+      "uit": "Coritiba FBC",
+      "uitLogo": "https://crests.football-data.org/4241.png"
+    },
+    {
+      "id": 555104,
+      "datum": "zo 29 november 20:00",
+      "thuis": "Coritiba FBC",
+      "thuisLogo": "https://crests.football-data.org/4241.png",
+      "uit": "CR Flamengo",
+      "uitLogo": "https://crests.football-data.org/1783.png"
+    },
+    {
+      "id": 555116,
+      "datum": "do 3 december 01:30",
+      "thuis": "SE Palmeiras",
+      "thuisLogo": "https://crests.football-data.org/1769.png",
+      "uit": "Coritiba FBC",
+      "uitLogo": "https://crests.football-data.org/4241.png"
+    }
+  ],
+  "1772": [
+    {
+      "id": 555095,
+      "datum": "zo 22 november 01:00",
+      "thuis": "Chapecoense AF",
+      "thuisLogo": "https://crests.football-data.org/1772_large.png",
+      "uit": "Cruzeiro EC",
+      "uitLogo": "https://crests.football-data.org/1771.png"
+    },
+    {
+      "id": 555102,
+      "datum": "di 24 november 22:00",
+      "thuis": "Chapecoense AF",
+      "thuisLogo": "https://crests.football-data.org/1772_large.png",
+      "uit": "SE Palmeiras",
+      "uitLogo": "https://crests.football-data.org/1769.png"
+    },
+    {
+      "id": 555114,
+      "datum": "do 3 december 01:30",
+      "thuis": "CR Flamengo",
+      "thuisLogo": "https://crests.football-data.org/1783.png",
+      "uit": "Chapecoense AF",
+      "uitLogo": "https://crests.football-data.org/1772_large.png"
+    }
+  ],
+  "1771": [
+    {
+      "id": 555095,
+      "datum": "zo 22 november 01:00",
+      "thuis": "Chapecoense AF",
+      "thuisLogo": "https://crests.football-data.org/1772_large.png",
+      "uit": "Cruzeiro EC",
+      "uitLogo": "https://crests.football-data.org/1771.png"
+    },
+    {
+      "id": 555105,
+      "datum": "za 28 november 00:00",
+      "thuis": "Fluminense FC",
+      "thuisLogo": "https://crests.football-data.org/1765.png",
+      "uit": "Cruzeiro EC",
+      "uitLogo": "https://crests.football-data.org/1771.png"
+    },
+    {
+      "id": 555113,
+      "datum": "do 3 december 01:30",
+      "thuis": "Cruzeiro EC",
+      "thuisLogo": "https://crests.football-data.org/1771.png",
+      "uit": "SC Internacional",
+      "uitLogo": "https://crests.football-data.org/6684.png"
+    }
+  ],
+  "1768": [
+    {
+      "id": 555090,
+      "datum": "zo 22 november 20:00",
+      "thuis": "CA Paranaense",
+      "thuisLogo": "https://crests.football-data.org/1768.png",
+      "uit": "Clube do Remo",
+      "uitLogo": "https://crests.football-data.org/4287.png"
+    },
+    {
+      "id": 555107,
+      "datum": "zo 29 november 22:30",
+      "thuis": "Mirassol FC",
+      "thuisLogo": "https://crests.football-data.org/4364.png",
+      "uit": "CA Paranaense",
+      "uitLogo": "https://crests.football-data.org/1768.png"
+    },
+    {
+      "id": 555110,
+      "datum": "do 3 december 01:30",
+      "thuis": "CA Paranaense",
+      "thuisLogo": "https://crests.football-data.org/1768.png",
+      "uit": "São Paulo FC",
+      "uitLogo": "https://crests.football-data.org/1776.png"
+    }
+  ],
+  "4287": [
+    {
+      "id": 555090,
+      "datum": "zo 22 november 20:00",
+      "thuis": "CA Paranaense",
+      "thuisLogo": "https://crests.football-data.org/1768.png",
+      "uit": "Clube do Remo",
+      "uitLogo": "https://crests.football-data.org/4287.png"
+    },
+    {
+      "id": 555108,
+      "datum": "vr 27 november 00:00",
+      "thuis": "São Paulo FC",
+      "thuisLogo": "https://crests.football-data.org/1776.png",
+      "uit": "Clube do Remo",
+      "uitLogo": "https://crests.football-data.org/4287.png"
+    },
+    {
+      "id": 555117,
+      "datum": "do 3 december 01:30",
+      "thuis": "Clube do Remo",
+      "thuisLogo": "https://crests.football-data.org/4287.png",
+      "uit": "SC Corinthians Paulista",
+      "uitLogo": "https://crests.football-data.org/1779.png"
+    }
+  ],
   "4364": [
     {
       "id": 555096,
@@ -28203,6 +28003,84 @@
       "thuisLogo": "https://crests.football-data.org/4364.png",
       "uit": "CA Paranaense",
       "uitLogo": "https://crests.football-data.org/1768.png"
+    },
+    {
+      "id": 555115,
+      "datum": "do 3 december 01:30",
+      "thuis": "Grêmio FBPA",
+      "thuisLogo": "https://crests.football-data.org/1767.png",
+      "uit": "Mirassol FC",
+      "uitLogo": "https://crests.football-data.org/4364.png"
+    }
+  ],
+  "1770": [
+    {
+      "id": 555093,
+      "datum": "di 24 november 00:00",
+      "thuis": "Botafogo FR",
+      "thuisLogo": "https://crests.football-data.org/1770.png",
+      "uit": "São Paulo FC",
+      "uitLogo": "https://crests.football-data.org/1776.png"
+    },
+    {
+      "id": 555101,
+      "datum": "zo 29 november 01:00",
+      "thuis": "Botafogo FR",
+      "thuisLogo": "https://crests.football-data.org/1770.png",
+      "uit": "EC Bahia",
+      "uitLogo": "https://crests.football-data.org/1777.png"
+    },
+    {
+      "id": 555118,
+      "datum": "do 3 december 01:30",
+      "thuis": "Santos FC",
+      "thuisLogo": "https://crests.football-data.org/6685.png",
+      "uit": "Botafogo FR",
+      "uitLogo": "https://crests.football-data.org/1770.png"
+    }
+  ],
+  "6685": [
+    {
+      "id": 555099,
+      "datum": "di 24 november 01:00",
+      "thuis": "Santos FC",
+      "thuisLogo": "https://crests.football-data.org/6685.png",
+      "uit": "Grêmio FBPA",
+      "uitLogo": "https://crests.football-data.org/1767.png"
+    },
+    {
+      "id": 555109,
+      "datum": "zo 29 november 20:00",
+      "thuis": "EC Vitória",
+      "thuisLogo": "https://crests.football-data.org/1782.png",
+      "uit": "Santos FC",
+      "uitLogo": "https://crests.football-data.org/6685.png"
+    },
+    {
+      "id": 555118,
+      "datum": "do 3 december 01:30",
+      "thuis": "Santos FC",
+      "thuisLogo": "https://crests.football-data.org/6685.png",
+      "uit": "Botafogo FR",
+      "uitLogo": "https://crests.football-data.org/1770.png"
+    }
+  ],
+  "1767": [
+    {
+      "id": 555099,
+      "datum": "di 24 november 01:00",
+      "thuis": "Santos FC",
+      "thuisLogo": "https://crests.football-data.org/6685.png",
+      "uit": "Grêmio FBPA",
+      "uitLogo": "https://crests.football-data.org/1767.png"
+    },
+    {
+      "id": 555103,
+      "datum": "zo 29 november 22:30",
+      "thuis": "SC Corinthians Paulista",
+      "thuisLogo": "https://crests.football-data.org/1779.png",
+      "uit": "Grêmio FBPA",
+      "uitLogo": "https://crests.football-data.org/1767.png"
     },
     {
       "id": 555115,
@@ -28237,6 +28115,32 @@
       "thuisLogo": "https://crests.football-data.org/1777.png",
       "uit": "CA Mineiro",
       "uitLogo": "https://crests.football-data.org/1766.png"
+    }
+  ],
+  "1779": [
+    {
+      "id": 555091,
+      "datum": "do 26 november 00:00",
+      "thuis": "CA Mineiro",
+      "thuisLogo": "https://crests.football-data.org/1766.png",
+      "uit": "SC Corinthians Paulista",
+      "uitLogo": "https://crests.football-data.org/1779.png"
+    },
+    {
+      "id": 555103,
+      "datum": "zo 29 november 22:30",
+      "thuis": "SC Corinthians Paulista",
+      "thuisLogo": "https://crests.football-data.org/1779.png",
+      "uit": "Grêmio FBPA",
+      "uitLogo": "https://crests.football-data.org/1767.png"
+    },
+    {
+      "id": 555117,
+      "datum": "do 3 december 01:30",
+      "thuis": "Clube do Remo",
+      "thuisLogo": "https://crests.football-data.org/4287.png",
+      "uit": "SC Corinthians Paulista",
+      "uitLogo": "https://crests.football-data.org/1779.png"
     }
   ],
   "340": [
