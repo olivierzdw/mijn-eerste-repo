@@ -1,12 +1,5 @@
 [
   {
-    "datum": "za 21 november 14:00",
-    "thuis": "AFC 45+2",
-    "thuisLogo": "images/afc.png",
-    "uit": "Geinburgia sv. 45+1",
-    "uitLogo": ""
-  },
-  {
     "datum": "za 28 november 17:50",
     "thuis": "DRC 45+1",
     "thuisLogo": "",
@@ -18,6 +11,13 @@
     "thuis": "AFC 45+2",
     "thuisLogo": "images/afc.png",
     "uit": "ST Weesp FC/Muiden SC 45+1",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 12 december 14:30",
+    "thuis": "AFC 45+2",
+    "thuisLogo": "images/afc.png",
+    "uit": "Geinburgia sv. 45+1",
     "uitLogo": ""
   },
   {
