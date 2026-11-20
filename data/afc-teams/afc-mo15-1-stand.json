@@ -14,19 +14,6 @@
   },
   {
     "positie": 2,
-    "club": "AFC MO15-1",
-    "logo": "images/afc.png",
-    "gespeeld": 2,
-    "gewonnen": 2,
-    "gelijk": 0,
-    "verloren": 0,
-    "voor": 9,
-    "tegen": 4,
-    "doelsaldo": 5,
-    "punten": 6
-  },
-  {
-    "positie": 3,
     "club": "Spaarnwoude sv. O14-1",
     "logo": "",
     "gespeeld": 3,
@@ -36,6 +23,19 @@
     "voor": 25,
     "tegen": 9,
     "doelsaldo": 16,
+    "punten": 6
+  },
+  {
+    "positie": 3,
+    "club": "AFC MO15-1",
+    "logo": "images/afc.png",
+    "gespeeld": 3,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 10,
+    "tegen": 7,
+    "doelsaldo": 3,
     "punten": 6
   },
   {
@@ -66,6 +66,19 @@
   },
   {
     "positie": 6,
+    "club": "Kadoelen sv. MO15-2",
+    "logo": "",
+    "gespeeld": 2,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 4,
+    "tegen": 8,
+    "doelsaldo": -4,
+    "punten": 3
+  },
+  {
+    "positie": 7,
     "club": "DWS afc O14-1",
     "logo": "images/afc.png",
     "gespeeld": 3,
@@ -76,19 +89,6 @@
     "tegen": 22,
     "doelsaldo": -15,
     "punten": 1
-  },
-  {
-    "positie": 7,
-    "club": "Kadoelen sv. MO15-2",
-    "logo": "",
-    "gespeeld": 1,
-    "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 1,
-    "voor": 1,
-    "tegen": 7,
-    "doelsaldo": -6,
-    "punten": 0
   },
   {
     "positie": 8,
