@@ -47,5 +47,19 @@
     "thuisLogo": "",
     "uit": "AFC 4",
     "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 13 maart 15:00",
+    "thuis": "AFC 4",
+    "thuisLogo": "images/afc.png",
+    "uit": "TOS-Actief 2",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 20 maart 12:30",
+    "thuis": "DTA Fortius asv 3",
+    "thuisLogo": "images/fortius.png",
+    "uit": "AFC 4",
+    "uitLogo": "images/afc.png"
   }
 ]

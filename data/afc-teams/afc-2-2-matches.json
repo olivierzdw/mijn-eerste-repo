@@ -40,5 +40,19 @@
     "thuisLogo": "",
     "uit": "AFC 2",
     "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "zo 7 maart 13:30",
+    "thuis": "AFC 2",
+    "thuisLogo": "images/afc.png",
+    "uit": "Rivierwijkers 2",
+    "uitLogo": ""
+  },
+  {
+    "datum": "zo 14 maart 10:30",
+    "thuis": "Hoogland 3",
+    "thuisLogo": "",
+    "uit": "AFC 2",
+    "uitLogo": "images/afc.png"
   }
 ]

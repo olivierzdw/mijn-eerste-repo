@@ -40,5 +40,19 @@
     "thuisLogo": "",
     "uit": "AFC 4",
     "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "zo 7 maart 13:30",
+    "thuis": "AFC 4",
+    "thuisLogo": "images/afc.png",
+    "uit": "Swift 7",
+    "uitLogo": ""
+  },
+  {
+    "datum": "zo 14 maart 18:15",
+    "thuis": "ASV Arsenal 4",
+    "thuisLogo": "",
+    "uit": "AFC 4",
+    "uitLogo": "images/afc.png"
   }
 ]
