@@ -1,12 +1,5 @@
 [
   {
-    "datum": "za 21 november 16:15",
-    "thuis": "AFC 7",
-    "thuisLogo": "images/afc.png",
-    "uit": "RAP sv. 2",
-    "uitLogo": ""
-  },
-  {
     "datum": "za 28 november 14:45",
     "thuis": "AFC 7",
     "thuisLogo": "images/afc.png",
@@ -65,6 +58,20 @@
   {
     "datum": "za 13 maart 14:30",
     "thuis": "Muiderberg sc. 2",
+    "thuisLogo": "",
+    "uit": "AFC 7",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 20 maart 16:45",
+    "thuis": "AFC 7",
+    "thuisLogo": "images/afc.png",
+    "uit": "WV-HEDW 8",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 3 april 16:00",
+    "thuis": "Zeeburgia avv 2",
     "thuisLogo": "",
     "uit": "AFC 7",
     "uitLogo": "images/afc.png"

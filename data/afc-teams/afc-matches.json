@@ -1,12 +1,5 @@
 [
   {
-    "datum": "za 21 november 14:30",
-    "thuis": "RKAV Volendam",
-    "thuisLogo": "",
-    "uit": "AFC",
-    "uitLogo": "images/afc.png"
-  },
-  {
     "datum": "za 28 november 15:00",
     "thuis": "Kozakken Boys",
     "thuisLogo": "",
@@ -93,6 +86,20 @@
   {
     "datum": "za 13 maart 14:30",
     "thuis": "Hoek",
+    "thuisLogo": "",
+    "uit": "AFC",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 20 maart 15:15",
+    "thuis": "AFC",
+    "thuisLogo": "images/afc.png",
+    "uit": "Barendrecht",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 3 april 15:00",
+    "thuis": "Jong Almere City FC",
     "thuisLogo": "",
     "uit": "AFC",
     "uitLogo": "images/afc.png"

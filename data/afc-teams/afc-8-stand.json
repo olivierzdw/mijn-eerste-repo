@@ -14,19 +14,32 @@
   },
   {
     "positie": 2,
-    "club": "Volendam (rkav) 4",
+    "club": "Kadoelen sv. 4",
     "logo": "",
     "gespeeld": 6,
-    "gewonnen": 3,
-    "gelijk": 2,
-    "verloren": 1,
-    "voor": 16,
-    "tegen": 15,
-    "doelsaldo": 1,
-    "punten": 11
+    "gewonnen": 4,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 13,
+    "tegen": 8,
+    "doelsaldo": 5,
+    "punten": 12
   },
   {
     "positie": 3,
+    "club": "Volendam (rkav) 4",
+    "logo": "",
+    "gespeeld": 7,
+    "gewonnen": 3,
+    "gelijk": 2,
+    "verloren": 2,
+    "voor": 16,
+    "tegen": 17,
+    "doelsaldo": -1,
+    "punten": 11
+  },
+  {
+    "positie": 4,
     "club": "AFC 8",
     "logo": "images/afc.png",
     "gespeeld": 5,
@@ -39,7 +52,7 @@
     "punten": 10
   },
   {
-    "positie": 4,
+    "positie": 5,
     "club": "VVA/Spartaan 2",
     "logo": "",
     "gespeeld": 6,
@@ -52,33 +65,33 @@
     "punten": 10
   },
   {
-    "positie": 5,
+    "positie": 6,
     "club": "OSV 2",
     "logo": "",
-    "gespeeld": 6,
+    "gespeeld": 7,
     "gewonnen": 3,
     "gelijk": 1,
-    "verloren": 2,
-    "voor": 12,
-    "tegen": 15,
-    "doelsaldo": -3,
+    "verloren": 3,
+    "voor": 14,
+    "tegen": 19,
+    "doelsaldo": -5,
     "punten": 10
   },
   {
-    "positie": 6,
-    "club": "Kadoelen sv. 4",
+    "positie": 7,
+    "club": "Vlug en Vaardig cvv. 2",
     "logo": "",
-    "gespeeld": 5,
+    "gespeeld": 7,
     "gewonnen": 3,
     "gelijk": 0,
-    "verloren": 2,
-    "voor": 11,
-    "tegen": 8,
-    "doelsaldo": 3,
+    "verloren": 4,
+    "voor": 14,
+    "tegen": 25,
+    "doelsaldo": -11,
     "punten": 9
   },
   {
-    "positie": 7,
+    "positie": 8,
     "club": "AGB 2",
     "logo": "",
     "gespeeld": 6,
@@ -91,7 +104,7 @@
     "punten": 8
   },
   {
-    "positie": 8,
+    "positie": 9,
     "club": "Wartburgia asv 7",
     "logo": "",
     "gespeeld": 7,
@@ -104,42 +117,29 @@
     "punten": 8
   },
   {
-    "positie": 9,
-    "club": "Vlug en Vaardig cvv. 2",
-    "logo": "",
-    "gespeeld": 6,
-    "gewonnen": 2,
-    "gelijk": 0,
-    "verloren": 4,
-    "voor": 10,
-    "tegen": 23,
-    "doelsaldo": -13,
-    "punten": 6
-  },
-  {
     "positie": 10,
     "club": "DVVA csv. 7",
     "logo": "",
-    "gespeeld": 5,
+    "gespeeld": 6,
     "gewonnen": 1,
-    "gelijk": 1,
+    "gelijk": 2,
     "verloren": 3,
-    "voor": 10,
-    "tegen": 14,
+    "voor": 13,
+    "tegen": 17,
     "doelsaldo": -4,
-    "punten": 4
+    "punten": 5
   },
   {
     "positie": 11,
     "club": "RODA '23 Rksv 5",
     "logo": "",
-    "gespeeld": 5,
+    "gespeeld": 6,
     "gewonnen": 0,
-    "gelijk": 0,
+    "gelijk": 1,
     "verloren": 5,
-    "voor": 7,
-    "tegen": 21,
+    "voor": 10,
+    "tegen": 24,
     "doelsaldo": -14,
-    "punten": 0
+    "punten": 1
   }
 ]

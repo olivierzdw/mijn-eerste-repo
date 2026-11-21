@@ -1,19 +1,32 @@
 [
   {
     "positie": 1,
-    "club": "Meer De sv. 5",
+    "club": "Kadoelen sv. 3",
     "logo": "",
     "gespeeld": 5,
     "gewonnen": 4,
     "gelijk": 0,
     "verloren": 1,
-    "voor": 15,
-    "tegen": 10,
-    "doelsaldo": 5,
+    "voor": 22,
+    "tegen": 12,
+    "doelsaldo": 10,
     "punten": 12
   },
   {
     "positie": 2,
+    "club": "Meer De sv. 5",
+    "logo": "",
+    "gespeeld": 6,
+    "gewonnen": 4,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 15,
+    "tegen": 13,
+    "doelsaldo": 2,
+    "punten": 12
+  },
+  {
+    "positie": 3,
     "club": "AFC 6",
     "logo": "images/afc.png",
     "gespeeld": 5,
@@ -26,20 +39,20 @@
     "punten": 11
   },
   {
-    "positie": 3,
-    "club": "Kadoelen sv. 3",
+    "positie": 4,
+    "club": "Monnickendam 3",
     "logo": "",
-    "gespeeld": 4,
+    "gespeeld": 6,
     "gewonnen": 3,
-    "gelijk": 0,
-    "verloren": 1,
-    "voor": 17,
-    "tegen": 8,
-    "doelsaldo": 9,
-    "punten": 9
+    "gelijk": 1,
+    "verloren": 2,
+    "voor": 14,
+    "tegen": 9,
+    "doelsaldo": 5,
+    "punten": 10
   },
   {
-    "positie": 4,
+    "positie": 5,
     "club": "Zouaven (de) 2",
     "logo": "",
     "gespeeld": 4,
@@ -52,7 +65,7 @@
     "punten": 9
   },
   {
-    "positie": 5,
+    "positie": 6,
     "club": "Jong Hercules 3",
     "logo": "",
     "gespeeld": 5,
@@ -65,29 +78,16 @@
     "punten": 7
   },
   {
-    "positie": 6,
-    "club": "Monnickendam 3",
-    "logo": "",
-    "gespeeld": 5,
-    "gewonnen": 2,
-    "gelijk": 1,
-    "verloren": 2,
-    "voor": 11,
-    "tegen": 9,
-    "doelsaldo": 2,
-    "punten": 7
-  },
-  {
     "positie": 7,
     "club": "WV-HEDW 7",
     "logo": "",
-    "gespeeld": 5,
+    "gespeeld": 6,
     "gewonnen": 2,
     "gelijk": 1,
-    "verloren": 2,
-    "voor": 10,
-    "tegen": 10,
-    "doelsaldo": 0,
+    "verloren": 3,
+    "voor": 14,
+    "tegen": 15,
+    "doelsaldo": -1,
     "punten": 7
   },
   {

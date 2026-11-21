@@ -42,14 +42,14 @@
     "positie": 4,
     "club": "GeuzenMiddenmeer 45+1",
     "logo": "",
-    "gespeeld": 7,
+    "gespeeld": 8,
     "gewonnen": 4,
-    "gelijk": 0,
+    "gelijk": 1,
     "verloren": 3,
-    "voor": 23,
-    "tegen": 11,
+    "voor": 25,
+    "tegen": 13,
     "doelsaldo": 12,
-    "punten": 12
+    "punten": 13
   },
   {
     "positie": 5,
@@ -118,6 +118,19 @@
   },
   {
     "positie": 10,
+    "club": "AFC 45+1",
+    "logo": "images/afc.png",
+    "gespeeld": 9,
+    "gewonnen": 3,
+    "gelijk": 0,
+    "verloren": 6,
+    "voor": 16,
+    "tegen": 28,
+    "doelsaldo": -12,
+    "punten": 9
+  },
+  {
+    "positie": 11,
     "club": "AGB 45+3",
     "logo": "",
     "gespeeld": 5,
@@ -127,19 +140,6 @@
     "voor": 18,
     "tegen": 24,
     "doelsaldo": -6,
-    "punten": 6
-  },
-  {
-    "positie": 11,
-    "club": "AFC 45+1",
-    "logo": "images/afc.png",
-    "gespeeld": 8,
-    "gewonnen": 2,
-    "gelijk": 0,
-    "verloren": 6,
-    "voor": 14,
-    "tegen": 27,
-    "doelsaldo": -13,
     "punten": 6
   },
   {
@@ -159,26 +159,26 @@
     "positie": 13,
     "club": "Sporting Martinus 45+1",
     "logo": "",
-    "gespeeld": 8,
+    "gespeeld": 9,
     "gewonnen": 1,
-    "gelijk": 2,
+    "gelijk": 3,
     "verloren": 5,
-    "voor": 14,
-    "tegen": 32,
+    "voor": 16,
+    "tegen": 34,
     "doelsaldo": -18,
-    "punten": 5
+    "punten": 6
   },
   {
     "positie": 14,
     "club": "Amstelveen/Heemraad 45+1",
     "logo": "",
-    "gespeeld": 7,
+    "gespeeld": 8,
     "gewonnen": 1,
     "gelijk": 0,
-    "verloren": 6,
-    "voor": 10,
-    "tegen": 34,
-    "doelsaldo": -24,
+    "verloren": 7,
+    "voor": 11,
+    "tegen": 36,
+    "doelsaldo": -25,
     "punten": 3
   }
 ]
