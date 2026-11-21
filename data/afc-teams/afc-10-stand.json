@@ -27,6 +27,19 @@
   },
   {
     "positie": 3,
+    "club": "ASV Arsenal 9",
+    "logo": "",
+    "gespeeld": 8,
+    "gewonnen": 5,
+    "gelijk": 1,
+    "verloren": 2,
+    "voor": 26,
+    "tegen": 17,
+    "doelsaldo": 9,
+    "punten": 16
+  },
+  {
+    "positie": 4,
     "club": "Buitenveldert sc. 9",
     "logo": "",
     "gespeeld": 6,
@@ -37,19 +50,6 @@
     "tegen": 8,
     "doelsaldo": 15,
     "punten": 15
-  },
-  {
-    "positie": 4,
-    "club": "ASV Arsenal 9",
-    "logo": "",
-    "gespeeld": 7,
-    "gewonnen": 4,
-    "gelijk": 1,
-    "verloren": 2,
-    "voor": 23,
-    "tegen": 16,
-    "doelsaldo": 7,
-    "punten": 13
   },
   {
     "positie": 5,
@@ -133,13 +133,13 @@
     "positie": 11,
     "club": "AFC 10",
     "logo": "images/afc.png",
-    "gespeeld": 6,
+    "gespeeld": 7,
     "gewonnen": 1,
     "gelijk": 0,
-    "verloren": 5,
-    "voor": 11,
-    "tegen": 22,
-    "doelsaldo": -11,
+    "verloren": 6,
+    "voor": 12,
+    "tegen": 25,
+    "doelsaldo": -13,
     "punten": 3
   },
   {

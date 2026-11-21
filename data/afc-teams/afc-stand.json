@@ -27,6 +27,19 @@
   },
   {
     "positie": 3,
+    "club": "Kozakken Boys",
+    "logo": "",
+    "gespeeld": 14,
+    "gewonnen": 8,
+    "gelijk": 4,
+    "verloren": 2,
+    "voor": 35,
+    "tegen": 17,
+    "doelsaldo": 18,
+    "punten": 28
+  },
+  {
+    "positie": 4,
     "club": "IJsselmeervogels",
     "logo": "",
     "gespeeld": 14,
@@ -37,19 +50,6 @@
     "tegen": 14,
     "doelsaldo": 8,
     "punten": 28
-  },
-  {
-    "positie": 4,
-    "club": "Kozakken Boys",
-    "logo": "",
-    "gespeeld": 13,
-    "gewonnen": 8,
-    "gelijk": 3,
-    "verloren": 2,
-    "voor": 33,
-    "tegen": 15,
-    "doelsaldo": 18,
-    "punten": 27
   },
   {
     "positie": 5,
@@ -81,14 +81,14 @@
     "positie": 7,
     "club": "De Treffers",
     "logo": "",
-    "gespeeld": 13,
+    "gespeeld": 14,
     "gewonnen": 6,
-    "gelijk": 4,
+    "gelijk": 5,
     "verloren": 3,
-    "voor": 31,
-    "tegen": 19,
+    "voor": 33,
+    "tegen": 21,
     "doelsaldo": 12,
-    "punten": 22
+    "punten": 23
   },
   {
     "positie": 8,

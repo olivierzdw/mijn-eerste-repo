@@ -40,6 +40,19 @@
   },
   {
     "positie": 4,
+    "club": "TOS-Actief 2",
+    "logo": "",
+    "gespeeld": 7,
+    "gewonnen": 3,
+    "gelijk": 3,
+    "verloren": 1,
+    "voor": 23,
+    "tegen": 15,
+    "doelsaldo": 8,
+    "punten": 12
+  },
+  {
+    "positie": 5,
     "club": "Monnickendam 2",
     "logo": "",
     "gespeeld": 7,
@@ -50,19 +63,6 @@
     "tegen": 17,
     "doelsaldo": 0,
     "punten": 10
-  },
-  {
-    "positie": 5,
-    "club": "TOS-Actief 2",
-    "logo": "",
-    "gespeeld": 6,
-    "gewonnen": 2,
-    "gelijk": 3,
-    "verloren": 1,
-    "voor": 18,
-    "tegen": 13,
-    "doelsaldo": 5,
-    "punten": 9
   },
   {
     "positie": 6,
@@ -133,13 +133,13 @@
     "positie": 11,
     "club": "Real Sranang sv. 2",
     "logo": "",
-    "gespeeld": 7,
+    "gespeeld": 8,
     "gewonnen": 2,
     "gelijk": 0,
-    "verloren": 5,
-    "voor": 19,
-    "tegen": 32,
-    "doelsaldo": -13,
+    "verloren": 6,
+    "voor": 21,
+    "tegen": 37,
+    "doelsaldo": -16,
     "punten": 3
   }
 ]

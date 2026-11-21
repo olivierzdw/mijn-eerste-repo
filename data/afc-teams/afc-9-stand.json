@@ -27,6 +27,19 @@
   },
   {
     "positie": 3,
+    "club": "Buitenveldert sc. 5",
+    "logo": "",
+    "gespeeld": 7,
+    "gewonnen": 5,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 24,
+    "tegen": 16,
+    "doelsaldo": 8,
+    "punten": 15
+  },
+  {
+    "positie": 4,
     "club": "TABA afc 4",
     "logo": "images/afc.png",
     "gespeeld": 8,
@@ -37,19 +50,6 @@
     "tegen": 17,
     "doelsaldo": 8,
     "punten": 14
-  },
-  {
-    "positie": 4,
-    "club": "Buitenveldert sc. 5",
-    "logo": "",
-    "gespeeld": 6,
-    "gewonnen": 4,
-    "gelijk": 0,
-    "verloren": 2,
-    "voor": 19,
-    "tegen": 15,
-    "doelsaldo": 4,
-    "punten": 12
   },
   {
     "positie": 5,
@@ -133,13 +133,13 @@
     "positie": 11,
     "club": "RAP sv. 3",
     "logo": "",
-    "gespeeld": 6,
+    "gespeeld": 7,
     "gewonnen": 0,
     "gelijk": 1,
-    "verloren": 5,
-    "voor": 8,
-    "tegen": 32,
-    "doelsaldo": -24,
+    "verloren": 6,
+    "voor": 9,
+    "tegen": 37,
+    "doelsaldo": -28,
     "punten": 1
   }
 ]

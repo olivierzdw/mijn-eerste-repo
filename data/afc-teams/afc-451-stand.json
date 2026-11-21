@@ -3,27 +3,27 @@
     "positie": 1,
     "club": "AFC Ajax 45+1",
     "logo": "images/afc.png",
-    "gespeeld": 8,
+    "gespeeld": 9,
     "gewonnen": 8,
-    "gelijk": 0,
+    "gelijk": 1,
     "verloren": 0,
-    "voor": 59,
-    "tegen": 14,
+    "voor": 62,
+    "tegen": 17,
     "doelsaldo": 45,
-    "punten": 24
+    "punten": 25
   },
   {
     "positie": 2,
     "club": "CTO '70 vv 45+3",
     "logo": "",
-    "gespeeld": 8,
+    "gespeeld": 9,
     "gewonnen": 8,
-    "gelijk": 0,
+    "gelijk": 1,
     "verloren": 0,
-    "voor": 48,
-    "tegen": 10,
+    "voor": 51,
+    "tegen": 13,
     "doelsaldo": 38,
-    "punten": 24
+    "punten": 25
   },
   {
     "positie": 3,

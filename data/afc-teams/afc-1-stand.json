@@ -27,6 +27,19 @@
   },
   {
     "positie": 3,
+    "club": "Ouderkerk sv. 1",
+    "logo": "",
+    "gespeeld": 8,
+    "gewonnen": 6,
+    "gelijk": 1,
+    "verloren": 1,
+    "voor": 27,
+    "tegen": 14,
+    "doelsaldo": 13,
+    "punten": 19
+  },
+  {
+    "positie": 4,
     "club": "AFC 1",
     "logo": "images/afc.png",
     "gespeeld": 8,
@@ -37,19 +50,6 @@
     "tegen": 10,
     "doelsaldo": 9,
     "punten": 18
-  },
-  {
-    "positie": 4,
-    "club": "Ouderkerk sv. 1",
-    "logo": "",
-    "gespeeld": 7,
-    "gewonnen": 5,
-    "gelijk": 1,
-    "verloren": 1,
-    "voor": 23,
-    "tegen": 13,
-    "doelsaldo": 10,
-    "punten": 16
   },
   {
     "positie": 5,
@@ -133,13 +133,13 @@
     "positie": 11,
     "club": "Altius 1",
     "logo": "",
-    "gespeeld": 7,
+    "gespeeld": 8,
     "gewonnen": 1,
     "gelijk": 4,
-    "verloren": 2,
-    "voor": 16,
-    "tegen": 17,
-    "doelsaldo": -1,
+    "verloren": 3,
+    "voor": 17,
+    "tegen": 21,
+    "doelsaldo": -4,
     "punten": 7
   },
   {
