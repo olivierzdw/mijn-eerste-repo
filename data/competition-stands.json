@@ -344,14 +344,14 @@
       "positie": 7,
       "club": "Athletic Club",
       "logo": "https://crests.football-data.org/77.png",
-      "gespeeld": 11,
+      "gespeeld": 12,
       "punten": 16,
       "gewonnen": 4,
       "gelijk": 4,
-      "verloren": 3,
-      "doelsaldo": 4,
+      "verloren": 4,
+      "doelsaldo": 3,
       "voor": 15,
-      "tegen": 11
+      "tegen": 12
     },
     {
       "positie": 8,
@@ -381,6 +381,19 @@
     },
     {
       "positie": 10,
+      "club": "RCD Espanyol de Barcelona",
+      "logo": "https://crests.football-data.org/80.png",
+      "gespeeld": 13,
+      "punten": 15,
+      "gewonnen": 4,
+      "gelijk": 3,
+      "verloren": 6,
+      "doelsaldo": 0,
+      "voor": 14,
+      "tegen": 14
+    },
+    {
+      "positie": 11,
       "club": "Real Racing Club de Santander",
       "logo": "https://crests.football-data.org/5335.png",
       "gespeeld": 12,
@@ -393,7 +406,7 @@
       "tegen": 30
     },
     {
-      "positie": 11,
+      "positie": 12,
       "club": "RC Celta de Vigo",
       "logo": "https://crests.football-data.org/558.png",
       "gespeeld": 12,
@@ -406,7 +419,7 @@
       "tegen": 10
     },
     {
-      "positie": 12,
+      "positie": 13,
       "club": "Deportivo Alavés",
       "logo": "https://crests.football-data.org/263.png",
       "gespeeld": 12,
@@ -417,19 +430,6 @@
       "doelsaldo": -2,
       "voor": 15,
       "tegen": 17
-    },
-    {
-      "positie": 13,
-      "club": "RCD Espanyol de Barcelona",
-      "logo": "https://crests.football-data.org/80.png",
-      "gespeeld": 12,
-      "punten": 12,
-      "gewonnen": 3,
-      "gelijk": 3,
-      "verloren": 6,
-      "doelsaldo": -1,
-      "voor": 13,
-      "tegen": 14
     },
     {
       "positie": 14,
@@ -528,14 +528,14 @@
       "positie": 1,
       "club": "FC Bayern München",
       "logo": "https://crests.football-data.org/5.png",
-      "gespeeld": 9,
-      "punten": 21,
+      "gespeeld": 10,
+      "punten": 22,
       "gewonnen": 6,
-      "gelijk": 3,
+      "gelijk": 4,
       "verloren": 0,
       "doelsaldo": 20,
-      "voor": 29,
-      "tegen": 9
+      "voor": 30,
+      "tegen": 10
     },
     {
       "positie": 2,
@@ -695,6 +695,19 @@
     },
     {
       "positie": 14,
+      "club": "1. FC Köln",
+      "logo": "https://crests.football-data.org/1.png",
+      "gespeeld": 10,
+      "punten": 10,
+      "gewonnen": 2,
+      "gelijk": 4,
+      "verloren": 4,
+      "doelsaldo": -4,
+      "voor": 11,
+      "tegen": 15
+    },
+    {
+      "positie": 15,
       "club": "FC Augsburg",
       "logo": "https://crests.football-data.org/16.png",
       "gespeeld": 9,
@@ -705,19 +718,6 @@
       "doelsaldo": 0,
       "voor": 20,
       "tegen": 20
-    },
-    {
-      "positie": 15,
-      "club": "1. FC Köln",
-      "logo": "https://crests.football-data.org/1.png",
-      "gespeeld": 9,
-      "punten": 9,
-      "gewonnen": 2,
-      "gelijk": 3,
-      "verloren": 4,
-      "doelsaldo": -4,
-      "voor": 10,
-      "tegen": 14
     },
     {
       "positie": 16,
@@ -1180,6 +1180,19 @@
     },
     {
       "positie": 13,
+      "club": "ES Troyes AC",
+      "logo": "https://crests.football-data.org/531.png",
+      "gespeeld": 11,
+      "punten": 11,
+      "gewonnen": 3,
+      "gelijk": 2,
+      "verloren": 6,
+      "doelsaldo": -8,
+      "voor": 10,
+      "tegen": 18
+    },
+    {
+      "positie": 14,
       "club": "RC Strasbourg Alsace",
       "logo": "https://crests.football-data.org/576.png",
       "gespeeld": 10,
@@ -1192,7 +1205,7 @@
       "tegen": 22
     },
     {
-      "positie": 14,
+      "positie": 15,
       "club": "AJ Auxerre",
       "logo": "https://crests.football-data.org/519.png",
       "gespeeld": 10,
@@ -1205,7 +1218,7 @@
       "tegen": 24
     },
     {
-      "positie": 15,
+      "positie": 16,
       "club": "Le Mans FC",
       "logo": "https://crests.football-data.org/535.png",
       "gespeeld": 10,
@@ -1218,7 +1231,7 @@
       "tegen": 19
     },
     {
-      "positie": 16,
+      "positie": 17,
       "club": "Angers SCO",
       "logo": "https://crests.football-data.org/532.png",
       "gespeeld": 10,
@@ -1231,30 +1244,17 @@
       "tegen": 19
     },
     {
-      "positie": 17,
-      "club": "ES Troyes AC",
-      "logo": "https://crests.football-data.org/531.png",
-      "gespeeld": 10,
-      "punten": 8,
-      "gewonnen": 2,
-      "gelijk": 2,
-      "verloren": 6,
-      "doelsaldo": -10,
-      "voor": 7,
-      "tegen": 17
-    },
-    {
       "positie": 18,
       "club": "Le Havre AC",
       "logo": "https://crests.football-data.org/533.png",
-      "gespeeld": 10,
+      "gespeeld": 11,
       "punten": 2,
       "gewonnen": 0,
       "gelijk": 2,
-      "verloren": 8,
-      "doelsaldo": -13,
-      "voor": 9,
-      "tegen": 22
+      "verloren": 9,
+      "doelsaldo": -15,
+      "voor": 10,
+      "tegen": 25
     }
   ],
   "DED": [

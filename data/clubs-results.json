@@ -3428,6 +3428,17 @@
       "uitLogo": "https://crests.football-data.org/560.png",
       "thuisScore": 0,
       "uitScore": 0
+    },
+    {
+      "id": 564748,
+      "datum": "vr 20 november",
+      "datumIso": "2026-11-20",
+      "thuis": "Athletic Club",
+      "thuisLogo": "https://crests.football-data.org/77.png",
+      "uit": "RCD Espanyol de Barcelona",
+      "uitLogo": "https://crests.football-data.org/80.png",
+      "thuisScore": 0,
+      "uitScore": 1
     }
   ],
   "88": [
@@ -4577,6 +4588,17 @@
       "uitLogo": "https://crests.football-data.org/77.png",
       "thuisScore": 1,
       "uitScore": 1
+    },
+    {
+      "id": 564748,
+      "datum": "vr 20 november",
+      "datumIso": "2026-11-20",
+      "thuis": "Athletic Club",
+      "thuisLogo": "https://crests.football-data.org/77.png",
+      "uit": "RCD Espanyol de Barcelona",
+      "uitLogo": "https://crests.football-data.org/80.png",
+      "thuisScore": 0,
+      "uitScore": 1
     }
   ],
   "95": [
@@ -5436,6 +5458,17 @@
       "uitLogo": "https://crests.football-data.org/5.png",
       "thuisScore": 1,
       "uitScore": 2
+    },
+    {
+      "id": 565859,
+      "datum": "vr 20 november",
+      "datumIso": "2026-11-20",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "1. FC Köln",
+      "uitLogo": "https://crests.football-data.org/1.png",
+      "thuisScore": 1,
+      "uitScore": 1
     },
     {
       "id": 575337,
@@ -6578,6 +6611,17 @@
       "uitLogo": "https://crests.football-data.org/3.png",
       "thuisScore": 1,
       "uitScore": 2
+    },
+    {
+      "id": 565859,
+      "datum": "vr 20 november",
+      "datumIso": "2026-11-20",
+      "thuis": "FC Bayern München",
+      "thuisLogo": "https://crests.football-data.org/5.png",
+      "uit": "1. FC Köln",
+      "uitLogo": "https://crests.football-data.org/1.png",
+      "thuisScore": 1,
+      "uitScore": 1
     }
   ],
   "2": [
@@ -10793,6 +10837,17 @@
       "uitLogo": "https://crests.football-data.org/531.png",
       "thuisScore": 1,
       "uitScore": 0
+    },
+    {
+      "id": 559622,
+      "datum": "vr 20 november",
+      "datumIso": "2026-11-20",
+      "thuis": "ES Troyes AC",
+      "thuisLogo": "https://crests.football-data.org/531.png",
+      "uit": "Le Havre AC",
+      "uitLogo": "https://crests.football-data.org/533.png",
+      "thuisScore": 3,
+      "uitScore": 1
     }
   ],
   "1045": [
@@ -11733,6 +11788,17 @@
       "uitLogo": "https://crests.football-data.org/525.png",
       "thuisScore": 0,
       "uitScore": 2
+    },
+    {
+      "id": 559622,
+      "datum": "vr 20 november",
+      "datumIso": "2026-11-20",
+      "thuis": "ES Troyes AC",
+      "thuisLogo": "https://crests.football-data.org/531.png",
+      "uit": "Le Havre AC",
+      "uitLogo": "https://crests.football-data.org/533.png",
+      "thuisScore": 3,
+      "uitScore": 1
     }
   ],
   "548": [
