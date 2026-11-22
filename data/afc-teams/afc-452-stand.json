@@ -66,6 +66,19 @@
   },
   {
     "positie": 6,
+    "club": "TABA afc 45+2",
+    "logo": "images/afc.png",
+    "gespeeld": 8,
+    "gewonnen": 4,
+    "gelijk": 1,
+    "verloren": 3,
+    "voor": 23,
+    "tegen": 23,
+    "doelsaldo": 0,
+    "punten": 13
+  },
+  {
+    "positie": 7,
     "club": "Geinburgia sv. 45+1",
     "logo": "",
     "gespeeld": 7,
@@ -78,7 +91,7 @@
     "punten": 12
   },
   {
-    "positie": 7,
+    "positie": 8,
     "club": "Zuidoost United 45+1",
     "logo": "",
     "gespeeld": 7,
@@ -91,7 +104,7 @@
     "punten": 12
   },
   {
-    "positie": 8,
+    "positie": 9,
     "club": "GeuzenMiddenmeer 45+2",
     "logo": "",
     "gespeeld": 8,
@@ -104,7 +117,7 @@
     "punten": 12
   },
   {
-    "positie": 9,
+    "positie": 10,
     "club": "ST Weesp FC/Muiden SC 45+1",
     "logo": "",
     "gespeeld": 9,
@@ -115,19 +128,6 @@
     "tegen": 33,
     "doelsaldo": -10,
     "punten": 12
-  },
-  {
-    "positie": 10,
-    "club": "TABA afc 45+2",
-    "logo": "images/afc.png",
-    "gespeeld": 7,
-    "gewonnen": 3,
-    "gelijk": 1,
-    "verloren": 3,
-    "voor": 19,
-    "tegen": 21,
-    "doelsaldo": -2,
-    "punten": 10
   },
   {
     "positie": 11,
@@ -144,19 +144,6 @@
   },
   {
     "positie": 12,
-    "club": "CTO '70 vv 45+2",
-    "logo": "",
-    "gespeeld": 7,
-    "gewonnen": 1,
-    "gelijk": 0,
-    "verloren": 6,
-    "voor": 16,
-    "tegen": 46,
-    "doelsaldo": -30,
-    "punten": 3
-  },
-  {
-    "positie": 13,
     "club": "Wartburgia asv 45+1",
     "logo": "",
     "gespeeld": 8,
@@ -166,6 +153,19 @@
     "voor": 20,
     "tegen": 46,
     "doelsaldo": -26,
+    "punten": 3
+  },
+  {
+    "positie": 13,
+    "club": "CTO '70 vv 45+2",
+    "logo": "",
+    "gespeeld": 8,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 7,
+    "voor": 18,
+    "tegen": 50,
+    "doelsaldo": -32,
     "punten": 3
   },
   {

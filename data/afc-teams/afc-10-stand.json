@@ -53,6 +53,19 @@
   },
   {
     "positie": 5,
+    "club": "Sloterdijk avv. 3",
+    "logo": "images/sloterdijk.png",
+    "gespeeld": 7,
+    "gewonnen": 4,
+    "gelijk": 0,
+    "verloren": 3,
+    "voor": 24,
+    "tegen": 20,
+    "doelsaldo": 4,
+    "punten": 12
+  },
+  {
+    "positie": 6,
     "club": "Argon 7",
     "logo": "",
     "gespeeld": 7,
@@ -65,7 +78,7 @@
     "punten": 10
   },
   {
-    "positie": 6,
+    "positie": 7,
     "club": "VVA/Spartaan 3",
     "logo": "",
     "gespeeld": 6,
@@ -75,19 +88,6 @@
     "voor": 18,
     "tegen": 13,
     "doelsaldo": 5,
-    "punten": 9
-  },
-  {
-    "positie": 7,
-    "club": "Sloterdijk avv. 3",
-    "logo": "images/sloterdijk.png",
-    "gespeeld": 6,
-    "gewonnen": 3,
-    "gelijk": 0,
-    "verloren": 3,
-    "voor": 20,
-    "tegen": 17,
-    "doelsaldo": 3,
     "punten": 9
   },
   {
@@ -107,13 +107,13 @@
     "positie": 9,
     "club": "RAP sv. 6",
     "logo": "",
-    "gespeeld": 6,
+    "gespeeld": 7,
     "gewonnen": 2,
     "gelijk": 0,
-    "verloren": 4,
-    "voor": 16,
-    "tegen": 22,
-    "doelsaldo": -6,
+    "verloren": 5,
+    "voor": 19,
+    "tegen": 26,
+    "doelsaldo": -7,
     "punten": 6
   },
   {

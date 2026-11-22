@@ -3,14 +3,14 @@
     "positie": 1,
     "club": "IVV 3",
     "logo": "",
-    "gespeeld": 6,
-    "gewonnen": 5,
+    "gespeeld": 7,
+    "gewonnen": 6,
     "gelijk": 1,
     "verloren": 0,
-    "voor": 27,
+    "voor": 29,
     "tegen": 8,
-    "doelsaldo": 19,
-    "punten": 16
+    "doelsaldo": 21,
+    "punten": 19
   },
   {
     "positie": 2,
@@ -27,6 +27,19 @@
   },
   {
     "positie": 3,
+    "club": "HYS 3",
+    "logo": "",
+    "gespeeld": 6,
+    "gewonnen": 5,
+    "gelijk": 0,
+    "verloren": 1,
+    "voor": 26,
+    "tegen": 14,
+    "doelsaldo": 12,
+    "punten": 15
+  },
+  {
+    "positie": 4,
     "club": "SDOB 2",
     "logo": "",
     "gespeeld": 7,
@@ -39,29 +52,16 @@
     "punten": 13
   },
   {
-    "positie": 4,
-    "club": "HYS 3",
-    "logo": "",
-    "gespeeld": 5,
-    "gewonnen": 4,
-    "gelijk": 0,
-    "verloren": 1,
-    "voor": 17,
-    "tegen": 12,
-    "doelsaldo": 5,
-    "punten": 12
-  },
-  {
     "positie": 5,
     "club": "Hercules Zaandam sc 3",
     "logo": "",
-    "gespeeld": 7,
+    "gespeeld": 8,
     "gewonnen": 4,
     "gelijk": 0,
-    "verloren": 3,
-    "voor": 31,
-    "tegen": 25,
-    "doelsaldo": 6,
+    "verloren": 4,
+    "voor": 33,
+    "tegen": 34,
+    "doelsaldo": -1,
     "punten": 12
   },
   {
@@ -94,13 +94,13 @@
     "positie": 8,
     "club": "Nieuw West United SV 2",
     "logo": "",
-    "gespeeld": 7,
+    "gespeeld": 8,
     "gewonnen": 3,
     "gelijk": 0,
-    "verloren": 4,
+    "verloren": 5,
     "voor": 23,
-    "tegen": 27,
-    "doelsaldo": -4,
+    "tegen": 29,
+    "doelsaldo": -6,
     "punten": 9
   },
   {

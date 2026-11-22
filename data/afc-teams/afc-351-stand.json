@@ -16,13 +16,13 @@
     "positie": 2,
     "club": "Geinburgia sv. 35+1",
     "logo": "",
-    "gespeeld": 6,
+    "gespeeld": 7,
     "gewonnen": 5,
     "gelijk": 0,
-    "verloren": 1,
+    "verloren": 2,
     "voor": 26,
-    "tegen": 11,
-    "doelsaldo": 15,
+    "tegen": 14,
+    "doelsaldo": 12,
     "punten": 15
   },
   {
@@ -40,6 +40,19 @@
   },
   {
     "positie": 4,
+    "club": "ZSGOWMS 35+1",
+    "logo": "",
+    "gespeeld": 7,
+    "gewonnen": 4,
+    "gelijk": 2,
+    "verloren": 1,
+    "voor": 18,
+    "tegen": 13,
+    "doelsaldo": 5,
+    "punten": 14
+  },
+  {
+    "positie": 5,
     "club": "AFC Ajax 35+1",
     "logo": "images/afc.png",
     "gespeeld": 5,
@@ -50,19 +63,6 @@
     "tegen": 7,
     "doelsaldo": 34,
     "punten": 13
-  },
-  {
-    "positie": 5,
-    "club": "ZSGOWMS 35+1",
-    "logo": "",
-    "gespeeld": 6,
-    "gewonnen": 3,
-    "gelijk": 2,
-    "verloren": 1,
-    "voor": 15,
-    "tegen": 13,
-    "doelsaldo": 2,
-    "punten": 11
   },
   {
     "positie": 6,

@@ -1,6 +1,6 @@
 [
   {
-    "datum": "zo 22 november 13:30",
+    "datum": "ma 22 november 13:30",
     "thuis": "AFC VR1",
     "thuisLogo": "images/afc.png",
     "uit": "Alverna VR1",
@@ -68,5 +68,12 @@
     "thuisLogo": "images/afc.png",
     "uit": "Victoria Boys VR1",
     "uitLogo": ""
+  },
+  {
+    "datum": "zo 11 april 12:00",
+    "thuis": "Alverna VR1",
+    "thuisLogo": "",
+    "uit": "AFC VR1",
+    "uitLogo": "images/afc.png"
   }
 ]
