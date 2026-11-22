@@ -14,6 +14,45 @@
   },
   {
     "positie": 2,
+    "club": "Ajax",
+    "logo": "https://crests.football-data.org/678.png",
+    "gespeeld": 13,
+    "punten": 28,
+    "gewonnen": 8,
+    "gelijk": 4,
+    "verloren": 1,
+    "doelsaldo": 20,
+    "voor": 35,
+    "tegen": 15
+  },
+  {
+    "positie": 3,
+    "club": "FC Twente '65",
+    "logo": "https://crests.football-data.org/666.png",
+    "gespeeld": 13,
+    "punten": 27,
+    "gewonnen": 8,
+    "gelijk": 3,
+    "verloren": 2,
+    "doelsaldo": 19,
+    "voor": 32,
+    "tegen": 13
+  },
+  {
+    "positie": 4,
+    "club": "AZ",
+    "logo": "https://crests.football-data.org/682.png",
+    "gespeeld": 13,
+    "punten": 26,
+    "gewonnen": 8,
+    "gelijk": 2,
+    "verloren": 3,
+    "doelsaldo": 12,
+    "voor": 29,
+    "tegen": 17
+  },
+  {
+    "positie": 5,
     "club": "Feyenoord Rotterdam",
     "logo": "https://crests.football-data.org/675.png",
     "gespeeld": 13,
@@ -26,33 +65,7 @@
     "tegen": 20
   },
   {
-    "positie": 3,
-    "club": "Ajax",
-    "logo": "https://crests.football-data.org/678.png",
-    "gespeeld": 12,
-    "punten": 25,
-    "gewonnen": 7,
-    "gelijk": 4,
-    "verloren": 1,
-    "doelsaldo": 17,
-    "voor": 32,
-    "tegen": 15
-  },
-  {
-    "positie": 4,
-    "club": "FC Twente '65",
-    "logo": "https://crests.football-data.org/666.png",
-    "gespeeld": 12,
-    "punten": 24,
-    "gewonnen": 7,
-    "gelijk": 3,
-    "verloren": 2,
-    "doelsaldo": 18,
-    "voor": 30,
-    "tegen": 12
-  },
-  {
-    "positie": 5,
+    "positie": 6,
     "club": "Heerenveen",
     "logo": "https://crests.football-data.org/673.png",
     "gespeeld": 13,
@@ -65,29 +78,16 @@
     "tegen": 17
   },
   {
-    "positie": 6,
-    "club": "AZ",
-    "logo": "https://crests.football-data.org/682.png",
-    "gespeeld": 12,
-    "punten": 23,
-    "gewonnen": 7,
-    "gelijk": 2,
-    "verloren": 3,
-    "doelsaldo": 8,
-    "voor": 24,
-    "tegen": 16
-  },
-  {
     "positie": 7,
     "club": "Fortuna Sittard",
     "logo": "https://crests.football-data.org/1920.png",
-    "gespeeld": 12,
-    "punten": 20,
-    "gewonnen": 5,
+    "gespeeld": 13,
+    "punten": 23,
+    "gewonnen": 6,
     "gelijk": 5,
     "verloren": 2,
-    "doelsaldo": 0,
-    "voor": 20,
+    "doelsaldo": 1,
+    "voor": 21,
     "tegen": 20
   },
   {
@@ -107,14 +107,14 @@
     "positie": 9,
     "club": "Go Ahead Eagles",
     "logo": "https://crests.football-data.org/718.png",
-    "gespeeld": 12,
+    "gespeeld": 13,
     "punten": 17,
     "gewonnen": 4,
     "gelijk": 5,
-    "verloren": 3,
-    "doelsaldo": -3,
+    "verloren": 4,
+    "doelsaldo": -4,
     "voor": 24,
-    "tegen": 27
+    "tegen": 28
   },
   {
     "positie": 10,
@@ -172,14 +172,14 @@
     "positie": 14,
     "club": "Sparta",
     "logo": "https://crests.football-data.org/6806.png",
-    "gespeeld": 12,
+    "gespeeld": 13,
     "punten": 12,
     "gewonnen": 3,
     "gelijk": 3,
-    "verloren": 6,
-    "doelsaldo": -8,
-    "voor": 21,
-    "tegen": 29
+    "verloren": 7,
+    "doelsaldo": -12,
+    "voor": 22,
+    "tegen": 34
   },
   {
     "positie": 15,
@@ -211,26 +211,26 @@
     "positie": 17,
     "club": "ADO Den Haag",
     "logo": "https://crests.football-data.org/680.png",
-    "gespeeld": 12,
+    "gespeeld": 13,
     "punten": 9,
     "gewonnen": 2,
     "gelijk": 3,
-    "verloren": 7,
-    "doelsaldo": -9,
+    "verloren": 8,
+    "doelsaldo": -12,
     "voor": 16,
-    "tegen": 25
+    "tegen": 28
   },
   {
     "positie": 18,
     "club": "Willem II Tilburg",
     "logo": "https://crests.football-data.org/672.png",
-    "gespeeld": 12,
+    "gespeeld": 13,
     "punten": 3,
     "gewonnen": 0,
     "gelijk": 3,
-    "verloren": 9,
-    "doelsaldo": -29,
-    "voor": 11,
-    "tegen": 40
+    "verloren": 10,
+    "doelsaldo": -30,
+    "voor": 12,
+    "tegen": 42
   }
 ]
