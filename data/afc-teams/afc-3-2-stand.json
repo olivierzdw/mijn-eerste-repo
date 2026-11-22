@@ -42,14 +42,14 @@
     "positie": 4,
     "club": "ASV Arsenal 3",
     "logo": "",
-    "gespeeld": 7,
+    "gespeeld": 8,
     "gewonnen": 5,
-    "gelijk": 0,
+    "gelijk": 1,
     "verloren": 2,
-    "voor": 18,
-    "tegen": 9,
+    "voor": 20,
+    "tegen": 11,
     "doelsaldo": 9,
-    "punten": 15
+    "punten": 16
   },
   {
     "positie": 5,
@@ -81,14 +81,14 @@
     "positie": 7,
     "club": "Haarlem-Kennemerland f.c. 2",
     "logo": "",
-    "gespeeld": 7,
+    "gespeeld": 8,
     "gewonnen": 4,
-    "gelijk": 0,
+    "gelijk": 1,
     "verloren": 3,
-    "voor": 16,
-    "tegen": 17,
+    "voor": 18,
+    "tegen": 19,
     "doelsaldo": -1,
-    "punten": 12
+    "punten": 13
   },
   {
     "positie": 8,
