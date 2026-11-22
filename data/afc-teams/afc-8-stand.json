@@ -27,6 +27,19 @@
   },
   {
     "positie": 3,
+    "club": "AGB 2",
+    "logo": "",
+    "gespeeld": 7,
+    "gewonnen": 3,
+    "gelijk": 2,
+    "verloren": 2,
+    "voor": 21,
+    "tegen": 9,
+    "doelsaldo": 12,
+    "punten": 11
+  },
+  {
+    "positie": 4,
     "club": "Volendam (rkav) 4",
     "logo": "",
     "gespeeld": 7,
@@ -39,7 +52,7 @@
     "punten": 11
   },
   {
-    "positie": 4,
+    "positie": 5,
     "club": "AFC 8",
     "logo": "images/afc.png",
     "gespeeld": 5,
@@ -52,20 +65,20 @@
     "punten": 10
   },
   {
-    "positie": 5,
+    "positie": 6,
     "club": "VVA/Spartaan 2",
     "logo": "",
-    "gespeeld": 6,
+    "gespeeld": 7,
     "gewonnen": 3,
     "gelijk": 1,
-    "verloren": 2,
-    "voor": 16,
-    "tegen": 12,
-    "doelsaldo": 4,
+    "verloren": 3,
+    "voor": 17,
+    "tegen": 18,
+    "doelsaldo": -1,
     "punten": 10
   },
   {
-    "positie": 6,
+    "positie": 7,
     "club": "OSV 2",
     "logo": "",
     "gespeeld": 7,
@@ -78,7 +91,7 @@
     "punten": 10
   },
   {
-    "positie": 7,
+    "positie": 8,
     "club": "Vlug en Vaardig cvv. 2",
     "logo": "",
     "gespeeld": 7,
@@ -89,19 +102,6 @@
     "tegen": 25,
     "doelsaldo": -11,
     "punten": 9
-  },
-  {
-    "positie": 8,
-    "club": "AGB 2",
-    "logo": "",
-    "gespeeld": 6,
-    "gewonnen": 2,
-    "gelijk": 2,
-    "verloren": 2,
-    "voor": 15,
-    "tegen": 8,
-    "doelsaldo": 7,
-    "punten": 8
   },
   {
     "positie": 9,

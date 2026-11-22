@@ -29,14 +29,14 @@
     "positie": 3,
     "club": "RAP sv. 45+1",
     "logo": "",
-    "gespeeld": 7,
-    "gewonnen": 5,
+    "gespeeld": 8,
+    "gewonnen": 6,
     "gelijk": 1,
     "verloren": 1,
-    "voor": 27,
+    "voor": 31,
     "tegen": 11,
-    "doelsaldo": 16,
-    "punten": 16
+    "doelsaldo": 20,
+    "punten": 19
   },
   {
     "positie": 4,
@@ -66,19 +66,6 @@
   },
   {
     "positie": 6,
-    "club": "Real Sranang sv. 45+1",
-    "logo": "",
-    "gespeeld": 6,
-    "gewonnen": 3,
-    "gelijk": 0,
-    "verloren": 3,
-    "voor": 25,
-    "tegen": 21,
-    "doelsaldo": 4,
-    "punten": 9
-  },
-  {
-    "positie": 7,
     "club": "Buitenveldert sc. 45+1",
     "logo": "",
     "gespeeld": 6,
@@ -91,7 +78,33 @@
     "punten": 9
   },
   {
+    "positie": 7,
+    "club": "AGB 45+3",
+    "logo": "",
+    "gespeeld": 6,
+    "gewonnen": 3,
+    "gelijk": 0,
+    "verloren": 3,
+    "voor": 25,
+    "tegen": 26,
+    "doelsaldo": -1,
+    "punten": 9
+  },
+  {
     "positie": 8,
+    "club": "Real Sranang sv. 45+1",
+    "logo": "",
+    "gespeeld": 7,
+    "gewonnen": 3,
+    "gelijk": 0,
+    "verloren": 4,
+    "voor": 27,
+    "tegen": 28,
+    "doelsaldo": -1,
+    "punten": 9
+  },
+  {
+    "positie": 9,
     "club": "AMVJ 45+1",
     "logo": "",
     "gespeeld": 7,
@@ -104,20 +117,20 @@
     "punten": 9
   },
   {
-    "positie": 9,
+    "positie": 10,
     "club": "Wartburgia asv 45+2",
     "logo": "",
-    "gespeeld": 7,
+    "gespeeld": 8,
     "gewonnen": 3,
     "gelijk": 0,
-    "verloren": 4,
+    "verloren": 5,
     "voor": 13,
-    "tegen": 26,
-    "doelsaldo": -13,
+    "tegen": 30,
+    "doelsaldo": -17,
     "punten": 9
   },
   {
-    "positie": 10,
+    "positie": 11,
     "club": "AFC 45+1",
     "logo": "images/afc.png",
     "gespeeld": 9,
@@ -128,19 +141,6 @@
     "tegen": 28,
     "doelsaldo": -12,
     "punten": 9
-  },
-  {
-    "positie": 11,
-    "club": "AGB 45+3",
-    "logo": "",
-    "gespeeld": 5,
-    "gewonnen": 2,
-    "gelijk": 0,
-    "verloren": 3,
-    "voor": 18,
-    "tegen": 24,
-    "doelsaldo": -6,
-    "punten": 6
   },
   {
     "positie": 12,
