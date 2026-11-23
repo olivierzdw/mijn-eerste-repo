@@ -3,17 +3,30 @@
     "positie": 1,
     "club": "AFC VR1",
     "logo": "images/afc.png",
-    "gespeeld": 6,
+    "gespeeld": 7,
     "gewonnen": 5,
-    "gelijk": 1,
+    "gelijk": 2,
     "verloren": 0,
     "voor": 20,
     "tegen": 6,
     "doelsaldo": 14,
-    "punten": 16
+    "punten": 17
   },
   {
     "positie": 2,
+    "club": "VVS 46 VR1",
+    "logo": "",
+    "gespeeld": 7,
+    "gewonnen": 5,
+    "gelijk": 1,
+    "verloren": 1,
+    "voor": 20,
+    "tegen": 14,
+    "doelsaldo": 6,
+    "punten": 16
+  },
+  {
+    "positie": 3,
     "club": "OJC Rosmalen VR1",
     "logo": "",
     "gespeeld": 6,
@@ -26,30 +39,17 @@
     "punten": 15
   },
   {
-    "positie": 3,
-    "club": "VVS 46 VR1",
-    "logo": "",
-    "gespeeld": 6,
-    "gewonnen": 4,
-    "gelijk": 1,
-    "verloren": 1,
-    "voor": 14,
-    "tegen": 13,
-    "doelsaldo": 1,
-    "punten": 13
-  },
-  {
     "positie": 4,
     "club": "Alverna VR1",
     "logo": "",
-    "gespeeld": 6,
+    "gespeeld": 7,
     "gewonnen": 4,
-    "gelijk": 0,
+    "gelijk": 1,
     "verloren": 2,
     "voor": 10,
     "tegen": 7,
     "doelsaldo": 3,
-    "punten": 12
+    "punten": 13
   },
   {
     "positie": 5,
@@ -94,13 +94,13 @@
     "positie": 8,
     "club": "NSVV FC Kunde VR1",
     "logo": "",
-    "gespeeld": 7,
+    "gespeeld": 8,
     "gewonnen": 2,
     "gelijk": 1,
-    "verloren": 4,
-    "voor": 9,
-    "tegen": 23,
-    "doelsaldo": -14,
+    "verloren": 5,
+    "voor": 10,
+    "tegen": 29,
+    "doelsaldo": -19,
     "punten": 7
   },
   {
