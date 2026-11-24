@@ -3,26 +3,26 @@
     "positie": 1,
     "club": "Excelsior Rotterdam O21",
     "logo": "",
-    "gespeeld": 11,
-    "gewonnen": 9,
+    "gespeeld": 12,
+    "gewonnen": 10,
     "gelijk": 1,
     "verloren": 1,
-    "voor": 46,
-    "tegen": 10,
-    "doelsaldo": 36,
-    "punten": 28
+    "voor": 49,
+    "tegen": 12,
+    "doelsaldo": 37,
+    "punten": 31
   },
   {
     "positie": 2,
     "club": "Vitesse O21",
     "logo": "",
-    "gespeeld": 11,
+    "gespeeld": 12,
     "gewonnen": 7,
     "gelijk": 1,
-    "verloren": 3,
-    "voor": 21,
-    "tegen": 11,
-    "doelsaldo": 10,
+    "verloren": 4,
+    "voor": 23,
+    "tegen": 14,
+    "doelsaldo": 9,
     "punten": 22
   },
   {
@@ -42,13 +42,13 @@
     "positie": 4,
     "club": "FC Dordrecht O21",
     "logo": "",
-    "gespeeld": 11,
+    "gespeeld": 12,
     "gewonnen": 5,
     "gelijk": 3,
-    "verloren": 3,
-    "voor": 22,
-    "tegen": 29,
-    "doelsaldo": -7,
+    "verloren": 4,
+    "voor": 23,
+    "tegen": 31,
+    "doelsaldo": -8,
     "punten": 18
   },
   {
@@ -79,6 +79,19 @@
   },
   {
     "positie": 7,
+    "club": "NAC Breda O21",
+    "logo": "",
+    "gespeeld": 12,
+    "gewonnen": 3,
+    "gelijk": 1,
+    "verloren": 8,
+    "voor": 12,
+    "tegen": 35,
+    "doelsaldo": -23,
+    "punten": 10
+  },
+  {
+    "positie": 8,
     "club": "AFC O21",
     "logo": "images/afc.png",
     "gespeeld": 12,
@@ -89,18 +102,5 @@
     "tegen": 37,
     "doelsaldo": -18,
     "punten": 8
-  },
-  {
-    "positie": 8,
-    "club": "NAC Breda O21",
-    "logo": "",
-    "gespeeld": 11,
-    "gewonnen": 2,
-    "gelijk": 1,
-    "verloren": 8,
-    "voor": 10,
-    "tegen": 34,
-    "doelsaldo": -24,
-    "punten": 7
   }
 ]

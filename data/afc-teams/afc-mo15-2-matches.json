@@ -1,12 +1,5 @@
 [
   {
-    "datum": "za 21 november 13:15",
-    "thuis": "ASC De Volewijckers MO15-1",
-    "thuisLogo": "",
-    "uit": "AFC MO15-2",
-    "uitLogo": "images/afc.png"
-  },
-  {
     "datum": "za 28 november 13:15",
     "thuis": "AFC MO15-2",
     "thuisLogo": "images/afc.png",
@@ -18,6 +11,13 @@
     "thuis": "Dijk De asv MO15-1",
     "thuisLogo": "",
     "uit": "AFC MO15-2",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "wo 9 december 19:00",
+    "thuis": "AFC MO15-2",
+    "thuisLogo": "images/afc.png",
+    "uit": "AFC IJburg MO15-1",
     "uitLogo": "images/afc.png"
   },
   {

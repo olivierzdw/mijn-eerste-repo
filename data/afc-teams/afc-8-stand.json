@@ -1,19 +1,32 @@
 [
   {
     "positie": 1,
-    "club": "Buitenveldert sc. 4",
-    "logo": "",
-    "gespeeld": 5,
+    "club": "AFC 8",
+    "logo": "images/afc.png",
+    "gespeeld": 6,
     "gewonnen": 4,
-    "gelijk": 0,
+    "gelijk": 1,
     "verloren": 1,
-    "voor": 18,
-    "tegen": 8,
-    "doelsaldo": 10,
-    "punten": 12
+    "voor": 22,
+    "tegen": 10,
+    "doelsaldo": 12,
+    "punten": 13
   },
   {
     "positie": 2,
+    "club": "Buitenveldert sc. 4",
+    "logo": "",
+    "gespeeld": 6,
+    "gewonnen": 4,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 18,
+    "tegen": 12,
+    "doelsaldo": 6,
+    "punten": 12
+  },
+  {
+    "positie": 3,
     "club": "Kadoelen sv. 4",
     "logo": "",
     "gespeeld": 6,
@@ -26,7 +39,7 @@
     "punten": 12
   },
   {
-    "positie": 3,
+    "positie": 4,
     "club": "AGB 2",
     "logo": "",
     "gespeeld": 7,
@@ -39,7 +52,7 @@
     "punten": 11
   },
   {
-    "positie": 4,
+    "positie": 5,
     "club": "Volendam (rkav) 4",
     "logo": "",
     "gespeeld": 7,
@@ -50,19 +63,6 @@
     "tegen": 17,
     "doelsaldo": -1,
     "punten": 11
-  },
-  {
-    "positie": 5,
-    "club": "AFC 8",
-    "logo": "images/afc.png",
-    "gespeeld": 5,
-    "gewonnen": 3,
-    "gelijk": 1,
-    "verloren": 1,
-    "voor": 18,
-    "tegen": 10,
-    "doelsaldo": 8,
-    "punten": 10
   },
   {
     "positie": 6,

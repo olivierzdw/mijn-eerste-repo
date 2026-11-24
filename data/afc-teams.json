@@ -13,7 +13,7 @@
     "soort": "Senioren zaterdag",
     "pouleId": "827358",
     "heeftStand": true,
-    "aantalMatches": 13
+    "aantalMatches": 12
   },
   {
     "slug": "afc-2",
@@ -61,7 +61,7 @@
     "soort": "Senioren zaterdag",
     "pouleId": "827335",
     "heeftStand": true,
-    "aantalMatches": 13
+    "aantalMatches": 12
   },
   {
     "slug": "afc-8",
@@ -70,6 +70,14 @@
     "pouleId": "827341",
     "heeftStand": true,
     "aantalMatches": 12
+  },
+  {
+    "slug": "afc-o23-1",
+    "naam": "AFC O23-1",
+    "soort": "Senioren zaterdag",
+    "pouleId": "829597",
+    "heeftStand": true,
+    "aantalMatches": 3
   },
   {
     "slug": "afc",
@@ -93,7 +101,7 @@
     "soort": "Senioren zondag",
     "pouleId": "827490",
     "heeftStand": true,
-    "aantalMatches": 11
+    "aantalMatches": 12
   },
   {
     "slug": "afc-4-2",
@@ -144,12 +152,52 @@
     "aantalMatches": 3
   },
   {
-    "slug": "afc-mo13-1",
-    "naam": "AFC MO13-1",
-    "soort": "Meisjes",
-    "pouleId": "844978",
+    "slug": "afc-vr1",
+    "naam": "AFC VR1",
+    "soort": "Vrouwen",
+    "pouleId": "826375",
     "heeftStand": true,
-    "aantalMatches": 3
+    "aantalMatches": 10
+  },
+  {
+    "slug": "afc-mo10-1",
+    "naam": "AFC MO10-1",
+    "soort": "Meisjes",
+    "pouleId": null,
+    "heeftStand": false,
+    "aantalMatches": 2
+  },
+  {
+    "slug": "afc-mo11-1",
+    "naam": "AFC MO11-1",
+    "soort": "Meisjes",
+    "pouleId": "843765",
+    "heeftStand": true,
+    "aantalMatches": 2
+  },
+  {
+    "slug": "afc-mo11-2",
+    "naam": "AFC MO11-2",
+    "soort": "Meisjes",
+    "pouleId": "843810",
+    "heeftStand": true,
+    "aantalMatches": 2
+  },
+  {
+    "slug": "afc-mo12-1",
+    "naam": "AFC MO12-1",
+    "soort": "Meisjes",
+    "pouleId": "843476",
+    "heeftStand": true,
+    "aantalMatches": 2
+  },
+  {
+    "slug": "afc-mo15-2",
+    "naam": "AFC MO15-2",
+    "soort": "Meisjes",
+    "pouleId": "836886",
+    "heeftStand": true,
+    "aantalMatches": 4
   },
   {
     "slug": "afc-351",
@@ -157,7 +205,7 @@
     "soort": "Veteranen",
     "pouleId": "826661",
     "heeftStand": true,
-    "aantalMatches": 14
+    "aantalMatches": 13
   },
   {
     "slug": "afc-451",

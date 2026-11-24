@@ -1,19 +1,32 @@
 [
   {
     "positie": 1,
-    "club": "Swift 6",
+    "club": "Buitenveldert sc. 2",
     "logo": "",
-    "gespeeld": 8,
+    "gespeeld": 7,
     "gewonnen": 6,
     "gelijk": 1,
-    "verloren": 1,
-    "voor": 29,
-    "tegen": 9,
-    "doelsaldo": 20,
+    "verloren": 0,
+    "voor": 23,
+    "tegen": 10,
+    "doelsaldo": 13,
     "punten": 19
   },
   {
     "positie": 2,
+    "club": "Swift 6",
+    "logo": "",
+    "gespeeld": 9,
+    "gewonnen": 6,
+    "gelijk": 1,
+    "verloren": 2,
+    "voor": 29,
+    "tegen": 11,
+    "doelsaldo": 18,
+    "punten": 19
+  },
+  {
+    "positie": 3,
     "club": "WV-HEDW 6",
     "logo": "",
     "gespeeld": 7,
@@ -24,19 +37,6 @@
     "tegen": 11,
     "doelsaldo": 8,
     "punten": 17
-  },
-  {
-    "positie": 3,
-    "club": "Buitenveldert sc. 2",
-    "logo": "",
-    "gespeeld": 6,
-    "gewonnen": 5,
-    "gelijk": 1,
-    "verloren": 0,
-    "voor": 21,
-    "tegen": 10,
-    "doelsaldo": 11,
-    "punten": 16
   },
   {
     "positie": 4,
