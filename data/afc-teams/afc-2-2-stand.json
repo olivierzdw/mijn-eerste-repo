@@ -14,16 +14,16 @@
   },
   {
     "positie": 2,
-    "club": "Rivierwijkers 2",
+    "club": "Meteoor De sv. 2",
     "logo": "",
-    "gespeeld": 7,
+    "gespeeld": 5,
     "gewonnen": 3,
-    "gelijk": 2,
-    "verloren": 2,
-    "voor": 23,
-    "tegen": 28,
-    "doelsaldo": -5,
-    "punten": 11
+    "gelijk": 1,
+    "verloren": 1,
+    "voor": 24,
+    "tegen": 13,
+    "doelsaldo": 11,
+    "punten": 10
   },
   {
     "positie": 3,
@@ -40,6 +40,19 @@
   },
   {
     "positie": 4,
+    "club": "Rivierwijkers 2",
+    "logo": "",
+    "gespeeld": 7,
+    "gewonnen": 2,
+    "gelijk": 2,
+    "verloren": 3,
+    "voor": 18,
+    "tegen": 33,
+    "doelsaldo": -15,
+    "punten": 8
+  },
+  {
+    "positie": 5,
     "club": "Hoogland 3",
     "logo": "",
     "gespeeld": 4,
@@ -49,19 +62,6 @@
     "voor": 20,
     "tegen": 12,
     "doelsaldo": 8,
-    "punten": 7
-  },
-  {
-    "positie": 5,
-    "club": "Meteoor De sv. 2",
-    "logo": "",
-    "gespeeld": 5,
-    "gewonnen": 2,
-    "gelijk": 1,
-    "verloren": 2,
-    "voor": 19,
-    "tegen": 18,
-    "doelsaldo": 1,
     "punten": 7
   },
   {
