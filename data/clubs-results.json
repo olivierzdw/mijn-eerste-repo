@@ -1181,6 +1181,17 @@
       "uitLogo": "https://crests.football-data.org/1076.png",
       "thuisScore": 3,
       "uitScore": 1
+    },
+    {
+      "id": 560649,
+      "datum": "ma 23 november",
+      "datumIso": "2026-11-23",
+      "thuis": "Brentford FC",
+      "thuisLogo": "https://crests.football-data.org/402.png",
+      "uit": "Everton FC",
+      "uitLogo": "https://crests.football-data.org/62.png",
+      "thuisScore": 4,
+      "uitScore": 0
     }
   ],
   "354": [
@@ -1415,6 +1426,17 @@
       "uit": "Brentford FC",
       "uitLogo": "https://crests.football-data.org/402.png",
       "thuisScore": 2,
+      "uitScore": 0
+    },
+    {
+      "id": 560649,
+      "datum": "ma 23 november",
+      "datumIso": "2026-11-23",
+      "thuis": "Brentford FC",
+      "thuisLogo": "https://crests.football-data.org/402.png",
+      "uit": "Everton FC",
+      "uitLogo": "https://crests.football-data.org/62.png",
+      "thuisScore": 4,
       "uitScore": 0
     }
   ],
@@ -3837,6 +3859,17 @@
       "uitLogo": "https://crests.football-data.org/88.png",
       "thuisScore": 0,
       "uitScore": 0
+    },
+    {
+      "id": 564757,
+      "datum": "ma 23 november",
+      "datumIso": "2026-11-23",
+      "thuis": "Levante UD",
+      "thuisLogo": "https://crests.football-data.org/88.png",
+      "uit": "Elche CF",
+      "uitLogo": "https://crests.football-data.org/285.png",
+      "thuisScore": 1,
+      "uitScore": 1
     }
   ],
   "560": [
@@ -4116,6 +4149,17 @@
       "uitLogo": "https://crests.football-data.org/90.png",
       "thuisScore": 0,
       "uitScore": 2
+    },
+    {
+      "id": 564757,
+      "datum": "ma 23 november",
+      "datumIso": "2026-11-23",
+      "thuis": "Levante UD",
+      "thuisLogo": "https://crests.football-data.org/88.png",
+      "uit": "Elche CF",
+      "uitLogo": "https://crests.football-data.org/285.png",
+      "thuisScore": 1,
+      "uitScore": 1
     }
   ],
   "78": [
@@ -8536,6 +8580,17 @@
       "uitLogo": "https://crests.football-data.org/102.png",
       "thuisScore": 0,
       "uitScore": 1
+    },
+    {
+      "id": 558519,
+      "datum": "ma 23 november",
+      "datumIso": "2026-11-23",
+      "thuis": "AC Monza",
+      "thuisLogo": "https://crests.football-data.org/5911.png",
+      "uit": "ACF Fiorentina",
+      "uitLogo": "https://crests.football-data.org/99.png",
+      "thuisScore": 3,
+      "uitScore": 0
     }
   ],
   "107": [
@@ -10757,6 +10812,17 @@
       "uitLogo": "https://crests.football-data.org/109.png",
       "thuisScore": 2,
       "uitScore": 2
+    },
+    {
+      "id": 558519,
+      "datum": "ma 23 november",
+      "datumIso": "2026-11-23",
+      "thuis": "AC Monza",
+      "thuisLogo": "https://crests.football-data.org/5911.png",
+      "uit": "ACF Fiorentina",
+      "uitLogo": "https://crests.football-data.org/99.png",
+      "thuisScore": 3,
+      "uitScore": 0
     }
   ],
   "516": [
@@ -20049,6 +20115,17 @@
       "uitLogo": "https://crests.football-data.org/6684.png",
       "thuisScore": 2,
       "uitScore": 1
+    },
+    {
+      "id": 555097,
+      "datum": "ma 23 november",
+      "datumIso": "2026-11-23",
+      "thuis": "SC Internacional",
+      "thuisLogo": "https://crests.football-data.org/6684.png",
+      "uit": "EC Vitória",
+      "uitLogo": "https://crests.football-data.org/1782.png",
+      "thuisScore": 2,
+      "uitScore": 5
     }
   ],
   "1768": [
@@ -20834,6 +20911,17 @@
       "uitLogo": "https://crests.football-data.org/4286.png",
       "thuisScore": 2,
       "uitScore": 1
+    },
+    {
+      "id": 555097,
+      "datum": "ma 23 november",
+      "datumIso": "2026-11-23",
+      "thuis": "SC Internacional",
+      "thuisLogo": "https://crests.football-data.org/6684.png",
+      "uit": "EC Vitória",
+      "uitLogo": "https://crests.football-data.org/1782.png",
+      "thuisScore": 2,
+      "uitScore": 5
     }
   ],
   "4287": [
@@ -22017,6 +22105,17 @@
       "uitLogo": "https://crests.football-data.org/1777.png",
       "thuisScore": 0,
       "uitScore": 0
+    },
+    {
+      "id": 555099,
+      "datum": "di 24 november",
+      "datumIso": "2026-11-24",
+      "thuis": "Santos FC",
+      "thuisLogo": "https://crests.football-data.org/6685.png",
+      "uit": "Grêmio FBPA",
+      "uitLogo": "https://crests.football-data.org/1767.png",
+      "thuisScore": 0,
+      "uitScore": 2
     }
   ],
   "1772": [
@@ -22802,6 +22901,17 @@
       "uitLogo": "https://crests.football-data.org/6685.png",
       "thuisScore": 0,
       "uitScore": 1
+    },
+    {
+      "id": 555099,
+      "datum": "di 24 november",
+      "datumIso": "2026-11-24",
+      "thuis": "Santos FC",
+      "thuisLogo": "https://crests.football-data.org/6685.png",
+      "uit": "Grêmio FBPA",
+      "uitLogo": "https://crests.football-data.org/1767.png",
+      "thuisScore": 0,
+      "uitScore": 2
     }
   ],
   "1779": [
@@ -23973,6 +24083,17 @@
       "uit": "Fluminense FC",
       "uitLogo": "https://crests.football-data.org/1765.png",
       "thuisScore": 0,
+      "uitScore": 1
+    },
+    {
+      "id": 555093,
+      "datum": "di 24 november",
+      "datumIso": "2026-11-23",
+      "thuis": "Botafogo FR",
+      "thuisLogo": "https://crests.football-data.org/1770.png",
+      "uit": "São Paulo FC",
+      "uitLogo": "https://crests.football-data.org/1776.png",
+      "thuisScore": 1,
       "uitScore": 1
     }
   ],
@@ -25555,6 +25676,17 @@
       "uitLogo": "https://crests.football-data.org/1770.png",
       "thuisScore": 4,
       "uitScore": 0
+    },
+    {
+      "id": 555093,
+      "datum": "di 24 november",
+      "datumIso": "2026-11-23",
+      "thuis": "Botafogo FR",
+      "thuisLogo": "https://crests.football-data.org/1770.png",
+      "uit": "São Paulo FC",
+      "uitLogo": "https://crests.football-data.org/1776.png",
+      "thuisScore": 1,
+      "uitScore": 1
     }
   ],
   "1771": [
