@@ -42,17 +42,30 @@
     "positie": 4,
     "club": "SDOB 2",
     "logo": "",
-    "gespeeld": 7,
+    "gespeeld": 8,
     "gewonnen": 4,
     "gelijk": 1,
-    "verloren": 2,
-    "voor": 33,
-    "tegen": 20,
-    "doelsaldo": 13,
+    "verloren": 3,
+    "voor": 37,
+    "tegen": 26,
+    "doelsaldo": 11,
     "punten": 13
   },
   {
     "positie": 5,
+    "club": "SCPB'22 3",
+    "logo": "",
+    "gespeeld": 7,
+    "gewonnen": 4,
+    "gelijk": 0,
+    "verloren": 3,
+    "voor": 23,
+    "tegen": 18,
+    "doelsaldo": 5,
+    "punten": 12
+  },
+  {
+    "positie": 6,
     "club": "Hercules Zaandam sc 3",
     "logo": "",
     "gespeeld": 8,
@@ -65,7 +78,20 @@
     "punten": 12
   },
   {
-    "positie": 6,
+    "positie": 7,
+    "club": "SDZ 7",
+    "logo": "",
+    "gespeeld": 7,
+    "gewonnen": 3,
+    "gelijk": 2,
+    "verloren": 2,
+    "voor": 20,
+    "tegen": 17,
+    "doelsaldo": 3,
+    "punten": 11
+  },
+  {
+    "positie": 8,
     "club": "AFC 6",
     "logo": "images/afc.png",
     "gespeeld": 6,
@@ -78,20 +104,7 @@
     "punten": 10
   },
   {
-    "positie": 7,
-    "club": "SCPB'22 3",
-    "logo": "",
-    "gespeeld": 6,
-    "gewonnen": 3,
-    "gelijk": 0,
-    "verloren": 3,
-    "voor": 17,
-    "tegen": 14,
-    "doelsaldo": 3,
-    "punten": 9
-  },
-  {
-    "positie": 8,
+    "positie": 9,
     "club": "Nieuw West United SV 2",
     "logo": "",
     "gespeeld": 8,
@@ -104,33 +117,7 @@
     "punten": 9
   },
   {
-    "positie": 9,
-    "club": "SDZ 7",
-    "logo": "",
-    "gespeeld": 6,
-    "gewonnen": 2,
-    "gelijk": 2,
-    "verloren": 2,
-    "voor": 14,
-    "tegen": 14,
-    "doelsaldo": 0,
-    "punten": 8
-  },
-  {
     "positie": 10,
-    "club": "WV-HEDW 4",
-    "logo": "",
-    "gespeeld": 7,
-    "gewonnen": 1,
-    "gelijk": 1,
-    "verloren": 5,
-    "voor": 16,
-    "tegen": 32,
-    "doelsaldo": -16,
-    "punten": 4
-  },
-  {
-    "positie": 11,
     "club": "Sloterdijk avv. 3",
     "logo": "images/sloterdijk.png",
     "gespeeld": 8,
@@ -140,6 +127,19 @@
     "voor": 14,
     "tegen": 25,
     "doelsaldo": -11,
+    "punten": 4
+  },
+  {
+    "positie": 11,
+    "club": "WV-HEDW 4",
+    "logo": "",
+    "gespeeld": 8,
+    "gewonnen": 1,
+    "gelijk": 1,
+    "verloren": 6,
+    "voor": 19,
+    "tegen": 38,
+    "doelsaldo": -19,
     "punten": 4
   },
   {
