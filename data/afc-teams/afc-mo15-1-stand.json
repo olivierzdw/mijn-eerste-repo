@@ -14,16 +14,16 @@
   },
   {
     "positie": 2,
-    "club": "AFC MO15-1",
-    "logo": "images/afc.png",
+    "club": "DCG Rksv O14-4",
+    "logo": "",
     "gespeeld": 4,
-    "gewonnen": 3,
-    "gelijk": 0,
+    "gewonnen": 2,
+    "gelijk": 1,
     "verloren": 1,
-    "voor": 14,
-    "tegen": 9,
-    "doelsaldo": 5,
-    "punten": 9
+    "voor": 18,
+    "tegen": 14,
+    "doelsaldo": 4,
+    "punten": 7
   },
   {
     "positie": 3,
@@ -53,6 +53,19 @@
   },
   {
     "positie": 5,
+    "club": "AFC MO15-1",
+    "logo": "images/afc.png",
+    "gespeeld": 4,
+    "gewonnen": 2,
+    "gelijk": 0,
+    "verloren": 2,
+    "voor": 12,
+    "tegen": 9,
+    "doelsaldo": 3,
+    "punten": 6
+  },
+  {
+    "positie": 6,
     "club": "ASC De Volewijckers O14-2",
     "logo": "",
     "gespeeld": 4,
@@ -63,19 +76,6 @@
     "tegen": 20,
     "doelsaldo": -1,
     "punten": 6
-  },
-  {
-    "positie": 6,
-    "club": "DCG Rksv O14-4",
-    "logo": "",
-    "gespeeld": 4,
-    "gewonnen": 1,
-    "gelijk": 1,
-    "verloren": 2,
-    "voor": 18,
-    "tegen": 16,
-    "doelsaldo": 2,
-    "punten": 4
   },
   {
     "positie": 7,
