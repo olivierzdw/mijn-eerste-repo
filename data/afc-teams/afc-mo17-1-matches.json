@@ -1,12 +1,5 @@
 [
   {
-    "datum": "za 21 november 11:45",
-    "thuis": "SVO HZM'22 MO17-1",
-    "thuisLogo": "",
-    "uit": "AFC MO17-1",
-    "uitLogo": "images/afc.png"
-  },
-  {
     "datum": "za 28 november 10:15",
     "thuis": "Asperen MO17-1",
     "thuisLogo": "",
@@ -53,6 +46,41 @@
     "thuis": "AFC MO17-1",
     "thuisLogo": "images/afc.png",
     "uit": "Almere FC MO17-1",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 13 maart 11:00",
+    "thuis": "Gooi 't sc MO17-1",
+    "thuisLogo": "",
+    "uit": "AFC MO17-1",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 20 maart 12:15",
+    "thuis": "AFC MO17-1",
+    "thuisLogo": "images/afc.png",
+    "uit": "SVO HZM'22 MO17-1",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 3 april 12:15",
+    "thuis": "AFC MO17-1",
+    "thuisLogo": "images/afc.png",
+    "uit": "Asperen MO17-1",
+    "uitLogo": ""
+  },
+  {
+    "datum": "za 10 april 10:00",
+    "thuis": "Forum Sport MO17-1",
+    "thuisLogo": "",
+    "uit": "AFC MO17-1",
+    "uitLogo": "images/afc.png"
+  },
+  {
+    "datum": "za 17 april 12:15",
+    "thuis": "AFC MO17-1",
+    "thuisLogo": "images/afc.png",
+    "uit": "Zuidoost United MO17-1",
     "uitLogo": ""
   }
 ]
