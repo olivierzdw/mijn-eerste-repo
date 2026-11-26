@@ -5,7 +5,7 @@
     "soort": "Senioren zaterdag",
     "pouleId": "826189",
     "heeftStand": true,
-    "aantalMatches": 11
+    "aantalMatches": 12
   },
   {
     "slug": "afc-10",
@@ -29,7 +29,7 @@
     "soort": "Senioren zaterdag",
     "pouleId": "826382",
     "heeftStand": true,
-    "aantalMatches": 10
+    "aantalMatches": 11
   },
   {
     "slug": "afc-4",
@@ -70,14 +70,6 @@
     "pouleId": "827341",
     "heeftStand": true,
     "aantalMatches": 12
-  },
-  {
-    "slug": "afc-o23-1",
-    "naam": "AFC O23-1",
-    "soort": "Senioren zaterdag",
-    "pouleId": "829597",
-    "heeftStand": true,
-    "aantalMatches": 3
   },
   {
     "slug": "afc",
@@ -144,68 +136,12 @@
     "aantalMatches": 10
   },
   {
-    "slug": "afc-vr1",
-    "naam": "AFC VR1",
-    "soort": "Vrouwen",
-    "pouleId": "826375",
-    "heeftStand": true,
-    "aantalMatches": 10
-  },
-  {
-    "slug": "afc-mo10-1",
-    "naam": "AFC MO10-1",
-    "soort": "Meisjes",
-    "pouleId": null,
-    "heeftStand": false,
-    "aantalMatches": 2
-  },
-  {
-    "slug": "afc-mo11-1",
-    "naam": "AFC MO11-1",
-    "soort": "Meisjes",
-    "pouleId": "843765",
-    "heeftStand": true,
-    "aantalMatches": 2
-  },
-  {
-    "slug": "afc-mo12-1",
-    "naam": "AFC MO12-1",
-    "soort": "Meisjes",
-    "pouleId": "843476",
-    "heeftStand": true,
-    "aantalMatches": 2
-  },
-  {
     "slug": "afc-mo13-1",
     "naam": "AFC MO13-1",
     "soort": "Meisjes",
     "pouleId": "844978",
     "heeftStand": true,
     "aantalMatches": 3
-  },
-  {
-    "slug": "afc-mo15-1",
-    "naam": "AFC MO15-1",
-    "soort": "Meisjes",
-    "pouleId": "845263",
-    "heeftStand": true,
-    "aantalMatches": 3
-  },
-  {
-    "slug": "afc-mo15-2",
-    "naam": "AFC MO15-2",
-    "soort": "Meisjes",
-    "pouleId": "836886",
-    "heeftStand": true,
-    "aantalMatches": 4
-  },
-  {
-    "slug": "afc-mo17-1",
-    "naam": "AFC MO17-1",
-    "soort": "Meisjes",
-    "pouleId": "844972",
-    "heeftStand": true,
-    "aantalMatches": 12
   },
   {
     "slug": "afc-351",
