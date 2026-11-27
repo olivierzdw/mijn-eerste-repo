@@ -23094,7 +23094,7 @@
     },
     {
       "id": 567386,
-      "datum": "zo 20 december 01:00",
+      "datum": "zo 20 december 19:00",
       "thuis": "CF Estrela da Amadora",
       "thuisLogo": "https://crests.football-data.org/9136.png",
       "uit": "CS Marítimo",
@@ -23288,7 +23288,7 @@
     },
     {
       "id": 567390,
-      "datum": "zo 20 december 01:00",
+      "datum": "zo 20 december 16:30",
       "thuis": "CD Nacional",
       "thuisLogo": "https://crests.football-data.org/5529.png",
       "uit": "Moreirense FC",
@@ -23474,7 +23474,7 @@
     },
     {
       "id": 567390,
-      "datum": "zo 20 december 01:00",
+      "datum": "zo 20 december 16:30",
       "thuis": "CD Nacional",
       "thuisLogo": "https://crests.football-data.org/5529.png",
       "uit": "Moreirense FC",
@@ -23660,7 +23660,7 @@
     },
     {
       "id": 567389,
-      "datum": "zo 20 december 01:00",
+      "datum": "zo 20 december 21:30",
       "thuis": "CD Santa Clara",
       "thuisLogo": "https://crests.football-data.org/5530.png",
       "uit": "Vitória SC",
@@ -23846,7 +23846,7 @@
     },
     {
       "id": 567391,
-      "datum": "zo 20 december 01:00",
+      "datum": "za 19 december 21:30",
       "thuis": "FC Arouca",
       "thuisLogo": "https://crests.football-data.org/712.png",
       "uit": "Casa Pia AC",
@@ -24032,7 +24032,7 @@
     },
     {
       "id": 567383,
-      "datum": "zo 20 december 01:00",
+      "datum": "ma 21 december 19:45",
       "thuis": "Rio Ave FC",
       "thuisLogo": "https://crests.football-data.org/496.png",
       "uit": "Sport Lisboa e Benfica",
@@ -24404,7 +24404,7 @@
     },
     {
       "id": 567388,
-      "datum": "zo 20 december 01:00",
+      "datum": "za 19 december 19:00",
       "thuis": "FC Alverca",
       "thuisLogo": "https://crests.football-data.org/7822.png",
       "uit": "Gil Vicente FC",
@@ -24590,7 +24590,7 @@
     },
     {
       "id": 567389,
-      "datum": "zo 20 december 01:00",
+      "datum": "zo 20 december 21:30",
       "thuis": "CD Santa Clara",
       "thuisLogo": "https://crests.football-data.org/5530.png",
       "uit": "Vitória SC",
@@ -24776,7 +24776,7 @@
     },
     {
       "id": 567386,
-      "datum": "zo 20 december 01:00",
+      "datum": "zo 20 december 19:00",
       "thuis": "CF Estrela da Amadora",
       "thuisLogo": "https://crests.football-data.org/9136.png",
       "uit": "CS Marítimo",
@@ -24962,7 +24962,7 @@
     },
     {
       "id": 567388,
-      "datum": "zo 20 december 01:00",
+      "datum": "za 19 december 19:00",
       "thuis": "FC Alverca",
       "thuisLogo": "https://crests.football-data.org/7822.png",
       "uit": "Gil Vicente FC",
@@ -25342,7 +25342,7 @@
     },
     {
       "id": 567387,
-      "datum": "zo 20 december 01:00",
+      "datum": "ma 21 december 21:45",
       "thuis": "FC Famalicão",
       "thuisLogo": "https://crests.football-data.org/5531.png",
       "uit": "FC Porto",
@@ -25762,7 +25762,7 @@
     },
     {
       "id": 567391,
-      "datum": "zo 20 december 01:00",
+      "datum": "za 19 december 21:30",
       "thuis": "FC Arouca",
       "thuisLogo": "https://crests.football-data.org/712.png",
       "uit": "Casa Pia AC",
@@ -26134,7 +26134,7 @@
     },
     {
       "id": 567383,
-      "datum": "zo 20 december 01:00",
+      "datum": "ma 21 december 19:45",
       "thuis": "Rio Ave FC",
       "thuisLogo": "https://crests.football-data.org/496.png",
       "uit": "Sport Lisboa e Benfica",
@@ -26320,7 +26320,7 @@
     },
     {
       "id": 567387,
-      "datum": "zo 20 december 01:00",
+      "datum": "ma 21 december 21:45",
       "thuis": "FC Famalicão",
       "thuisLogo": "https://crests.football-data.org/5531.png",
       "uit": "FC Porto",
@@ -26477,42 +26477,6 @@
       "thuisLogo": "https://crests.football-data.org/5543.png",
       "uit": "FC Famalicão",
       "uitLogo": "https://crests.football-data.org/5531.png"
-    }
-  ],
-  "1776": [
-    {
-      "id": 555108,
-      "datum": "vr 27 november 00:00",
-      "thuis": "São Paulo FC",
-      "thuisLogo": "https://crests.football-data.org/1776.png",
-      "uit": "Clube do Remo",
-      "uitLogo": "https://crests.football-data.org/4287.png"
-    },
-    {
-      "id": 555110,
-      "datum": "do 3 december 01:30",
-      "thuis": "CA Paranaense",
-      "thuisLogo": "https://crests.football-data.org/1768.png",
-      "uit": "São Paulo FC",
-      "uitLogo": "https://crests.football-data.org/1776.png"
-    }
-  ],
-  "4287": [
-    {
-      "id": 555108,
-      "datum": "vr 27 november 00:00",
-      "thuis": "São Paulo FC",
-      "thuisLogo": "https://crests.football-data.org/1776.png",
-      "uit": "Clube do Remo",
-      "uitLogo": "https://crests.football-data.org/4287.png"
-    },
-    {
-      "id": 555117,
-      "datum": "do 3 december 01:30",
-      "thuis": "Clube do Remo",
-      "thuisLogo": "https://crests.football-data.org/4287.png",
-      "uit": "SC Corinthians Paulista",
-      "uitLogo": "https://crests.football-data.org/1779.png"
     }
   ],
   "1765": [
@@ -26803,6 +26767,16 @@
       "uitLogo": "https://crests.football-data.org/1782.png"
     }
   ],
+  "1776": [
+    {
+      "id": 555110,
+      "datum": "do 3 december 01:30",
+      "thuis": "CA Paranaense",
+      "thuisLogo": "https://crests.football-data.org/1768.png",
+      "uit": "São Paulo FC",
+      "uitLogo": "https://crests.football-data.org/1776.png"
+    }
+  ],
   "1772": [
     {
       "id": 555114,
@@ -26821,6 +26795,16 @@
       "thuisLogo": "https://crests.football-data.org/1769.png",
       "uit": "Coritiba FBC",
       "uitLogo": "https://crests.football-data.org/4241.png"
+    }
+  ],
+  "4287": [
+    {
+      "id": 555117,
+      "datum": "do 3 december 01:30",
+      "thuis": "Clube do Remo",
+      "thuisLogo": "https://crests.football-data.org/4287.png",
+      "uit": "SC Corinthians Paulista",
+      "uitLogo": "https://crests.football-data.org/1779.png"
     }
   ],
   "340": [

@@ -21617,6 +21617,17 @@
       "uitLogo": "https://crests.football-data.org/4287.png",
       "thuisScore": 4,
       "uitScore": 2
+    },
+    {
+      "id": 555108,
+      "datum": "vr 27 november",
+      "datumIso": "2026-11-26",
+      "thuis": "São Paulo FC",
+      "thuisLogo": "https://crests.football-data.org/1776.png",
+      "uit": "Clube do Remo",
+      "uitLogo": "https://crests.football-data.org/4287.png",
+      "thuisScore": 3,
+      "uitScore": 1
     }
   ],
   "1765": [
@@ -24413,6 +24424,17 @@
       "uit": "São Paulo FC",
       "uitLogo": "https://crests.football-data.org/1776.png",
       "thuisScore": 1,
+      "uitScore": 1
+    },
+    {
+      "id": 555108,
+      "datum": "vr 27 november",
+      "datumIso": "2026-11-26",
+      "thuis": "São Paulo FC",
+      "thuisLogo": "https://crests.football-data.org/1776.png",
+      "uit": "Clube do Remo",
+      "uitLogo": "https://crests.football-data.org/4287.png",
+      "thuisScore": 3,
       "uitScore": 1
     }
   ],

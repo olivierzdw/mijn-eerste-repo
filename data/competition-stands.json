@@ -1849,6 +1849,19 @@
     },
     {
       "positie": 10,
+      "club": "São Paulo FC",
+      "logo": "https://crests.football-data.org/1776.png",
+      "gespeeld": 37,
+      "punten": 48,
+      "gewonnen": 13,
+      "gelijk": 9,
+      "verloren": 15,
+      "doelsaldo": 1,
+      "voor": 43,
+      "tegen": 42
+    },
+    {
+      "positie": 11,
       "club": "CR Vasco da Gama",
       "logo": "https://crests.football-data.org/1780.png",
       "gespeeld": 36,
@@ -1859,19 +1872,6 @@
       "doelsaldo": -5,
       "voor": 47,
       "tegen": 52
-    },
-    {
-      "positie": 11,
-      "club": "São Paulo FC",
-      "logo": "https://crests.football-data.org/1776.png",
-      "gespeeld": 36,
-      "punten": 45,
-      "gewonnen": 12,
-      "gelijk": 9,
-      "verloren": 15,
-      "doelsaldo": -1,
-      "voor": 40,
-      "tegen": 41
     },
     {
       "positie": 12,
@@ -1968,14 +1968,14 @@
       "positie": 19,
       "club": "Clube do Remo",
       "logo": "https://crests.football-data.org/4287.png",
-      "gespeeld": 36,
+      "gespeeld": 37,
       "punten": 32,
       "gewonnen": 7,
       "gelijk": 11,
-      "verloren": 18,
-      "doelsaldo": -20,
-      "voor": 41,
-      "tegen": 61
+      "verloren": 19,
+      "doelsaldo": -22,
+      "voor": 42,
+      "tegen": 64
     },
     {
       "positie": 20,
