@@ -120,14 +120,14 @@
     "positie": 10,
     "club": "Groningen",
     "logo": "https://crests.football-data.org/677.png",
-    "gespeeld": 13,
-    "punten": 15,
+    "gespeeld": 14,
+    "punten": 16,
     "gewonnen": 4,
-    "gelijk": 3,
+    "gelijk": 4,
     "verloren": 6,
     "doelsaldo": -1,
-    "voor": 30,
-    "tegen": 31
+    "voor": 31,
+    "tegen": 32
   },
   {
     "positie": 11,
@@ -224,13 +224,13 @@
     "positie": 18,
     "club": "Willem II Tilburg",
     "logo": "https://crests.football-data.org/672.png",
-    "gespeeld": 13,
-    "punten": 3,
+    "gespeeld": 14,
+    "punten": 4,
     "gewonnen": 0,
-    "gelijk": 3,
+    "gelijk": 4,
     "verloren": 10,
     "doelsaldo": -30,
-    "voor": 12,
-    "tegen": 42
+    "voor": 13,
+    "tegen": 43
   }
 ]
