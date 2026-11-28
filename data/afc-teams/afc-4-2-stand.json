@@ -53,6 +53,19 @@
   },
   {
     "positie": 5,
+    "club": "Marken sv. 2",
+    "logo": "",
+    "gespeeld": 8,
+    "gewonnen": 4,
+    "gelijk": 0,
+    "verloren": 4,
+    "voor": 24,
+    "tegen": 22,
+    "doelsaldo": 2,
+    "punten": 12
+  },
+  {
+    "positie": 6,
     "club": "Monnickendam 2",
     "logo": "",
     "gespeeld": 7,
@@ -65,7 +78,7 @@
     "punten": 10
   },
   {
-    "positie": 6,
+    "positie": 7,
     "club": "DTA Fortius asv 3",
     "logo": "images/fortius.png",
     "gespeeld": 8,
@@ -76,19 +89,6 @@
     "tegen": 14,
     "doelsaldo": 2,
     "punten": 10
-  },
-  {
-    "positie": 7,
-    "club": "Marken sv. 2",
-    "logo": "",
-    "gespeeld": 7,
-    "gewonnen": 3,
-    "gelijk": 0,
-    "verloren": 4,
-    "voor": 18,
-    "tegen": 20,
-    "doelsaldo": -2,
-    "punten": 9
   },
   {
     "positie": 8,
@@ -105,19 +105,6 @@
   },
   {
     "positie": 9,
-    "club": "AFC 4",
-    "logo": "images/afc.png",
-    "gespeeld": 7,
-    "gewonnen": 2,
-    "gelijk": 2,
-    "verloren": 3,
-    "voor": 19,
-    "tegen": 21,
-    "doelsaldo": -2,
-    "punten": 5
-  },
-  {
-    "positie": 10,
     "club": "HBOK 3",
     "logo": "",
     "gespeeld": 7,
@@ -127,6 +114,19 @@
     "voor": 16,
     "tegen": 21,
     "doelsaldo": -5,
+    "punten": 5
+  },
+  {
+    "positie": 10,
+    "club": "AFC 4",
+    "logo": "images/afc.png",
+    "gespeeld": 8,
+    "gewonnen": 2,
+    "gelijk": 2,
+    "verloren": 4,
+    "voor": 21,
+    "tegen": 27,
+    "doelsaldo": -6,
     "punten": 5
   },
   {

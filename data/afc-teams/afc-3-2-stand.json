@@ -66,6 +66,19 @@
   },
   {
     "positie": 6,
+    "club": "HBOK 2",
+    "logo": "",
+    "gespeeld": 9,
+    "gewonnen": 5,
+    "gelijk": 0,
+    "verloren": 4,
+    "voor": 24,
+    "tegen": 14,
+    "doelsaldo": 10,
+    "punten": 15
+  },
+  {
+    "positie": 7,
     "club": "Wartburgia asv 3",
     "logo": "",
     "gespeeld": 8,
@@ -78,30 +91,17 @@
     "punten": 13
   },
   {
-    "positie": 7,
+    "positie": 8,
     "club": "Haarlem-Kennemerland f.c. 2",
     "logo": "",
-    "gespeeld": 8,
+    "gespeeld": 9,
     "gewonnen": 4,
     "gelijk": 1,
-    "verloren": 3,
-    "voor": 18,
-    "tegen": 19,
-    "doelsaldo": -1,
-    "punten": 13
-  },
-  {
-    "positie": 8,
-    "club": "HBOK 2",
-    "logo": "",
-    "gespeeld": 8,
-    "gewonnen": 4,
-    "gelijk": 0,
     "verloren": 4,
-    "voor": 22,
-    "tegen": 13,
-    "doelsaldo": 9,
-    "punten": 12
+    "voor": 19,
+    "tegen": 21,
+    "doelsaldo": -2,
+    "punten": 13
   },
   {
     "positie": 9,
@@ -131,28 +131,28 @@
   },
   {
     "positie": 11,
-    "club": "Foresters 3",
+    "club": "vv Zwanenburg 2",
     "logo": "",
-    "gespeeld": 8,
-    "gewonnen": 0,
-    "gelijk": 2,
-    "verloren": 6,
-    "voor": 14,
-    "tegen": 34,
-    "doelsaldo": -20,
-    "punten": 2
+    "gespeeld": 9,
+    "gewonnen": 1,
+    "gelijk": 0,
+    "verloren": 8,
+    "voor": 12,
+    "tegen": 44,
+    "doelsaldo": -32,
+    "punten": 3
   },
   {
     "positie": 12,
-    "club": "vv Zwanenburg 2",
+    "club": "Foresters 3",
     "logo": "",
-    "gespeeld": 8,
+    "gespeeld": 9,
     "gewonnen": 0,
-    "gelijk": 0,
-    "verloren": 8,
-    "voor": 10,
-    "tegen": 44,
-    "doelsaldo": -34,
-    "punten": 0
+    "gelijk": 2,
+    "verloren": 7,
+    "voor": 14,
+    "tegen": 36,
+    "doelsaldo": -22,
+    "punten": 2
   }
 ]
